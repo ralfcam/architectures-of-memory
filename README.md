@@ -9,33 +9,28 @@ The system treats the book series as a **software project**: versioned content, 
 
 ### Repository Structure
 
-One repo per book, plus one meta-repo for the series:
+**Monorepo:** one repository for the series; each book is a top-level folder.
 
 ```
-github.com/ralfcam/
-├── architectures-of-memory/          ← Series meta-repo
-│   ├── README.md                     ← Series overview, links to all books
-│   ├── series-bible.md               ← Shared voice, themes, epigraphs, glossary
-│   ├── characters.md                 ← Key figures (Hochreiter, Turing, Borges...)
-│   └── .github/
-│       └── ISSUE_TEMPLATE/
-│           ├── research-gap.md       ← Template: missing citation/fact
-│           ├── chapter-draft.md      ← Template: new chapter submission
-│           └── revision-note.md      ← Template: edit request
-│
+github.com/ralfcam/architectures-of-memory/
+├── README.md                         ← This file: series workflow & principles
+├── series-bible.md                   ← Voice, spine, metaphors, glossary
+├── characters.md                     ← Key figures across the series
+├── baseline outlines.md              ← Combined outline snapshot (per-book lives in book-*/outline.md)
+├── .github/
+│   └── ISSUE_TEMPLATE/
+│       ├── research-gap.md           ← Missing citation / fact
+│       ├── chapter-draft.md          ← New chapter submission
+│       └── revision-note.md          ← Edit request
 ├── book-01-vanishing-signal/
-│   ├── README.md                     ← Book 1 outline (current baseline)
+│   ├── README.md
 │   ├── outline.md                    ← Living chapter-level outline
 │   ├── chapters/
-│   │   ├── 00-preface.md
-│   │   ├── 01-dreaming-perceptron.md
-│   │   └── ...
 │   ├── research/
-│   │   ├── sources.bib               ← BibTeX or markdown citations
-│   │   ├── notes/                    ← Raw Perplexity research dumps
-│   │   └── fact-checks/              ← Verified claims per chapter
-│   └── drafts/                       ← Iteration history (v1, v2...)
-│
+│   │   ├── sources.bib
+│   │   ├── notes/                    ← Perplexity / research dumps
+│   │   └── fact-checks/
+│   └── drafts/
 ├── book-02-forget-gate/              ← Same structure
 ├── book-03-weight-of-attention/
 ├── book-04-context-window/

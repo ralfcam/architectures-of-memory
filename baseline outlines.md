@@ -1,4 +1,6 @@
-\# Book 1 — The Vanishing Signal
+> **Note:** Per-book living outlines are maintained in `book-01-vanishing-signal/outline.md` through `book-05-architecture-of-forgetting/outline.md`. This file is a single-file combined snapshot for convenience.
+
+# Book 1 — The Vanishing Signal
 
 **Series:** The Architectures of Memory
 **Subtitle:** Why Networks Cannot Remember, and What That Reveals About Mind
@@ -75,9 +77,9 @@ without an audience, a diagnosis without a cure.
 ## Epigraph
 
 > "The signal diminishes with every step backward.
-> At some depth, nothing remains of what came before."text
+> At some depth, nothing remains of what came before."
 
-\# Book 2 — The Forget Gate
+# Book 2 — The Forget Gate
 **Series:** The Architectures of Memory
 **Subtitle:** What Should a Mind Choose to Keep?
 
@@ -151,9 +153,9 @@ to be forgotten
 
 > "A memory that never forgets is as useless as one that forgets everything.
 > The question is never how much to remember.
-> It is always: what is worth keeping."text
+> It is always: what is worth keeping."
 
-\# Book 3 — The Weight of Attention
+# Book 3 — The Weight of Attention
 **Series:** The Architectures of Memory
 **Subtitle:** Is Retrieval the Same as Memory?
 
@@ -225,9 +227,9 @@ A system that retrieves perfectly but stores nothing — does it know?
 ## Epigraph
 
 > "To attend is to choose.
-> Every weight is a value judgment made at scale."text
+> Every weight is a value judgment made at scale."
 
-\# Book 4 — The Context Window
+# Book 4 — The Context Window
 **Series:** The Architectures of Memory
 **Subtitle:** What Does Scale Actually Know?
 
@@ -313,9 +315,9 @@ what does it mean to trust a system's knowledge?
 
 > "The model has read everything.
 > It remembers nothing.
-> It knows everything you ask of it."text
+> It knows everything you ask of it."
 
-\# Book 5 — The Architecture of Forgetting
+# Book 5 — The Architecture of Forgetting
 **Series:** The Architectures of Memory
 **Subtitle:** What Memory Costs, and Who Pays
 
@@ -404,5 +406,4 @@ The final page of Book 5 returns to Hochreiter's 1991 thesis —
 sitting unread, proving a problem no one yet believed was real.
 The circle closes: the field that couldn't make networks remember
 built systems that remember everything, and is only now learning
-what it means to forget with intention.</q> ***
-Revise the baseline outlines
+what it means to forget with intention.
