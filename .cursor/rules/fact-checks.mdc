@@ -1,0 +1,17 @@
+---
+description: Structured fact-check tables for research/fact-checks
+globs: book-*/research/fact-checks/**/*.md
+alwaysApply: false
+---
+
+# Fact-check file format
+
+Use rows or bullets in this shape:
+
+`| Claim | Source | Verified | Notes |`
+
+- **verified:** `yes` | `no` | `partial`
+- **partial:** must spawn a Linear **`fact-check`** issue + `book-0X` label until a primary or consensus source is found.
+- Link to the relevant `research/notes/` file and section heading.
+
+Do not mark `yes` from a single blog post or unattributed LLM summary.

@@ -1,0 +1,5 @@
+# Canonical series files — require owner review on GitHub (enable branch protection + "Require review from Code Owners" to enforce)
+/series-bible.md @ralfcam
+/characters.md @ralfcam
+"/baseline outlines.md" @ralfcam
+/book-*/outline.md @ralfcam

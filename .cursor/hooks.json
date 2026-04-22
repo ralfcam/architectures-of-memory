@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "python .cursor/hooks/citation-check.py"
+      },
+      {
+        "command": "python .cursor/hooks/outline-warning.py"
+      }
+    ]
+  }
+}

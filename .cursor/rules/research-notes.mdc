@@ -1,0 +1,28 @@
+---
+description: Format and quality bar for Perplexity / research dumps in research/notes
+globs: book-*/research/notes/**/*.md
+alwaysApply: false
+---
+
+# Research notes template
+
+Every note must include:
+
+```markdown
+# Research Note: Ch.NN — Short title
+**Date:** YYYY-MM-DD
+**Linear Issue:** ARC-NN
+**Queries:** [numbered list]
+
+## Findings
+[Output with inline source URLs, grouped by query]
+
+## Verified Claims
+- [ ] or [x] claim → source
+
+## Open Questions
+- ...
+```
+
+- **No naked paraphrase** of a primary source without a short quoted excerpt or explicit pointer (URL / bibkey).
+- **URLs** live in Findings, not only at the end.

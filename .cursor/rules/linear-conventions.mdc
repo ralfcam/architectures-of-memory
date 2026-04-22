@@ -1,0 +1,18 @@
+---
+description: Linear ARC team IDs, labels, branches, and commit messages for Architectures of Memory — attach when creating or updating Linear issues or git workflow
+alwaysApply: false
+---
+
+# Linear + git conventions
+
+**Team:** `ARC` — `b507edbe-bdaa-4c47-8bdd-63af48774ebf`  
+**Project:** `Architectures of Memory — Series` — `3cae0985-8124-4f85-a959-6216cb041c81`  
+**Book 1 milestone:** `Book 1 — The Vanishing Signal` — `3b9c4dbb-ed86-42f1-9370-d02730fb1d7e`
+
+**Labels:** combine type + scope — e.g. `research` + `book-01`; `draft` + `book-01`; `fact-check` + `book-03`; `structure` for outline/repo architecture.
+
+**Branches:** `draft/ch-NN-slug`, `research/topic-slug`, `edit/ch-NN-aspect`.
+
+**Commits (auto-close):** `Closes ARC-42 — Add ch.3 research notes`
+
+When creating issues, set **project** and **milestone** (per book) and default **state** `Todo` unless continuing active work.

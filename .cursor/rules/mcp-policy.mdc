@@ -1,0 +1,12 @@
+---
+description: When to use Perplexity, Linear, GitHub, Context7, Browser for this book series repo
+alwaysApply: true
+---
+
+# MCP and tool policy
+
+- **Perplexity:** Default for historical facts, paper dates, biographies, and **all** `book-*/research/**` investigation. Run structured query sets; store output under `research/notes/`.
+- **Linear:** Issues always on team **ARC**, project **Architectures of Memory — Series**. Use taxonomy labels (`research`, `draft`, `edit`, `fact-check`, `structure`, `book-01`…`book-05`).
+- **GitHub:** PRs, templates, and linking work to commits. Prefer branches over pushing straight to `main` for chapter content.
+- **Context7:** Only for live library/API docs (e.g. RAG stacks, tooling) — mainly Books 3–5 technical sections.
+- **Browser / fetch:** Verify **live URLs** cited in research notes or challenge broken links — not for inventing citations.
