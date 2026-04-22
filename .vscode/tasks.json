@@ -1,0 +1,56 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Merge book chapters (full)",
+      "type": "shell",
+      "command": "python scripts/merge_book_chapters.py ${input:bookDir} ${input:mergeExtra}",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Merge book chapters (audiobook)",
+      "type": "shell",
+      "command": "python scripts/merge_book_chapters.py ${input:bookDir} --audiobook ${input:mergeExtra}",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "bookDir",
+      "type": "pickString",
+      "description": "Book directory (under workspace root)",
+      "options": [
+        "book-01-vanishing-signal",
+        "book-02-forget-gate",
+        "book-03-weight-of-attention",
+        "book-04-context-window",
+        "book-05-architecture-of-forgetting"
+      ],
+      "default": "book-01-vanishing-signal"
+    },
+    {
+      "id": "mergeExtra",
+      "type": "pickString",
+      "description": "Optional --prefix (otherwise output basename = folder name)",
+      "options": [
+        "",
+        "--prefix vanishing-signal"
+      ],
+      "default": ""
+    }
+  ]
+}

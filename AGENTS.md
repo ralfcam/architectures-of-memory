@@ -33,3 +33,4 @@ Use labels `research`, `draft`, `edit`, `fact-check`, `structure`, and `book-01`
 
 - Cursor **rules** live in `.cursor/rules/` (voice, MCP policy, glob rules for chapters, notes, outlines).
 - Cursor **skills** live in `.cursor/skills/` (`research-loop`, `chapter-draft`, `fact-check-pass`).
+- **Merged manuscripts:** from repo root, `python scripts/merge_book_chapters.py book-NN-…` (add `--audiobook` for TTS; optional `--prefix NAME`). Or `make merge BOOK=book-NN-…` / `make merge-audiobook BOOK=book-NN-…` (optional `PREFIX=…`). VS Code: tasks *Merge book chapters (full)* / *(audiobook)*.
