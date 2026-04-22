@@ -6,7 +6,7 @@
 
 ## Four pages in *Nature*
 
-On **30 September 1986**, *Nature* published a four-page paper titled “Learning representations by back-propagating errors.”[^nature1986] David Rumelhart, Geoffrey Hinton, and Ronald Williams showed how to adjust the weights in a network with **hidden layers** so that internal units could develop task-relevant features—not because a programmer placed them there, but because error signals **flowed backward** through the architecture, allocating credit.
+On **9 October 1986**, *Nature* published a four-page paper titled “Learning representations by back-propagating errors.”[^nature1986] David Rumelhart, Geoffrey Hinton, and Ronald Williams showed how to adjust the weights in a network with **hidden layers** so that internal units could develop task-relevant features—not because a programmer placed them there, but because error signals **flowed backward** through the architecture, allocating credit.
 
 The algorithm’s mechanics are now textbook: compare the network’s output to a target, compute a loss, take derivatives with the chain rule, propagate gradients layer by layer. What was not textbook in 1986 was the **social fact** that multilayer training had been, for many funders and skeptics, the very thing Minsky and Papert had implied was **stuck**.
 
@@ -24,15 +24,15 @@ For now, notice the metaphor the series calls **gradient as debt**: each layer i
 
 ---
 
-## Organizational lens — Werbos and the fifteen-year latency
+## Organizational lens — Werbos and the decade-long latency
 
-Paul Werbos’s Harvard dissertation (**1974**) already contained the core of backpropagation applied to neural networks—work he struggled to publish in a field that preferred different stories about neurons and objectives.[^werbos] By the time the *Nature* paper appeared, many practitioners treated Rumelhart, Hinton, and Williams as **originators**; historians now routinely credit Werbos with **priority**, Rumelhart et al. with **institutionalization**.
+Paul Werbos’s Harvard dissertation (**August 1974**) already contained the core of backpropagation applied to neural networks—work he struggled to publish in a field that preferred different stories about neurons and objectives.[^werbos] By the time the *Nature* paper appeared, many practitioners treated Rumelhart, Hinton, and Williams as **originators**; historians now routinely credit Werbos with **priority** on the neural-network formulation, Rumelhart et al. with **institutionalization**.
 
 This is more than a priority squabble. It is an organizational parable: **a correct error-correction signal existed**; what was missing was the routing infrastructure that could carry it to the nodes prepared to act on it. Werbos’s “latency” mirrors every organization where insight lives in a peripheral lab notebook while the center standardizes on an older paradigm.
 
-Other precursors complicate a clean hero narrative: Seppo Linnainmaa’s automatic differentiation of rounding error (**1970**), David Parker’s MIT technical report (**1985**), and parallel rediscoveries.[^precursors-open] The honest historiography—this series will keep insisting—tracks **simultaneous discovery** and **differential uptake**. The version that wins is often the one embedded in a **working coalition** (PDP at UC San Diego, *Nature*’s reach, cognitive science’s appetite).
+The lineage is three genuinely **independent** derivations, not one story with photocopies: Seppo Linnainmaa’s **1970** master’s thesis gave **reverse-mode automatic differentiation** in discrete networks—priority on the chain rule, but not yet framed as learning in neural nets. Werbos (**1974**) was the first explicit **backpropagation for multi-layer nets**. Rumelhart arrived at the procedure around **1982** without, at first, knowing those antecedents; the *Nature* paper **popularized** and empirically anchored the method for the connectionist coalition. David Parker’s MIT report *Learning-Logic*, Technical Report **TR-47** (**February 1985**), pursued a parallel track.[^precursors] The honest historiography—this series will keep insisting—tracks **independent reinvention** and **differential uptake**. The version that wins is often the one embedded in a **working coalition** (PDP at UC San Diego, *Nature*’s reach, cognitive science’s appetite).
 
-The PDP volumes themselves are organizational artefacts: **collective authorship** credited to the PDP Research Group, an ensemble portrait of distributed work.[^pdp] If the brain is parallel and distributed, the research group mirrored its subject—a nice symmetry and a real management challenge for credit assignment in science.
+The PDP volumes themselves are organizational artefacts: **collective authorship** credited to the PDP Research Group—core contributors included, among others, Rumelhart, McClelland, Hinton, Williams, Jordan, Sejnowski, and Zipser (full roster on volume 1 preface, p. xi)—an ensemble portrait of distributed work.[^pdp] If the brain is parallel and distributed, the research group mirrored its subject—a nice symmetry and a real management challenge for credit assignment in science.
 
 ---
 
@@ -54,13 +54,13 @@ The deeper irony—Book 1’s spine—is already visible in 1986: backpropagatio
 
 ## Notes
 
-[^nature1986]: D. E. Rumelhart, G. E. Hinton, and R. J. Williams, “Learning representations by back-propagating errors,” *Nature* 323, no. 6088 (30 September 1986): 533–536.
+[^nature1986]: D. E. Rumelhart, G. E. Hinton, and R. J. Williams, “Learning representations by back-propagating errors,” *Nature* 323, no. 6088 (9 October 1986): 533–536.
 
-[^pdp]: *Parallel Distributed Processing: Explorations in the Microstructure of Cognition*, 2 vols. (Cambridge, MA: MIT Press, 1986), eds. Rumelhart, McClelland, and the PDP Research Group.
+[^pdp]: *Parallel Distributed Processing: Explorations in the Microstructure of Cognition*, 2 vols. (Cambridge, MA: MIT Press, 1986), eds. Rumelhart, McClelland, and the PDP Research Group. Member list: vol. 1 preface, p. xi; research/fact-checks/ch03.md (ARC-18).
 
-[^werbos]: P. Werbos, *Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences* (PhD thesis, Harvard University, 1974); reception history summarized in research note § 3.
+[^werbos]: P. J. Werbos, *Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences*, Ph.D. dissertation, Committee on Applied Mathematics, Harvard University, **August 1974** (scanned PDF often cited at gwern.net/doc/ai/nn/1974-werbos.pdf; full text republished P. J. Werbos, *The Roots of Backpropagation: From Ordered Derivatives to Neural Networks and Political Forecasting*, Wiley-IEEE Press, 1994). Reception history: research note § 3; research/fact-checks/ch03.md (ARC-18).
 
-[^precursors-open]: Linnainmaa (1970), Parker (1985)—relationship to 1986 submission timeline **open** per research note.
+[^precursors]: **Linnainmaa (1970):** reverse-mode AD, not framed for neural networks—J. Schmidhuber, “Who invented backpropagation?” (2014), IDSIA. **Werbos (1974)** and **Rumelhart c. 1982** (unaware of prior work): Wikipedia *Backpropagation*; Yuxi Liu, “The backstory of backpropagation” (2023). **Parker:** D. B. Parker, *Learning-Logic: Casting the Cortex of the Human Brain in Silicon*, Technical Report TR-47, Center for Computational Research in Economics and Management Science, MIT, **February 1985**. See research/fact-checks/ch03.md (ARC-18).
 
 [^debate]: Symbolic vs. connectionist framing: research note § 4.
 

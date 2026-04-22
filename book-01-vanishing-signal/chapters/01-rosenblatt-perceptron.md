@@ -6,11 +6,11 @@
 
 ## A machine that learns to see
 
-In November 1958, the *Psychological Review* published a paper that sounds, to modern ears, almost modest. Frank Rosenblatt, a research psychologist at the Cornell Aeronautical Laboratory in Buffalo, described a **probabilistic model** for how information might be stored—not as discrete symbols in fixed addresses, but as strengths on connections between simple units.[^rosenblatt1958] The perceptron was not yet a cultural icon. It was an argument about **where knowledge lives**.
+In January 1957, Cornell Aeronautical Laboratory circulated *The Perceptron: A Perceiving and Recognizing Automaton (Project PARA)*—Technical Report 85-460-1—Frank Rosenblatt’s first formal write-up of the architecture, predating the canonical journal article by nearly two years.[^tr1957] In November 1958, the *Psychological Review* published a paper that sounds, to modern ears, almost modest. Rosenblatt, a research psychologist at the same laboratory in Buffalo, described a **probabilistic model** for how information might be stored—not as discrete symbols in fixed addresses, but as strengths on connections between simple units.[^rosenblatt1958] The perceptron was not yet a cultural icon. It was an argument about **where knowledge lives**.
 
 Rosenblatt took an explicitly connectionist position: storage is **distributed** across weights, not localized into coded images. That stance placed him athwart the symbolic programme that dominated much of mid-century artificial intelligence. The first simulations ran on an **IBM 704** at the same laboratory—slow, expensive, and enough to prove that the idea could move from speculation to running code.
 
-Two years later, on **23 June 1960**, the laboratory demonstrated something no journal page could fully convey: the **Mark I Perceptron**, a physical machine funded by the Office of Naval Research and the Rome Air Development Center. Four hundred photocells stood in for a retina; 512 association units and eight response units completed a three-layer stack. Rosenblatt insisted on **random** wiring from sensory to association layers, modelling his belief that biology does not hand you a neat grid.[^mark1] The device now sits in the Smithsonian—a relic of the moment when “learning machine” meant hardware you could photograph.
+Two years later, on **23 June 1960**, the laboratory demonstrated something no journal page could fully convey: the **Mark I Perceptron**, a physical machine funded by the Office of Naval Research and the Rome Air Development Center. Four hundred photocells in a **20×20** grid stood in for a retina; 512 association units and eight response units completed a three-layer stack. Rosenblatt insisted on **random** wiring from sensory to association layers, modelling his belief that biology does not hand you a neat grid.[^mark1] The device now sits in the Smithsonian—a relic of the moment when “learning machine” meant hardware you could photograph.
 
 This chapter begins with that optimism because the rest of Book 1 is built on what optimism **cannot** guarantee. The perceptron really learned—within the limits its mathematics allowed. The public story often outran those limits. The gap between the two is the first taste of a pattern that will recur: **the signal that fails to arrive** where it is needed, whether in a network, an organization, or a life cut short.
 
@@ -28,7 +28,7 @@ The Mark I made the same point in steel and light. The architecture—S-units, A
 
 ## Organizational lens — Promises that travel faster than proofs
 
-Research funding proposals are rarely shy. The 1957 “Cornell Photoperceptron” proposal—still partly elusive in the archive—already envisioned devices that might one day tackle concept formation, translation, and inductive logic.[^proposal-open] Whether those sentences were sober forecasts or fundraising rhetoric, they **set a horizon** against which later disappointments would be measured.
+Research funding proposals are rarely shy. The 1957 “Cornell Photoperceptron” proposal already envisioned devices that might one day tackle concept formation, translation, and inductive logic.[^proposal-open] Whether those sentences were sober forecasts or fundraising rhetoric, they **set a horizon** against which later disappointments would be measured.
 
 At a **1958 Navy press conference**, the story widened. *The New York Times* reported an “embryo” machine the Navy expected would someday “walk, talk, see, write, reproduce itself and be conscious of its existence.”[^nyt1958] Rosenblatt himself called it “the first machine which is capable of having an original idea.” The quotes are famous; what matters structurally is that they **compress** decades of uncertainty into a headline. Institutions—newspapers, funding agencies, rival labs—do not wait for page proofs. They act on the version of the idea that fits their timetable.
 
@@ -56,10 +56,12 @@ The interaction between the publicity he helped generate and the structural crit
 
 [^rosenblatt1958]: F. Rosenblatt, “The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain,” *Psychological Review* 65, no. 6 (November 1958): 386–408. See research note § Query 1.
 
+[^tr1957]: F. Rosenblatt, *The Perceptron: A Perceiving and Recognizing Automaton (Project PARA)*, Technical Report 85-460-1, Cornell Aeronautical Laboratory, January 1957. See research/fact-checks/ch01.md (ARC-17).
+
 [^mark1]: Mark I architecture and 23 June 1960 demonstration: research note § Query 2; funding ONR + Rome Air Development Center; Smithsonian NMAH.
 
-[^proposal-open]: Exact archival locator for the 1957 proposal remains **open**; see research note “Open Questions” and fact-check backlog.
+[^proposal-open]: Scope quotation transmitted via the Mark I Perceptron Wikipedia article; OAPEN secondary literature confirms ONR funding from July 1957; Smithsonian NMAH object record confirms dual ONR and Rome Air Development Center funding on the hardware. **Primary** proposal document not located in open archives—see research/fact-checks/ch01.md (ARC-17).
 
-[^nyt1958]: *New York Times* reporting of the 1958 Navy press conference; exact issue date **open** per research note—quote attributed to contemporary press conference coverage.
+[^nyt1958]: “New Navy Device Learns by Doing,” *The New York Times*, July 8, 1958, p. 25 (Navy press conference; Rosenblatt quoted). See research/fact-checks/ch01.md (ARC-17).
 
 [^bio]: Biographical dates and Cornell positions: research note § Query 4.
