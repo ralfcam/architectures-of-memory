@@ -1,3 +1,21 @@
+---
+type: Evidence Card
+title: "Breastfeeding and Cognitive Development"
+description: "PROBIT RCT and sibling-comparison evidence indicate a small, verbal-concentrated, fading causal effect of breastfeeding on IQ."
+tags: [feeding, cognition, rct]
+status: draft
+confidence: preliminary-not-yet-graded
+generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
+stale_after: 2027-03-14T00:00:00Z
+sources:
+  - id: probit-16yr-2018
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC5909901/
+    title: "16-year follow-up of the PROBIT cluster-randomized trial, PLOS Medicine (2018)"
+  - id: sibling-comparison-2006
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC1361236/
+    title: "Improved Estimates of the Benefits of Breastfeeding Using Sibling Comparisons"
+---
+
 # Breastfeeding and Cognitive Development
 
 > Domain: feeding

@@ -1,3 +1,18 @@
+---
+type: Evidence Card
+title: "Infant Sleep Training (Cry It Out / Extinction Methods)"
+description: "RCT and cohort evidence finds no measured attachment or behavioral harm from extinction-based sleep training through age 6."
+tags: [sleep, attachment, intervention]
+status: draft
+confidence: preliminary-not-yet-graded
+generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
+stale_after: 2027-03-14T00:00:00Z
+sources:
+  - id: hiscock-2016
+    resource: https://www.nursingcenter.com/wkhlrp/Handlers/articleContent.pdf?key=pdf_00000446-202006000-00007
+    title: "Sleep training practices and infant-mother attachment, meta-analysis summary (2016 Pediatrics)"
+---
+
 # Infant Sleep Training (Cry It Out / Extinction Methods)
 
 > Domain: sleep

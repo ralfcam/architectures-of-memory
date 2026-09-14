@@ -1,3 +1,21 @@
+---
+type: Evidence Card
+title: "Self-Regulation and Delay of Gratification (Marshmallow Test)"
+description: "A large NICHD-cohort replication shows the original marshmallow-test predictive claim is mostly explained by SES and early cognitive ability."
+tags: [executive-function, self-regulation, replication]
+status: draft
+confidence: preliminary-not-yet-graded
+generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
+stale_after: 2027-03-14T00:00:00Z
+sources:
+  - id: watts-2018
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC6050075/
+    title: "Watts, Duncan & Quan (2018), Revisiting the Marshmallow Test"
+  - id: watts-2018-sage
+    resource: https://journals.sagepub.com/doi/10.1177/0956797618761661
+    title: "Watts, Duncan & Quan (2018), Psychological Science"
+---
+
 # Self-Regulation and Delay of Gratification (Marshmallow Test)
 
 > Domain: executive function / self-regulation

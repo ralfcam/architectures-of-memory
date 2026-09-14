@@ -1,3 +1,18 @@
+---
+type: Evidence Card
+title: "Preschool / Early Childhood Education (Perry, Abecedarian)"
+description: "Two small, high-fidelity 1960s-70s RCTs (Perry, Abecedarian) show large, persistent adult gains; generalization to modern at-scale programs is uncertain."
+tags: [early-learning, preschool, rct, institutional-dependence]
+status: draft
+confidence: preliminary-not-yet-graded
+generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
+stale_after: 2027-03-14T00:00:00Z
+sources:
+  - id: preschool-scale-synthesis
+    resource: https://files.eric.ed.gov/fulltext/ED672217.pdf
+    title: "Are Preschool Programs Becoming Less Effective?"
+---
+
 # Preschool / Early Childhood Education (Perry, Abecedarian)
 
 > Domain: early learning

@@ -1,3 +1,24 @@
+---
+type: Evidence Card
+title: "Screen Time and Language Development"
+description: "Screen exposure is a decomposable, mostly observational predictor of language: quantity is negatively associated, co-viewing and educational content buffer."
+tags: [screens, language, measurement-bias]
+status: draft
+confidence: preliminary-not-yet-graded
+generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
+stale_after: 2027-03-14T00:00:00Z
+sources:
+  - id: madigan-2020
+    resource: https://onlinelibrary.wiley.com/doi/10.1111/cdev.13927
+    title: "Screen media exposure and young children's vocabulary, Child Development meta-analysis (2023)"
+  - id: traces-2024
+    resource: https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-024-18447-4
+    title: "Mobile device screen time and toddler language, BMC Public Health (2024)"
+  - id: tandfonline-2024
+    resource: https://www.tandfonline.com/doi/full/10.1080/03004430.2024.2349622
+    title: "Screen exposure and early language development, meta-analysis (2024)"
+---
+
 # Screen Time and Language Development
 
 > Domain: screens / language

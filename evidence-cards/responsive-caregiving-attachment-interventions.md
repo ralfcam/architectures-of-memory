@@ -1,3 +1,24 @@
+---
+type: Evidence Card
+title: "Responsive Caregiving and Attachment Interventions"
+description: "Randomized sensitivity-training interventions reliably raise caregiver sensitivity and, to a lesser degree, infant attachment security."
+tags: [attachment, responsive-caregiving, intervention]
+status: draft
+confidence: preliminary-not-yet-graded
+generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
+stale_after: 2027-03-14T00:00:00Z
+sources:
+  - id: bakermans-2003
+    resource: https://pubmed.ncbi.nlm.nih.gov/12696839/
+    title: "Bakermans-Kranenburg, van IJzendoorn & Juffer (2003) meta-analysis"
+  - id: vanijzendoorn-1995
+    resource: https://pubmed.ncbi.nlm.nih.gov/7759588/
+    title: "van IJzendoorn et al. (1995), breaking the intergenerational cycle of insecure attachment"
+  - id: dewolff-1997
+    resource: https://www.marinusvanijzendoorn.nl/wp-content/uploads/2012/07/De-Wolff-Van-IJzendoorn-1997.-Child-Development.-Sensitivity-Attachment-meta-analysis-parental-antecedents.pdf
+    title: "De Wolff & van IJzendoorn (1997), Child Development"
+---
+
 # Responsive Caregiving and Attachment Interventions
 
 > Domain: responsive caregiving / attachment

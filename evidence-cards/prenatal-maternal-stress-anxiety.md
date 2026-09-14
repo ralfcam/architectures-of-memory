@@ -1,3 +1,27 @@
+---
+type: Evidence Card
+title: "Prenatal Maternal Stress and Anxiety"
+description: "Observational prenatal stress/anxiety associations with child outcomes largely attenuate under genetically informed designs."
+tags: [pregnancy, stress, causal-inference]
+status: draft
+confidence: preliminary-not-yet-graded
+generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
+stale_after: 2027-03-14T00:00:00Z
+sources:
+  - id: bmc-moba-2025
+    resource: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-024-03834-w
+    title: "BMC Medicine (2025), MoBa triangulation study"
+  - id: ije-millennium-2017
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC5837524/
+    title: "Int J Epidemiol (2017), UK Millennium Cohort sibling design"
+  - id: jaacap-meta-2021
+    resource: https://www.sciencedirect.com/science/article/pii/S0890856721001428
+    title: "J Am Acad Child Adolesc Psychiatry, genetically informed meta-analysis (2021)"
+  - id: lancet-psych-2018
+    resource: https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(18)30225-6/fulltext
+    title: "The Lancet Psychiatry (2018), children-of-twins design"
+---
+
 # Prenatal Maternal Stress and Anxiety
 
 > Domain: pregnancy / stress

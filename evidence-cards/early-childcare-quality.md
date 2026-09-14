@@ -1,3 +1,24 @@
+---
+type: Evidence Card
+title: "Early Childcare Quality and Development"
+description: "NICHD SECCYD cohort shows modest, replicated links between childcare quality and cognitive/language outcomes, with parenting a stronger predictor."
+tags: [childcare, cognition, language]
+status: draft
+confidence: preliminary-not-yet-graded
+generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
+stale_after: 2027-03-14T00:00:00Z
+sources:
+  - id: nichd-seccyd-2006
+    resource: https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/seccyd_06.pdf
+    title: "The NICHD Study of Early Child Care and Youth Development"
+  - id: nichd-effectsizes-2006
+    resource: https://local.psy.miami.edu/faculty/dmessinger/c_c/rsrcs/rdgs/childcare/NICHD_EffectSizes_AmerPsy.2006.pdf
+    title: "Child-Care Effect Sizes for the NICHD Study, American Psychologist (2006)"
+  - id: nichd-age15
+    resource: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e0a20e35593ea2ce4fb9b95f67f55cefd9a018bd
+    title: "Do Effects of Early Child Care Extend to Age 15 Years?"
+---
+
 # Early Childcare Quality and Development
 
 > Domain: childcare
