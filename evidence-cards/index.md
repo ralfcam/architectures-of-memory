@@ -1,6 +1,6 @@
 # Evidence Cards Index
 
-Preliminary evidence cards populated as a starting synthesis. All cards are marked **status: draft** in their OKF frontmatter and require deeper audit (full source retrieval, additional replication search, formal bias/heterogeneity review, confidence grading) before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows and `SPEC.md` reference (Open Knowledge Format v0.2) for the frontmatter schema.
+Preliminary evidence cards populated as a starting synthesis. All cards are marked **status: draft** in their OKF frontmatter and require deeper audit (full source retrieval, additional replication search, formal bias/heterogeneity review, confidence grading) before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and `SPEC.md` reference (Open Knowledge Format v0.2) for the frontmatter schema.
 
 # Evidence Cards
 
@@ -20,4 +20,4 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 * Play - unstructured/free play, pretend play, outdoor play.
 * Social development beyond attachment - peer interaction, sibling effects, daycare socialization.
 
-Add a new file per topic using `_TEMPLATE.md`, then list it here and log the addition in `CHANGELOG.md`.
+Add a new file per topic using `_TEMPLATE.md`, then list it here, register its sources in `../SOURCES.md`, and log the addition in `../CHANGELOG.md`.

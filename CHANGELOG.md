@@ -25,3 +25,10 @@ Entry types:
 - Replaced `evidence-cards/_INDEX.md` with OKF-reserved `evidence-cards/index.md` (no frontmatter, per OKF section 8).
 - Added a bundle-root `index.md` declaring `okf_version: "0.2"` and linking to the evidence-cards directory and core documentation files, per OKF section 8/12.
 - All cards remain `status: draft` pending confidence-grade assignment and deeper source audit; `stale_after` set to 2027-03-14 as a 6-month re-audit horizon.
+
+## [2026-09-14b]
+
+### Structure
+- Added `SOURCES.md`, a bundle-root Master Source Catalog cataloging every reference cited across the 8 evidence cards: 19 sources with verified, resolvable resource links (mirrored in the file's OKF frontmatter `sources` array) and 12 sources named in card bibliographies during the initial pass but not yet matched to a stable verified link ("Unresolved Citations").
+- Updated `index.md` and `evidence-cards/index.md` to reference `SOURCES.md`.
+- Established a maintenance rule: all future evidence-card additions/revisions must update `SOURCES.md` in the same commit.

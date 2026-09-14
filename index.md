@@ -9,6 +9,7 @@ A longitudinal evidence atlas of developmental science, spanning approximately o
 # Knowledge
 
 * [Evidence Cards](evidence-cards/index.md) - Preliminary and audited evidence cards synthesizing developmental research, one concept per topic.
+* [Master Source Catalog](SOURCES.md) - Deduplicated bibliography of every source cited across the evidence cards, with verification status and back-references.
 
 # Documentation
 
