@@ -56,3 +56,11 @@ No design automatically establishes truth. Assess each design's assumptions, pre
 ## Versioning
 
 Every substantive addition or revision to an evidence card must be logged in `CHANGELOG.md` under `[Unreleased]`, categorized as Added / Revised / Retracted / Structure. Periodically these are rolled into a dated release (e.g. `## [2026-Q4]`).
+
+## Compositional Grammar
+
+This KB feeds a book, `Parenthood: The Atlas`, governed by a compositional grammar in `COMPOSITION.md`. When adding or revising evidence cards:
+
+- If a card is intended to anchor a chapter, include `atlas_domains` (e.g., `[attachment, regulation]`) and `chapter_hooks` (e.g., `[anomaly, boundary, mechanism]`) in its OKF frontmatter.
+- Chapter drafts must pass the `style/voice-checklist.md` review before being considered for inclusion in a release.
+- See `COMPOSITION.md` Appendix A for how to translate certainty grades into prose strength.
