@@ -12,6 +12,9 @@ Entry types:
 ## [Unreleased]
 
 ### Structure
+- Recovered DOIs for 15 of 20 previously Crossref-unchecked catalog IDs and queried Crossref/PubMed/Retraction Watch (`preliminary/research/extraction/doi-recovery-retraction-watch.md`). Five IDs remain without a journal DOI (WHO, NICHD report, 1987 bulletin, mismatched sleep listing). **No card moved to `status: stable`.**
+- Promoted curated, voice-checked Chapter 3 (`chapters/03-the-great-transition.md`) and Chapter 4 (`chapters/04-regulatory-relationship.md`, replacing the 10-step seed). Archival drafts untouched. Chapter 5 remains unextracted.
+- Source-audited Chapter 4 feeding-as-regulation (Black & Aboud 2011). Sleep and attachment cards still not rewritten. `hiscock-2016` identification mismatch recorded, not repaired.
 - Source-audited Chapter 7 language claims into draft cards (perceptual narrowing, statistical segmentation, conversational turns, dual-language). Existing `screen-time-language-development.md` and `prenatal-auditory-learning.md` reconciled, not rewritten. C07-P1 vs C07-S1 hash-compared (not identical).
 - Promoted a curated, voice-checked Chapter 7 to `chapters/07-the-birth-of-language.md` (Appendix B range). Archival `preliminary/drafts-chapters/chapter 7` unchanged.
 - Ran a catalog-wide Crossref/PubMed retraction lookup (`preliminary/research/extraction/catalog-wide-retraction-search.md`). No retraction or expression-of-concern titles among DOI-resolved records. Cochrane updates are new review versions. **No card moved to `status: stable`.**
@@ -36,6 +39,7 @@ Entry types:
 - Source-audited Chapter 3 C02/C06 and Chapter 4 C01/C02: added neonatal-transition, skin-to-skin, co-regulation, and severe-deprivation cards. Added a Chapter 6 contingency-learning card to support the curated expansion.
 - Source-audited Chapter 7 C02/C03/C07–C09: added perceptual-narrowing, statistical-segmentation, conversational-turns, and dual-language cards. Screen-time card reconciled, not rewritten.
 - Source-audited remaining Chapter 3 C04/C05/C07: added crying-as-signal, suck–swallow–breathe, and preterm group-risk cards.
+- Source-audited Chapter 4 C04: added `responsive-feeding-as-regulation.md`.
 
 ### Revised
 - Aligned YAML `confidence` on all eight first-pass cards with in-body grades (cards remain `status: draft`).

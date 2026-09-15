@@ -55,4 +55,4 @@ Several of those have PMIDs on the cards and were PubMed-checked for retraction 
 
 - **Zero cards set to `status: stable`.**
 - Clearing retraction on a subset of DOIs is necessary but not sufficient. Promotion still requires replication/attenuation classification, YAML/in-body grade match, and a “What This Does Not Mean” that matches identification.
-- A later pass can recover DOIs for the remaining twenty and query Retraction Watch directly. Until then, the catalog stays `draft`.
+- A later pass recovered 15 of 20 remaining DOIs and queried Retraction Watch via Crossref update metadata plus PubMed retraction publication types: [`doi-recovery-retraction-watch.md`](doi-recovery-retraction-watch.md). Still none to `stable`.

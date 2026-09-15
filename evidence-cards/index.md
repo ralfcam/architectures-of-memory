@@ -27,6 +27,7 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 * [Two Languages Do Not Confuse](dual-language-does-not-confuse.md) - NAP 2017: High that dual exposure as such does not confuse; Low automatic cognitive bonus.
 * [Infant Crying as a Signal](infant-crying-as-signal.md) - Graded distress signal; not a one-to-one code for hunger, pain, or parental error.
 * [Suck–Swallow–Breathe Coordination](suck-swallow-breathe-coordination.md) - Oral feeding is maturational coordination; feeding method is not parental worth.
+* [Responsive Feeding as Regulation](responsive-feeding-as-regulation.md) - Cue-based bidirectional feeding; not a weight or IQ program.
 * [Preterm Birth and Group Cognitive Risk](preterm-cognition-group-risk.md) - 2024 meta-analysis: group SMD about −0.57; not an individual sentence.
 * [Breastfeeding and Cognitive Development](breastfeeding-cognitive-development.md) - PROBIT RCT and sibling comparisons show a small, fading, verbal-concentrated effect.
 * [Early Childcare Quality and Development](early-childcare-quality.md) - NICHD SECCYD cohort: modest quality-cognition links; parenting predicts more.

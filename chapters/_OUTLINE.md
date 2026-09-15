@@ -10,9 +10,9 @@ Each chapter should still follow the 10-step rhythm in `COMPOSITION.md` Appendix
 |---|---|---|---|---|
 | 1 | Before the Child Is Born | `preliminary/drafts-chapters/chapter 1` | `Chapter 1 Research Dossier.docx` | Framing / reader contract. No `chapters/` file yet. |
 | 2 | The First Environment | `preliminary/drafts-chapters/chapter 2` (archival) | Ch. 2 dossier cluster | **Promoted curated copy:** `chapters/02-first-environment.md`. Seed sketch kept at `chapters/01-first-environment.md`. |
-| 3 | The Great Transition | `preliminary/drafts-chapters/chapter 3` | Ch. 3 plan + continuum synthesis | Evidence map: `preliminary/research/extraction/ch03-great-transition--evidence-map.md`. Five draft cards (transition physiology; bounded SSC; crying; feeding coordination; preterm group risk). Mode of delivery held. Not promoted as a curated chapter. |
-| 4 | The Regulatory Relationship | `preliminary/drafts-chapters/chapter 4` | Ch. 4 dossier | Seed sketch: `chapters/04-regulatory-relationship.md`. Evidence map: `preliminary/research/extraction/ch04-regulatory-relationship--evidence-map.md`. Co-regulation and deprivation cards added; sleep/attachment not re-extracted. Not promoted. |
-| 5 | Becoming a Mind | `preliminary/drafts-chapters/chapter 5` | Ch. 5 plan + dossier | |
+| 3 | The Great Transition | `preliminary/drafts-chapters/chapter 3` (archival) | Ch. 3 plan + continuum synthesis | **Promoted curated copy:** `chapters/03-the-great-transition.md`. Five draft cards. Mode of delivery held. |
+| 4 | The Regulatory Relationship | `preliminary/drafts-chapters/chapter 4` (archival) | Ch. 4 dossier | **Promoted curated copy:** `chapters/04-regulatory-relationship.md` (replaces prior seed sketch). Feeding-as-regulation card added; sleep/attachment not rewritten. |
+| 5 | Becoming a Mind | `preliminary/drafts-chapters/chapter 5` | Ch. 5 plan + dossier | Next proof-of-voice candidate after Ch. 4; not extracted in this package. |
 | 6 | The Mind in Motion | `preliminary/drafts-chapters/chapter 6` (archival) | Ch. 6 dossier | **Curated expansion:** `chapters/06-the-mind-in-motion.md`. Linked card: `infant-contingency-learning.md`. |
 | 7 | The Birth of Language | `preliminary/drafts-chapters/chapter 7` (archival) | Ch. 7 plan + synthesis | **Promoted curated copy:** `chapters/07-the-birth-of-language.md`. Linked cards: perceptual narrowing, statistical segmentation, conversational turns, dual language. Screens reconciled, not rewritten. |
 | 8 | The Expanding World | `preliminary/drafts-chapters/chapter 8.md` | Ch. 8 plan + synthesis | |
@@ -48,6 +48,25 @@ All remain `status: draft`. C13 is held on the growth card.
 - `prenatal-tobacco-birthweight.md` (C10)
 - `prenatal-environmental-mixtures.md` (C11)
 - `fetal-growth-not-destiny.md` (C12; C13 interpretive continuity)
+
+## Linked cards for Chapter 3 (current)
+
+All remain `status: draft`. Mode of delivery held.
+
+- `neonatal-cardiopulmonary-transition.md` (CH03-C02)
+- `infant-crying-as-signal.md` (CH03-C04)
+- `suck-swallow-breathe-coordination.md` (CH03-C05)
+- `skin-to-skin-immediate-physiology.md` (CH03-C06)
+- `preterm-cognition-group-risk.md` (CH03-C07)
+
+## Linked cards for Chapter 4 (current)
+
+All remain `status: draft`.
+
+- `infant-caregiver-coregulation.md` (CH04-C01)
+- `severe-institutional-deprivation.md` (CH04-C02)
+- `responsive-feeding-as-regulation.md` (CH04-C04)
+- Reconcile only: `infant-sleep-training.md`, `responsive-caregiving-attachment-interventions.md`
 
 ## Linked cards for Chapter 6 (current)
 

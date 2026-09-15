@@ -1,6 +1,6 @@
 # Chapter 3 triage — The Great Transition
 
-Status: `extracted`. Part I, after Chapter 2. Do not promote a curated chapter until a voice-review note exists. Five draft cards now exist (transition, SSC, crying, feeding coordination, preterm group risk).
+Do not promote a curated chapter until a voice-review note exists. Five draft cards now exist. Curated copy: `chapters/03-the-great-transition.md`.
 
 ## 1. Files and overlaps
 
@@ -48,7 +48,6 @@ Chapter 2 C12/C13 (growth and continuity) feed this chapter’s “not a reset�
 ## 7. Promotion blockers
 
 - Transition, SSC, crying, feeding-coordination, and preterm cards exist and remain `status: draft`.
-- No review note yet for a curated Chapter 3 copy (not in this package).
-- Archival draft must not be overwritten; curated copy would be `chapters/03-the-great-transition.md`.
+- Curated copy and review note now exist. Archival draft was not overwritten.
 - C03-S1 hash-compared with C03-P1: not identical.
 - Mode of delivery still held.

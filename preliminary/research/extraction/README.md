@@ -40,7 +40,8 @@ Group claims into likely cards **after** they are extracted. One card = one clai
 
 - [Chapter 2 Evidence Map](ch02-first-environment--evidence-map.md) — first full-system test of this pipeline.
 - [Chapter 3 Evidence Map](ch03-great-transition--evidence-map.md) — transition physiology, bounded skin-to-skin, crying, feeding coordination, preterm group risk.
-- [Chapter 4 Evidence Map](ch04-regulatory-relationship--evidence-map.md) — co-regulation and deprivation; sleep/attachment reconciled.
+- [Chapter 4 Evidence Map](ch04-regulatory-relationship--evidence-map.md) — co-regulation, deprivation, and feeding-as-regulation; sleep/attachment reconciled.
 - [Chapter 7 Evidence Map](ch07-birth-of-language--evidence-map.md) — perceptual narrowing, statistical segmentation, conversational turns, dual language; screens reconciled.
 - [Selected-card re-audit](selected-cards--replication-bias-reaudit.md) — first replication/bias pass; none to `stable`.
 - [Catalog-wide retraction search](catalog-wide-retraction-search.md) — Crossref/PubMed lookup; none to `stable`.
+- [DOI recovery and Retraction Watch](doi-recovery-retraction-watch.md) — 15 of 20 previously unchecked IDs recovered; five still without a journal DOI; none to `stable`.

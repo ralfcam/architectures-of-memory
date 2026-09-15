@@ -105,7 +105,7 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 
 ## 4. Promotion blockers for a curated Chapter 3
 
-- Five Chapter 3 cards now exist (`draft`, not `stable`): transition, SSC, crying, feeding coordination, preterm group risk.
-- No curated `chapters/03-the-great-transition.md` in this package (voice-review of a curated copy still open).
-- Archival `preliminary/drafts-chapters/chapter 3` must not be overwritten.
+- Five Chapter 3 cards exist (`draft`, not `stable`).
+- Curated copy: `chapters/03-the-great-transition.md`. Voice review: `preliminary/drafts-chapters/reviews/ch03-curated-03-the-great-transition--voice-review.md`.
+- Archival `preliminary/drafts-chapters/chapter 3` was not overwritten.
 - Mode of delivery still held. Neonatal perception (C03) still `needs-source-audit`.

@@ -1,6 +1,6 @@
 # Chapter 4 triage — The Regulatory Relationship
 
-Status: `extracted`. Part I, after Chapter 3. Do not promote a curated chapter in this package. Sleep and attachment cards were reconciled, not rewritten.
+Status: `extracted`. Part I, after Chapter 3. Curated copy now exists. Sleep and attachment cards were reconciled, not rewritten.
 
 ## 1. Files and overlaps
 
@@ -9,8 +9,8 @@ Status: `extracted`. Part I, after Chapter 3. Do not promote a curated chapter i
 | C04-D1 | `preliminary/research/Chapter 4 — The Regulatory Relationship.docx` |
 | C04-S1 | `preliminary/research/The Regulatory Relationship_ The Relational Foundation of Human Development.docx` |
 | C04-D | `preliminary/drafts-chapters/chapter 4` |
-| Seed sketch | `chapters/04-regulatory-relationship.md` (relocated from `02-regulatory-relationship.md` to match the working TOC) |
-| Existing cards | `infant-sleep-training.md`, `responsive-caregiving-attachment-interventions.md` (reconcile only); new: `infant-caregiver-coregulation.md`, `severe-institutional-deprivation.md` |
+| Seed sketch | previously occupied `chapters/04-regulatory-relationship.md`; replaced by the curated copy |
+| Existing cards | `infant-sleep-training.md`, `responsive-caregiving-attachment-interventions.md` (reconcile only); new: `infant-caregiver-coregulation.md`, `severe-institutional-deprivation.md`, `responsive-feeding-as-regulation.md` |
 
 C04-D1 is the extraction source. C04-S1 is alternate; keep until compared.
 
@@ -38,7 +38,7 @@ Do not extract a generic “attachment determines the future” card.
 
 1. Map C04-D1 claims onto the two live cards; list what is still missing (co-regulation definition; deprivation vs ordinary care).
 2. Source-audit at most 2–3 new claims (co-regulation; severe deprivation as contrast).
-3. Voice-review a curated copy only after those claims exist. Seed outline remains a 10-step sketch.
+3. Voice-review a curated copy only after those claims exist. The prior 10-step seed in this TOC slot was replaced by the curated copy.
 
 ## 6. Prohibited inferences
 
@@ -51,6 +51,5 @@ Do not extract a generic “attachment determines the future” card.
 ## 7. Promotion blockers
 
 - Linked sleep and attachment cards remain `status: draft`.
-- Co-regulation and deprivation cards now exist (`status: draft`).
-- No review note for a curated chapter copy (seed outline remains a 10-step sketch).
-- Archival draft must not be overwritten.
+- Co-regulation, deprivation, and feeding-as-regulation cards exist (`status: draft`).
+- Curated copy: `chapters/04-regulatory-relationship.md`. Archival draft not overwritten.

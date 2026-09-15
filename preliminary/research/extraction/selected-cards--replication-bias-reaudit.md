@@ -9,7 +9,7 @@ Scope: folate, FASD, iodine, prenatal stress, attachment-intervention, plus a st
 A card may move to `stable` only after:
 
 1. Sources remain resolvable.
-2. No retraction or expression-of-concern was found for the primary ID (catalog-wide Crossref/PubMed lookup now exists; 20 pre-existing IDs still lack a recovered DOI; Retraction Watch dump not done).
+2. No retraction or expression-of-concern was found for the primary ID (catalog-wide Crossref/PubMed lookup now exists; 15 of 20 previously unchecked IDs now have recovered DOIs; five still lack a journal DOI; Retraction Watch dump not a complete database export).
 3. Replication or genetically informed attenuation has been classified (robust / partial / largely confounded) where that design class exists.
 4. In-body grade still matches YAML `confidence`.
 5. “What This Does Not Mean” still matches the identification.
@@ -29,13 +29,13 @@ None of the selected cards clear all five for promotion to `stable` in this pass
 
 ## New cards this package and later first-pass cards
 
-The five cards from the Chapter 3–4–6 package (`neonatal-cardiopulmonary-transition`, `skin-to-skin-immediate-physiology`, `infant-caregiver-coregulation`, `severe-institutional-deprivation`, `infant-contingency-learning`) remain first-pass source audits. The seven cards added with Chapter 7 and remaining Chapter 3 claims are also first-pass. They are **not** re-audit candidates yet.
+The five cards from the Chapter 3–4–6 package (`neonatal-cardiopulmonary-transition`, `skin-to-skin-immediate-physiology`, `infant-caregiver-coregulation`, `severe-institutional-deprivation`, `infant-contingency-learning`) remain first-pass source audits. The seven cards added with Chapter 7 and remaining Chapter 3 claims, plus the Chapter 4 feeding-as-regulation card, are also first-pass. They are **not** re-audit candidates yet.
 
 ## Explicit non-promotions
 
 - Zero cards set to `status: stable`.
 - YAML `confidence` is not a stability claim.
-- Catalog-wide Crossref/PubMed lookup: [`catalog-wide-retraction-search.md`](catalog-wide-retraction-search.md). Still not sufficient for `stable` (20 older IDs lack a recovered DOI; replication/attenuation not classified catalog-wide).
+- Catalog-wide Crossref/PubMed lookup: [`catalog-wide-retraction-search.md`](catalog-wide-retraction-search.md). DOI recovery / Retraction Watch pass: [`doi-recovery-retraction-watch.md`](doi-recovery-retraction-watch.md). Still not sufficient for `stable` (five IDs lack a journal DOI; replication/attenuation not classified catalog-wide).
 
 ## Next re-audit candidates (not done here)
 

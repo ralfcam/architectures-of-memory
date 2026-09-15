@@ -2,7 +2,7 @@
 
 Extraction of missing co-regulation and deprivation claims. **Do not re-extract** the live sleep and attachment cards.
 
-Related: [Ch. 4 triage](../../triage/ch04-regulatory-relationship--triage.md) · [draft](../../drafts-chapters/chapter%204) · [seed](../../../chapters/04-regulatory-relationship.md) · [source audit](ch04-coregulation-deprivation--source-audit.md)
+Related: [Ch. 4 triage](../../triage/ch04-regulatory-relationship--triage.md) · [draft](../../drafts-chapters/chapter%204) · [curated copy](../../../chapters/04-regulatory-relationship.md) · [source audit](ch04-coregulation-deprivation--source-audit.md)
 
 ---
 
@@ -13,9 +13,9 @@ Related: [Ch. 4 triage](../../triage/ch04-regulatory-relationship--triage.md) ·
 | C04-D1 | `preliminary/research/Chapter 4 — The Regulatory Relationship.docx` | Extraction source (214,772 bytes; SHA-256 `ace6bb88…`). |
 | C04-S1 | `preliminary/research/The Regulatory Relationship_ The Relational Foundation of Human Development.docx` | Alternate (58,811 bytes; SHA-256 `79ba48d1…`). **Not identical.** Keep; do not double-extract. |
 | C04-D | `preliminary/drafts-chapters/chapter 4` | Archival prose. Untouched. |
-| Seed | `chapters/04-regulatory-relationship.md` | 10-step sketch. Not promoted. |
+| Curated | `chapters/04-regulatory-relationship.md` | Voice-checked copy; replaced the prior 10-step seed in this TOC slot. |
 | Live cards (reconcile only) | `infant-sleep-training.md`, `responsive-caregiving-attachment-interventions.md` | Already in the KB. |
-| New cards | `infant-caregiver-coregulation.md`, `severe-institutional-deprivation.md` | This package. |
+| New cards | `infant-caregiver-coregulation.md`, `severe-institutional-deprivation.md`, `responsive-feeding-as-regulation.md` | Co-regulation/BEIP from prior package; feeding this package. |
 
 ---
 
@@ -25,7 +25,7 @@ Related: [Ch. 4 triage](../../triage/ch04-regulatory-relationship--triage.md) ·
 |---|---|---|
 | `responsive-caregiving-attachment-interventions.md` | Dossier cards 5 and 10 (sensitivity; VIPP/video-feedback) | **Reconcile.** Grades already Moderate-to-High (sensitivity) / Moderate (attachment). Bakermans 2003 d=0.33 / 0.20 still the identification. Do not re-extract. Still `status: draft` pending the selected-card re-audit. |
 | `infant-sleep-training.md` | Dossier sleep-state organization | **Reconcile.** Low-to-Moderate; Price 2012 / Williamson 2019 already corrected in PR #2. Not a birth-experience card. Do not re-extract. |
-| `breastfeeding-cognitive-development.md` | Adjacent feeding | Cognition card. A regulatory feeding-coordination claim remains `needs-source-audit` (see Ch. 3 C05). |
+| `breastfeeding-cognitive-development.md` | Adjacent feeding | Cognition card. Coordination is Ch. 3 C05. Hunger/satiety feeding is CH04-C04. |
 
 ## 3. Candidate claims
 
@@ -57,7 +57,10 @@ Related: [Ch. 4 triage](../../triage/ch04-regulatory-relationship--triage.md) ·
 
 | Field | Content |
 |---|---|
-| Label | `needs-source-audit` (not the PROBIT IQ card). |
+| Claim | Feeding is a reciprocal, cue-based process (hunger/satiety), not a one-way calorie transfer or an IQ program. |
+| Sources | Black & Aboud 2011 DOI 10.3945/jn.110.129973. |
+| Label | `promote` — card `evidence-cards/responsive-feeding-as-regulation.md` |
+| Grade | Moderate framework; Low as a growth/IQ program. Do not reuse suck–swallow or breastfeeding-IQ cards. |
 
 ## 4. Prohibited inferences (still in force)
 
@@ -69,7 +72,7 @@ Related: [Ch. 4 triage](../../triage/ch04-regulatory-relationship--triage.md) ·
 
 ## 5. Promotion blockers for a curated Chapter 4
 
-- Linked sleep and attachment cards remain `status: draft`.
-- Two new Chapter 4 cards exist (`draft`, not `stable`).
-- Seed outline remains a sketch. No curated `chapters/` promotion in this package.
-- Archival draft must not be overwritten.
+- Linked sleep and attachment cards remain `status: draft` (reconciled, not rewritten).
+- Co-regulation, deprivation, and feeding-as-regulation cards exist (`draft`, not `stable`).
+- Curated copy: `chapters/04-regulatory-relationship.md`. Voice review: `preliminary/drafts-chapters/reviews/ch04-curated-04-regulatory-relationship--voice-review.md`.
+- Archival draft was not overwritten. Prior 10-step seed in this TOC slot was replaced by the curated copy.
