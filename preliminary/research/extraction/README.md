@@ -1,0 +1,41 @@
+# Evidence-extraction pipeline
+
+A research dossier is not an evidence card. A 200-page file should decompose into several **atomic claims**, each narrow enough to receive a certainty grade and a source trail.
+
+Do not copy dossier prose into `evidence-cards/`. Extract, audit, then write a card from the claim record.
+
+## Per-claim fields
+
+For each claim, record:
+
+1. **Claim** — the narrowest defensible statement.
+2. **Outcome and window** — what is measured, at what developmental age.
+3. **Exposure / intervention / context**.
+4. **Study design(s)** — RCT, sibling comparison, children-of-twins, MR, cohort, natural experiment, mechanistic, animal, guideline synthesis.
+5. **Effect size, precision, persistence**.
+6. **Threats to inference and heterogeneity**.
+7. **Sources** — exact citations and stable identifiers (DOI, PMID, URL). Unresolved citations stay unresolved until matched.
+8. **Manuscript role** — `anomaly`, `mechanism`, `boundary`, `system`, or `case`.
+
+Then label the claim:
+
+| Label | Meaning |
+|---|---|
+| `promote` | Narrow claim, designs and sources are in hand; ready to draft a card after source registration in `SOURCES.md` |
+| `needs-source-audit` | Claim is plausible but citations, effect sizes, or designs are unverified |
+| `interpretive-only` | Useful for chapter framing; not a standalone empirical card |
+| `exclude` | Too broad, deterministic, duplicative, or unsupported |
+
+## Card grouping
+
+Group claims into likely cards **after** they are extracted. One card = one claim family, not one chapter. Example for Chapter 2: prenatal auditory learning, prenatal stress/anxiety, maternal nutrition, teratogenic exposures, and prenatal-to-postnatal continuity are separate cards — not one “prenatal development” card.
+
+## Destination rules
+
+- Empirical claims → `evidence-cards/` + `SOURCES.md` in the same commit.
+- Framing, voice, and Science/Interpretation/Art distinctions → `chapters/` via the draft/review stream.
+- Unresolved or interpretive material → remain preliminary.
+
+## Current maps
+
+- [Chapter 2 Evidence Map](ch02-first-environment--evidence-map.md) — first full-system test of this pipeline.

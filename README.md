@@ -20,11 +20,19 @@ Scientific findings do not automatically generate parenting prescriptions.
 
 ```
 /README.md              Project overview (this file)
+/REPO_DIGEST.md         Current inventory, layer map, and known gaps
 /CHANGELOG.md           Version history of research synthesis updates
 /CONTRIBUTING.md        Standards for evaluating and documenting evidence
+/COMPOSITION.md         Book compositional grammar
+/SOURCES.md             Master source catalog
+/index.md               OKF v0.2 bundle root
 /evidence-cards/        One evidence card per major claim/topic
-  _TEMPLATE.md          Template for new evidence cards
+/chapters/              Canonical manuscript (seed outlines)
+/style/                 Voice checklist, forbidden phrases, anomaly bank
+/preliminary/           Staging: research notes, chapter drafts, manifest, triage, extraction
 ```
+
+See `REPO_DIGEST.md` for the live inventory and the distinction between canonical files and `preliminary/` staging work.
 
 ## Priority Domains
 
