@@ -109,6 +109,42 @@ sources:
   - id: elango-2016-ece
     resource: https://www.nber.org/papers/w21766
     title: "Elango, García, Heckman & Hojman (2016), Early Childhood Education"
+  - id: ujhazy-2012-teratology
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC3600518/
+    title: "Ujházy et al. (2012), teratology past, present and future"
+  - id: burton-2015-placenta
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC4305167/
+    title: "Burton & Fowden (2015), the placenta as a multifaceted transient organ"
+  - id: seckl-holmes-2007
+    resource: https://doi.org/10.1038/ncpendmet0515
+    title: "Seckl & Holmes (2007), placental glucocorticoid metabolism"
+  - id: bystron-2008-cortex
+    resource: https://pubmed.ncbi.nlm.nih.gov/18209730/
+    title: "Bystron, Blakemore & Rakic (2008), human cerebral cortex development"
+  - id: dipietro-2015-fetal-behavior
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC4835043/
+    title: "DiPietro et al. (2015), studies in fetal behavior"
+  - id: pollatou-2024-hrv
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC11140686/
+    title: "Pollatou et al. (2024), fetal HRV and newborn connectivity"
+  - id: zimmermann-2008-iodine
+    resource: https://doi.org/10.1016/S0140-6736(08)61005-3
+    title: "Zimmermann, Jooste & Pandav (2008), Lancet, iodine-deficiency disorders"
+  - id: deescobar-2004-thyroid
+    resource: https://doi.org/10.1016/j.beem.2004.03.012
+    title: "Morreale de Escobar et al. (2004), maternal T4 and fetal brain"
+  - id: hoyme-2016-fasd
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC4960726/
+    title: "Hoyme et al. (2016), Pediatrics, FASD diagnostic guidelines"
+  - id: kramer-1987-lbw
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC2491072/
+    title: "Kramer (1987), determinants of low birth weight"
+  - id: papageorghiou-2014-intergrowth
+    resource: https://doi.org/10.1016/S0140-6736(14)61490-2
+    title: "Papageorghiou et al. (2014), INTERGROWTH-21st fetal growth standards"
+  - id: philippat-2024-sepages
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC11057944/
+    title: "Philippat et al. (2024), SEPAGES phenols/phthalates and placenta"
 ---
 
 # Master Source Catalog
@@ -158,6 +194,18 @@ Per `CONTRIBUTING.md`, no source here has been checked for retraction, replicati
 | `garcia-heckman-2023` | García, Heckman & Ronda (2023), JPE, Perry through late midlife | [https://doi.org/10.1086/722936](https://doi.org/10.1086/722936) | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
 | `campbell-2012-abecedarian` | Campbell et al. (2012), Abecedarian age-30 follow-up | [https://pmc.ncbi.nlm.nih.gov/articles/PMC3989926/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3989926/) | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
 | `elango-2016-ece` | Elango, García, Heckman & Hojman (2016), Early Childhood Education | [https://www.nber.org/papers/w21766](https://www.nber.org/papers/w21766) | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
+| `ujhazy-2012-teratology` | Ujházy et al. (2012), Wilson principles of teratology | [https://pmc.ncbi.nlm.nih.gov/articles/PMC3600518/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3600518/) | [prenatal-developmental-timing](evidence-cards/prenatal-developmental-timing.md) |
+| `burton-2015-placenta` | Burton & Fowden (2015), placenta as multifaceted organ | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4305167/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4305167/) | [placenta-as-mediator](evidence-cards/placenta-as-mediator.md) |
+| `seckl-holmes-2007` | Seckl & Holmes (2007), placental glucocorticoid metabolism | [https://doi.org/10.1038/ncpendmet0515](https://doi.org/10.1038/ncpendmet0515) | [placenta-as-mediator](evidence-cards/placenta-as-mediator.md) |
+| `bystron-2008-cortex` | Bystron, Blakemore & Rakic (2008), human cortical development | [https://pubmed.ncbi.nlm.nih.gov/18209730/](https://pubmed.ncbi.nlm.nih.gov/18209730/) | [prenatal-neural-construction](evidence-cards/prenatal-neural-construction.md) |
+| `dipietro-2015-fetal-behavior` | DiPietro et al. (2015), studies in fetal behavior | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4835043/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4835043/) | [fetal-autonomic-maturation](evidence-cards/fetal-autonomic-maturation.md) |
+| `pollatou-2024-hrv` | Pollatou et al. (2024), fetal HRV and newborn connectivity | [https://pmc.ncbi.nlm.nih.gov/articles/PMC11140686/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140686/) | [fetal-autonomic-maturation](evidence-cards/fetal-autonomic-maturation.md) |
+| `zimmermann-2008-iodine` | Zimmermann, Jooste & Pandav (2008), iodine-deficiency disorders | [https://doi.org/10.1016/S0140-6736(08)61005-3](https://doi.org/10.1016/S0140-6736(08)61005-3) | [prenatal-iodine-thyroid](evidence-cards/prenatal-iodine-thyroid.md) |
+| `deescobar-2004-thyroid` | Morreale de Escobar et al. (2004), maternal T4 and fetal brain | [https://doi.org/10.1016/j.beem.2004.03.012](https://doi.org/10.1016/j.beem.2004.03.012) | [prenatal-iodine-thyroid](evidence-cards/prenatal-iodine-thyroid.md) |
+| `hoyme-2016-fasd` | Hoyme et al. (2016), FASD diagnostic guidelines | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4960726/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4960726/) | [prenatal-alcohol-fasd](evidence-cards/prenatal-alcohol-fasd.md) |
+| `kramer-1987-lbw` | Kramer (1987), determinants of low birth weight | [https://pmc.ncbi.nlm.nih.gov/articles/PMC2491072/](https://pmc.ncbi.nlm.nih.gov/articles/PMC2491072/) | [prenatal-tobacco-birthweight](evidence-cards/prenatal-tobacco-birthweight.md) |
+| `papageorghiou-2014-intergrowth` | Papageorghiou et al. (2014), INTERGROWTH-21st fetal growth | [https://doi.org/10.1016/S0140-6736(14)61490-2](https://doi.org/10.1016/S0140-6736(14)61490-2) | [fetal-growth-not-destiny](evidence-cards/fetal-growth-not-destiny.md) |
+| `philippat-2024-sepages` | Philippat et al. (2024), SEPAGES phenols/phthalates and placenta | [https://pmc.ncbi.nlm.nih.gov/articles/PMC11057944/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11057944/) | [prenatal-environmental-mixtures](evidence-cards/prenatal-environmental-mixtures.md) |
 
 ## Unresolved Citations
 

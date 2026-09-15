@@ -9,9 +9,9 @@ Each chapter should still follow the 10-step rhythm in `COMPOSITION.md` Appendix
 | No. | Title | Draft | Research | Canonical seed / notes |
 |---|---|---|---|---|
 | 1 | Before the Child Is Born | `preliminary/drafts-chapters/chapter 1` | `Chapter 1 Research Dossier.docx` | Framing / reader contract. No `chapters/` file yet. |
-| 2 | The First Environment | `preliminary/drafts-chapters/chapter 2` | Ch. 2 dossier cluster | Seed outline: `chapters/01-first-environment.md` |
-| 3 | The Great Transition | `preliminary/drafts-chapters/chapter 3` | Ch. 3 plan + continuum synthesis | Birth as change of environment, not a reset. |
-| 4 | The Regulatory Relationship | `preliminary/drafts-chapters/chapter 4` | Ch. 4 dossier | Seed outline: `chapters/02-regulatory-relationship.md` |
+| 2 | The First Environment | `preliminary/drafts-chapters/chapter 2` (archival) | Ch. 2 dossier cluster | **Promoted curated copy:** `chapters/02-first-environment.md`. Seed sketch kept at `chapters/01-first-environment.md`. |
+| 3 | The Great Transition | `preliminary/drafts-chapters/chapter 3` | Ch. 3 plan + continuum synthesis | Triage: `preliminary/triage/ch03-great-transition--triage.md`. Not promoted. |
+| 4 | The Regulatory Relationship | `preliminary/drafts-chapters/chapter 4` | Ch. 4 dossier | Seed sketch: `chapters/04-regulatory-relationship.md`. Triage: `preliminary/triage/ch04-regulatory-relationship--triage.md`. Not promoted. |
 | 5 | Becoming a Mind | `preliminary/drafts-chapters/chapter 5` | Ch. 5 plan + dossier | |
 | 6 | The Mind in Motion | `preliminary/drafts-chapters/chapter 6` | Ch. 6 dossier | Draft is thin; complete before promoting Ch. 7. |
 | 7 | The Birth of Language | `preliminary/drafts-chapters/chapter 7` | Ch. 7 plan + synthesis | |
@@ -34,6 +34,17 @@ A chapter moves into `chapters/` only after linked evidence cards are audited an
 
 ## Linked cards for Chapter 2 (current)
 
-- `evidence-cards/prenatal-maternal-stress-anxiety.md` (CH02-C06, reconciled)
-- `evidence-cards/prenatal-auditory-learning.md` (CH02-C05)
-- `evidence-cards/prenatal-folate-ntd.md` (CH02-C07)
+All remain `status: draft`. C13 is held on the growth card.
+
+- `prenatal-developmental-timing.md` (C01)
+- `placenta-as-mediator.md` (C02)
+- `prenatal-neural-construction.md` (C03)
+- `fetal-autonomic-maturation.md` (C04)
+- `prenatal-auditory-learning.md` (C05)
+- `prenatal-maternal-stress-anxiety.md` (C06)
+- `prenatal-folate-ntd.md` (C07)
+- `prenatal-iodine-thyroid.md` (C08)
+- `prenatal-alcohol-fasd.md` (C09)
+- `prenatal-tobacco-birthweight.md` (C10)
+- `prenatal-environmental-mixtures.md` (C11)
+- `fetal-growth-not-destiny.md` (C12; C13 interpretive continuity)

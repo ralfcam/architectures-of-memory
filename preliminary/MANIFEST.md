@@ -2,7 +2,7 @@
 
 Inventory of every file under `preliminary/` as of 2026-09-15. Original uploads are archival. Do not rename or move them. Curated copies use the naming convention in [`README.md`](README.md).
 
-**Chapter numbering** follows the 15-chapter draft sequence. Canonical seed files in `chapters/` use a shorter map (seed Ch. 1 = this Ch. 2; seed Ch. 2 = this Ch. 4).
+**Chapter numbering** follows the 15-chapter draft sequence. Seed sketches: `chapters/01-first-environment.md` (Ch. 2) and `chapters/04-regulatory-relationship.md` (Ch. 4). Curated Chapter 2: `chapters/02-first-environment.md`.
 
 ## Status and type vocabularies
 
@@ -25,10 +25,14 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-T01 | `preliminary/triage/ch01-framing--triage.md` | documentation | remain-preliminary | triage-ready | Ch. 1 extraction plan |
 | G-T02 | `preliminary/triage/ch02-first-environment--triage.md` | documentation | remain-preliminary | extracted | Points at Ch. 2 map |
 | G-EXT | `preliminary/research/extraction/README.md` | documentation | remain-preliminary | promoted | Atomic-claim pipeline |
-| G-MAP02 | `preliminary/research/extraction/ch02-first-environment--evidence-map.md` | documentation | remain-preliminary | extracted | First full-system test; C05–C07 now `promote` |
+| G-MAP02 | `preliminary/research/extraction/ch02-first-environment--evidence-map.md` | documentation | remain-preliminary | extracted | C01–C12 `promote`; C13 interpretive on growth card |
 | G-AUDIT02 | `preliminary/research/extraction/ch02-c05-c07-c06--source-audit.md` | documentation | remain-preliminary | extracted | Source audit for C05/C07/C06 |
+| G-AUDIT02b | `preliminary/research/extraction/ch02-c01-c04-c08-c13--source-audit.md` | documentation | remain-preliminary | extracted | Remaining Ch. 2 claims |
 | G-REV | `preliminary/drafts-chapters/reviews/README.md` | documentation | remain-preliminary | promoted | Voice-review stream |
-| G-R02 | `preliminary/drafts-chapters/reviews/ch02-structural-and-voice-review.md` | documentation | remain-preliminary | extracted | Review only; draft not overwritten |
+| G-R02 | `preliminary/drafts-chapters/reviews/ch02-structural-and-voice-review.md` | documentation | remain-preliminary | extracted | Review of archival draft only |
+| G-R02b | `preliminary/drafts-chapters/reviews/ch02-curated-02-first-environment--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated `chapters/02-first-environment.md` |
+| G-T03 | `preliminary/triage/ch03-great-transition--triage.md` | documentation | remain-preliminary | triage-ready | Ch. 3 extraction plan |
+| G-T04 | `preliminary/triage/ch04-regulatory-relationship--triage.md` | documentation | remain-preliminary | triage-ready | Ch. 4 extraction plan |
 | G-T14 | `preliminary/triage/ch14-what-actually-works--triage.md` | documentation | remain-preliminary | unreviewed | Promotion blocker: 29 `:contentReference` leftovers |
 
 ## Chapter 1 — Before the Child Is Born
@@ -68,7 +72,7 @@ Window: newborn through first year (co-regulation, sleep, feeding, attachment). 
 
 | ID | Path | Type | Destination | Status | Overlap / notes |
 |---|---|---|---|---|---|
-| C04-D1 | `research/Chapter 4 — The Regulatory Relationship.docx` | research-dossier | `evidence-cards/` + `chapters/` | unreviewed | Overlaps existing cards: sleep training, responsive caregiving/attachment. Canonical seed: `chapters/02-regulatory-relationship.md`. |
+| C04-D1 | `research/Chapter 4 — The Regulatory Relationship.docx` | research-dossier | `evidence-cards/` + `chapters/` | unreviewed | Overlaps existing cards: sleep training, responsive caregiving/attachment. Canonical seed: `chapters/04-regulatory-relationship.md`. |
 | C04-S1 | `research/The Regulatory Relationship_ The Relational Foundation of Human Development.docx` | synthesis | remain-preliminary | unreviewed | Alternate; keep until compared with C04-D1. |
 | C04-D | `drafts-chapters/chapter 4` | chapter-draft | `chapters/` | unreviewed | Extensionless markdown. |
 
@@ -207,7 +211,16 @@ Window: preconception through age 3. Domains: all five.
 | `prenatal-maternal-stress-anxiety.md` | 2 | Reconciled (C06); still `status: draft` |
 | `prenatal-auditory-learning.md` | 2 | Source-audited (C05); still `status: draft` |
 | `prenatal-folate-ntd.md` | 2 | Source-audited (C07); still `status: draft` |
-| `infant-sleep-training.md` | 4 | Wait for Ch. 4 triage |
+| `prenatal-developmental-timing.md` | 2 | Source-audited (C01); still `status: draft` |
+| `placenta-as-mediator.md` | 2 | Source-audited (C02); still `status: draft` |
+| `prenatal-neural-construction.md` | 2 | Source-audited (C03); still `status: draft` |
+| `fetal-autonomic-maturation.md` | 2 | Source-audited (C04); still `status: draft` |
+| `prenatal-iodine-thyroid.md` | 2 | Source-audited (C08); still `status: draft` |
+| `prenatal-alcohol-fasd.md` | 2 | Source-audited (C09); still `status: draft` |
+| `prenatal-tobacco-birthweight.md` | 2 | Source-audited (C10); still `status: draft` |
+| `prenatal-environmental-mixtures.md` | 2 | Source-audited (C11); still `status: draft` |
+| `fetal-growth-not-destiny.md` | 2 | Source-audited (C12); C13 held here; still `status: draft` |
+| `infant-sleep-training.md` | 4 | Ch. 4 triage begun; do not re-extract |
 | `responsive-caregiving-attachment-interventions.md` | 4 | Wait for Ch. 4 triage |
 | `breastfeeding-cognitive-development.md` | 4 / 5 | Feeding is Ch. 4 adjacent; cognition Ch. 5 |
 | `screen-time-language-development.md` | 7 | Wait for Ch. 7 |
@@ -219,5 +232,5 @@ Window: preconception through age 3. Domains: all five.
 
 - Research/synthesis/plan files: 31
 - Chapter drafts: 15
-- Documentation/governance (including this file): 13
+- Documentation/governance (including this file): 17
 - Exact byte-identical duplicates: none found. Near-duplicates: C02-P1 ~ C02-S1; several ~3 MB chapter syntheses that likely embed media.

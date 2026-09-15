@@ -4,9 +4,18 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 
 # Evidence Cards
 
+* [Prenatal Developmental Timing](prenatal-developmental-timing.md) - Process-specific windows; pregnancy is not a single exposure period.
+* [The Placenta Mediates Fetal Dose](placenta-as-mediator.md) - Maternal exposure is not fetal dose; 11β-HSD2 is a real, incomplete glucocorticoid buffer.
+* [Prenatal Neural Construction](prenatal-neural-construction.md) - Human cortex is unfinished at birth; structure is not a personality forecast.
+* [Fetal Autonomic Maturation](fetal-autonomic-maturation.md) - Fetal HRV indexes present maturation, not temperament destiny.
 * [Prenatal Maternal Stress and Anxiety](prenatal-maternal-stress-anxiety.md) - Observational prenatal stress/anxiety associations largely attenuate under genetically informed designs.
 * [Prenatal Auditory Discrimination and Newborn Preference](prenatal-auditory-learning.md) - Late-pregnancy speech exposure can shape newborn preference; not lasting cognitive advantage.
 * [Periconceptional Folic Acid and Neural-Tube Defects](prenatal-folate-ntd.md) - RCTs/Cochrane: folic acid substantially reduces NTD risk; not a general IQ claim.
+* [Prenatal Iodine and Maternal T4](prenatal-iodine-thyroid.md) - Severe early iodine deficiency can injure the developing brain; mild replete-population claims are weaker.
+* [Prenatal Alcohol and FASD](prenatal-alcohol-fasd.md) - Causal teratology continuum; detected exposure is not a diagnosis.
+* [Maternal Tobacco and Fetal Growth](prenatal-tobacco-birthweight.md) - Dose-related birthweight/preterm associations; not an IQ card.
+* [Prenatal Environmental Mixtures](prenatal-environmental-mixtures.md) - Selected phthalate–placenta associations; not proven permanent child injury.
+* [Fetal Growth Is Not Destiny](fetal-growth-not-destiny.md) - INTERGROWTH standards measure size; percentile is not character.
 * [Breastfeeding and Cognitive Development](breastfeeding-cognitive-development.md) - PROBIT RCT and sibling comparisons show a small, fading, verbal-concentrated effect.
 * [Early Childcare Quality and Development](early-childcare-quality.md) - NICHD SECCYD cohort: modest quality-cognition links; parenting predicts more.
 * [Screen Time and Language Development](screen-time-language-development.md) - Weak-to-moderate observational associations, decomposed by content/co-use/context.

@@ -34,16 +34,16 @@ Conception through birth: preimplantation, embryonic organogenesis, fetal growth
 
 ## 4. Existing KB overlap
 
-Three live cards: `prenatal-maternal-stress-anxiety.md` (C06, reconciled), `prenatal-auditory-learning.md` (C05), `prenatal-folate-ntd.md` (C07). Remaining claims C01–C04 and C08–C13 still need source audit. Do not move any card to `stable` until that audit lands in `SOURCES.md`.
+C01–C12 now have draft cards in `evidence-cards/`. C13 is interpretive continuity on the growth card. Do not move any card to `stable` in this wave. Curated chapter: `chapters/02-first-environment.md`.
 
 ## 5. Extraction order
 
 1. Inventory and overlaps (done)
-2. Source-audit the existing stress card (C06) — done; YAML `confidence` aligned
+2. Source-audit the existing stress card (C06) — done
 3. Folate/NTD (C07) and auditory learning (C05) — done
-4. Next: placenta / timing / neural construction / autonomic maturation (C01–C04)
-5. Iodine, alcohol/FASD, tobacco (C08–C10)
-6. Environmental mixtures and growth last (weakest identification)
+4. Placenta / timing / neural construction / autonomic maturation (C01–C04) — done
+5. Iodine, alcohol/FASD, tobacco (C08–C10) — done
+6. Mixtures and growth (C11–C12) — done; C13 held on C12
 
 ## 6. Prohibited inferences
 
@@ -59,8 +59,7 @@ From C02-D1 / C02-S1 prohibited-inference registers:
 
 ## 7. Promotion blockers
 
-- Remaining dossier references (C01–C04, C08–C13) are mostly snippet titles, not DOI/PMID
-- DeCasper & Spence (1986) is now in `SOURCES.md`; INTERGROWTH-21st still is not
-- Working TOC is 15 chapters; seed `01-first-environment.md` is a sketch for this chapter
-- Draft contains `:contentReference` leftovers (strip only on a curated copy)
-- No card may move from `status: draft` to `stable` until remaining claims are audited
+- C01–C12 source-audited into draft cards; C13 interpretive on the growth card
+- Working TOC Chapter 2 curated copy is `chapters/02-first-environment.md`; archival draft unchanged
+- Seed sketch remains `chapters/01-first-environment.md`
+- No card may move from `status: draft` to `stable` until a later replication/bias re-audit

@@ -18,5 +18,7 @@ A longitudinal evidence atlas of developmental science, spanning approximately o
 * [CONTRIBUTING](CONTRIBUTING.md) - Evidence-evaluation methodology: identification strength, certainty grading, bias/confounding rules.
 * [CHANGELOG](CHANGELOG.md) - Human-facing narrative version history of the knowledge base.
 * [Repository Digest](REPO_DIGEST.md) - Map of canonical vs staging layers, current inventory, chapter numbering, and known gaps.
+* [Chapter Outline](chapters/_OUTLINE.md) - Working 15-chapter TOC.
+* [Chapter 2 — The First Environment](chapters/02-first-environment.md) - Curated, voice-checked proof-of-voice chapter.
 * [Corpus Manifest](preliminary/MANIFEST.md) - Inventory of every preliminary file, overlaps, and promotion destinations.
 * [Chapter 2 Evidence Map](preliminary/research/extraction/ch02-first-environment--evidence-map.md) - First extraction test: 13 claims grouped into likely cards, with source and causal labels.

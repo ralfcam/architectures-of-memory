@@ -1,4 +1,6 @@
-# Chapter 02 — The Regulatory Relationship (Seed Outline)
+# Chapter 04 — The Regulatory Relationship (Seed Outline)
+
+Working TOC Chapter 4. Relocated from `chapters/02-regulatory-relationship.md` so the filename matches the 15-chapter sequence. This remains a 10-step sketch, not a promoted chapter.
 
 ## 1. Phenomenon
 A baby cries. A parent picks them up. The crying stops.

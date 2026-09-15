@@ -1,7 +1,26 @@
+---
+type: Evidence Card
+title: "[Topic Name]"
+description: "[One-sentence narrowest claim.]"
+tags: [pregnancy]
+status: draft
+confidence: [high | moderate | low | very-low | compound-grade]
+generated: { by: agent:cursor, at: 2026-09-15T18:00:00Z }
+stale_after: 2027-03-15T00:00:00Z
+# Optional when the card anchors a chapter (CONTRIBUTING.md):
+# atlas_domains: [pregnancy, regulation]
+# chapter_hooks: [anomaly, mechanism, boundary]
+sources:
+  - id: example-source-id
+    resource: https://example.org/paper
+    title: "Author (year), short title"
+---
+
 # [Topic Name]
 
 > Domain: [preconception / pregnancy / birth / responsive caregiving / attachment / sleep / feeding / language / play / stress / childcare / screens / executive function / self-regulation / early learning / social development]
 > Last updated: [YYYY-MM-DD]
+> Status: Draft (source-audited first pass unless noted)
 
 ## What We Know
 
@@ -23,7 +42,7 @@
 
 ## Bias, Heterogeneity, and Confounding
 
-[Main alternative explanations; subgroup variation by SES, family structure, culture, baseline risk, child characteristics; attenuation in genetically informed designs, classified as largely confounded (>50%), partially confounded (20-50%), or robust (<20%).]
+[Main alternative explanations; subgroup variation; attenuation in genetically informed designs, classified as largely confounded (>50%), partially confounded (20-50%), or robust (<20%).]
 
 ## What Remains Uncertain
 

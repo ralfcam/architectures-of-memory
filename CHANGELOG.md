@@ -18,12 +18,14 @@ Entry types:
 - Added the preliminary corpus governance layer: `preliminary/MANIFEST.md` (inventory of every uploaded file), naming convention for future curated copies (originals not renamed), `triage/` (Part I sequence plus Ch. 1–2 notes), `research/extraction/` (atomic-claim pipeline and Chapter 2 Evidence Map), and `drafts-chapters/reviews/` (voice review kept separate from draft text).
 - Adopted the 15-chapter draft sequence as the working TOC in `chapters/_OUTLINE.md`; kept seed outlines as sketches for draft Ch. 2 and 4.
 - Added `SPEC.md` as a pointer to the external OKF v0.2 specification.
-- Added Chapter 14 triage note listing `:contentReference` leftovers as a promotion blocker (archival draft not overwritten).
+- Synced `evidence-cards/_TEMPLATE.md` with live OKF frontmatter (`type`, `title`, `description`, `tags`, `status`, `confidence`, `generated`, `stale_after`, `sources`; optional `atlas_domains` / `chapter_hooks`).
+- Added Chapter 3 and Chapter 4 triage notes (Part I). Archival drafts not overwritten.
+- Promoted a curated, voice-checked Chapter 2 to `chapters/02-first-environment.md`. Relocated the regulatory seed sketch to `chapters/04-regulatory-relationship.md`. Archival `preliminary/drafts-chapters/chapter 2` unchanged.
 
 ### Added
 - Populated evidence-cards/ with 8 preliminary evidence cards (prenatal maternal stress/anxiety, breastfeeding and cognitive development, early childcare quality, screen time and language development, responsive caregiving and attachment interventions, infant sleep training, self-regulation/delay of gratification, preschool early education RCTs) plus an index.
 - Source-audited Chapter 2 claims C05 and C07: added `prenatal-auditory-learning.md` and `prenatal-folate-ntd.md`.
-- Reconciled CH02-C06: aligned prenatal-stress card YAML `confidence` with the in-body Low-to-Moderate grade.
+- Source-audited remaining Chapter 2 claims C01–C04 and C08–C12: added timing, placenta, neural-construction, fetal-autonomic, iodine, FASD, tobacco-growth, mixtures, and fetal-growth cards. C13 held as interpretive continuity on the growth card.
 
 ### Revised
 - Aligned YAML `confidence` on all eight first-pass cards with in-body grades (cards remain `status: draft`).

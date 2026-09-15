@@ -65,9 +65,9 @@ REPO_DIGEST.md            This map
 CONTRIBUTING.md           Evidence-card methodology
 CHANGELOG.md              Knowledge-base version history
 COMPOSITION.md            Book compositional grammar
-SOURCES.md                Master source catalog (34 verified; 12 first-pass citations resolved)
-evidence-cards/           10 draft cards + template + index
-chapters/                 Working 15-chapter TOC + 2 seed chapter outlines
+SOURCES.md                Master source catalog (46 verified)
+evidence-cards/           19 draft cards + template + index
+chapters/                 Working 15-chapter TOC; curated Ch. 2; seed sketches for Ch. 2 and 4
 style/                    Voice/style constraints for manuscript prose
 preliminary/              Staging area (research notes + chapter drafts)
 ```
@@ -80,13 +80,12 @@ There is no `.cursor/`, `package.json`, Dockerfile, or test suite. `SPEC.md` exi
 
 ### Adding or revising an evidence card
 
-1. Copy `evidence-cards/_TEMPLATE.md`.
-2. Add OKF v0.2 frontmatter (`type`, `title`, `description`, `tags`, `status`, `generated`, `stale_after`, `sources`). The template body does **not** currently include frontmatter; existing cards are the working example.
-3. Keep the body to ~200–400 words unless deeper analysis is warranted.
-4. If the card anchors a chapter, CONTRIBUTING also asks for `atlas_domains` and `chapter_hooks` in frontmatter. **No current card has these fields.**
-5. List the card in `evidence-cards/index.md`.
-6. Register every source in `SOURCES.md` in the same commit (verified table + frontmatter `sources` array, or Unresolved Citations).
-7. Log the change in `CHANGELOG.md` under `[Unreleased]` as Added / Revised / Retracted / Structure.
+1. Copy `evidence-cards/_TEMPLATE.md` (OKF frontmatter is in the template).
+2. Keep the body to ~200–400 words unless deeper analysis is warranted.
+3. If a card anchors a chapter, CONTRIBUTING also asks for `atlas_domains` and `chapter_hooks`. New Chapter 2 cards have these fields; most first-pass cards still do not.
+4. List the card in `evidence-cards/index.md`.
+5. Register every source in `SOURCES.md` in the same commit (verified table + frontmatter `sources` array, or Unresolved Citations).
+6. Log the change in `CHANGELOG.md` under `[Unreleased]` as Added / Revised / Retracted / Structure.
 
 ### Promoting a chapter
 
@@ -94,9 +93,10 @@ There is no `.cursor/`, `package.json`, Dockerfile, or test suite. `SPEC.md` exi
 2. Run `style/voice-checklist.md` (all boxes must pass).
 3. Avoid phrases in `style/forbidden-phrases.md`.
 4. Calibrate claim strength to certainty grades using `COMPOSITION.md` Appendix A.
-5. Move into `chapters/` using kebab-case numbered filenames (`01-first-environment.md`).
+5. Write a curated copy into `chapters/` (do not overwrite archival drafts).
 6. Link relevant evidence cards.
-7. Log in `CHANGELOG.md`.
+7. Write a review note in `preliminary/drafts-chapters/reviews/`.
+8. Log in `CHANGELOG.md`.
 
 ### Evidence rules that override prose instincts
 
@@ -120,7 +120,9 @@ Certainty grades: High / Moderate / Low / Very Low.
 
 OKF bundle root: `index.md` (`okf_version: "0.2"`).
 
-Ten cards, all `status: draft`. The eight first-pass cards plus two Chapter 2 cards (C05 auditory, C07 folate). YAML `confidence` is aligned with in-body grades. Cards still need full replication search, formal bias review, and a `stable` status before promotion into the manuscript.
+Nineteen cards, all `status: draft`. YAML `confidence` is aligned with in-body grades. Cards still need replication search and formal bias review before `stable`. See `evidence-cards/index.md` for the full list. Chapter 2 now has draft cards for C01–C12.
+
+The eight first-pass cards plus C05/C07 remain as in the previous digest table. New Chapter 2 cards: `prenatal-developmental-timing.md`, `placenta-as-mediator.md`, `prenatal-neural-construction.md`, `fetal-autonomic-maturation.md`, `prenatal-iodine-thyroid.md`, `prenatal-alcohol-fasd.md`, `prenatal-tobacco-birthweight.md`, `prenatal-environmental-mixtures.md`, `fetal-growth-not-destiny.md`.
 
 | File | Domain | YAML / in-body grade | Narrowest current claim |
 |---|---|---|---|
@@ -144,13 +146,13 @@ From `evidence-cards/index.md` "Not Yet Started":
 - Play (unstructured/free play, pretend play, outdoor play)
 - Social development beyond attachment (peers, siblings, daycare socialization)
 
-Priority domains in `README.md` that still lack cards include preconception, birth, play, and several feeding/language/stress subtopics beyond the ten current cards.
+Priority domains in `README.md` that still lack cards include preconception, birth, play, and several feeding/language/stress subtopics beyond the nineteen current cards.
 
 ### Sources
 
 `SOURCES.md` is the catalog of record:
 
-- **34 verified** resources with URLs, mirrored in the file's OKF `sources` array
+- **46 verified** resources with URLs, mirrored in the file's OKF `sources` array
 - **12 first-pass unresolved citations resolved** (two were already in the verified table; two titles were corrected to the matching papers). Resolution log lives under Unresolved Citations.
 - Catalog itself is `status: draft`; retraction/predatory-journal audit has not been done
 
@@ -162,12 +164,13 @@ Priority domains in `README.md` that still lack cards include preconception, bir
 
 ### Seed sketches (still useful as 10-step checklists)
 
-`chapters/01-first-environment.md` and `chapters/02-regulatory-relationship.md` are short outlines, not prose. They map to **draft Chapters 2 and 4**.
+`chapters/01-first-environment.md` is a 10-step sketch. `chapters/02-first-environment.md` is the curated proof-of-voice chapter. `chapters/04-regulatory-relationship.md` is the Ch. 4 seed sketch (relocated from `02-regulatory-relationship.md`).
 
 | Canonical file | Maps to working TOC | Status |
 |---|---|---|
-| `chapters/01-first-environment.md` | Draft Ch. 2, *The First Environment* | Seed outline (~270 words); links C05/C06/C07 cards |
-| `chapters/02-regulatory-relationship.md` | Draft Ch. 4, *The Regulatory Relationship* | Seed outline (~250 words) |
+| `chapters/01-first-environment.md` | Draft Ch. 2, *The First Environment* | Seed outline; not the promoted chapter |
+| `chapters/02-first-environment.md` | Working TOC Ch. 2 | Curated, voice-checked; archival draft untouched |
+| `chapters/04-regulatory-relationship.md` | Draft Ch. 4, *The Regulatory Relationship* | Seed outline; not promoted |
 
 `COMPOSITION.md` Appendix B target: 2,500–4,000 words per finished chapter.
 
@@ -269,10 +272,10 @@ The repo was initialized 2026-09-14 (KB structure, 8 evidence cards, OKF retrofi
 
 ## 10. Known gaps and agent hazards
 
-1. **Working TOC is 15 chapters.** See `chapters/_OUTLINE.md`. Seed files `01-first-environment.md` and `02-regulatory-relationship.md` are sketches for draft Ch. 2 and 4.
+1. **Working TOC is 15 chapters.** See `chapters/_OUTLINE.md`. Seed sketches: `01-first-environment.md` (Ch. 2) and `04-regulatory-relationship.md` (Ch. 4). Curated Ch. 2: `02-first-environment.md`.
 2. **Chapter 6 is thin** (~1,600 words vs ~4k+ peers) and may be incomplete.
-3. **`_TEMPLATE.md` is behind the live cards.** It lacks OKF frontmatter, `status`, `sources`, and `stale_after`.
-4. **`atlas_domains` / `chapter_hooks` are specified but unused** on most cards.
+3. **`_TEMPLATE.md` now has OKF frontmatter.** Keep it in sync when live-card fields change.
+4. **`atlas_domains` / `chapter_hooks`** are on the new Chapter 2 cards; most first-pass cards still omit them.
 5. **Draft citation artifacts.** `chapter 14` has 29 `:contentReference[oaicite:…]` leftovers; listed as a promotion blocker in `preliminary/triage/ch14-what-actually-works--triage.md`. Do not overwrite the archival draft.
 6. **Binary research files.** Most of `preliminary/research/` is `.docx`; grep/search will miss them.
 7. **No retraction audit** on the source catalog.
@@ -283,18 +286,17 @@ The repo was initialized 2026-09-14 (KB structure, 8 evidence cards, OKF retrofi
 
 ## 11. Suggested next work
 
-Done in the 2026-09-15 source-audit package: C05/C07 cards, C06 frontmatter reconcile, 12 `SOURCES.md` resolutions, 15-chapter TOC, YAML/body grade alignment, `SPEC.md` pointer, Chapter 14 promotion-blocker note.
+Done in this package: remaining Chapter 2 claims C01–C12 as draft cards; `_TEMPLATE.md` synced; Ch. 3 and Ch. 4 triage begun; curated Chapter 2 promoted with a voice-review note.
 
 Highest-leverage remaining knowledge-base work:
 
-- Source-audit remaining Chapter 2 claims C01–C04 and C08–C13 (timing, placenta, neural construction, autonomic maturation, iodine, alcohol, tobacco, growth).
-- Audit the remaining first-pass cards after their chapters reach triage (sleep/attachment wait for Ch. 4).
-- Sync `_TEMPLATE.md` with live OKF frontmatter.
+- Source-audit Chapter 3 transition physiology and Chapter 4 co-regulation (sleep/attachment cards already exist; do not re-extract).
+- Replication/bias re-audit before any card moves to `stable`.
 
 Highest-leverage remaining manuscript work:
 
-- Normalize remaining draft filenames (spaces, mixed case, missing `.md`) on **curated copies only**.
-- Voice-check and promote one proof-of-voice chapter into `chapters/` only after linked cards are audited.
+- Normalize remaining draft filenames on **curated copies only**.
+- Voice-check Chapter 3 only after its linked cards exist.
 - Finish Chapter 6 (`The Mind in Motion`).
 
 ---

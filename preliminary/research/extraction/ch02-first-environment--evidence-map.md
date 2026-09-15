@@ -2,7 +2,7 @@
 
 First full-system test of the extraction pipeline: raw dossier → atomic claims → likely cards → source/causal labels → manuscript links.
 
-This file started as a map that did **not** create cards. C05 and C07 have since been source-audited into cards; C06 was reconciled. Original uploads stay where they are.
+This file started as a map that did **not** create cards. C01–C12 now have source-audited draft cards; C05–C07 came in the previous package. Original uploads stay where they are.
 
 Related: [Ch. 2 triage](../../triage/ch02-first-environment--triage.md) · [draft](../../drafts-chapters/chapter%202) · [seed outline](../../../chapters/01-first-environment.md) · [existing stress card](../../../evidence-cards/prenatal-maternal-stress-anxiety.md) · [voice review](../../drafts-chapters/reviews/ch02-structural-and-voice-review.md)
 
@@ -17,7 +17,7 @@ Related: [Ch. 2 triage](../../triage/ch02-first-environment--triage.md) · [draf
 | C02-P1 | `preliminary/research/Prenatal Biology Research Plan.docx` | Same byte size as C02-S1, different hash; opening title matches C02-S1. Treat as duplicate/alternate. |
 | C02-D | `preliminary/drafts-chapters/chapter 2` | Long prose draft (~4,300 words). |
 | Seed | `chapters/01-first-environment.md` | 10-step seed outline. **Numbering collision:** seed Chapter 1 = this Chapter 2. |
-| Live cards | `prenatal-maternal-stress-anxiety.md` (C06), `prenatal-auditory-learning.md` (C05), `prenatal-folate-ntd.md` (C07) | C05/C07 source-audited; C06 frontmatter reconciled. All still `status: draft`. |
+| Live cards | C01–C12 now have draft cards; C05–C07 from the previous package | C13 held on the growth card. All still `status: draft`. |
 
 Do not extract C02-S1 as a second independent source of truth. Use it to recover named studies (DeCasper & Spence; INTERGROWTH-21st; SEPAGES; Bystron; Seckl/11β-HSD2) that C02-D1 cites more vaguely.
 
@@ -37,9 +37,9 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Designs | Developmental-biology sequence evidence; human embryo/gastrulation reviews; limited direct human observation. |
 | Effect / persistence | No universal effect size. Unit is exposure × window × process × outcome. Persistence must be measured separately. |
 | Threats | Model-system translation; sparse human observation; selection into ART cohorts; mis-timed exposure. |
-| Sources (unverified) | C02-D1 refs on peri-implantation/gastrulation (snippet titles only). Need DOI/PMID. |
+| Sources | Ujházy et al. 2012 PMC3600518 (Wilson principles). |
 | Manuscript role | `mechanism` + `boundary` (sensitive ≠ inevitable-injury). |
-| Label | `needs-source-audit` |
+| Label | `promote` — card `evidence-cards/prenatal-developmental-timing.md` |
 | Likely card | `prenatal-developmental-timing` |
 
 ### CH02-C02 — Placenta mediates fetal dose
@@ -52,9 +52,9 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Designs | Anatomical/physiological reviews; placental enzymology; delivery-sampled tissue (timing bias). |
 | Effect / persistence | A placental biomarker is not evidence of lasting impairment. |
 | Threats | Placenta sampled at birth; reverse causation; maternal–fetal genotype confounding. |
-| Sources (unverified) | Burton 2015 placenta review (PMC, cited in C02-D1); 11β-HSD2 PubMed entries in C02-S1. |
+| Sources | Burton & Fowden 2015 PMC4305167; Seckl & Holmes 2007 DOI `10.1038/ncpendmet0515`. |
 | Manuscript role | `mechanism` |
-| Label | `needs-source-audit` |
+| Label | `promote` — card `evidence-cards/placenta-as-mediator.md` |
 | Likely card | `placenta-as-mediator` (merge dossier cards 2 and 10) |
 
 ### CH02-C03 — Prenatal neural construction is unfinished at birth
@@ -67,9 +67,9 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Designs | Developmental neurobiology; human imaging; postmortem/clinical series; animal models for lamination. |
 | Effect / persistence | Do not collapse structure, connectivity, cognition, and mental health. |
 | Threats | Indirect fetal imaging; clinical-sample selection; postnatal confounding of later outcomes. |
-| Sources (unverified) | Bystron et al. on human cortical development (named in C02-S1). |
+| Sources | Bystron, Blakemore & Rakic 2008 PMID 18209730. |
 | Manuscript role | `mechanism` |
-| Label | `needs-source-audit` |
+| Label | `promote` — card `evidence-cards/prenatal-neural-construction.md` |
 | Likely card | `prenatal-neural-construction` |
 
 ### CH02-C04 — Fetal autonomic behavior indexes present maturation, not future temperament
@@ -82,9 +82,9 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Designs | Longitudinal fetal neurobehavior cohorts; observational HRV studies. |
 | Effect / persistence | Primary outcomes are now-measures. Later associations = prediction, not a persistent fetal trait. |
 | Threats | Indirect measurement; fetal state and maternal movement; publication bias toward striking findings. |
-| Sources (unverified) | C02-D1 “Studies in Fetal Behavior”; Pollatou 2024 mapping paper. |
+| Sources | DiPietro et al. 2015 PMC4835043; Pollatou et al. 2024 PMC11140686. |
 | Manuscript role | `mechanism` + `boundary` |
-| Label | `needs-source-audit` |
+| Label | `promote` — card `evidence-cards/fetal-autonomic-maturation.md` |
 | Likely card | `fetal-autonomic-maturation` |
 
 ### CH02-C05 — Prenatal auditory discrimination is not “prenatal learning” as popularly sold
@@ -142,9 +142,9 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Designs | Physiological necessity; clinical/endemic-deficiency evidence; observational milder-deficiency studies. |
 | Effect / persistence | Severe deficiency: large, lasting neurological injury. Mild deficiency: smaller, more contested. |
 | Threats | Population iodine status; over-translation of endemic data to replete settings. |
-| Sources (unverified) | C02-S1 iodine/neurodevelopment PMC links. |
+| Sources | Zimmermann et al. 2008 *Lancet*; Morreale de Escobar et al. 2004. |
 | Manuscript role | `mechanism` + `anomaly` (timing) |
-| Label | `needs-source-audit` |
+| Label | `promote` — card `evidence-cards/prenatal-iodine-thyroid.md` |
 | Likely card | `prenatal-iodine-thyroid` (keep separate from C07) |
 
 ### CH02-C09 — Prenatal alcohol can disrupt development across stages (FASD)
@@ -157,9 +157,9 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Designs | Clinical teratology; dose-range observational and clinical series. |
 | Effect / persistence | Severity is dose- and timing-dependent; persistence is often substantial for FASD, not for unmeasured low-level exposure. |
 | Threats | Exposure measurement; polysubstance confounding; stigma-driven underreport. |
-| Sources (unverified) | C02-D1 FASD review snippets. |
+| Sources | Hoyme et al. 2016 PMC4960726. |
 | Manuscript role | `evidence` |
-| Label | `needs-source-audit` |
+| Label | `promote` — card `evidence-cards/prenatal-alcohol-fasd.md` |
 | Likely card | `prenatal-alcohol-fasd` (teratogen family) |
 
 ### CH02-C10 — Maternal tobacco smoke is associated with reduced fetal growth, with dose-response evidence
@@ -172,9 +172,9 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Designs | Observational epidemiology with dose-response; not genetically informed in the dossier. |
 | Effect / persistence | Birth-size effects better supported than long-run cognition. |
 | Threats | SES, co-exposures, partner smoking, residual confounding. |
-| Sources (unverified) | C02-D1 tobacco/stunting and active/passive smoking snippets. |
+| Sources | Kramer 1987 PMC2491072. |
 | Manuscript role | `evidence` |
-| Label | `needs-source-audit` |
+| Label | `promote` — card `evidence-cards/prenatal-tobacco-birthweight.md` |
 | Likely card | `prenatal-tobacco-birthweight` (same teratogen family as C09, separate claim) |
 
 ### CH02-C11 — Environmental mixtures (PM2.5, phthalates) are plausible but weakly identified for child outcomes
@@ -187,9 +187,9 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Designs | Environmental epidemiology; mixture models; mechanistic oxidative-stress work. |
 | Effect / persistence | Uncertain fetal dose, thresholds, reversibility. |
 | Threats | Multiple-exposure bias; SES; residential confounding; mechanism-to-outcome leap. |
-| Sources (unverified) | SEPAGES / Philippat work named in C02-S1. |
+| Sources | Philippat et al. 2024 PMC11057944 (SEPAGES). |
 | Manuscript role | `boundary` + `system` (institutional, not parental purity) |
-| Label | `needs-source-audit` |
+| Label | `promote` — card `evidence-cards/prenatal-environmental-mixtures.md` (Low) |
 | Likely card | `prenatal-environmental-mixtures` |
 
 ### CH02-C12 — Fetal growth restriction is a clinical outcome, not a destiny
@@ -202,9 +202,9 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Designs | Placental physiology; longitudinal growth follow-up; INTERGROWTH-21st standards vs regional references (measurement, not destiny). |
 | Effect / persistence | Distinguish percentile difference, functional difference, and impairment. |
 | Threats | Dating error; constitutional smallness; collider/selection; postnatal nutrition. |
-| Sources (unverified) | INTERGROWTH-21st; catch-up growth follow-ups in C02-D1. |
+| Sources | Papageorghiou et al. 2014 INTERGROWTH-21st DOI `10.1016/S0140-6736(14)61490-2`. |
 | Manuscript role | `boundary` + `system` |
-| Label | `needs-source-audit` |
+| Label | `promote` — card `evidence-cards/fetal-growth-not-destiny.md` |
 | Likely card | `fetal-growth-not-destiny` |
 
 ### CH02-C13 — Prenatal differences can attenuate, persist, or change form after birth
@@ -217,9 +217,9 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Designs | Longitudinal follow-up; canalization literature (named in C02-S1). |
 | Effect / persistence | Persistence must be measured, not assumed. |
 | Threats | Attrition; regression to the mean; differential postnatal opportunity. |
-| Sources (unverified) | C02-D1 catch-up papers; canalization review. |
+| Sources | Continuity held on the C12 card; no separate canalization ID. |
 | Manuscript role | `system` + `boundary` (prenatal-to-postnatal continuity) |
-| Label | `needs-source-audit` |
+| Label | `interpretive-only` as a standalone card; sentence lives on `fetal-growth-not-destiny.md` |
 | Likely card | `prenatal-postnatal-continuity` |
 
 ### Not extracted as standalone cards
@@ -252,23 +252,11 @@ That is 11 filenames if alcohol and tobacco stay split, plus continuity. If grou
 
 ---
 
-## 4. Source-resolution queue (not yet in `SOURCES.md`)
+## 4. Source-resolution queue
 
-Priority for the next extraction commit, not done here:
+C01–C12 now have verified IDs in `SOURCES.md`. Remaining named-but-unregistered items from the original queue: none required for this wave. Fetal circulation stays `interpretive-only`. C13 is interpretive continuity on the growth card.
 
-1. DeCasper & Spence 1986 — prenatal story/voice preference
-2. Burton GJ 2015 — placenta as multifaceted organ (PMC)
-3. Bystron, Blakemore, Rakic (or successor) — human cortical development
-4. WHO antenatal care recommendations; folate NTD systematic review (need the five-trial paper behind RR 0.31)
-5. INTERGROWTH-21st fetal growth standards
-6. FASD neurobehavioral review named in C02-D1
-7. Tobacco/low-birthweight dose-response paper named in C02-D1
-8. SEPAGES mixture papers (Philippat)
-9. Placental 11β-HSD2 / HSD11B2 epigenetic papers (mechanism for C02 and C06, not a substitute for genetically informed child-outcome evidence)
-
-Existing verified sources already covering C06: `bmc-moba-2025`, `ije-millennium-2017`, `jaacap-meta-2021`, `lancet-psych-2018`.
-
-The 12 first-pass unresolved citations in `SOURCES.md` have been resolved (other live cards, not this map). Remaining Chapter 2 work is C01–C04 and C08–C13.
+Existing verified sources covering C06: `bmc-moba-2025`, `ije-millennium-2017`, `jaacap-meta-2021`, `lancet-psych-2018`.
 
 ---
 
@@ -285,7 +273,7 @@ The 12 first-pass unresolved citations in `SOURCES.md` have been resolved (other
 | System | Draft closing; seed §9 (language, attachment, regulation) | C13 → Ch. 3 and 4 |
 | Return | Draft “Before the First Breath”; seed §10 | C13 |
 
-Canonical seed still lists only the stress card plus “future cards on prenatal auditory exposure, birth, skin-to-skin.” Birth/skin-to-skin belong to **Chapter 3**, not this map.
+Canonical seed sketch still lives at `chapters/01-first-environment.md`. The curated proof-of-voice chapter is `chapters/02-first-environment.md`. Birth/skin-to-skin belong to **Chapter 3**, not this map.
 
 ---
 
@@ -297,7 +285,7 @@ Canonical seed still lists only the stress card plus “future cards on prenatal
 | Atomic claims | 13 claims; 2 interpretive/exclude holds |
 | Card grouping | 10–11 likely cards; not one “prenatal development” card |
 | Causal designs / confounds | Recorded per claim; genetically informed evidence only solid for C06 |
-| Labels | 3 `promote` (C05, C06, C07); remaining C01–C04 and C08–C13 still `needs-source-audit`; several `interpretive-only`/`exclude` |
-| Manuscript link | Seed outline is voice-anomaly-led; long draft is mechanism-led. Voice review captures the gap; draft is not overwritten. |
+| Labels | 12 `promote` (C01–C12); C13 `interpretive-only` (held on C12); fetal circulation `interpretive-only`; supplement maximalism / prenatal personality `exclude` |
+| Manuscript link | Curated `chapters/02-first-environment.md` opens on the voice anomaly; archival draft is unchanged. |
 
-Next concrete extraction step: source-audit remaining Chapter 2 claims C01–C04 and C08–C13 (timing, placenta, neural construction, autonomic maturation, iodine, alcohol, tobacco, growth).
+Next concrete extraction step: Chapter 3 and 4 triage (begun) → source-audit Ch. 3 transition physiology and Ch. 4 co-regulation claims. Do not move cards to `stable` in this wave.

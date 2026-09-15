@@ -1,3 +1,7 @@
+# Chapter 2 seed sketch — The First Environment
+
+This file is a **10-step compositional sketch** for working-TOC Chapter 2. The voice-checked curated chapter is `chapters/02-first-environment.md`. This sketch is not overwritten; it is not the promoted manuscript.
+
 # Chapter 01 — The First Environment (Seed Outline)
 
 ## 1. Phenomenon
@@ -39,7 +43,16 @@ What does prenatal exposure establish? Is it learning, or is it a bias in percep
 The newborn has not changed. The reader now sees the womb not as a sealed chamber but as the first environment in a continuous developmental stream.
 
 ## Linked Evidence Cards
+- `evidence-cards/prenatal-developmental-timing.md`
+- `evidence-cards/placenta-as-mediator.md`
+- `evidence-cards/prenatal-neural-construction.md`
+- `evidence-cards/fetal-autonomic-maturation.md`
 - `evidence-cards/prenatal-maternal-stress-anxiety.md`
 - `evidence-cards/prenatal-auditory-learning.md`
 - `evidence-cards/prenatal-folate-ntd.md`
-- (Future cards on placenta, iodine, teratogens, fetal growth, birth, skin-to-skin)
+- `evidence-cards/prenatal-iodine-thyroid.md`
+- `evidence-cards/prenatal-alcohol-fasd.md`
+- `evidence-cards/prenatal-tobacco-birthweight.md`
+- `evidence-cards/prenatal-environmental-mixtures.md`
+- `evidence-cards/fetal-growth-not-destiny.md`
+- Birth and skin-to-skin belong to Chapter 3.
