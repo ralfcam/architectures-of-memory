@@ -145,6 +145,54 @@ sources:
   - id: philippat-2024-sepages
     resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC11057944/
     title: "Philippat et al. (2024), SEPAGES phenols/phthalates and placenta"
+  - id: morton-2016-transition
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC4987541/
+    title: "Morton & Brodsky (2016), Clin Perinatol, fetal-to-neonatal transition"
+  - id: moore-2016-ssc
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC6464366/
+    title: "Moore, Bergman, Anderson & Medley (2016), Cochrane, early skin-to-skin contact"
+  - id: who-nurturing-care-2018
+    resource: https://www.who.int/publications/i/item/9789241514064
+    title: "WHO, UNICEF & World Bank Group (2018), Nurturing care framework"
+  - id: feldman-2012-synchrony
+    resource: https://doi.org/10.1080/15295192.2012.683342
+    title: "Feldman (2012), Parenting, bio-behavioral synchrony"
+  - id: nelson-2007-beip
+    resource: https://doi.org/10.1126/science.1143921
+    title: "Nelson et al. (2007), Science, Bucharest Early Intervention Project"
+  - id: nelson-2024-beip-overview
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC10977996/
+    title: "Nelson, Fox & Zeanah (2023/2024), Current Directions, BEIP overview"
+  - id: rovee-rovee-1969
+    resource: https://doi.org/10.1016/0022-0965(69)90025-3
+    title: "Rovee & Rovee (1969), JECP, conjugate reinforcement"
+  - id: merz-2017-mobile
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC5716629/
+    title: "Merz et al. (2017), mobile conjugate-reinforcement methods"
+  - id: cuevas-2025-contingency
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC12354038/
+    title: "Cuevas et al. (2025), Infant Behavior & Development, contingency-learning review"
+  - id: werker-tees-1984
+    resource: https://doi.org/10.1016/S0163-6383(84)80022-3
+    title: "Werker & Tees (1984), Infant Behavior and Development, cross-language speech perception"
+  - id: saffran-1996-statistical
+    resource: https://doi.org/10.1126/science.274.5294.1926
+    title: "Saffran, Aslin & Newport (1996), Science, statistical learning by 8-month-old infants"
+  - id: gilkerson-2018-lena
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC6192025/
+    title: "Gilkerson et al. (2018), Pediatrics, language experience in the second year"
+  - id: nap-2017-dll
+    resource: https://doi.org/10.17226/24677
+    title: "National Academies (2017), Promoting the Educational Success of Children and Youth Learning English"
+  - id: zeifman-2017-crying
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC5494986/
+    title: "Zeifman & St James-Roberts (2017), Current Opinion in Psychology, parenting the crying infant"
+  - id: lau-2015-suck-swallow
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC4530609/
+    title: "Lau (2015), Annals of Nutrition and Metabolism, suck and swallow mechanisms"
+  - id: burstein-2024-preterm
+    resource: https://doi.org/10.1037/dev0001844
+    title: "Burstein, Aryeh & Geva (2024), Developmental Psychology, neonatal care and preterm outcomes"
 ---
 
 # Master Source Catalog
@@ -206,6 +254,22 @@ Per `CONTRIBUTING.md`, no source here has been checked for retraction, replicati
 | `kramer-1987-lbw` | Kramer (1987), determinants of low birth weight | [https://pmc.ncbi.nlm.nih.gov/articles/PMC2491072/](https://pmc.ncbi.nlm.nih.gov/articles/PMC2491072/) | [prenatal-tobacco-birthweight](evidence-cards/prenatal-tobacco-birthweight.md) |
 | `papageorghiou-2014-intergrowth` | Papageorghiou et al. (2014), INTERGROWTH-21st fetal growth | [https://doi.org/10.1016/S0140-6736(14)61490-2](https://doi.org/10.1016/S0140-6736(14)61490-2) | [fetal-growth-not-destiny](evidence-cards/fetal-growth-not-destiny.md) |
 | `philippat-2024-sepages` | Philippat et al. (2024), SEPAGES phenols/phthalates and placenta | [https://pmc.ncbi.nlm.nih.gov/articles/PMC11057944/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11057944/) | [prenatal-environmental-mixtures](evidence-cards/prenatal-environmental-mixtures.md) |
+| `morton-2016-transition` | Morton & Brodsky (2016), fetal-to-neonatal transition | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4987541/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4987541/) | [neonatal-cardiopulmonary-transition](evidence-cards/neonatal-cardiopulmonary-transition.md) |
+| `moore-2016-ssc` | Moore et al. (2016), Cochrane early skin-to-skin contact | [https://pmc.ncbi.nlm.nih.gov/articles/PMC6464366/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6464366/) | [skin-to-skin-immediate-physiology](evidence-cards/skin-to-skin-immediate-physiology.md) |
+| `who-nurturing-care-2018` | WHO/UNICEF/World Bank (2018), Nurturing care framework | [https://www.who.int/publications/i/item/9789241514064](https://www.who.int/publications/i/item/9789241514064) | [infant-caregiver-coregulation](evidence-cards/infant-caregiver-coregulation.md) |
+| `feldman-2012-synchrony` | Feldman (2012), bio-behavioral synchrony | [https://doi.org/10.1080/15295192.2012.683342](https://doi.org/10.1080/15295192.2012.683342) | [infant-caregiver-coregulation](evidence-cards/infant-caregiver-coregulation.md) |
+| `nelson-2007-beip` | Nelson et al. (2007), BEIP cognitive outcomes | [https://doi.org/10.1126/science.1143921](https://doi.org/10.1126/science.1143921) | [severe-institutional-deprivation](evidence-cards/severe-institutional-deprivation.md) |
+| `nelson-2024-beip-overview` | Nelson, Fox & Zeanah (2023/2024), BEIP overview | [https://pmc.ncbi.nlm.nih.gov/articles/PMC10977996/](https://pmc.ncbi.nlm.nih.gov/articles/PMC10977996/) | [severe-institutional-deprivation](evidence-cards/severe-institutional-deprivation.md) |
+| `rovee-rovee-1969` | Rovee & Rovee (1969), conjugate reinforcement | [https://doi.org/10.1016/0022-0965(69)90025-3](https://doi.org/10.1016/0022-0965(69)90025-3) | [infant-contingency-learning](evidence-cards/infant-contingency-learning.md) |
+| `merz-2017-mobile` | Merz et al. (2017), mobile-paradigm methods | [https://pmc.ncbi.nlm.nih.gov/articles/PMC5716629/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5716629/) | [infant-contingency-learning](evidence-cards/infant-contingency-learning.md) |
+| `cuevas-2025-contingency` | Cuevas et al. (2025), infant contingency-learning review | [https://pmc.ncbi.nlm.nih.gov/articles/PMC12354038/](https://pmc.ncbi.nlm.nih.gov/articles/PMC12354038/) | [infant-contingency-learning](evidence-cards/infant-contingency-learning.md) |
+| `werker-tees-1984` | Werker & Tees (1984), cross-language speech perception | [https://doi.org/10.1016/S0163-6383(84)80022-3](https://doi.org/10.1016/S0163-6383(84)80022-3) | [infant-perceptual-narrowing](evidence-cards/infant-perceptual-narrowing.md) |
+| `saffran-1996-statistical` | Saffran, Aslin & Newport (1996), statistical learning by 8-month-olds | [https://doi.org/10.1126/science.274.5294.1926](https://doi.org/10.1126/science.274.5294.1926) | [infant-statistical-speech-segmentation](evidence-cards/infant-statistical-speech-segmentation.md) |
+| `gilkerson-2018-lena` | Gilkerson et al. (2018), language experience in the second year | [https://pmc.ncbi.nlm.nih.gov/articles/PMC6192025/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6192025/) | [conversational-turns-language](evidence-cards/conversational-turns-language.md) |
+| `nap-2017-dll` | National Academies (2017), dual-language learners | [https://doi.org/10.17226/24677](https://doi.org/10.17226/24677) | [dual-language-does-not-confuse](evidence-cards/dual-language-does-not-confuse.md) |
+| `zeifman-2017-crying` | Zeifman & St James-Roberts (2017), parenting the crying infant | [https://pmc.ncbi.nlm.nih.gov/articles/PMC5494986/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5494986/) | [infant-crying-as-signal](evidence-cards/infant-crying-as-signal.md) |
+| `lau-2015-suck-swallow` | Lau (2015), suck and swallow mechanisms | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4530609/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4530609/) | [suck-swallow-breathe-coordination](evidence-cards/suck-swallow-breathe-coordination.md) |
+| `burstein-2024-preterm` | Burstein, Aryeh & Geva (2024), preterm cognition meta-analysis | [https://doi.org/10.1037/dev0001844](https://doi.org/10.1037/dev0001844) | [preterm-cognition-group-risk](evidence-cards/preterm-cognition-group-risk.md) |
 
 ## Unresolved Citations
 

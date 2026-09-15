@@ -12,6 +12,13 @@ Entry types:
 ## [Unreleased]
 
 ### Structure
+- Source-audited Chapter 7 language claims into draft cards (perceptual narrowing, statistical segmentation, conversational turns, dual-language). Existing `screen-time-language-development.md` and `prenatal-auditory-learning.md` reconciled, not rewritten. C07-P1 vs C07-S1 hash-compared (not identical).
+- Promoted a curated, voice-checked Chapter 7 to `chapters/07-the-birth-of-language.md` (Appendix B range). Archival `preliminary/drafts-chapters/chapter 7` unchanged.
+- Ran a catalog-wide Crossref/PubMed retraction lookup (`preliminary/research/extraction/catalog-wide-retraction-search.md`). No retraction or expression-of-concern titles among DOI-resolved records. Cochrane updates are new review versions. **No card moved to `status: stable`.**
+- Source-audited remaining Chapter 3 C04/C05/C07 (crying, feeding coordination, preterm group risk). Mode of delivery still held.
+- Source-audited Chapter 3 transition physiology and Chapter 4 co-regulation/deprivation claims into draft cards; C03-P1 vs C03-S1 hash-compared (not identical). Sleep and attachment cards reconciled, not rewritten. Mode of delivery still held.
+- Began a selected-card replication/bias re-audit (`preliminary/research/extraction/selected-cards--replication-bias-reaudit.md`). No card moved to `status: stable`.
+- Finished a curated, voice-checked Chapter 6 expansion at `chapters/06-the-mind-in-motion.md` (Appendix B range). Archival `preliminary/drafts-chapters/chapter 6` unchanged.
 - Initialized repository: README, CONTRIBUTING guide, evidence card template, and directory structure.
 - Added `REPO_DIGEST.md`, a repository map covering the three-layer layout (preliminary workbench, OKF evidence cards, canonical manuscript), current inventories, the 8- vs 15-chapter numbering split, and known gaps. Linked from `index.md` and `README.md`.
 - Renamed `preliminary/drafts-chapters/chapter 16` to `chapter 15` so the filename matches its Chapter 15 heading (*Three Years: What Has Been Built?*).
@@ -26,6 +33,9 @@ Entry types:
 - Populated evidence-cards/ with 8 preliminary evidence cards (prenatal maternal stress/anxiety, breastfeeding and cognitive development, early childcare quality, screen time and language development, responsive caregiving and attachment interventions, infant sleep training, self-regulation/delay of gratification, preschool early education RCTs) plus an index.
 - Source-audited Chapter 2 claims C05 and C07: added `prenatal-auditory-learning.md` and `prenatal-folate-ntd.md`.
 - Source-audited remaining Chapter 2 claims C01–C04 and C08–C12: added timing, placenta, neural-construction, fetal-autonomic, iodine, FASD, tobacco-growth, mixtures, and fetal-growth cards. C13 held as interpretive continuity on the growth card.
+- Source-audited Chapter 3 C02/C06 and Chapter 4 C01/C02: added neonatal-transition, skin-to-skin, co-regulation, and severe-deprivation cards. Added a Chapter 6 contingency-learning card to support the curated expansion.
+- Source-audited Chapter 7 C02/C03/C07–C09: added perceptual-narrowing, statistical-segmentation, conversational-turns, and dual-language cards. Screen-time card reconciled, not rewritten.
+- Source-audited remaining Chapter 3 C04/C05/C07: added crying-as-signal, suck–swallow–breathe, and preterm group-risk cards.
 
 ### Revised
 - Aligned YAML `confidence` on all eight first-pass cards with in-body grades (cards remain `status: draft`).

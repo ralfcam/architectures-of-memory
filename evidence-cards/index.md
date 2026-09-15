@@ -16,6 +16,18 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 * [Maternal Tobacco and Fetal Growth](prenatal-tobacco-birthweight.md) - Dose-related birthweight/preterm associations; not an IQ card.
 * [Prenatal Environmental Mixtures](prenatal-environmental-mixtures.md) - Selected phthalate–placenta associations; not proven permanent child injury.
 * [Fetal Growth Is Not Destiny](fetal-growth-not-destiny.md) - INTERGROWTH standards measure size; percentile is not character.
+* [Neonatal Cardiopulmonary Transition](neonatal-cardiopulmonary-transition.md) - Birth reorganizes gas exchange and circulation; a difficult transition is not a personality forecast.
+* [Early Skin-to-Skin Contact](skin-to-skin-immediate-physiology.md) - Healthy-newborn SSC: moderate for breastfeeding at 1–4 months; low for infant physiology and character.
+* [Infant–Caregiver Co-Regulation](infant-caregiver-coregulation.md) - Bidirectional, context-sensitive regulation; nurturing care is an ecology, not a purity test.
+* [Severe Institutional Deprivation](severe-institutional-deprivation.md) - BEIP: family placement after severe deprivation is not ordinary parenting.
+* [Infant Contingency Learning](infant-contingency-learning.md) - Mobile paradigm: High for action–outcome learning under control; Low for transfer.
+* [Infant Perceptual Narrowing](infant-perceptual-narrowing.md) - First-year phonetic attunement; High in the classic lab; Low as a sealed deadline.
+* [Infant Statistical Speech Segmentation](infant-statistical-speech-segmentation.md) - Saffran 1996: High for laboratory transitional-probability learning; Low for transfer.
+* [Conversational Turns and Later Language](conversational-turns-language.md) - Gilkerson 2018: Moderate prediction from turns, not word counts; Low causation.
+* [Two Languages Do Not Confuse](dual-language-does-not-confuse.md) - NAP 2017: High that dual exposure as such does not confuse; Low automatic cognitive bonus.
+* [Infant Crying as a Signal](infant-crying-as-signal.md) - Graded distress signal; not a one-to-one code for hunger, pain, or parental error.
+* [Suck–Swallow–Breathe Coordination](suck-swallow-breathe-coordination.md) - Oral feeding is maturational coordination; feeding method is not parental worth.
+* [Preterm Birth and Group Cognitive Risk](preterm-cognition-group-risk.md) - 2024 meta-analysis: group SMD about −0.57; not an individual sentence.
 * [Breastfeeding and Cognitive Development](breastfeeding-cognitive-development.md) - PROBIT RCT and sibling comparisons show a small, fading, verbal-concentrated effect.
 * [Early Childcare Quality and Development](early-childcare-quality.md) - NICHD SECCYD cohort: modest quality-cognition links; parenting predicts more.
 * [Screen Time and Language Development](screen-time-language-development.md) - Weak-to-moderate observational associations, decomposed by content/co-use/context.
@@ -27,7 +39,7 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 # Not Yet Started
 
 * Preconception exposures - parental age, paternal contributions, periconceptional nutrition beyond folate.
-* Birth - mode of delivery, birth experience, early skin-to-skin/bonding.
+* Birth - mode of delivery and birth experience (held); skin-to-skin, crying, feeding coordination, and preterm group risk now have cards.
 * Play - unstructured/free play, pretend play, outdoor play.
 * Social development beyond attachment - peer interaction, sibling effects, daycare socialization.
 

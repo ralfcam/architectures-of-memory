@@ -27,4 +27,4 @@ A draft moves to `chapters/` only after:
 1. Linked evidence cards have been audited (`status` no longer a first-pass draft; frontmatter confidence assigned; `SOURCES.md` updated).
 2. This review is complete and remaining voice failures are fixed in a **new** curated draft, not by silently rewriting the archival original.
 
-The first review target is Chapter 2, after the [Chapter 2 Evidence Map](../../research/extraction/ch02-first-environment--evidence-map.md).
+The first review target is Chapter 2, after the [Chapter 2 Evidence Map](../../research/extraction/ch02-first-environment--evidence-map.md). Curated Chapter 6 review: `ch06-curated-06-the-mind-in-motion--voice-review.md`. Curated Chapter 7 review: `ch07-curated-07-the-birth-of-language--voice-review.md`.

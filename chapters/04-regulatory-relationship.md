@@ -41,6 +41,7 @@ How does co-regulation become self-regulation? Where is the boundary between sup
 The infant has not changed. The reader now sees the cry not as a demand but as a regulatory signal in a developing system.
 
 ## Linked Evidence Cards
-- `evidence-cards/infant-sleep-training.md`
-- `evidence-cards/responsive-caregiving-attachment-interventions.md`
-- (Future cards on temperament, co-regulation)
+- `evidence-cards/infant-sleep-training.md` (reconcile only; not re-extracted)
+- `evidence-cards/responsive-caregiving-attachment-interventions.md` (reconcile only; not re-extracted)
+- `evidence-cards/infant-caregiver-coregulation.md`
+- `evidence-cards/severe-institutional-deprivation.md`

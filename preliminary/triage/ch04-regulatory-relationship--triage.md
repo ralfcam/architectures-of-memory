@@ -1,6 +1,6 @@
 # Chapter 4 triage — The Regulatory Relationship
 
-Status: `triage-ready`. Part I, after Chapter 3. Do not promote.
+Status: `extracted`. Part I, after Chapter 3. Do not promote a curated chapter in this package. Sleep and attachment cards were reconciled, not rewritten.
 
 ## 1. Files and overlaps
 
@@ -10,7 +10,7 @@ Status: `triage-ready`. Part I, after Chapter 3. Do not promote.
 | C04-S1 | `preliminary/research/The Regulatory Relationship_ The Relational Foundation of Human Development.docx` |
 | C04-D | `preliminary/drafts-chapters/chapter 4` |
 | Seed sketch | `chapters/04-regulatory-relationship.md` (relocated from `02-regulatory-relationship.md` to match the working TOC) |
-| Existing cards | `infant-sleep-training.md`, `responsive-caregiving-attachment-interventions.md`; feeding/cognition card is adjacent |
+| Existing cards | `infant-sleep-training.md`, `responsive-caregiving-attachment-interventions.md` (reconcile only); new: `infant-caregiver-coregulation.md`, `severe-institutional-deprivation.md` |
 
 C04-D1 is the extraction source. C04-S1 is alternate; keep until compared.
 
@@ -51,6 +51,6 @@ Do not extract a generic “attachment determines the future” card.
 ## 7. Promotion blockers
 
 - Linked sleep and attachment cards remain `status: draft`.
-- No Chapter 4-specific co-regulation card yet.
-- No review note for a curated chapter copy.
+- Co-regulation and deprivation cards now exist (`status: draft`).
+- No review note for a curated chapter copy (seed outline remains a 10-step sketch).
 - Archival draft must not be overwritten.

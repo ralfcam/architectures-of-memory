@@ -2,7 +2,7 @@
 
 Inventory of every file under `preliminary/` as of 2026-09-15. Original uploads are archival. Do not rename or move them. Curated copies use the naming convention in [`README.md`](README.md).
 
-**Chapter numbering** follows the 15-chapter draft sequence. Seed sketches: `chapters/01-first-environment.md` (Ch. 2) and `chapters/04-regulatory-relationship.md` (Ch. 4). Curated Chapter 2: `chapters/02-first-environment.md`.
+**Chapter numbering** follows the 15-chapter draft sequence. Seed sketches: `chapters/01-first-environment.md` (Ch. 2) and `chapters/04-regulatory-relationship.md` (Ch. 4). Curated copies: `chapters/02-first-environment.md` (Ch. 2), `chapters/06-the-mind-in-motion.md` (Ch. 6), `chapters/07-the-birth-of-language.md` (Ch. 7).
 
 ## Status and type vocabularies
 
@@ -31,9 +31,20 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-REV | `preliminary/drafts-chapters/reviews/README.md` | documentation | remain-preliminary | promoted | Voice-review stream |
 | G-R02 | `preliminary/drafts-chapters/reviews/ch02-structural-and-voice-review.md` | documentation | remain-preliminary | extracted | Review of archival draft only |
 | G-R02b | `preliminary/drafts-chapters/reviews/ch02-curated-02-first-environment--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated `chapters/02-first-environment.md` |
-| G-T03 | `preliminary/triage/ch03-great-transition--triage.md` | documentation | remain-preliminary | triage-ready | Ch. 3 extraction plan |
-| G-T04 | `preliminary/triage/ch04-regulatory-relationship--triage.md` | documentation | remain-preliminary | triage-ready | Ch. 4 extraction plan |
+| G-T03 | `preliminary/triage/ch03-great-transition--triage.md` | documentation | remain-preliminary | extracted | Ch. 3 extraction plan; five cards exist; C08 held |
+| G-T04 | `preliminary/triage/ch04-regulatory-relationship--triage.md` | documentation | remain-preliminary | extracted | Ch. 4 extraction plan; co-regulation + BEIP cards exist |
 | G-T14 | `preliminary/triage/ch14-what-actually-works--triage.md` | documentation | remain-preliminary | unreviewed | Promotion blocker: 29 `:contentReference` leftovers |
+| G-MAP03 | `preliminary/research/extraction/ch03-great-transition--evidence-map.md` | documentation | remain-preliminary | extracted | C02/C04–C07 promote; C08 held |
+| G-AUDIT03 | `preliminary/research/extraction/ch03-transition-physiology--source-audit.md` | documentation | remain-preliminary | extracted | Morton 2016; Moore 2016; Zeifman 2017; Lau 2015; Burstein 2024; P1≠S1 hashes |
+| G-MAP04 | `preliminary/research/extraction/ch04-regulatory-relationship--evidence-map.md` | documentation | remain-preliminary | extracted | Sleep/attachment reconcile; C01/C02 promote |
+| G-AUDIT04 | `preliminary/research/extraction/ch04-coregulation-deprivation--source-audit.md` | documentation | remain-preliminary | extracted | Nurturing Care; Feldman; BEIP |
+| G-REAUDIT | `preliminary/research/extraction/selected-cards--replication-bias-reaudit.md` | documentation | remain-preliminary | extracted | First re-audit pass; none to `stable` |
+| G-RETRACT | `preliminary/research/extraction/catalog-wide-retraction-search.md` | documentation | remain-preliminary | extracted | Catalog-wide Crossref/PubMed lookup; none to `stable` |
+| G-AUDIT06 | `preliminary/research/extraction/ch06-contingency-learning--source-audit.md` | documentation | remain-preliminary | extracted | Mobile paradigm card |
+| G-R06 | `preliminary/drafts-chapters/reviews/ch06-curated-06-the-mind-in-motion--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 6 |
+| G-MAP07 | `preliminary/research/extraction/ch07-birth-of-language--evidence-map.md` | documentation | remain-preliminary | extracted | C02/C03/C07–C09 promote; screens reconcile |
+| G-AUDIT07 | `preliminary/research/extraction/ch07-language--source-audit.md` | documentation | remain-preliminary | extracted | Werker; Saffran; Gilkerson; NAP; P1≠S1 hashes |
+| G-R07 | `preliminary/drafts-chapters/reviews/ch07-curated-07-the-birth-of-language--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 7 |
 
 ## Chapter 1 — Before the Child Is Born
 
@@ -62,9 +73,9 @@ Window: late fetal period through neonatal transition. Domains: biological, rela
 
 | ID | Path | Type | Destination | Status | Overlap / notes |
 |---|---|---|---|---|---|
-| C03-P1 | `research/Chapter 3 — The Great Transition  Preliminary Research Plan.docx` | research-plan | `evidence-cards/` + `chapters/` | unreviewed | Birth as change of regulatory environment, not a reset. |
-| C03-S1 | `research/The Great Transition_ Birth as a Developmental Continuum.docx` | synthesis | remain-preliminary | unreviewed | Alternate on the same theme; likely overlaps C03-P1. |
-| C03-D | `drafts-chapters/chapter 3` | chapter-draft | `chapters/` | unreviewed | Extensionless markdown. |
+| C03-P1 | `research/Chapter 3 — The Great Transition  Preliminary Research Plan.docx` | research-plan | `evidence-cards/` + `chapters/` | extracted | C02/C04–C07 cards exist; C08 mode of delivery held. Hash ≠ C03-S1. |
+| C03-S1 | `research/The Great Transition_ Birth as a Developmental Continuum.docx` | synthesis | remain-preliminary | extracted | Alternate; different size/hash from C03-P1. Do not double-extract. |
+| C03-D | `drafts-chapters/chapter 3` | chapter-draft | `chapters/` | extracted | Extensionless markdown. Archival; not overwritten. |
 
 ## Chapter 4 — The Regulatory Relationship
 
@@ -72,9 +83,9 @@ Window: newborn through first year (co-regulation, sleep, feeding, attachment). 
 
 | ID | Path | Type | Destination | Status | Overlap / notes |
 |---|---|---|---|---|---|
-| C04-D1 | `research/Chapter 4 — The Regulatory Relationship.docx` | research-dossier | `evidence-cards/` + `chapters/` | unreviewed | Overlaps existing cards: sleep training, responsive caregiving/attachment. Canonical seed: `chapters/04-regulatory-relationship.md`. |
-| C04-S1 | `research/The Regulatory Relationship_ The Relational Foundation of Human Development.docx` | synthesis | remain-preliminary | unreviewed | Alternate; keep until compared with C04-D1. |
-| C04-D | `drafts-chapters/chapter 4` | chapter-draft | `chapters/` | unreviewed | Extensionless markdown. |
+| C04-D1 | `research/Chapter 4 — The Regulatory Relationship.docx` | research-dossier | `evidence-cards/` + `chapters/` | extracted | Sleep/attachment cards reconciled, not re-extracted. Canonical seed: `chapters/04-regulatory-relationship.md`. |
+| C04-S1 | `research/The Regulatory Relationship_ The Relational Foundation of Human Development.docx` | synthesis | remain-preliminary | extracted | Alternate; hash ≠ C04-D1. Keep; do not double-extract. |
+| C04-D | `drafts-chapters/chapter 4` | chapter-draft | `chapters/` | extracted | Extensionless markdown. Archival; not overwritten. |
 
 ## Chapter 5 — Becoming a Mind
 
@@ -93,8 +104,8 @@ Window: infancy through toddler action/learning. Domains: biological, psychologi
 
 | ID | Path | Type | Destination | Status | Overlap / notes |
 |---|---|---|---|---|---|
-| C06-D1 | `research/Chapter 6 Preliminary Research Dossier.docx` | research-dossier | `evidence-cards/` + `chapters/` | unreviewed | Second-wave relative to Part I, but needed before Ch. 7. |
-| C06-D | `drafts-chapters/chapter 6` | chapter-draft | `chapters/` | unreviewed | Shortest draft (~1,600 words); likely incomplete. |
+| C06-D1 | `research/Chapter 6 Preliminary Research Dossier.docx` | research-dossier | `evidence-cards/` + `chapters/` | extracted | Contingency-learning card extracted; other dossier cards still open. |
+| C06-D | `drafts-chapters/chapter 6` | chapter-draft | `chapters/` | extracted | Archival (~1,625 words) not overwritten. Curated copy: `chapters/06-the-mind-in-motion.md`. |
 
 ## Chapter 7 — The Birth of Language
 
@@ -102,9 +113,9 @@ Window: prenatal auditory tuning through first words/grammar. Domains: biologica
 
 | ID | Path | Type | Destination | Status | Overlap / notes |
 |---|---|---|---|---|---|
-| C07-P1 | `research/Chapter 7 — The Birth of Language.docx` | research-plan | `evidence-cards/` + `chapters/` | unreviewed | Chapter-specific plan. |
-| C07-S1 | `research/The Birth of Language_ A Comprehensive Research Synthesis.docx` | synthesis | `evidence-cards/` + `SOURCES.md` | unreviewed | ~3.0 MB comprehensive synthesis; overlaps C07-P1 and existing `screen-time-language-development.md`. |
-| C07-D | `drafts-chapters/chapter 7` | chapter-draft | `chapters/` | unreviewed | Extensionless markdown. |
+| C07-P1 | `research/Chapter 7 — The Birth of Language.docx` | research-plan | `evidence-cards/` + `chapters/` | extracted | Extraction source. SHA-256 `1fef9bce…`. |
+| C07-S1 | `research/The Birth of Language_ A Comprehensive Research Synthesis.docx` | synthesis | `evidence-cards/` + `SOURCES.md` | extracted | Alternate (~3.0 MB); not identical to C07-P1. Do not double-extract. Overlaps existing `screen-time-language-development.md`. |
+| C07-D | `drafts-chapters/chapter 7` | chapter-draft | `chapters/` | extracted | Archival (~4,908 words) not overwritten. Curated copy: `chapters/07-the-birth-of-language.md`. |
 
 ## Chapter 8 — The Expanding World
 
@@ -220,17 +231,29 @@ Window: preconception through age 3. Domains: all five.
 | `prenatal-tobacco-birthweight.md` | 2 | Source-audited (C10); still `status: draft` |
 | `prenatal-environmental-mixtures.md` | 2 | Source-audited (C11); still `status: draft` |
 | `fetal-growth-not-destiny.md` | 2 | Source-audited (C12); C13 held here; still `status: draft` |
-| `infant-sleep-training.md` | 4 | Ch. 4 triage begun; do not re-extract |
-| `responsive-caregiving-attachment-interventions.md` | 4 | Wait for Ch. 4 triage |
+| `infant-sleep-training.md` | 4 | Reconciled; do not re-extract; still `status: draft` |
+| `responsive-caregiving-attachment-interventions.md` | 4 | Reconciled; do not re-extract; still `status: draft` |
+| `neonatal-cardiopulmonary-transition.md` | 3 | Source-audited (C02); still `status: draft` |
+| `skin-to-skin-immediate-physiology.md` | 3 | Source-audited (C06); still `status: draft` |
+| `infant-caregiver-coregulation.md` | 4 | Source-audited (C01); still `status: draft` |
+| `severe-institutional-deprivation.md` | 4 | Source-audited (C02 / BEIP); still `status: draft` |
+| `infant-contingency-learning.md` | 6 | Source-audited (C01); still `status: draft` |
 | `breastfeeding-cognitive-development.md` | 4 / 5 | Feeding is Ch. 4 adjacent; cognition Ch. 5 |
-| `screen-time-language-development.md` | 7 | Wait for Ch. 7 |
+| `screen-time-language-development.md` | 7 | Reconciled in Ch. 7 map; do not re-extract; still `status: draft`. Frontmatter/body citation mismatch recorded. |
 | `early-childcare-quality.md` | 8 | Second wave |
 | `self-regulation-delay-of-gratification.md` | 10 / 11 | Second wave |
 | `preschool-early-education-rct.md` | 14 | Second wave |
+| `infant-perceptual-narrowing.md` | 7 | Source-audited (C03); still `status: draft` |
+| `infant-statistical-speech-segmentation.md` | 7 | Source-audited (C02); still `status: draft` |
+| `conversational-turns-language.md` | 7 | Source-audited (C07/C08); still `status: draft` |
+| `dual-language-does-not-confuse.md` | 7 | Source-audited (C09); still `status: draft` |
+| `infant-crying-as-signal.md` | 3 | Source-audited (C04); still `status: draft` |
+| `suck-swallow-breathe-coordination.md` | 3 | Source-audited (C05); still `status: draft` |
+| `preterm-cognition-group-risk.md` | 3 | Source-audited (C07); still `status: draft` |
 
 ## Counts
 
 - Research/synthesis/plan files: 31
 - Chapter drafts: 15
-- Documentation/governance (including this file): 17
+- Documentation/governance (including this file): 28
 - Exact byte-identical duplicates: none found. Near-duplicates: C02-P1 ~ C02-S1; several ~3 MB chapter syntheses that likely embed media.

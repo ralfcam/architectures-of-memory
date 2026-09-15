@@ -1,6 +1,6 @@
 # Chapter 3 triage — The Great Transition
 
-Status: `triage-ready`. Part I, after Chapter 2. Do not promote.
+Status: `extracted`. Part I, after Chapter 2. Do not promote a curated chapter until a voice-review note exists. Five draft cards now exist (transition, SSC, crying, feeding coordination, preterm group risk).
 
 ## 1. Files and overlaps
 
@@ -9,9 +9,9 @@ Status: `triage-ready`. Part I, after Chapter 2. Do not promote.
 | C03-P1 | `preliminary/research/Chapter 3 — The Great Transition  Preliminary Research Plan.docx` |
 | C03-S1 | `preliminary/research/The Great Transition_ Birth as a Developmental Continuum.docx` |
 | C03-D | `preliminary/drafts-chapters/chapter 3` |
-| Existing cards | none dedicated; Ch. 2 continuity card and Ch. 4 regulation cards sit on either side |
+| Existing cards | `neonatal-cardiopulmonary-transition.md`, `skin-to-skin-immediate-physiology.md`, `infant-crying-as-signal.md`, `suck-swallow-breathe-coordination.md`, `preterm-cognition-group-risk.md` |
 
-C03-P1 is the extraction source. C03-S1 is an alternate continuum synthesis; do not double-extract. Compare hashes/opening claims before using C03-S1 for named studies.
+C03-P1 is the extraction source. C03-S1 is an alternate continuum synthesis (different size and SHA-256; not byte-identical). Do not double-extract. Named physiology studies were taken from C03-P1 and verified independently.
 
 ## 2. Developmental window
 
@@ -47,7 +47,8 @@ Chapter 2 C12/C13 (growth and continuity) feed this chapter’s “not a reset�
 
 ## 7. Promotion blockers
 
-- No Chapter 3 evidence cards yet.
-- No review note for a curated copy.
-- Archival draft must not be overwritten; curated copy would be `ch03-the-great-transition--draft-01.md` then `chapters/03-the-great-transition.md`.
-- C03-S1 not yet byte-compared with C03-P1.
+- Transition, SSC, crying, feeding-coordination, and preterm cards exist and remain `status: draft`.
+- No review note yet for a curated Chapter 3 copy (not in this package).
+- Archival draft must not be overwritten; curated copy would be `chapters/03-the-great-transition.md`.
+- C03-S1 hash-compared with C03-P1: not identical.
+- Mode of delivery still held.
