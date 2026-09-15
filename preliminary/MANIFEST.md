@@ -25,9 +25,11 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-T01 | `preliminary/triage/ch01-framing--triage.md` | documentation | remain-preliminary | triage-ready | Ch. 1 extraction plan |
 | G-T02 | `preliminary/triage/ch02-first-environment--triage.md` | documentation | remain-preliminary | extracted | Points at Ch. 2 map |
 | G-EXT | `preliminary/research/extraction/README.md` | documentation | remain-preliminary | promoted | Atomic-claim pipeline |
-| G-MAP02 | `preliminary/research/extraction/ch02-first-environment--evidence-map.md` | documentation | remain-preliminary | extracted | First full-system test |
+| G-MAP02 | `preliminary/research/extraction/ch02-first-environment--evidence-map.md` | documentation | remain-preliminary | extracted | First full-system test; C05–C07 now `promote` |
+| G-AUDIT02 | `preliminary/research/extraction/ch02-c05-c07-c06--source-audit.md` | documentation | remain-preliminary | extracted | Source audit for C05/C07/C06 |
 | G-REV | `preliminary/drafts-chapters/reviews/README.md` | documentation | remain-preliminary | promoted | Voice-review stream |
 | G-R02 | `preliminary/drafts-chapters/reviews/ch02-structural-and-voice-review.md` | documentation | remain-preliminary | extracted | Review only; draft not overwritten |
+| G-T14 | `preliminary/triage/ch14-what-actually-works--triage.md` | documentation | remain-preliminary | unreviewed | Promotion blocker: 29 `:contentReference` leftovers |
 
 ## Chapter 1 — Before the Child Is Born
 
@@ -167,7 +169,7 @@ Window: intervention evidence across 0–3. Domains: educational, social, relati
 |---|---|---|---|---|---|
 | C14-D1 | `research/Chapter 14 Research Architecture  What Actually Works.docx` | research-dossier | `evidence-cards/` + `chapters/` | unreviewed | Overlaps existing preschool RCT card and attachment-intervention card. |
 | C14-S1 | `research/Early Childhood Interventions Evidence Review.docx` | synthesis | `evidence-cards/` + `SOURCES.md` | unreviewed | ~3.1 MB. Extract after Ch. 2–4 cards exist so interventions are not the first causal claims. |
-| C14-D | `drafts-chapters/chapter 14` | chapter-draft | `chapters/` | unreviewed | Contains leftover `:contentReference[oaicite:…]` artifacts. |
+| C14-D | `drafts-chapters/chapter 14` | chapter-draft | `chapters/` | unreviewed | **Promotion blocker:** 29 `:contentReference[oaicite:…]` leftovers. See `triage/ch14-what-actually-works--triage.md`. Do not overwrite. |
 
 ## Chapter 15 — Three Years: What Has Been Built?
 
@@ -202,7 +204,9 @@ Window: preconception through age 3. Domains: all five.
 
 | Existing card | First colliding chapter | Action |
 |---|---|---|
-| `prenatal-maternal-stress-anxiety.md` | 2 | Reconcile in Ch. 2 map before any rewrite |
+| `prenatal-maternal-stress-anxiety.md` | 2 | Reconciled (C06); still `status: draft` |
+| `prenatal-auditory-learning.md` | 2 | Source-audited (C05); still `status: draft` |
+| `prenatal-folate-ntd.md` | 2 | Source-audited (C07); still `status: draft` |
 | `infant-sleep-training.md` | 4 | Wait for Ch. 4 triage |
 | `responsive-caregiving-attachment-interventions.md` | 4 | Wait for Ch. 4 triage |
 | `breastfeeding-cognitive-development.md` | 4 / 5 | Feeding is Ch. 4 adjacent; cognition Ch. 5 |
@@ -215,5 +219,5 @@ Window: preconception through age 3. Domains: all five.
 
 - Research/synthesis/plan files: 31
 - Chapter drafts: 15
-- Documentation/governance (including this file): 11
+- Documentation/governance (including this file): 13
 - Exact byte-identical duplicates: none found. Near-duplicates: C02-P1 ~ C02-S1; several ~3 MB chapter syntheses that likely embed media.

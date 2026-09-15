@@ -4,7 +4,7 @@ title: "Breastfeeding and Cognitive Development"
 description: "PROBIT RCT and sibling-comparison evidence indicate a small, verbal-concentrated, fading causal effect of breastfeeding on IQ."
 tags: [feeding, cognition, rct]
 status: draft
-confidence: preliminary-not-yet-graded
+confidence: moderate
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
 sources:
@@ -13,7 +13,16 @@ sources:
     title: "16-year follow-up of the PROBIT cluster-randomized trial, PLOS Medicine (2018)"
   - id: sibling-comparison-2006
     resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC1361236/
-    title: "Improved Estimates of the Benefits of Breastfeeding Using Sibling Comparisons"
+    title: "Evenhouse & Reilly (2005), sibling comparisons of breastfeeding benefits"
+  - id: kramer-2008-probit
+    resource: https://pubmed.ncbi.nlm.nih.gov/18458209/
+    title: "Kramer et al. (2008), PROBIT IQ outcomes at 6.5 years"
+  - id: der-2006-bmj
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC1634122/
+    title: "Der, Batty & Deary (2006), BMJ, breastfeeding and intelligence"
+  - id: colen-ramey-2014
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC4077166/
+    title: "Colen & Ramey (2014), sibling comparisons of breastfeeding"
 ---
 
 # Breastfeeding and Cognitive Development
@@ -58,6 +67,8 @@ Breastfeeding promotion is justifiable on other well-established grounds (infect
 
 ## Sources
 
-- Kramer et al. (2008), PROBIT primary IQ outcomes
-- Yang et al. (2018), PLOS Medicine, 16-year PROBIT follow-up
-- Der, Batty & Deary (2006); Colen & Ramey (2014), sibling-comparison analyses
+- Kramer et al. (2008), *Arch Gen Psychiatry*, PROBIT IQ at 6.5 years
+- Yang et al. (2018), *PLOS Medicine*, 16-year PROBIT follow-up
+- Der, Batty & Deary (2006), *BMJ*, sibling pairs and meta-analysis
+- Colen & Ramey (2014), *Soc Sci Med*, sibling comparisons
+- Evenhouse & Reilly (2005), sibling comparisons (catalog ID `sibling-comparison-2006`)

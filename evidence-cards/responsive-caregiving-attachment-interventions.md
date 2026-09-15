@@ -4,7 +4,7 @@ title: "Responsive Caregiving and Attachment Interventions"
 description: "Randomized sensitivity-training interventions reliably raise caregiver sensitivity and, to a lesser degree, infant attachment security."
 tags: [attachment, responsive-caregiving, intervention]
 status: draft
-confidence: preliminary-not-yet-graded
+confidence: moderate-to-high-sensitivity; moderate-attachment
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
 sources:

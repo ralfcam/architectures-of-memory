@@ -4,7 +4,7 @@ Instrument: `style/voice-checklist.md` and `style/forbidden-phrases.md`.
 Draft reviewed: `preliminary/drafts-chapters/chapter 2` (archival; not overwritten).  
 Evidence map: `preliminary/research/extraction/ch02-first-environment--evidence-map.md`.
 
-Review status: **notes only**. Do not promote this draft to `chapters/` until linked cards are audited.
+Review status: **notes only**. Do not promote this draft to `chapters/` until remaining Chapter 2 claims are audited and reviews stay the gate.
 
 ## Checklist
 
@@ -31,7 +31,7 @@ Review status: **notes only**. Do not promote this draft to `chapters/` until li
 
 ## Promotion blockers
 
-- Linked cards other than the existing stress card do not exist yet.
-- Stress card is still `status: draft` / `confidence: preliminary-not-yet-graded`.
-- Numbering collision with `chapters/01-first-environment.md`.
+- Remaining Chapter 2 claims C01–C04 and C08–C13 are still `needs-source-audit`.
+- C05, C06, and C07 cards exist and have YAML grades, but all remain `status: draft` (not `stable`).
+- Seed file `chapters/01-first-environment.md` is a sketch for this chapter, not book Chapter 1.
 - Archival file has no `.md` extension; curated copy should be `ch02-first-environment--draft-02.md`.

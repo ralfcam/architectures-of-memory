@@ -2,7 +2,7 @@
 
 First full-system test of the extraction pipeline: raw dossier → atomic claims → likely cards → source/causal labels → manuscript links.
 
-This file does **not** create or promote evidence cards. Original uploads stay where they are.
+This file started as a map that did **not** create cards. C05 and C07 have since been source-audited into cards; C06 was reconciled. Original uploads stay where they are.
 
 Related: [Ch. 2 triage](../../triage/ch02-first-environment--triage.md) · [draft](../../drafts-chapters/chapter%202) · [seed outline](../../../chapters/01-first-environment.md) · [existing stress card](../../../evidence-cards/prenatal-maternal-stress-anxiety.md) · [voice review](../../drafts-chapters/reviews/ch02-structural-and-voice-review.md)
 
@@ -17,7 +17,7 @@ Related: [Ch. 2 triage](../../triage/ch02-first-environment--triage.md) · [draf
 | C02-P1 | `preliminary/research/Prenatal Biology Research Plan.docx` | Same byte size as C02-S1, different hash; opening title matches C02-S1. Treat as duplicate/alternate. |
 | C02-D | `preliminary/drafts-chapters/chapter 2` | Long prose draft (~4,300 words). |
 | Seed | `chapters/01-first-environment.md` | 10-step seed outline. **Numbering collision:** seed Chapter 1 = this Chapter 2. |
-| Live card | `evidence-cards/prenatal-maternal-stress-anxiety.md` | Only existing card in this territory. |
+| Live cards | `prenatal-maternal-stress-anxiety.md` (C06), `prenatal-auditory-learning.md` (C05), `prenatal-folate-ntd.md` (C07) | C05/C07 source-audited; C06 frontmatter reconciled. All still `status: draft`. |
 
 Do not extract C02-S1 as a second independent source of truth. Use it to recover named studies (DeCasper & Spence; INTERGROWTH-21st; SEPAGES; Bystron; Seckl/11β-HSD2) that C02-D1 cites more vaguely.
 
@@ -97,9 +97,9 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Designs | Experimental newborn preference (DeCasper & Spence 1986); later habituation studies. Seed outline currently grades perceptual tuning **Moderate**, long-term learning **Low**. |
 | Effect / persistence | Short-lived postnatal preference; long-term cognitive advantage **not** established. |
 | Threats | Small classic samples; postnatal reinforcement (same parent continues the behavior); over-translation. |
-| Sources (unverified) | DeCasper & Spence 1986 (named in C02-S1; not in `SOURCES.md`). |
+| Sources | DeCasper & Spence 1986 DOI `10.1016/0163-6383(86)90025-1`; Partanen et al. 2013 PMC3847147. |
 | Manuscript role | `anomaly` + `case` (seed opening: newborn turns toward a voice heard before birth) |
-| Label | `needs-source-audit` |
+| Label | `promote` — card `evidence-cards/prenatal-auditory-learning.md` |
 | Likely card | `prenatal-auditory-learning` |
 
 ### CH02-C06 — Population-range prenatal stress/anxiety associations largely attenuate under genetically informed designs
@@ -114,7 +114,7 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Threats | Genetic transmission; shared family environment; residual severe-exposure heterogeneity. |
 | Sources (verified in `SOURCES.md`) | `bmc-moba-2025`, `ije-millennium-2017`, `jaacap-meta-2021`, `lancet-psych-2018`. Dossier Card 5 agrees but does not use these IDs. |
 | Manuscript role | `boundary` + `system` |
-| Label | `promote` after reconciling frontmatter (`confidence: preliminary-not-yet-graded`) with the in-body Low-to-Moderate grade and registering any extra dossier citations. **Do not rewrite the card in this deliverable.** |
+| Label | `promote` — frontmatter `confidence: low-to-moderate`; `status` still `draft`. |
 | Likely card | existing `prenatal-maternal-stress-anxiety` |
 
 ### CH02-C07 — Periconceptional folic acid reduces neural-tube-defect risk
@@ -127,10 +127,10 @@ Each row is one claim. Labels: `promote` · `needs-source-audit` · `interpretiv
 | Designs | RCTs and systematic reviews; WHO antenatal guidelines. |
 | Effect / persistence | Large relative-risk reduction for NTD; persistence is structural (present or absent), not fading IQ. |
 | Threats | Baseline fortification; dose/timing/adherence; over-generalization to all nutrition. |
-| Sources (unreviewed) | WHO antenatal recommendations; Cochrane-style folate review cited as snippet in C02-D1. |
+| Sources | De-Regil et al. 2015 Cochrane PMC8783750 (RR 0.31, 0.17–0.58, 5 RCTs); MRC 1991 *Lancet*; WHO ANC 2016. |
 | Manuscript role | `evidence` / `mechanism` (iodine is a separate card) |
-| Label | `needs-source-audit` |
-| Likely card | `prenatal-nutrition-micronutrients` |
+| Label | `promote` — card `evidence-cards/prenatal-folate-ntd.md` |
+| Likely card | `prenatal-folate-ntd` |
 
 ### CH02-C08 — Severe early iodine deficiency can disrupt neurodevelopment; late correction does not rewind early corticogenesis
 
@@ -268,7 +268,7 @@ Priority for the next extraction commit, not done here:
 
 Existing verified sources already covering C06: `bmc-moba-2025`, `ije-millennium-2017`, `jaacap-meta-2021`, `lancet-psych-2018`.
 
-The 12 unresolved citations currently in `SOURCES.md` are **not** Chapter 2 sources; they belong to other live cards and stay out of this map.
+The 12 first-pass unresolved citations in `SOURCES.md` have been resolved (other live cards, not this map). Remaining Chapter 2 work is C01–C04 and C08–C13.
 
 ---
 
@@ -297,7 +297,7 @@ Canonical seed still lists only the stress card plus “future cards on prenatal
 | Atomic claims | 13 claims; 2 interpretive/exclude holds |
 | Card grouping | 10–11 likely cards; not one “prenatal development” card |
 | Causal designs / confounds | Recorded per claim; genetically informed evidence only solid for C06 |
-| Labels | 1 `promote` (existing stress card, after frontmatter/source reconcile); 12 `needs-source-audit`; several `interpretive-only`/`exclude` |
+| Labels | 3 `promote` (C05, C06, C07); remaining C01–C04 and C08–C13 still `needs-source-audit`; several `interpretive-only`/`exclude` |
 | Manuscript link | Seed outline is voice-anomaly-led; long draft is mechanism-led. Voice review captures the gap; draft is not overwritten. |
 
-Next concrete extraction step: source-audit C05 (auditory) and C07 (folate) in parallel with reconciling C06 — those three give the chapter an anomaly, a high-identification RCT/guideline claim, and a genetically informed boundary.
+Next concrete extraction step: source-audit remaining Chapter 2 claims C01–C04 and C08–C13 (timing, placenta, neural construction, autonomic maturation, iodine, alcohol, tobacco, growth).

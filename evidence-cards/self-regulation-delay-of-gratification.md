@@ -4,7 +4,7 @@ title: "Self-Regulation and Delay of Gratification (Marshmallow Test)"
 description: "A large NICHD-cohort replication shows the original marshmallow-test predictive claim is mostly explained by SES and early cognitive ability."
 tags: [executive-function, self-regulation, replication]
 status: draft
-confidence: preliminary-not-yet-graded
+confidence: moderate-to-high-overstatement-of-original
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
 sources:
@@ -14,6 +14,9 @@ sources:
   - id: watts-2018-sage
     resource: https://journals.sagepub.com/doi/10.1177/0956797618761661
     title: "Watts, Duncan & Quan (2018), Psychological Science"
+  - id: mischel-shoda-peake-1990
+    resource: https://doi.org/10.1037/0012-1649.26.6.978
+    title: "Mischel, Shoda & Peake (1990), Developmental Psychology, delay of gratification"
 ---
 
 # Self-Regulation and Delay of Gratification (Marshmallow Test)
@@ -59,5 +62,5 @@ Framing self-regulation as fixed or destiny-determining in early childhood is no
 
 ## Sources
 
-- Watts, Duncan & Quan (2018), Psychological Science, NICHD SECCYD replication
-- Mischel, Shoda & Peake (1990), original study (for historical claim only)
+- Watts, Duncan & Quan (2018), *Psychological Science*, NICHD SECCYD replication
+- Mischel, Shoda & Peake (1990), *Developmental Psychology* (historical claim only)

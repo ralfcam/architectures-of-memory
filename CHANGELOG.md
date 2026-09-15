@@ -16,9 +16,18 @@ Entry types:
 - Added `REPO_DIGEST.md`, a repository map covering the three-layer layout (preliminary workbench, OKF evidence cards, canonical manuscript), current inventories, the 8- vs 15-chapter numbering split, and known gaps. Linked from `index.md` and `README.md`.
 - Renamed `preliminary/drafts-chapters/chapter 16` to `chapter 15` so the filename matches its Chapter 15 heading (*Three Years: What Has Been Built?*).
 - Added the preliminary corpus governance layer: `preliminary/MANIFEST.md` (inventory of every uploaded file), naming convention for future curated copies (originals not renamed), `triage/` (Part I sequence plus Ch. 1–2 notes), `research/extraction/` (atomic-claim pipeline and Chapter 2 Evidence Map), and `drafts-chapters/reviews/` (voice review kept separate from draft text).
+- Adopted the 15-chapter draft sequence as the working TOC in `chapters/_OUTLINE.md`; kept seed outlines as sketches for draft Ch. 2 and 4.
+- Added `SPEC.md` as a pointer to the external OKF v0.2 specification.
+- Added Chapter 14 triage note listing `:contentReference` leftovers as a promotion blocker (archival draft not overwritten).
 
 ### Added
 - Populated evidence-cards/ with 8 preliminary evidence cards (prenatal maternal stress/anxiety, breastfeeding and cognitive development, early childcare quality, screen time and language development, responsive caregiving and attachment interventions, infant sleep training, self-regulation/delay of gratification, preschool early education RCTs) plus an index.
+- Source-audited Chapter 2 claims C05 and C07: added `prenatal-auditory-learning.md` and `prenatal-folate-ntd.md`.
+- Reconciled CH02-C06: aligned prenatal-stress card YAML `confidence` with the in-body Low-to-Moderate grade.
+
+### Revised
+- Aligned YAML `confidence` on all eight first-pass cards with in-body grades (cards remain `status: draft`).
+- Resolved the 12 previously unresolved `SOURCES.md` citations (two were already verified; two titles were corrected to the matching papers).
 
 
 ## [2026-09-14]
@@ -32,6 +41,6 @@ Entry types:
 ## [2026-09-14b]
 
 ### Structure
-- Added `SOURCES.md`, a bundle-root Master Source Catalog cataloging every reference cited across the 8 evidence cards: 19 sources with verified, resolvable resource links (mirrored in the file's OKF frontmatter `sources` array) and 12 sources named in card bibliographies during the initial pass but not yet matched to a stable verified link ("Unresolved Citations").
+- Added `SOURCES.md`, a bundle-root Master Source Catalog cataloging every reference cited across the 8 evidence cards: 19 sources with verified, resolvable resource links (mirrored in the file's OKF frontmatter `sources` array) and 12 sources named in card bibliographies during the initial pass but not yet matched to a stable verified link ("Unresolved Citations"). Those 12 were resolved on 2026-09-15; see `[Unreleased]`.
 - Updated `index.md` and `evidence-cards/index.md` to reference `SOURCES.md`.
 - Established a maintenance rule: all future evidence-card additions/revisions must update `SOURCES.md` in the same commit.

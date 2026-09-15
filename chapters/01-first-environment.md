@@ -40,4 +40,6 @@ The newborn has not changed. The reader now sees the womb not as a sealed chambe
 
 ## Linked Evidence Cards
 - `evidence-cards/prenatal-maternal-stress-anxiety.md`
-- (Future cards on prenatal auditory exposure, birth, skin-to-skin)
+- `evidence-cards/prenatal-auditory-learning.md`
+- `evidence-cards/prenatal-folate-ntd.md`
+- (Future cards on placenta, iodine, teratogens, fetal growth, birth, skin-to-skin)

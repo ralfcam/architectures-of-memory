@@ -4,7 +4,7 @@ title: "Prenatal Maternal Stress and Anxiety"
 description: "Observational prenatal stress/anxiety associations with child outcomes largely attenuate under genetically informed designs."
 tags: [pregnancy, stress, causal-inference]
 status: draft
-confidence: preliminary-not-yet-graded
+confidence: low-to-moderate
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
 sources:

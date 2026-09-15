@@ -11,7 +11,7 @@ Status: `extracted`. Full claim inventory is the [Chapter 2 Evidence Map](../res
 | C02-P1 | Near-duplicate of C02-S1 (same size, different hash) |
 | C02-D | Long draft |
 | — | Canonical seed outline `chapters/01-first-environment.md` (numbering collision) |
-| — | Existing card `evidence-cards/prenatal-maternal-stress-anxiety.md` |
+| — | Live cards: stress (C06), auditory (C05), folate (C07) |
 
 C02-D1 already contains ten proposed cards. The evidence map splits and regroups those into 13 claims / 10 likely cards so auditory learning, iodine, alcohol, and tobacco are not buried inside broader cards.
 
@@ -34,16 +34,16 @@ Conception through birth: preimplantation, embryonic organogenesis, fetal growth
 
 ## 4. Existing KB overlap
 
-`prenatal-maternal-stress-anxiety.md` is the only live collision. Dossier Card 5 agrees with the card’s attenuation story. Do not rewrite the card until sources in both places are registered and compared.
+Three live cards: `prenatal-maternal-stress-anxiety.md` (C06, reconciled), `prenatal-auditory-learning.md` (C05), `prenatal-folate-ntd.md` (C07). Remaining claims C01–C04 and C08–C13 still need source audit. Do not move any card to `stable` until that audit lands in `SOURCES.md`.
 
 ## 5. Extraction order
 
-1. Inventory and overlaps (done in the evidence map)
-2. Source-audit the existing stress card against MoBa / Millennium / children-of-twins citations
-3. Folate/NTD and alcohol/FASD (highest-identification designs)
-4. Auditory learning (DeCasper & Spence and later replications)
-5. Placenta / timing / plasticity as mechanism cards
-6. Environmental mixtures last (weakest identification)
+1. Inventory and overlaps (done)
+2. Source-audit the existing stress card (C06) — done; YAML `confidence` aligned
+3. Folate/NTD (C07) and auditory learning (C05) — done
+4. Next: placenta / timing / neural construction / autonomic maturation (C01–C04)
+5. Iodine, alcohol/FASD, tobacco (C08–C10)
+6. Environmental mixtures and growth last (weakest identification)
 
 ## 6. Prohibited inferences
 
@@ -59,8 +59,8 @@ From C02-D1 / C02-S1 prohibited-inference registers:
 
 ## 7. Promotion blockers
 
-- Dossier references are mostly snippet titles, not DOI/PMID
-- C02-S1 cites DeCasper & Spence (1986) and INTERGROWTH-21st without `SOURCES.md` entries
-- Canonical outline still treats *The First Environment* as Chapter 1
-- Draft contains `:contentReference` leftovers
-- No card may move from `status: draft` until the source audit lands in `SOURCES.md`
+- Remaining dossier references (C01–C04, C08–C13) are mostly snippet titles, not DOI/PMID
+- DeCasper & Spence (1986) is now in `SOURCES.md`; INTERGROWTH-21st still is not
+- Working TOC is 15 chapters; seed `01-first-environment.md` is a sketch for this chapter
+- Draft contains `:contentReference` leftovers (strip only on a curated copy)
+- No card may move from `status: draft` to `stable` until remaining claims are audited

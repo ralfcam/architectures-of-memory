@@ -15,7 +15,7 @@ Original uploads are **archival source artifacts**. Do not rename or move them. 
 ## Source of truth
 
 - [`MANIFEST.md`](MANIFEST.md) inventories every uploaded file, its chapter, artifact type, destination, and overlap.
-- Numbering in this workbench follows the **15-chapter draft sequence** (Chapter 1 = framing; Chapter 2 = The First Environment). The canonical seed outline in `chapters/_OUTLINE.md` uses a shorter 8-chapter map. Do not merge the two without an explicit numbering decision.
+- Numbering in this workbench follows the **15-chapter draft sequence** (Chapter 1 = framing; Chapter 2 = The First Environment). That is now the working TOC in `chapters/_OUTLINE.md`. Seed files `chapters/01-first-environment.md` and `02-regulatory-relationship.md` are sketches for draft Ch. 2 and 4.
 
 ## Workflow
 

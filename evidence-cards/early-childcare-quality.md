@@ -4,7 +4,7 @@ title: "Early Childcare Quality and Development"
 description: "NICHD SECCYD cohort shows modest, replicated links between childcare quality and cognitive/language outcomes, with parenting a stronger predictor."
 tags: [childcare, cognition, language]
 status: draft
-confidence: preliminary-not-yet-graded
+confidence: moderate
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
 sources:
@@ -16,7 +16,10 @@ sources:
     title: "Child-Care Effect Sizes for the NICHD Study, American Psychologist (2006)"
   - id: nichd-age15
     resource: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e0a20e35593ea2ce4fb9b95f67f55cefd9a018bd
-    title: "Do Effects of Early Child Care Extend to Age 15 Years?"
+    title: "Vandell et al. (2010), Do effects of early child care extend to age 15 years?"
+  - id: belsky-2007-cd
+    resource: https://doi.org/10.1111/j.1467-8624.2007.01021.x
+    title: "Belsky et al. (2007), Child Development, long-term effects of early child care"
 ---
 
 # Early Childcare Quality and Development
@@ -62,6 +65,7 @@ Institutional/policy support for childcare quality standards (staff-child ratios
 
 ## Sources
 
-- NICHD Early Child Care Research Network, multiple SECCYD reports (NICHD, 2006)
-- Belsky et al. (2007), Child Development, age-15 follow-up
-- Vandell et al., effect-size synthesis, American Psychologist (2006)
+- NICHD ECCRN SECCYD overview (2006)
+- Vandell, Belsky, Burchinal et al., *American Psychologist* (2006), effect-size synthesis
+- Belsky et al. (2007), *Child Development*, long-term childcare effects (not the age-15 paper)
+- Vandell et al. (2010), age-15 SECCYD follow-up

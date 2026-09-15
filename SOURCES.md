@@ -24,7 +24,7 @@ sources:
     title: "16-year follow-up of the PROBIT cluster-randomized trial, PLOS Medicine (2018)"
   - id: sibling-comparison-2006
     resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC1361236/
-    title: "Improved Estimates of the Benefits of Breastfeeding Using Sibling Comparisons"
+    title: "Evenhouse & Reilly (2005), sibling comparisons of breastfeeding benefits"
   - id: nichd-seccyd-2006
     resource: https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/seccyd_06.pdf
     title: "The NICHD Study of Early Child Care and Youth Development"
@@ -64,6 +64,51 @@ sources:
   - id: preschool-scale-synthesis
     resource: https://files.eric.ed.gov/fulltext/ED672217.pdf
     title: "Are Preschool Programs Becoming Less Effective?"
+  - id: decasper-spence-1986
+    resource: https://doi.org/10.1016/0163-6383(86)90025-1
+    title: "DeCasper & Spence (1986), prenatal maternal speech and newborn preference"
+  - id: partanen-2013
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/
+    title: "Partanen et al. (2013), PNAS, neural memory traces of prenatal sound exposure"
+  - id: deregil-2015-cochrane
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/
+    title: "De-Regil et al. (2015), Cochrane review of periconceptional folate"
+  - id: mrc-ntd-1991
+    resource: https://doi.org/10.1016/0140-6736(91)90133-A
+    title: "MRC Vitamin Study Research Group (1991), Lancet, NTD prevention trial"
+  - id: who-anc-2016
+    resource: https://www.who.int/publications/i/item/9789241549912
+    title: "WHO (2016), recommendations on antenatal care"
+  - id: kramer-2008-probit
+    resource: https://pubmed.ncbi.nlm.nih.gov/18458209/
+    title: "Kramer et al. (2008), PROBIT IQ outcomes at 6.5 years"
+  - id: der-2006-bmj
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC1634122/
+    title: "Der, Batty & Deary (2006), BMJ, breastfeeding and intelligence"
+  - id: colen-ramey-2014
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC4077166/
+    title: "Colen & Ramey (2014), sibling comparisons of breastfeeding"
+  - id: belsky-2007-cd
+    resource: https://doi.org/10.1111/j.1467-8624.2007.01021.x
+    title: "Belsky et al. (2007), Child Development, long-term effects of early child care"
+  - id: price-hiscock-2012
+    resource: https://pubmed.ncbi.nlm.nih.gov/22966034/
+    title: "Price, Wake, Ukoumunne & Hiscock (2012), Pediatrics, 5-year sleep-intervention follow-up"
+  - id: williamson-mindell-2019
+    resource: https://pubmed.ncbi.nlm.nih.gov/31564429/
+    title: "Williamson, Mindell, Hiscock & Quach (2019), LSAC sleep-problem trajectories"
+  - id: mischel-shoda-peake-1990
+    resource: https://doi.org/10.1037/0012-1649.26.6.978
+    title: "Mischel, Shoda & Peake (1990), Developmental Psychology, delay of gratification"
+  - id: garcia-heckman-2023
+    resource: https://doi.org/10.1086/722936
+    title: "García, Heckman & Ronda (2023), JPE, Perry Preschool through late midlife"
+  - id: campbell-2012-abecedarian
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC3989926/
+    title: "Campbell et al. (2012), Developmental Psychology, Abecedarian age-30 follow-up"
+  - id: elango-2016-ece
+    resource: https://www.nber.org/papers/w21766
+    title: "Elango, García, Heckman & Hojman (2016), Early Childhood Education"
 ---
 
 # Master Source Catalog
@@ -84,7 +129,7 @@ Per `CONTRIBUTING.md`, no source here has been checked for retraction, replicati
 | `jaacap-meta-2021` | J Am Acad Child Adolesc Psychiatry, genetically informed meta-analysis (2021) | [https://www.sciencedirect.com/science/article/pii/S0890856721001428](https://www.sciencedirect.com/science/article/pii/S0890856721001428) | [prenatal-maternal-stress-anxiety](evidence-cards/prenatal-maternal-stress-anxiety.md) |
 | `lancet-psych-2018` | The Lancet Psychiatry (2018), children-of-twins design | [https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(18)30225-6/fulltext](https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(18)30225-6/fulltext) | [prenatal-maternal-stress-anxiety](evidence-cards/prenatal-maternal-stress-anxiety.md) |
 | `probit-16yr-2018` | 16-year follow-up of the PROBIT cluster-randomized trial, PLOS Medicine (2018) | [https://pmc.ncbi.nlm.nih.gov/articles/PMC5909901/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5909901/) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
-| `sibling-comparison-2006` | Improved Estimates of the Benefits of Breastfeeding Using Sibling Comparisons | [https://pmc.ncbi.nlm.nih.gov/articles/PMC1361236/](https://pmc.ncbi.nlm.nih.gov/articles/PMC1361236/) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
+| `sibling-comparison-2006` | Evenhouse & Reilly (2005), sibling comparisons of breastfeeding benefits | [https://pmc.ncbi.nlm.nih.gov/articles/PMC1361236/](https://pmc.ncbi.nlm.nih.gov/articles/PMC1361236/) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
 | `nichd-seccyd-2006` | The NICHD Study of Early Child Care and Youth Development | [https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/seccyd_06.pdf](https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/seccyd_06.pdf) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
 | `nichd-effectsizes-2006` | Child-Care Effect Sizes for the NICHD Study, American Psychologist (2006) | [https://local.psy.miami.edu/faculty/dmessinger/c_c/rsrcs/rdgs/childcare/NICHD_EffectSizes_AmerPsy.2006.pdf](https://local.psy.miami.edu/faculty/dmessinger/c_c/rsrcs/rdgs/childcare/NICHD_EffectSizes_AmerPsy.2006.pdf) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
 | `nichd-age15` | Do Effects of Early Child Care Extend to Age 15 Years? | [https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e0a20e35593ea2ce4fb9b95f67f55cefd9a018bd](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e0a20e35593ea2ce4fb9b95f67f55cefd9a018bd) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
@@ -98,23 +143,40 @@ Per `CONTRIBUTING.md`, no source here has been checked for retraction, replicati
 | `watts-2018` | Watts, Duncan & Quan (2018), Revisiting the Marshmallow Test | [https://pmc.ncbi.nlm.nih.gov/articles/PMC6050075/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6050075/) | [self-regulation-delay-of-gratification](evidence-cards/self-regulation-delay-of-gratification.md) |
 | `watts-2018-sage` | Watts, Duncan & Quan (2018), Psychological Science | [https://journals.sagepub.com/doi/10.1177/0956797618761661](https://journals.sagepub.com/doi/10.1177/0956797618761661) | [self-regulation-delay-of-gratification](evidence-cards/self-regulation-delay-of-gratification.md) |
 | `preschool-scale-synthesis` | Are Preschool Programs Becoming Less Effective? | [https://files.eric.ed.gov/fulltext/ED672217.pdf](https://files.eric.ed.gov/fulltext/ED672217.pdf) | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
+| `decasper-spence-1986` | DeCasper & Spence (1986), prenatal maternal speech and newborn preference | [https://doi.org/10.1016/0163-6383(86)90025-1](https://doi.org/10.1016/0163-6383(86)90025-1) | [prenatal-auditory-learning](evidence-cards/prenatal-auditory-learning.md) |
+| `partanen-2013` | Partanen et al. (2013), PNAS, neural memory traces of prenatal sound | [https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/) | [prenatal-auditory-learning](evidence-cards/prenatal-auditory-learning.md) |
+| `deregil-2015-cochrane` | De-Regil et al. (2015), Cochrane periconceptional folate review | [https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) |
+| `mrc-ntd-1991` | MRC Vitamin Study Research Group (1991), Lancet NTD trial | [https://doi.org/10.1016/0140-6736(91)90133-A](https://doi.org/10.1016/0140-6736(91)90133-A) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) |
+| `who-anc-2016` | WHO (2016), recommendations on antenatal care | [https://www.who.int/publications/i/item/9789241549912](https://www.who.int/publications/i/item/9789241549912) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) |
+| `kramer-2008-probit` | Kramer et al. (2008), PROBIT IQ at 6.5 years | [https://pubmed.ncbi.nlm.nih.gov/18458209/](https://pubmed.ncbi.nlm.nih.gov/18458209/) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
+| `der-2006-bmj` | Der, Batty & Deary (2006), BMJ, breastfeeding and intelligence | [https://pmc.ncbi.nlm.nih.gov/articles/PMC1634122/](https://pmc.ncbi.nlm.nih.gov/articles/PMC1634122/) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
+| `colen-ramey-2014` | Colen & Ramey (2014), sibling comparisons of breastfeeding | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4077166/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4077166/) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
+| `belsky-2007-cd` | Belsky et al. (2007), Child Development, long-term early child care | [https://doi.org/10.1111/j.1467-8624.2007.01021.x](https://doi.org/10.1111/j.1467-8624.2007.01021.x) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
+| `price-hiscock-2012` | Price, Wake, Ukoumunne & Hiscock (2012), Pediatrics, 5-year sleep follow-up | [https://pubmed.ncbi.nlm.nih.gov/22966034/](https://pubmed.ncbi.nlm.nih.gov/22966034/) | [infant-sleep-training](evidence-cards/infant-sleep-training.md) |
+| `williamson-mindell-2019` | Williamson, Mindell, Hiscock & Quach (2019), LSAC sleep trajectories | [https://pubmed.ncbi.nlm.nih.gov/31564429/](https://pubmed.ncbi.nlm.nih.gov/31564429/) | [infant-sleep-training](evidence-cards/infant-sleep-training.md) |
+| `mischel-shoda-peake-1990` | Mischel, Shoda & Peake (1990), Developmental Psychology | [https://doi.org/10.1037/0012-1649.26.6.978](https://doi.org/10.1037/0012-1649.26.6.978) | [self-regulation-delay-of-gratification](evidence-cards/self-regulation-delay-of-gratification.md) |
+| `garcia-heckman-2023` | García, Heckman & Ronda (2023), JPE, Perry through late midlife | [https://doi.org/10.1086/722936](https://doi.org/10.1086/722936) | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
+| `campbell-2012-abecedarian` | Campbell et al. (2012), Abecedarian age-30 follow-up | [https://pmc.ncbi.nlm.nih.gov/articles/PMC3989926/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3989926/) | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
+| `elango-2016-ece` | Elango, García, Heckman & Hojman (2016), Early Childhood Education | [https://www.nber.org/papers/w21766](https://www.nber.org/papers/w21766) | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
 
-## Unresolved Citations (need a verified resource link)
+## Unresolved Citations
 
-| Title | Cited By |
+None remaining from the 2026-09-14 first pass. Resolutions of those 12 items:
+
+| Original listing | Resolution |
 |---|---|
-| Kramer et al. (2008), PROBIT primary IQ outcomes (original trial report) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
-| Der, Batty & Deary (2006), sibling-comparison analysis of breastfeeding and cognition | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
-| Colen & Ramey (2014), sibling-comparison analysis of breastfeeding and cognition | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
-| NICHD Early Child Care Research Network, multiple SECCYD reports (NICHD, 2006) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
-| Belsky et al. (2007), Child Development, age-15 SECCYD follow-up | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
-| Vandell et al., effect-size synthesis, American Psychologist (2006) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
-| Price, Wake, Ukoumunne & Hiscock, Sleep Health (2017) follow-up | [infant-sleep-training](evidence-cards/infant-sleep-training.md) |
-| Mindell et al. (2019), Australian longitudinal cohort on sleep training | [infant-sleep-training](evidence-cards/infant-sleep-training.md) |
-| Mischel, Shoda & Peake (1990), original marshmallow-test study | [self-regulation-delay-of-gratification](evidence-cards/self-regulation-delay-of-gratification.md) |
-| Garcia, Heckman et al. (2021, 2023), long-run Perry Preschool and Abecedarian analyses | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
-| Campbell et al. (2012), Abecedarian follow-up to adulthood | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
-| Elango et al. (2016), synthesis of preschool RCT evidence | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
+| Kramer et al. (2008), PROBIT primary IQ | `kramer-2008-probit` (PMID 18458209) |
+| Der, Batty & Deary (2006) | `der-2006-bmj` (PMC1634122) |
+| Colen & Ramey (2014) | `colen-ramey-2014` (PMC4077166) |
+| NICHD SECCYD reports (2006) | Already catalogued as `nichd-seccyd-2006` |
+| Belsky et al. (2007), listed as age-15 follow-up | `belsky-2007-cd` is the 2007 *Child Development* paper; the age-15 follow-up is already `nichd-age15` (Vandell et al. 2010) |
+| Vandell et al., *American Psychologist* (2006) | Already catalogued as `nichd-effectsizes-2006` |
+| Price, Wake, Ukoumunne & Hiscock, *Sleep Health* (2017) | No 2017 *Sleep Health* paper by those four authors found. Matched to Price et al. (2012) *Pediatrics* five-year follow-up (`price-hiscock-2012`) |
+| Mindell et al. (2019), Australian sleep-training cohort | Matched to Williamson, Mindell, Hiscock & Quach (2019) LSAC trajectories (`williamson-mindell-2019`); **not** a sleep-training RCT |
+| Mischel, Shoda & Peake (1990) | `mischel-shoda-peake-1990` |
+| Garcia, Heckman et al. (2021, 2023) | `garcia-heckman-2023` (JPE); 2021 NBER working paper is w29057 |
+| Campbell et al. (2012) | `campbell-2012-abecedarian` (PMC3989926) |
+| Elango et al. (2016) | `elango-2016-ece` |
 
 ## Maintenance Rule
 

@@ -4,13 +4,22 @@ title: "Preschool / Early Childhood Education (Perry, Abecedarian)"
 description: "Two small, high-fidelity 1960s-70s RCTs (Perry, Abecedarian) show large, persistent adult gains; generalization to modern at-scale programs is uncertain."
 tags: [early-learning, preschool, rct, institutional-dependence]
 status: draft
-confidence: preliminary-not-yet-graded
+confidence: moderate-historical; low-generalization
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
 sources:
   - id: preschool-scale-synthesis
     resource: https://files.eric.ed.gov/fulltext/ED672217.pdf
     title: "Are Preschool Programs Becoming Less Effective?"
+  - id: garcia-heckman-2023
+    resource: https://doi.org/10.1086/722936
+    title: "García, Heckman & Ronda (2023), JPE, Perry Preschool through late midlife"
+  - id: campbell-2012-abecedarian
+    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC3989926/
+    title: "Campbell et al. (2012), Developmental Psychology, Abecedarian age-30 follow-up"
+  - id: elango-2016-ece
+    resource: https://www.nber.org/papers/w21766
+    title: "Elango, García, Heckman & Hojman (2016), Early Childhood Education"
 ---
 
 # Preschool / Early Childhood Education (Perry, Abecedarian)
@@ -57,6 +66,6 @@ Institutional investment in high-fidelity, well-resourced early-childhood progra
 
 ## Sources
 
-- Garcia, Heckman et al. (2021, 2023), long-run Perry Preschool and Abecedarian analyses
-- Campbell et al. (2012), Abecedarian follow-up to adulthood
-- Elango et al. (2016), synthesis of preschool RCT evidence
+- García, Heckman & Ronda (2023), *Journal of Political Economy*, Perry through late midlife (2021 NBER working paper: w29057)
+- Campbell et al. (2012), *Developmental Psychology*, Abecedarian age-30 follow-up
+- Elango, García, Heckman & Hojman (2016), NBER, early childhood education synthesis

@@ -26,8 +26,9 @@ Scientific findings do not automatically generate parenting prescriptions.
 /COMPOSITION.md         Book compositional grammar
 /SOURCES.md             Master source catalog
 /index.md               OKF v0.2 bundle root
+/SPEC.md                Pointer to the external OKF v0.2 specification
 /evidence-cards/        One evidence card per major claim/topic
-/chapters/              Canonical manuscript (seed outlines)
+/chapters/              Working 15-chapter TOC + seed outlines
 /style/                 Voice checklist, forbidden phrases, anomaly bank
 /preliminary/           Staging: research notes, chapter drafts, manifest, triage, extraction
 ```

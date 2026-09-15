@@ -4,7 +4,7 @@ title: "Screen Time and Language Development"
 description: "Screen exposure is a decomposable, mostly observational predictor of language: quantity is negatively associated, co-viewing and educational content buffer."
 tags: [screens, language, measurement-bias]
 status: draft
-confidence: preliminary-not-yet-graded
+confidence: low-to-moderate
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
 sources:

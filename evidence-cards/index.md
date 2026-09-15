@@ -1,10 +1,12 @@
 # Evidence Cards Index
 
-Preliminary evidence cards populated as a starting synthesis. All cards are marked **status: draft** in their OKF frontmatter and require deeper audit (full source retrieval, additional replication search, formal bias/heterogeneity review, confidence grading) before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and `SPEC.md` reference (Open Knowledge Format v0.2) for the frontmatter schema.
+Preliminary evidence cards populated as a starting synthesis. All cards are marked **status: draft** in their OKF frontmatter and require deeper audit (full source retrieval, additional replication search, formal bias/heterogeneity review, confidence grading) before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
 
 # Evidence Cards
 
 * [Prenatal Maternal Stress and Anxiety](prenatal-maternal-stress-anxiety.md) - Observational prenatal stress/anxiety associations largely attenuate under genetically informed designs.
+* [Prenatal Auditory Discrimination and Newborn Preference](prenatal-auditory-learning.md) - Late-pregnancy speech exposure can shape newborn preference; not lasting cognitive advantage.
+* [Periconceptional Folic Acid and Neural-Tube Defects](prenatal-folate-ntd.md) - RCTs/Cochrane: folic acid substantially reduces NTD risk; not a general IQ claim.
 * [Breastfeeding and Cognitive Development](breastfeeding-cognitive-development.md) - PROBIT RCT and sibling comparisons show a small, fading, verbal-concentrated effect.
 * [Early Childcare Quality and Development](early-childcare-quality.md) - NICHD SECCYD cohort: modest quality-cognition links; parenting predicts more.
 * [Screen Time and Language Development](screen-time-language-development.md) - Weak-to-moderate observational associations, decomposed by content/co-use/context.
@@ -15,7 +17,7 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 
 # Not Yet Started
 
-* Preconception exposures - parental age, paternal contributions, periconceptional nutrition.
+* Preconception exposures - parental age, paternal contributions, periconceptional nutrition beyond folate.
 * Birth - mode of delivery, birth experience, early skin-to-skin/bonding.
 * Play - unstructured/free play, pretend play, outdoor play.
 * Social development beyond attachment - peer interaction, sibling effects, daycare socialization.
