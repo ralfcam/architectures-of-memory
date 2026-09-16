@@ -58,7 +58,10 @@ Group claims into likely cards **after** they are extracted. One card = one clai
 - [Play extraction plan](play--extraction-plan.md) — Chapter 12; two first-pass cards exist; curated copy promoted.
 - [Social-beyond-attachment extraction plan](social-beyond-attachment--extraction-plan.md) — Chapters 8–11 remainder; curated Ch. 8–13 exist; Warneken helping card now exists.
 - [Remaining-domains source audit](remaining-domains--source-audit.md) — Warneken, Brussoni, Carneiro, Cook, Dean; five first-pass draft cards.
-- [v0.3 slice](../../releases/v0.3-slice.md) — curated Chapter 15 + remaining-domain cards on this branch; tag after merge.
+- [Draft-card second-pass](draft-cards--second-pass-audit.md) — all 65 draft cards after `v0.3`; no extra `stable`.
+- [Cross-chapter consistency](cross-chapter-consistency--v03.md) — six load-bearing terms across Ch. 1–15.
+- [Manuscript revision pass](manuscript-revision-pass--v03.md) — remaining-domain naming; Ch. 14 S/I/A.
+- [v0.3 slice](../../releases/v0.3-slice.md) — **Tagged** on `main` at `21d1a0d`.
 - [Selected-card re-audit](selected-cards--replication-bias-reaudit.md) — first replication/bias pass; none to `stable` in that pass.
 - [Catalog-wide replication / attenuation](catalog-wide-replication-attenuation.md) — every live card classified; three later `stable` flips.
 - [Catalog-wide retraction search](catalog-wide-retraction-search.md) — Crossref/PubMed lookup; Cochrane `new_version` is not retraction.

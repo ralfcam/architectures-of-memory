@@ -4,7 +4,7 @@ title: "Infant Perceptual Narrowing for Speech Contrasts"
 description: "During the first year, discrimination of native-language phonetic contrasts is maintained or strengthened while sensitivity to some nonnative contrasts declines; this is attunement, not a permanent closing of language learning."
 tags: [language, perception, infancy]
 status: draft
-confidence: high-lab; moderate-timetable
+confidence: high-lab; moderate-timetable; low-sealed-deadline
 generated: { by: agent:cursor, at: 2026-09-15T20:00:00Z }
 stale_after: 2027-03-15T00:00:00Z
 atlas_domains: [language]

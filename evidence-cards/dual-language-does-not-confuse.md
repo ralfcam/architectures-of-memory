@@ -4,7 +4,7 @@ title: "Two Languages Do Not Confuse Young Children"
 description: "A National Academies synthesis finds no evidence that using two languages at home, or one at home and another in early care, confuses dual-language learners or puts either language at risk given adequate exposure."
 tags: [language, multilingual, policy]
 status: draft
-confidence: high-no-confusion; moderate-individual-trajectories
+confidence: high-no-confusion; moderate-individual-trajectories; low-automatic-bonus
 generated: { by: agent:cursor, at: 2026-09-15T20:00:00Z }
 stale_after: 2027-03-15T00:00:00Z
 atlas_domains: [language]

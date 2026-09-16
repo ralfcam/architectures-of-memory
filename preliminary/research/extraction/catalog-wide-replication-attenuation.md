@@ -88,11 +88,16 @@ This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier 
 | `rank-order-continuity-not-destiny.md` | Meta-analysis of test–retest *r* | Roberts & DelVecchio 2000 age function of consistency | not classified | Individual adult-personality forecast Low |
 | `childhood-self-control-gradient.md` | Observational cohort (Dunedin) | Moffitt 2011 gradient; improvement changes standing | not classified | Individual sentence Low; Watts delay not rewritten |
 | `ordinary-resilience-adaptive-systems.md` | Narrative research-program review | Masten 2001 ordinary-magic framing | n/a | Adversity-is-harmless refused; BEIP not this card |
+| `instrumental-helping-not-altruism.md` | Laboratory experiment | Second-year helping as an act; altruism interpretation further | not classified | Character forecast Low; first-pass |
+| `outdoor-risky-play-not-0-3-law.md` | Systematic review (mostly school-age) | School-age associations; 0–3 unique-cause not shown | not classified | Window mismatch is the finding |
+| `parental-leave-heterogeneous-package.md` | Natural experiment / reform | One Norwegian package; not every leave | not classified | 0–3 cognition Low-to-Moderate |
+| `household-food-insecurity-health.md` | Observational clinical sample | Health association; not a cognition law | not classified | Not a parenting residual |
+| `preconception-nutrition-beyond-folate.md` | Narrative/systematic review | Nutrient-specific mixed; folate NTD not inherited | n/a for NTD | Do not inherit NTD `stable` |
 
-This pass completes (3) catalog-wide and records three *narrow* `stable` flips. Rules (1)–(2) were addressed in earlier DOI/retraction dumps plus the 2026-09-16 replication note.
+This pass completes (3) catalog-wide and records three *narrow* `stable` flips. Remaining-domain cards were added after `v0.3`. Rules (1)–(2) were addressed in earlier DOI/retraction dumps plus the 2026-09-16 replication note.
 
 ## Explicit non-promotions
 
 - YAML `confidence` is not by itself a stability claim.
 - Completing this table does not reopen sleep, attachment, or screen-time *theory*.
-- Next *empirical* cards still open: Chapter 3 neonatal perception and mode of delivery (held); outdoor/risky play; Warneken helping; employment/leave; food security. Father/kin, Chapter 10 rules/behavior, and Chapter 15 waypoint now have first-pass cards.
+- Next *empirical* leftovers: Chapter 3 neonatal perception and mode of delivery (held); guided-play efficacy; dedicated WM/shifting; routines/modeling. Father/kin, Chapter 10 helping, outdoor/risky play, leave, food, and preconception-beyond-folate now have first-pass cards.

@@ -17,7 +17,7 @@ Promote a contiguous arc rather than all 15 dossiers at once.
 | 5 | 5 | Becoming a Mind | Perception, attention, learning before language/executive chapters |
 | 6 | 7 | The Birth of Language | Dedicated synthesis; connects to the screen-time/language card |
 
-Curated, voice-checked copies now exist for Chapters 1–15. `v0.1` and `v0.2` are tagged on `main`; a v0.3 slice definition lives in `preliminary/releases/v0.3-slice.md`.
+Curated, voice-checked copies now exist for Chapters 1–15. `v0.1`, `v0.2`, and `v0.3` are tagged on `main`.
 
 ## Required sections in a triage note
 

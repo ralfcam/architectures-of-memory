@@ -4,7 +4,7 @@ title: "Severe Institutional Deprivation Is Not Ordinary Parenting"
 description: "Randomized foster-care placement after early institutional care improves some cognitive and relational outcomes; the contrast is severe deprivation, not typical variation in sensitivity or daycare."
 tags: [attachment, deprivation, intervention]
 status: draft
-confidence: high-danger; moderate-to-high-placement
+confidence: high-danger; moderate-to-high-placement; very-low-ordinary-care
 generated: { by: agent:cursor, at: 2026-09-15T19:00:00Z }
 stale_after: 2027-03-15T00:00:00Z
 atlas_domains: [attachment, regulation, social]

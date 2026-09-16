@@ -4,7 +4,7 @@ title: "Executive Function as Unity and Diversity"
 description: "Executive function is a family of related but not identical control processes (inhibition, working memory, shifting); early performance is context-bound and is not intelligence, obedience, or character."
 tags: [executive-function, cognition, measurement]
 status: draft
-confidence: moderate-to-high-construct; moderate-toddler-structure
+confidence: moderate-to-high-construct; moderate-toddler-structure; low-single-task
 generated: { by: agent:cursor, at: 2026-09-16T09:00:00Z }
 stale_after: 2027-03-16T00:00:00Z
 atlas_domains: [executive-function, cognition]

@@ -4,7 +4,7 @@ title: "Parental Leave Is a Heterogeneous Package, Not a Unitary Exposure"
 description: "A Norwegian maternity-leave reform is associated with better long-run child outcomes; leave remains a bundle of time, pay, eligibility, and who stays home, not a 0–3 cognitive law."
 tags: [leave, employment, ecology]
 status: draft
-confidence: moderate-reform; low-to-moderate-0-3
+confidence: moderate-reform; low-to-moderate-0-3; low-unitary-job
 generated: { by: agent:cursor, at: 2026-09-16T14:50:00Z }
 stale_after: 2027-03-16T00:00:00Z
 atlas_domains: [ecology, policy]

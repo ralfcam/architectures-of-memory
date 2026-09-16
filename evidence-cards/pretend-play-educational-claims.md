@@ -4,7 +4,7 @@ title: "Educational Claims About Pretend Play Exceed the Evidence"
 description: "Pretend play is a real developmental activity with plausible cognitive demands; evidence does not establish that it uniquely causes intelligence, executive function, theory of mind, or creativity."
 tags: [play, executive-function, evidence-appraisal]
 status: draft
-confidence: high-overclaim; low-unique-cause
+confidence: high-overclaim; moderate-demands; low-unique-cause
 generated: { by: agent:cursor, at: 2026-09-16T09:00:00Z }
 stale_after: 2027-03-16T00:00:00Z
 atlas_domains: [play, executive-function]

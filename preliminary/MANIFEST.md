@@ -36,7 +36,7 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-AUDIT13 | `preliminary/research/extraction/ch13-ecology--source-audit.md` | documentation | remain-preliminary | extracted | Troller-Renfree 2022; Noble 2025; Chetty 2016 |
 | G-V01 | `preliminary/releases/v0.1-slice.md` | documentation | remain-preliminary | extracted | **Tagged** `v0.1` on `main` at `c7c2a7a` |
 | G-V02 | `preliminary/releases/v0.2-slice.md` | documentation | remain-preliminary | extracted | **Tagged** `v0.2` on `main` at `9bbc2d9` |
-| G-V03 | `preliminary/releases/v0.3-slice.md` | documentation | remain-preliminary | extracted | Curated Ch. 15 + remaining-domain cards; tag after merge |
+| G-V03 | `preliminary/releases/v0.3-slice.md` | documentation | remain-preliminary | extracted | **Tagged** `v0.3` on `main` at `21d1a0d` |
 | G-T15 | `preliminary/triage/ch15-three-years--triage.md` | documentation | remain-preliminary | extracted | Age-3 waypoint; three draft cards; curated copy promoted |
 | G-MAP15 | `preliminary/research/extraction/ch15-three-years--evidence-map.md` | documentation | remain-preliminary | extracted | Continuity, self-control, resilience; Watts/BEIP/preschool RCT reconcile |
 | G-AUDIT15 | `preliminary/research/extraction/ch15-three-years--source-audit.md` | documentation | remain-preliminary | extracted | Roberts 2000; Moffitt 2011; Masten 2001 |
@@ -93,6 +93,9 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-R13 | `preliminary/drafts-chapters/reviews/ch13-curated-13-the-ecology-of-development--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 13 |
 | G-R15 | `preliminary/drafts-chapters/reviews/ch15-curated-15-three-years--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 15 |
 | G-AUDIT-REM | `preliminary/research/extraction/remaining-domains--source-audit.md` | documentation | remain-preliminary | extracted | Warneken, Brussoni, Carneiro, Cook, Dean |
+| G-SECOND | `preliminary/research/extraction/draft-cards--second-pass-audit.md` | documentation | remain-preliminary | extracted | All 65 draft cards; no extra `stable` |
+| G-CONS | `preliminary/research/extraction/cross-chapter-consistency--v03.md` | documentation | remain-preliminary | extracted | Six load-bearing terms across Ch. 1–15 |
+| G-REVMS | `preliminary/research/extraction/manuscript-revision-pass--v03.md` | documentation | remain-preliminary | extracted | Transitions, S/I/A, remaining-domain naming |
 
 ## Chapter 1 — Before the Child Is Born
 
@@ -319,5 +322,5 @@ Window: preconception through age 3. Domains: all five.
 
 - Research/synthesis/plan files: 31
 - Chapter drafts: 15
-- Documentation/governance (including this file): 39
+- Documentation/governance (including this file): 42
 - Exact byte-identical duplicates: none found. Near-duplicates: C02-P1 ~ C02-S1; several ~3 MB chapter syntheses that likely embed media.

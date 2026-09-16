@@ -4,7 +4,7 @@ title: "Symbolic and Pretend Play Emerge Across the Second Year"
 description: "Object substitution and simple pretense commonly become visible between about 12 and 24 months; this is a representational transition, not a required intelligence program or a diagnostic cutoff."
 tags: [play, representation, toddlerhood]
 status: draft
-confidence: moderate-to-high-emergence; moderate-mechanism
+confidence: moderate-to-high-emergence; moderate-mechanism; low-diagnostic-cutoff
 generated: { by: agent:cursor, at: 2026-09-16T09:00:00Z }
 stale_after: 2027-03-16T00:00:00Z
 atlas_domains: [play, cognition]

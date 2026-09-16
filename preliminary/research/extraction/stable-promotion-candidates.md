@@ -28,3 +28,4 @@ Grey-literature IDs without a journal DOI (`nichd-seccyd-2006`, `who-anc-2016`, 
 - Observational / GI-attenuated cards (`prenatal-maternal-stress-anxiety`, `breastfeeding-cognitive-development`, `self-regulation-delay-of-gratification`) are **not** first-wave `stable` candidates.
 - Childcare, screens, sleep, and attachment-intervention cards wait.
 - New Chapter 9 / 11 / 12 cards are first-pass drafts and are not on this list.
+- 2026-09-16 second-pass: looking-time, perceptual-narrowing, and contingency re-evaluated and **held** (linking-hypothesis debate; timetable not universal; processing parameters incomplete).

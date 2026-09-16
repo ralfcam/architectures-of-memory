@@ -4,7 +4,7 @@ title: "Neighborhood Moves Have Age-Dependent Later Effects"
 description: "Moving to a lower-poverty neighborhood before adolescence increased later college attendance and adult earnings in Moving to Opportunity; this is an adult-economic finding, not a toddler-development law, and moving is not universally beneficial."
 tags: [ecology, housing, neighborhood]
 status: draft
-confidence: moderate-later-earnings; low-to-moderate-early-dev
+confidence: moderate-later-earnings; low-to-moderate-early-dev; low-every-characteristic
 generated: { by: agent:cursor, at: 2026-09-16T10:15:00Z }
 stale_after: 2027-03-16T00:00:00Z
 atlas_domains: [ecology, policy]

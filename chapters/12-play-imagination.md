@@ -74,7 +74,7 @@ Preschool RCTs remain a different identification. Perry and Abecedarian are not 
 
 Screens are not re-theorized. The live card `screen-time-language-development.md` stays a language-and-exposure object: content, co-use, and context, not a unitary harm. A video of a telephone is not the block. Co-viewing is not guided play. Do not collapse them. Sleep and attachment-intervention theory are not restated as play.
 
-Outdoor and risky play remain `needs-source-audit`. Much of that literature is school-age. A toddler on a low step is not the same identification as a schoolyard risk study. **Grade: Low-to-Moderate** as a 0–3 claim until named sources are registered. Held. They are a v0.3 remainder, not a v0.2 gate.
+Outdoor and risky play have a first-pass card. Much of that literature is school-age. A toddler on a low step is not the same identification as a schoolyard risk study. **Grade: Moderate** for associations in that mostly older-child literature. **Grade: Low-to-Moderate** as a 0–3 developmental law. **Grade: Low** as a toddler efficacy package. The evidence card is `outdoor-risky-play-not-0-3-law.md` (Brussoni 2015). Guided-play efficacy remains thinner than a dedicated card.
 
 ## Guided play is not a settled program
 
@@ -108,7 +108,7 @@ It does not tell us that a replica telephone proves substitution, or that a bran
 
 ## Science, Interpretation, Art
 
-**Science** here is the Moderate-to-High observational emergence of symbolic play, and the High finding that unique-cause educational claims exceed the evidence. Transfer, diagnosis, and toy-as-curriculum remain Low. Guided play remains Low-to-Moderate as an idea. Outdoor and risky play remain held.
+**Science** here is the Moderate-to-High observational emergence of symbolic play, and the High finding that unique-cause educational claims exceed the evidence. Transfer, diagnosis, and toy-as-curriculum remain Low. Guided play remains Low-to-Moderate as an idea. Outdoor and risky play are Moderate as school-age association and Low-to-Moderate as a 0–3 law.
 
 **Interpretation** is keeping a telephone-block from becoming a story about the kind of mind the child will have. Match verbs to grades: *shows* where overclaim exceeds evidence, *suggests* where emergence is Moderate-to-High, *is associated with* where unique cause is Low. Equifinality is an interpretive habit as much as a finding: several rich activities may support similar outcomes, so a missing telephone is not a missing future.
 
@@ -126,6 +126,7 @@ The crayon in Chapter 11 was already a representation problem: a symbol could ma
 
 - `evidence-cards/symbolic-pretend-play-emergence.md` (CH12-C02)
 - `evidence-cards/pretend-play-educational-claims.md` (CH12-C10)
+- Remainder: `evidence-cards/outdoor-risky-play-not-0-3-law.md` (Brussoni 2015)
 - Reconcile only: `evidence-cards/exploration-as-sampling.md`, `evidence-cards/embodied-perception-action.md`, `evidence-cards/toddler-peer-interaction.md`, `evidence-cards/preschool-early-education-rct.md`, `evidence-cards/screen-time-language-development.md`
 
 Promotion note: this file is a curated, voice-checked copy in the Appendix B range. The archival draft `preliminary/drafts-chapters/chapter 12` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch12-curated-12-play-imagination--voice-review.md`.

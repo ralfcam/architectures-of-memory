@@ -12,11 +12,13 @@ Entry types:
 ## [Unreleased]
 
 ### Structure
+- Tagged **`v0.3`** on `main` at `21d1a0d` (PR #15 merge). See `preliminary/releases/v0.3-slice.md`.
+- Began quality deepening after the 15-chapter arc: second-pass audit of all 65 draft cards; cross-chapter consistency note (regulation, causation, risk, resilience, attachment, institutions); manuscript pass naming remaining-domain cards in Ch. 1/10/12/13/15 and adding a Science / Interpretation / Art close to Chapter 14. Aligned YAML compound `confidence` with in-body grades on manuscript-core cards. Looking-time, perceptual-narrowing, and contingency remain `draft`. Sleep/attachment/screen theory not rewritten. **No additional card moved to `status: stable`.**
 - Tagged **`v0.2`** on `main` at `9bbc2d9` (PR #14 merge). See `preliminary/releases/v0.2-slice.md`.
 - Promoted a curated, voice-checked Chapter 15 (`chapters/15-three-years.md`) in the Appendix B range. Archival `chapter 15` untouched. C15-S1 not double-extracted. Continuity, Dunedin, and ordinary-resilience cards named; Watts/BEIP/preschool RCT reconciled, not rewritten. **No card moved to `status: stable`.**
-- Source-audited remaining unstarted domains into five first-pass draft cards: Warneken helping, outdoor/risky play, parental leave, food insecurity, preconception nutrition beyond folate. Folate NTD card not re-estimated. Sperm-epigenetic stories remain excluded. Tag `v0.3` on `main` after this PR merges.
+- Source-audited remaining unstarted domains into five first-pass draft cards: Warneken helping, outdoor/risky play, parental leave, food insecurity, preconception nutrition beyond folate. Folate NTD card not re-estimated. Sperm-epigenetic stories remain excluded. **Now tagged** as `v0.3`.
 - Promoted curated, voice-checked Chapters 8–13 into `chapters/` in the Appendix B range (Expanding World through Ecology). Reviews under `preliminary/drafts-chapters/reviews/`. Archival originals untouched. **Now tagged** as `v0.2`.
-- Defined the v0.3 release slice (`preliminary/releases/v0.3-slice.md`): curated Chapter 15 plus remaining-domain cards. Files exist on this branch; tag `v0.3` on `main` after this PR merges. Not a gate for v0.2.
+- Defined the v0.3 release slice (`preliminary/releases/v0.3-slice.md`): curated Chapter 15 plus remaining-domain cards. **Now tagged** on `main` at `21d1a0d`.
 - Tagged **`v0.1`** on `main` at `c7c2a7a` (PR #12 merge). See `preliminary/releases/v0.1-slice.md`. Chapter 2 curated copy remains ~2,358 words (slightly under Appendix B 2,500); not padded.
 - Began Chapter 15 triage (age-three waypoint). Evidence map, source audit, and three first-pass draft cards. Archival `chapter 15` untouched. Temperament, Watts delay, EF, BEIP, and preschool-RCT cards reconciled, not rewritten. **No card moved to `status: stable`.**
 - Defined the v0.2 release slice (`preliminary/releases/v0.2-slice.md`): curated Chapters 8–13. **Now tagged** on `main` at `9bbc2d9`. Chapter 15 is the v0.3 manuscript center.
@@ -81,6 +83,11 @@ Entry types:
 - Citation-repaired `infant-sleep-training.md`: retired `hiscock-2016`; identified Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020. Harm claim and Low-to-Moderate grade unchanged.
 - Citation-repaired `screen-time-language-development.md`: separated Madigan 2020 *JAMA Pediatrics* from Jing et al. 2023 *Child Development*. Low-to-Moderate grade unchanged.
 - Re-audited folate, Saffran, and neonatal-transition cards against the five promotion rules. Compound YAML on folate (`high-ntd; low-other-anomalies-cognition`). Added Czeizel 1992, Aslin 1998, Hillman 2012. Narrow claims moved to `status: stable`.
+- Aligned YAML `confidence` with in-body compound grades on manuscript-core draft cards (timing, fetal growth, auditory, mixtures, stress, narrowing, resilience, dual-language, pretend, MTO, BEIP, EF/inhibition/symbolic, remaining-domain cards). Grades themselves unchanged. Sleep/attachment/screen YAML not reopened.
+
+## [v0.3] — 2026-09-16
+
+Annotated tag `v0.3` on `main` at `21d1a0d` (PR #15 merge). Snapshot: v0.2 plus voice-checked curated Chapter 15 (age-three waypoint) and five remaining-domain draft cards. 68 cards (3 `stable` for a narrow claim; 65 `draft`); 113 verified sources on that commit. See `preliminary/releases/v0.3-slice.md`.
 
 ## [v0.2] — 2026-09-16
 
