@@ -25,8 +25,16 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-T01 | `preliminary/triage/ch01-framing--triage.md` | documentation | remain-preliminary | extracted | Ch. 1 extraction plan; curated copy promoted |
 | G-MAP01 | `preliminary/research/extraction/ch01-before-the-child--evidence-map.md` | documentation | remain-preliminary | extracted | C01-D1 vs C01-S1 hashes; paternal-age card; four prenatal cards linked |
 | G-R01 | `preliminary/drafts-chapters/reviews/ch01-curated-01-before-the-child--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 1 |
-| G-T08 | `preliminary/triage/ch08-expanding-world--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 8; three cards; no curated chapter |
-| G-MAP08 | `preliminary/research/extraction/ch08-expanding-world--evidence-map.md` | documentation | remain-preliminary | extracted | Referencing, networks, peers; childcare/BEIP reconcile |
+| G-T08 | `preliminary/triage/ch08-expanding-world--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 8; four cards including father/kin remainder; no curated chapter |
+| G-MAP08 | `preliminary/research/extraction/ch08-expanding-world--evidence-map.md` | documentation | remain-preliminary | extracted | Referencing, networks, peers, father/kin; childcare/BEIP reconcile |
+| G-AUDIT08b | `preliminary/research/extraction/ch08-remainder--source-audit.md` | documentation | remain-preliminary | extracted | McWayne 2013; Dagan 2018 |
+| G-T10 | `preliminary/triage/ch10-boundaries-behavior--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 10; compliance, aggression, punishment |
+| G-MAP10 | `preliminary/research/extraction/ch10-boundaries-behavior--evidence-map.md` | documentation | remain-preliminary | extracted | EF/delay reconcile; C10-P1 not double-extracted |
+| G-AUDIT10 | `preliminary/research/extraction/ch10-behavior--source-audit.md` | documentation | remain-preliminary | extracted | Kochanska 1995; Tremblay 2004; Gershoff 2016 |
+| G-T13 | `preliminary/triage/ch13-ecology--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 13; income/cash and MTO |
+| G-MAP13 | `preliminary/research/extraction/ch13-ecology--evidence-map.md` | documentation | remain-preliminary | extracted | Childcare/BEIP/preschool RCT reconcile |
+| G-AUDIT13 | `preliminary/research/extraction/ch13-ecology--source-audit.md` | documentation | remain-preliminary | extracted | Troller-Renfree 2022; Noble 2025; Chetty 2016 |
+| G-V01 | `preliminary/releases/v0.1-slice.md` | documentation | remain-preliminary | extracted | Prenatal through Language + Ch. 14; tag on main |
 | G-T09 | `preliminary/triage/ch09-emotional-revolution--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 9; still-face, temperament, inhibition |
 | G-MAP09 | `preliminary/research/extraction/ch09-emotional-revolution--evidence-map.md` | documentation | remain-preliminary | extracted | Co-regulation/delay reconcile |
 | G-AUDIT09 | `preliminary/research/extraction/ch09-emotion--source-audit.md` | documentation | remain-preliminary | extracted | Tronick; Mesman; Gartstein & Rothbart; Clauss |
@@ -152,7 +160,7 @@ Window: late infancy through toddler extrafamilial care. Domains: relational, so
 |---|---|---|---|---|---|
 | C08-P1 | `research/Chapter 8 Preliminary Research Plan — The Expanding World.docx` | research-plan | `evidence-cards/` + `chapters/` | extracted | Extrafamilial relationships, childcare. |
 | C08-S1 | `research/The Expanding World_ Moving Beyond the Primary Dyad in Early Human Development.docx` | synthesis | remain-preliminary | unreviewed | ~2.9 MB alternate; overlaps C08-P1 and existing `early-childcare-quality.md`. |
-| C08-D | `drafts-chapters/chapter 8.md` | chapter-draft | `chapters/` | triage-ready | Has `.md` suffix unlike most drafts. No curated copy this pass. |
+| C08-D | `drafts-chapters/chapter 8.md` | chapter-draft | `chapters/` | triage-ready | Has `.md` suffix unlike most drafts. Four draft cards. No curated copy this pass. |
 
 ## Chapter 9 — The Emotional Revolution
 
@@ -170,9 +178,9 @@ Window: toddlerhood (inhibition, rules, aggression, internalization). Domains: p
 
 | ID | Path | Type | Destination | Status | Overlap / notes |
 |---|---|---|---|---|---|
-| C10-D1 | `research/Chapter 10 Preliminary Research Dossier.docx` | research-dossier | `evidence-cards/` + `chapters/` | unreviewed | Overlaps Ch. 11 (executive) and existing delay-of-gratification card. |
-| C10-P1 | `research/Early Behavioral Regulation Research Plan.docx` | research-plan | remain-preliminary | unreviewed | ~2.9 MB; overlapping regulation plan. |
-| C10-D | `drafts-chapters/Chapter 10.md` | chapter-draft | `chapters/` | unreviewed | Title-case filename. |
+| C10-D1 | `research/Chapter 10 Preliminary Research Dossier.docx` | research-dossier | `evidence-cards/` + `chapters/` | extracted | SHA-256 `79db88fd58219a26…`. Three draft cards. Overlaps Ch. 11 (executive) — reconcile only. |
+| C10-P1 | `research/Early Behavioral Regulation Research Plan.docx` | research-plan | remain-preliminary | unreviewed | ~2.9 MB; overlapping regulation plan. Do not double-extract. |
+| C10-D | `drafts-chapters/Chapter 10.md` | chapter-draft | `chapters/` | triage-ready | Title-case filename. Archival untouched. |
 
 ## Chapter 11 — The Developing Executive
 
@@ -199,9 +207,9 @@ Window: whole 0–3 ecology (family, material conditions, institutions). Domains
 
 | ID | Path | Type | Destination | Status | Overlap / notes |
 |---|---|---|---|---|---|
-| C13-P1 | `research/Chapter 13 — The Ecology of Development  Preliminary Research Plan.docx` | research-plan | `evidence-cards/` + `chapters/` | unreviewed | |
-| C13-P2 | `research/Ecology of Development Research Plan.docx` | research-plan | remain-preliminary | unreviewed | ~2.9 MB alternate. |
-| C13-D | `drafts-chapters/chapter 13` | chapter-draft | `chapters/` | unreviewed | Extensionless markdown. |
+| C13-P1 | `research/Chapter 13 — The Ecology of Development  Preliminary Research Plan.docx` | research-plan | `evidence-cards/` + `chapters/` | extracted | SHA-256 `efd534f954d0a814…`. Two draft cards. |
+| C13-P2 | `research/Ecology of Development Research Plan.docx` | research-plan | remain-preliminary | unreviewed | ~2.9 MB alternate. Do not double-extract. |
+| C13-D | `drafts-chapters/chapter 13` | chapter-draft | `chapters/` | triage-ready | Extensionless markdown. Archival untouched. |
 
 ## Chapter 14 — What Actually Works?
 

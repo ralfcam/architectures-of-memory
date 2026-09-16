@@ -1,6 +1,6 @@
 # Evidence Cards Index
 
-Fifty-four evidence cards. **Three** physiology/lab cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other fifty-one remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
+Sixty evidence cards. **Three** physiology/lab cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other fifty-seven remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
 
 # Evidence Cards
 
@@ -46,6 +46,12 @@ Fifty-four evidence cards. **Three** physiology/lab cards are `status: stable` f
 * [Toddler Inhibitory Control](inhibitory-control-toddler.md) - Garon / Carlson: Moderate-to-High age trend; Low marshmallow destiny.
 * [Symbolic and Pretend Play Emergence](symbolic-pretend-play-emergence.md) - Belsky & Most 1981: Moderate-to-High second-year emergence; not a diagnostic cutoff.
 * [Educational Claims About Pretend Play](pretend-play-educational-claims.md) - Lillard 2013: High that unique-cause educational claims exceed the evidence.
+* [Fathers, Kin, and Siblings](father-kin-sibling-heterogeneous-network.md) - McWayne 2013 / Dagan 2018: Moderate association; Low unique cause. More caregivers ≠ better.
+* [Committed Compliance Is Not Obedience](committed-compliance-not-obedience.md) - Kochanska 1995: Moderate distinction; Low technique. Immediate compliance ≠ conscience.
+* [Toddler Physical Aggression Trajectories](toddler-physical-aggression-trajectories.md) - Tremblay 2004: Moderate-to-High peak-and-decline; Low violence forecast.
+* [Physical Punishment Is Not Necessary](physical-punishment-not-necessary.md) - Gershoff 2016: Moderate-to-High not-necessary; not every instance = damaged child.
+* [Income Support Is Not a Cognitive Guarantee](income-cash-transfer-early-development.md) - Baby’s First Years: infant EEG difference; age-four cognitive nulls.
+* [Neighborhood Moves Are Age-Dependent](neighborhood-mobility-age-dependent.md) - Chetty 2016 MTO: Moderate later earnings; Low-to-Moderate 0–3 measures.
 * [Two Languages Do Not Confuse](dual-language-does-not-confuse.md) - NAP 2017: High that dual exposure as such does not confuse; Low automatic cognitive bonus.
 * [Infant Crying as a Signal](infant-crying-as-signal.md) - Graded distress signal; not a one-to-one code for hunger, pain, or parental error.
 * [Suck–Swallow–Breathe Coordination](suck-swallow-breathe-coordination.md) - Oral feeding is maturational coordination; feeding method is not parental worth.
@@ -64,6 +70,7 @@ Fifty-four evidence cards. **Three** physiology/lab cards are `status: stable` f
 * Preconception exposures - Kong paternal-age card exists; other nutrients beyond folate and sperm-epigenetic stories remain planned (`preconception--extraction-plan.md`).
 * Birth - mode of delivery and birth experience (held); skin-to-skin, crying, feeding coordination, and preterm group risk now have cards; neonatal transition is `stable` for the sequence claim.
 * Play - symbolic/pretend emergence and Lillard overclaim cards exist (`ch12-play-imagination--evidence-map.md`). Outdoor/risky play and guided-play efficacy still `needs-source-audit`. Embodiment/exploration remain Chapter 6.
-* Social development beyond attachment - referencing, networks, and peer cards exist; Chapter 9 still-face/temperament/inhibition cards added; father/kin/sibling claims still `needs-source-audit`.
+* Social development beyond attachment - referencing, networks, peers, and father/kin/sibling cards exist; Chapter 9 still-face/temperament/inhibition and Chapter 10 compliance/aggression/punishment cards added. Warneken helping still `needs-source-audit`.
+* Ecology / policy - income-cash (Baby’s First Years) and neighborhood-mobility (MTO) cards exist; employment/leave and food security still `needs-source-audit`. Childcare/BEIP/preschool RCT reconciled, not rewritten.
 
 Add a new file per topic using `_TEMPLATE.md`, then list it here, register its sources in `../SOURCES.md`, and log the addition in `../CHANGELOG.md`.

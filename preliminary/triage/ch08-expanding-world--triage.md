@@ -9,7 +9,7 @@ Status: `triage-ready`. Second-wave chapter. Extrafamilial social life beyond th
 | C08-P1 | `research/Chapter 8 Preliminary Research Plan — The Expanding World.docx` (SHA-256 `71927efe…`) |
 | C08-S1 | `research/The Expanding World_ Moving Beyond the Primary Dyad in Early Human Development.docx` (~2.9 MB; SHA-256 differs; treat as `duplicate/alternate`) |
 | C08-D | `drafts-chapters/chapter 8.md` |
-| Existing cards | `severe-institutional-deprivation.md`, `infant-caregiver-coregulation.md`, `early-childcare-quality.md` |
+| Existing cards | `severe-institutional-deprivation.md`, `infant-caregiver-coregulation.md`, `early-childcare-quality.md`, plus remainder-pass `father-kin-sibling-heterogeneous-network.md` |
 
 Do not extract C08-S1 as a second independent source of truth. Do not rewrite the existing childcare, co-regulation, or BEIP cards.
 
@@ -39,7 +39,8 @@ Late infancy through toddler extrafamilial care: peers, stranger wariness, socia
 1. This triage note.
 2. Evidence map with 5–8 claims and promote / needs-source-audit / interpretive-only / exclude labels.
 3. Source-audit 2–3 high-leverage claims: social referencing; peer interaction; multiple-caregiver networks. Group-care quality vs quantity stays on the existing childcare card.
-4. Do not draft a curated Chapter 8 until those cards exist and a voice review is written.
+4. Remainder pass (2026-09-16): source-audit CH08-C06 (fathers / kin / siblings) with McWayne 2013 + Dagan 2018. Card `father-kin-sibling-heterogeneous-network.md`.
+5. Do not draft a curated Chapter 8 until a voice review is written.
 
 ## 6. Prohibited inferences
 

@@ -17,7 +17,7 @@ Promote a contiguous arc rather than all 15 dossiers at once.
 | 5 | 5 | Becoming a Mind | Perception, attention, learning before language/executive chapters |
 | 6 | 7 | The Birth of Language | Dedicated synthesis; connects to the screen-time/language card |
 
-Chapters 6 and 8–15 are a second wave. Curated, voice-checked copies now exist for Chapters 1, 2, 3, 4, 5, 6, 7, and 14. Chapters 8, 9, 11, and 12 have triage notes.
+Chapters 6 and 8–15 are a second wave. Curated, voice-checked copies now exist for Chapters 1, 2, 3, 4, 5, 6, 7, and 14. Chapters 8–13 have triage notes. A v0.1 slice definition lives in `preliminary/releases/v0.1-slice.md`.
 
 ## Required sections in a triage note
 

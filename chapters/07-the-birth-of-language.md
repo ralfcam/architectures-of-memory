@@ -48,7 +48,7 @@ Crying already changes another person’s behavior. A caregiver hears it and app
 
 Over the first months, exchanges become more reciprocal. The infant looks; the caregiver looks back. The infant vocalizes; the adult answers. The infant pauses. These episodes have been called proto-conversations because they contain timing, alternation, and repair. They are not adult dialogue. A signal is not necessarily an intention. An interaction is not necessarily a symbolic exchange.
 
-The still-face literature, in which expected social contingency is withdrawn, is adjacent to Chapter 4 and Chapter 6. It is not a card in this chapter. Sensitivity to a missing partner is not yet a grammar.
+The still-face literature, in which expected social contingency is withdrawn, is adjacent to Chapter 4 and Chapter 9 (`infant-still-face-paradigm.md`). It is not a language card. Sensitivity to a missing partner is not yet a grammar.
 
 The child is no longer only learning what happens in the world. The child is beginning to learn that another mind can be coordinated with their own experience of it.
 
@@ -74,7 +74,7 @@ To an adult, fluent speech appears already divided into words. To an infant, spe
 
 In a classic laboratory demonstration, eight-month-olds extracted such regularities from two minutes of artificial speech.
 
-**Grade: High** that infants can compute this kind of distributional regularity under controlled conditions (`infant-statistical-speech-segmentation.md`; Saffran, Aslin & Newport 1996). **Grade: Low** that two minutes of nonsense speech equals how children find words at home, or that statistical learning is a complete theory of grammar.
+**Grade: High** that infants can compute this kind of distributional regularity under controlled conditions (`infant-statistical-speech-segmentation.md`; Saffran, Aslin & Newport 1996; Aslin, Saffran & Newport 1998). That *laboratory* claim is `status: stable`. **Grade: Low** that two minutes of nonsense speech equals how children find words at home, or that statistical learning is a complete theory of grammar; those transfer claims remain `draft`.
 
 No one has to point at the boundaries and explain them. Detecting a regularity is still not knowing a meaning. Chapter 6’s mobile sits on action–outcome learning. This laboratory stream sits on regularity detection. Neither should be asked to do the work of a conversation.
 
@@ -90,7 +90,7 @@ One of the solutions is **joint attention**: not merely looking at the same obje
 
 A sound becomes easier to interpret when the child can infer what the other person is talking about. Language, in this sense, is not only a mapping from sounds to objects. It is a mapping from **signals to shared experience**.
 
-Research associates early joint attention with later language. The direction of causation is complicated. Children with stronger emerging communication may elicit richer interactions; caregivers shape opportunities at the same time. Joint attention is therefore part of a transactional system, not a lever that manufactures vocabulary. This chapter does not give it a dedicated card. The claim remains `needs-source-audit`. **Grade: Low-to-Moderate** as a research framework; **Low** as a parental technique.
+Research associates early joint attention with later language. The direction of causation is complicated. Children with stronger emerging communication may elicit richer interactions; caregivers shape opportunities at the same time. Joint attention is therefore part of a transactional system, not a lever that manufactures vocabulary. The evidence card is `joint-attention-shared-reference.md` (Mundy & Newell 2007; extracted with Chapter 5). **Grade: Low-to-Moderate** as a research framework; **Low** as a parental technique.
 
 The point is simpler than instruction. A child and caregiver looking at the same thing creates an opportunity for meaning. Missing a demonstration is not a missed mind.
 
@@ -152,7 +152,7 @@ The original Hart & Risley “30-million-word gap” depended on a small sample 
 
 Even here the book must resist an overly individualized reading. Language environments are shaped by time, work, childcare, housing, stress, education, income, literacy, and support. These conditions affect opportunities for communication without revealing how much a family cares about language. A family with fewer recorded words is not a family with less love.
 
-Parent-implemented language interventions, especially those embedded in shared reading, play, and ordinary routines, have produced improvements in some expressive-language outcomes in research settings. Effects on receptive language have been less consistent. That literature is not a card in this package. **Grade: Low-to-Moderate** that some interactional ingredients can be changed under protocol; **Low** that ordinary life should be converted into a language-training program. Efficacy, effectiveness, and what a family can reasonably do remain different claims.
+Parent-implemented language interventions, especially those embedded in shared reading, play, and ordinary routines, have produced improvements in some expressive-language outcomes in research settings. Effects on receptive language have been less consistent. The evidence card is `parent-implemented-language.md` (Heidlage et al. 2020, 25 RCTs). **Grade: Moderate** for modest expressive-vocabulary gains under protocol; **Low** that ordinary life should be converted into a language-training program, or that typical-development IQ follows. Efficacy, effectiveness, and what a family can reasonably do remain different claims.
 
 The child is not completing exercises. The child is joining a conversation.
 
@@ -164,7 +164,7 @@ A screen is not simply “language exposure,” any more than a person is simply
 
 Infants and young toddlers often learn less effectively from prerecorded material than from contingent social interaction. That is not a claim that a device is intrinsically ruinous, or that every screen experience is equivalent.
 
-The existing card is `screen-time-language-development.md`. It was **not re-extracted** for this chapter. **Grade: Low-to-Moderate** for observational associations that decompose quantity, content, co-use, and context. The card’s frontmatter currently points at a 2023 *Child Development* vocabulary meta-analysis while the body leads with Madigan et al. 2020 in *JAMA Pediatrics*. That inconsistency is recorded, not repaired, in this pass. YAML `confidence` remains `low-to-moderate`. The card remains `status: draft`.
+The existing card is `screen-time-language-development.md`. It was **not re-extracted** for this chapter. **Grade: Low-to-Moderate** for observational associations that decompose quantity, content, co-use, and context. The Madigan 2020 *JAMA Pediatrics* ID and Jing, Ye, Kirkorian & Mares 2023 *Child Development* vocabulary meta-analysis are now separate catalog entries; the earlier frontmatter/body mismatch was repaired. YAML `confidence` remains `low-to-moderate`. The card remains `status: draft`. Sleep and attachment-intervention theory are not restated.
 
 A child does not experience “thirty minutes of language.” The child experiences a particular activity, with a particular level of contingency, attention, and competing opportunity.
 
@@ -216,7 +216,7 @@ It does not tell us how extrafamilial worlds will reshape opportunity. That is l
 
 ## Science, Interpretation, Art
 
-**Science** here is the High-grade laboratory facts of perceptual attunement and statistical segmentation; the Moderate claims about prenatal preference, turns as a predictor, and dual-language trajectories; and the Low status of transfer, turn-count causation, screen-as-unitary-harm, and grammatical theory choice.
+**Science** here is the High-grade laboratory facts of perceptual attunement and statistical segmentation (the latter `stable` for the lab claim only); the Moderate claims about prenatal preference, turns as a predictor, parent-implemented expressive vocabulary under protocol, and dual-language trajectories; and the Low status of transfer, turn-count causation, screen-as-unitary-harm, and grammatical theory choice.
 
 **Interpretation** is the habit of keeping those facts from becoming a story about the kind of speaker the child will be, or the kind of tutor the parent must become. It is also the habit of matching verbs to grades: *shows* where the grade is High, *suggests* where it is Moderate, *is associated with* where it is Low.
 
@@ -237,12 +237,16 @@ Before the child can speak, other people have already built a world of meaning. 
 ## Linked evidence cards
 
 - `evidence-cards/infant-perceptual-narrowing.md` (CH07-C03)
-- `evidence-cards/infant-statistical-speech-segmentation.md` (CH07-C02)
+- `evidence-cards/infant-statistical-speech-segmentation.md` (CH07-C02; `stable` for the laboratory claim)
 - `evidence-cards/conversational-turns-language.md` (CH07-C07/C08)
 - `evidence-cards/dual-language-does-not-confuse.md` (CH07-C09)
+- Adjacent Chapter 5: `evidence-cards/joint-attention-shared-reference.md` (CH07-C04)
+- `evidence-cards/infant-pointing-as-shared-reference.md` (CH07-C05)
+- `evidence-cards/infant-babbling-as-exploration.md` (CH07-C06)
+- `evidence-cards/parent-implemented-language.md` (Heidlage 2020)
 - Adjacent, not re-extracted: `evidence-cards/prenatal-auditory-learning.md` (CH02-C05)
-- Reconcile only, not rewritten: `evidence-cards/screen-time-language-development.md`
+- Reconcile only, not rewritten: `evidence-cards/screen-time-language-development.md` (Madigan 2020 vs Jing 2023 IDs repaired)
 - Adjacent Chapter 3 signal, not a language dictionary: `evidence-cards/infant-crying-as-signal.md`
-- `evidence-cards/parent-implemented-language.md` (CH07 parent-implemented; Heidlage 2020)
+- Adjacent Chapter 9, not a language card: `evidence-cards/infant-still-face-paradigm.md`
 
 Promotion note: this file is a curated, voice-checked copy in the Appendix B range. The archival draft `preliminary/drafts-chapters/chapter 7` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch07-curated-07-the-birth-of-language--voice-review.md`.

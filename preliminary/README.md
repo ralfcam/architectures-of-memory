@@ -11,6 +11,7 @@ Original uploads are **archival source artifacts**. Do not rename or move them. 
 - **`drafts-chapters/`** — Chapter drafts still in composition.
 - **`drafts-chapters/reviews/`** — Structural and voice reviews kept separate from draft text.
 - **`triage/`** — Chapter-level extraction plans. Not evidence cards.
+- **`releases/`** — Tagged-snapshot definitions (v0.1 slice and later). Not a git tag.
 
 ## Source of truth
 

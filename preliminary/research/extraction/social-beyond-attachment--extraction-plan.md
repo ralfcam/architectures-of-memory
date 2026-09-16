@@ -17,9 +17,7 @@ Attachment remains a Chapter 4 object (`infant-caregiver-coregulation`, `respons
 | Peer interaction | `promote` | `toddler-peer-interaction.md` |
 | Group-care quality vs quantity | Reconcile | `early-childcare-quality.md` |
 | Stranger wariness ≠ insecurity | `interpretive-only` | Lives on referencing / network cards |
-| Fathers as heterogeneous contributors | `needs-source-audit` | C08-P1 metas not registered |
-| Kin / grandparents | `needs-source-audit` | Heterogeneous global review |
-| Siblings as first enduring equals | `needs-source-audit` | Reciprocal interaction ≠ automatic ToM |
+| Fathers / kin / siblings as heterogeneous members | `promote` (remainder 2026-09-16) | `father-kin-sibling-heterogeneous-network.md` (McWayne 2013; Dagan 2018). Grandparent/sibling unique-cause claims remain thin. |
 | Culture / developmental niche | `interpretive-only` | Super & Harkness; difference ≠ deficit |
 
 ## Prohibited inferences
@@ -32,7 +30,7 @@ Attachment remains a Chapter 4 object (`infant-caregiver-coregulation`, `respons
 
 ## Extraction order
 
-1. Chapter 8 triage + map + three cards (this package).
-2. Source-audit father/kin/sibling claims only with registered IDs.
-3. Curated Chapter 8 after a voice review; Chapters 9–11 remain second-wave.
+1. Chapter 8 triage + map + three cards (first package).
+2. Source-audit father/kin/sibling claims with registered IDs (remainder 2026-09-16).
+3. Curated Chapter 8 after a voice review; Chapters 9–13 remain second-wave (triage now exists for 8–13).
 4. BEIP stays the upper-bound deprivation card, not a daycare card.

@@ -71,8 +71,9 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 | Field | Content |
 |---|---|
 | Claim | Fathers, grandparents, and siblings can contribute through distinct functions; “involvement” is not one exposure. Independent causal effects remain hard to isolate. |
-| Label | `needs-source-audit` (meta-analyses named in C08-P1 not registered this pass). |
-| Grade | Low-to-Moderate. |
+| Sources | McWayne, Downer, Campos & Harris 2013 *Early Education and Development* DOI 10.1080/10409289.2013.746932; Dagan & Sagi-Schwartz 2018 already catalogued. |
+| Label | `promote` — card `evidence-cards/father-kin-sibling-heterogeneous-network.md` (remainder pass 2026-09-16) |
+| Grade | Moderate association; Low unique cause. |
 
 ### CH08-C07 — Continuity versus severe deprivation
 
@@ -103,4 +104,4 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 
 ## 4. This pass
 
-Three new draft cards: social referencing, multiple-caregiver attachments, toddler peer interaction. Childcare quality vs quantity and BEIP remain live cards. No curated Chapter 8. No card to `stable`.
+First pass: three draft cards (social referencing, multiple-caregiver attachments, toddler peer interaction). Remainder pass (2026-09-16): father/kin/sibling card. Childcare quality vs quantity and BEIP remain live cards. No curated Chapter 8. No card to `stable`.
