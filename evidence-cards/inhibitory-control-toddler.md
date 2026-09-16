@@ -4,7 +4,7 @@ title: "Toddler Inhibitory Control Is Context-Bound"
 description: "Response suppression becomes more reliable across toddlerhood and preschool under particular cues and supports; failure to inhibit is not character, and delay-of-gratification destiny claims belong on the Watts card."
 tags: [executive-function, inhibition, toddlerhood]
 status: draft
-confidence: moderate-to-high-age-trend; moderate-task
+confidence: moderate-to-high-age-trend; moderate-task; low-marshmallow-destiny
 generated: { by: agent:cursor, at: 2026-09-16T09:00:00Z }
 stale_after: 2027-03-16T00:00:00Z
 atlas_domains: [executive-function, regulation]

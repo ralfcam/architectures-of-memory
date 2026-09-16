@@ -4,7 +4,7 @@ title: "Fetal Growth Restriction Is a Clinical Outcome, Not a Destiny"
 description: "INTERGROWTH-21st provides international fetal-size standards; severe restriction is clinically meaningful, but birth size is not a proxy for intelligence, worth, or future personality."
 tags: [pregnancy, fetal-growth, measurement]
 status: draft
-confidence: moderate
+confidence: moderate-standards; high-percentile-not-destiny
 generated: { by: agent:cursor, at: 2026-09-15T18:00:00Z }
 stale_after: 2027-03-15T00:00:00Z
 atlas_domains: [pregnancy]

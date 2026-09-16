@@ -53,4 +53,4 @@ See `CONTRIBUTING.md` for full evidence-evaluation methodology (identification s
 
 ## Status
 
-Active research synthesis in progress. See `CHANGELOG.md` for version history. Tagged snapshots: **`v0.1`** at `c7c2a7a`; **`v0.2`** at `9bbc2d9` (Expanding World through Ecology). Curated Chapter 15 and remaining-domain cards are the v0.3 manuscript/catalog slice; tag `v0.3` on `main` after that PR merges.
+Active research synthesis in progress. See `CHANGELOG.md` for version history. Tagged snapshots: **`v0.1`** at `c7c2a7a`; **`v0.2`** at `9bbc2d9` (Expanding World through Ecology); **`v0.3`** at `21d1a0d` (Age-three waypoint and remaining domains).

@@ -36,7 +36,7 @@ A longitudinal evidence atlas of developmental science, spanning approximately o
 * [Chapter 15 — Three Years: What Has Been Built?](chapters/15-three-years.md) - Curated, voice-checked waypoint (continuity, Dunedin gradient, ordinary resilience; Watts/BEIP/preschool RCT reconciled).
 * [v0.1 release slice](preliminary/releases/v0.1-slice.md) - **Tagged** on `main` at `c7c2a7a`: Prenatal through Language (Ch. 1–7) + What Actually Works.
 * [v0.2 release slice](preliminary/releases/v0.2-slice.md) - **Tagged** on `main` at `9bbc2d9`: curated Chapters 8–13.
-* [v0.3 release slice](preliminary/releases/v0.3-slice.md) - Curated Chapter 15 plus remaining-domain cards; tag on `main` after merge.
+* [v0.3 release slice](preliminary/releases/v0.3-slice.md) - **Tagged** on `main` at `21d1a0d`: curated Chapter 15 plus remaining-domain cards.
 * [Corpus Manifest](preliminary/MANIFEST.md) - Inventory of every preliminary file, overlaps, and promotion destinations.
 * [Chapter 2 Evidence Map](preliminary/research/extraction/ch02-first-environment--evidence-map.md) - First extraction test: 13 claims grouped into likely cards, with source and causal labels.
 * [Chapter 3 Evidence Map](preliminary/research/extraction/ch03-great-transition--evidence-map.md) - Transition physiology, bounded skin-to-skin, crying, feeding coordination, preterm group risk.
@@ -54,6 +54,9 @@ A longitudinal evidence atlas of developmental science, spanning approximately o
 * [Chapter 13 Evidence Map](preliminary/research/extraction/ch13-ecology--evidence-map.md) - Income/cash (Baby’s First Years) and neighborhood mobility (MTO); childcare/BEIP/preschool RCT reconciled.
 * [Chapter 15 Evidence Map](preliminary/research/extraction/ch15-three-years--evidence-map.md) - Rank-order continuity, self-control gradient, ordinary resilience; Watts/BEIP/preschool RCT reconciled.
 * [Remaining-domains source audit](preliminary/research/extraction/remaining-domains--source-audit.md) - Warneken, Brussoni, Carneiro, Cook, Dean; five first-pass draft cards.
+* [Draft-card second-pass](preliminary/research/extraction/draft-cards--second-pass-audit.md) - All 65 draft cards; looking-time and narrowing held; no extra `stable`.
+* [Cross-chapter consistency](preliminary/research/extraction/cross-chapter-consistency--v03.md) - Regulation, causation, risk, resilience, attachment, institutions.
+* [Manuscript revision pass](preliminary/research/extraction/manuscript-revision-pass--v03.md) - Remaining-domain naming; Chapter 14 S/I/A.
 * [Stable-promotion candidates](preliminary/research/extraction/stable-promotion-candidates.md) - Physiology/lab path; three narrow claims now `stable`.
 * [Stable-candidate replication note](preliminary/research/extraction/stable-candidates--replication-note.md) - Five-rule re-audit; folate, Saffran, neonatal transition flipped.
 * [Catalog-wide replication / attenuation](preliminary/research/extraction/catalog-wide-replication-attenuation.md) - Every live card classified.

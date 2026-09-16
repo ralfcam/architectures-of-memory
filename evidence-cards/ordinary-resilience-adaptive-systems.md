@@ -4,7 +4,7 @@ title: "Resilience Often Arises from Ordinary Adaptive Systems"
 description: "Resilience in development commonly depends on ordinary systems—relationships, regulation, competence, and community resources—not rare invulnerability; adversity is not harmless."
 tags: [resilience, waypoint, systems]
 status: draft
-confidence: high-existence; moderate-mechanism
+confidence: high-existence; moderate-mechanism; low-costless
 generated: { by: agent:cursor, at: 2026-09-16T11:20:00Z }
 stale_after: 2027-03-16T00:00:00Z
 atlas_domains: [resilience, systems]

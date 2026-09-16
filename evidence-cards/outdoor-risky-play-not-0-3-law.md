@@ -4,7 +4,7 @@ title: "Risky Outdoor Play Is Not a 0–3 Developmental Law"
 description: "A systematic review finds associations between risky outdoor play and some health outcomes in children, mostly older than this atlas’s window; it is not a toddler efficacy package or a license for unsupervised hazard."
 tags: [play, outdoor, risk]
 status: draft
-confidence: moderate-school-age-association; low-to-moderate-0-3
+confidence: moderate-school-age-association; low-to-moderate-0-3; low-toddler-package
 generated: { by: agent:cursor, at: 2026-09-16T14:50:00Z }
 stale_after: 2027-03-16T00:00:00Z
 atlas_domains: [play, health]

@@ -120,7 +120,7 @@ Certainty grades: High / Moderate / Low / Very Low.
 
 OKF bundle root: `index.md` (`okf_version: "0.2"`).
 
-Sixty-five cards remain `status: draft` plus three `stable` physiology/lab cards (68 total). YAML `confidence` is aligned with in-body grades. A first selected-card re-audit, a catalog-wide Crossref/PubMed lookup, a DOI-recovery pass, a Retraction Watch dump, a catalog-wide replication/attenuation classification, and a 2026-09-16 replication note moved **three narrow claims** to `stable`. First-pass Part II, Chapter 15 waypoint, and remaining-domain cards stay `draft`. See `evidence-cards/index.md` for the full list. `v0.1` is tagged on `main` at `c7c2a7a`. `v0.2` is tagged on `main` at `9bbc2d9`.
+Sixty-five cards remain `status: draft` plus three `stable` physiology/lab cards (68 total). YAML `confidence` is aligned with in-body grades. A first selected-card re-audit, a catalog-wide Crossref/PubMed lookup, a DOI-recovery pass, a Retraction Watch dump, a catalog-wide replication/attenuation classification, and a 2026-09-16 replication note moved **three narrow claims** to `stable`. First-pass Part II, Chapter 15 waypoint, and remaining-domain cards stay `draft`. See `evidence-cards/index.md` for the full list. `v0.1` is tagged on `main` at `c7c2a7a`. `v0.2` is tagged on `main` at `9bbc2d9`. `v0.3` is tagged on `main` at `21d1a0d`.
 
 The eight first-pass cards plus C05/C07 remain as in the previous digest table. New Chapter 2 cards: `prenatal-developmental-timing.md`, `placenta-as-mediator.md`, `prenatal-neural-construction.md`, `fetal-autonomic-maturation.md`, `prenatal-iodine-thyroid.md`, `prenatal-alcohol-fasd.md`, `prenatal-tobacco-birthweight.md`, `prenatal-environmental-mixtures.md`, `fetal-growth-not-destiny.md`.
 
@@ -185,7 +185,7 @@ Priority domains that still lack *full* dedicated families include guided-play e
 
 ### Canonical `chapters/` files
 
-`chapters/01-before-the-child-is-born.md` is the curated Chapter 1 copy. The leftover Ch. 2 seed sketch was removed. `chapters/02-first-environment.md` is the curated Chapter 2 copy. `chapters/03-the-great-transition.md` is the curated Chapter 3 copy. `chapters/04-regulatory-relationship.md` is the curated Chapter 4 copy. `chapters/05-becoming-a-mind.md` is the curated Chapter 5 copy. `chapters/06-the-mind-in-motion.md` is the curated Chapter 6 expansion. `chapters/07-the-birth-of-language.md` is the curated Chapter 7 copy. `chapters/08-the-expanding-world.md` through `chapters/13-the-ecology-of-development.md` are curated Part II copies (v0.2 manuscript slice, tagged at `9bbc2d9`). `chapters/14-what-actually-works.md` is a staging copy with citation artifacts stripped. `chapters/15-three-years.md` is the curated Chapter 15 copy.
+`chapters/01-before-the-child-is-born.md` is the curated Chapter 1 copy. The leftover Ch. 2 seed sketch was removed. `chapters/02-first-environment.md` is the curated Chapter 2 copy. `chapters/03-the-great-transition.md` is the curated Chapter 3 copy. `chapters/04-regulatory-relationship.md` is the curated Chapter 4 copy. `chapters/05-becoming-a-mind.md` is the curated Chapter 5 copy. `chapters/06-the-mind-in-motion.md` is the curated Chapter 6 expansion. `chapters/07-the-birth-of-language.md` is the curated Chapter 7 copy. `chapters/08-the-expanding-world.md` through `chapters/13-the-ecology-of-development.md` are curated Part II copies (v0.2 manuscript slice, tagged at `9bbc2d9`). `chapters/14-what-actually-works.md` is a staging copy with citation artifacts stripped. `chapters/15-three-years.md` is the curated Chapter 15 copy (v0.3 manuscript center, tagged at `21d1a0d`).
 
 | Canonical file | Maps to working TOC | Status |
 |---|---|---|
@@ -317,6 +317,7 @@ Squash-merged into `main`, in order: **#1, #2, #3, #5, #6, #7, #8**. There is no
 | [#12](https://github.com/ralfcam/parenthood-atlas/pull/12) | `c7c2a7a` | Part II Ch. 8 remainder, 10, 13; Chapters 6–7 update; v0.1 slice defined (`v0.1` tagged here) |
 | [#13](https://github.com/ralfcam/parenthood-atlas/pull/13) | `f6011b7` | Tag plan for v0.1; Chapter 15 triage and three waypoint cards; v0.2 slice defined |
 | [#14](https://github.com/ralfcam/parenthood-atlas/pull/14) | `9bbc2d9` | Curated Chapters 8–13; v0.2 tagged here; v0.3 slice defined |
+| [#15](https://github.com/ralfcam/parenthood-atlas/pull/15) | `21d1a0d` | Curated Chapter 15; remaining-domain cards; v0.3 tagged here |
 
 **Do not merge PR #4.** Its branch `cursor/ch3-ch4-ch6-7d96` (`79419f7`) was the base for the Chapter 7 branch. When #5 squash-merged onto `main` after #3, Git included every file unique to #4. GitHub left PR #4 OPEN until [PR #8](https://github.com/ralfcam/parenthood-atlas/pull/8) closed it without merging. A three-dot merge of #4 onto current `main` would still replay stale digest/catalog counts and the Chapter 4 seed against the later curated Chapter 4.
 
@@ -344,13 +345,14 @@ Later packages that treated “PR #4 merged” as true were describing content o
 
 ## 11. Suggested next work
 
-Done in this package: tagged `v0.2` on `main` at `9bbc2d9`; curated Chapter 15; five remaining-domain draft cards (Warneken, outdoor/risky play, leave, food insecurity, preconception-beyond-folate). Archival drafts untouched. Sleep/attachment/screen theory not rewritten. **No additional card moved to `stable`.** Catalog is 68 cards (3 `stable`; 65 `draft`) and 113 verified `SOURCES.md` IDs.
+Done in this package: tagged `v0.3` on `main` at `21d1a0d`; second-pass of 65 draft cards; cross-chapter consistency note; manuscript pass naming remaining-domain IDs and adding Ch. 14 S/I/A. YAML compound grades aligned on manuscript-core cards. Archival drafts untouched. Sleep/attachment/screen theory not rewritten. **No additional card moved to `stable`.** Catalog remains 68 cards (3 `stable`; 65 `draft`) and 113 verified `SOURCES.md` IDs.
 
 Highest-leverage remaining work:
 
-- Tag `v0.3` on `main` after this PR merges (see `preliminary/releases/v0.3-slice.md`).
-- Guided-play efficacy; mode of delivery (held); looking-time and perceptual-narrowing as next physiology/lab `stable` candidates only after the five-rule bar.
-- Normalize remaining draft filenames on **curated copies only**.
+- Guided-play efficacy; mode of delivery and neonatal perception (held); dedicated WM/shifting; routines/modeling.
+- Looking-time and perceptual-narrowing as next physiology/lab `stable` candidates only after the five-rule bar (held this pass: linking-hypothesis debate; timetable not universal).
+- GI classification still “not classified” on many first-pass observational cards.
+- Chapter 2 curated copy remains ~2,358 words (slightly under Appendix B); not padded.
 
 ---
 

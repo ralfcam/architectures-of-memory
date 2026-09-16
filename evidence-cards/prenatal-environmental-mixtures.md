@@ -4,7 +4,7 @@ title: "Prenatal Environmental Mixtures and Placental Markers"
 description: "Mixture studies can associate phthalates and related chemicals with placental biomarkers; this does not establish that typical consumer-level detection causes permanent child injury."
 tags: [pregnancy, environment, mixtures]
 status: draft
-confidence: low
+confidence: low-association; very-low-permanent-injury
 generated: { by: agent:cursor, at: 2026-09-15T18:00:00Z }
 stale_after: 2027-03-15T00:00:00Z
 atlas_domains: [pregnancy]

@@ -213,6 +213,14 @@ Biology creates possibilities and constraints. Relationships organize experience
 
 The task is not to control development. It is to understand where development is vulnerable, where it is plastic, where intervention has demonstrated causal leverage, and where confidence should stop.
 
+## Science, Interpretation, Art
+
+**Science** here is the High NTD-prevention claim already `stable` on the folate card; the Moderate-to-High sensitivity effects of brief attachment-focused RCTs; the Moderate (and program-specific) long-run effects of Perry and Abecedarian; and the Low-to-Moderate status of sleep-training harm, screen–language associations, and cash as a cognitive intervention. Fadeout of a test score is not a completed null. Generalization from historical high-fidelity packages to any branded program remains Low.
+
+**Interpretation** is keeping “what actually works” from becoming a shopping list or a parental performance. Association is not an intervention target. Efficacy is not effectiveness. Effectiveness is not scale. Resilience, as Chapter 15 grades it, is ordinary adaptive systems — not a technique that manufactures an unbreakable child.
+
+**Art** is deciding, this month, which obstacle is preventable, which relationship can be supported, and which demand belongs to an institution rather than to a household script.
+
 That is what it means to ask, scientifically and honestly:
 
 **What actually works?**

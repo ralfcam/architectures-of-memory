@@ -76,9 +76,11 @@ BEIP remains severe deprivation, not ordinary housing mobility. `severe-institut
 
 ## Employment, leave, food, and services stay thinner here
 
-Employment and leave are heterogeneous packages (hours, predictability, pay, eligibility). Child-development effects are mixed. A night shift and a salaried leave are not one exposure. **Grade: Low-to-Moderate.** `needs-source-audit`. Food security is similarly held. They are not v0.2 gates. They are v0.3 candidates alongside remaining unstarted domains.
+Employment and leave are heterogeneous packages (hours, predictability, pay, eligibility). A night shift and a salaried leave are not one exposure. **Grade: Moderate** that a defined Norwegian maternity-leave reform is associated with better later education and earnings. **Grade: Low-to-Moderate** for direct 0–3 developmental measures. **Grade: Low** that every job or every leave has the same child effect. The evidence card is `parental-leave-heterogeneous-package.md` (Carneiro, Løken & Salvanes 2015).
 
-The shift in the opening scene is the employment object in miniature. Unpredictable hours can break the continuity Chapter 8 already distinguished from institutional deprivation. Predictable hours can still leave a parent too depleted for the evening’s co-regulation. Those are plausible pathways. They are not a registered 0–3 employment card in this pass. Eligibility rules — who can take leave, for how long, at what wage replacement — are themselves ecological. They are not a parenting residual.
+Household food insecurity is associated with poorer infant and toddler health in a low-income US clinical sample. Hunger in the household is a material condition, not a motivation problem. **Grade: Moderate** for that health association. **Grade: Low** as a cognition law or a diagnosis of parental commitment. The evidence card is `household-food-insecurity-health.md` (Cook et al. 2004).
+
+The shift in the opening scene is the employment object in miniature. Unpredictable hours can break the continuity Chapter 8 already distinguished from institutional deprivation. Predictable hours can still leave a parent too depleted for the evening’s co-regulation. Those are plausible pathways. Eligibility rules — who can take leave, for how long, at what wage replacement — are themselves ecological. They are not a parenting residual.
 
 Childcare systems return as ecology rather than as a second Chapter 8. Process quality is more consistently related to early cognitive and language outcomes than hours; family characteristics often predict more. Hours–externalizing links are small and not a law. Group care is not deprivation. **Reconcile only** — `early-childcare-quality.md`. Preschool RCTs remain `preschool-early-education-rct.md`. Neither is “ecology causes IQ.” Chapter 8 already separated attendance from experience. This chapter notes that the slot across the highway is an institution, not a parenting residual. The highway is also time: commuting is unpaid work that comes out of the same day as play, meals, and recovery from a tantrum.
 
@@ -86,7 +88,7 @@ Services — health, early intervention, income support, housing — are not a s
 
 The system is nested whether or not one uses Bronfenbrenner’s diagram. A relationship (Chapter 4) does daily work. A network (Chapter 8) shares that work. A rule (Chapter 10) has to be usable in a tired evening. A wait (Chapter 11) is shorter when the adult is still in the room. A block (Chapter 12) needs a room. Money, housing, hours, and services shape all of those without replacing them. The mistake is to treat any one layer as the residual of another.
 
-Food security, employment, and leave remain held because they are heterogeneous packages, not because they are unimportant. A night shift that removes the familiar adult from bedtime is a different exposure from a salaried parental leave. A missed meal is not a parenting style. Naming those objects without registered 0–3 identifications is the honest limit of this pass.
+Food security, employment, and leave are heterogeneous packages, not unimportant leftovers. A night shift that removes the familiar adult from bedtime is a different exposure from a salaried parental leave. A missed meal is not a parenting style. The identifications are those two cards, not a 0–3 cognition law.
 
 ## What this chapter does not tell us
 
@@ -108,7 +110,7 @@ It does not tell us that commuting time is a residual of motivation, or that a c
 
 ## Science, Interpretation, Art
 
-**Science** here is the Moderate socioeconomic gradient; the Low-to-Moderate status of cash as a cognitive intervention; and the Moderate later-earnings effect of a particular mobility experiment, with age-at-move heterogeneity. Toddler test-score laws and parental-will residuals remain Low. Employment, leave, and food security remain Low-to-Moderate and unregistered as dedicated cards.
+**Science** here is the Moderate socioeconomic gradient; the Low-to-Moderate status of cash as a cognitive intervention; and the Moderate later-earnings effect of a particular mobility experiment, with age-at-move heterogeneity. Toddler test-score laws and parental-will residuals remain Low. Leave is Moderate as a defined reform and Low-to-Moderate as a 0–3 cognition law. Food insecurity is Moderate as a health association, not a cognition program.
 
 **Interpretation** is keeping a late rent from becoming a story about the kind of parent in the room. Match verbs to grades: *shows* is rarely the right verb for ecology; *suggests* and *is associated with* do more of the work. Holding the infant EEG and the age-four nulls in the same paragraph is an interpretive discipline, not a hedge.
 
@@ -126,6 +128,7 @@ The telephone-block in Chapter 12 needed materials and a room. This chapter name
 
 - `evidence-cards/income-cash-transfer-early-development.md` (CH13-C02)
 - `evidence-cards/neighborhood-mobility-age-dependent.md` (CH13-C03/C08)
+- Remainder: `evidence-cards/parental-leave-heterogeneous-package.md`, `evidence-cards/household-food-insecurity-health.md`
 - Reconcile only: `evidence-cards/early-childcare-quality.md`, `evidence-cards/preschool-early-education-rct.md`, `evidence-cards/infant-caregiver-coregulation.md`, `evidence-cards/prenatal-maternal-stress-anxiety.md`, `evidence-cards/severe-institutional-deprivation.md`
 
 Promotion note: this file is a curated, voice-checked copy in the Appendix B range. The archival draft `preliminary/drafts-chapters/chapter 13` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch13-curated-13-the-ecology-of-development--voice-review.md`.

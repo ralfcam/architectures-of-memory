@@ -4,7 +4,7 @@ title: "Prenatal Developmental Timing Is Process-Specific"
 description: "The same prenatal exposure can have different effects depending on dose, route, and the developmental process underway; pregnancy is not a single window."
 tags: [pregnancy, teratology, mechanism]
 status: draft
-confidence: moderate
+confidence: moderate-principle; high-no-single-window
 generated: { by: agent:cursor, at: 2026-09-15T18:00:00Z }
 stale_after: 2027-03-15T00:00:00Z
 atlas_domains: [pregnancy]

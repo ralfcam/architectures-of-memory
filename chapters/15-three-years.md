@@ -100,7 +100,7 @@ Co-regulation, childcare process quality, cash, and neighborhood mobility contin
 
 The child at the door is using language, a look, a wait, a bang, and a pretence. She is also inside a room, a day, and an ecology. Chapter 14 asked what interventions can change. This chapter does not become a second intervention chapter. It notes that the waypoint is where those questions meet.
 
-Instrumental helping, outdoor play, leave, food, and preconception nutrients beyond folate are remaining catalog objects. They now have first-pass cards; they are still not this chapter’s identifications. They belong beside the waypoint rather than inside a slogan: helping is not altruism as destiny; risky play is not a 0–3 law; leave is a package; food insecurity is health, not parental failure; nutrients beyond folate do not inherit folate’s NTD grade.
+Instrumental helping, outdoor play, leave, food, and preconception nutrients beyond folate are remaining catalog objects with first-pass cards: `instrumental-helping-not-altruism.md`, `outdoor-risky-play-not-0-3-law.md`, `parental-leave-heterogeneous-package.md`, `household-food-insecurity-health.md`, `preconception-nutrition-beyond-folate.md`. They are still not this chapter’s identifications. They belong beside the waypoint rather than inside a slogan: helping is not altruism as destiny; risky play is not a 0–3 law; leave is a package; food insecurity is health, not parental failure; nutrients beyond folate do not inherit folate’s NTD grade.
 
 Culture organizes which three-year-old acts count as competence. Difference is not deficit. A child who is expected to wait at the door and a child who is expected to fetch an adult are not scored against a single finished-person law.
 
@@ -146,6 +146,6 @@ The scream on the floor, the socket, the crayon, the telephone-block, the late r
 - `evidence-cards/childhood-self-control-gradient.md` (CH15-C07)
 - `evidence-cards/ordinary-resilience-adaptive-systems.md` (CH15-C05)
 - Reconcile only: `evidence-cards/temperament-reactivity-not-destiny.md`, `evidence-cards/self-regulation-delay-of-gratification.md`, `evidence-cards/severe-institutional-deprivation.md`, `evidence-cards/preschool-early-education-rct.md`
-- Adjacent: `evidence-cards/executive-function-unity-diversity.md`, `evidence-cards/inhibitory-control-toddler.md`, `evidence-cards/infant-caregiver-coregulation.md`, `evidence-cards/early-childcare-quality.md`, `evidence-cards/income-cash-transfer-early-development.md`, `evidence-cards/neighborhood-mobility-age-dependent.md`, `evidence-cards/prenatal-neural-construction.md`
+- Adjacent remaining-domain cards (not this chapter’s identifications): `evidence-cards/instrumental-helping-not-altruism.md`, `evidence-cards/outdoor-risky-play-not-0-3-law.md`, `evidence-cards/parental-leave-heterogeneous-package.md`, `evidence-cards/household-food-insecurity-health.md`, `evidence-cards/preconception-nutrition-beyond-folate.md`
 
 Promotion note: this file is a curated, voice-checked copy in the Appendix B range. The archival draft `preliminary/drafts-chapters/chapter 15` was not overwritten. C15-S1 was not double-extracted. Review: `preliminary/drafts-chapters/reviews/ch15-curated-15-three-years--voice-review.md`.

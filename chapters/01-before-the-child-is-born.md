@@ -98,6 +98,8 @@ The same discipline applies to the days before implantation. A fertilized egg is
 
 A window is a statement about a process. It is not a slogan that every early moment is equally loaded. The useful scientific question is again the same one the timing card already carries: sensitive to *what*, at what time, at what dose, through what pathway, producing what outcome? Card: `prenatal-developmental-timing.md`.
 
+Other preconception nutrients do not inherit folate’s High/`stable` NTD identification. **Grade: Low-to-Moderate** beyond folate as a class. **Grade: Low** as a later-IQ checklist. The evidence card is `preconception-nutrition-beyond-folate.md` (Dean 2014). Sperm-epigenetic lifestyle stories remain excluded as a standalone card.
+
 WHO’s preconception-care frame is biomedical, behavioral, and social, and it names couples rather than a solitary pregnant person. That widening is **Interpretation** grounded in a **Moderate** reading of the framework, not a proof that a household checklist can manufacture a mind.
 
 ## Stress, cortisol, and what genetically informed designs did to a popular story
@@ -175,5 +177,6 @@ The child is not yet born. Development has already begun. That is a reason to st
 - Adjacent: `evidence-cards/placenta-as-mediator.md`
 - Adjacent later: `evidence-cards/severe-institutional-deprivation.md` (not this chapter’s claim)
 - This package: `evidence-cards/paternal-age-de-novo-mutations.md`
+- Adjacent remainder: `evidence-cards/preconception-nutrition-beyond-folate.md` (Dean 2014; folate NTD not re-estimated)
 
 Promotion note: this file is a curated, voice-checked Chapter 1. The leftover seed sketch `chapters/01-first-environment.md` is removed; Chapter 2 remains `chapters/02-first-environment.md`. Archival `preliminary/drafts-chapters/chapter 1` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch01-curated-01-before-the-child--voice-review.md`.

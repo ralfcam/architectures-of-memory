@@ -4,7 +4,7 @@ title: "Preconception Nutrition Beyond Folate Is Not a Second NTD Trial"
 description: "Reviews of preconception nutritional risks find a mixed, nutrient-specific evidence base; folate’s High/stable NTD identification does not generalize to other preconception nutrients or to later IQ."
 tags: [preconception, nutrition]
 status: draft
-confidence: low-to-moderate-beyond-folate
+confidence: low-to-moderate-beyond-folate; low-iq-checklist
 generated: { by: agent:cursor, at: 2026-09-16T14:50:00Z }
 stale_after: 2027-03-16T00:00:00Z
 atlas_domains: [preconception, nutrition]

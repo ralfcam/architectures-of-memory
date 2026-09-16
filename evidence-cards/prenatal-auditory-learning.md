@@ -4,7 +4,7 @@ title: "Prenatal Auditory Discrimination and Newborn Preference"
 description: "Late-pregnancy speech exposure can shape newborn auditory preference; this is sensory discrimination, not evidence of complex prenatal cognition or lasting cognitive advantage."
 tags: [pregnancy, language, perception]
 status: draft
-confidence: moderate
+confidence: moderate-preference; low-lasting-advantage
 generated: { by: agent:cursor, at: 2026-09-15T17:00:00Z }
 stale_after: 2027-03-15T00:00:00Z
 sources:

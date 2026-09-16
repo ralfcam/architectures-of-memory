@@ -30,3 +30,7 @@ All 29 unique `:contentReference[oaicite:…]` strings remain absent from the cu
 
 - ABC, VIPP, NFP, and Reach Up still lack dedicated OKF cards; they are named as examples, not promoted claims.
 - Do not treat this copy as a license to move `preschool-early-education-rct.md` to `stable`.
+
+## Addendum (2026-09-16, v0.3 quality-deepening)
+
+A Science / Interpretation / Art close was added so Chapter 14 matches the rest of the 15-chapter arc. Resilience is pointed at Chapter 15’s ordinary-systems grade. Sleep, attachment-intervention, and screen-time *theory* were not restated. Length remains in the Appendix B range (~3,118 words). Archival draft untouched.

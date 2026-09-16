@@ -86,7 +86,7 @@ The Art of the socket is not a registered package. Moving the child, covering th
 
 Refusal can express agency, limited regulation, communication difficulty, or conflict. That claim is interpretive here; it lives on the compliance card’s “What This Does Not Mean.” **Grade: Moderate** as description.
 
-Instrumental helping appears in the second year. A toddler may hand an object, open a door, or pick up something an adult has dropped. It is not mature altruism. Warneken and Tomasello’s work is named in the Chapter 10 map and remains `needs-source-audit` this pass. **Grade: Moderate** for emergence as a research description; **Low** as a character forecast. Social-beyond-attachment remainder, including this helping line, is a v0.3 candidate rather than a v0.2 gate.
+Instrumental helping appears in the second year. A toddler may hand an object, open a door, or pick up something an adult has dropped. It is not mature altruism. **Grade: Moderate** that instrumental helping of this kind emerges in the second year. **Grade: Low** as mature altruism, a character forecast, or a parenting score. The evidence card is `instrumental-helping-not-altruism.md` (Warneken & Tomasello 2006). Committed compliance remains a different object.
 
 Routines and predictability are associated with self-regulation in observational work; causality is thinner than popular claims. **Grade: Low-to-Moderate** causal. Held as `needs-source-audit`. A regular bedtime is not a conscience machine, and a disrupted day is not a character defect.
 
@@ -135,6 +135,7 @@ The floor episode in Chapter 9 was already a rule scene in disguise: a want that
 - `evidence-cards/committed-compliance-not-obedience.md` (CH10-C03)
 - `evidence-cards/toddler-physical-aggression-trajectories.md` (CH10-C11)
 - `evidence-cards/physical-punishment-not-necessary.md` (CH10-C07)
+- Remainder: `evidence-cards/instrumental-helping-not-altruism.md` (Warneken 2006)
 - Reconcile only: `evidence-cards/inhibitory-control-toddler.md`, `evidence-cards/self-regulation-delay-of-gratification.md`, `evidence-cards/infant-contingency-learning.md`
 
 Promotion note: this file is a curated, voice-checked copy in the Appendix B range. The archival draft `preliminary/drafts-chapters/Chapter 10.md` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch10-curated-10-boundaries-behavior--voice-review.md`.
