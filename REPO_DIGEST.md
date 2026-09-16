@@ -1,6 +1,6 @@
 # Parenthood: The Atlas — Repository Digest
 
-Snapshot of `ralfcam/parenthood-atlas` as of 2026-09-15. This file is a map for humans and agents: what the repo is, where canonical vs staging work lives, how content is supposed to move, and what is currently inconsistent.
+Snapshot of `ralfcam/parenthood-atlas` as of 2026-09-16. This file is a map for humans and agents: what the repo is, where canonical vs staging work lives, how content is supposed to move, and what is currently inconsistent.
 
 This is a **markdown knowledge base and book workbench**, not an application. There is no runtime, package manager, test suite, or CI.
 
@@ -287,7 +287,23 @@ Default branch: `main`.
 
 The repo was initialized 2026-09-14 (KB structure, 8 evidence cards, OKF retrofit, `SOURCES.md`, compositional grammar) and expanded 2026-09-14/15 with `preliminary/` research dossiers and chapter drafts 1–15. The closing draft was originally committed as `chapter 16` and later renamed to `chapter 15` to match its heading.
 
-`CHANGELOG.md` records the knowledge-base bootstrap, the corpus-governance layer (PR #1), and the 2026-09-15 source-audit package (new cards, citation resolutions, TOC decision, SPEC stub, Ch. 14 triage).
+Squash-merged into `main`, in order: **#1, #2, #3, #5, #6, #7**. There is no squash commit for [PR #4](https://github.com/ralfcam/parenthood-atlas/pull/4).
+
+| PR | Merge commit on `main` | What landed |
+|---|---|---|
+| [#1](https://github.com/ralfcam/parenthood-atlas/pull/1) | `7dc288a` | Corpus manifest, Chapter 2 evidence map, digest |
+| [#2](https://github.com/ralfcam/parenthood-atlas/pull/2) | `a2a97b3` | Chapter 2 C05/C07, citation resolutions, 15-chapter TOC, SPEC stub |
+| [#3](https://github.com/ralfcam/parenthood-atlas/pull/3) | `c13f0e6` | Remaining Chapter 2 claims, template sync, Ch. 3–4 triage, curated Chapter 2 |
+| [#4](https://github.com/ralfcam/parenthood-atlas/pull/4) | **never merged** | Superseded. Unique files reached `main` via #5. |
+| [#5](https://github.com/ralfcam/parenthood-atlas/pull/5) | `4bba8a7` | Chapter 7 language cards, remaining Chapter 3 cards, catalog-wide retraction search, **and** the PR #4 payload (stacked branch) |
+| [#6](https://github.com/ralfcam/parenthood-atlas/pull/6) | `89658b7` | DOI recovery; curated Chapters 3 and 4 |
+| [#7](https://github.com/ralfcam/parenthood-atlas/pull/7) | `e379de8` | Five-listing repair, Retraction Watch dump, curated Chapter 5 |
+
+**Do not merge PR #4.** Its branch `cursor/ch3-ch4-ch6-7d96` (`79419f7`) was the base for the Chapter 7 branch. When #5 squash-merged onto `main` after #3, Git included every file unique to #4: neonatal transition, SSC, co-regulation, BEIP, contingency-learning, curated Chapter 6, Ch. 3/4 maps and audits, and the selected-card re-audit. GitHub left PR #4 OPEN because that branch itself was never squash-merged. A three-dot merge of #4 onto current `main` would replay stale digest/catalog counts and the Chapter 4 seed against the later curated Chapter 4.
+
+Later packages that treated “PR #4 merged” as true were describing content on `main`, not a GitHub merge of that pull request.
+
+`CHANGELOG.md` records the knowledge-base bootstrap, the corpus-governance layer (PR #1), and the 2026-09-15 source-audit packages (new cards, citation resolutions, TOC decision, SPEC stub, Ch. 14 triage, and the stacked #4/#5 landing).
 
 ---
 
@@ -302,13 +318,16 @@ The repo was initialized 2026-09-14 (KB structure, 8 evidence cards, OKF retrofi
 7. **Catalog-wide retraction lookup is complete for DOI-resolved records** (Crossref + OpenAlex `is_retracted` + PubMed PTs). No retraction/EoC titles. Cochrane `new_version` flags remain successor reviews. Grey-literature IDs (NICHD 05-4318, two WHO IRIS handles, Kramer 1987) have no journal DOI and are now identified rather than missing. `hiscock-2016` retired. None moved to `stable`.
 8. **No tests or lint.** Quality control is methodological (CONTRIBUTING + voice checklist), not automated.
 9. **Do not invent prescriptions.** If evidence does not justify an action, say so.
+10. **PR #4 is superseded.** Unique deliverables already sit on `main` via the #5 squash. Close it without merging. See section 9.
 11. **`hiscock-2016` identification mismatch is repaired.** The ID is retired. Sleep card now cites Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020 plus Price 2012. Harm claim still `draft`.
 
 ---
 
 ## 11. Suggested next work
 
-Done in this package: repaired the five remaining no-DOI listings (especially `hiscock-2016`); finished a Retraction Watch dump with none to `stable`; extracted and voice-checked Chapter 5.
+Done most recently: recorded that [PR #4](https://github.com/ralfcam/parenthood-atlas/pull/4) was never squash-merged; its unique files already sit on `main` via #5. Do not merge it.
+
+Previously on `main`: repaired the five remaining no-DOI listings (especially `hiscock-2016`); finished a Retraction Watch dump with none to `stable`; extracted and voice-checked Chapter 5.
 
 Highest-leverage remaining knowledge-base work:
 
