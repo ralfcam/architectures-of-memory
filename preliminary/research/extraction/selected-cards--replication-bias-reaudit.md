@@ -10,7 +10,7 @@ A card may move to `stable` only after:
 
 1. Sources remain resolvable.
 2. No retraction or expression-of-concern was found for the primary ID (catalog-wide Crossref/OpenAlex/PubMed dump now exists; grey-literature IDs identified; `hiscock-2016` retired).
-3. Replication or genetically informed attenuation has been classified (robust / partial / largely confounded) where that design class exists.
+3. Replication or genetically informed attenuation has been classified (robust / partial / largely confounded) where that design class exists. Catalog-wide table: [`catalog-wide-replication-attenuation.md`](catalog-wide-replication-attenuation.md).
 4. In-body grade still matches YAML `confidence`.
 5. “What This Does Not Mean” still matches the identification.
 
@@ -35,8 +35,8 @@ The five cards from the Chapter 3–4–6 package (`neonatal-cardiopulmonary-tra
 
 - Zero cards set to `status: stable`.
 - YAML `confidence` is not a stability claim.
-- Catalog-wide Crossref/PubMed lookup: [`catalog-wide-retraction-search.md`](catalog-wide-retraction-search.md). DOI recovery: [`doi-recovery-retraction-watch.md`](doi-recovery-retraction-watch.md). Retraction Watch dump: [`five-listings-and-retraction-watch-dump.md`](five-listings-and-retraction-watch-dump.md). Still not sufficient for `stable` (replication/attenuation not classified catalog-wide). `hiscock-2016` is retired.
+- Still not sufficient for `stable` even after catalog-wide classification (`catalog-wide-replication-attenuation.md`). Completing rule (3) does not clear rules about remaining Low subclaims, first-pass prose, or distal outcomes. `hiscock-2016` is retired. `madigan-2020` ID repaired.
 
 ## Next re-audit candidates (not done here)
 
-PROBIT breastfeeding-IQ, Watts 2018 marshmallow replication, Perry/Abecedarian historical RCTs, and INTERGROWTH as a measurement standard rather than an outcome card.
+PROBIT breastfeeding-IQ and Watts 2018 marshmallow replication are now classified in the catalog-wide table (observational IQ **largely confounded**; original marshmallow predictor **largely confounded**). Perry/Abecedarian historical RCTs and INTERGROWTH as a measurement standard remain first-pass on those cards. Parent-implemented language interventions remain unextracted.

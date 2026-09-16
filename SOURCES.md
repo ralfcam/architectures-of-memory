@@ -35,8 +35,11 @@ sources:
     resource: https://doi.org/10.1111/j.1467-8624.2010.01431.x
     title: "Do Effects of Early Child Care Extend to Age 15 Years?"
   - id: madigan-2020
-    resource: https://onlinelibrary.wiley.com/doi/10.1111/cdev.13927
-    title: "Screen media exposure and young children's vocabulary, Child Development meta-analysis (2023)"
+    resource: https://doi.org/10.1001/jamapediatrics.2020.0327
+    title: "Madigan, McArthur, Anhorn, Eirich & Christakis (2020), JAMA Pediatrics, screen use and language"
+  - id: jing-2023-cdev
+    resource: https://doi.org/10.1111/cdev.13927
+    title: "Jing, Ye, Kirkorian & Mares (2023), Child Development, screen media and vocabulary"
   - id: traces-2024
     resource: https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-024-18447-4
     title: "Mobile device screen time and toddler language, BMC Public Health (2024)"
@@ -214,6 +217,18 @@ sources:
   - id: mundy-newell-2007-ja
     resource: https://doi.org/10.1111/j.1467-8721.2007.00518.x
     title: "Mundy & Newell (2007), Current Directions, joint attention and social cognition"
+  - id: colonnesi-2010-pointing
+    resource: https://doi.org/10.1016/j.dr.2010.10.001
+    title: "Colonnesi, Stams, Koster & Noom (2010), Developmental Review, pointing and language"
+  - id: fitzpatrick-2014-baby-sign
+    resource: https://doi.org/10.1177/0142723714562864
+    title: "Fitzpatrick et al. (2014), First Language, baby-sign systematic review"
+  - id: oller-1999-babbling
+    resource: https://doi.org/10.1016/s0021-9924(99)00013-1
+    title: "Oller, Eilers, Neal & Schwartz (1999), Journal of Communication Disorders, precursors to speech"
+  - id: petitto-1991-manual-babbling
+    resource: https://doi.org/10.1126/science.2006424
+    title: "Petitto & Marentette (1991), Science, babbling in the manual mode"
 ---
 
 # Master Source Catalog
@@ -223,7 +238,7 @@ This catalog aggregates every source currently cited across `evidence-cards/`, s
 1. **Verified resources** - sources with a confirmed, resolvable URL, also declared in this file's OKF frontmatter `sources` array for machine traversal.
 2. **Unresolved citations** - sources named in evidence-card bibliographies during the initial literature pass but not yet matched to a verified, stable resource link. These require a follow-up audit pass before being promoted to tier 1.
 
-Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog-wide Crossref/OpenAlex/PubMed / Retraction Watch dump (`preliminary/research/extraction/five-listings-and-retraction-watch-dump.md`) found no retraction or expression-of-concern titles among DOI-resolved records. The five previously no-DOI listings are now repaired: three grey-literature/WHO items have stable IRIS or NIH identifiers and no journal DOI; Kramer 1987 has PMID/PMC/IRIS and no DOI; `hiscock-2016` was retired and replaced by Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020. None of those checks promote any card to `stable`.
+Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog-wide Crossref/OpenAlex/PubMed / Retraction Watch dump (`preliminary/research/extraction/five-listings-and-retraction-watch-dump.md`) found no retraction or expression-of-concern titles among DOI-resolved records. The five previously no-DOI listings are now repaired: three grey-literature/WHO items have stable IRIS or NIH identifiers and no journal DOI; Kramer 1987 has PMID/PMC/IRIS and no DOI; `hiscock-2016` was retired and replaced by Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020. Catalog-wide replication/attenuation is classified in `preliminary/research/extraction/catalog-wide-replication-attenuation.md`. `madigan-2020` now correctly points at Madigan 2020 *JAMA Pediatrics*; Jing et al. 2023 is a separate vocabulary meta-analysis. None of those checks promote any card to `stable`.
 
 ## Verified Resources
 
@@ -238,7 +253,8 @@ Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog
 | `nichd-seccyd-2006` | NICHD SECCYD findings booklet, NIH Publication No. 05-4318 (January 2006); no Crossref DOI | [https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/seccyd_06.pdf](https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/seccyd_06.pdf) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
 | `nichd-effectsizes-2006` | Child-Care Effect Sizes for the NICHD Study, American Psychologist (2006) | [https://doi.org/10.1037/0003-066X.61.2.99](https://doi.org/10.1037/0003-066X.61.2.99) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
 | `nichd-age15` | Vandell et al. (2010), child care to age 15 | [https://doi.org/10.1111/j.1467-8624.2010.01431.x](https://doi.org/10.1111/j.1467-8624.2010.01431.x) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
-| `madigan-2020` | Screen media exposure and young children's vocabulary, Child Development meta-analysis (2023) | [https://onlinelibrary.wiley.com/doi/10.1111/cdev.13927](https://onlinelibrary.wiley.com/doi/10.1111/cdev.13927) | [screen-time-language-development](evidence-cards/screen-time-language-development.md) |
+| `madigan-2020` | Madigan et al. (2020), JAMA Pediatrics, screen use and language (42 studies, N=18,905) | [https://doi.org/10.1001/jamapediatrics.2020.0327](https://doi.org/10.1001/jamapediatrics.2020.0327) | [screen-time-language-development](evidence-cards/screen-time-language-development.md) |
+| `jing-2023-cdev` | Jing, Ye, Kirkorian & Mares (2023), Child Development, screen media and vocabulary | [https://doi.org/10.1111/cdev.13927](https://doi.org/10.1111/cdev.13927) | [screen-time-language-development](evidence-cards/screen-time-language-development.md) |
 | `traces-2024` | Mobile device screen time and toddler language, BMC Public Health (2024) | [https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-024-18447-4](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-024-18447-4) | [screen-time-language-development](evidence-cards/screen-time-language-development.md) |
 | `tandfonline-2024` | Screen exposure and early language development, meta-analysis (2024) | [https://www.tandfonline.com/doi/full/10.1080/03004430.2024.2349622](https://www.tandfonline.com/doi/full/10.1080/03004430.2024.2349622) | [screen-time-language-development](evidence-cards/screen-time-language-development.md) |
 | `bakermans-2003` | Bakermans-Kranenburg, van IJzendoorn & Juffer (2003) meta-analysis, Psychological Bulletin | [https://doi.org/10.1037/0033-2909.129.2.195](https://doi.org/10.1037/0033-2909.129.2.195) | [responsive-caregiving-attachment-interventions](evidence-cards/responsive-caregiving-attachment-interventions.md) |
@@ -298,6 +314,10 @@ Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog
 | `colombo-2001-attention` | Colombo (2001), visual attention in infancy | [https://doi.org/10.1146/annurev.psych.52.1.337](https://doi.org/10.1146/annurev.psych.52.1.337) | [infant-attention-as-gatekeeper](evidence-cards/infant-attention-as-gatekeeper.md) |
 | `baillargeon-1987-object` | Baillargeon (1987), object permanence in 3.5- and 4.5-month-olds | [https://doi.org/10.1037/0012-1649.23.5.655](https://doi.org/10.1037/0012-1649.23.5.655) | [object-permanence-looking-vs-search](evidence-cards/object-permanence-looking-vs-search.md) |
 | `mundy-newell-2007-ja` | Mundy & Newell (2007), joint attention and social cognition | [https://doi.org/10.1111/j.1467-8721.2007.00518.x](https://doi.org/10.1111/j.1467-8721.2007.00518.x) | [joint-attention-shared-reference](evidence-cards/joint-attention-shared-reference.md) |
+| `colonnesi-2010-pointing` | Colonnesi et al. (2010), pointing and language meta-analysis | [https://doi.org/10.1016/j.dr.2010.10.001](https://doi.org/10.1016/j.dr.2010.10.001) | [infant-pointing-as-shared-reference](evidence-cards/infant-pointing-as-shared-reference.md) |
+| `fitzpatrick-2014-baby-sign` | Fitzpatrick et al. (2014), First Language, baby-sign systematic review | [https://doi.org/10.1177/0142723714562864](https://doi.org/10.1177/0142723714562864) | [infant-pointing-as-shared-reference](evidence-cards/infant-pointing-as-shared-reference.md) |
+| `oller-1999-babbling` | Oller et al. (1999), Journal of Communication Disorders, precursors to speech | [https://doi.org/10.1016/s0021-9924(99)00013-1](https://doi.org/10.1016/s0021-9924(99)00013-1) | [infant-babbling-as-exploration](evidence-cards/infant-babbling-as-exploration.md) |
+| `petitto-1991-manual-babbling` | Petitto & Marentette (1991), Science, babbling in the manual mode | [https://doi.org/10.1126/science.2006424](https://doi.org/10.1126/science.2006424) | [infant-babbling-as-exploration](evidence-cards/infant-babbling-as-exploration.md) |
 
 ## Unresolved Citations
 

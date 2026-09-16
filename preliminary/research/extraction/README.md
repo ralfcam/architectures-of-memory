@@ -42,8 +42,9 @@ Group claims into likely cards **after** they are extracted. One card = one clai
 - [Chapter 3 Evidence Map](ch03-great-transition--evidence-map.md) — transition physiology, bounded skin-to-skin, crying, feeding coordination, preterm group risk.
 - [Chapter 4 Evidence Map](ch04-regulatory-relationship--evidence-map.md) — co-regulation, deprivation, and feeding-as-regulation; sleep/attachment reconciled.
 - [Chapter 5 Evidence Map](ch05-becoming-a-mind--evidence-map.md) — looking-time, attention, object permanence, joint attention; narrowing/statistical/contingency reconciled.
-- [Chapter 7 Evidence Map](ch07-birth-of-language--evidence-map.md) — perceptual narrowing, statistical segmentation, conversational turns, dual language; screens reconciled; joint attention now a Ch. 5 card.
+- [Chapter 7 Evidence Map](ch07-birth-of-language--evidence-map.md) — perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling; screens ID-repaired; joint attention is a Ch. 5 card.
 - [Selected-card re-audit](selected-cards--replication-bias-reaudit.md) — first replication/bias pass; none to `stable`.
+- [Catalog-wide replication / attenuation](catalog-wide-replication-attenuation.md) — every live card classified; none to `stable`.
 - [Catalog-wide retraction search](catalog-wide-retraction-search.md) — Crossref/PubMed lookup; none to `stable`.
 - [DOI recovery and Retraction Watch](doi-recovery-retraction-watch.md) — 15 of 20 previously unchecked IDs recovered; five listings later repaired.
 - [Five listings and Retraction Watch dump](five-listings-and-retraction-watch-dump.md) — `hiscock-2016` retired; dump finds no retractions; none to `stable`.

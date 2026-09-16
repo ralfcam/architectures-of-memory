@@ -39,6 +39,7 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-MAP04 | `preliminary/research/extraction/ch04-regulatory-relationship--evidence-map.md` | documentation | remain-preliminary | extracted | Sleep/attachment reconcile; C01/C02/C04 promote |
 | G-AUDIT04 | `preliminary/research/extraction/ch04-coregulation-deprivation--source-audit.md` | documentation | remain-preliminary | extracted | Nurturing Care; Feldman; BEIP; Black & Aboud 2011 |
 | G-REAUDIT | `preliminary/research/extraction/selected-cards--replication-bias-reaudit.md` | documentation | remain-preliminary | extracted | First re-audit pass; none to `stable` |
+| G-REPLICATE | `preliminary/research/extraction/catalog-wide-replication-attenuation.md` | documentation | remain-preliminary | extracted | Catalog-wide replication/GI classification; none to `stable` |
 | G-RETRACT | `preliminary/research/extraction/catalog-wide-retraction-search.md` | documentation | remain-preliminary | extracted | Catalog-wide Crossref/PubMed lookup; none to `stable` |
 | G-DOI | `preliminary/research/extraction/doi-recovery-retraction-watch.md` | documentation | remain-preliminary | extracted | 15 of 20 DOIs recovered; RW queried; none to `stable` |
 | G-RWDUMP | `preliminary/research/extraction/five-listings-and-retraction-watch-dump.md` | documentation | remain-preliminary | extracted | Five listings repaired; `hiscock-2016` retired; RW dump; none to `stable` |
@@ -47,7 +48,7 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-T05 | `preliminary/triage/ch05-becoming-a-mind--triage.md` | documentation | remain-preliminary | extracted | Ch. 5 extraction plan; curated copy promoted |
 | G-AUDIT06 | `preliminary/research/extraction/ch06-contingency-learning--source-audit.md` | documentation | remain-preliminary | extracted | Mobile paradigm card |
 | G-R06 | `preliminary/drafts-chapters/reviews/ch06-curated-06-the-mind-in-motion--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 6 |
-| G-MAP07 | `preliminary/research/extraction/ch07-birth-of-language--evidence-map.md` | documentation | remain-preliminary | extracted | C02/C03/C07–C09 promote; screens reconcile |
+| G-MAP07 | `preliminary/research/extraction/ch07-birth-of-language--evidence-map.md` | documentation | remain-preliminary | extracted | C02/C03/C05–C09 promote; screens ID-repaired |
 | G-AUDIT07 | `preliminary/research/extraction/ch07-language--source-audit.md` | documentation | remain-preliminary | extracted | Werker; Saffran; Gilkerson; NAP; P1≠S1 hashes |
 | G-R07 | `preliminary/drafts-chapters/reviews/ch07-curated-07-the-birth-of-language--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 7 |
 | G-R03 | `preliminary/drafts-chapters/reviews/ch03-curated-03-the-great-transition--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 3 |
@@ -123,7 +124,7 @@ Window: prenatal auditory tuning through first words/grammar. Domains: biologica
 |---|---|---|---|---|---|
 | C07-P1 | `research/Chapter 7 — The Birth of Language.docx` | research-plan | `evidence-cards/` + `chapters/` | extracted | Extraction source. SHA-256 `1fef9bce…`. |
 | C07-S1 | `research/The Birth of Language_ A Comprehensive Research Synthesis.docx` | synthesis | `evidence-cards/` + `SOURCES.md` | extracted | Alternate (~3.0 MB); not identical to C07-P1. Do not double-extract. Overlaps existing `screen-time-language-development.md`. |
-| C07-D | `drafts-chapters/chapter 7` | chapter-draft | `chapters/` | extracted | Archival (~4,908 words) not overwritten. Curated copy: `chapters/07-the-birth-of-language.md`. |
+| C07-D | `drafts-chapters/chapter 7` | chapter-draft | `chapters/` | extracted | Archival (~4,908 words) not overwritten. Curated copy: `chapters/07-the-birth-of-language.md`. Pointing and babbling cards added; parent-implemented interventions still open. |
 
 ## Chapter 8 — The Expanding World
 
@@ -247,7 +248,7 @@ Window: preconception through age 3. Domains: all five.
 | `severe-institutional-deprivation.md` | 4 | Source-audited (C02 / BEIP); still `status: draft` |
 | `infant-contingency-learning.md` | 6 | Source-audited (C01); still `status: draft` |
 | `breastfeeding-cognitive-development.md` | 4 / 5 | Feeding is Ch. 4 adjacent; cognition Ch. 5 |
-| `screen-time-language-development.md` | 7 | Reconciled in Ch. 7 map; do not re-extract; still `status: draft`. Frontmatter/body citation mismatch recorded. |
+| `screen-time-language-development.md` | 7 | IDs repaired (Madigan 2020 vs Jing 2023); still `status: draft`. Frontmatter/body citation mismatch recorded then repaired. |
 | `early-childcare-quality.md` | 8 | Second wave |
 | `self-regulation-delay-of-gratification.md` | 10 / 11 | Second wave |
 | `preschool-early-education-rct.md` | 14 | Second wave |
@@ -263,10 +264,12 @@ Window: preconception through age 3. Domains: all five.
 | `infant-attention-as-gatekeeper.md` | 5 | Source-audited (C03); still `status: draft` |
 | `object-permanence-looking-vs-search.md` | 5 | Source-audited (C06); still `status: draft` |
 | `joint-attention-shared-reference.md` | 5 / 7 | Source-audited (C07 / CH07-C04); still `status: draft` |
+| `infant-pointing-as-shared-reference.md` | 7 | Source-audited (CH07-C05); still `status: draft` |
+| `infant-babbling-as-exploration.md` | 7 | Source-audited (CH07-C06); still `status: draft` |
 
 ## Counts
 
 - Research/synthesis/plan files: 31
 - Chapter drafts: 15
-- Documentation/governance (including this file): 36
+- Documentation/governance (including this file): 37
 - Exact byte-identical duplicates: none found. Near-duplicates: C02-P1 ~ C02-S1; several ~3 MB chapter syntheses that likely embed media.

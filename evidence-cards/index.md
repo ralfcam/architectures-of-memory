@@ -28,6 +28,8 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 * [Infant Perceptual Narrowing](infant-perceptual-narrowing.md) - First-year phonetic attunement; High in the classic lab; Low as a sealed deadline.
 * [Infant Statistical Speech Segmentation](infant-statistical-speech-segmentation.md) - Saffran 1996: High for laboratory transitional-probability learning; Low for transfer.
 * [Conversational Turns and Later Language](conversational-turns-language.md) - Gilkerson 2018: Moderate prediction from turns, not word counts; Low causation.
+* [Pointing as Shared Reference](infant-pointing-as-shared-reference.md) - Colonnesi 2010: Moderate that pointing predicts language; Low that baby-sign products accelerate typical speech.
+* [Babbling as Exploration](infant-babbling-as-exploration.md) - Oller 1999: High that canonical babbling is a real stage; Low as an IQ or parenting verdict.
 * [Two Languages Do Not Confuse](dual-language-does-not-confuse.md) - NAP 2017: High that dual exposure as such does not confuse; Low automatic cognitive bonus.
 * [Infant Crying as a Signal](infant-crying-as-signal.md) - Graded distress signal; not a one-to-one code for hunger, pain, or parental error.
 * [Suck–Swallow–Breathe Coordination](suck-swallow-breathe-coordination.md) - Oral feeding is maturational coordination; feeding method is not parental worth.
@@ -35,7 +37,7 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 * [Preterm Birth and Group Cognitive Risk](preterm-cognition-group-risk.md) - 2024 meta-analysis: group SMD about −0.57; not an individual sentence.
 * [Breastfeeding and Cognitive Development](breastfeeding-cognitive-development.md) - PROBIT RCT and sibling comparisons show a small, fading, verbal-concentrated effect.
 * [Early Childcare Quality and Development](early-childcare-quality.md) - NICHD SECCYD cohort: modest quality-cognition links; parenting predicts more.
-* [Screen Time and Language Development](screen-time-language-development.md) - Weak-to-moderate observational associations, decomposed by content/co-use/context.
+* [Screen Time and Language Development](screen-time-language-development.md) - Weak-to-moderate observational associations, decomposed by content/co-use/context. Madigan 2020 JAMA vs Jing 2023 *Child Development* IDs repaired.
 * [Responsive Caregiving and Attachment Interventions](responsive-caregiving-attachment-interventions.md) - Short sensitivity RCTs move sensitivity more than attachment security.
 * [Infant Sleep Training](infant-sleep-training.md) - RCTs and cohorts find no attachment/behavioral harm through age 6; `hiscock-2016` listing retired.
 * [Self-Regulation and Delay of Gratification](self-regulation-delay-of-gratification.md) - 2018 NICHD replication shows the original predictor claim was mostly confounded.

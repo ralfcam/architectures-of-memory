@@ -32,4 +32,5 @@ A longitudinal evidence atlas of developmental science, spanning approximately o
 * [Chapter 5 Evidence Map](preliminary/research/extraction/ch05-becoming-a-mind--evidence-map.md) - Looking-time, attention, object permanence, joint attention; narrowing/statistical/contingency reconciled.
 * [DOI recovery and Retraction Watch](preliminary/research/extraction/doi-recovery-retraction-watch.md) - 15 of 20 previously Crossref-unchecked IDs recovered; none to `stable`.
 * [Five listings and Retraction Watch dump](preliminary/research/extraction/five-listings-and-retraction-watch-dump.md) - Remaining no-DOI listings repaired; `hiscock-2016` retired; dump finds no retractions; none to `stable`.
-* [Chapter 7 Evidence Map](preliminary/research/extraction/ch07-birth-of-language--evidence-map.md) - Perceptual narrowing, statistical segmentation, conversational turns, dual language; screens reconciled.
+* [Chapter 7 Evidence Map](preliminary/research/extraction/ch07-birth-of-language--evidence-map.md) - Perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling; screens ID-repaired.
+* [Catalog-wide replication / attenuation](preliminary/research/extraction/catalog-wide-replication-attenuation.md) - Every live card classified; none to `stable`.
