@@ -24,7 +24,7 @@ Toddlerhood: how action becomes coordinated with goals, language, other people, 
 - Physical punishment as not a developmental necessity
 - Routines/predictability (largely observational; `needs-source-audit` unless a named ID is registered)
 - Modeling / social learning (Bandura-classics vs everyday magnitude)
-- Prosocial/instrumental helping (Warneken; hold or later)
+- Prosocial/instrumental helping (`instrumental-helping-not-altruism.md`; Warneken remainder)
 - Behavioral parent-training efficacy (Chapter 14; reconcile only)
 
 ## 4. Existing KB overlap

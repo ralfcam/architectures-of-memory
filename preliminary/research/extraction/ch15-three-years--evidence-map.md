@@ -102,4 +102,4 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 
 ## 4. This pass
 
-Three new draft cards: rank-order continuity, childhood self-control gradient, ordinary resilience. Temperament, Watts, EF, BEIP, preschool RCT remain live. No curated Chapter 15. No card to `stable`.
+Three waypoint draft cards: rank-order continuity, childhood self-control gradient, ordinary resilience. Temperament, Watts, EF, BEIP, preschool RCT remain live. **Curated Chapter 15** exists this package. Remaining-domain cards (helping, outdoor play, leave, food, preconception-beyond-folate) are named as other IDs, not stolen. No card to `stable`.

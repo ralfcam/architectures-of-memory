@@ -87,6 +87,15 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 | Label | `interpretive-only`. |
 | Grade | Moderate. |
 
+### Outdoor / risky play
+
+| Field | Content |
+|---|---|
+| Claim | Risky outdoor play is associated with some health outcomes in mostly school-age literature; it is not a 0–3 developmental law or toddler efficacy package. |
+| Sources | Brussoni et al. 2015 *IJERPH* DOI 10.3390/ijerph120606423. |
+| Label | `promote` (remainder 2026-09-16) — card `evidence-cards/outdoor-risky-play-not-0-3-law.md` |
+| Grade | Moderate school-age association; Low-to-Moderate 0–3. |
+
 ### Digital play
 
 | Field | Content |
@@ -108,4 +117,4 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 
 ## 4. This pass
 
-Two new draft cards: symbolic emergence and Lillard overclaim. Exploration, embodiment, peers, screens, and preschool RCTs remain live cards. No curated Chapter 12. No card to `stable` from this chapter’s new set.
+Two new draft cards: symbolic emergence and Lillard overclaim. Remainder: outdoor/risky-play card. Exploration, embodiment, peers, screens, and preschool RCTs remain live cards. Curated Chapter 12 exists from v0.2. No card to `stable` from this chapter’s new set.

@@ -1,6 +1,6 @@
 # Play extraction plan
 
-Status: `extracted` for two first-pass cards. Chapter 12 triage/map now exist. No play card to `stable`.
+Status: `extracted` for two first-pass cards plus an outdoor/risky remainder. Chapter 12 triage/map now exist. No play card to `stable`.
 
 Related: `Childhood Play Research Plan.docx` (C12-P2; SHA-256 `d609f7c9…`) · `Chapter 12 Preliminary Research Plan.docx` (C12-P1; do not double-extract) · [triage](../../triage/ch12-play-imagination--triage.md) · [map](ch12-play-imagination--evidence-map.md)
 
@@ -18,7 +18,7 @@ Toddler through age 3: object play, physical play, pretend/symbolic play, social
 | Educational claims about pretend play | `promote` | `pretend-play-educational-claims.md` (Lillard 2013) |
 | Social / sociodramatic play | `needs-source-audit` | Adjacent to `toddler-peer-interaction.md`; do not duplicate |
 | Free play vs structured activity / guided play | `needs-source-audit` | Outcome must be named; avoid “play is good” |
-| Outdoor / risky play | `needs-source-audit` | Often school-age literature |
+| Outdoor / risky play | `promote` | `outdoor-risky-play-not-0-3-law.md` (Brussoni 2015). School-age literature, not a 0–3 law. |
 | Play as an intervention ingredient | `needs-source-audit` | Chapter 14 Reach Up / stimulation; do not steal Ch. 14’s efficacy story |
 
 ## Prohibited inferences
@@ -34,4 +34,4 @@ Toddler through age 3: object play, physical play, pretend/symbolic play, social
 1. Finish Chapter 8 peer card (done) so social play has a neighbor.
 2. Extract 1–2 pretend/symbolic claims from C12-P1 (done this package).
 3. Keep exploration and embodiment cards as Chapter 6; link, do not rewrite.
-4. Curated Chapter 12 now has a voice-checked copy (`chapters/12-play-imagination.md`). Outdoor/risky play and guided-play efficacy remain `needs-source-audit` (v0.3 remainder).
+4. Curated Chapter 12 now has a voice-checked copy (`chapters/12-play-imagination.md`). Outdoor/risky play card exists this package. Guided-play efficacy remains `needs-source-audit`.

@@ -17,12 +17,12 @@ Each chapter should still follow the 10-step rhythm in `COMPOSITION.md` Appendix
 | 7 | The Birth of Language | `preliminary/drafts-chapters/chapter 7` (archival) | Ch. 7 plan + synthesis | **Promoted curated copy:** `chapters/07-the-birth-of-language.md`. Linked cards: perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling, parent-implemented language. Screens ID-repaired, not re-theorized. |
 | 8 | The Expanding World | `preliminary/drafts-chapters/chapter 8.md` | Ch. 8 plan + synthesis | **Promoted curated copy:** `chapters/08-the-expanding-world.md`. Four draft cards; childcare/BEIP reconciled. |
 | 9 | The Emotional Revolution | `preliminary/drafts-chapters/Chapter 9.md` | Ch. 9 plan | **Promoted curated copy:** `chapters/09-the-emotional-revolution.md`. Three draft cards; co-regulation/delay reconciled. |
-| 10 | Boundaries, Behavior, and the First Rules | `preliminary/drafts-chapters/Chapter 10.md` | Ch. 10 dossier | **Promoted curated copy:** `chapters/10-boundaries-behavior.md`. Three draft cards; EF/delay reconciled. Seed Ch. 8 “Morality and Rules” is absorbed here. |
+| 10 | Boundaries, Behavior, and the First Rules | `preliminary/drafts-chapters/Chapter 10.md` | Ch. 10 dossier | **Promoted curated copy:** `chapters/10-boundaries-behavior.md`. Three draft cards plus Warneken helping remainder; EF/delay reconciled. Seed Ch. 8 “Morality and Rules” is absorbed here. |
 | 11 | The Developing Executive | `preliminary/drafts-chapters/chapter 11` | Ch. 11 dossier | **Promoted curated copy:** `chapters/11-the-developing-executive.md`. Two draft cards; Watts delay reconciled. |
-| 12 | Play, Imagination, and Meaning | `preliminary/drafts-chapters/chapter 12` | Ch. 12 plan | **Promoted curated copy:** `chapters/12-play-imagination.md`. Two draft cards; exploration/embodiment/peers reconciled. |
-| 13 | The Ecology of Development | `preliminary/drafts-chapters/chapter 13` | Ch. 13 plans | **Promoted curated copy:** `chapters/13-the-ecology-of-development.md`. Two draft cards (income/cash, MTO). |
+| 12 | Play, Imagination, and Meaning | `preliminary/drafts-chapters/chapter 12` | Ch. 12 plan | **Promoted curated copy:** `chapters/12-play-imagination.md`. Two draft cards plus outdoor/risky-play remainder; exploration/embodiment/peers reconciled. |
+| 13 | The Ecology of Development | `preliminary/drafts-chapters/chapter 13` | Ch. 13 plans | **Promoted curated copy:** `chapters/13-the-ecology-of-development.md`. Two draft cards (income/cash, MTO) plus leave and food-insecurity remainders. |
 | 14 | What Actually Works? | `preliminary/drafts-chapters/chapter 14` (archival) | Ch. 14 architecture + interventions review | **Curated copy:** `chapters/14-what-actually-works.md` (artifacts stripped; trimmed to Appendix B range after Part II cards). |
-| 15 | Three Years: What Has Been Built? | `preliminary/drafts-chapters/chapter 15` | Ch. 15 dossier | Triage + evidence map + three draft cards. Filename was previously `chapter 16`. No curated copy yet. |
+| 15 | Three Years: What Has Been Built? | `preliminary/drafts-chapters/chapter 15` | Ch. 15 dossier | **Promoted curated copy:** `chapters/15-three-years.md`. Three draft waypoint cards. Filename was previously `chapter 16`. |
 
 ## Why not the 8-chapter seed
 
@@ -84,6 +84,7 @@ All remain `status: draft`.
 
 - `prenatal-developmental-timing.md`, `prenatal-neural-construction.md`, `prenatal-folate-ntd.md`, `prenatal-maternal-stress-anxiety.md` (reconcile)
 - `paternal-age-de-novo-mutations.md` (CH01-C06)
+- Adjacent remainder: `preconception-nutrition-beyond-folate.md` (Dean 2014; folate NTD not re-estimated)
 
 ## Linked cards for Chapter 6 (current)
 
@@ -128,6 +129,7 @@ All remain `status: draft`. **Curated copy:** `chapters/10-boundaries-behavior.m
 - `committed-compliance-not-obedience.md` (CH10-C03)
 - `toddler-physical-aggression-trajectories.md` (CH10-C11)
 - `physical-punishment-not-necessary.md` (CH10-C07)
+- Remainder: `instrumental-helping-not-altruism.md` (Warneken 2006)
 - Reconcile only: `inhibitory-control-toddler.md`, `self-regulation-delay-of-gratification.md`, `infant-contingency-learning.md`
 
 ## Linked cards for Chapter 9 (current)
@@ -153,6 +155,7 @@ All remain `status: draft`. **Curated copy:** `chapters/12-play-imagination.md`.
 
 - `symbolic-pretend-play-emergence.md` (CH12-C02)
 - `pretend-play-educational-claims.md` (CH12-C10)
+- Remainder: `outdoor-risky-play-not-0-3-law.md` (Brussoni 2015)
 - Reconcile only: `exploration-as-sampling.md`, `embodied-perception-action.md`, `toddler-peer-interaction.md`, `preschool-early-education-rct.md`, `screen-time-language-development.md`
 
 ## Linked cards for Chapter 13 (current)
@@ -161,6 +164,7 @@ All remain `status: draft`. **Curated copy:** `chapters/13-the-ecology-of-develo
 
 - `income-cash-transfer-early-development.md` (CH13-C02)
 - `neighborhood-mobility-age-dependent.md` (CH13-C03/C08)
+- Remainder: `parental-leave-heterogeneous-package.md`, `household-food-insecurity-health.md`
 - Reconcile only: `early-childcare-quality.md`, `preschool-early-education-rct.md`, `infant-caregiver-coregulation.md`, `prenatal-maternal-stress-anxiety.md`, `severe-institutional-deprivation.md`
 
 ## Linked cards for Chapter 14 (current)
@@ -173,9 +177,10 @@ Curated copy in Appendix B range. Archival untouched.
 
 ## Linked cards for Chapter 15 (current)
 
-All remain `status: draft`. No curated chapter yet.
+All remain `status: draft`. **Curated copy:** `chapters/15-three-years.md`.
 
 - `rank-order-continuity-not-destiny.md` (CH15-C03)
 - `childhood-self-control-gradient.md` (CH15-C07)
 - `ordinary-resilience-adaptive-systems.md` (CH15-C05)
 - Reconcile only: `temperament-reactivity-not-destiny.md`, `self-regulation-delay-of-gratification.md`, `severe-institutional-deprivation.md`, `preschool-early-education-rct.md`
+- Adjacent remaining-domain cards (not this chapter’s identifications): `instrumental-helping-not-altruism.md`, `outdoor-risky-play-not-0-3-law.md`, `parental-leave-heterogeneous-package.md`, `household-food-insecurity-health.md`, `preconception-nutrition-beyond-folate.md`

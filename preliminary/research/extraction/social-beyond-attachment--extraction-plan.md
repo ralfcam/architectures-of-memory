@@ -1,6 +1,6 @@
 # Social development beyond attachment — extraction plan
 
-Status: `triage-ready`. Domain from the project’s not-yet-started list. Largest remaining gap between the KB and Chapters 8–11. No card to `stable`.
+Status: `extracted` for the first-pass families below. Domain from the project’s not-yet-started list. No card to `stable`.
 
 Related: [Ch. 8 triage](../../triage/ch08-expanding-world--triage.md) · [Ch. 8 map](ch08-expanding-world--evidence-map.md)
 
@@ -18,6 +18,7 @@ Attachment remains a Chapter 4 object (`infant-caregiver-coregulation`, `respons
 | Group-care quality vs quantity | Reconcile | `early-childcare-quality.md` |
 | Stranger wariness ≠ insecurity | `interpretive-only` | Lives on referencing / network cards |
 | Fathers / kin / siblings as heterogeneous members | `promote` (remainder 2026-09-16) | `father-kin-sibling-heterogeneous-network.md` (McWayne 2013; Dagan 2018). Grandparent/sibling unique-cause claims remain thin. |
+| Instrumental helping ≠ mature altruism | `promote` (remainder 2026-09-16) | `instrumental-helping-not-altruism.md` (Warneken & Tomasello 2006). |
 | Culture / developmental niche | `interpretive-only` | Super & Harkness; difference ≠ deficit |
 
 ## Prohibited inferences
@@ -32,5 +33,5 @@ Attachment remains a Chapter 4 object (`infant-caregiver-coregulation`, `respons
 
 1. Chapter 8 triage + map + three cards (first package).
 2. Source-audit father/kin/sibling claims with registered IDs (remainder 2026-09-16).
-3. Curated Chapter 8 now has a voice-checked copy; Chapters 9–13 curated copies exist in the same package. Chapter 15 remains the v0.3 manuscript center.
-4. BEIP stays the upper-bound deprivation card, not a daycare card. Warneken helping remains `needs-source-audit`.
+3. Curated Chapter 8 now has a voice-checked copy; Chapters 9–13 and 15 curated copies exist.
+4. BEIP stays the upper-bound deprivation card, not a daycare card. Warneken helping card: `instrumental-helping-not-altruism.md` (this package).

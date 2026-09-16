@@ -331,6 +331,21 @@ sources:
   - id: masten-2001-ordinary-magic
     resource: https://doi.org/10.1037/0003-066X.56.3.227
     title: "Masten (2001), American Psychologist, ordinary magic: resilience processes"
+  - id: warneken-tomasello-2006
+    resource: https://doi.org/10.1126/science.1121448
+    title: "Warneken & Tomasello (2006), Science, altruistic helping in human infants and young chimpanzees"
+  - id: brussoni-2015-risky-play
+    resource: https://doi.org/10.3390/ijerph120606423
+    title: "Brussoni et al. (2015), IJERPH, systematic review of risky outdoor play and health"
+  - id: carneiro-2015-leave
+    resource: https://doi.org/10.1086/679627
+    title: "Carneiro, Løken & Salvanes (2015), Journal of Political Economy, maternity leave and long-run child outcomes"
+  - id: cook-2004-food-insecurity
+    resource: https://doi.org/10.1093/jn/134.6.1432
+    title: "Cook et al. (2004), Journal of Nutrition, food insecurity and infant/toddler health"
+  - id: dean-2014-preconception-nutrition
+    resource: https://doi.org/10.1186/1742-4755-11-S3-S3
+    title: "Dean et al. (2014), Reproductive Health, preconception care: nutritional risks and interventions"
 ---
 
 # Master Source Catalog
@@ -466,6 +481,11 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `roberts-delvecchio-2000` | Roberts & DelVecchio (2000), rank-order consistency of personality | [https://doi.org/10.1037/0033-2909.126.1.3](https://doi.org/10.1037/0033-2909.126.1.3) | [rank-order-continuity-not-destiny](evidence-cards/rank-order-continuity-not-destiny.md) |
 | `moffitt-2011-self-control` | Moffitt et al. (2011), childhood self-control gradient | [https://doi.org/10.1073/pnas.1010076108](https://doi.org/10.1073/pnas.1010076108) | [childhood-self-control-gradient](evidence-cards/childhood-self-control-gradient.md) |
 | `masten-2001-ordinary-magic` | Masten (2001), ordinary magic: resilience processes | [https://doi.org/10.1037/0003-066X.56.3.227](https://doi.org/10.1037/0003-066X.56.3.227) | [ordinary-resilience-adaptive-systems](evidence-cards/ordinary-resilience-adaptive-systems.md) |
+| `warneken-tomasello-2006` | Warneken & Tomasello (2006), altruistic helping in human infants | [https://doi.org/10.1126/science.1121448](https://doi.org/10.1126/science.1121448) | [instrumental-helping-not-altruism](evidence-cards/instrumental-helping-not-altruism.md) |
+| `brussoni-2015-risky-play` | Brussoni et al. (2015), risky outdoor play and health review | [https://doi.org/10.3390/ijerph120606423](https://doi.org/10.3390/ijerph120606423) | [outdoor-risky-play-not-0-3-law](evidence-cards/outdoor-risky-play-not-0-3-law.md) |
+| `carneiro-2015-leave` | Carneiro, Løken & Salvanes (2015), maternity leave and long-run child outcomes | [https://doi.org/10.1086/679627](https://doi.org/10.1086/679627) | [parental-leave-heterogeneous-package](evidence-cards/parental-leave-heterogeneous-package.md) |
+| `cook-2004-food-insecurity` | Cook et al. (2004), food insecurity and infant/toddler health | [https://doi.org/10.1093/jn/134.6.1432](https://doi.org/10.1093/jn/134.6.1432) | [household-food-insecurity-health](evidence-cards/household-food-insecurity-health.md) |
+| `dean-2014-preconception-nutrition` | Dean et al. (2014), preconception nutritional risks and interventions | [https://doi.org/10.1186/1742-4755-11-S3-S3](https://doi.org/10.1186/1742-4755-11-S3-S3) | [preconception-nutrition-beyond-folate](evidence-cards/preconception-nutrition-beyond-folate.md) |
 
 ## Unresolved Citations
 

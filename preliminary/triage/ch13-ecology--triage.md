@@ -22,9 +22,9 @@ Whole 0–3 ecology: family material conditions, housing, income, institutions, 
 - Ecological / nurturing-care framework (interpretive; WHO already catalogued)
 - Income / cash transfer vs observational poverty gradient
 - Housing mobility / neighborhood (MTO long-run vs early scores)
-- Employment and leave (`needs-source-audit`)
+- Employment and leave (`parental-leave-heterogeneous-package.md`)
 - Childcare systems (reconcile existing quality card)
-- Food security (`needs-source-audit`)
+- Food security (`household-food-insecurity-health.md`)
 - Cumulative advantage as probabilistic, not destiny (interpretive)
 
 ## 4. Existing KB overlap

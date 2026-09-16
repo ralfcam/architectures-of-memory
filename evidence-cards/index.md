@@ -1,6 +1,6 @@
 # Evidence Cards Index
 
-Sixty-three evidence cards. **Three** physiology/lab cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
+Sixty-eight evidence cards. **Three** physiology/lab cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty-five remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
 
 # Evidence Cards
 
@@ -55,6 +55,11 @@ Sixty-three evidence cards. **Three** physiology/lab cards are `status: stable` 
 * [Early Rank-Order Continuity Is Modest](rank-order-continuity-not-destiny.md) - Roberts & DelVecchio 2000: childhood consistency about *r* = .31; not adult personality.
 * [Childhood Self-Control Gradient](childhood-self-control-gradient.md) - Moffitt 2011 Dunedin: Moderate group gradient; Low individual forecast. Watts delay reconciled.
 * [Ordinary Resilience](ordinary-resilience-adaptive-systems.md) - Masten 2001: High that resilience is often ordinary systems; adversity is not harmless.
+* [Instrumental Helping Is Not Altruism](instrumental-helping-not-altruism.md) - Warneken & Tomasello 2006: Moderate second-year helping; Low character forecast.
+* [Risky Outdoor Play Is Not a 0–3 Law](outdoor-risky-play-not-0-3-law.md) - Brussoni 2015: Moderate school-age association; Low-to-Moderate 0–3.
+* [Parental Leave Is a Heterogeneous Package](parental-leave-heterogeneous-package.md) - Carneiro 2015: Moderate reform; Low-to-Moderate 0–3 cognition.
+* [Household Food Insecurity and Infant Health](household-food-insecurity-health.md) - Cook 2004: Moderate health association; not parental failure.
+* [Preconception Nutrition Beyond Folate](preconception-nutrition-beyond-folate.md) - Dean 2014: Low-to-Moderate beyond folate; do not inherit NTD `stable`.
 * [Two Languages Do Not Confuse](dual-language-does-not-confuse.md) - NAP 2017: High that dual exposure as such does not confuse; Low automatic cognitive bonus.
 * [Infant Crying as a Signal](infant-crying-as-signal.md) - Graded distress signal; not a one-to-one code for hunger, pain, or parental error.
 * [Suck–Swallow–Breathe Coordination](suck-swallow-breathe-coordination.md) - Oral feeding is maturational coordination; feeding method is not parental worth.
@@ -70,11 +75,11 @@ Sixty-three evidence cards. **Three** physiology/lab cards are `status: stable` 
 
 # Not Yet Started
 
-* Preconception exposures - Kong paternal-age card exists; other nutrients beyond folate and sperm-epigenetic stories remain planned (`preconception--extraction-plan.md`).
+* Preconception exposures - Kong paternal-age card exists; `preconception-nutrition-beyond-folate.md` covers other nutrients without inheriting folate’s NTD grade. Sperm-epigenetic stories remain excluded.
 * Birth - mode of delivery and birth experience (held); skin-to-skin, crying, feeding coordination, and preterm group risk now have cards; neonatal transition is `stable` for the sequence claim.
-* Play - symbolic/pretend emergence and Lillard overclaim cards exist; curated Chapter 12 exists. Outdoor/risky play and guided-play efficacy still `needs-source-audit`. Embodiment/exploration remain Chapter 6.
-* Social development beyond attachment - referencing, networks, peers, father/kin/sibling, still-face/temperament/inhibition, and compliance/aggression/punishment cards exist; curated Chapters 8–10 exist. Warneken helping still `needs-source-audit`.
-* Ecology / policy - income-cash (Baby’s First Years) and neighborhood-mobility (MTO) cards exist; curated Chapter 13 exists; employment/leave and food security still `needs-source-audit`. Childcare/BEIP/preschool RCT reconciled, not rewritten.
-* Age-3 waypoint - rank-order continuity, self-control gradient, and ordinary-resilience cards exist (`ch15-three-years--evidence-map.md`). No curated Chapter 15 yet (v0.3).
+* Play - symbolic/pretend, Lillard overclaim, and outdoor/risky-play cards exist; curated Chapter 12 exists. Guided-play efficacy still thinner than a dedicated card.
+* Social development beyond attachment - referencing, networks, peers, father/kin, still-face, compliance/aggression, and Warneken helping cards exist; curated Chapters 8–10 and 15 exist.
+* Ecology / policy - income/cash, MTO, leave, and food-insecurity cards exist; curated Chapter 13 exists.
+* Age-3 waypoint - continuity, self-control gradient, and ordinary-resilience cards exist; **curated Chapter 15** exists (`chapters/15-three-years.md`).
 
 Add a new file per topic using `_TEMPLATE.md`, then list it here, register its sources in `../SOURCES.md`, and log the addition in `../CHANGELOG.md`.

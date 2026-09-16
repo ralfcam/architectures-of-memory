@@ -2,7 +2,7 @@
 
 Inventory of every file under `preliminary/` as of 2026-09-15. Original uploads are archival. Do not rename or move them. Curated copies use the naming convention in [`README.md`](README.md).
 
-**Chapter numbering** follows the 15-chapter draft sequence. Curated copies: `chapters/01-before-the-child-is-born.md` (Ch. 1), `chapters/02-first-environment.md` (Ch. 2), `chapters/03-the-great-transition.md` (Ch. 3), `chapters/04-regulatory-relationship.md` (Ch. 4), `chapters/05-becoming-a-mind.md` (Ch. 5), `chapters/06-the-mind-in-motion.md` (Ch. 6), `chapters/07-the-birth-of-language.md` (Ch. 7), `chapters/08-the-expanding-world.md` (Ch. 8), `chapters/09-the-emotional-revolution.md` (Ch. 9), `chapters/10-boundaries-behavior.md` (Ch. 10), `chapters/11-the-developing-executive.md` (Ch. 11), `chapters/12-play-imagination.md` (Ch. 12), `chapters/13-the-ecology-of-development.md` (Ch. 13), `chapters/14-what-actually-works.md` (Ch. 14, Appendix B range). Leftover seed `chapters/01-first-environment.md` removed.
+**Chapter numbering** follows the 15-chapter draft sequence. Curated copies: `chapters/01-before-the-child-is-born.md` (Ch. 1), `chapters/02-first-environment.md` (Ch. 2), `chapters/03-the-great-transition.md` (Ch. 3), `chapters/04-regulatory-relationship.md` (Ch. 4), `chapters/05-becoming-a-mind.md` (Ch. 5), `chapters/06-the-mind-in-motion.md` (Ch. 6), `chapters/07-the-birth-of-language.md` (Ch. 7), `chapters/08-the-expanding-world.md` (Ch. 8), `chapters/09-the-emotional-revolution.md` (Ch. 9), `chapters/10-boundaries-behavior.md` (Ch. 10), `chapters/11-the-developing-executive.md` (Ch. 11), `chapters/12-play-imagination.md` (Ch. 12), `chapters/13-the-ecology-of-development.md` (Ch. 13), `chapters/14-what-actually-works.md` (Ch. 14, Appendix B range), `chapters/15-three-years.md` (Ch. 15). Leftover seed `chapters/01-first-environment.md` removed.
 
 ## Status and type vocabularies
 
@@ -35,9 +35,9 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-MAP13 | `preliminary/research/extraction/ch13-ecology--evidence-map.md` | documentation | remain-preliminary | extracted | Childcare/BEIP/preschool RCT reconcile |
 | G-AUDIT13 | `preliminary/research/extraction/ch13-ecology--source-audit.md` | documentation | remain-preliminary | extracted | Troller-Renfree 2022; Noble 2025; Chetty 2016 |
 | G-V01 | `preliminary/releases/v0.1-slice.md` | documentation | remain-preliminary | extracted | **Tagged** `v0.1` on `main` at `c7c2a7a` |
-| G-V02 | `preliminary/releases/v0.2-slice.md` | documentation | remain-preliminary | extracted | Curated Ch. 8–13 on this branch; tag `v0.2` on `main` after merge |
-| G-V03 | `preliminary/releases/v0.3-slice.md` | documentation | remain-preliminary | extracted | Plan for curated Ch. 15 + remaining domains |
-| G-T15 | `preliminary/triage/ch15-three-years--triage.md` | documentation | remain-preliminary | triage-ready | Age-3 waypoint; three draft cards |
+| G-V02 | `preliminary/releases/v0.2-slice.md` | documentation | remain-preliminary | extracted | **Tagged** `v0.2` on `main` at `9bbc2d9` |
+| G-V03 | `preliminary/releases/v0.3-slice.md` | documentation | remain-preliminary | extracted | Curated Ch. 15 + remaining-domain cards; tag after merge |
+| G-T15 | `preliminary/triage/ch15-three-years--triage.md` | documentation | remain-preliminary | extracted | Age-3 waypoint; three draft cards; curated copy promoted |
 | G-MAP15 | `preliminary/research/extraction/ch15-three-years--evidence-map.md` | documentation | remain-preliminary | extracted | Continuity, self-control, resilience; Watts/BEIP/preschool RCT reconcile |
 | G-AUDIT15 | `preliminary/research/extraction/ch15-three-years--source-audit.md` | documentation | remain-preliminary | extracted | Roberts 2000; Moffitt 2011; Masten 2001 |
 | G-T09 | `preliminary/triage/ch09-emotional-revolution--triage.md` | documentation | remain-preliminary | extracted | Second-wave Ch. 9; still-face, temperament, inhibition; curated copy promoted |
@@ -91,6 +91,8 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-R11 | `preliminary/drafts-chapters/reviews/ch11-curated-11-the-developing-executive--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 11 |
 | G-R12 | `preliminary/drafts-chapters/reviews/ch12-curated-12-play-imagination--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 12 |
 | G-R13 | `preliminary/drafts-chapters/reviews/ch13-curated-13-the-ecology-of-development--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 13 |
+| G-R15 | `preliminary/drafts-chapters/reviews/ch15-curated-15-three-years--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 15 |
+| G-AUDIT-REM | `preliminary/research/extraction/remaining-domains--source-audit.md` | documentation | remain-preliminary | extracted | Warneken, Brussoni, Carneiro, Cook, Dean |
 
 ## Chapter 1 — Before the Child Is Born
 
@@ -238,9 +240,9 @@ Window: age-3 waypoint (what has accumulated; what remains open). Domains: biolo
 
 | ID | Path | Type | Destination | Status | Overlap / notes |
 |---|---|---|---|---|---|
-| C15-D1 | `research/Chapter 15 Research Dossier  Three Years — What Has Been Built.md` | research-dossier | `evidence-cards/` + `chapters/` | extracted | SHA-256 `b3ee7f3cbb1687e8…`. Three draft cards. |
+| C15-D1 | `research/Chapter 15 Research Dossier  Three Years — What Has Been Built.md` | research-dossier | `evidence-cards/` + `chapters/` | extracted | SHA-256 `b3ee7f3cbb1687e8…`. Three draft cards. Curated copy promoted. |
 | C15-S1 | `research/Developmental Synthesis at Age Three.txt` | synthesis | remain-preliminary | unreviewed | Alternate age-3 synthesis. Do not double-extract. |
-| C15-D | `drafts-chapters/chapter 15` | chapter-draft | `chapters/` | triage-ready | Renamed from `chapter 16`. Archival untouched. |
+| C15-D | `drafts-chapters/chapter 15` | chapter-draft | `chapters/` | extracted | Renamed from `chapter 16`. Archival untouched. Curated copy: `chapters/15-three-years.md`. |
 
 ## Cross-cutting / book-level
 
@@ -317,5 +319,5 @@ Window: preconception through age 3. Domains: all five.
 
 - Research/synthesis/plan files: 31
 - Chapter drafts: 15
-- Documentation/governance (including this file): 37
+- Documentation/governance (including this file): 39
 - Exact byte-identical duplicates: none found. Near-duplicates: C02-P1 ~ C02-S1; several ~3 MB chapter syntheses that likely embed media.

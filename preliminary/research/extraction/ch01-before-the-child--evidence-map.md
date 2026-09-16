@@ -88,6 +88,15 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 | Label | `promote` already — card `prenatal-neural-construction.md`. Reconcile only. |
 | Grade | High for structural sequence; Low for personality forecast. |
 
+### CH01 remainder — Preconception nutrition beyond folate
+
+| Field | Content |
+|---|---|
+| Claim | Other preconception nutrients do not inherit folate’s High/`stable` NTD identification. |
+| Sources | Dean et al. 2014 *Reproductive Health* DOI 10.1186/1742-4755-11-S3-S3. |
+| Label | `promote` (remainder 2026-09-16) — card `evidence-cards/preconception-nutrition-beyond-folate.md` |
+| Grade | Low-to-Moderate beyond folate. |
+
 ---
 
 ## 3. Prohibited inferences
