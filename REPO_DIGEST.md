@@ -67,7 +67,7 @@ CHANGELOG.md              Knowledge-base version history
 COMPOSITION.md            Book compositional grammar
 SOURCES.md                Master source catalog (108 verified)
 evidence-cards/           63 cards (3 `stable` for a narrow claim; 60 `draft`) + template + index
-chapters/                 Working 15-chapter TOC; curated Ch. 1–7 and Ch. 14
+chapters/                 Working 15-chapter TOC; curated Ch. 1–14 (Ch. 15 still triage only)
 style/                    Voice/style constraints for manuscript prose
 preliminary/              Staging area (research notes + chapter drafts)
 ```
@@ -186,7 +186,7 @@ Priority domains that still lack *full* card families include remaining preconce
 
 ### Canonical `chapters/` files
 
-`chapters/01-before-the-child-is-born.md` is the curated Chapter 1 copy. The leftover Ch. 2 seed sketch was removed. `chapters/02-first-environment.md` is the curated Chapter 2 copy. `chapters/03-the-great-transition.md` is the curated Chapter 3 copy. `chapters/04-regulatory-relationship.md` is the curated Chapter 4 copy. `chapters/05-becoming-a-mind.md` is the curated Chapter 5 copy. `chapters/06-the-mind-in-motion.md` is the curated Chapter 6 expansion. `chapters/07-the-birth-of-language.md` is the curated Chapter 7 copy. `chapters/14-what-actually-works.md` is a staging copy with citation artifacts stripped.
+`chapters/01-before-the-child-is-born.md` is the curated Chapter 1 copy. The leftover Ch. 2 seed sketch was removed. `chapters/02-first-environment.md` is the curated Chapter 2 copy. `chapters/03-the-great-transition.md` is the curated Chapter 3 copy. `chapters/04-regulatory-relationship.md` is the curated Chapter 4 copy. `chapters/05-becoming-a-mind.md` is the curated Chapter 5 copy. `chapters/06-the-mind-in-motion.md` is the curated Chapter 6 expansion. `chapters/07-the-birth-of-language.md` is the curated Chapter 7 copy. `chapters/08-the-expanding-world.md` through `chapters/13-the-ecology-of-development.md` are curated Part II copies (v0.2 manuscript slice; tag after merge). `chapters/14-what-actually-works.md` is a staging copy with citation artifacts stripped.
 
 | Canonical file | Maps to working TOC | Status |
 |---|---|---|
@@ -198,6 +198,12 @@ Priority domains that still lack *full* card families include remaining preconce
 | `chapters/06-the-mind-in-motion.md` | Working TOC Ch. 6 | Curated expansion; archival draft untouched |
 | `chapters/07-the-birth-of-language.md` | Working TOC Ch. 7 | Curated, voice-checked; archival draft untouched |
 | `chapters/14-what-actually-works.md` | Working TOC Ch. 14 | Curated, voice-checked; artifacts stripped; Appendix B range; archival untouched |
+| `chapters/08-the-expanding-world.md` | Working TOC Ch. 8 | Curated, voice-checked; archival draft untouched |
+| `chapters/09-the-emotional-revolution.md` | Working TOC Ch. 9 | Curated, voice-checked; archival draft untouched |
+| `chapters/10-boundaries-behavior.md` | Working TOC Ch. 10 | Curated, voice-checked; archival draft untouched |
+| `chapters/11-the-developing-executive.md` | Working TOC Ch. 11 | Curated, voice-checked; archival draft untouched |
+| `chapters/12-play-imagination.md` | Working TOC Ch. 12 | Curated, voice-checked; archival draft untouched |
+| `chapters/13-the-ecology-of-development.md` | Working TOC Ch. 13 | Curated, voice-checked; archival draft untouched |
 
 `COMPOSITION.md` Appendix B target: 2,500–4,000 words per finished chapter.
 
@@ -223,7 +229,7 @@ Priority domains that still lack *full* card families include remaining preconce
 | `chapter 14` | What Actually Works? | 4,400 |
 | `chapter 15` | Three Years: What Has Been Built? | 4,200 |
 
-None of the archival files have been overwritten. Curated, voice-checked copies exist for Chapters 2, 3, 4, 5, 6, and 7. Some drafts contain leftover citation artifacts such as `:contentReference[oaicite:…]`.
+None of the archival files have been overwritten. Curated, voice-checked copies exist for Chapters 1–14. Chapter 15 has triage and draft cards but no curated copy. Some drafts contain leftover citation artifacts such as `:contentReference[oaicite:…]`.
 
 Seed filenames still say `01` / `02` because they were written against the old numbering. Do not promote them as Chapter 1 and 2 of the book.
 
@@ -317,7 +323,7 @@ Later packages that treated “PR #4 merged” as true were describing content o
 
 ## 10. Known gaps and agent hazards
 
-1. **Working TOC is 15 chapters.** See `chapters/_OUTLINE.md`. Curated copies: `01-before-the-child-is-born.md`, `02-first-environment.md`, `03-the-great-transition.md`, `04-regulatory-relationship.md`, `05-becoming-a-mind.md`, `06-the-mind-in-motion.md`, `07-the-birth-of-language.md`. Staging: `14-what-actually-works.md`. Leftover `01-first-environment.md` seed removed.
+1. **Working TOC is 15 chapters.** See `chapters/_OUTLINE.md`. Curated copies: `01-before-the-child-is-born.md` through `13-the-ecology-of-development.md` plus `14-what-actually-works.md`. Leftover `01-first-environment.md` seed removed. Chapter 15 still has no curated copy.
 2. **Chapter 6 archival remains thin** (~1,625 words). A curated copy in `chapters/06-the-mind-in-motion.md` is now in the Appendix B range. Chapter 7 has a curated copy (~3,785 words); archival ~4,908 remains untouched. Chapter 3 curated copy ~2,597 words (archival ~5,497). Chapter 4 curated copy ~2,518 words; archival ~4,561 remains untouched. Chapter 5 curated copy ~2,537 words (archival ~4,900). Chapter 1 curated copy ~2,900 words (archival ~3,985).
 3. **`_TEMPLATE.md` now has OKF frontmatter.** Keep it in sync when live-card fields change.
 4. **`atlas_domains` / `chapter_hooks`** are on the newer cards; most first-pass cards still omit them.
@@ -333,19 +339,19 @@ Later packages that treated “PR #4 merged” as true were describing content o
 
 ## 11. Suggested next work
 
-Done in this package: tagged `v0.1` on `main` at `c7c2a7a`; Chapter 15 triage + three first-pass draft cards; v0.2 slice plan for curated Chapters 8–13. Archival drafts untouched. Sleep/attachment/screen theory not rewritten. **No additional card moved to `stable`.**
+Done in this package: curated, voice-checked Chapters 8–13 (Appendix B range) with reviews; v0.2 slice updated so tag waits for merge to `main`; v0.3 slice defined (curated Chapter 15 + remaining domains). Archival drafts untouched. Sleep/attachment/screen theory not rewritten. **No additional card moved to `stable`.** Catalog remains 63 cards (3 `stable` for a narrow claim; 60 `draft`) and 108 verified `SOURCES.md` IDs.
 
 Highest-leverage remaining work:
 
-- Curated Chapters 8–13 after voice reviews, then tag `v0.2` on `main` (see `preliminary/releases/v0.2-slice.md`).
-- Curated Chapter 15 after a voice review (three waypoint cards exist).
-- Outdoor/risky play; Warneken helping; employment/leave; food security.
+- Tag `v0.2` on `main` after this curation PR merges (see `preliminary/releases/v0.2-slice.md`).
+- Curated Chapter 15 after a voice review (three waypoint cards exist) — manuscript center of v0.3.
+- Outdoor/risky play; Warneken helping; employment/leave; food security; further preconception nutrients.
 - Chapter 3 neonatal perception (C03) and mode of delivery remain open/held.
 - Further `stable` promotions only after the same five-rule bar (looking-time and perceptual-narrowing still `draft`).
 
 Highest-leverage remaining manuscript work:
 
-- Curated Chapter 8 after a voice review (four cards exist) — first v0.2 chapter.
+- Curated Chapter 15 after a voice review (three cards exist).
 - Normalize remaining draft filenames on **curated copies only**.
 
 ---

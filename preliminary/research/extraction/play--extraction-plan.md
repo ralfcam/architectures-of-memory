@@ -34,4 +34,4 @@ Toddler through age 3: object play, physical play, pretend/symbolic play, social
 1. Finish Chapter 8 peer card (done) so social play has a neighbor.
 2. Extract 1–2 pretend/symbolic claims from C12-P1 (done this package).
 3. Keep exploration and embodiment cards as Chapter 6; link, do not rewrite.
-4. Curated Chapter 12 waits on a voice review.
+4. Curated Chapter 12 now has a voice-checked copy (`chapters/12-play-imagination.md`). Outdoor/risky play and guided-play efficacy remain `needs-source-audit` (v0.3 remainder).

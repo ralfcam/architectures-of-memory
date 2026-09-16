@@ -32,5 +32,5 @@ Attachment remains a Chapter 4 object (`infant-caregiver-coregulation`, `respons
 
 1. Chapter 8 triage + map + three cards (first package).
 2. Source-audit father/kin/sibling claims with registered IDs (remainder 2026-09-16).
-3. Curated Chapter 8 after a voice review; Chapters 9–13 remain second-wave (triage now exists for 8–13).
-4. BEIP stays the upper-bound deprivation card, not a daycare card.
+3. Curated Chapter 8 now has a voice-checked copy; Chapters 9–13 curated copies exist in the same package. Chapter 15 remains the v0.3 manuscript center.
+4. BEIP stays the upper-bound deprivation card, not a daycare card. Warneken helping remains `needs-source-audit`.
