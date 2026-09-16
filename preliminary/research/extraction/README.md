@@ -51,6 +51,7 @@ Group claims into likely cards **after** they are extracted. One card = one clai
 - [Chapter 11 Evidence Map](ch11-developing-executive--evidence-map.md) — EF unity/diversity and inhibitory control; Watts delay reconciled.
 - [Chapter 12 Evidence Map](ch12-play-imagination--evidence-map.md) — symbolic play and Lillard overclaim.
 - [Chapter 13 Evidence Map](ch13-ecology--evidence-map.md) — income/cash (Baby’s First Years) and neighborhood mobility (MTO).
+- [Chapter 15 Evidence Map](ch15-three-years--evidence-map.md) — rank-order continuity, self-control gradient, ordinary resilience.
 - [Stable-promotion candidates](stable-promotion-candidates.md) — physiology/lab path; three narrow claims `stable`.
 - [Stable-candidate replication note](stable-candidates--replication-note.md) — five-rule re-audit; folate, Saffran, neonatal transition.
 - [Preconception extraction plan](preconception--extraction-plan.md) — first dedicated domain plan; Kong card exists.

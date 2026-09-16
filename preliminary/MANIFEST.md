@@ -34,7 +34,11 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-T13 | `preliminary/triage/ch13-ecology--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 13; income/cash and MTO |
 | G-MAP13 | `preliminary/research/extraction/ch13-ecology--evidence-map.md` | documentation | remain-preliminary | extracted | Childcare/BEIP/preschool RCT reconcile |
 | G-AUDIT13 | `preliminary/research/extraction/ch13-ecology--source-audit.md` | documentation | remain-preliminary | extracted | Troller-Renfree 2022; Noble 2025; Chetty 2016 |
-| G-V01 | `preliminary/releases/v0.1-slice.md` | documentation | remain-preliminary | extracted | Prenatal through Language + Ch. 14; tag on main |
+| G-V01 | `preliminary/releases/v0.1-slice.md` | documentation | remain-preliminary | extracted | **Tagged** `v0.1` on `main` at `c7c2a7a` |
+| G-V02 | `preliminary/releases/v0.2-slice.md` | documentation | remain-preliminary | extracted | Plan for curated Ch. 8–13 |
+| G-T15 | `preliminary/triage/ch15-three-years--triage.md` | documentation | remain-preliminary | triage-ready | Age-3 waypoint; three draft cards |
+| G-MAP15 | `preliminary/research/extraction/ch15-three-years--evidence-map.md` | documentation | remain-preliminary | extracted | Continuity, self-control, resilience; Watts/BEIP/preschool RCT reconcile |
+| G-AUDIT15 | `preliminary/research/extraction/ch15-three-years--source-audit.md` | documentation | remain-preliminary | extracted | Roberts 2000; Moffitt 2011; Masten 2001 |
 | G-T09 | `preliminary/triage/ch09-emotional-revolution--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 9; still-face, temperament, inhibition |
 | G-MAP09 | `preliminary/research/extraction/ch09-emotional-revolution--evidence-map.md` | documentation | remain-preliminary | extracted | Co-regulation/delay reconcile |
 | G-AUDIT09 | `preliminary/research/extraction/ch09-emotion--source-audit.md` | documentation | remain-preliminary | extracted | Tronick; Mesman; Gartstein & Rothbart; Clauss |
@@ -227,9 +231,9 @@ Window: age-3 waypoint (what has accumulated; what remains open). Domains: biolo
 
 | ID | Path | Type | Destination | Status | Overlap / notes |
 |---|---|---|---|---|---|
-| C15-D1 | `research/Chapter 15 Research Dossier  Three Years — What Has Been Built.md` | research-dossier | `evidence-cards/` + `chapters/` | unreviewed | Already markdown. |
-| C15-S1 | `research/Developmental Synthesis at Age Three.txt` | synthesis | remain-preliminary | unreviewed | Alternate age-3 synthesis. |
-| C15-D | `drafts-chapters/chapter 15` | chapter-draft | `chapters/` | unreviewed | Renamed from `chapter 16`. Heading already said Chapter 15. |
+| C15-D1 | `research/Chapter 15 Research Dossier  Three Years — What Has Been Built.md` | research-dossier | `evidence-cards/` + `chapters/` | extracted | SHA-256 `b3ee7f3cbb1687e8…`. Three draft cards. |
+| C15-S1 | `research/Developmental Synthesis at Age Three.txt` | synthesis | remain-preliminary | unreviewed | Alternate age-3 synthesis. Do not double-extract. |
+| C15-D | `drafts-chapters/chapter 15` | chapter-draft | `chapters/` | triage-ready | Renamed from `chapter 16`. Archival untouched. |
 
 ## Cross-cutting / book-level
 

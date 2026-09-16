@@ -85,6 +85,9 @@ This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier 
 | `physical-punishment-not-necessary.md` | Prospective meta-analysis | Gershoff 2016: no reliable benefit; worse-behavior associations | not classified | Every-instance-damaged-child refused |
 | `income-cash-transfer-early-development.md` | RCT (Baby’s First Years) | Infant EEG difference (Troller-Renfree 2022); age-4 nulls (Noble 2025) | n/a (RCT of transfer, not GI of parenting) | Cash-as-cognition Low-to-Moderate |
 | `neighborhood-mobility-age-dependent.md` | RCT (MTO long-run) | Chetty 2016 age-at-move heterogeneity on later earnings | n/a (voucher experiment) | 0–3 developmental measures Low-to-Moderate |
+| `rank-order-continuity-not-destiny.md` | Meta-analysis of test–retest *r* | Roberts & DelVecchio 2000 age function of consistency | not classified | Individual adult-personality forecast Low |
+| `childhood-self-control-gradient.md` | Observational cohort (Dunedin) | Moffitt 2011 gradient; improvement changes standing | not classified | Individual sentence Low; Watts delay not rewritten |
+| `ordinary-resilience-adaptive-systems.md` | Narrative research-program review | Masten 2001 ordinary-magic framing | n/a | Adversity-is-harmless refused; BEIP not this card |
 
 This pass completes (3) catalog-wide and records three *narrow* `stable` flips. Rules (1)–(2) were addressed in earlier DOI/retraction dumps plus the 2026-09-16 replication note.
 
@@ -92,4 +95,4 @@ This pass completes (3) catalog-wide and records three *narrow* `stable` flips. 
 
 - YAML `confidence` is not by itself a stability claim.
 - Completing this table does not reopen sleep, attachment, or screen-time *theory*.
-- Next *empirical* cards still open: Chapter 3 neonatal perception and mode of delivery (held); outdoor/risky play; Warneken helping; employment/leave; food security. Father/kin and Chapter 10 rules/behavior now have first-pass cards.
+- Next *empirical* cards still open: Chapter 3 neonatal perception and mode of delivery (held); outdoor/risky play; Warneken helping; employment/leave; food security. Father/kin, Chapter 10 rules/behavior, and Chapter 15 waypoint now have first-pass cards.

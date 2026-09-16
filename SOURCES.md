@@ -322,6 +322,15 @@ sources:
   - id: chetty-2016-mto
     resource: https://doi.org/10.1257/aer.20150572
     title: "Chetty, Hendren & Katz (2016), American Economic Review, Moving to Opportunity long-run effects"
+  - id: roberts-delvecchio-2000
+    resource: https://doi.org/10.1037/0033-2909.126.1.3
+    title: "Roberts & DelVecchio (2000), Psychological Bulletin, rank-order consistency of personality traits"
+  - id: moffitt-2011-self-control
+    resource: https://doi.org/10.1073/pnas.1010076108
+    title: "Moffitt et al. (2011), PNAS, childhood self-control gradient"
+  - id: masten-2001-ordinary-magic
+    resource: https://doi.org/10.1037/0003-066X.56.3.227
+    title: "Masten (2001), American Psychologist, ordinary magic: resilience processes"
 ---
 
 # Master Source Catalog
@@ -454,6 +463,9 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `troller-renfree-2022-bfy` | Troller-Renfree et al. (2022), Baby’s First Years infant EEG | [https://doi.org/10.1073/pnas.2115649119](https://doi.org/10.1073/pnas.2115649119) | [income-cash-transfer-early-development](evidence-cards/income-cash-transfer-early-development.md) |
 | `noble-2025-bfy-age4` | Noble et al. (2025), NBER w33844, Baby’s First Years age four | [https://doi.org/10.3386/w33844](https://doi.org/10.3386/w33844) | [income-cash-transfer-early-development](evidence-cards/income-cash-transfer-early-development.md) |
 | `chetty-2016-mto` | Chetty, Hendren & Katz (2016), Moving to Opportunity long-run effects | [https://doi.org/10.1257/aer.20150572](https://doi.org/10.1257/aer.20150572) | [neighborhood-mobility-age-dependent](evidence-cards/neighborhood-mobility-age-dependent.md) |
+| `roberts-delvecchio-2000` | Roberts & DelVecchio (2000), rank-order consistency of personality | [https://doi.org/10.1037/0033-2909.126.1.3](https://doi.org/10.1037/0033-2909.126.1.3) | [rank-order-continuity-not-destiny](evidence-cards/rank-order-continuity-not-destiny.md) |
+| `moffitt-2011-self-control` | Moffitt et al. (2011), childhood self-control gradient | [https://doi.org/10.1073/pnas.1010076108](https://doi.org/10.1073/pnas.1010076108) | [childhood-self-control-gradient](evidence-cards/childhood-self-control-gradient.md) |
+| `masten-2001-ordinary-magic` | Masten (2001), ordinary magic: resilience processes | [https://doi.org/10.1037/0003-066X.56.3.227](https://doi.org/10.1037/0003-066X.56.3.227) | [ordinary-resilience-adaptive-systems](evidence-cards/ordinary-resilience-adaptive-systems.md) |
 
 ## Unresolved Citations
 

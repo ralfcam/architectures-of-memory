@@ -1,6 +1,6 @@
 # Evidence Cards Index
 
-Sixty evidence cards. **Three** physiology/lab cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other fifty-seven remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
+Sixty-three evidence cards. **Three** physiology/lab cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
 
 # Evidence Cards
 
@@ -52,6 +52,9 @@ Sixty evidence cards. **Three** physiology/lab cards are `status: stable` for a 
 * [Physical Punishment Is Not Necessary](physical-punishment-not-necessary.md) - Gershoff 2016: Moderate-to-High not-necessary; not every instance = damaged child.
 * [Income Support Is Not a Cognitive Guarantee](income-cash-transfer-early-development.md) - Baby’s First Years: infant EEG difference; age-four cognitive nulls.
 * [Neighborhood Moves Are Age-Dependent](neighborhood-mobility-age-dependent.md) - Chetty 2016 MTO: Moderate later earnings; Low-to-Moderate 0–3 measures.
+* [Early Rank-Order Continuity Is Modest](rank-order-continuity-not-destiny.md) - Roberts & DelVecchio 2000: childhood consistency about *r* = .31; not adult personality.
+* [Childhood Self-Control Gradient](childhood-self-control-gradient.md) - Moffitt 2011 Dunedin: Moderate group gradient; Low individual forecast. Watts delay reconciled.
+* [Ordinary Resilience](ordinary-resilience-adaptive-systems.md) - Masten 2001: High that resilience is often ordinary systems; adversity is not harmless.
 * [Two Languages Do Not Confuse](dual-language-does-not-confuse.md) - NAP 2017: High that dual exposure as such does not confuse; Low automatic cognitive bonus.
 * [Infant Crying as a Signal](infant-crying-as-signal.md) - Graded distress signal; not a one-to-one code for hunger, pain, or parental error.
 * [Suck–Swallow–Breathe Coordination](suck-swallow-breathe-coordination.md) - Oral feeding is maturational coordination; feeding method is not parental worth.
@@ -72,5 +75,6 @@ Sixty evidence cards. **Three** physiology/lab cards are `status: stable` for a 
 * Play - symbolic/pretend emergence and Lillard overclaim cards exist (`ch12-play-imagination--evidence-map.md`). Outdoor/risky play and guided-play efficacy still `needs-source-audit`. Embodiment/exploration remain Chapter 6.
 * Social development beyond attachment - referencing, networks, peers, and father/kin/sibling cards exist; Chapter 9 still-face/temperament/inhibition and Chapter 10 compliance/aggression/punishment cards added. Warneken helping still `needs-source-audit`.
 * Ecology / policy - income-cash (Baby’s First Years) and neighborhood-mobility (MTO) cards exist; employment/leave and food security still `needs-source-audit`. Childcare/BEIP/preschool RCT reconciled, not rewritten.
+* Age-3 waypoint - rank-order continuity, self-control gradient, and ordinary-resilience cards exist (`ch15-three-years--evidence-map.md`). No curated Chapter 15 yet.
 
 Add a new file per topic using `_TEMPLATE.md`, then list it here, register its sources in `../SOURCES.md`, and log the addition in `../CHANGELOG.md`.

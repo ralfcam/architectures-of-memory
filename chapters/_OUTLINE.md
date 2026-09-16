@@ -22,7 +22,7 @@ Each chapter should still follow the 10-step rhythm in `COMPOSITION.md` Appendix
 | 12 | Play, Imagination, and Meaning | `preliminary/drafts-chapters/chapter 12` | Ch. 12 plan | Triage + evidence map + two draft cards. No curated copy yet. |
 | 13 | The Ecology of Development | `preliminary/drafts-chapters/chapter 13` | Ch. 13 plans | Triage + evidence map + two draft cards (income/cash, MTO). No curated copy yet. |
 | 14 | What Actually Works? | `preliminary/drafts-chapters/chapter 14` (archival) | Ch. 14 architecture + interventions review | **Curated copy:** `chapters/14-what-actually-works.md` (artifacts stripped; trimmed to Appendix B range after Part II cards). |
-| 15 | Three Years: What Has Been Built? | `preliminary/drafts-chapters/chapter 15` | Ch. 15 dossier | Filename was previously `chapter 16`. |
+| 15 | Three Years: What Has Been Built? | `preliminary/drafts-chapters/chapter 15` | Ch. 15 dossier | Triage + evidence map + three draft cards. Filename was previously `chapter 16`. No curated copy yet. |
 
 ## Why not the 8-chapter seed
 
@@ -170,3 +170,12 @@ Curated copy in Appendix B range. Archival untouched.
 - `preschool-early-education-rct.md`
 - Adjacent: `prenatal-folate-ntd.md` (`stable` NTD), `responsive-caregiving-attachment-interventions.md`, `early-childcare-quality.md`, `severe-institutional-deprivation.md`
 - Adjacent Part II: still-face, co-regulation, pretend-play overclaim, EF construct, Watts delay
+
+## Linked cards for Chapter 15 (current)
+
+All remain `status: draft`. No curated chapter yet.
+
+- `rank-order-continuity-not-destiny.md` (CH15-C03)
+- `childhood-self-control-gradient.md` (CH15-C07)
+- `ordinary-resilience-adaptive-systems.md` (CH15-C05)
+- Reconcile only: `temperament-reactivity-not-destiny.md`, `self-regulation-delay-of-gratification.md`, `severe-institutional-deprivation.md`, `preschool-early-education-rct.md`

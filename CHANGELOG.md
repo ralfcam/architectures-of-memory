@@ -12,9 +12,12 @@ Entry types:
 ## [Unreleased]
 
 ### Structure
+- Tagged **`v0.1`** on `main` at `c7c2a7a` (PR #12 merge). See `preliminary/releases/v0.1-slice.md`. Chapter 2 curated copy remains ~2,358 words (slightly under Appendix B 2,500); not padded.
+- Began Chapter 15 triage (age-three waypoint). Evidence map, source audit, and three first-pass draft cards. Archival `chapter 15` untouched. Temperament, Watts delay, EF, BEIP, and preschool-RCT cards reconciled, not rewritten. **No card moved to `status: stable`.**
+- Defined the v0.2 release slice (`preliminary/releases/v0.2-slice.md`): curated Chapters 8–13 once voice reviews exist. Tag on `main` after merge; Chapter 15 remains a later candidate.
 - Began Part II remainder: Chapter 8 father/kin/sibling card; first triage, maps, and draft cards for Chapters 10 (rules/behavior) and 13 (ecology). Archival drafts untouched. Sleep/attachment/screen theory not rewritten. EF, delay, childcare, BEIP, and preschool-RCT cards reconciled, not rewritten. **No card moved to `status: stable`.**
 - Second editorial pass on curated Chapters 6 and 7: named embodiment, exploration, physical-reasoning, deferred-imitation, joint-attention, and parent-implemented cards in-body; recorded Saffran laboratory `stable` and the repaired Madigan/Jing screen IDs. Voice reviews updated. Archival drafts untouched. Lengths remain in the Appendix B range.
-- Defined the v0.1 release slice (`preliminary/releases/v0.1-slice.md`): Prenatal through Language (Ch. 1–7) plus What Actually Works (Ch. 14). Tag on `main` after merge; not from this feature branch.
+- Defined the v0.1 release slice (`preliminary/releases/v0.1-slice.md`): Prenatal through Language (Ch. 1–7) plus What Actually Works (Ch. 14). **Now tagged** on `main` at `c7c2a7a`.
 - Began Part II triage for Chapters 9, 11, and 12 (emotional revolution, developing executive, play). Evidence maps, source audits, and first-pass draft cards added. Archival drafts untouched. Sleep/attachment/screen theory not rewritten. Co-regulation and Watts delay cards reconciled, not rewritten.
 - Trimmed curated Chapter 14 (`chapters/14-what-actually-works.md`) to the Appendix B range (~2,970 words). Archival `preliminary/drafts-chapters/chapter 14` untouched. Voice review updated.
 - Wrote a replication note for the three strongest physiology/lab `stable` candidates and flipped **three** cards to `status: stable` for *narrow* claims only: folate NTD, Saffran laboratory segmentation, neonatal cardiopulmonary sequence. YAML/in-body grades matched; Czeizel 1992, Aslin 1998, and Hillman 2012 added as independent sources. `who-anc-2016` demoted from folate identification. Looking-time and perceptual-narrowing remain `draft`.
@@ -64,6 +67,8 @@ Entry types:
 - Source-audited Chapter 9 still-face, temperament, and behavioral inhibition; Chapter 11 EF unity/diversity and inhibitory control; Chapter 12 symbolic play and Lillard overclaim. Watts delay and co-regulation cards reconciled, not rewritten.
 - Source-audited Chapter 8 remainder (fathers/kin/siblings), Chapter 10 committed compliance / aggression trajectories / physical punishment, and Chapter 13 income-cash (Baby’s First Years) / neighborhood mobility (MTO). Sleep/attachment/screen theory not rewritten.
 
+- Source-audited Chapter 15 waypoint claims: rank-order continuity (Roberts 2000), childhood self-control gradient (Moffitt 2011), ordinary resilience (Masten 2001). Watts delay, temperament, BEIP, and preschool RCT reconciled, not rewritten.
+
 ### Revised
 - Aligned YAML `confidence` on all eight first-pass cards with in-body grades (cards remain `status: draft`).
 - Resolved the 12 previously unresolved `SOURCES.md` citations (two were already verified; two titles were corrected to the matching papers).
@@ -71,6 +76,9 @@ Entry types:
 - Citation-repaired `screen-time-language-development.md`: separated Madigan 2020 *JAMA Pediatrics* from Jing et al. 2023 *Child Development*. Low-to-Moderate grade unchanged.
 - Re-audited folate, Saffran, and neonatal-transition cards against the five promotion rules. Compound YAML on folate (`high-ntd; low-other-anomalies-cognition`). Added Czeizel 1992, Aslin 1998, Hillman 2012. Narrow claims moved to `status: stable`.
 
+## [v0.1] — 2026-09-16
+
+Annotated tag `v0.1` on `main` at `c7c2a7a` (PR #12 merge). Snapshot: Prenatal through Language (Ch. 1–7) + What Actually Works (Ch. 14). 60 cards (3 `stable` for a narrow claim; 57 `draft`); 105 verified sources. See `preliminary/releases/v0.1-slice.md`. Chapter 2 curated copy is ~2,358 words (slightly under Appendix B); not padded.
 
 ## [2026-09-14]
 

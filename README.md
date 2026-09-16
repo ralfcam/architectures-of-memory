@@ -53,4 +53,4 @@ See `CONTRIBUTING.md` for full evidence-evaluation methodology (identification s
 
 ## Status
 
-Active research synthesis in progress. See `CHANGELOG.md` for version history. A planned v0.1 tagged snapshot (Prenatal through Language + What Actually Works) is defined in `preliminary/releases/v0.1-slice.md`; tag on `main` after merge.
+Active research synthesis in progress. See `CHANGELOG.md` for version history. Tagged snapshot **`v0.1`** (Prenatal through Language + What Actually Works) is on `main` at `c7c2a7a`. A planned v0.2 (curated Chapters 8–13) is defined in `preliminary/releases/v0.2-slice.md`.
