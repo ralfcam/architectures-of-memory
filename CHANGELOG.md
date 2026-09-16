@@ -12,6 +12,7 @@ Entry types:
 ## [Unreleased]
 
 ### Structure
+- Second-pass promotions after `v0.3`: flipped **four** additional *narrow* laboratory claims to `status: stable` (contingency learning; social referencing; still-face procedure effect; perceptual narrowing after adding Kuhl 1992). Looking-time, dual-language, babbling, Lillard, and deferred imitation remain `draft` with explicit five-rule reasons. Deferred-imitation YAML/description aligned to Meltzoff 1988 (14-month one-week delay). Light manuscript pass: Ch. 5–9 name the new stables; Ch. 11 one-line that EF is not Chapter 4 co-regulation. Sleep/attachment/screen theory not rewritten. No new cards or chapters. Catalog is now 68 cards (7 `stable`; 61 `draft`); 114 verified `SOURCES.md` IDs. Do not tag `v0.4` from this pass.
 - Tagged **`v0.3`** on `main` at `21d1a0d` (PR #15 merge). See `preliminary/releases/v0.3-slice.md`.
 - Began quality deepening after the 15-chapter arc: second-pass audit of all 65 draft cards; cross-chapter consistency note (regulation, causation, risk, resilience, attachment, institutions); manuscript pass naming remaining-domain cards in Ch. 1/10/12/13/15 and adding a Science / Interpretation / Art close to Chapter 14. Aligned YAML compound `confidence` with in-body grades on manuscript-core cards. Looking-time, perceptual-narrowing, and contingency remain `draft`. Sleep/attachment/screen theory not rewritten. **No additional card moved to `status: stable`.**
 - Tagged **`v0.2`** on `main` at `9bbc2d9` (PR #14 merge). See `preliminary/releases/v0.2-slice.md`.

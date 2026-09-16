@@ -3,7 +3,7 @@ type: Evidence Card
 title: "Infant Contingency Learning"
 description: "Infants can learn that a self-generated action predicts a sensory consequence in the mobile-conjugate-reinforcement paradigm; this is action–outcome learning under controlled conditions, not adult-like causal theory or a stimulation mandate."
 tags: [learning, infancy, memory]
-status: draft
+status: stable
 confidence: high-controlled; low-transfer
 generated: { by: agent:cursor, at: 2026-09-15T19:00:00Z }
 stale_after: 2027-03-15T00:00:00Z
@@ -24,8 +24,8 @@ sources:
 # Infant Contingency Learning
 
 > Domain: early learning
-> Last updated: 2026-09-15
-> Status: Source-audited first pass (CH06-C01)
+> Last updated: 2026-09-16
+> Status: Stable for the *narrow* laboratory claim (`stable-candidates--replication-note.md`). Transfer and adult-like cause remain Low.
 
 ## What We Know
 
@@ -37,7 +37,7 @@ In the mobile-conjugate-reinforcement paradigm, a ribbon links an infant’s ank
 
 ## Evidence and Causal Assessment
 
-Rovee & Rovee (1969) established conjugate reinforcement of infant kicking. Subsequent work, summarized in methods papers (e.g. Merz et al. 2017) and a 2025 review of the last quarter-century, treats the paradigm as a reliable laboratory measure of learning and memory: speed of acquisition and length of retention increase with age; reminders can reactivate a forgotten response, often with high context specificity. The 2025 review notes that basic processing parameters remain incompletely mapped and that the field has shifted toward individual differences and questions of agency.
+Rovee & Rovee (1969) established conjugate reinforcement of infant kicking. Subsequent work, summarized in methods papers (e.g. Merz et al. 2017) and a 2025 review of the last quarter-century, treats the paradigm as a reliable laboratory measure of learning and memory: speed of acquisition and length of retention increase with age; reminders can reactivate a forgotten response, often with high context specificity. Incomplete processing parameters and the later turn toward individual differences and agency do not block the *narrow* High claim that the contingency can be acquired and retained under matching conditions — the same split as Saffran laboratory segmentation versus household transfer. GI: **n/a**.
 
 ## Effect Size and Persistence
 

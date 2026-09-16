@@ -3,7 +3,7 @@ type: Evidence Card
 title: "Infant Perceptual Narrowing for Speech Contrasts"
 description: "During the first year, discrimination of native-language phonetic contrasts is maintained or strengthened while sensitivity to some nonnative contrasts declines; this is attunement, not a permanent closing of language learning."
 tags: [language, perception, infancy]
-status: draft
+status: stable
 confidence: high-lab; moderate-timetable; low-sealed-deadline
 generated: { by: agent:cursor, at: 2026-09-15T20:00:00Z }
 stale_after: 2027-03-15T00:00:00Z
@@ -13,13 +13,16 @@ sources:
   - id: werker-tees-1984
     resource: https://doi.org/10.1016/S0163-6383(84)80022-3
     title: "Werker & Tees (1984), Infant Behavior and Development, cross-language speech perception"
+  - id: kuhl-1992
+    resource: https://doi.org/10.1126/science.1736364
+    title: "Kuhl, Williams, Lacerda, Stevens & Lindblom (1992), Science, linguistic experience alters phonetic perception in infants by 6 months"
 ---
 
 # Infant Perceptual Narrowing for Speech Contrasts
 
 > Domain: language
-> Last updated: 2026-09-15
-> Status: Source-audited first pass (CH07-C03)
+> Last updated: 2026-09-16
+> Status: Stable for the *narrow* laboratory attunement claim (`stable-candidates--replication-note.md`). Timetable remains Moderate; sealed-deadline remains Low.
 
 ## What We Know
 
@@ -27,11 +30,11 @@ Young infants can discriminate phonetic contrasts they have not yet needed for a
 
 ## How Confident We Are
 
-**Grade**: High that language-specific perceptual reorganization occurs in the first year in the classic Hindi/Salish contrast experiments. **Moderate** for a universal timetable across languages, samples, and methods. **Low** that the change is a permanent closing of later language learning.
+**Grade**: High that language-specific perceptual reorganization occurs in the first year in the classic laboratory contrasts (Werker & Tees Hindi/Salish; Kuhl vowel attunement by 6 months). **Moderate** for a universal timetable across languages, samples, and methods. **Low** that the change is a permanent closing of later language learning.
 
 ## Evidence and Causal Assessment
 
-Werker & Tees (1984) compared English infants with English and Salish adults on a Salish (non-English) contrast, and combined cross-sectional with longitudinal infant data. Infants discriminated the nonnative contrast; the decline appeared within the first year and depended on specific language experience. Identification is experimental (manipulated contrast × age/experience), not a randomized life-course trial. A 2002 reprint of the same paper remains the field’s landmark; later work has questioned how far the original samples generalize.
+Werker & Tees (1984) compared English infants with English and Salish adults on a Salish (non-English) contrast, and combined cross-sectional with longitudinal infant data. Infants discriminated the nonnative contrast; the decline appeared within the first year and depended on specific language experience. Kuhl, Williams, Lacerda, Stevens & Lindblom (1992), *Science*, showed in an independent laboratory that by six months American infants’ vowel perception had already been altered by English experience — a conceptual replication of experience-dependent phonetic attunement, not a household-vocabulary study and not a universal 6–12-month clock. Identification is experimental (manipulated contrast × age/experience), not a randomized life-course trial. GI: **n/a**. A 2002 reprint of Werker & Tees remains a landmark; later work has questioned how far the original samples generalize. The timetable and sealed-deadline claims are **not** replicated as universals and remain Moderate and Low.
 
 ## Effect Size and Persistence
 
@@ -56,3 +59,4 @@ Ordinary participation in a linguistic community is the relevant exposure. Phone
 ## Sources
 
 - Werker & Tees (1984), *Infant Behavior and Development*
+- Kuhl et al. (1992), *Science* 255:606–608

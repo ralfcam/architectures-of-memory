@@ -3,7 +3,7 @@ type: Evidence Card
 title: "Infant Social Referencing Under Uncertainty"
 description: "Late in the first year, infants can use a familiar adult’s emotional signal to regulate approach or withdrawal in an ambiguous situation; referencing is not an attachment classification."
 tags: [social-development, infancy, emotion]
-status: draft
+status: stable
 confidence: high-lab; low-attachment-verdict
 generated: { by: agent:cursor, at: 2026-09-16T08:00:00Z }
 stale_after: 2027-03-16T00:00:00Z
@@ -22,7 +22,7 @@ sources:
 
 > Domain: social development
 > Last updated: 2026-09-16
-> Status: Source-audited first pass (CH08-C02)
+> Status: Stable for the *narrow* laboratory claim (`stable-candidates--replication-note.md`). Attachment-verdict remains Low.
 
 ## What We Know
 
@@ -34,7 +34,7 @@ When a situation is ambiguous, infants toward the end of the first year often lo
 
 ## Evidence and Causal Assessment
 
-The visual-cliff study is an experimental manipulation of the adult’s expression with a physical setup that makes the drop ambiguous at a particular depth. That is stronger identification than a correlational “looks at parent more.” It is still a laboratory task: the cliff, the toy, and the posed face are not a household. Replication is conceptual (other ambiguous toys and expressions) rather than a single identical protocol.
+The visual-cliff study is an experimental manipulation of the adult’s expression with a physical setup that makes the drop ambiguous at a particular depth. That is stronger identification than a correlational “looks at parent more.” It is still a laboratory task: the cliff, the toy, and the posed face are not a household. Walden & Ogan (1988) is an independent laboratory program (different lab, developing skill across the first two years, ambiguous toys rather than a cliff) — a conceptual replication of referencing under uncertainty, not a household-attachment study.
 
 ## Effect Size and Persistence
 

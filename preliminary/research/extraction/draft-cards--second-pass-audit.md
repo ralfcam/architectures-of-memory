@@ -1,6 +1,8 @@
 # Second-pass audit — 65 draft cards (v0.3 quality deepening)
 
-Date: 2026-09-16. Tagged snapshot `v0.3` is `21d1a0d` on `main`. This pass is **quality deepening**, not coverage expansion. Sleep, attachment, and screen-time *theory* were not rewritten. **No additional card moved to `status: stable`.**
+Date: 2026-09-16. Tagged snapshot `v0.3` is `21d1a0d` on `main`. This pass is **quality deepening**, not coverage expansion. Sleep, attachment, and screen-time *theory* were not rewritten.
+
+A later second wave (`stable-candidates--replication-note.md`) used this audit as the basis and flipped **four** additional *narrow* laboratory claims to `status: stable`. Looking-time, dual-language, babbling, Lillard, and deferred imitation remain `draft` with reasons recorded there. Deferred-imitation YAML was aligned to Meltzoff 1988. **No new cards.**
 
 Related: [catalog-wide replication](catalog-wide-replication-attenuation.md) · [stable candidates](stable-promotion-candidates.md) · [replication note](stable-candidates--replication-note.md) · [cross-chapter consistency](cross-chapter-consistency--v03.md)
 
@@ -10,8 +12,8 @@ A card may move to `stable` only after all five rules: (1) resolvable sources; (
 
 ## Priority findings
 
-1. **Plausible next physiology/lab `stable` candidates remain held.** `looking-time-as-measurement.md`: High as a measurement instrument; the live replication issue is rich-interpretation linking hypotheses (Aslin 2007 is a methods essay, not a second independent experiment of a specific looking claim). `infant-perceptual-narrowing.md`: High for the classic Hindi/Salish attunement; Moderate timetable; Low sealed deadline. Universality of the 6–12-month clock is the remaining rule-3 problem. `infant-contingency-learning.md` is closer (decades of mobile-paradigm replication) but the 2025 Cuevas review still treats basic processing parameters as incompletely mapped; transfer remains Low. **None flipped.**
-2. **YAML/in-body compound grades were under-specified on several manuscript-core cards.** This pass aligns YAML to the in-body compound (rule 4) without changing grades. Sleep/attachment/screen cards untouched.
+1. **Plausible next physiology/lab `stable` candidates, re-checked.** `looking-time-as-measurement.md` remains held: High as a measurement instrument; Aslin 2007 is a methods essay, not a second independent experiment of a specific looking claim. `infant-perceptual-narrowing.md`: High for classic attunement after adding Kuhl 1992 as independent conceptual replication; Moderate timetable; Low sealed deadline — **narrow High promoted**. `infant-contingency-learning.md`: decades of mobile-paradigm replication; incomplete processing parameters do not block the narrow High (Saffran analogue) — **narrow High promoted**. Social referencing (Sorce 1985 + Walden 1988) and still-face (Tronick 1978 + Mesman 2009 meta) also clear all five for their *narrow* High claims.
+2. **YAML/in-body compound grades were under-specified on several manuscript-core cards.** The first half of this pass aligned YAML to the in-body compound (rule 4) without changing grades. Sleep/attachment/screen cards untouched. Remaining mismatch: `deferred-imitation.md` YAML said 9-month 24-hour while the body cites Meltzoff 1988 at 14 months / one week — **YAML/description aligned this wave; card stays `draft`**.
 3. **Five remaining-domain cards existed in the catalog but were not named in `chapters/`.** The manuscript pass now names those IDs in Ch. 1/10/12/13/15. Routines, guided-play, and dedicated WM/shifting remain held.
 4. **GI attenuation is still “not classified” on most first-pass observational cards** (father/kin, compliance, aggression, punishment, continuity, Dunedin, remaining domains). Completing GI is not a `stable` flip and is not this pass’s sleep/attachment/screen rewrite.
 5. **Over-length cards** (CONTRIBUTING 200–400 body words) are mostly first-wave eight plus BEIP/preschool. Not trimmed here: those cards were not opened for theory rewrites.
@@ -25,7 +27,7 @@ A card may move to `stable` only after all five rules: (1) resolvable sources; (
 | `childhood-self-control-gradient.md` | `moderate-gradient; low-individual-forecast` | `moffitt-2011-self-control` | 15-three-years | Observational cohort (Dunedin) / not classified | Individual sentence Low; Watts delay not rewritten |
 | `committed-compliance-not-obedience.md` | `moderate-distinction; low-technique` | `kochanska-1995-conscience` | 10-boundaries-behavior | Observational longitudinal program / not classified | Technique / conscience-as-obedience Low |
 | `conversational-turns-language.md` | `moderate-prediction; low-causation` | `gilkerson-2018-lena` | 07-the-birth-of-language | Observational cohort (LENA) / n/a | Causation Low; not Hart & Risley |
-| `deferred-imitation.md` | `high-nine-month-24h; low-neonate-and-transfer` | `meltzoff-1988-deferred` | 06-the-mind-in-motion | Laboratory experiment / n/a | Neonatal imitation not this card |
+| `deferred-imitation.md` | `high-fourteen-month-one-week; low-neonate-and-transfer` | `meltzoff-1988-deferred` | 06-the-mind-in-motion | Laboratory experiment / n/a | YAML aligned to Meltzoff 1988; still `draft` (one primary experiment; neonatal imitation not this card) |
 | `dual-language-does-not-confuse.md` | `high-no-confusion; moderate-individual-trajectories; low-automatic-bonus` | `nap-2017-dll` | 07-the-birth-of-language | Committee synthesis / n/a | Automatic cognitive bonus Low |
 | `early-childcare-quality.md` | `moderate` | `nichd-seccyd-2006, nichd-effectsizes-2006, nichd-age15, belsky-2007-cd` | 08-the-expanding-world, 13-the-ecology-of-development, 15-three-years, 14-what-actually-works | Observational cohort / not classified (no sibling/adoption package on this card) | Parenting predicts more; not a dosage law |
 | `embodied-perception-action.md` | `moderate-framework; low-milestone-cognition` | `adolph-hoch-2019` | 06-the-mind-in-motion, 12-play-imagination | Review of motor-development programs / n/a | Milestone ranking Low |
@@ -39,19 +41,19 @@ A card may move to `stable` only after all five rules: (1) resolvable sources; (
 | `infant-attention-as-gatekeeper.md` | `moderate-functions; low-trait` | `colombo-2001-attention` | 05-becoming-a-mind, 11-the-developing-executive | Review of dissociable functions / n/a | Trait/parenting-score reading Low |
 | `infant-babbling-as-exploration.md` | `high-canonical-stage; low-iq-verdict` | `oller-1999-babbling, petitto-1991-manual-babbling` | 07-the-birth-of-language | Observational / clinical screening / n/a | Milestone ≠ intelligence; Petitto 1991 is a modality boundary, not an IQ test |
 | `infant-caregiver-coregulation.md` | `moderate-existence; low-to-moderate-mechanism` | `who-nurturing-care-2018, feldman-2012-synchrony` | 06-the-mind-in-motion, 04-regulatory-relationship, 08-the-expanding-world, 13-the-ecology-of-development, 15-three-years, 14-what-actually-works, 09-the-emotional-revolution | Observational / theoretical / n/a | Mechanism Low-to-Moderate; not a purity test |
-| `infant-contingency-learning.md` | `high-controlled; low-transfer` | `rovee-rovee-1969, merz-2017-mobile, cuevas-2025-contingency` | 06-the-mind-in-motion, 05-becoming-a-mind, 10-boundaries-behavior, 11-the-developing-executive | Laboratory operant / n/a | Transfer / adult-like cause Low |
+| `infant-contingency-learning.md` | `high-controlled; low-transfer` | `rovee-rovee-1969, merz-2017-mobile, cuevas-2025-contingency` | 06-the-mind-in-motion, 05-becoming-a-mind, 10-boundaries-behavior, 11-the-developing-executive | Laboratory operant / n/a | **`stable`** (narrow lab). Transfer / adult-like cause Low |
 | `infant-crying-as-signal.md` | `moderate-signal; low-acoustic-decoding` | `zeifman-2017-crying` | 03-the-great-transition, 04-regulatory-relationship, 09-the-emotional-revolution, 07-the-birth-of-language | Review / n/a | Cause-code reading Low |
 | `infant-multiple-caregiver-attachments.md` | `moderate-occurrence; low-network-dose` | `dagan-2021-networks, dagan-2018-cdp` | 08-the-expanding-world | Observational / review / n/a | Network size is not a dose |
-| `infant-perceptual-narrowing.md` | `high-lab; moderate-timetable; low-sealed-deadline` | `werker-tees-1984` | 05-becoming-a-mind, 07-the-birth-of-language | Classic laboratory / n/a | Sealed-deadline claim Low |
+| `infant-perceptual-narrowing.md` | `high-lab; moderate-timetable; low-sealed-deadline` | `werker-tees-1984, kuhl-1992` | 05-becoming-a-mind, 07-the-birth-of-language | Classic laboratory / n/a | **`stable`** (narrow lab). Timetable Moderate; sealed-deadline Low |
 | `infant-physical-reasoning.md` | `moderate-voe; low-complete-theory` | `baillargeon-1987-object, stahl-feigenson-2015` | 06-the-mind-in-motion | Classic laboratory / n/a | Finished physics Low |
 | `infant-pointing-as-shared-reference.md` | `moderate-reference; low-product` | `colonnesi-2010-pointing, fitzpatrick-2014-baby-sign` | 07-the-birth-of-language | Observational meta / n/a | Product acceleration Low; not causation from pointing drills |
 | `infant-sleep-training.md` | `low-to-moderate` | `mindell-2006-sleep, gradisar-2016-pediatrics, price-hiscock-2012, bilgin-wolke-2020, williamson-mindell-2019` | 04-regulatory-relationship | RCT + cohort / n/a | Underpowered for rare harms; `hiscock-2016` already retired |
-| `infant-social-referencing.md` | `high-lab; low-attachment-verdict` | `sorce-1985-cliff, walden-ogan-1988` | 08-the-expanding-world, 09-the-emotional-revolution | Laboratory experiment / n/a | Attachment-verdict Low |
-| `infant-still-face-paradigm.md` | `high-lab; low-attachment-verdict` | `tronick-1978-still-face, mesman-2009-still-face` | 14-what-actually-works, 09-the-emotional-revolution, 07-the-birth-of-language | Laboratory experiment / n/a | Attachment-verdict Low; co-regulation not rewritten |
+| `infant-social-referencing.md` | `high-lab; low-attachment-verdict` | `sorce-1985-cliff, walden-ogan-1988` | 08-the-expanding-world, 09-the-emotional-revolution | Laboratory experiment / n/a | **`stable`** (narrow lab). Attachment-verdict Low |
+| `infant-still-face-paradigm.md` | `high-lab; low-attachment-verdict` | `tronick-1978-still-face, mesman-2009-still-face` | 14-what-actually-works, 09-the-emotional-revolution, 07-the-birth-of-language | Laboratory experiment / n/a | **`stable`** (narrow procedure). Attachment-verdict Low; co-regulation not rewritten |
 | `inhibitory-control-toddler.md` | `moderate-to-high-age-trend; moderate-task; low-marshmallow-destiny` | `garon-2008-ef, carlson-2005-ef, carlson-2005-less` | 10-boundaries-behavior, 15-three-years, 11-the-developing-executive | Laboratory batteries / n/a | Delay destiny stays on Watts card |
 | `instrumental-helping-not-altruism.md` | `moderate-emergence; low-character-forecast` | `warneken-tomasello-2006` | 10-boundaries-behavior, 15-three-years | Laboratory experiment / not classified | Character forecast Low; first-pass |
 | `joint-attention-shared-reference.md` | `moderate-construct; low-isolated-training` | `mundy-newell-2007-ja` | 05-becoming-a-mind, 07-the-birth-of-language | Theoretical / longitudinal / n/a | Isolated training Low |
-| `looking-time-as-measurement.md` | `high-method; low-rich-interpretation` | `aslin-2007-look` | 05-becoming-a-mind | Methods / n/a | Rich-concept reading Low |
+| `looking-time-as-measurement.md` | `high-method; low-rich-interpretation` | `aslin-2007-look` | 05-becoming-a-mind | Methods / n/a | Still `draft`: methods essay, not a second experiment of a specific looking claim |
 | `neighborhood-mobility-age-dependent.md` | `moderate-later-earnings; low-to-moderate-early-dev; low-every-characteristic` | `chetty-2016-mto` | 13-the-ecology-of-development, 15-three-years | RCT (MTO long-run) / n/a (voucher experiment) | 0–3 developmental measures Low-to-Moderate |
 | `object-permanence-looking-vs-search.md` | `moderate-looking-sensitivity; low-complete-concept` | `baillargeon-1987-object` | 05-becoming-a-mind | Classic laboratory / n/a | Complete-concept claim Low |
 | `ordinary-resilience-adaptive-systems.md` | `high-existence; moderate-mechanism; low-costless` | `masten-2001-ordinary-magic` | 15-three-years | Narrative research-program review / n/a | Adversity-is-harmless refused; BEIP not this card |
@@ -88,10 +90,11 @@ A card may move to `stable` only after all five rules: (1) resolvable sources; (
 
 ## Explicit non-promotions
 
-- Looking-time, perceptual-narrowing, contingency, timing, neural construction: stay `draft`.
+- Looking-time: stays `draft` (methods essay; linking-hypothesis debate).
+- Dual-language (committee synthesis), babbling (Oller spoken-stage vs Petitto modality), Lillard (one review), deferred imitation (one experiment after YAML alignment): stay `draft`.
 - Observational / GI-attenuated cards (prenatal stress, breastfeeding IQ claim, Watts delay) stay `draft`.
 - Remaining-domain cards stay `draft` (age/window/design limits).
 - Sleep, attachment-intervention, and screen cards: citation-repaired earlier; **theory not reopened**.
 
-Counts: 68 live cards; 3 `stable` (narrow); 65 `draft`. 113 verified `SOURCES.md` IDs. YAML `sources` still mirrors the verified table.
+Counts after the second-wave promotions: 68 live cards; 7 `stable` (narrow); 61 `draft`. 114 verified `SOURCES.md` IDs (`kuhl-1992` added). YAML `sources` still mirrors the verified table.
 

@@ -64,7 +64,7 @@ Early in life, infants can discriminate a broad range of phonetic distinctions. 
 
 This process is often called **perceptual narrowing**. The phrase misleads if it suggests simple deterioration. What is happening is better understood as attunement. The infant is becoming more efficient at the patterns that matter in this environment.
 
-**Grade: High** that this language-specific reorganization occurs in the first year in the classic contrast experiments (`infant-perceptual-narrowing.md`; Werker & Tees 1984). **Grade: Moderate** for a universal timetable across languages, samples, and methods. **Grade: Low** that the change is a permanent closing of later language learning. A second language is not forbidden by a first-year laboratory decline.
+**Grade: High** that this language-specific reorganization occurs in the first year in the classic contrast experiments (`infant-perceptual-narrowing.md`; Werker & Tees 1984; Kuhl et al. 1992). That *laboratory* claim is `status: stable`. **Grade: Moderate** for a universal timetable across languages, samples, and methods. **Grade: Low** that the change is a permanent closing of later language learning. A second language is not forbidden by a first-year laboratory decline.
 
 A child growing up with one language is tuned toward that language. A child exposed to several is adapting to more than one system. The developing ear is not being handed a universal phonetic dictionary and then deleting most of it.
 
@@ -236,7 +236,7 @@ Before the child can speak, other people have already built a world of meaning. 
 
 ## Linked evidence cards
 
-- `evidence-cards/infant-perceptual-narrowing.md` (CH07-C03)
+- `evidence-cards/infant-perceptual-narrowing.md` (CH07-C03; `stable` for the laboratory attunement claim)
 - `evidence-cards/infant-statistical-speech-segmentation.md` (CH07-C02; `stable` for the laboratory claim)
 - `evidence-cards/conversational-turns-language.md` (CH07-C07/C08)
 - `evidence-cards/dual-language-does-not-confuse.md` (CH07-C09)

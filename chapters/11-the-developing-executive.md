@@ -36,7 +36,7 @@ The first is the popular forecast. The second is too complete. The third is the 
 
 Control, in this chapter, is a family of skills that help a person stop, hold information, and switch when the world requires it. It is not a verdict on whether the child is good. Miyake and colleagues (2000) described executive functions in young adults as both unified and diverse: inhibition, updating, and shifting share common variance and are not identical. Garon, Bryson and Smith (2008) reviewed how those processes appear in preschoolers as developing, heavily scaffolded forms rather than adult factor structure transplanted downward.
 
-**Grade: Moderate-to-High** for the unity-and-diversity construct in the psychometric literature. **Grade: Moderate** for toddler factor structure. The evidence card is `executive-function-unity-diversity.md`. EF is not intelligence or character.
+**Grade: Moderate-to-High** for the unity-and-diversity construct in the psychometric literature. **Grade: Moderate** for toddler factor structure. The evidence card is `executive-function-unity-diversity.md`. EF is not intelligence or character. This family is executive function, not Chapter 4’s co-regulation. (Chapter 4’s co-regulation was bidirectional repair between persons; this is a different claim.) Stopping a reach on a battery is not the same identification as bidirectional repair in a relationship.
 
 A toddler battery that loads on one factor in a small sample has not shown that the adult three-factor solution is already present. A child who fails a wait and passes a sort has not revealed a broken module. The useful object is the family, still assembling, still dependent on language, fatigue, and how the problem is set.
 
@@ -112,7 +112,7 @@ It does not tell us that a child who talks through a wait has internalized a scr
 
 ## Science, Interpretation, Art
 
-**Science** here is the Moderate-to-High construct of unity and diversity; the Moderate-to-High age trend in inhibition; and the Moderate-to-High overstatement of the original marshmallow predictor. Individual destiny and single-task forecasts remain Low. Working-memory and shifting remain Moderate as family description until dedicated cards exist. Training remains Moderate near and Low-to-Moderate far.
+**Science** here is the Moderate-to-High construct of unity and diversity; the Moderate-to-High age trend in inhibition; and the Moderate-to-High overstatement of the original marshmallow predictor. Individual destiny and single-task forecasts remain Low. Working-memory and shifting remain Moderate as family description until dedicated cards exist. Training remains Moderate near and Low-to-Moderate far. The object is this task family, not Chapter 4’s co-regulation.
 
 **Interpretation** is keeping a crayon episode from becoming a story about the kind of person the child will be. Match verbs to grades. *Shows* is the right verb for the overstatement of the original delay predictor. *Suggests* is the right verb for age trends. *Is associated with* is the right verb for a single failed wait.
 

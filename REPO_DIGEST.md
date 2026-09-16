@@ -65,8 +65,8 @@ REPO_DIGEST.md            This map
 CONTRIBUTING.md           Evidence-card methodology
 CHANGELOG.md              Knowledge-base version history
 COMPOSITION.md            Book compositional grammar
-SOURCES.md                Master source catalog (113 verified)
-evidence-cards/           68 cards (3 `stable` for a narrow claim; 65 `draft`) + template + index
+SOURCES.md                Master source catalog (114 verified)
+evidence-cards/           68 cards (7 `stable` for a narrow claim; 61 `draft`) + template + index
 chapters/                 Working 15-chapter TOC; curated Ch. 1–15
 style/                    Voice/style constraints for manuscript prose
 preliminary/              Staging area (research notes + chapter drafts)
@@ -136,12 +136,12 @@ The eight first-pass cards plus C05/C07 remain as in the previous digest table. 
 | `infant-sleep-training.md` | sleep | `low-to-moderate` | RCTs/cohorts: no measured attachment or behavioral harm through age 6 |
 | `self-regulation-delay-of-gratification.md` | executive function | `moderate-to-high-overstatement-of-original` | 2018 NICHD replication: original marshmallow-test predictor claim mostly confounded |
 | `preschool-early-education-rct.md` | early learning | `moderate-historical; low-generalization` | Small high-fidelity 1960s–70s RCTs show persistent adult gains; modern at-scale programs are a different claim |
-| `infant-contingency-learning.md` | early learning | `high-controlled; low-transfer` | Mobile paradigm: action–outcome learning under control, not adult-like cause |
+| `infant-contingency-learning.md` | early learning | `high-controlled; low-transfer` | **`stable`**: mobile paradigm action–outcome learning under control, not adult-like cause |
 | `neonatal-cardiopulmonary-transition.md` | birth | `high-sequence; moderate-timing` | **`stable`**: birth reorganizes gas exchange and circulation; not a personality forecast |
 | `skin-to-skin-immediate-physiology.md` | birth / feeding | `moderate-breastfeeding; low-infant-physiology` | Healthy-newborn SSC: breastfeeding 1–4 months Moderate; infant physiology Low |
 | `infant-caregiver-coregulation.md` | regulation | `moderate-existence; low-to-moderate-mechanism` | Bidirectional co-regulation; nurturing care is an ecology |
 | `severe-institutional-deprivation.md` | attachment / social | `high-danger; moderate-to-high-placement` | BEIP family placement after severe deprivation ≠ ordinary parenting |
-| `infant-perceptual-narrowing.md` | language | `high-lab; moderate-timetable` | First-year phonetic attunement; not a sealed deadline |
+| `infant-perceptual-narrowing.md` | language | `high-lab; moderate-timetable; low-sealed-deadline` | **`stable`**: first-year phonetic attunement (Werker & Tees / Kuhl); not a sealed deadline |
 | `infant-statistical-speech-segmentation.md` | language | `high-lab; low-transfer` | **`stable`**: transitional-probability segmentation in the lab, not household vocabulary |
 | `conversational-turns-language.md` | language | `moderate-prediction; low-causation` | Turns at 18–24 months predict later language better than word counts |
 | `dual-language-does-not-confuse.md` | language | `high-no-confusion; moderate-individual-trajectories` | Dual exposure as such does not confuse; not an automatic cognitive bonus |
@@ -149,7 +149,7 @@ The eight first-pass cards plus C05/C07 remain as in the previous digest table. 
 | `suck-swallow-breathe-coordination.md` | birth / feeding | `high-coordination; moderate-practice-effects` | Oral feeding requires asynchronous maturational coordination |
 | `preterm-cognition-group-risk.md` | birth | `moderate-group; low-individual` | Preterm group SMD about −0.57; not an individual sentence |
 | `responsive-feeding-as-regulation.md` | regulation / feeding | `moderate-framework; low-growth-program` | Cue-based bidirectional feeding; not a weight or IQ program |
-| `looking-time-as-measurement.md` | cognition / methods | `high-method; low-rich-interpretation` | A look indexes discrimination or attention, not a rich concept |
+| `looking-time-as-measurement.md` | cognition / methods | `high-method; low-rich-interpretation` | A look indexes discrimination or attention, not a rich concept; remains `draft` |
 | `infant-attention-as-gatekeeper.md` | cognition | `moderate-functions; low-trait` | Attention is a family of processes, not a character verdict |
 | `object-permanence-looking-vs-search.md` | cognition | `moderate-looking-sensitivity; low-complete-concept` | Looking-time occlusion sensitivity ≠ search ≠ a finished object concept |
 | `joint-attention-shared-reference.md` | cognition / social | `moderate-construct; low-isolated-training` | Shared reference is real; not a language guarantee |
@@ -167,15 +167,15 @@ From `evidence-cards/index.md` "Not Yet Started":
 - Ecology (income/cash, MTO, leave, and food-insecurity cards exist)
 - Age-3 waypoint (three cards plus curated Chapter 15)
 
-Priority domains that still lack *full* dedicated families include guided-play efficacy, mode of delivery, and sperm-epigenetic claims (excluded). Sixty-eight cards are live; three are `stable` for a narrow claim.
+Priority domains that still lack *full* dedicated families include guided-play efficacy, mode of delivery, and sperm-epigenetic claims (excluded). Sixty-eight cards are live; seven are `stable` for a narrow claim.
 
 ### Sources
 
 `SOURCES.md` is the catalog of record:
 
-- **113 verified** resources with URLs, mirrored in the file's OKF `sources` array
+- **114 verified** resources with URLs, mirrored in the file's OKF `sources` array
 - **12 first-pass unresolved citations resolved** (two were already in the verified table; two titles were corrected to the matching papers). Resolution log lives under Unresolved Citations.
-- Catalog itself is `status: draft`. The five remaining no-DOI listings are repaired (`hiscock-2016` retired). A Retraction Watch dump found no retraction/EoC titles among DOI-resolved records. Replication/attenuation is classified catalog-wide. `madigan-2020` ID repaired. Three *narrow* physiology/lab claims promoted to `stable`.
+- Catalog itself is `status: draft`. The five remaining no-DOI listings are repaired (`hiscock-2016` retired). A Retraction Watch dump found no retraction/EoC titles among DOI-resolved records. Replication/attenuation is classified catalog-wide. `madigan-2020` ID repaired. Seven *narrow* physiology/lab claims promoted to `stable`. `kuhl-1992` added this pass.
 
 ---
 
@@ -335,7 +335,7 @@ Later packages that treated “PR #4 merged” as true were describing content o
 4. **`atlas_domains` / `chapter_hooks`** are on the newer cards; most first-pass cards still omit them.
 5. **Draft citation artifacts.** Archival `chapter 14` still has 29 `:contentReference[oaicite:…]` leftovers. Curated `chapters/14-what-actually-works.md` strips them and is in the Appendix B range. Do not overwrite the archival draft.
 6. **Binary research files.** Most of `preliminary/research/` is `.docx`; grep/search will miss them.
-7. **Catalog-wide retraction lookup is complete for DOI-resolved records** (Crossref + OpenAlex `is_retracted` + PubMed PTs). No retraction/EoC titles. Cochrane `new_version` flags remain successor reviews. Grey-literature IDs (NICHD 05-4318, two WHO IRIS handles, Kramer 1987) have no journal DOI and are now identified rather than missing. `hiscock-2016` retired. Replication/attenuation is classified catalog-wide; **three narrow physiology/lab claims are `stable`**. `madigan-2020` now points at the 2020 *JAMA Pediatrics* meta-analysis.
+7. **Catalog-wide retraction lookup is complete for DOI-resolved records** (Crossref + OpenAlex `is_retracted` + PubMed PTs). No retraction/EoC titles. Cochrane `new_version` flags remain successor reviews. Grey-literature IDs (NICHD 05-4318, two WHO IRIS handles, Kramer 1987) have no journal DOI and are now identified rather than missing. `hiscock-2016` retired. Replication/attenuation is classified catalog-wide; **seven narrow physiology/lab claims are `stable`**. `madigan-2020` now points at the 2020 *JAMA Pediatrics* meta-analysis.
 8. **No tests or lint.** Quality control is methodological (CONTRIBUTING + voice checklist), not automated.
 9. **Do not invent prescriptions.** If evidence does not justify an action, say so.
 10. **PR #4 is closed, not merged.** Unique deliverables already sit on `main` via the #5 squash. See section 9.
@@ -345,12 +345,12 @@ Later packages that treated “PR #4 merged” as true were describing content o
 
 ## 11. Suggested next work
 
-Done in this package: tagged `v0.3` on `main` at `21d1a0d`; second-pass of 65 draft cards; cross-chapter consistency note; manuscript pass naming remaining-domain IDs and adding Ch. 14 S/I/A. YAML compound grades aligned on manuscript-core cards. Archival drafts untouched. Sleep/attachment/screen theory not rewritten. **No additional card moved to `stable`.** Catalog remains 68 cards (3 `stable`; 65 `draft`) and 113 verified `SOURCES.md` IDs.
+Done in this package: second-wave promotions after `v0.3` — four additional *narrow* laboratory claims to `stable` (contingency, social referencing, still-face, perceptual narrowing with Kuhl 1992). Looking-time, dual-language, babbling, Lillard, and deferred imitation remain `draft` with five-rule reasons. Deferred-imitation YAML aligned to Meltzoff 1988. Light manuscript pass (Ch. 5–9 stables named; Ch. 11 EF ≠ Ch. 4 co-regulation). Archival drafts untouched. Sleep/attachment/screen theory not rewritten. **No new cards or chapters.** Catalog is 68 cards (7 `stable`; 61 `draft`) and 114 verified `SOURCES.md` IDs. Do not tag `v0.4`.
 
 Highest-leverage remaining work:
 
 - Guided-play efficacy; mode of delivery and neonatal perception (held); dedicated WM/shifting; routines/modeling.
-- Looking-time and perceptual-narrowing as next physiology/lab `stable` candidates only after the five-rule bar (held this pass: linking-hypothesis debate; timetable not universal).
+- Looking-time remains held as a physiology/lab candidate (linking-hypothesis debate; methods essay).
 - GI classification still “not classified” on many first-pass observational cards.
 - Chapter 2 curated copy remains ~2,358 words (slightly under Appendix B); not padded.
 

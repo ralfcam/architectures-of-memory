@@ -17,7 +17,12 @@ Evaluate transitions, repetition, conceptual sequencing, and whether Science / I
 | `chapters/12-play-imagination.md` | Named `outdoor-risky-play-not-0-3-law.md`. Guided-play still held. | Same catalog/manuscript lag. “Risky” is not Ch. 9’s inhibition-risk. |
 | `chapters/13-the-ecology-of-development.md` | Named leave and food-insecurity cards; Science beat updated. | Institutional objects were still “held” in prose after cards existed. |
 | `chapters/14-what-actually-works.md` | Added a Science / Interpretation / Art beat before the closing question. | Only chapter without a visible S/I/A close; now points at Ch. 15’s resilience grade. |
-| `chapters/15-three-years.md` | Named the five remaining-domain filenames as adjacent IDs. | Waypoint already described them; filenames were missing. |
+| `chapters/05-becoming-a-mind.md` | Named looking-time as still `draft` (methods essay); named narrowing `stable` with Kuhl 1992. | Second-wave promotions. |
+| `chapters/06-the-mind-in-motion.md` | Named contingency `stable`; deferred imitation still `draft` after YAML alignment. | Same. |
+| `chapters/07-the-birth-of-language.md` | Named narrowing `stable` (Werker & Tees / Kuhl). | Same. |
+| `chapters/08-the-expanding-world.md` | Named referencing `stable`. | Same. |
+| `chapters/09-the-emotional-revolution.md` | Named still-face `stable`. | Same. |
+| `chapters/11-the-developing-executive.md` | One-line: EF is not Chapter 4 co-regulation. | Remaining consistency tension #4. |
 
 Lengths remain in Appendix B (2,500–4,000) except Chapter 2, which was already ~2,358 and was not padded.
 

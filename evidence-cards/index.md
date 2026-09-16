@@ -1,6 +1,6 @@
 # Evidence Cards Index
 
-Sixty-eight evidence cards. **Three** physiology/lab cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty-five remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
+Sixty-eight evidence cards. **Seven** physiology/lab cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`, `infant-contingency-learning.md`, `infant-social-referencing.md`, `infant-still-face-paradigm.md`, `infant-perceptual-narrowing.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty-one remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
 
 # Evidence Cards
 
@@ -20,26 +20,26 @@ Sixty-eight evidence cards. **Three** physiology/lab cards are `status: stable` 
 * [Early Skin-to-Skin Contact](skin-to-skin-immediate-physiology.md) - Healthy-newborn SSC: moderate for breastfeeding at 1–4 months; low for infant physiology and character.
 * [Infant–Caregiver Co-Regulation](infant-caregiver-coregulation.md) - Bidirectional, context-sensitive regulation; nurturing care is an ecology, not a purity test.
 * [Severe Institutional Deprivation](severe-institutional-deprivation.md) - BEIP: family placement after severe deprivation is not ordinary parenting.
-* [Infant Contingency Learning](infant-contingency-learning.md) - Mobile paradigm: High for action–outcome learning under control; Low for transfer.
-* [Looking Time as Measurement](looking-time-as-measurement.md) - A look indexes discrimination or attention; it is not a window into a rich concept.
+* [Infant Contingency Learning](infant-contingency-learning.md) - **`stable`** (narrow lab claim): mobile paradigm replicated across decades; Low for transfer.
+* [Looking Time as Measurement](looking-time-as-measurement.md) - A look indexes discrimination or attention; it is not a window into a rich concept. Held at `draft` (methods essay, not a second experiment).
 * [Infant Attention as a Gatekeeper](infant-attention-as-gatekeeper.md) - Attention is a family of processes, not a trait or a parenting score.
 * [Object Permanence Is Not a Single Staircase](object-permanence-looking-vs-search.md) - Looking-time sensitivity to occlusion is not the same as search, and not a finished object concept.
 * [Joint Attention as Shared Reference](joint-attention-shared-reference.md) - Shared attention is a construct, not a language guarantee.
-* [Infant Perceptual Narrowing](infant-perceptual-narrowing.md) - First-year phonetic attunement; High in the classic lab; Low as a sealed deadline.
+* [Infant Perceptual Narrowing](infant-perceptual-narrowing.md) - **`stable`** (narrow lab claim): Werker & Tees 1984 / Kuhl 1992; Moderate timetable; Low sealed deadline.
 * [Infant Statistical Speech Segmentation](infant-statistical-speech-segmentation.md) - **`stable`** (narrow lab claim): Saffran 1996 / Aslin 1998; Low for household transfer.
 * [Conversational Turns and Later Language](conversational-turns-language.md) - Gilkerson 2018: Moderate prediction from turns, not word counts; Low causation.
 * [Pointing as Shared Reference](infant-pointing-as-shared-reference.md) - Colonnesi 2010: Moderate that pointing predicts language; Low that baby-sign products accelerate typical speech.
 * [Babbling as Exploration](infant-babbling-as-exploration.md) - Oller 1999: High that canonical babbling is a real stage; Low as an IQ or parenting verdict.
 * [Paternal Age and De Novo Mutations](paternal-age-de-novo-mutations.md) - Kong 2012: High for mutation rate with father's age; Low as a cognitive/psychiatric forecast.
-* [Infant Social Referencing](infant-social-referencing.md) - Sorce 1985 / Walden 1988: High for laboratory referencing under uncertainty; Low as an attachment verdict.
+* [Infant Social Referencing](infant-social-referencing.md) - **`stable`** (narrow lab claim): Sorce 1985 / Walden 1988; Low as an attachment verdict.
 * [Multiple Caregiver Attachments](infant-multiple-caregiver-attachments.md) - Dagan 2018/2021: Moderate that multiple attachments occur; Low that network size is a dose.
 * [Toddler Peer Interaction](toddler-peer-interaction.md) - Brownell 2006: Moderate that peer contexts create coordination demands; Low that hours cause later character.
 * [Embodied Perception–Action](embodied-perception-action.md) - Adolph & Hoch 2019: Moderate framework; Low that earlier milestones cause later cognition.
 * [Exploration as Sampling](exploration-as-sampling.md) - Stahl & Feigenson 2015: Moderate that surprise reorganizes exploration; Low transfer.
 * [Early Physical Reasoning](infant-physical-reasoning.md) - Baillargeon 1987 / Stahl 2015: Moderate VOE; Low complete physics.
-* [Deferred Imitation](deferred-imitation.md) - Meltzoff 1988: High for 14-month one-week delay; Low neonate/curriculum.
+* [Deferred Imitation](deferred-imitation.md) - Meltzoff 1988: High for 14-month one-week delay; Low neonate/curriculum. YAML aligned; stays `draft` (one primary experiment).
 * [Parent-Implemented Language Interventions](parent-implemented-language.md) - Heidlage 2020: Moderate expressive vocabulary in 25 RCTs; Low universal typical-development IQ.
-* [Still-Face Disruption of Expected Contingency](infant-still-face-paradigm.md) - Tronick 1978 / Mesman 2009: High laboratory procedure effect; Low as attachment verdict. Co-regulation card reconciled.
+* [Still-Face Disruption of Expected Contingency](infant-still-face-paradigm.md) - **`stable`** (narrow procedure claim): Tronick 1978 / Mesman 2009; Low as attachment verdict. Co-regulation card reconciled.
 * [Temperament as Reactivity and Control](temperament-reactivity-not-destiny.md) - Gartstein & Rothbart 2003: Moderate dimensional differences; Low destiny.
 * [Behavioral Inhibition as Anxiety Risk](behavioral-inhibition-anxiety-risk.md) - Clauss & Blackford 2012: Moderate group social-anxiety risk; Low individual forecast.
 * [Executive Function as Unity and Diversity](executive-function-unity-diversity.md) - Miyake 2000 / Garon 2008: Moderate-to-High construct; not intelligence or character. Watts delay card reconciled.

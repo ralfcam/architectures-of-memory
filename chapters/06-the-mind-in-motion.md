@@ -6,7 +6,7 @@ The scene is ordinary. It is also strange.
 
 If the infant were only a bundle of reflexes, the second kick should not become more organized because the first one moved the world. If the infant were already a small scientist, the same scene would be taken as proof of hypothesis testing. Neither reading fits what can be shown.
 
-**Grade: High** that, under these controlled conditions, a young infant can learn that a self-generated action predicts a sensory consequence. **Grade: Low** that this is adult-like causal theory, lasting cognitive advantage, or a mandate for stimulation. The evidence card is `infant-contingency-learning.md` (Rovee & Rovee 1969; later methods and reviews).
+**Grade: High** that, under these controlled conditions, a young infant can learn that a self-generated action predicts a sensory consequence. **Grade: Low** that this is adult-like causal theory, lasting cognitive advantage, or a mandate for stimulation. The evidence card is `infant-contingency-learning.md` (Rovee & Rovee 1969; later methods and reviews). That *laboratory* claim is `status: stable`.
 
 This chapter asks a narrower question than “do babies learn?” It asks what kind of learner an acting infant is, and what kinds of claims that activity can support.
 
@@ -168,7 +168,7 @@ It does not tell us that a laboratory contingency is an intervention program. Co
 
 ## Science, Interpretation, Art
 
-**Science** here is the High-grade laboratory fact that infants can learn action–outcome relations (`infant-contingency-learning.md`); the Moderate claims that embodiment, surprise-driven exploration, and physical-reasoning tasks reorganize looking and action (`embodied-perception-action.md`, `exploration-as-sampling.md`, `infant-physical-reasoning.md`); High-grade deferred imitation at 14 months after a week (`deferred-imitation.md`); and the Low status of transfer, adult-like cause, milestone ranking, and lifelong forecast.
+**Science** here is the High-grade laboratory fact that infants can learn action–outcome relations (`infant-contingency-learning.md`; `status: stable` for that narrow claim); the Moderate claims that embodiment, surprise-driven exploration, and physical-reasoning tasks reorganize looking and action (`embodied-perception-action.md`, `exploration-as-sampling.md`, `infant-physical-reasoning.md`); High-grade deferred imitation at 14 months after a week (`deferred-imitation.md`, still `draft`); and the Low status of transfer, adult-like cause, milestone ranking, and lifelong forecast.
 
 **Interpretation** is the habit of keeping those facts from becoming a story about the kind of person the child will be, or the kind of teacher the parent must become. It is also the habit of matching verbs to grades: *shows* where the grade is High, *suggests* where it is Moderate, *is associated with* where it is Low.
 
@@ -186,7 +186,7 @@ Words will soon start to do some of that work. That is the next territory. It is
 
 ## Linked evidence cards
 
-- `evidence-cards/infant-contingency-learning.md` (CH06-C01)
+- `evidence-cards/infant-contingency-learning.md` (CH06-C01; `stable` for the laboratory claim)
 - `evidence-cards/embodied-perception-action.md`
 - `evidence-cards/exploration-as-sampling.md`
 - `evidence-cards/infant-physical-reasoning.md`

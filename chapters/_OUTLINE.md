@@ -12,7 +12,7 @@ Each chapter should still follow the 10-step rhythm in `COMPOSITION.md` Appendix
 | 2 | The First Environment | `preliminary/drafts-chapters/chapter 2` (archival) | Ch. 2 dossier cluster | **Promoted curated copy:** `chapters/02-first-environment.md`. |
 | 3 | The Great Transition | `preliminary/drafts-chapters/chapter 3` (archival) | Ch. 3 plan + continuum synthesis | **Promoted curated copy:** `chapters/03-the-great-transition.md`. Five draft cards. Mode of delivery held. |
 | 4 | The Regulatory Relationship | `preliminary/drafts-chapters/chapter 4` (archival) | Ch. 4 dossier | **Promoted curated copy:** `chapters/04-regulatory-relationship.md` (replaces prior seed sketch). Feeding-as-regulation card added; sleep/attachment not rewritten. |
-| 5 | Becoming a Mind | `preliminary/drafts-chapters/chapter 5` (archival) | Ch. 5 plan + dossier | **Promoted curated copy:** `chapters/05-becoming-a-mind.md`. Looking-time, attention, object-permanence, and joint-attention cards added; narrowing/statistical/contingency reconciled. |
+| 5 | Becoming a Mind | `preliminary/drafts-chapters/chapter 5` (archival) | Ch. 5 plan + dossier | **Promoted curated copy:** `chapters/05-becoming-a-mind.md`. Looking-time remains `draft`; narrowing/statistical/contingency now `stable` for *narrow* lab claims. |
 | 6 | The Mind in Motion | `preliminary/drafts-chapters/chapter 6` (archival) | Ch. 6 dossier | **Curated expansion:** `chapters/06-the-mind-in-motion.md`. Linked cards: contingency, embodiment, exploration, physical reasoning, deferred imitation. |
 | 7 | The Birth of Language | `preliminary/drafts-chapters/chapter 7` (archival) | Ch. 7 plan + synthesis | **Promoted curated copy:** `chapters/07-the-birth-of-language.md`. Linked cards: perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling, parent-implemented language. Screens ID-repaired, not re-theorized. |
 | 8 | The Expanding World | `preliminary/drafts-chapters/chapter 8.md` | Ch. 8 plan + synthesis | **Promoted curated copy:** `chapters/08-the-expanding-world.md`. Four draft cards; childcare/BEIP reconciled. |
@@ -72,11 +72,11 @@ All remain `status: draft`.
 
 All remain `status: draft`.
 
-- `looking-time-as-measurement.md` (CH05-C01)
+- `looking-time-as-measurement.md` (CH05-C01; remains `draft`)
 - `infant-attention-as-gatekeeper.md` (CH05-C03)
 - `object-permanence-looking-vs-search.md` (CH05-C06)
 - `joint-attention-shared-reference.md` (CH05-C07 / CH07-C04)
-- Reconcile only: `infant-perceptual-narrowing.md`, `infant-statistical-speech-segmentation.md`, `infant-contingency-learning.md`
+- Reconcile only: `infant-perceptual-narrowing.md` (`stable` lab attunement), `infant-statistical-speech-segmentation.md` (`stable` lab), `infant-contingency-learning.md` (`stable` lab)
 
 ## Linked cards for Chapter 1 (current)
 
@@ -90,7 +90,7 @@ All remain `status: draft`.
 
 All remain `status: draft`.
 
-- `infant-contingency-learning.md` (CH06-C01)
+- `infant-contingency-learning.md` (CH06-C01; `stable` lab)
 - `embodied-perception-action.md`, `exploration-as-sampling.md`, `infant-physical-reasoning.md`, `deferred-imitation.md`
 - Adjacent: `infant-caregiver-coregulation.md` (not a learning card)
 - Later-chapter boundary: `self-regulation-delay-of-gratification.md`
@@ -99,7 +99,7 @@ All remain `status: draft`.
 
 Most remain `status: draft`. `infant-statistical-speech-segmentation.md` is `stable` for the laboratory claim.
 
-- `infant-perceptual-narrowing.md` (CH07-C03)
+- `infant-perceptual-narrowing.md` (CH07-C03; `stable` lab attunement)
 - `infant-statistical-speech-segmentation.md` (CH07-C02)
 - `conversational-turns-language.md` (CH07-C07/C08)
 - `dual-language-does-not-confuse.md` (CH07-C09)
@@ -116,7 +116,7 @@ Most remain `status: draft`. `infant-statistical-speech-segmentation.md` is `sta
 
 All remain `status: draft`. **Curated copy:** `chapters/08-the-expanding-world.md`.
 
-- `infant-social-referencing.md` (CH08-C02)
+- `infant-social-referencing.md` (CH08-C02; `stable` lab)
 - `infant-multiple-caregiver-attachments.md` (CH08-C01)
 - `toddler-peer-interaction.md` (CH08-C04)
 - `father-kin-sibling-heterogeneous-network.md` (CH08-C06 remainder)
@@ -136,7 +136,7 @@ All remain `status: draft`. **Curated copy:** `chapters/10-boundaries-behavior.m
 
 All remain `status: draft`. **Curated copy:** `chapters/09-the-emotional-revolution.md`.
 
-- `infant-still-face-paradigm.md` (CH09-C01b)
+- `infant-still-face-paradigm.md` (CH09-C01b; `stable` procedure)
 - `temperament-reactivity-not-destiny.md` (CH09-C03)
 - `behavioral-inhibition-anxiety-risk.md` (CH09-C06)
 - Reconcile only: `infant-caregiver-coregulation.md`, `infant-social-referencing.md`, `infant-crying-as-signal.md`, `self-regulation-delay-of-gratification.md`

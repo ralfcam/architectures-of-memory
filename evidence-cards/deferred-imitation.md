@@ -1,10 +1,10 @@
 ---
 type: Evidence Card
 title: "Deferred Imitation After a Delay"
-description: "Nine-month-olds can reproduce a novel action on an object after a 24-hour delay they did not practice; this is memory for an observed act, not proof of neonatal imitation, unlimited delay, or a copying curriculum."
+description: "Fourteen-month-olds can reproduce a novel action on an object after a one-week delay they did not practice; this is memory for an observed act, not proof of neonatal imitation, unlimited delay, or a copying curriculum."
 tags: [learning, imitation, memory]
 status: draft
-confidence: high-nine-month-24h; low-neonate-and-transfer
+confidence: high-fourteen-month-one-week; low-neonate-and-transfer
 generated: { by: agent:cursor, at: 2026-09-16T08:00:00Z }
 stale_after: 2027-03-16T00:00:00Z
 atlas_domains: [learning]
@@ -19,7 +19,7 @@ sources:
 
 > Domain: early learning
 > Last updated: 2026-09-16
-> Status: Source-audited first pass (CH06 deferred imitation)
+> Status: Source-audited first pass (CH06 deferred imitation). YAML/description aligned to Meltzoff 1988 (14 months, one-week delay). Stays `draft`: one primary experiment on the card; neonatal imitation is a different controversy.
 
 ## What We Know
 

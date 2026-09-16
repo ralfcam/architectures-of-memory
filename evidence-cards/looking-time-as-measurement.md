@@ -19,7 +19,7 @@ sources:
 
 > Domain: early learning
 > Last updated: 2026-09-15
-> Status: Source-audited first pass (CH05-C01). Do not treat looking-time results as a completed theory of the infant mind.
+> Status: Source-audited first pass (CH05-C01). Held at `draft` after the v0.3 second pass: Aslin 2007 is a methods essay, not an independent experiment of a specific looking claim; rich-interpretation linking hypotheses remain the live rule-3 issue. Do not treat looking-time results as a completed theory of the infant mind.
 
 ## What We Know
 

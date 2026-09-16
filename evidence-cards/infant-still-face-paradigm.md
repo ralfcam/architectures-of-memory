@@ -3,7 +3,7 @@ type: Evidence Card
 title: "Still-Face Disruption of Expected Social Contingency"
 description: "When a familiar adult suddenly becomes unresponsive in face-to-face interaction, infants typically protest, look away, and try to re-engage; this is a laboratory signature of expected contingency, not a diagnosis of attachment or co-regulation failure."
 tags: [emotion, regulation, infancy]
-status: draft
+status: stable
 confidence: high-lab; low-attachment-verdict
 generated: { by: agent:cursor, at: 2026-09-16T09:00:00Z }
 stale_after: 2027-03-16T00:00:00Z
@@ -22,7 +22,7 @@ sources:
 
 > Domain: emotion / regulation
 > Last updated: 2026-09-16
-> Status: Source-audited first pass (CH09-C01 adjacent). Existing `infant-caregiver-coregulation.md` is reconciled, not rewritten.
+> Status: Stable for the *narrow* procedure-effect claim (`stable-candidates--replication-note.md`). Attachment-verdict remains Low. Existing `infant-caregiver-coregulation.md` is reconciled, not rewritten.
 
 ## What We Know
 

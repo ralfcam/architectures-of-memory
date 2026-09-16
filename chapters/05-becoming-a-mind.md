@@ -8,7 +8,7 @@ The scene is ordinary. It is also easy to over-read.
 
 If the infant were empty, those traces would be noise waiting for the world to write on. If the infant were already a small adult, the same traces would be taken as proof of physics, mathematics, or morality. Neither reading fits what can be shown.
 
-**Grade: High** that looking-time methods can index discrimination and a change of attention (`looking-time-as-measurement.md`; Aslin 2007). **Grade: Low** that a look is a transparent window into a rich concept, belief, or theory.
+**Grade: High** that looking-time methods can index discrimination and a change of attention (`looking-time-as-measurement.md`; Aslin 2007). **Grade: Low** that a look is a transparent window into a rich concept, belief, or theory. That *method* claim remains `draft`: Aslin 2007 is a methods essay, not a second independent experiment of a specific looking claim.
 
 This chapter asks a narrower question than “what does a baby know?” It asks what kind of learner an infant is, and what kinds of claims those traces can support.
 
@@ -60,7 +60,7 @@ These abilities are not complete representations of people, objects, or language
 
 Sensation is not perception. Perceptual discrimination is not object representation. Object representation is not meaning. A detectable difference is not necessarily an understood difference.
 
-**Grade: High** that first-year phonetic attunement occurs in the classic laboratory contrasts (`infant-perceptual-narrowing.md`; Werker & Tees 1984). **Grade: Moderate** for a universal timetable. **Grade: Low** that the change is a sealed deadline. This is calibration, not a story of loss, and not a reason to treat a second language as confusion.
+**Grade: High** that first-year phonetic attunement occurs in the classic laboratory contrasts (`infant-perceptual-narrowing.md`; Werker & Tees 1984; Kuhl et al. 1992). That *laboratory* claim is `status: stable`. **Grade: Moderate** for a universal timetable. **Grade: Low** that the change is a sealed deadline. This is calibration, not a story of loss, and not a reason to treat a second language as confusion.
 
 A nervous system that remained equally sensitive to every possible distinction would be expensive to operate. Specialization allows efficiency for the patterns actually encountered. Timing must not be turned into destiny. Sensitive periods are windows in which particular forms of experience and maturation interact strongly. They are not universal deadlines after which learning becomes impossible.
 
@@ -166,12 +166,12 @@ Chapter 4 showed the relationship that takes up dependence. This chapter shows t
 
 ## Linked evidence cards
 
-- `evidence-cards/looking-time-as-measurement.md` (CH05-C01)
+- `evidence-cards/looking-time-as-measurement.md` (CH05-C01; remains `draft`)
 - `evidence-cards/infant-attention-as-gatekeeper.md` (CH05-C03)
 - `evidence-cards/object-permanence-looking-vs-search.md` (CH05-C06)
 - `evidence-cards/joint-attention-shared-reference.md` (CH05-C07 / CH07-C04)
-- Reconcile only, not rewritten: `evidence-cards/infant-perceptual-narrowing.md`
+- Reconcile only, not rewritten: `evidence-cards/infant-perceptual-narrowing.md` (`stable` for the laboratory attunement claim)
 - Reconcile only, not rewritten: `evidence-cards/infant-statistical-speech-segmentation.md`
-- Reconcile only, not rewritten: `evidence-cards/infant-contingency-learning.md`
+- Reconcile only, not rewritten: `evidence-cards/infant-contingency-learning.md` (`stable` for the laboratory claim)
 
 Promotion note: this file is a curated, voice-checked copy in the Appendix B range. The archival draft `preliminary/drafts-chapters/chapter 5` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch05-curated-05-becoming-a-mind--voice-review.md`. Deferred imitation and core-knowledge-as-theory remain held.

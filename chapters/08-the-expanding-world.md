@@ -6,7 +6,7 @@ The scene is ordinary. It is also easy to over-read.
 
 If the infant were a sealed dyad, the second adult in the room would not matter. If the infant were already a complete judge of character, the look would already be a verdict on attachment. Neither reading fits what can be shown.
 
-**Grade: High** that, late in the first year, an infant can use a familiar adult’s emotional signal to regulate approach or withdrawal in an ambiguous laboratory situation. **Grade: Low** that the frequency of those looks measures parental worth or attachment security. The evidence card is `infant-social-referencing.md` (Sorce, Emde, Campos & Klinnert 1985; Walden & Ogan 1988).
+**Grade: High** that, late in the first year, an infant can use a familiar adult’s emotional signal to regulate approach or withdrawal in an ambiguous laboratory situation. **Grade: Low** that the frequency of those looks measures parental worth or attachment security. The evidence card is `infant-social-referencing.md` (Sorce, Emde, Campos & Klinnert 1985; Walden & Ogan 1988). That *laboratory* claim is `status: stable`.
 
 This chapter asks a narrower question than “does the parent still matter?” It asks what kind of social world a late infant and toddler actually enter, and what kinds of claims that expansion can support.
 
@@ -148,7 +148,7 @@ Chapter 4 described relationship as a regulatory system. This chapter describes 
 
 ## Linked evidence cards
 
-- `evidence-cards/infant-social-referencing.md` (CH08-C02)
+- `evidence-cards/infant-social-referencing.md` (CH08-C02; `stable` for the laboratory claim)
 - `evidence-cards/infant-multiple-caregiver-attachments.md` (CH08-C01)
 - `evidence-cards/toddler-peer-interaction.md` (CH08-C04)
 - `evidence-cards/father-kin-sibling-heterogeneous-network.md` (CH08-C06 remainder)

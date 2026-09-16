@@ -272,7 +272,7 @@ Window: preconception through age 3. Domains: all five.
 |---|---|---|
 | `prenatal-maternal-stress-anxiety.md` | 2 | Reconciled (C06); still `status: draft` |
 | `prenatal-auditory-learning.md` | 2 | Source-audited (C05); still `status: draft` |
-| `prenatal-folate-ntd.md` | 2 | Source-audited (C07); still `status: draft` |
+| `prenatal-folate-ntd.md` | 2 | Source-audited (C07); **`status: stable`** (narrow NTD) |
 | `prenatal-developmental-timing.md` | 2 | Source-audited (C01); still `status: draft` |
 | `placenta-as-mediator.md` | 2 | Source-audited (C02); still `status: draft` |
 | `prenatal-neural-construction.md` | 2 | Source-audited (C03); still `status: draft` |
@@ -284,38 +284,38 @@ Window: preconception through age 3. Domains: all five.
 | `fetal-growth-not-destiny.md` | 2 | Source-audited (C12); C13 held here; still `status: draft` |
 | `infant-sleep-training.md` | 4 | Reconciled; do not re-extract; still `status: draft` |
 | `responsive-caregiving-attachment-interventions.md` | 4 | Reconciled; do not re-extract; still `status: draft` |
-| `neonatal-cardiopulmonary-transition.md` | 3 | Source-audited (C02); still `status: draft` |
+| `neonatal-cardiopulmonary-transition.md` | 3 | Source-audited (C02); **`status: stable`** (narrow sequence) |
 | `skin-to-skin-immediate-physiology.md` | 3 | Source-audited (C06); still `status: draft` |
 | `infant-caregiver-coregulation.md` | 4 | Source-audited (C01); still `status: draft` |
 | `severe-institutional-deprivation.md` | 4 | Source-audited (C02 / BEIP); still `status: draft` |
-| `infant-contingency-learning.md` | 6 | Source-audited (C01); still `status: draft` |
+| `infant-contingency-learning.md` | 6 | Source-audited (C01); **`status: stable`** (narrow lab) |
 | `breastfeeding-cognitive-development.md` | 4 / 5 | Feeding is Ch. 4 adjacent; cognition Ch. 5 |
 | `screen-time-language-development.md` | 7 | IDs repaired (Madigan 2020 vs Jing 2023); still `status: draft`. Frontmatter/body citation mismatch recorded then repaired. |
 | `early-childcare-quality.md` | 8 | Second wave |
 | `self-regulation-delay-of-gratification.md` | 10 / 11 | Second wave |
 | `preschool-early-education-rct.md` | 14 | Second wave |
-| `infant-perceptual-narrowing.md` | 7 | Source-audited (C03); still `status: draft` |
-| `infant-statistical-speech-segmentation.md` | 7 | Source-audited (C02); still `status: draft` |
+| `infant-perceptual-narrowing.md` | 7 | Source-audited (C03); **`status: stable`** (narrow lab) |
+| `infant-statistical-speech-segmentation.md` | 7 | Source-audited (C02); **`status: stable`** (narrow lab) |
 | `conversational-turns-language.md` | 7 | Source-audited (C07/C08); still `status: draft` |
 | `dual-language-does-not-confuse.md` | 7 | Source-audited (C09); still `status: draft` |
 | `infant-crying-as-signal.md` | 3 | Source-audited (C04); still `status: draft` |
 | `suck-swallow-breathe-coordination.md` | 3 | Source-audited (C05); still `status: draft` |
 | `preterm-cognition-group-risk.md` | 3 | Source-audited (C07); still `status: draft` |
 | `responsive-feeding-as-regulation.md` | 4 | Source-audited (C04); still `status: draft` |
-| `looking-time-as-measurement.md` | 5 | Source-audited (C01); still `status: draft` |
+| `looking-time-as-measurement.md` | 5 | Source-audited (C01); still `status: draft` (methods essay; linking-hypothesis debate) |
 | `infant-attention-as-gatekeeper.md` | 5 | Source-audited (C03); still `status: draft` |
 | `object-permanence-looking-vs-search.md` | 5 | Source-audited (C06); still `status: draft` |
 | `joint-attention-shared-reference.md` | 5 / 7 | Source-audited (C07 / CH07-C04); still `status: draft` |
 | `infant-pointing-as-shared-reference.md` | 7 | Source-audited (CH07-C05); still `status: draft` |
 | `infant-babbling-as-exploration.md` | 7 | Source-audited (CH07-C06); still `status: draft` |
 | `paternal-age-de-novo-mutations.md` | 1 | Source-audited (CH01-C06); still `status: draft` |
-| `infant-social-referencing.md` | 8 | Source-audited (CH08-C02); still `status: draft` |
+| `infant-social-referencing.md` | 8 | Source-audited (CH08-C02); **`status: stable`** (narrow lab) |
 | `infant-multiple-caregiver-attachments.md` | 8 | Source-audited (CH08-C01); still `status: draft` |
 | `toddler-peer-interaction.md` | 8 | Source-audited (CH08-C04); still `status: draft` |
 | `embodied-perception-action.md` | 6 | Source-audited; still `status: draft` |
 | `exploration-as-sampling.md` | 6 | Source-audited; still `status: draft` |
 | `infant-physical-reasoning.md` | 6 | Source-audited; still `status: draft` |
-| `deferred-imitation.md` | 6 | Source-audited; still `status: draft` |
+| `deferred-imitation.md` | 6 | Source-audited; YAML aligned to Meltzoff 1988; still `status: draft` |
 | `parent-implemented-language.md` | 7 | Source-audited; still `status: draft` |
 
 ## Counts

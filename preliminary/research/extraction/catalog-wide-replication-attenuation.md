@@ -18,7 +18,7 @@ A card may move to `stable` only after:
 4. In-body grade still matches YAML `confidence`.
 5. “What This Does Not Mean” still matches the identification.
 
-This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier DOI/retraction dumps. **Three narrow physiology/lab claims later cleared all five** (`stable-candidates--replication-note.md`).
+This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier DOI/retraction dumps. **Seven narrow physiology/lab claims later cleared all five** (`stable-candidates--replication-note.md`).
 
 ## Catalog
 
@@ -41,12 +41,12 @@ This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier 
 | `skin-to-skin-immediate-physiology.md` | Cochrane RCT meta | Breastfeeding 1–4 months supported across trials; infant physiology GRADE low | n/a | Physiology/character still Low; KMC-for-LBW not pooled |
 | `infant-caregiver-coregulation.md` | Observational / theoretical | Bidirectional timing is repeatedly described; mechanism not one pathway | n/a | Mechanism Low-to-Moderate; not a purity test |
 | `severe-institutional-deprivation.md` | RCT (BEIP) | Follow-ups replicate earlier placement benefits *in this deprivation* | n/a (randomized placement, not GI of ordinary parenting) | Very Low that effect sizes describe ordinary care |
-| `infant-contingency-learning.md` | Laboratory operant | Mobile paradigm replicated across decades | n/a | Transfer / adult-like cause Low |
-| `looking-time-as-measurement.md` | Methods | Looking-time *as discrimination* is standard; rich-interpretation linking hypotheses are the replication debate | n/a | Rich-concept reading Low |
+| `infant-contingency-learning.md` | Laboratory operant | Mobile paradigm replicated across decades (Cuevas 2025) | n/a | **`stable`** for the *narrow* lab claim. Transfer / adult-like cause Low. |
+| `looking-time-as-measurement.md` | Methods | Looking-time *as discrimination* is standard; rich-interpretation linking hypotheses are the replication debate | n/a | Still `draft`: Aslin 2007 is a methods essay, not a second experiment |
 | `infant-attention-as-gatekeeper.md` | Review of dissociable functions | Functions (alert, sustain, shift, encode) independently described | n/a | Trait/parenting-score reading Low |
 | `object-permanence-looking-vs-search.md` | Classic laboratory | Looking/search dissociation is the live debate, not a settled replication win | n/a | Complete-concept claim Low |
 | `joint-attention-shared-reference.md` | Theoretical / longitudinal | Construct is widely used; isolated training is not an RCT package here | n/a | Isolated training Low |
-| `infant-perceptual-narrowing.md` | Classic laboratory | Hindi/Salish-type attunement conceptually replicated; timetable not universal | n/a | Sealed-deadline claim Low |
+| `infant-perceptual-narrowing.md` | Classic laboratory | Hindi/Salish-type attunement conceptually replicated (Kuhl 1992); timetable not universal | n/a | **`stable`** for the *narrow* lab attunement claim. Timetable Moderate; sealed-deadline Low. |
 | `infant-statistical-speech-segmentation.md` | Classic laboratory | Transitional-probability segmentation conceptually replicated (Aslin 1998); household transfer is not | n/a | **`stable`** for the *narrow* lab claim. Transfer / complete grammar Low. |
 | `conversational-turns-language.md` | Observational cohort (LENA) | Prediction finding is this cohort’s; not independently GI | n/a | Causation Low; not Hart & Risley |
 | `dual-language-does-not-confuse.md` | Committee synthesis | No-confusion is the NAP conclusion, not a new RCT | n/a | Automatic cognitive bonus Low |
@@ -64,15 +64,15 @@ This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier 
 | `infant-pointing-as-shared-reference.md` | Observational meta | Colonnesi 2010 concurrent *r*=.52 / longitudinal *r*=.35; baby-sign products are a different, inconclusive literature | n/a | Product acceleration Low; not causation from pointing drills |
 | `infant-babbling-as-exploration.md` | Observational / clinical screening | Canonical-stage description independently used; late onset predicts later production in screened samples, not IQ in typical homes | n/a | Milestone ≠ intelligence; Petitto 1991 is a modality boundary, not an IQ test |
 | `paternal-age-de-novo-mutations.md` | Trio sequencing | Kong 2012 mutation-rate finding; outcome associations are a different claim | n/a for mutation rate | Forecast Low; first-pass |
-| `infant-social-referencing.md` | Laboratory experiment | Visual-cliff / ambiguous-toy referencing conceptually replicated | n/a | Attachment-verdict Low |
+| `infant-social-referencing.md` | Laboratory experiment | Visual-cliff / ambiguous-toy referencing conceptually replicated (Walden 1988) | n/a | **`stable`** for the *narrow* lab claim. Attachment-verdict Low. |
 | `infant-multiple-caregiver-attachments.md` | Observational / review | Multiple attachments described; network-dose untested | n/a | Network size is not a dose |
 | `toddler-peer-interaction.md` | Laboratory / observation | Coordinated peer activity increases across year two | n/a | Hours ≠ later character |
 | `embodied-perception-action.md` | Review of motor-development programs | Framework independently used; milestone→cognition is not | n/a | Milestone ranking Low |
 | `exploration-as-sampling.md` | Laboratory experiment | Stahl & Feigenson 2015 surprise→exploration | n/a | Transfer Low |
 | `infant-physical-reasoning.md` | Classic laboratory | VOE looking is standard; complete-theory reading is not | n/a | Finished physics Low |
-| `deferred-imitation.md` | Laboratory experiment | Meltzoff 1988 14-month one-week delay | n/a | Neonatal imitation not this card |
+| `deferred-imitation.md` | Laboratory experiment | Meltzoff 1988 14-month one-week delay | n/a | YAML aligned; still `draft` (one primary experiment; neonatal imitation not this card) |
 | `parent-implemented-language.md` | RCT meta (25 trials) | Expressive vocabulary modest; typical-development IQ is not | n/a | Not a screen or LENA-causation card |
-| `infant-still-face-paradigm.md` | Laboratory experiment | Still-face protest/re-engagement synthesized in Mesman 2009 | n/a | Attachment-verdict Low; co-regulation not rewritten |
+| `infant-still-face-paradigm.md` | Laboratory experiment | Still-face protest/re-engagement synthesized in Mesman 2009 | n/a | **`stable`** for the *narrow* procedure-effect claim. Attachment-verdict Low; co-regulation not rewritten. |
 | `temperament-reactivity-not-destiny.md` | Caregiver-report factor structure | Dimensional structure recovered; stability moderate | not classified | Destiny Low |
 | `behavioral-inhibition-anxiety-risk.md` | Longitudinal meta-analysis | Group social-anxiety odds elevated; individual forecast thin | not classified | Individual forecast Low; not stranger-wariness-as-attachment |
 | `executive-function-unity-diversity.md` | Psychometric / review | Unity-and-diversity framework; toddler structure Moderate | n/a | Not intelligence or character |

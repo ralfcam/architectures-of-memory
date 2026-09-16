@@ -1,6 +1,6 @@
-# Replication note — first `stable` physiology/lab candidates
+# Replication note — `stable` physiology/lab candidates
 
-Date: 2026-09-16. This note is the re-audit required before any `status: stable` flip. It covers the three strongest candidates named in `stable-promotion-candidates.md`. Other listed cards (`looking-time-as-measurement.md`, `infant-perceptual-narrowing.md`, timing/neural/contingency) stay `draft`.
+Date: 2026-09-16. This note is the re-audit required before any `status: stable` flip. It has two waves: a first wave of three narrow claims, then a second wave of four more after the v0.3 second-pass audit.
 
 Five promotion rules (from `catalog-wide-replication-attenuation.md`):
 
@@ -13,6 +13,10 @@ Five promotion rules (from `catalog-wide-replication-attenuation.md`):
 Grey-literature IDs (`who-anc-2016` and other WHO/NIH/Kramer listings) are not load-bearing primary IDs for a first `stable` card.
 
 ---
+
+# First wave — three narrow claims (v0.2/v0.3)
+
+This section is the first flip. It covers the three strongest candidates then named in `stable-promotion-candidates.md`. Other listed cards (`looking-time-as-measurement.md`, `infant-perceptual-narrowing.md`, timing/neural/contingency) stay `draft` *in this wave*. The second wave below supersedes those holds for narrowing and contingency.
 
 ## 1. `prenatal-folate-ntd.md` — promote the *narrow* NTD claim
 
@@ -67,3 +71,86 @@ Grey-literature IDs (`who-anc-2016` and other WHO/NIH/Kramer listings) are not l
 - Observational / GI-attenuated cards are not first-wave `stable` candidates.
 
 Zero cards are flipped unless every row above is green for that card. This note records that folate, Saffran, and neonatal transition now meet all five rules for their *narrow* High (or High-sequence) claims.
+
+---
+
+# Second wave — four additional *narrow* laboratory claims (after v0.3)
+
+Date: 2026-09-16. After the 65-card second-pass audit (`draft-cards--second-pass-audit.md`). This wave uses that audit as the basis: promote only where a small fix (independent conceptual replication already on the card, or one added source) clears all five rules for a *narrow* High claim. Sleep, attachment, and screen-time theory are not reopened. **No new cards.** Do not tag `v0.4`.
+
+The first-wave non-promotions above remain historically accurate for that pass. This section supersedes them for the four cards named here.
+
+---
+
+## 4. `infant-contingency-learning.md` — promote the *narrow* laboratory claim
+
+| Rule | Evidence |
+|---|---|
+| (1) Resolvable | Rovee & Rovee 1969 DOI `10.1016/0022-0965(69)90025-3`; Merz et al. 2017 PMC5716629; Cuevas et al. 2025 PMC12354038. All resolved this pass. |
+| (2) No retraction/EoC | None of the three records carries a retraction/EoC `update-to` in this lookup. |
+| (3) Replication / GI | Design class = laboratory operant. Cuevas 2025 treats the mobile paradigm as a reliable laboratory measure across decades (acquisition and retention increase with age; reminders reactivate; high context specificity). Incomplete processing parameters and the later turn toward agency do **not** block the narrow High, the same split as Saffran transfer staying Low. GI: **n/a**. |
+| (4) YAML = in-body | Already `high-controlled; low-transfer`. |
+| (5) WTDM | Unchanged: not miniature scientists, not a stimulation mandate, not destiny. |
+
+**Decision:** `status: stable` for the *narrow* controlled action–outcome claim only.
+
+---
+
+## 5. `infant-social-referencing.md` — promote the *narrow* laboratory claim
+
+| Rule | Evidence |
+|---|---|
+| (1) Resolvable | Sorce, Emde, Campos & Klinnert 1985 DOI `10.1037/0012-1649.21.1.195`; Walden & Ogan 1988 DOI `10.1111/j.1467-8624.1988.tb01492.x`. Both Crossref-resolved. |
+| (2) No retraction/EoC | Neither record carries a retraction/EoC `update-to`. |
+| (3) Replication / GI | Design class = laboratory experiment. Walden & Ogan 1988 is an independent program (different lab; ambiguous toys; skill across the first two years) — conceptual replication of referencing under uncertainty, not a household-attachment study. GI: **n/a**. |
+| (4) YAML = in-body | Already `high-lab; low-attachment-verdict`. |
+| (5) WTDM | Unchanged: a look is information use, not a purity test of the relationship. |
+
+**Decision:** `status: stable` for the *narrow* laboratory referencing-under-uncertainty claim only.
+
+---
+
+## 6. `infant-still-face-paradigm.md` — promote the *narrow* procedure-effect claim
+
+| Rule | Evidence |
+|---|---|
+| (1) Resolvable | Tronick et al. 1978 DOI `10.1016/S0002-7138(09)62273-1`; Mesman, van IJzendoorn & Bakermans-Kranenburg 2009 DOI `10.1016/j.dr.2009.02.001`. Both Crossref-resolved. |
+| (2) No retraction/EoC | Neither flagged. |
+| (3) Replication / GI | Design class = laboratory experiment. Mesman 2009 is a meta-analysis of the still-face *procedure effect* (protest/re-engagement), not a personality score. Co-regulation as a construct remains on `infant-caregiver-coregulation.md` and is not rewritten. GI: **n/a**. |
+| (4) YAML = in-body | Already `high-lab; low-attachment-verdict`. |
+| (5) WTDM | Unchanged: distress is information about broken contingency, not a purity test. |
+
+**Decision:** `status: stable` for the *narrow* procedure-effect claim only.
+
+---
+
+## 7. `infant-perceptual-narrowing.md` — promote the *narrow* laboratory attunement claim
+
+| Rule | Evidence |
+|---|---|
+| (1) Resolvable | Werker & Tees 1984 DOI `10.1016/S0163-6383(84)80022-3`; Kuhl, Williams, Lacerda, Stevens & Lindblom 1992 *Science* DOI `10.1126/science.1736364` (added this pass). Both Crossref-resolved. |
+| (2) No retraction/EoC | Neither record carries a retraction/EoC `update-to`. |
+| (3) Replication / GI | Design class = laboratory experiment. Kuhl 1992 is an independent lab (University of Washington vs UBC) showing experience-dependent phonetic perception by 6 months (vowels rather than Hindi/Salish consonants) — conceptual replication of attunement, analogue to Aslin 1998 for Saffran. A universal 6–12-month timetable is **not** replicated and remains Moderate. Sealed-deadline / later-language-closed is **not** replicated and remains Low. GI: **n/a**. |
+| (4) YAML = in-body | Already `high-lab; moderate-timetable; low-sealed-deadline`. |
+| (5) WTDM | Unchanged: not a rigid deadline after which a second language cannot be learned; not dual-language confusion. |
+
+**Decision:** `status: stable` for the *narrow* laboratory attunement claim only.
+
+---
+
+## Explicit non-promotions (this second wave)
+
+These cards were re-checked because a YAML/in-body mismatch, a single-source High grade, or a second-pass “plausible next” listing might have looked promotable after a small fix. None clears all five rules.
+
+| Card | Why still `draft` |
+|---|---|
+| `looking-time-as-measurement.md` | Rule 3: Aslin 2007 is a **methods essay**, not a second independent experiment of a specific looking claim. The live issue is rich-interpretation *linking hypotheses*, not whether looking can index discrimination. Baillargeon 1987 is a different identification (`object-permanence-looking-vs-search.md`). High-method is a methods judgment, not a replicated experimental result. |
+| `deferred-imitation.md` | Rule 3: one primary experiment (Meltzoff 1988). YAML `confidence` and `description` previously said 9-month 24-hour; body and Meltzoff 1988 are **14-month one-week**. This pass **aligns YAML/description** to the paper and still holds the card: a YAML fix is not a second experiment. Neonatal imitation is a different controversy. |
+| `dual-language-does-not-confuse.md` | Rule 3: NAP 2017 is a **committee synthesis**, not an independent experimental pair on this card. Automatic cognitive bonus stays Low. |
+| `infant-babbling-as-exploration.md` | Rule 3: Oller 1999 is spoken-stage screening; Petitto & Marentette 1991 is a **different modality** (manual babbling), not an independent replication of the same spoken-stage identification. |
+| `pretend-play-educational-claims.md` | Rule 3: Lillard 2013 is **one systematic narrative review**. Overclaim is the finding; a second independent review package is not on the card. |
+| Timing / neural construction | Still first-pass / review-level, as in the first wave. |
+
+Observational / GI-attenuated cards (prenatal stress, breastfeeding IQ, Watts delay) and remaining-domain cards stay `draft`. Sleep, attachment-intervention, and screen theory are not reopened.
+
+Catalog after this wave: **68** live cards; **7** `stable` (narrow); **61** `draft`. **114** verified `SOURCES.md` IDs (`kuhl-1992` added). No new cards. No `v0.4` tag.

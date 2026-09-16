@@ -50,7 +50,7 @@ A case that looks like rejection is sometimes a procedure.
 
 In the still-face procedure, a familiar adult who has been interacting normally becomes suddenly unresponsive. Infants typically reduce smiling, increase negative affect and gaze aversion, and often try to re-engage. Tronick and colleagues established the laboratory signature. Mesman, van IJzendoorn and Bakermans-Kranenburg synthesized decades of replications: the protest and re-engagement pattern is robust as a *procedure effect*, not as a personality score.
 
-**Grade: High** that infants detect and react to a sudden loss of expected social contingency under this procedure. **Grade: Low** that still-face intensity diagnoses attachment security, parenting quality, or later emotional destiny. The evidence card is `infant-still-face-paradigm.md`.
+**Grade: High** that infants detect and react to a sudden loss of expected social contingency under this procedure. **Grade: Low** that still-face intensity diagnoses attachment security, parenting quality, or later emotional destiny. The evidence card is `infant-still-face-paradigm.md`. That *procedure* claim is `status: stable`.
 
 The design is experimental: the same adult, the same infant, a controlled change in contingency. That is stronger than a correlational “synchrony score.” It is still a laboratory episode. Heterogeneity by age, coding, and recovery-period measurement is real. The reunion minutes after the still face — whether the infant can use the returning adult — are as informative as the protest itself, and they are measured less uniformly. A difficult still-face session is not a written life. A smooth one is not a guarantee.
 
@@ -142,7 +142,7 @@ The look that organized a step in Chapter 8 was already an emotional act: using 
 
 ## Linked evidence cards
 
-- `evidence-cards/infant-still-face-paradigm.md` (CH09-C01b)
+- `evidence-cards/infant-still-face-paradigm.md` (CH09-C01b; `stable` for the procedure-effect claim)
 - `evidence-cards/temperament-reactivity-not-destiny.md` (CH09-C03)
 - `evidence-cards/behavioral-inhibition-anxiety-risk.md` (CH09-C06)
 - Reconcile only: `evidence-cards/infant-caregiver-coregulation.md`

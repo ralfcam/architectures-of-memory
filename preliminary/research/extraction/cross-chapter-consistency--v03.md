@@ -24,7 +24,7 @@ Read every curated `chapters/0N-*.md` for those six terms. A term is *coherent* 
 1. **Chapter 2 length.** Curated Ch. 2 is ~2,358 words (slightly under Appendix B). Not padded in this pass.
 2. **Chapter 14 form.** Numbered intervention architecture rather than the 10-step rhythm. This pass adds a visible Science / Interpretation / Art beat; it does not convert Ch. 14 into a 10-step essay.
 3. **Held leftovers that are still correctly held:** neonatal perception and mode of delivery (Ch. 3); routines/modeling (Ch. 10); dedicated WM/shifting and private speech (Ch. 11); guided-play efficacy and ToM-transfer (Ch. 12).
-4. **“Regulation” as a family resemblance.** A future pass could add a one-line crosswalk in Ch. 11 (“this is EF, not Ch. 4’s co-regulation”) — already present in spirit; not duplicated here as a new theory.
+4. **“Regulation” as a family resemblance.** This pass adds a one-line crosswalk in Ch. 11: EF is not Chapter 4’s co-regulation. Stopping a reach on a battery is not bidirectional repair in a relationship.
 
 ## Prohibited inferences this note itself refuses
 
