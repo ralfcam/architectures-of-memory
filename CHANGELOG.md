@@ -12,6 +12,8 @@ Entry types:
 ## [Unreleased]
 
 ### Structure
+- Classified replication/genetically informed attenuation for every live card (`preliminary/research/extraction/catalog-wide-replication-attenuation.md`). **No card moved to `status: stable`.**
+- Citation-repaired `screen-time-language-development.md`: `madigan-2020` now points at Madigan et al. 2020 *JAMA Pediatrics* (DOI 10.1001/jamapediatrics.2020.0327). Jing, Ye, Kirkorian & Mares 2023 *Child Development* is a separate vocabulary meta-analysis (`jing-2023-cdev`). Grade unchanged.
 - Repaired the five remaining no-DOI listings and ran a catalog-wide Retraction Watch dump (`preliminary/research/extraction/five-listings-and-retraction-watch-dump.md`). `hiscock-2016` retired and replaced by Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020. WHO/NIH/Kramer 1987 now have IRIS or NIH identifiers. **No card moved to `status: stable`.**
 - Promoted a curated, voice-checked Chapter 5 (`chapters/05-becoming-a-mind.md`) in the Appendix B range. Archival draft untouched. Looking-time, attention, object-permanence, and joint-attention cards added; narrowing, statistical-segmentation, and contingency cards reconciled, not rewritten.
 - Recovered DOIs for 15 of 20 previously Crossref-unchecked catalog IDs and queried Crossref/PubMed/Retraction Watch (`preliminary/research/extraction/doi-recovery-retraction-watch.md`). Five IDs remain without a journal DOI (WHO, NICHD report, 1987 bulletin, mismatched sleep listing). **No card moved to `status: stable`.**
@@ -43,11 +45,13 @@ Entry types:
 - Source-audited remaining Chapter 3 C04/C05/C07: added crying-as-signal, suck–swallow–breathe, and preterm group-risk cards.
 - Source-audited Chapter 4 C04: added `responsive-feeding-as-regulation.md`.
 - Source-audited Chapter 5 C01/C03/C06/C07: added looking-time, attention, object-permanence, and joint-attention cards. Narrowing, statistical-segmentation, and contingency cards reconciled, not rewritten.
+- Source-audited remaining Chapter 7 C05/C06: added pointing and babbling cards. Parent-implemented interventions still open. Screen-time card IDs repaired, not re-theorized.
 
 ### Revised
 - Aligned YAML `confidence` on all eight first-pass cards with in-body grades (cards remain `status: draft`).
 - Resolved the 12 previously unresolved `SOURCES.md` citations (two were already verified; two titles were corrected to the matching papers).
 - Citation-repaired `infant-sleep-training.md`: retired `hiscock-2016`; identified Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020. Harm claim and Low-to-Moderate grade unchanged.
+- Citation-repaired `screen-time-language-development.md`: separated Madigan 2020 *JAMA Pediatrics* from Jing et al. 2023 *Child Development*. Low-to-Moderate grade unchanged.
 
 
 ## [2026-09-14]

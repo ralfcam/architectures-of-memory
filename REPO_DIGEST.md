@@ -1,6 +1,6 @@
 # Parenthood: The Atlas — Repository Digest
 
-Snapshot of `ralfcam/parenthood-atlas` as of 2026-09-15. This file is a map for humans and agents: what the repo is, where canonical vs staging work lives, how content is supposed to move, and what is currently inconsistent.
+Snapshot of `ralfcam/parenthood-atlas` as of 2026-09-16. This file is a map for humans and agents: what the repo is, where canonical vs staging work lives, how content is supposed to move, and what is currently inconsistent.
 
 This is a **markdown knowledge base and book workbench**, not an application. There is no runtime, package manager, test suite, or CI.
 
@@ -65,8 +65,8 @@ REPO_DIGEST.md            This map
 CONTRIBUTING.md           Evidence-card methodology
 CHANGELOG.md              Knowledge-base version history
 COMPOSITION.md            Book compositional grammar
-SOURCES.md                Master source catalog (69 verified)
-evidence-cards/           36 draft cards + template + index
+SOURCES.md                Master source catalog (74 verified)
+evidence-cards/           38 draft cards + template + index
 chapters/                 Working 15-chapter TOC; curated Ch. 2, 3, 4, 5, 6, and 7; seed sketch for Ch. 2 only
 style/                    Voice/style constraints for manuscript prose
 preliminary/              Staging area (research notes + chapter drafts)
@@ -120,7 +120,7 @@ Certainty grades: High / Moderate / Low / Very Low.
 
 OKF bundle root: `index.md` (`okf_version: "0.2"`).
 
-Thirty-six cards, all `status: draft`. YAML `confidence` is aligned with in-body grades. A first selected-card re-audit, a catalog-wide Crossref/PubMed lookup, a DOI-recovery pass, and a Retraction Watch dump (`preliminary/research/extraction/five-listings-and-retraction-watch-dump.md`) moved **none** to `stable`. See `evidence-cards/index.md` for the full list. Chapter 2 has draft cards for C01–C12. Chapter 3 has transition, SSC, crying, feeding-coordination, and preterm cards. Chapter 4 has co-regulation, deprivation, and feeding-as-regulation cards (sleep/attachment citation-repaired, not re-theorized). Chapter 5 has looking-time, attention, object-permanence, and joint-attention cards (narrowing/statistical/contingency reconciled). Chapter 6 has a contingency-learning card. Chapter 7 has perceptual-narrowing, statistical-segmentation, conversational-turns, and dual-language cards (screens reconciled).
+Thirty-eight cards, all `status: draft`. YAML `confidence` is aligned with in-body grades. A first selected-card re-audit, a catalog-wide Crossref/PubMed lookup, a DOI-recovery pass, a Retraction Watch dump, and a catalog-wide replication/attenuation classification (`preliminary/research/extraction/catalog-wide-replication-attenuation.md`) moved **none** to `stable`. See `evidence-cards/index.md` for the full list. Chapter 2 has draft cards for C01–C12. Chapter 3 has transition, SSC, crying, feeding-coordination, and preterm cards. Chapter 4 has co-regulation, deprivation, and feeding-as-regulation cards (sleep/attachment citation-repaired, not re-theorized). Chapter 5 has looking-time, attention, object-permanence, and joint-attention cards (narrowing/statistical/contingency reconciled). Chapter 6 has a contingency-learning card. Chapter 7 has perceptual-narrowing, statistical-segmentation, conversational-turns, dual-language, pointing, and babbling cards (screens ID-repaired).
 
 The eight first-pass cards plus C05/C07 remain as in the previous digest table. New Chapter 2 cards: `prenatal-developmental-timing.md`, `placenta-as-mediator.md`, `prenatal-neural-construction.md`, `fetal-autonomic-maturation.md`, `prenatal-iodine-thyroid.md`, `prenatal-alcohol-fasd.md`, `prenatal-tobacco-birthweight.md`, `prenatal-environmental-mixtures.md`, `fetal-growth-not-destiny.md`.
 
@@ -153,6 +153,8 @@ The eight first-pass cards plus C05/C07 remain as in the previous digest table. 
 | `infant-attention-as-gatekeeper.md` | cognition | `moderate-functions; low-trait` | Attention is a family of processes, not a character verdict |
 | `object-permanence-looking-vs-search.md` | cognition | `moderate-looking-sensitivity; low-complete-concept` | Looking-time occlusion sensitivity ≠ search ≠ a finished object concept |
 | `joint-attention-shared-reference.md` | cognition / social | `moderate-construct; low-isolated-training` | Shared reference is real; not a language guarantee |
+| `infant-pointing-as-shared-reference.md` | language / social | `moderate-reference; low-product` | Pointing predicts language; baby-sign products are a different claim |
+| `infant-babbling-as-exploration.md` | language | `high-canonical-stage; low-iq-verdict` | Canonical babbling is exploration; not an IQ or parenting score |
 
 ### Declared but missing evidence cards
 
@@ -163,15 +165,15 @@ From `evidence-cards/index.md` "Not Yet Started":
 - Play (unstructured/free play, pretend play, outdoor play)
 - Social development beyond attachment (peers, siblings, daycare socialization)
 
-Priority domains in `README.md` that still lack cards include preconception, play, and several feeding/language/stress subtopics beyond the thirty-six current cards.
+Priority domains in `README.md` that still lack cards include preconception, play, and several feeding/language/stress subtopics beyond the thirty-eight current cards.
 
 ### Sources
 
 `SOURCES.md` is the catalog of record:
 
-- **69 verified** resources with URLs, mirrored in the file's OKF `sources` array
+- **74 verified** resources with URLs, mirrored in the file's OKF `sources` array
 - **12 first-pass unresolved citations resolved** (two were already in the verified table; two titles were corrected to the matching papers). Resolution log lives under Unresolved Citations.
-- Catalog itself is `status: draft`. The five remaining no-DOI listings are repaired (`hiscock-2016` retired). A Retraction Watch dump found no retraction/EoC titles among DOI-resolved records. None promoted to `stable`.
+- Catalog itself is `status: draft`. The five remaining no-DOI listings are repaired (`hiscock-2016` retired). A Retraction Watch dump found no retraction/EoC titles among DOI-resolved records. Replication/attenuation is now classified catalog-wide. `madigan-2020` ID repaired. None promoted to `stable`.
 
 ---
 
@@ -299,7 +301,7 @@ The repo was initialized 2026-09-14 (KB structure, 8 evidence cards, OKF retrofi
 4. **`atlas_domains` / `chapter_hooks`** are on the newer cards; most first-pass cards still omit them.
 5. **Draft citation artifacts.** `chapter 14` has 29 `:contentReference[oaicite:…]` leftovers; listed as a promotion blocker in `preliminary/triage/ch14-what-actually-works--triage.md`. Do not overwrite the archival draft.
 6. **Binary research files.** Most of `preliminary/research/` is `.docx`; grep/search will miss them.
-7. **Catalog-wide retraction lookup is complete for DOI-resolved records** (Crossref + OpenAlex `is_retracted` + PubMed PTs). No retraction/EoC titles. Cochrane `new_version` flags remain successor reviews. Grey-literature IDs (NICHD 05-4318, two WHO IRIS handles, Kramer 1987) have no journal DOI and are now identified rather than missing. `hiscock-2016` retired. None moved to `stable`.
+7. **Catalog-wide retraction lookup is complete for DOI-resolved records** (Crossref + OpenAlex `is_retracted` + PubMed PTs). No retraction/EoC titles. Cochrane `new_version` flags remain successor reviews. Grey-literature IDs (NICHD 05-4318, two WHO IRIS handles, Kramer 1987) have no journal DOI and are now identified rather than missing. `hiscock-2016` retired. Replication/attenuation is now classified catalog-wide; **none moved to `stable`**. `madigan-2020` now points at the 2020 *JAMA Pediatrics* meta-analysis.
 8. **No tests or lint.** Quality control is methodological (CONTRIBUTING + voice checklist), not automated.
 9. **Do not invent prescriptions.** If evidence does not justify an action, say so.
 11. **`hiscock-2016` identification mismatch is repaired.** The ID is retired. Sleep card now cites Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020 plus Price 2012. Harm claim still `draft`.
@@ -308,12 +310,11 @@ The repo was initialized 2026-09-14 (KB structure, 8 evidence cards, OKF retrofi
 
 ## 11. Suggested next work
 
-Done in this package: repaired the five remaining no-DOI listings (especially `hiscock-2016`); finished a Retraction Watch dump with none to `stable`; extracted and voice-checked Chapter 5.
+Done in this package: classified replication/attenuation for every live card (none to `stable`); repaired the Madigan 2020 vs Jing 2023 screen-time ID mismatch; extracted Chapter 7 pointing and babbling cards. Parent-implemented language interventions remain open.
 
 Highest-leverage remaining knowledge-base work:
 
-- Replication/attenuation classification is still not catalog-wide; that remains a `stable` promotion blocker.
-- Source-audit remaining Chapter 7 dossier cards (gesture, babbling, parent-implemented interventions) if Chapter 7 needs a second evidence pass. Joint attention now has a Ch. 5 card.
+- Source-audit remaining Chapter 7 parent-implemented intervention claims if Chapter 7 needs a third evidence pass.
 - Source-audit remaining Chapter 6 dossier cards (embodied action, exploration, causal representation, imitation) if Chapter 6 needs a second evidence pass.
 - Chapter 3 neonatal perception (C03) and mode of delivery remain open/held. Deferred imitation remains open for Chapter 5.
 

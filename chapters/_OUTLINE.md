@@ -14,7 +14,7 @@ Each chapter should still follow the 10-step rhythm in `COMPOSITION.md` Appendix
 | 4 | The Regulatory Relationship | `preliminary/drafts-chapters/chapter 4` (archival) | Ch. 4 dossier | **Promoted curated copy:** `chapters/04-regulatory-relationship.md` (replaces prior seed sketch). Feeding-as-regulation card added; sleep/attachment not rewritten. |
 | 5 | Becoming a Mind | `preliminary/drafts-chapters/chapter 5` (archival) | Ch. 5 plan + dossier | **Promoted curated copy:** `chapters/05-becoming-a-mind.md`. Looking-time, attention, object-permanence, and joint-attention cards added; narrowing/statistical/contingency reconciled. |
 | 6 | The Mind in Motion | `preliminary/drafts-chapters/chapter 6` (archival) | Ch. 6 dossier | **Curated expansion:** `chapters/06-the-mind-in-motion.md`. Linked card: `infant-contingency-learning.md`. |
-| 7 | The Birth of Language | `preliminary/drafts-chapters/chapter 7` (archival) | Ch. 7 plan + synthesis | **Promoted curated copy:** `chapters/07-the-birth-of-language.md`. Linked cards: perceptual narrowing, statistical segmentation, conversational turns, dual language. Screens reconciled, not rewritten. |
+| 7 | The Birth of Language | `preliminary/drafts-chapters/chapter 7` (archival) | Ch. 7 plan + synthesis | **Promoted curated copy:** `chapters/07-the-birth-of-language.md`. Linked cards: perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling. Screens ID-repaired, not re-theorized. |
 | 8 | The Expanding World | `preliminary/drafts-chapters/chapter 8.md` | Ch. 8 plan + synthesis | |
 | 9 | The Emotional Revolution | `preliminary/drafts-chapters/Chapter 9.md` | Ch. 9 plan | |
 | 10 | Boundaries, Behavior, and the First Rules | `preliminary/drafts-chapters/Chapter 10.md` | Ch. 10 dossier | Seed Ch. 8 “Morality and Rules” is absorbed here, not a separate book chapter. |
@@ -94,7 +94,9 @@ All remain `status: draft`.
 - `infant-statistical-speech-segmentation.md` (CH07-C02)
 - `conversational-turns-language.md` (CH07-C07/C08)
 - `dual-language-does-not-confuse.md` (CH07-C09)
+- `infant-pointing-as-shared-reference.md` (CH07-C05)
+- `infant-babbling-as-exploration.md` (CH07-C06)
 - Adjacent Chapter 5: `joint-attention-shared-reference.md` (CH07-C04; extracted with Ch. 5)
 - Adjacent: `prenatal-auditory-learning.md` (CH02-C05; not re-extracted)
-- Reconcile only: `screen-time-language-development.md`
+- Reconcile only: `screen-time-language-development.md` (Madigan 2020 vs Jing 2023 IDs repaired)
 - Adjacent Chapter 3 signal: `infant-crying-as-signal.md`

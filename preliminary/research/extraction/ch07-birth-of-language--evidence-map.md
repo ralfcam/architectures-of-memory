@@ -15,7 +15,7 @@ Related: [draft](../../drafts-chapters/chapter%207) · [source audit](ch07-langu
 | C07-D | `preliminary/drafts-chapters/chapter 7` | Archival prose (~4,908 words). Untouched. |
 | Live card (reconcile only) | `screen-time-language-development.md` | Already in the KB. |
 | Adjacent Ch. 2 | `prenatal-auditory-learning.md` | Prenatal preference; not re-extracted. |
-| New cards | `infant-perceptual-narrowing.md`, `infant-statistical-speech-segmentation.md`, `conversational-turns-language.md`, `dual-language-does-not-confuse.md` | This package. |
+| New cards | `infant-perceptual-narrowing.md`, `infant-statistical-speech-segmentation.md`, `conversational-turns-language.md`, `dual-language-does-not-confuse.md`, `infant-pointing-as-shared-reference.md`, `infant-babbling-as-exploration.md` | Language package plus remaining C05/C06. |
 
 C07-S1 is a much larger synthesis (likely embedded media). Treat as `duplicate/alternate`. Named studies were taken from C07-P1’s claim register and verified independently.
 
@@ -64,7 +64,8 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 | Field | Content |
 |---|---|
 | Claim | Pointing can coordinate two minds around one thing; commercial infant sign packages are a different claim. |
-| Label | `needs-source-audit`. |
+| Sources | Colonnesi et al. 2010 *Developmental Review* DOI 10.1016/j.dr.2010.10.001; Fitzpatrick et al. 2014 *First Language* DOI 10.1177/0142723714562864. |
+| Label | `promote` — card `evidence-cards/infant-pointing-as-shared-reference.md` |
 | Grade | Moderate as shared reference; Low for product acceleration of typical speech. |
 
 ### CH07-C06 — Babbling as exploration, not an IQ test
@@ -72,7 +73,9 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 | Field | Content |
 |---|---|
 | Claim | Canonical babbling is motor, sensory, and social practice; milestone differences are not parental verdicts. |
-| Label | `needs-source-audit` (including manual babbling). Adjacent to Ch. 6 contingency. |
+| Sources | Oller et al. 1999 DOI 10.1016/s0021-9924(99)00013-1 PMID 10466095; Petitto & Marentette 1991 DOI 10.1126/science.2006424 (manual-modality boundary). |
+| Label | `promote` — card `evidence-cards/infant-babbling-as-exploration.md` |
+| Grade | High canonical stage; Low IQ/parenting verdict. Adjacent to Ch. 6 contingency. |
 
 ### CH07-C07 / C08 — Turns versus word counts
 
@@ -98,7 +101,7 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 |---|---|
 | Claim | Screen exposure is decomposable; quantity is negatively associated, co-viewing and educational content buffer in some syntheses. |
 | Label | **Reconcile only** — existing `screen-time-language-development.md`. Do not re-extract. |
-| Known inconsistency | Frontmatter `madigan-2020` URL/title currently point at a 2023 *Child Development* vocabulary meta-analysis; body leads with Madigan et al. 2020 *JAMA Pediatrics*. Recorded, not repaired. |
+| Known inconsistency | Frontmatter `madigan-2020` previously pointed at Jing et al. 2023 *Child Development* (10.1111/cdev.13927) while the body led with Madigan et al. 2020 *JAMA Pediatrics*. **Repaired 2026-09-16:** `madigan-2020` → 10.1001/jamapediatrics.2020.0327; Jing 2023 registered as `jing-2023-cdev`. Grade unchanged. |
 | Grade | Low-to-Moderate (unchanged). |
 
 ---
@@ -115,7 +118,7 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 
 ## 4. Promotion blockers for this curated Chapter 7
 
-- Four new cards plus prenatal-auditory exist (`draft`, not `stable`).
+- Four language cards plus pointing, babbling, and prenatal-auditory exist (`draft`, not `stable`).
 - Voice-review of the curated copy: `preliminary/drafts-chapters/reviews/ch07-curated-07-the-birth-of-language--voice-review.md`.
 - Archival `preliminary/drafts-chapters/chapter 7` must not be overwritten.
-- Joint attention, gesture, babbling, and parent-implemented interventions remain open for later cards.
+- Parent-implemented interventions remain open for a later card. Joint attention is a Chapter 5 card.

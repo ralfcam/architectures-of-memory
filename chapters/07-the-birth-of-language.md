@@ -106,7 +106,7 @@ This is why gesture deserves a place in the story of language that the phrase â€
 
 Gesture often precedes or accompanies early speech and has been associated longitudinally with later vocabulary. Prediction is not causation. A child who gestures early may also be a child with stronger attention, motor control, and social engagement. The gesture may be a scaffold. It may also be a marker. The evidence does not require choosing once and for all.
 
-Commercial programs that teach arbitrary signs to typically developing hearing infants are a different claim. Naturally emerging gesture is part of communication. That does not mean every gesture-training package produces additional language growth. Gesture remains `needs-source-audit` in this package. **Grade: Moderate** that pointing can function as shared reference; **Low** that sign-training products accelerate typical spoken language.
+Commercial programs that teach arbitrary signs to typically developing hearing infants are a different claim. Naturally emerging gesture is part of communication. That does not mean every gesture-training package produces additional language growth. See `infant-pointing-as-shared-reference.md`. **Grade: Moderate** that pointing can function as shared reference; **Low** that sign-training products accelerate typical spoken language.
 
 ## The mouth learns by trying
 
@@ -118,7 +118,7 @@ The process resembles the exploratory learning in Chapter 6. Action generates in
 
 A caregiver may imitate the sound. The child may repeat it. A turn-taking rhythm emerges. Babbling is simultaneously motor practice, sensory learning, and social participation. It is not a performance test of intelligence. Differences in vocal milestones are not automatically judgments about parenting.
 
-Research on infants exposed to sign language has identified rhythmic, repetitive manual behaviors sometimes described as manual babbling. That observation matters because it separates the capacity for language production from the mere maturation of the vocal tract. The system need not be spoken to be real. Manual babbling is not a card here; it is a boundary on the spoken-only story.
+Research on infants exposed to sign language has identified rhythmic, repetitive manual behaviors sometimes described as manual babbling (Petitto & Marentette 1991). That observation matters because it separates the capacity for language production from the mere maturation of the vocal tract. The system need not be spoken to be real. See `infant-babbling-as-exploration.md`.
 
 ## When a sound becomes a word
 
