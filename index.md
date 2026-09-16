@@ -26,9 +26,16 @@ A longitudinal evidence atlas of developmental science, spanning approximately o
 * [Chapter 5 — Becoming a Mind](chapters/05-becoming-a-mind.md) - Curated, voice-checked chapter (looking-time, attention, object permanence, joint attention; narrowing/statistical/contingency reconciled).
 * [Chapter 6 — The Mind in Motion](chapters/06-the-mind-in-motion.md) - Curated expansion (contingency, embodiment, exploration, physical reasoning, deferred imitation named in-body).
 * [Chapter 7 — The Birth of Language](chapters/07-the-birth-of-language.md) - Curated, voice-checked chapter (joint attention, parent-implemented, statistical `stable` lab; screens ID-repaired).
+* [Chapter 8 — The Expanding World](chapters/08-the-expanding-world.md) - Curated, voice-checked chapter (referencing, networks, peers, father/kin; childcare/BEIP reconciled).
+* [Chapter 9 — The Emotional Revolution](chapters/09-the-emotional-revolution.md) - Curated, voice-checked chapter (still-face, temperament, inhibition; co-regulation/delay reconciled).
+* [Chapter 10 — Boundaries, Behavior, and the First Rules](chapters/10-boundaries-behavior.md) - Curated, voice-checked chapter (committed compliance, aggression trajectories, physical punishment).
+* [Chapter 11 — The Developing Executive](chapters/11-the-developing-executive.md) - Curated, voice-checked chapter (EF unity/diversity, inhibitory control; Watts delay reconciled).
+* [Chapter 12 — Play, Imagination, and Meaning](chapters/12-play-imagination.md) - Curated, voice-checked chapter (symbolic play; Lillard overclaim; exploration/embodiment/peers reconciled).
+* [Chapter 13 — The Ecology of Development](chapters/13-the-ecology-of-development.md) - Curated, voice-checked chapter (income/cash, neighborhood mobility; childcare/BEIP/preschool RCT reconciled).
 * [Chapter 14 — What Actually Works?](chapters/14-what-actually-works.md) - Curated, voice-checked copy in the Appendix B range; `:contentReference` artifacts stripped.
 * [v0.1 release slice](preliminary/releases/v0.1-slice.md) - **Tagged** on `main` at `c7c2a7a`: Prenatal through Language (Ch. 1–7) + What Actually Works.
-* [v0.2 release slice](preliminary/releases/v0.2-slice.md) - Plan for curated Chapters 8–13; tag on `main` after voice reviews.
+* [v0.2 release slice](preliminary/releases/v0.2-slice.md) - Curated Chapters 8–13; tag `v0.2` on `main` after this PR merges.
+* [v0.3 release slice](preliminary/releases/v0.3-slice.md) - Plan for curated Chapter 15 plus remaining domains.
 * [Corpus Manifest](preliminary/MANIFEST.md) - Inventory of every preliminary file, overlaps, and promotion destinations.
 * [Chapter 2 Evidence Map](preliminary/research/extraction/ch02-first-environment--evidence-map.md) - First extraction test: 13 claims grouped into likely cards, with source and causal labels.
 * [Chapter 3 Evidence Map](preliminary/research/extraction/ch03-great-transition--evidence-map.md) - Transition physiology, bounded skin-to-skin, crying, feeding coordination, preterm group risk.

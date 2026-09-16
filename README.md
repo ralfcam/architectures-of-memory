@@ -53,4 +53,4 @@ See `CONTRIBUTING.md` for full evidence-evaluation methodology (identification s
 
 ## Status
 
-Active research synthesis in progress. See `CHANGELOG.md` for version history. Tagged snapshot **`v0.1`** (Prenatal through Language + What Actually Works) is on `main` at `c7c2a7a`. A planned v0.2 (curated Chapters 8–13) is defined in `preliminary/releases/v0.2-slice.md`.
+Active research synthesis in progress. See `CHANGELOG.md` for version history. Tagged snapshot **`v0.1`** (Prenatal through Language + What Actually Works) is on `main` at `c7c2a7a`. Curated Chapters 8–13 (v0.2 manuscript slice) are in `chapters/`; tag `v0.2` on `main` after that curation PR merges. A planned v0.3 (curated Chapter 15 + remaining domains) is defined in `preliminary/releases/v0.3-slice.md`.

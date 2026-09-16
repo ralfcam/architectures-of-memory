@@ -72,9 +72,9 @@ Sixty-three evidence cards. **Three** physiology/lab cards are `status: stable` 
 
 * Preconception exposures - Kong paternal-age card exists; other nutrients beyond folate and sperm-epigenetic stories remain planned (`preconception--extraction-plan.md`).
 * Birth - mode of delivery and birth experience (held); skin-to-skin, crying, feeding coordination, and preterm group risk now have cards; neonatal transition is `stable` for the sequence claim.
-* Play - symbolic/pretend emergence and Lillard overclaim cards exist (`ch12-play-imagination--evidence-map.md`). Outdoor/risky play and guided-play efficacy still `needs-source-audit`. Embodiment/exploration remain Chapter 6.
-* Social development beyond attachment - referencing, networks, peers, and father/kin/sibling cards exist; Chapter 9 still-face/temperament/inhibition and Chapter 10 compliance/aggression/punishment cards added. Warneken helping still `needs-source-audit`.
-* Ecology / policy - income-cash (Baby’s First Years) and neighborhood-mobility (MTO) cards exist; employment/leave and food security still `needs-source-audit`. Childcare/BEIP/preschool RCT reconciled, not rewritten.
-* Age-3 waypoint - rank-order continuity, self-control gradient, and ordinary-resilience cards exist (`ch15-three-years--evidence-map.md`). No curated Chapter 15 yet.
+* Play - symbolic/pretend emergence and Lillard overclaim cards exist; curated Chapter 12 exists. Outdoor/risky play and guided-play efficacy still `needs-source-audit`. Embodiment/exploration remain Chapter 6.
+* Social development beyond attachment - referencing, networks, peers, father/kin/sibling, still-face/temperament/inhibition, and compliance/aggression/punishment cards exist; curated Chapters 8–10 exist. Warneken helping still `needs-source-audit`.
+* Ecology / policy - income-cash (Baby’s First Years) and neighborhood-mobility (MTO) cards exist; curated Chapter 13 exists; employment/leave and food security still `needs-source-audit`. Childcare/BEIP/preschool RCT reconciled, not rewritten.
+* Age-3 waypoint - rank-order continuity, self-control gradient, and ordinary-resilience cards exist (`ch15-three-years--evidence-map.md`). No curated Chapter 15 yet (v0.3).
 
 Add a new file per topic using `_TEMPLATE.md`, then list it here, register its sources in `../SOURCES.md`, and log the addition in `../CHANGELOG.md`.

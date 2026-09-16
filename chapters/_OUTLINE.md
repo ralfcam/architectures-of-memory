@@ -15,12 +15,12 @@ Each chapter should still follow the 10-step rhythm in `COMPOSITION.md` Appendix
 | 5 | Becoming a Mind | `preliminary/drafts-chapters/chapter 5` (archival) | Ch. 5 plan + dossier | **Promoted curated copy:** `chapters/05-becoming-a-mind.md`. Looking-time, attention, object-permanence, and joint-attention cards added; narrowing/statistical/contingency reconciled. |
 | 6 | The Mind in Motion | `preliminary/drafts-chapters/chapter 6` (archival) | Ch. 6 dossier | **Curated expansion:** `chapters/06-the-mind-in-motion.md`. Linked cards: contingency, embodiment, exploration, physical reasoning, deferred imitation. |
 | 7 | The Birth of Language | `preliminary/drafts-chapters/chapter 7` (archival) | Ch. 7 plan + synthesis | **Promoted curated copy:** `chapters/07-the-birth-of-language.md`. Linked cards: perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling, parent-implemented language. Screens ID-repaired, not re-theorized. |
-| 8 | The Expanding World | `preliminary/drafts-chapters/chapter 8.md` | Ch. 8 plan + synthesis | Triage + evidence map + four draft cards (remainder: father/kin). No curated copy yet. |
-| 9 | The Emotional Revolution | `preliminary/drafts-chapters/Chapter 9.md` | Ch. 9 plan | Triage + evidence map + three draft cards. No curated copy yet. |
-| 10 | Boundaries, Behavior, and the First Rules | `preliminary/drafts-chapters/Chapter 10.md` | Ch. 10 dossier | Triage + evidence map + three draft cards. Seed Ch. 8 “Morality and Rules” is absorbed here. No curated copy yet. |
-| 11 | The Developing Executive | `preliminary/drafts-chapters/chapter 11` | Ch. 11 dossier | Triage + evidence map + two draft cards; Watts delay reconciled. No curated copy yet. |
-| 12 | Play, Imagination, and Meaning | `preliminary/drafts-chapters/chapter 12` | Ch. 12 plan | Triage + evidence map + two draft cards. No curated copy yet. |
-| 13 | The Ecology of Development | `preliminary/drafts-chapters/chapter 13` | Ch. 13 plans | Triage + evidence map + two draft cards (income/cash, MTO). No curated copy yet. |
+| 8 | The Expanding World | `preliminary/drafts-chapters/chapter 8.md` | Ch. 8 plan + synthesis | **Promoted curated copy:** `chapters/08-the-expanding-world.md`. Four draft cards; childcare/BEIP reconciled. |
+| 9 | The Emotional Revolution | `preliminary/drafts-chapters/Chapter 9.md` | Ch. 9 plan | **Promoted curated copy:** `chapters/09-the-emotional-revolution.md`. Three draft cards; co-regulation/delay reconciled. |
+| 10 | Boundaries, Behavior, and the First Rules | `preliminary/drafts-chapters/Chapter 10.md` | Ch. 10 dossier | **Promoted curated copy:** `chapters/10-boundaries-behavior.md`. Three draft cards; EF/delay reconciled. Seed Ch. 8 “Morality and Rules” is absorbed here. |
+| 11 | The Developing Executive | `preliminary/drafts-chapters/chapter 11` | Ch. 11 dossier | **Promoted curated copy:** `chapters/11-the-developing-executive.md`. Two draft cards; Watts delay reconciled. |
+| 12 | Play, Imagination, and Meaning | `preliminary/drafts-chapters/chapter 12` | Ch. 12 plan | **Promoted curated copy:** `chapters/12-play-imagination.md`. Two draft cards; exploration/embodiment/peers reconciled. |
+| 13 | The Ecology of Development | `preliminary/drafts-chapters/chapter 13` | Ch. 13 plans | **Promoted curated copy:** `chapters/13-the-ecology-of-development.md`. Two draft cards (income/cash, MTO). |
 | 14 | What Actually Works? | `preliminary/drafts-chapters/chapter 14` (archival) | Ch. 14 architecture + interventions review | **Curated copy:** `chapters/14-what-actually-works.md` (artifacts stripped; trimmed to Appendix B range after Part II cards). |
 | 15 | Three Years: What Has Been Built? | `preliminary/drafts-chapters/chapter 15` | Ch. 15 dossier | Triage + evidence map + three draft cards. Filename was previously `chapter 16`. No curated copy yet. |
 
@@ -113,7 +113,7 @@ Most remain `status: draft`. `infant-statistical-speech-segmentation.md` is `sta
 
 ## Linked cards for Chapter 8 (current)
 
-All remain `status: draft`. No curated chapter yet.
+All remain `status: draft`. **Curated copy:** `chapters/08-the-expanding-world.md`.
 
 - `infant-social-referencing.md` (CH08-C02)
 - `infant-multiple-caregiver-attachments.md` (CH08-C01)
@@ -123,7 +123,7 @@ All remain `status: draft`. No curated chapter yet.
 
 ## Linked cards for Chapter 10 (current)
 
-All remain `status: draft`. No curated chapter yet.
+All remain `status: draft`. **Curated copy:** `chapters/10-boundaries-behavior.md`.
 
 - `committed-compliance-not-obedience.md` (CH10-C03)
 - `toddler-physical-aggression-trajectories.md` (CH10-C11)
@@ -132,7 +132,7 @@ All remain `status: draft`. No curated chapter yet.
 
 ## Linked cards for Chapter 9 (current)
 
-All remain `status: draft`. No curated chapter yet.
+All remain `status: draft`. **Curated copy:** `chapters/09-the-emotional-revolution.md`.
 
 - `infant-still-face-paradigm.md` (CH09-C01b)
 - `temperament-reactivity-not-destiny.md` (CH09-C03)
@@ -141,7 +141,7 @@ All remain `status: draft`. No curated chapter yet.
 
 ## Linked cards for Chapter 11 (current)
 
-New cards `status: draft`. Delay card unchanged. No curated chapter yet.
+New cards `status: draft`. Delay card unchanged. **Curated copy:** `chapters/11-the-developing-executive.md`.
 
 - `executive-function-unity-diversity.md` (CH11-C01/C02)
 - `inhibitory-control-toddler.md` (CH11-C03)
@@ -149,7 +149,7 @@ New cards `status: draft`. Delay card unchanged. No curated chapter yet.
 
 ## Linked cards for Chapter 12 (current)
 
-All remain `status: draft`. No curated chapter yet.
+All remain `status: draft`. **Curated copy:** `chapters/12-play-imagination.md`.
 
 - `symbolic-pretend-play-emergence.md` (CH12-C02)
 - `pretend-play-educational-claims.md` (CH12-C10)
@@ -157,7 +157,7 @@ All remain `status: draft`. No curated chapter yet.
 
 ## Linked cards for Chapter 13 (current)
 
-All remain `status: draft`. No curated chapter yet.
+All remain `status: draft`. **Curated copy:** `chapters/13-the-ecology-of-development.md`.
 
 - `income-cash-transfer-early-development.md` (CH13-C02)
 - `neighborhood-mobility-age-dependent.md` (CH13-C03/C08)

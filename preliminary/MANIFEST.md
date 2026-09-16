@@ -2,7 +2,7 @@
 
 Inventory of every file under `preliminary/` as of 2026-09-15. Original uploads are archival. Do not rename or move them. Curated copies use the naming convention in [`README.md`](README.md).
 
-**Chapter numbering** follows the 15-chapter draft sequence. Curated copies: `chapters/01-before-the-child-is-born.md` (Ch. 1), `chapters/02-first-environment.md` (Ch. 2), `chapters/03-the-great-transition.md` (Ch. 3), `chapters/04-regulatory-relationship.md` (Ch. 4), `chapters/05-becoming-a-mind.md` (Ch. 5), `chapters/06-the-mind-in-motion.md` (Ch. 6), `chapters/07-the-birth-of-language.md` (Ch. 7), `chapters/14-what-actually-works.md` (Ch. 14, Appendix B range). Leftover seed `chapters/01-first-environment.md` removed.
+**Chapter numbering** follows the 15-chapter draft sequence. Curated copies: `chapters/01-before-the-child-is-born.md` (Ch. 1), `chapters/02-first-environment.md` (Ch. 2), `chapters/03-the-great-transition.md` (Ch. 3), `chapters/04-regulatory-relationship.md` (Ch. 4), `chapters/05-becoming-a-mind.md` (Ch. 5), `chapters/06-the-mind-in-motion.md` (Ch. 6), `chapters/07-the-birth-of-language.md` (Ch. 7), `chapters/08-the-expanding-world.md` (Ch. 8), `chapters/09-the-emotional-revolution.md` (Ch. 9), `chapters/10-boundaries-behavior.md` (Ch. 10), `chapters/11-the-developing-executive.md` (Ch. 11), `chapters/12-play-imagination.md` (Ch. 12), `chapters/13-the-ecology-of-development.md` (Ch. 13), `chapters/14-what-actually-works.md` (Ch. 14, Appendix B range). Leftover seed `chapters/01-first-environment.md` removed.
 
 ## Status and type vocabularies
 
@@ -25,27 +25,28 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-T01 | `preliminary/triage/ch01-framing--triage.md` | documentation | remain-preliminary | extracted | Ch. 1 extraction plan; curated copy promoted |
 | G-MAP01 | `preliminary/research/extraction/ch01-before-the-child--evidence-map.md` | documentation | remain-preliminary | extracted | C01-D1 vs C01-S1 hashes; paternal-age card; four prenatal cards linked |
 | G-R01 | `preliminary/drafts-chapters/reviews/ch01-curated-01-before-the-child--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 1 |
-| G-T08 | `preliminary/triage/ch08-expanding-world--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 8; four cards including father/kin remainder; no curated chapter |
+| G-T08 | `preliminary/triage/ch08-expanding-world--triage.md` | documentation | remain-preliminary | extracted | Second-wave Ch. 8; four cards including father/kin remainder; curated copy promoted |
 | G-MAP08 | `preliminary/research/extraction/ch08-expanding-world--evidence-map.md` | documentation | remain-preliminary | extracted | Referencing, networks, peers, father/kin; childcare/BEIP reconcile |
 | G-AUDIT08b | `preliminary/research/extraction/ch08-remainder--source-audit.md` | documentation | remain-preliminary | extracted | McWayne 2013; Dagan 2018 |
-| G-T10 | `preliminary/triage/ch10-boundaries-behavior--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 10; compliance, aggression, punishment |
+| G-T10 | `preliminary/triage/ch10-boundaries-behavior--triage.md` | documentation | remain-preliminary | extracted | Second-wave Ch. 10; compliance, aggression, punishment; curated copy promoted |
 | G-MAP10 | `preliminary/research/extraction/ch10-boundaries-behavior--evidence-map.md` | documentation | remain-preliminary | extracted | EF/delay reconcile; C10-P1 not double-extracted |
 | G-AUDIT10 | `preliminary/research/extraction/ch10-behavior--source-audit.md` | documentation | remain-preliminary | extracted | Kochanska 1995; Tremblay 2004; Gershoff 2016 |
-| G-T13 | `preliminary/triage/ch13-ecology--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 13; income/cash and MTO |
+| G-T13 | `preliminary/triage/ch13-ecology--triage.md` | documentation | remain-preliminary | extracted | Second-wave Ch. 13; income/cash and MTO; curated copy promoted |
 | G-MAP13 | `preliminary/research/extraction/ch13-ecology--evidence-map.md` | documentation | remain-preliminary | extracted | Childcare/BEIP/preschool RCT reconcile |
 | G-AUDIT13 | `preliminary/research/extraction/ch13-ecology--source-audit.md` | documentation | remain-preliminary | extracted | Troller-Renfree 2022; Noble 2025; Chetty 2016 |
 | G-V01 | `preliminary/releases/v0.1-slice.md` | documentation | remain-preliminary | extracted | **Tagged** `v0.1` on `main` at `c7c2a7a` |
-| G-V02 | `preliminary/releases/v0.2-slice.md` | documentation | remain-preliminary | extracted | Plan for curated Ch. 8–13 |
+| G-V02 | `preliminary/releases/v0.2-slice.md` | documentation | remain-preliminary | extracted | Curated Ch. 8–13 on this branch; tag `v0.2` on `main` after merge |
+| G-V03 | `preliminary/releases/v0.3-slice.md` | documentation | remain-preliminary | extracted | Plan for curated Ch. 15 + remaining domains |
 | G-T15 | `preliminary/triage/ch15-three-years--triage.md` | documentation | remain-preliminary | triage-ready | Age-3 waypoint; three draft cards |
 | G-MAP15 | `preliminary/research/extraction/ch15-three-years--evidence-map.md` | documentation | remain-preliminary | extracted | Continuity, self-control, resilience; Watts/BEIP/preschool RCT reconcile |
 | G-AUDIT15 | `preliminary/research/extraction/ch15-three-years--source-audit.md` | documentation | remain-preliminary | extracted | Roberts 2000; Moffitt 2011; Masten 2001 |
-| G-T09 | `preliminary/triage/ch09-emotional-revolution--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 9; still-face, temperament, inhibition |
+| G-T09 | `preliminary/triage/ch09-emotional-revolution--triage.md` | documentation | remain-preliminary | extracted | Second-wave Ch. 9; still-face, temperament, inhibition; curated copy promoted |
 | G-MAP09 | `preliminary/research/extraction/ch09-emotional-revolution--evidence-map.md` | documentation | remain-preliminary | extracted | Co-regulation/delay reconcile |
 | G-AUDIT09 | `preliminary/research/extraction/ch09-emotion--source-audit.md` | documentation | remain-preliminary | extracted | Tronick; Mesman; Gartstein & Rothbart; Clauss |
-| G-T11 | `preliminary/triage/ch11-developing-executive--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 11; EF construct and inhibition |
+| G-T11 | `preliminary/triage/ch11-developing-executive--triage.md` | documentation | remain-preliminary | extracted | Second-wave Ch. 11; EF construct and inhibition; curated copy promoted |
 | G-MAP11 | `preliminary/research/extraction/ch11-developing-executive--evidence-map.md` | documentation | remain-preliminary | extracted | Watts delay reconcile |
 | G-AUDIT11 | `preliminary/research/extraction/ch11-executive--source-audit.md` | documentation | remain-preliminary | extracted | Miyake; Garon; Carlson |
-| G-T12 | `preliminary/triage/ch12-play-imagination--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 12; symbolic play and Lillard |
+| G-T12 | `preliminary/triage/ch12-play-imagination--triage.md` | documentation | remain-preliminary | extracted | Second-wave Ch. 12; symbolic play and Lillard; curated copy promoted |
 | G-MAP12 | `preliminary/research/extraction/ch12-play-imagination--evidence-map.md` | documentation | remain-preliminary | extracted | C12-P2 not double-extracted |
 | G-AUDIT12 | `preliminary/research/extraction/ch12-play--source-audit.md` | documentation | remain-preliminary | extracted | Belsky & Most; Lillard 2013 |
 | G-STABLE | `preliminary/research/extraction/stable-promotion-candidates.md` | documentation | remain-preliminary | extracted | Three narrow claims `stable`; others stay `draft` |
@@ -84,6 +85,12 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-R03 | `preliminary/drafts-chapters/reviews/ch03-curated-03-the-great-transition--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 3 |
 | G-R04 | `preliminary/drafts-chapters/reviews/ch04-curated-04-regulatory-relationship--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 4; records Ch. 4-not-Ch. 5 decision |
 | G-R05 | `preliminary/drafts-chapters/reviews/ch05-curated-05-becoming-a-mind--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 5 |
+| G-R08 | `preliminary/drafts-chapters/reviews/ch08-curated-08-the-expanding-world--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 8 |
+| G-R09 | `preliminary/drafts-chapters/reviews/ch09-curated-09-the-emotional-revolution--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 9 |
+| G-R10 | `preliminary/drafts-chapters/reviews/ch10-curated-10-boundaries-behavior--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 10 |
+| G-R11 | `preliminary/drafts-chapters/reviews/ch11-curated-11-the-developing-executive--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 11 |
+| G-R12 | `preliminary/drafts-chapters/reviews/ch12-curated-12-play-imagination--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 12 |
+| G-R13 | `preliminary/drafts-chapters/reviews/ch13-curated-13-the-ecology-of-development--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 13 |
 
 ## Chapter 1 — Before the Child Is Born
 
@@ -164,7 +171,7 @@ Window: late infancy through toddler extrafamilial care. Domains: relational, so
 |---|---|---|---|---|---|
 | C08-P1 | `research/Chapter 8 Preliminary Research Plan — The Expanding World.docx` | research-plan | `evidence-cards/` + `chapters/` | extracted | Extrafamilial relationships, childcare. |
 | C08-S1 | `research/The Expanding World_ Moving Beyond the Primary Dyad in Early Human Development.docx` | synthesis | remain-preliminary | unreviewed | ~2.9 MB alternate; overlaps C08-P1 and existing `early-childcare-quality.md`. |
-| C08-D | `drafts-chapters/chapter 8.md` | chapter-draft | `chapters/` | triage-ready | Has `.md` suffix unlike most drafts. Four draft cards. No curated copy this pass. |
+| C08-D | `drafts-chapters/chapter 8.md` | chapter-draft | `chapters/` | extracted | Has `.md` suffix unlike most drafts. Four draft cards. Curated copy: `chapters/08-the-expanding-world.md`. |
 
 ## Chapter 9 — The Emotional Revolution
 
@@ -174,7 +181,7 @@ Window: infancy through toddler emotion. Domains: biological, psychological, rel
 |---|---|---|---|---|---|
 | C09-P1 | `research/Chapter 9 Preliminary Research Plan — The Emotional Revolution.docx` | research-plan | `evidence-cards/` + `chapters/` | extracted | SHA-256 `fde0a305324f0ac5…`. Three draft cards. |
 | C09-S1 | `research/Developmental Emotion Regulation Research.docx` | research-plan | remain-preliminary | unreviewed | Cross-cutting emotion-regulation notes; also feeds Ch. 4 and 10. Do not double-extract. |
-| C09-D | `drafts-chapters/Chapter 9.md` | chapter-draft | `chapters/` | unreviewed | Title-case filename. Archival untouched. |
+| C09-D | `drafts-chapters/Chapter 9.md` | chapter-draft | `chapters/` | extracted | Title-case filename. Archival untouched. Curated copy: `chapters/09-the-emotional-revolution.md`. |
 
 ## Chapter 10 — Boundaries, Behavior, and the First Rules
 
@@ -184,7 +191,7 @@ Window: toddlerhood (inhibition, rules, aggression, internalization). Domains: p
 |---|---|---|---|---|---|
 | C10-D1 | `research/Chapter 10 Preliminary Research Dossier.docx` | research-dossier | `evidence-cards/` + `chapters/` | extracted | SHA-256 `79db88fd58219a26…`. Three draft cards. Overlaps Ch. 11 (executive) — reconcile only. |
 | C10-P1 | `research/Early Behavioral Regulation Research Plan.docx` | research-plan | remain-preliminary | unreviewed | ~2.9 MB; overlapping regulation plan. Do not double-extract. |
-| C10-D | `drafts-chapters/Chapter 10.md` | chapter-draft | `chapters/` | triage-ready | Title-case filename. Archival untouched. |
+| C10-D | `drafts-chapters/Chapter 10.md` | chapter-draft | `chapters/` | extracted | Title-case filename. Archival untouched. Curated copy: `chapters/10-boundaries-behavior.md`. |
 
 ## Chapter 11 — The Developing Executive
 
@@ -193,7 +200,7 @@ Window: toddler through age 3. Domains: biological, psychological.
 | ID | Path | Type | Destination | Status | Overlap / notes |
 |---|---|---|---|---|---|
 | C11-D1 | `research/Chapter 11 — The Developing Executive.docx` | research-dossier | `evidence-cards/` + `chapters/` | extracted | SHA-256 `07bba2a8719ac09e…`. Overlaps existing `self-regulation-delay-of-gratification.md` (reconcile only). |
-| C11-D | `drafts-chapters/chapter 11` | chapter-draft | `chapters/` | unreviewed | Extensionless markdown. Archival untouched. |
+| C11-D | `drafts-chapters/chapter 11` | chapter-draft | `chapters/` | extracted | Extensionless markdown. Archival untouched. Curated copy: `chapters/11-the-developing-executive.md`. |
 
 ## Chapter 12 — Play, Imagination, and Meaning
 
@@ -203,7 +210,7 @@ Window: toddler through age 3. Domains: psychological, relational, educational.
 |---|---|---|---|---|---|
 | C12-P1 | `research/Chapter 12 Preliminary Research Plan.docx` | research-plan | `evidence-cards/` + `chapters/` | extracted | SHA-256 `71b833457a3b02b7…`. Two draft cards. |
 | C12-P2 | `research/Childhood Play Research Plan.docx` | research-plan | remain-preliminary | unreviewed | Alternate/narrower play plan. Do not double-extract. |
-| C12-D | `drafts-chapters/chapter 12` | chapter-draft | `chapters/` | unreviewed | Extensionless markdown. Archival untouched. |
+| C12-D | `drafts-chapters/chapter 12` | chapter-draft | `chapters/` | extracted | Extensionless markdown. Archival untouched. Curated copy: `chapters/12-play-imagination.md`. |
 
 ## Chapter 13 — The Ecology of Development
 
@@ -213,7 +220,7 @@ Window: whole 0–3 ecology (family, material conditions, institutions). Domains
 |---|---|---|---|---|---|
 | C13-P1 | `research/Chapter 13 — The Ecology of Development  Preliminary Research Plan.docx` | research-plan | `evidence-cards/` + `chapters/` | extracted | SHA-256 `efd534f954d0a814…`. Two draft cards. |
 | C13-P2 | `research/Ecology of Development Research Plan.docx` | research-plan | remain-preliminary | unreviewed | ~2.9 MB alternate. Do not double-extract. |
-| C13-D | `drafts-chapters/chapter 13` | chapter-draft | `chapters/` | triage-ready | Extensionless markdown. Archival untouched. |
+| C13-D | `drafts-chapters/chapter 13` | chapter-draft | `chapters/` | extracted | Extensionless markdown. Archival untouched. Curated copy: `chapters/13-the-ecology-of-development.md`. |
 
 ## Chapter 14 — What Actually Works?
 
