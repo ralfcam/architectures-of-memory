@@ -3,7 +3,7 @@ type: Evidence Card
 title: "Infant Statistical Speech Segmentation"
 description: "Eight-month-olds can use transitional probabilities in a brief artificial-speech stream to distinguish word-like units from part-words; this is laboratory segmentation, not proof that statistics alone explain natural language."
 tags: [language, learning, infancy]
-status: draft
+status: stable
 confidence: high-lab; low-transfer
 generated: { by: agent:cursor, at: 2026-09-15T20:00:00Z }
 stale_after: 2027-03-15T00:00:00Z
@@ -13,13 +13,16 @@ sources:
   - id: saffran-1996-statistical
     resource: https://doi.org/10.1126/science.274.5294.1926
     title: "Saffran, Aslin & Newport (1996), Science, statistical learning by 8-month-old infants"
+  - id: aslin-saffran-1998
+    resource: https://doi.org/10.1111/1467-9280.00063
+    title: "Aslin, Saffran & Newport (1998), Psychological Science, conditional-probability statistics in 8-month-olds"
 ---
 
 # Infant Statistical Speech Segmentation
 
 > Domain: language
-> Last updated: 2026-09-15
-> Status: Source-audited first pass (CH07-C02/C03 adjacent)
+> Last updated: 2026-09-16
+> Status: Stable for the *narrow* laboratory claim (`stable-candidates--replication-note.md`). Household transfer remains Low.
 
 ## What We Know
 
@@ -31,15 +34,15 @@ Fluent speech does not arrive pre-segmented. In a classic laboratory demonstrati
 
 ## Evidence and Causal Assessment
 
-Saffran, Aslin & Newport (1996), *Science*: 8-month-olds; familiarization with a continuous stream of three-syllable nonsense words; test preference for words vs part-words. The design manipulates the statistics of the input and measures immediate segmentation. It does not assign meaning, social reference, or later vocabulary.
+Saffran, Aslin & Newport (1996), *Science*: 8-month-olds; familiarization with a continuous stream of three-syllable nonsense words; test preference for words vs part-words. Aslin, Saffran & Newport (1998), *Psychological Science*, held syllable frequency constant and still found discrimination based on *conditional probability* — a conceptual replication of the computational claim, not a household-vocabulary study. The design manipulates the statistics of the input and measures immediate segmentation. It does not assign meaning, social reference, or later vocabulary.
 
 ## Effect Size and Persistence
 
-The result is immediate looking/listening preference after a short exposure. Transfer to the child’s language, durability without further exposure, and contribution to real vocabulary are not established by this experiment.
+The result is immediate looking/listening preference after a short exposure. Transfer to the child’s language, durability without further exposure, and contribution to real vocabulary are not established by these experiments.
 
 ## Bias, Heterogeneity, and Confounding
 
-Artificial language; small classic samples; laboratory attention. Adjacent Chapter 6 contingency learning is a different action–outcome claim.
+GI attenuation: **n/a**. Artificial language; small classic samples; laboratory attention. Adjacent Chapter 6 contingency learning is a different action–outcome claim.
 
 ## What Remains Uncertain
 
@@ -56,3 +59,4 @@ Ordinary talk in a shared world is consistent with the finding. Segmentation sof
 ## Sources
 
 - Saffran, Aslin & Newport (1996), *Science* 274:1926–1928
+- Aslin, Saffran & Newport (1998), *Psychological Science* 9:321–324

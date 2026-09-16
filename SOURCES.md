@@ -262,6 +262,45 @@ sources:
   - id: whitehurst-1988-dialogic
     resource: https://doi.org/10.1037/0012-1649.24.4.552
     title: "Whitehurst et al. (1988), Developmental Psychology, picture-book reading / dialogic reading"
+  - id: tronick-1978-still-face
+    resource: https://doi.org/10.1016/S0002-7138(09)62273-1
+    title: "Tronick, Als, Adamson, Wise & Brazelton (1978), JAACP, still-face / contradictory messages"
+  - id: mesman-2009-still-face
+    resource: https://doi.org/10.1016/j.dr.2009.02.001
+    title: "Mesman, van IJzendoorn & Bakermans-Kranenburg (2009), Developmental Review, still-face meta-analysis"
+  - id: gartstein-rothbart-2003
+    resource: https://doi.org/10.1016/S0163-6383(02)00169-8
+    title: "Gartstein & Rothbart (2003), Infant Behavior and Development, Revised Infant Behavior Questionnaire"
+  - id: clauss-blackford-2012
+    resource: https://doi.org/10.1016/j.jaac.2012.08.002
+    title: "Clauss & Blackford (2012), JAACAP, behavioral inhibition and social-anxiety meta-analysis"
+  - id: garon-2008-ef
+    resource: https://doi.org/10.1037/0033-2909.134.1.31
+    title: "Garon, Bryson & Smith (2008), Psychological Bulletin, executive function in preschoolers"
+  - id: miyake-2000-unity
+    resource: https://doi.org/10.1006/cogp.1999.0734
+    title: "Miyake et al. (2000), Cognitive Psychology, unity and diversity of executive functions"
+  - id: carlson-2005-ef
+    resource: https://doi.org/10.1207/s15326942dn2802_3
+    title: "Carlson (2005), Developmental Neuropsychology, developmentally sensitive EF measures"
+  - id: carlson-2005-less
+    resource: https://doi.org/10.1111/j.1467-9280.2005.01583.x
+    title: "Carlson, Davis & Leach (2005), Psychological Science, Less Is More"
+  - id: lillard-2013-pretend
+    resource: https://doi.org/10.1037/a0029321
+    title: "Lillard et al. (2013), Psychological Bulletin, impact of pretend play"
+  - id: belsky-most-1981-play
+    resource: https://doi.org/10.1037/0012-1649.17.5.630
+    title: "Belsky & Most (1981), Developmental Psychology, from exploration to play"
+  - id: czeizel-dudas-1992
+    resource: https://doi.org/10.1056/NEJM199212243272602
+    title: "Czeizel & Dudás (1992), NEJM, first-occurrence NTD prevention trial"
+  - id: aslin-saffran-1998
+    resource: https://doi.org/10.1111/1467-9280.00063
+    title: "Aslin, Saffran & Newport (1998), Psychological Science, conditional-probability statistics"
+  - id: hillman-2012-transition
+    resource: https://doi.org/10.1016/j.clp.2012.09.009
+    title: "Hillman, Kallapur & Jobe (2012), Clin Perinatol, physiology of transition"
 ---
 
 # Master Source Catalog
@@ -271,7 +310,7 @@ This catalog aggregates every source currently cited across `evidence-cards/`, s
 1. **Verified resources** - sources with a confirmed, resolvable URL, also declared in this file's OKF frontmatter `sources` array for machine traversal.
 2. **Unresolved citations** - sources named in evidence-card bibliographies during the initial literature pass but not yet matched to a verified, stable resource link. These require a follow-up audit pass before being promoted to tier 1.
 
-Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog-wide Crossref/OpenAlex/PubMed / Retraction Watch dump (`preliminary/research/extraction/five-listings-and-retraction-watch-dump.md`) found no retraction or expression-of-concern titles among DOI-resolved records. The five previously no-DOI listings are now repaired: three grey-literature/WHO items have stable IRIS or NIH identifiers and no journal DOI; Kramer 1987 has PMID/PMC/IRIS and no DOI; `hiscock-2016` was retired and replaced by Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020. Catalog-wide replication/attenuation is classified in `preliminary/research/extraction/catalog-wide-replication-attenuation.md`. `madigan-2020` now correctly points at Madigan 2020 *JAMA Pediatrics*; Jing et al. 2023 is a separate vocabulary meta-analysis. None of those checks promote any card to `stable`.
+Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog-wide Crossref/OpenAlex/PubMed / Retraction Watch dump (`preliminary/research/extraction/five-listings-and-retraction-watch-dump.md`) found no retraction or expression-of-concern titles among DOI-resolved records. The five previously no-DOI listings are now repaired: three grey-literature/WHO items have stable IRIS or NIH identifiers and no journal DOI; Kramer 1987 has PMID/PMC/IRIS and no DOI; `hiscock-2016` was retired and replaced by Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020. Catalog-wide replication/attenuation is classified in `preliminary/research/extraction/catalog-wide-replication-attenuation.md`. `madigan-2020` now correctly points at Madigan 2020 *JAMA Pediatrics*; Jing et al. 2023 is a separate vocabulary meta-analysis. A 2026-09-16 replication note (`stable-candidates--replication-note.md`) flipped three *narrow* physiology/lab cards to `status: stable`. The catalog remains draft.
 
 ## Grey-literature IDs without a journal DOI (resolved, not retired)
 
@@ -311,9 +350,9 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `preschool-scale-synthesis` | Are Preschool Programs Becoming Less Effective? (ERIC; journal version 10.1002/pam.70031) | [https://doi.org/10.1002/pam.70031](https://doi.org/10.1002/pam.70031) | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
 | `decasper-spence-1986` | DeCasper & Spence (1986), prenatal maternal speech and newborn preference | [https://doi.org/10.1016/0163-6383(86)90025-1](https://doi.org/10.1016/0163-6383(86)90025-1) | [prenatal-auditory-learning](evidence-cards/prenatal-auditory-learning.md) |
 | `partanen-2013` | Partanen et al. (2013), PNAS, neural memory traces of prenatal sound | [https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/) | [prenatal-auditory-learning](evidence-cards/prenatal-auditory-learning.md) |
-| `deregil-2015-cochrane` | De-Regil et al. (2015), Cochrane periconceptional folate review | [https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) |
-| `mrc-ntd-1991` | MRC Vitamin Study Research Group (1991), Lancet NTD trial | [https://doi.org/10.1016/0140-6736(91)90133-A](https://doi.org/10.1016/0140-6736(91)90133-A) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) |
-| `who-anc-2016` | WHO (2016) ANC recommendations; ISBN 9789241549912; IRIS 10665/250796; no Crossref DOI | [https://iris.who.int/handle/10665/250796](https://iris.who.int/handle/10665/250796) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) |
+| `deregil-2015-cochrane` | De-Regil et al. (2015), Cochrane periconceptional folate review | [https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) (`stable` NTD claim) |
+| `mrc-ntd-1991` | MRC Vitamin Study Research Group (1991), Lancet NTD trial | [https://doi.org/10.1016/0140-6736(91)90133-A](https://doi.org/10.1016/0140-6736(91)90133-A) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) (`stable` NTD claim) |
+| `who-anc-2016` | WHO (2016) ANC recommendations; ISBN 9789241549912; IRIS 10665/250796; no Crossref DOI | [https://iris.who.int/handle/10665/250796](https://iris.who.int/handle/10665/250796) | Framework only; demoted from `prenatal-folate-ntd` identification 2026-09-16 |
 | `kramer-2008-probit` | Kramer et al. (2008), PROBIT IQ at 6.5 years | [https://doi.org/10.1001/archpsyc.65.5.578](https://doi.org/10.1001/archpsyc.65.5.578) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
 | `der-2006-bmj` | Der, Batty & Deary (2006), BMJ, breastfeeding and intelligence | [https://doi.org/10.1136/bmj.38978.699583.55](https://doi.org/10.1136/bmj.38978.699583.55) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
 | `colen-ramey-2014` | Colen & Ramey (2014), sibling comparisons of breastfeeding | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4077166/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4077166/) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
@@ -336,7 +375,7 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `kramer-1987-lbw` | Kramer (1987), Bull WHO; PMID 3322602; IRIS 10665/264515; no Crossref DOI | [https://iris.who.int/handle/10665/264515](https://iris.who.int/handle/10665/264515) | [prenatal-tobacco-birthweight](evidence-cards/prenatal-tobacco-birthweight.md) |
 | `papageorghiou-2014-intergrowth` | Papageorghiou et al. (2014), INTERGROWTH-21st fetal growth | [https://doi.org/10.1016/S0140-6736(14)61490-2](https://doi.org/10.1016/S0140-6736(14)61490-2) | [fetal-growth-not-destiny](evidence-cards/fetal-growth-not-destiny.md) |
 | `philippat-2024-sepages` | Philippat et al. (2024), SEPAGES phenols/phthalates and placenta | [https://pmc.ncbi.nlm.nih.gov/articles/PMC11057944/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11057944/) | [prenatal-environmental-mixtures](evidence-cards/prenatal-environmental-mixtures.md) |
-| `morton-2016-transition` | Morton & Brodsky (2016), fetal-to-neonatal transition | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4987541/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4987541/) | [neonatal-cardiopulmonary-transition](evidence-cards/neonatal-cardiopulmonary-transition.md) |
+| `morton-2016-transition` | Morton & Brodsky (2016), fetal-to-neonatal transition | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4987541/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4987541/) | [neonatal-cardiopulmonary-transition](evidence-cards/neonatal-cardiopulmonary-transition.md) (`stable` sequence claim) |
 | `moore-2016-ssc` | Moore et al. (2016), Cochrane early skin-to-skin contact | [https://pmc.ncbi.nlm.nih.gov/articles/PMC6464366/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6464366/) | [skin-to-skin-immediate-physiology](evidence-cards/skin-to-skin-immediate-physiology.md) |
 | `who-nurturing-care-2018` | WHO/UNICEF/World Bank (2018) Nurturing care; ISBN 9789241514064; IRIS 10665/272603; no Crossref DOI | [https://iris.who.int/handle/10665/272603](https://iris.who.int/handle/10665/272603) | [infant-caregiver-coregulation](evidence-cards/infant-caregiver-coregulation.md) |
 | `feldman-2012-synchrony` | Feldman (2012), bio-behavioral synchrony | [https://doi.org/10.1080/15295192.2012.683342](https://doi.org/10.1080/15295192.2012.683342) | [infant-caregiver-coregulation](evidence-cards/infant-caregiver-coregulation.md) |
@@ -346,7 +385,7 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `merz-2017-mobile` | Merz et al. (2017), mobile-paradigm methods | [https://pmc.ncbi.nlm.nih.gov/articles/PMC5716629/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5716629/) | [infant-contingency-learning](evidence-cards/infant-contingency-learning.md) |
 | `cuevas-2025-contingency` | Cuevas et al. (2025), infant contingency-learning review | [https://pmc.ncbi.nlm.nih.gov/articles/PMC12354038/](https://pmc.ncbi.nlm.nih.gov/articles/PMC12354038/) | [infant-contingency-learning](evidence-cards/infant-contingency-learning.md) |
 | `werker-tees-1984` | Werker & Tees (1984), cross-language speech perception | [https://doi.org/10.1016/S0163-6383(84)80022-3](https://doi.org/10.1016/S0163-6383(84)80022-3) | [infant-perceptual-narrowing](evidence-cards/infant-perceptual-narrowing.md) |
-| `saffran-1996-statistical` | Saffran, Aslin & Newport (1996), statistical learning by 8-month-olds | [https://doi.org/10.1126/science.274.5294.1926](https://doi.org/10.1126/science.274.5294.1926) | [infant-statistical-speech-segmentation](evidence-cards/infant-statistical-speech-segmentation.md) |
+| `saffran-1996-statistical` | Saffran, Aslin & Newport (1996), statistical learning by 8-month-olds | [https://doi.org/10.1126/science.274.5294.1926](https://doi.org/10.1126/science.274.5294.1926) | [infant-statistical-speech-segmentation](evidence-cards/infant-statistical-speech-segmentation.md) (`stable` lab claim) |
 | `gilkerson-2018-lena` | Gilkerson et al. (2018), language experience in the second year | [https://pmc.ncbi.nlm.nih.gov/articles/PMC6192025/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6192025/) | [conversational-turns-language](evidence-cards/conversational-turns-language.md); [parent-implemented-language](evidence-cards/parent-implemented-language.md) |
 | `nap-2017-dll` | National Academies (2017), dual-language learners | [https://doi.org/10.17226/24677](https://doi.org/10.17226/24677) | [dual-language-does-not-confuse](evidence-cards/dual-language-does-not-confuse.md) |
 | `zeifman-2017-crying` | Zeifman & St James-Roberts (2017), parenting the crying infant | [https://pmc.ncbi.nlm.nih.gov/articles/PMC5494986/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5494986/) | [infant-crying-as-signal](evidence-cards/infant-crying-as-signal.md) |
@@ -374,6 +413,19 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `meltzoff-1988-deferred` | Meltzoff (1988), deferred imitation after a 1-week delay | [https://doi.org/10.1037/0012-1649.24.4.470](https://doi.org/10.1037/0012-1649.24.4.470) | [deferred-imitation](evidence-cards/deferred-imitation.md) |
 | `heidlage-2020-ecrq` | Heidlage et al. (2020), parent-implemented language, 25 RCTs | [https://doi.org/10.1016/j.ecresq.2018.12.006](https://doi.org/10.1016/j.ecresq.2018.12.006) | [parent-implemented-language](evidence-cards/parent-implemented-language.md) |
 | `whitehurst-1988-dialogic` | Whitehurst et al. (1988), picture-book / dialogic reading | [https://doi.org/10.1037/0012-1649.24.4.552](https://doi.org/10.1037/0012-1649.24.4.552) | [parent-implemented-language](evidence-cards/parent-implemented-language.md) |
+| `tronick-1978-still-face` | Tronick et al. (1978), still-face / contradictory messages | [https://doi.org/10.1016/S0002-7138(09)62273-1](https://doi.org/10.1016/S0002-7138(09)62273-1) | [infant-still-face-paradigm](evidence-cards/infant-still-face-paradigm.md) |
+| `mesman-2009-still-face` | Mesman et al. (2009), still-face meta-analysis | [https://doi.org/10.1016/j.dr.2009.02.001](https://doi.org/10.1016/j.dr.2009.02.001) | [infant-still-face-paradigm](evidence-cards/infant-still-face-paradigm.md) |
+| `gartstein-rothbart-2003` | Gartstein & Rothbart (2003), Revised Infant Behavior Questionnaire | [https://doi.org/10.1016/S0163-6383(02)00169-8](https://doi.org/10.1016/S0163-6383(02)00169-8) | [temperament-reactivity-not-destiny](evidence-cards/temperament-reactivity-not-destiny.md) |
+| `clauss-blackford-2012` | Clauss & Blackford (2012), behavioral inhibition and social anxiety | [https://doi.org/10.1016/j.jaac.2012.08.002](https://doi.org/10.1016/j.jaac.2012.08.002) | [behavioral-inhibition-anxiety-risk](evidence-cards/behavioral-inhibition-anxiety-risk.md) |
+| `garon-2008-ef` | Garon, Bryson & Smith (2008), executive function in preschoolers | [https://doi.org/10.1037/0033-2909.134.1.31](https://doi.org/10.1037/0033-2909.134.1.31) | [executive-function-unity-diversity](evidence-cards/executive-function-unity-diversity.md); [inhibitory-control-toddler](evidence-cards/inhibitory-control-toddler.md) |
+| `miyake-2000-unity` | Miyake et al. (2000), unity and diversity of executive functions | [https://doi.org/10.1006/cogp.1999.0734](https://doi.org/10.1006/cogp.1999.0734) | [executive-function-unity-diversity](evidence-cards/executive-function-unity-diversity.md) |
+| `carlson-2005-ef` | Carlson (2005), developmentally sensitive EF measures | [https://doi.org/10.1207/s15326942dn2802_3](https://doi.org/10.1207/s15326942dn2802_3) | [inhibitory-control-toddler](evidence-cards/inhibitory-control-toddler.md) |
+| `carlson-2005-less` | Carlson, Davis & Leach (2005), Less Is More | [https://doi.org/10.1111/j.1467-9280.2005.01583.x](https://doi.org/10.1111/j.1467-9280.2005.01583.x) | [inhibitory-control-toddler](evidence-cards/inhibitory-control-toddler.md) |
+| `lillard-2013-pretend` | Lillard et al. (2013), impact of pretend play | [https://doi.org/10.1037/a0029321](https://doi.org/10.1037/a0029321) | [pretend-play-educational-claims](evidence-cards/pretend-play-educational-claims.md); [symbolic-pretend-play-emergence](evidence-cards/symbolic-pretend-play-emergence.md) |
+| `belsky-most-1981-play` | Belsky & Most (1981), from exploration to play | [https://doi.org/10.1037/0012-1649.17.5.630](https://doi.org/10.1037/0012-1649.17.5.630) | [symbolic-pretend-play-emergence](evidence-cards/symbolic-pretend-play-emergence.md) |
+| `czeizel-dudas-1992` | Czeizel & Dudás (1992), first-occurrence NTD prevention | [https://doi.org/10.1056/NEJM199212243272602](https://doi.org/10.1056/NEJM199212243272602) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) (`stable` NTD claim) |
+| `aslin-saffran-1998` | Aslin, Saffran & Newport (1998), conditional-probability statistics | [https://doi.org/10.1111/1467-9280.00063](https://doi.org/10.1111/1467-9280.00063) | [infant-statistical-speech-segmentation](evidence-cards/infant-statistical-speech-segmentation.md) (`stable` lab claim) |
+| `hillman-2012-transition` | Hillman, Kallapur & Jobe (2012), physiology of transition | [https://doi.org/10.1016/j.clp.2012.09.009](https://doi.org/10.1016/j.clp.2012.09.009) | [neonatal-cardiopulmonary-transition](evidence-cards/neonatal-cardiopulmonary-transition.md) (`stable` sequence claim) |
 
 ## Unresolved Citations
 

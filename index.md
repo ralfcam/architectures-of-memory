@@ -26,7 +26,8 @@ A longitudinal evidence atlas of developmental science, spanning approximately o
 * [Chapter 5 — Becoming a Mind](chapters/05-becoming-a-mind.md) - Curated, voice-checked chapter (looking-time, attention, object permanence, joint attention; narrowing/statistical/contingency reconciled).
 * [Chapter 6 — The Mind in Motion](chapters/06-the-mind-in-motion.md) - Curated expansion (contingency, embodiment, exploration, physical reasoning, deferred imitation).
 * [Chapter 7 — The Birth of Language](chapters/07-the-birth-of-language.md) - Curated, voice-checked proof-of-voice chapter (language cards linked; screens reconciled).
-* [Chapter 14 — What Actually Works?](chapters/14-what-actually-works.md) - Staging curated copy; `:contentReference` artifacts stripped.
+* [Chapter 14 — What Actually Works?](chapters/14-what-actually-works.md) - Curated, voice-checked copy in the Appendix B range; `:contentReference` artifacts stripped.
+* [Corpus Manifest](preliminary/MANIFEST.md) - Inventory of every preliminary file, overlaps, and promotion destinations.
 * [Corpus Manifest](preliminary/MANIFEST.md) - Inventory of every preliminary file, overlaps, and promotion destinations.
 * [Chapter 2 Evidence Map](preliminary/research/extraction/ch02-first-environment--evidence-map.md) - First extraction test: 13 claims grouped into likely cards, with source and causal labels.
 * [Chapter 3 Evidence Map](preliminary/research/extraction/ch03-great-transition--evidence-map.md) - Transition physiology, bounded skin-to-skin, crying, feeding coordination, preterm group risk.
@@ -37,5 +38,9 @@ A longitudinal evidence atlas of developmental science, spanning approximately o
 * [Chapter 7 Evidence Map](preliminary/research/extraction/ch07-birth-of-language--evidence-map.md) - Perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling, parent-implemented language; screens ID-repaired.
 * [Chapter 1 Evidence Map](preliminary/research/extraction/ch01-before-the-child--evidence-map.md) - Framing claims; paternal-age card; timing/neural/folate/stress linked.
 * [Chapter 8 Evidence Map](preliminary/research/extraction/ch08-expanding-world--evidence-map.md) - Social referencing, networks, peers; childcare/BEIP reconciled.
-* [Stable-promotion candidates](preliminary/research/extraction/stable-promotion-candidates.md) - Physiology/lab path; none to `stable`.
-* [Catalog-wide replication / attenuation](preliminary/research/extraction/catalog-wide-replication-attenuation.md) - Every live card classified; none to `stable`.
+* [Chapter 9 Evidence Map](preliminary/research/extraction/ch09-emotional-revolution--evidence-map.md) - Still-face, temperament, inhibition; co-regulation/delay reconciled.
+* [Chapter 11 Evidence Map](preliminary/research/extraction/ch11-developing-executive--evidence-map.md) - EF unity/diversity and inhibitory control; Watts delay reconciled.
+* [Chapter 12 Evidence Map](preliminary/research/extraction/ch12-play-imagination--evidence-map.md) - Symbolic play and Lillard overclaim; exploration/embodiment/peers reconciled.
+* [Stable-promotion candidates](preliminary/research/extraction/stable-promotion-candidates.md) - Physiology/lab path; three narrow claims now `stable`.
+* [Stable-candidate replication note](preliminary/research/extraction/stable-candidates--replication-note.md) - Five-rule re-audit; folate, Saffran, neonatal transition flipped.
+* [Catalog-wide replication / attenuation](preliminary/research/extraction/catalog-wide-replication-attenuation.md) - Every live card classified.

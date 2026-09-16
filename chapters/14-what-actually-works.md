@@ -1,25 +1,20 @@
 # Chapter 14 — What Actually Works?
+
 The preceding chapters have followed development from its biological beginnings through birth, regulation, cognition, language, emotion, behavior, executive function, play, and the wider ecology in which childhood unfolds.
 
-That sequence leads naturally to a harder question.
+That sequence leads to a harder question.
 
 If development is shaped by biology, relationships, experience, and environment, **can any of those conditions be deliberately changed in ways that improve a child's developmental trajectory?**
 
-This is where developmental science becomes intervention science.
+A factor can be associated with a developmental outcome without being a useful intervention target. Children who receive more responsive language may develop larger vocabularies; that observation does not establish that simply increasing adult speech will produce the same effect. Attachment security may predict later adjustment without implying that a program designed to increase attachment security will improve every later outcome. Observational associations are vulnerable to family characteristics, socioeconomic conditions, child characteristics, and gene–environment correlations that interventions have to overcome.
 
-The distinction is fundamental. A factor can be associated with a developmental outcome without being a useful intervention target. Children who receive more responsive language, for example, may develop larger vocabularies, but that observation does not establish that simply increasing adult speech will produce the same effect. Likewise, attachment security may predict later adjustment without implying that a program designed to increase attachment security will improve every later outcome. Observational associations are vulnerable to family characteristics, socioeconomic conditions, child characteristics, and gene–environment correlations that interventions must somehow overcome.
-
-Intervention research therefore asks a different question:
+Intervention research therefore asks:
 
 > **What changes when we deliberately alter a defined part of a child's developmental environment?**
 
-And even that question is incomplete.
+An intervention may work under ideal conditions and fail in ordinary practice. It may improve a proximal behavior without changing more distant outcomes. It may produce an immediate gain that disappears after the program ends. It may work particularly well for children facing severe adversity while producing little measurable benefit in low-risk populations.
 
-An intervention may work under ideal conditions and fail in ordinary practice. It may improve a proximal behavior without changing more distant outcomes. It may produce an immediate gain that disappears after the program ends, or a short-term test-score gain that is followed years later by a persistent difference in education, health, or behavior. It may work particularly well for children facing severe adversity while producing little measurable benefit in low-risk populations.
-
-So the scientifically useful question is not simply whether an intervention works.
-
-It is:
+So the scientifically useful question is not simply whether an intervention works. It is:
 
 > **What works, for whom, through which mechanism, under what conditions, at what scale, and for how long?**
 
@@ -31,609 +26,192 @@ That is the standard this chapter applies.
 
 The word *effective* hides several different claims.
 
-A program may have a plausible mechanism: it targets something believed to matter.
+A program may have a plausible mechanism. It may demonstrate **efficacy** under carefully controlled conditions, **effectiveness** in ordinary services, **scalability** when expanded across systems, and **persistence** after the program ends.
 
-It may demonstrate **efficacy**: the program produces an effect under carefully controlled conditions.
-
-It may demonstrate **effectiveness**: the effect survives delivery in ordinary services and among heterogeneous families.
-
-It may demonstrate **scalability**: the intervention continues to work when expanded across systems, communities, and workforces.
-
-Finally, it may demonstrate **persistence**: the effect remains measurable after the intervention ends, perhaps for years or decades.
-
-The research architecture for this chapter therefore uses five layers:
-
-| Layer | Question |
-|---|---|
-| **Mechanism** | What process or exposure is the intervention intended to change? |
-| **Efficacy** | Can it produce the intended effect under high-fidelity conditions? |
-| **Effectiveness** | Does it work in routine practice? |
-| **Scalability** | Does the effect survive expansion into larger systems? |
-| **Persistence** | What happens after the intervention ends? |
-
-These layers should not be collapsed. A program can have strong efficacy and weak effectiveness. A program can have modest immediate effects but substantial long-term consequences. And the apparent effect of a program can depend on what the control group receives: the same intervention may produce a large marginal benefit where ordinary services are poor and almost none where baseline services are already strong.
-
-This gives us a first principle:
+These layers should not be collapsed. A program can have strong efficacy and weak effectiveness. A modest immediate effect can coexist with a substantial long-term consequence. And the apparent effect depends on what the control group receives: the same intervention may produce a large marginal benefit where ordinary services are poor and almost none where baseline services are already strong.
 
 > **An intervention is not an isolated treatment. Its effect is a property of the intervention and the environment into which it is introduced.**
 
 ---
 
-# 2. The First Category: Preventing Biological Damage
+## 2. Preventing Biological Damage
 
-The clearest intervention successes in early development often come not from teaching, coaching, or behavioral modification, but from preventing biological injury.
+The clearest intervention successes in early development often come not from teaching or coaching, but from preventing biological injury.
 
-This is easiest to see when the intervention targets a condition that is both necessary for normal development and directly modifiable.
+Universal newborn screening for congenital hypothyroidism is a powerful example. Thyroid hormones are required for normal brain development. Early biochemical detection followed by rapid treatment changed a major cause of intellectual disability into a largely preventable problem where screening and treatment are available. Phenylketonuria is related: identifying the metabolic disorder early and restricting phenylalanine prevents neurological injury.
 
-### Newborn screening
+The intervention does not make the brain *better than normal*. It prevents something necessary for normal development from being lost. The distinction between **preservation** and **enhancement** matters throughout this chapter.
 
-Universal newborn screening for congenital hypothyroidism is a particularly powerful example.
-
-Thyroid hormones are required for normal brain development. Before modern screening, affected infants were often identified only after developmental damage had already occurred. Early biochemical detection followed by rapid treatment changes that trajectory. Population screening has therefore transformed congenital hypothyroidism from an important cause of intellectual disability into a largely preventable developmental problem in settings where screening and treatment are available.
-
-Phenylketonuria provides a related example: identifying the metabolic disorder early and restricting phenylalanine exposure prevents neurological injury.
-
-These examples teach an important lesson.
-
-The intervention does not make the brain *better than normal*.
-
-It prevents something necessary for normal development from being lost.
-
-The distinction between **preservation** and **enhancement** matters throughout developmental intervention science.
-
-### Nutrition illustrates the same principle
-
-Nutritional interventions show another recurring pattern: baseline condition determines marginal benefit.
-
-Periconceptional folic acid substantially reduces neural-tube defects (`prenatal-folate-ntd.md`; `deregil-2015-cochrane`, `mrc-ntd-1991`). Correcting severe iodine deficiency prevents profound developmental consequences. Iron and lipid-based nutritional supplements can improve outcomes where deficiency or undernutrition is prevalent, while benefits are much smaller when baseline nutritional status is already adequate.
-
-The broader principle is:
+Nutritional interventions show the same pattern: baseline condition determines marginal benefit. Periconceptional folic acid substantially reduces neural-tube defects (`prenatal-folate-ntd.md`; `deregil-2015-cochrane`, `mrc-ntd-1991`, `czeizel-dudas-1992`). Correcting severe iodine deficiency prevents profound developmental consequences. Iron and lipid-based supplements can improve outcomes where deficiency is prevalent, while benefits are much smaller when baseline status is already adequate.
 
 > **The more development depends on a resource that is genuinely deficient, the greater the potential return from restoring that resource.**
 
-This helps explain why some interventions produce striking effects while superficially similar interventions produce little measurable change.
-
-### Smoking cessation before birth
-
-Prenatal smoking provides a related example because the exposure itself is modifiable.
-
-The evidence review describes randomized trials of psychosocial smoking-cessation interventions during pregnancy and reports improved cessation and better neonatal outcomes.
-
-Again, the mechanism is unusually direct:
-
-**reduce exposure → reduce biological disruption → reduce developmental risk.**
-
-This is considerably easier to identify causally than a broad claim such as “better parenting improves intelligence.”
+Prenatal smoking is related because the exposure itself is modifiable. Randomized psychosocial cessation trials during pregnancy report improved cessation and better neonatal outcomes. The mechanism is unusually direct: reduce exposure → reduce biological disruption → reduce developmental risk. That is easier to identify than a broad claim such as “better parenting improves intelligence.”
 
 ---
 
-# 3. The Second Category: Changing the Relationship
+## 3. Changing the Relationship
 
-Once we move beyond direct biological prevention, intervention becomes more difficult.
+Once we move beyond direct biological prevention, the target is no longer a single necessary substrate. It is a dynamic relationship.
 
-The target is no longer a single necessary biological substrate. It is a dynamic relationship.
+The strongest programs in this domain do not simply give parents information. They attempt to alter what actually happens between caregiver and child. A parent can score higher on a knowledge test without becoming more responsive in real interactions.
 
-The strongest programs in this domain do not simply give parents information about child development. They attempt to alter what actually happens between caregiver and child.
-
-That distinction is crucial.
-
-A parent can score higher on a knowledge test without becoming more responsive in real interactions. An intervention can therefore improve what a parent *knows* without changing what the child *experiences*.
-
-### Attachment and Biobehavioral Catch-up
-
-Attachment and Biobehavioral Catch-up, or ABC, is a useful example.
-
-The program is designed for infants and toddlers exposed to substantial adversity and focuses directly on caregiver behavior:
-
-- responding with nurturance when children are distressed;
-- following the child's lead during play;
-- reducing intrusive or frightening behavior.
-
-Its distinctive feature is intensive, moment-to-moment coaching. Coaches observe interaction and reinforce specific responsive behaviors rather than relying primarily on abstract education.
-
-Randomized trials have found improvements in attachment organization and stress physiology, with some downstream effects on executive functioning and other developmental outcomes. An unusual feature of ABC is that fidelity monitoring continues during community implementation, allowing researchers to examine whether effects can survive the transition from developer-led trials into practice.
-
-The significance is larger than the program itself.
-
-ABC demonstrates a general intervention principle:
+Attachment and Biobehavioral Catch-up (ABC) is designed for infants and toddlers exposed to substantial adversity. Coaches observe interaction and reinforce specific behaviors: nurturance when the child is distressed, following the child's lead, reducing frightening or intrusive behavior. Randomized trials have found improvements in attachment organization and stress physiology, with some downstream effects on executive functioning. Fidelity monitoring continues during some community implementations.
 
 > **The closer an intervention gets to the developmental mechanism it intends to change, the easier it becomes to test whether the mechanism actually changed.**
 
-### Video-feedback interventions
+Video-feedback programs such as VIPP-SD follow a related logic: record ordinary interaction, then examine concrete moments of communication, responsiveness, and discipline. Across a synthesis of randomized trials, effects are strongest on parenting behavior and attachment-related outcomes; effects on broader externalizing behavior are weaker. Brief, interaction-focused programs may outperform longer, less focused support. Dose is not simply “more is better.” Focus, timing, feedback, and adherence may matter as much as duration. Adjacent evidence: `responsive-caregiving-attachment-interventions.md` (sensitivity RCTs move sensitivity more than attachment security).
 
-The Video-feedback Intervention to Promote Positive Parenting and Sensitive Discipline, or VIPP-SD, follows a related logic.
-
-Rather than merely explaining sensitivity, the intervention records ordinary parent–child interactions and then uses the video to examine concrete moments of communication, responsiveness, exploration, and discipline.
-
-Across a synthesis of randomized trials, effects are strongest on parenting behavior and attachment-related outcomes, while effects on broader externalizing behavior are weaker and less consistent.
-
-The evidence review also identifies an intriguing pattern: brief, interaction-focused video-feedback programs may outperform longer, less focused supportive interventions. This suggests that intervention dose is not simply a matter of “more is better.” Focus, timing, feedback, and adherence may matter as much as duration.
-
-That is a useful warning against a common intuition in parenting:
-
-> More instruction is not necessarily more effective intervention.
+Still-face and co-regulation cards (`infant-still-face-paradigm.md`, `infant-caregiver-coregulation.md`) describe the *process* these programs try to reach. They are not themselves efficacy estimates.
 
 ---
 
-# 4. The Third Category: Changing Behavior
+## 4. Changing Behavior
 
-Behavioral parent training addresses a different developmental problem.
+Behavioral parent training addresses a different problem: recurring patterns in which adult and child behavior reinforce one another. Incredible Years, Triple P, and Parent–Child Interaction Therapy typically focus on clearer instructions, predictable contingencies, positive reinforcement, and non-violent responses to difficult behavior.
 
-Here the target is not attachment organization or general parental sensitivity, but recurring patterns in which adult and child behavior reinforce one another.
+Effects are generally stronger when children begin with substantial behavioral difficulties than when the same programs are offered universally. Intervention effects are often **conditional on baseline risk**. Parent reports often show larger effects than independent observations. That does not mean parents are unreliable. It means the person receiving an intervention is often also the person judging whether it worked.
 
-Programs such as Incredible Years, Triple P, and Parent-Child Interaction Therapy are among the best-established approaches in this area. They typically focus on clearer instructions, predictable contingencies, positive reinforcement, differential attention, and non-violent responses to difficult behavior.
+A mature evidence base therefore asks not only whether parents say the child improved, but whether the child behaves differently when observed independently, and whether the change generalizes beyond the treatment setting.
 
-The evidence is meaningful, but it is also revealing.
-
-Effects are generally stronger when children begin with substantial behavioral difficulties than when the same programs are offered universally to children with relatively low levels of difficulty.
-
-That pattern suggests that intervention effects are often **conditional on baseline risk**.
-
-A child already experiencing severe conduct problems has more room for measurable improvement than a child whose behavior is within the ordinary developmental range.
-
-The studies also expose a measurement problem.
-
-Parent reports often show larger effects than independent observations. In one evidence synthesis, parent ratings produced substantially larger estimates than masked assessments.
-
-This does not mean parents are unreliable.
-
-It means that the person delivering or receiving an intervention is often also the person judging whether it worked.
-
-That creates room for expectancy, demand characteristics, altered perceptions, and reporting bias.
-
-A mature evidence base therefore asks not just:
-
-> “Do parents say the child improved?”
-
-but also:
-
-> “Does the child behave differently when observed independently, and does the change generalize beyond the treatment setting?”
-
-### Generalization is not automatic
-
-One particularly important boundary appears in studies of families involved with child welfare.
-
-Parent-reported behavioral improvement can diminish by follow-up, while teacher ratings show little corresponding change. This suggests that changing contingencies at home does not automatically reorganize behavior in other settings.
-
-The lesson is simple:
-
-> **Children do not live inside a single behavioral environment.**
-
-A rule learned in one setting may not automatically transfer to another.
-
-A child who behaves differently at home may behave differently at childcare because the contingencies, relationships, expectations, and demands are different.
-
-Interventions sometimes need to change the system around the child, not just one adult's behavior.
+In families involved with child welfare, parent-reported improvement can diminish by follow-up, while teacher ratings show little corresponding change. Children do not live inside a single behavioral environment. A rule learned at home may not automatically transfer to childcare.
 
 ---
 
-# 5. The Mental-Health Paradox
-
-Perinatal mental health provides one of the most revealing tests of causal reasoning.
+## 5. The Mental-Health Paradox
 
 Depression and anxiety in the perinatal period are associated with poorer outcomes for children. It therefore seems reasonable to assume that treating parental depression should improve child development.
 
-Sometimes it does.
+Sometimes it does. But not automatically. Randomized trials can substantially reduce maternal depressive symptoms without producing corresponding improvements in infant cognitive, language, or social-emotional development.
 
-But not automatically.
-
-Randomized clinical trials can substantially reduce maternal depressive symptoms without producing corresponding improvements in infant cognitive, language, or social-emotional development.
-
-Why?
-
-Because the risk pathway may not run through symptoms alone.
-
-Depression can alter interaction patterns: mutual gaze, vocal affect, responsiveness, interpretation of infant signals, and everyday engagement. Structural stressors may remain even after psychiatric symptoms improve. And developmental experiences that were missed cannot necessarily be restored merely by making the parent feel better.
-
-The evidence review therefore identifies a **decoupling problem**:
+The risk pathway may not run through symptoms alone. Depression can alter interaction; structural stressors may remain; missed developmental experiences are not restored merely by making the parent feel better.
 
 > **Changing a risk factor is not necessarily the same as changing the mechanism through which that risk factor affects development.**
 
-This becomes clearer when compared with direct relational interventions.
-
-Programs such as Reach Up can improve children's cognitive and language outcomes by changing responsive stimulation and play even when they have little effect on maternal depressive symptoms.
-
-The implication is not that mental-health treatment is unimportant.
-
-Quite the opposite.
-
-Maternal psychological well-being is itself an important outcome.
-
-The point is simply that **a successful intervention may improve the parent without automatically producing the child outcome we hoped would follow**.
+Programs such as Reach Up can improve children's cognitive and language outcomes by changing responsive stimulation and play even when they have little effect on maternal depressive symptoms. Maternal psychological well-being is itself an important outcome. A successful intervention may improve the parent without automatically producing the child outcome we hoped would follow.
 
 ---
 
-# 6. Early Education: Powerful in the Right Form
-
-Early education creates perhaps the most difficult intervention puzzle of all.
+## 6. Early Education: Powerful in the Right Form
 
 Two landmark programs—Perry Preschool and the Abecedarian Project—demonstrated that intensive early educational environments can influence trajectories far beyond the end of the intervention (`preschool-early-education-rct.md`; `garcia-heckman-2023`, `campbell-2012-abecedarian`).
 
-Perry produced relatively modest or fading effects on measured IQ but enduring differences in outcomes such as education, employment, crime, health, and income. Abecedarian produced durable cognitive and educational advantages alongside later health effects.
+Perry produced relatively modest or fading effects on measured IQ but enduring differences in education, employment, crime, health, and income. Abecedarian produced durable cognitive and educational advantages alongside later health effects. A developmental intervention does not need to preserve an advantage on every cognitive test for decades to matter.
 
-These studies changed the meaning of “success.”
+This does not mean that every preschool program reproduces those results.
 
-A developmental intervention does not need to preserve an advantage on every cognitive test for decades to matter.
+The Tennessee Voluntary Pre-K evaluation produced the expected short-term gains in early academic readiness. Later follow-up showed convergence and, in some outcomes, poorer academic and disciplinary results among children assigned to the program. The Head Start Impact Study likewise found that early cognitive and language gains largely converged with control-group outcomes over subsequent schooling.
 
-A short-lived cognitive difference can coexist with a long-lived change in life trajectory.
-
-But this does not mean that every preschool program reproduces the results of these landmark projects.
-
-### Efficacy is not effectiveness
-
-Modern scaled preschool programs reveal the difficulty.
-
-The Tennessee Voluntary Pre-K evaluation produced the expected short-term gains in early academic readiness. Yet later follow-up showed convergence and, in some outcomes, poorer academic and disciplinary results among children assigned to the program. The Head Start Impact Study likewise found that early cognitive and language gains largely converged with control-group outcomes over subsequent schooling.
-
-These results should not be reduced to the claim that “preschool is harmful.”
-
-The comparison instead raises a more fundamental question:
+These results should not be reduced to “preschool is harmful.” They raise a more fundamental question:
 
 > **What did the successful programs actually provide, and was that developmental environment reproduced at scale?**
 
-The research review notes differences in instructional style and classroom process between intensive model programs and scaled systems. It also distinguishes structural quality—class size, ratios, credentials—from **process quality**, meaning what actually happens during interactions between adults and children.
-
-This distinction closely echoes earlier chapters.
-
-A developmental environment is not defined only by its architecture.
-
-It is defined by what the child experiences inside it.
+Instructional style and classroom process differ between intensive model programs and scaled systems. Structural quality—class size, ratios, credentials—is not the same as **process quality**: what actually happens during interactions. Pretend play as a unique intelligence or executive-function engine is a different, weaker claim (`pretend-play-educational-claims.md`).
 
 ---
 
-# 7. Structural Quality Versus Process Quality
+## 7. Structural Quality Versus Process Quality
 
-This principle deserves special emphasis because it recurs across intervention science.
+A policy can improve formal qualifications or reduce group size without producing large developmental effects. Safety and adequate staffing matter. But once minimum conditions are secured, children's development may depend more directly on the quality of the interactions that occur within those structures.
 
-A policy can improve formal qualifications, reduce group size, or establish regulatory standards without producing large developmental effects.
-
-Structural improvements matter.
-
-Safety matters.
-
-Adequate staffing matters.
-
-But once minimum conditions are secured, children's development may depend more directly on the quality of the interactions that occur within those structures.
-
-The evidence review finds relatively weak associations between structural childcare indicators and child developmental gains, while process quality—responsive conversation, emotional support, joint attention, and scaffolding during play—shows more consistent, although still generally modest, associations (`early-childcare-quality.md`; `nichd-seccyd-2006`).
-
-This produces another general rule:
+Associations between structural childcare indicators and child developmental gains are relatively weak, while process quality—responsive conversation, emotional support, joint attention, scaffolding—shows more consistent, still generally modest, associations (`early-childcare-quality.md`; `nichd-seccyd-2006`).
 
 > **Changing the container is not necessarily the same as changing the experience.**
 
-The distinction applies far beyond childcare.
-
-A service can exist without being used.
-
-A parent can receive information without changing behavior.
-
-A professional can be trained without changing interactions.
-
-A policy can raise resources without removing the mechanism through which adversity affects development.
-
-Intervention science has to follow the pathway all the way through.
+A service can exist without being used. A parent can receive information without changing behavior. A professional can be trained without changing interactions. Intervention science has to follow the pathway all the way through.
 
 ---
 
-# 8. The Counterfactual Problem
+## 8. The Counterfactual, and Why Effects Shrink at Scale
 
-One of the least intuitive lessons of intervention research is that the effect of a program depends on the alternative.
+Every randomized trial compares two worlds: the world in which the child receives the intervention, and the world in which that child does not. “Does not receive the intervention” does not mean “receives nothing.”
 
-Every randomized trial compares two worlds:
-
-**the world in which the child receives the intervention**
-
-and
-
-**the world in which that child does not.**
-
-But “does not receive the intervention” does not mean “receives nothing.”
-
-Sometimes the control group gets ordinary healthcare.
-
-Sometimes it gets community childcare.
-
-Sometimes families receive other social services.
-
-Sometimes another intervention is already addressing the same problem.
-
-The treatment effect is therefore partly the distance between the treatment condition and the counterfactual world.
-
-The British evaluation of the Family Nurse Partnership illustrates this vividly. The US Nurse-Family Partnership trials were conducted in settings where the control condition offered substantially fewer services. In England, families in the comparison group already had access to universal healthcare, community health visiting, prenatal monitoring, and a stronger service infrastructure. The additional home-visiting program produced little measurable incremental benefit.
-
-The lesson is deeper than “the British program failed.”
-
-The same intervention can have different effects because the surrounding system is different.
-
-This is why interventions cannot be evaluated independently of context.
+The British evaluation of the Family Nurse Partnership illustrates this. US Nurse-Family Partnership trials were conducted where the control condition offered substantially fewer services. In England, comparison families already had universal healthcare, community health visiting, and prenatal monitoring. The additional home-visiting program produced little measurable incremental benefit.
 
 > **The value of an intervention is partly determined by what the intervention is replacing, supplementing, or duplicating.**
 
-That principle should temper both enthusiasm and disappointment.
+A zero effect does not necessarily mean that the underlying developmental mechanism is irrelevant. It may mean that the mechanism was already being supported.
 
-A zero effect does not necessarily mean that the underlying developmental mechanism is irrelevant.
+When a successful intervention is expanded, the effect often becomes smaller—a **voltage drop**. Efficacy trials often involve motivated families, specialized practitioners, close supervision, and strong fidelity monitoring. Scaling changes all of those conditions: more heterogeneous populations, larger caseloads, less intensive training, higher turnover, weaker monitoring, altered budgets, and a different counterfactual. Implementation is part of the causal system.
 
-It may mean that the mechanism was already being supported.
-
-Conversely, a large effect in a deprived control environment does not necessarily imply that the same program would produce the same benefit where stronger services already exist.
+Digital parenting programs test the same point in another form. They can reduce geographical and workforce barriers, and some meta-analyses report improvements in parenting outcomes. They also experience substantial attrition, especially in unguided mobile interventions. Access is not engagement, and engagement is not effective dose. Remote information cannot necessarily substitute for observation, safety monitoring, and live modeling in severe adversity.
 
 ---
 
-# 9. Why Interventions Lose Their Voltage
+## 9. Why Effects Fade
 
-When a successful intervention is expanded, something often happens.
+A child receives an intervention, improves, and several years later the difference between treatment and control is smaller. The simplest interpretation is that the intervention “wore off.” Sometimes that is part of the explanation. It is not the only possibility.
 
-The effect becomes smaller.
+A treatment effect can become smaller because the control group catches up, because children enter new institutions, or because later environments reinforce or undermine the change. Perry and Abecedarian are the classic examples: early cognitive differences diminished while some long-term educational, economic, behavioral, and health differences persisted. Across many educational interventions, follow-up effects often reflect what occurs after the intervention, including acceleration among controls.
 
-This phenomenon has been described as a **voltage drop**.
+### Fadeout is not synonymous with failure.
 
-Small efficacy trials are often conducted with highly motivated families, specialized practitioners, unusually close supervision, carefully selected participants, and strong fidelity monitoring.
+A cognitive test score can converge while another developmental pathway remains altered. Conversely, a short-term test gain can disappear without having produced any meaningful long-term benefit. The correct question is not “Did the effect remain on the same test?” It is:
 
-Scaling changes all of those conditions.
-
-The population becomes more heterogeneous.
-
-Staff have larger caseloads.
-
-Training becomes less intensive.
-
-Turnover rises.
-
-Families may attend fewer sessions.
-
-Monitoring weakens.
-
-Budgets change.
-
-Services already present in the community alter the counterfactual.
-
-The original intervention may therefore become a different intervention in practice.
-
-This is not a minor administrative detail.
-
-Implementation is part of the causal system.
-
-A program designed to deliver fifty or sixty contacts cannot be expected to produce the same result when families receive a fraction of that dose.
-
-A specialist intervention cannot necessarily be expected to retain its effect when transferred to an overstretched workforce with different training and supervision.
-
-A model built for one healthcare or welfare system cannot automatically be transplanted into another.
-
-The intervention includes its delivery architecture.
+> **What trajectory did the intervention alter, and what happened to that altered trajectory when the intervention ended?**
 
 ---
 
-# 10. Digital Intervention: Scale Without Presence
+## 10. Who Benefits Most?
 
-Digital parenting programs offer a particularly interesting test of scalability.
-
-Their promise is obvious.
-
-A smartphone application or remote coaching system can reach families without a clinic visit. It can reduce geographical barriers, scheduling constraints, and workforce requirements. Meta-analytic evidence indicates that online programs can improve several parenting outcomes and reduce some parental distress.
-
-But scalability creates its own problem.
-
-Digital programs experience substantial attrition. The evidence review reports dropout levels that can be much higher than those seen in clinician-delivered services, with especially pronounced declines in unguided mobile interventions. Families experiencing exhaustion, economic stress, or literacy barriers may be least able to sustain engagement with an app.
-
-Digital delivery therefore introduces an important distinction:
-
-> **Access is not the same as engagement.**
-
-And engagement is not the same as effective dose.
-
-Digital tools may function well as low-intensity or preventive supports for motivated families. The evidence is less reassuring when family systems involve severe adversity, active maltreatment, or complex clinical needs. In such settings, remote information cannot necessarily substitute for the physical presence, observation, safety monitoring, and live behavioral modeling available through intensive services.
-
-Technology can extend an intervention.
-
-It does not automatically reproduce the mechanism.
-
----
-
-# 11. Why Effects Fade
-
-Perhaps the most misunderstood finding in early intervention research is **fadeout**.
-
-A child receives an intervention.
-
-The child improves.
-
-Several years later, the difference between treatment and control groups is smaller.
-
-What happened?
-
-The simplest interpretation is that the intervention “wore off.”
-
-Sometimes that may be part of the explanation.
-
-But it is not the only possibility.
-
-A treatment effect can become smaller because the control group catches up. It can change because children enter new institutions. It can be reinforced by later environments—or undermined by them. The observed difference can disappear even though something about the child's development has changed.
-
-Perry and Abecedarian are the classic examples: early cognitive differences diminished while some long-term educational, economic, behavioral, and health differences persisted.
-
-The research review also summarizes newer evidence suggesting that cognitive fadeout is not simply a process of children forgetting what they learned. Across many educational interventions, follow-up effects often reflect what occurs after the intervention, including acceleration among controls and differences in subsequent learning environments.
-
-This leads to a crucial distinction:
-
-### **Fadeout is not synonymous with failure.**
-
-A cognitive test score can converge while another developmental pathway remains altered.
-
-Conversely, a short-term test gain can disappear without having produced any meaningful long-term benefit.
-
-The correct question is therefore not:
-
-> “Did the effect remain on the same test?”
-
-It is:
-
-> **“What trajectory did the intervention alter, and what happened to that altered trajectory when the intervention ended?”**
-
-That is a much harder question.
-
-It is also the more meaningful one.
-
----
-
-# 12. Who Benefits Most?
-
-Average treatment effects can hide the most important part of an intervention's story.
-
-An intervention that produces an average effect of modest size may be highly valuable to a subgroup facing severe adversity.
-
-The evidence reviewed for this chapter repeatedly points in that direction.
-
-Reach Up produces larger gains among children experiencing undernutrition or stunting. ABC appears particularly useful in children exposed to maltreatment or severe institutional adversity. Behavioral parent training tends to show its strongest effects among children with elevated behavioral problems.
-
-This suggests a **compensatory pattern**:
+Average treatment effects can hide the most important part of the story. Reach Up produces larger gains among children experiencing undernutrition or stunting. ABC appears particularly useful in children exposed to maltreatment or severe institutional adversity (`severe-institutional-deprivation.md` is not ordinary care). Behavioral parent training tends to show its strongest effects among children with elevated behavioral problems.
 
 > **The potential return on intervention is often greatest where developmental resources are most deficient.**
 
-But access creates a paradox.
-
-The families most able to find, schedule, attend, or use voluntary interventions are not always the families facing the greatest need. Digital and clinic-based programs can therefore preferentially reach more educated or lower-risk families, unintentionally widening rather than narrowing disparities.
-
-An effective intervention that never reaches the families who need it most is not an effective population strategy.
-
-Equity therefore belongs inside intervention science, not after it.
+Access creates a paradox. The families most able to find, schedule, and use voluntary interventions are not always the families facing the greatest need. An effective intervention that never reaches the families who need it most is not an effective population strategy. Equity belongs inside intervention science, not after it.
 
 ---
 
-# 13. What Actually Works?
+## 11. What Actually Works?
 
-After examining these different intervention families, a pattern begins to emerge.
-
-The strongest interventions tend to share several characteristics.
-
-They target a reasonably well-defined mechanism.
-
-They operate at a developmental moment when that mechanism is consequential.
-
-They modify something the intervention can actually change.
-
-They measure outcomes with methods that do not depend entirely on the people delivering the intervention.
-
-They account for what the control group receives.
-
-They monitor fidelity when the intervention is scaled.
-
-And they distinguish immediate effects from persistence.
-
-This produces a useful taxonomy:
+The strongest interventions tend to share several characteristics. They target a reasonably well-defined mechanism. They operate at a developmental moment when that mechanism is consequential. They modify something the intervention can actually change. They measure outcomes with methods that do not depend entirely on the people delivering the intervention. They account for what the control group receives. They monitor fidelity when scaled. And they distinguish immediate effects from persistence.
 
 | Intervention target | Examples | What the evidence suggests |
 |---|---|---|
 | **Biological preservation** | Newborn screening, folate, iodine, nutritional correction, smoking cessation | Often very large effects when a necessary biological condition is restored or a major exposure is prevented |
 | **Caregiver–child interaction** | ABC, VIPP | Reliable proximal effects; selected downstream effects; strongest in some high-risk populations |
-| **Behavioral contingencies** | Incredible Years, Triple P, PCIT | Useful for elevated behavioral problems; effects are smaller and less certain as universal prevention |
-| **Developmental environments** | Perry, Abecedarian, high-quality early education | Can produce durable life-course effects, but replication and scaling are challenging |
+| **Behavioral contingencies** | Incredible Years, Triple P, PCIT | Useful for elevated behavioral problems; smaller and less certain as universal prevention |
+| **Developmental environments** | Perry, Abecedarian, high-quality early education | Can produce durable life-course effects; replication and scaling are challenging |
 | **Caregiver mental health** | CBT, IPT and related approaches | Important benefits for caregivers; child developmental spillovers are not automatic |
-| **Structural conditions** | Income, services, housing, childcare systems | Effects depend strongly on pathway, baseline conditions, implementation, and counterfactual environment |
-| **Digital delivery** | Apps, online parenting programs, remote coaching | Promising for access and lower-intensity support; engagement and clinical ceilings remain important |
+| **Structural conditions** | Income, services, housing, childcare systems | Effects depend on pathway, baseline, implementation, and counterfactual |
 
-The common thread is not “intensive parenting.”
-
-It is **targeted modification of developmental conditions**.
+The common thread is not “intensive parenting.” It is **targeted modification of developmental conditions**.
 
 ---
 
-# 14. What the Evidence Does Not Say
+## 12. What the Evidence Does Not Say
 
-The evidence is strong enough to justify action.
+The evidence is strong enough to justify action. It is not strong enough to justify certainty about every child.
 
-It is not strong enough to justify certainty about every child.
+A successful intervention does not prove that its target is the sole cause of development. A positive trial does not imply that every family needs the intervention. A null trial does not prove that the targeted process is irrelevant. A fading test-score effect does not prove that nothing changed. A persistent association does not prove that the intervention caused it. An effect in a highly disadvantaged population does not guarantee the same benefit where substantial support already exists.
 
-A successful intervention does not prove that its target is the sole cause of development.
-
-A positive trial does not imply that every family needs the intervention.
-
-A null trial does not prove that the targeted developmental process is irrelevant.
-
-A fading test-score effect does not prove that nothing changed.
-
-A persistent association does not prove that the intervention caused it.
-
-And an effect in a highly disadvantaged population does not guarantee the same benefit in a population already receiving substantial support.
-
-This restraint is not a weakness of developmental science.
-
-It is one of its achievements.
-
-The more carefully the field measures intervention, the more clearly it can see the boundaries of causation.
+This restraint is not a weakness of developmental science. It is one of its achievements.
 
 ---
 
-# 15. What a parent can take from this
+## 13. What a parent can take from this
 
-The most useful conclusion for a parent is not a list of techniques.
+The most useful conclusion is not a list of techniques. It is a way of thinking.
 
-It is a way of thinking.
+Some interventions really do have very large effects—particularly when they prevent severe biological harm. Relationships can be changed in useful ways; targeted programs can improve specific caregiving processes and, in some circumstances, child outcomes. Behavioral support is most convincing when it is targeted to actual difficulties rather than presented as a universal formula. Improving a parent's knowledge, mood, or confidence is valuable, but it does not automatically produce corresponding changes in the child's development. What happens at home cannot be entirely separated from childcare, healthcare, housing, economic security, and public services.
 
-First, some interventions really do have very large effects—particularly when they prevent severe biological harm.
+**No intervention eliminates developmental variability.** Children remain different. Families remain different. Contexts remain different. Development remains a process rather than a machine.
 
-Second, relationships can be changed in useful ways. Responsive caregiving is not simply a moral ideal; targeted interventions can improve specific caregiving processes and, in some circumstances, child outcomes.
-
-Third, behavioral support is most convincing when it is targeted to actual difficulties rather than presented as a universal formula for raising children.
-
-Fourth, improving a parent's knowledge, mood, or confidence is valuable, but it does not automatically produce corresponding changes in the child's development.
-
-Fifth, the environment matters. What happens at home cannot be entirely separated from childcare, healthcare, housing, economic security, public services, and the conditions surrounding the family.
-
-And finally:
-
-**No intervention eliminates developmental variability.**
-
-Children remain different.
-
-Families remain different.
-
-Contexts remain different.
-
-Development remains a process rather than a machine.
-
-The sensible goal is therefore not to optimize every measurable attribute of a child.
-
-It is to remove preventable obstacles, strengthen useful developmental conditions, and intervene when a specific difficulty gives us a credible reason to do so.
+The sensible goal is not to optimize every measurable attribute of a child. It is to remove preventable obstacles, strengthen useful developmental conditions, and intervene when a specific difficulty gives a credible reason to do so.
 
 ---
 
-# Conclusion: From Optimization to Opportunity
+## Conclusion: From Optimization to Opportunity
 
-The great promise of developmental intervention science is easy to misunderstand.
+The purpose of developmental intervention science is not to turn ordinary childhood into an engineered production process, nor to discover a universal technique that guarantees intelligence, resilience, or happiness.
 
-Its purpose is not to turn ordinary childhood into an engineered production process.
+Development is neither completely fixed nor infinitely malleable. Some conditions are extraordinarily consequential and highly preventable. Some relationships can be strengthened. Some behavioral patterns can be changed. Some environments can be improved. Some interventions produce effects that survive for decades. Others work only while the intervention is present. Still others fail when transferred into a different population or institutional setting.
 
-Nor is it to discover a universal parenting technique that guarantees intelligence, resilience, or happiness.
+The most successful interventions do not attempt to manufacture a particular child. They improve the conditions under which a child can develop.
 
-The evidence points somewhere more modest—and more useful.
+Biology creates possibilities and constraints. Relationships organize experience. Learning builds new capacities. Play opens possibilities. Ecology distributes opportunity. Intervention can sometimes change the course of that process—but only within limits.
 
-Development is neither completely fixed nor infinitely malleable.
-
-Some conditions are extraordinarily consequential and highly preventable. Some relationships can be strengthened. Some behavioral patterns can be changed. Some developmental environments can be improved. Some interventions produce effects that survive for decades. Others work only while the intervention is present. Still others fail when transferred into a different population or institutional setting.
-
-The most successful interventions therefore share a philosophy very different from the optimization culture that surrounds modern parenting.
-
-They do not attempt to manufacture a particular child.
-
-They improve the conditions under which a child can develop.
-
-That distinction brings the argument of this book into sharper focus.
-
-Biology creates possibilities and constraints.
-
-Relationships organize experience.
-
-Learning builds new capacities.
-
-Play opens possibilities.
-
-Ecology distributes opportunity.
-
-And intervention can sometimes change the course of that process—but only within limits.
-
-The task is not to control development.
-
-It is to understand where development is vulnerable, where it is plastic, where intervention has demonstrated causal leverage, and where our confidence should stop.
+The task is not to control development. It is to understand where development is vulnerable, where it is plastic, where intervention has demonstrated causal leverage, and where confidence should stop.
 
 That is what it means to ask, scientifically and honestly:
 
@@ -642,9 +220,12 @@ That is what it means to ask, scientifically and honestly:
 ## Linked evidence cards
 
 - `evidence-cards/preschool-early-education-rct.md` (Perry / Abecedarian; generalization Low)
-- Adjacent: `evidence-cards/prenatal-folate-ntd.md` (biological preservation)
+- Adjacent: `evidence-cards/prenatal-folate-ntd.md` (biological preservation; now `stable` for the narrow NTD claim)
 - Adjacent: `evidence-cards/responsive-caregiving-attachment-interventions.md` (sensitivity RCTs; not rewritten)
 - Adjacent: `evidence-cards/early-childcare-quality.md` (process vs structural quality; not rewritten)
 - Adjacent Chapter 4: `severe-institutional-deprivation.md` (BEIP is not ordinary care)
+- Adjacent Part II: `infant-still-face-paradigm.md`, `infant-caregiver-coregulation.md` (process, not efficacy)
+- Adjacent Part II: `pretend-play-educational-claims.md` (play is not a unique intelligence engine)
+- Adjacent Part II: `executive-function-unity-diversity.md`, `self-regulation-delay-of-gratification.md` (control is not a training commodity)
 
-Promotion note: this file is a curated copy that strips `:contentReference[oaicite:…]` artifacts from the archival draft. Archival `preliminary/drafts-chapters/chapter 14` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch14-curated-14-what-actually-works--voice-review.md`. Cards remain `status: draft`. Part II intervention cards beyond the existing preschool/attachment/folate set are not extracted here.
+Promotion note: this file is a curated copy that strips `:contentReference[oaicite:…]` artifacts from the archival draft and trims to the Appendix B range after Part II cards exist. Archival `preliminary/drafts-chapters/chapter 14` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch14-curated-14-what-actually-works--voice-review.md`.

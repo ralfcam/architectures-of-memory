@@ -51,7 +51,7 @@ Promotion is one-way:
 1. Research notes in `preliminary/research/` → atomic claims in `research/extraction/` → OKF evidence card in `evidence-cards/` + register sources in `SOURCES.md` + log in `CHANGELOG.md`.
 2. Chapter drafts in `preliminary/drafts-chapters/` → review notes in `drafts-chapters/reviews/` → curated copy to `chapters/` only after linked cards are audited.
 
-Do not treat `preliminary/` as published. Do not treat `evidence-cards/` cards as settled: every card is still `status: draft`. YAML `confidence` now matches in-body grades; that is not the same as `status: stable`.
+Do not treat `preliminary/` as published. Do not treat `evidence-cards/` cards as settled unless `status: stable`. Three physiology/lab cards are `stable` for a *narrow* claim only. YAML `confidence` matching in-body grades is not the same as `status: stable`.
 
 ---
 
@@ -65,9 +65,9 @@ REPO_DIGEST.md            This map
 CONTRIBUTING.md           Evidence-card methodology
 CHANGELOG.md              Knowledge-base version history
 COMPOSITION.md            Book compositional grammar
-SOURCES.md                Master source catalog (85 verified)
-evidence-cards/           47 draft cards + template + index
-chapters/                 Working 15-chapter TOC; curated Ch. 1–7 and staging Ch. 14
+SOURCES.md                Master source catalog (98 verified)
+evidence-cards/           54 cards (3 `stable` for a narrow claim; 51 `draft`) + template + index
+chapters/                 Working 15-chapter TOC; curated Ch. 1–7 and Ch. 14
 style/                    Voice/style constraints for manuscript prose
 preliminary/              Staging area (research notes + chapter drafts)
 ```
@@ -120,7 +120,7 @@ Certainty grades: High / Moderate / Low / Very Low.
 
 OKF bundle root: `index.md` (`okf_version: "0.2"`).
 
-Forty-seven cards, all `status: draft`. YAML `confidence` is aligned with in-body grades. A first selected-card re-audit, a catalog-wide Crossref/PubMed lookup, a DOI-recovery pass, a Retraction Watch dump, a catalog-wide replication/attenuation classification, and a `stable`-candidates note moved **none** to `stable`. See `evidence-cards/index.md` for the full list. Chapter 1 has a paternal-age card plus linked Chapter 2 prenatal cards. Chapter 6 now also has embodiment, exploration, physical-reasoning, and deferred-imitation cards. Chapter 7 has a parent-implemented-language card. Chapter 8 has social-referencing, multiple-caregiver, and peer cards (childcare/BEIP reconciled).
+Forty-four cards remain `status: draft` plus three `stable` physiology/lab cards and seven new Part II drafts (54 total). YAML `confidence` is aligned with in-body grades. A first selected-card re-audit, a catalog-wide Crossref/PubMed lookup, a DOI-recovery pass, a Retraction Watch dump, a catalog-wide replication/attenuation classification, and a 2026-09-16 replication note moved **three narrow claims** to `stable`. See `evidence-cards/index.md` for the full list.
 
 The eight first-pass cards plus C05/C07 remain as in the previous digest table. New Chapter 2 cards: `prenatal-developmental-timing.md`, `placenta-as-mediator.md`, `prenatal-neural-construction.md`, `fetal-autonomic-maturation.md`, `prenatal-iodine-thyroid.md`, `prenatal-alcohol-fasd.md`, `prenatal-tobacco-birthweight.md`, `prenatal-environmental-mixtures.md`, `fetal-growth-not-destiny.md`.
 
@@ -128,7 +128,7 @@ The eight first-pass cards plus C05/C07 remain as in the previous digest table. 
 |---|---|---|---|
 | `prenatal-maternal-stress-anxiety.md` | pregnancy / stress | `low-to-moderate` | Observational prenatal stress/anxiety associations largely attenuate under genetically informed designs |
 | `prenatal-auditory-learning.md` | pregnancy / language | `moderate` (Low for lasting cognitive advantage) | Late-pregnancy speech can shape newborn preference; not lasting cognitive advantage |
-| `prenatal-folate-ntd.md` | pregnancy / nutrition | `high` (Low for other anomalies / IQ) | Periconceptional folic acid substantially reduces NTD risk |
+| `prenatal-folate-ntd.md` | pregnancy / nutrition | `high-ntd; low-other-anomalies-cognition` | **`stable`**: periconceptional folic acid substantially reduces NTD risk |
 | `breastfeeding-cognitive-development.md` | feeding | `moderate` | PROBIT RCT + sibling comparisons: small, verbal-concentrated, fading effect |
 | `early-childcare-quality.md` | childcare | `moderate` | NICHD SECCYD: modest quality–cognition links; parenting predicts more |
 | `screen-time-language-development.md` | screens / language | `low-to-moderate` | Weak-to-moderate observational associations; decompose content, co-use, context |
@@ -137,12 +137,12 @@ The eight first-pass cards plus C05/C07 remain as in the previous digest table. 
 | `self-regulation-delay-of-gratification.md` | executive function | `moderate-to-high-overstatement-of-original` | 2018 NICHD replication: original marshmallow-test predictor claim mostly confounded |
 | `preschool-early-education-rct.md` | early learning | `moderate-historical; low-generalization` | Small high-fidelity 1960s–70s RCTs show persistent adult gains; modern at-scale programs are a different claim |
 | `infant-contingency-learning.md` | early learning | `high-controlled; low-transfer` | Mobile paradigm: action–outcome learning under control, not adult-like cause |
-| `neonatal-cardiopulmonary-transition.md` | birth | `high-sequence; moderate-timing` | Birth reorganizes gas exchange and circulation; not a personality forecast |
+| `neonatal-cardiopulmonary-transition.md` | birth | `high-sequence; moderate-timing` | **`stable`**: birth reorganizes gas exchange and circulation; not a personality forecast |
 | `skin-to-skin-immediate-physiology.md` | birth / feeding | `moderate-breastfeeding; low-infant-physiology` | Healthy-newborn SSC: breastfeeding 1–4 months Moderate; infant physiology Low |
 | `infant-caregiver-coregulation.md` | regulation | `moderate-existence; low-to-moderate-mechanism` | Bidirectional co-regulation; nurturing care is an ecology |
 | `severe-institutional-deprivation.md` | attachment / social | `high-danger; moderate-to-high-placement` | BEIP family placement after severe deprivation ≠ ordinary parenting |
 | `infant-perceptual-narrowing.md` | language | `high-lab; moderate-timetable` | First-year phonetic attunement; not a sealed deadline |
-| `infant-statistical-speech-segmentation.md` | language | `high-lab; low-transfer` | Transitional-probability segmentation in the lab, not household vocabulary |
+| `infant-statistical-speech-segmentation.md` | language | `high-lab; low-transfer` | **`stable`**: transitional-probability segmentation in the lab, not household vocabulary |
 | `conversational-turns-language.md` | language | `moderate-prediction; low-causation` | Turns at 18–24 months predict later language better than word counts |
 | `dual-language-does-not-confuse.md` | language | `high-no-confusion; moderate-individual-trajectories` | Dual exposure as such does not confuse; not an automatic cognitive bonus |
 | `infant-crying-as-signal.md` | birth / regulation | `moderate-signal; low-acoustic-decoding` | Crying is a graded distress signal, not a cause-code |
@@ -162,18 +162,18 @@ From `evidence-cards/index.md` "Not Yet Started":
 
 - Preconception: Kong paternal-age card exists; other nutrients/epigenetic stories still planned
 - Birth (mode of delivery and birth experience still held; skin-to-skin, crying, feeding coordination, and preterm group risk now have cards)
-- Play (pretend/outdoor still planned; embodiment/exploration cards exist under Chapter 6)
-- Social development beyond attachment (referencing, networks, peers now have cards; father/kin/sibling still planned)
+- Play (symbolic/pretend and Lillard overclaim cards exist; outdoor/risky still planned; embodiment/exploration remain Chapter 6)
+- Social development beyond attachment (referencing, networks, peers, still-face/temperament/inhibition now have cards; father/kin/sibling still planned)
 
-Priority domains in `README.md` that still lack *full* card families include remaining preconception nutrients, pretend play, and father/kin/sibling claims. Forty-seven cards are live, all `draft`.
+Priority domains that still lack *full* card families include remaining preconception nutrients, outdoor/risky play, father/kin/sibling claims, and Chapter 10 rules/behavior. Fifty-four cards are live; three are `stable` for a narrow claim.
 
 ### Sources
 
 `SOURCES.md` is the catalog of record:
 
-- **85 verified** resources with URLs, mirrored in the file's OKF `sources` array
+- **98 verified** resources with URLs, mirrored in the file's OKF `sources` array
 - **12 first-pass unresolved citations resolved** (two were already in the verified table; two titles were corrected to the matching papers). Resolution log lives under Unresolved Citations.
-- Catalog itself is `status: draft`. The five remaining no-DOI listings are repaired (`hiscock-2016` retired). A Retraction Watch dump found no retraction/EoC titles among DOI-resolved records. Replication/attenuation is now classified catalog-wide. `madigan-2020` ID repaired. None promoted to `stable`.
+- Catalog itself is `status: draft`. The five remaining no-DOI listings are repaired (`hiscock-2016` retired). A Retraction Watch dump found no retraction/EoC titles among DOI-resolved records. Replication/attenuation is classified catalog-wide. `madigan-2020` ID repaired. Three *narrow* physiology/lab claims promoted to `stable`.
 
 ---
 
@@ -194,7 +194,7 @@ Priority domains in `README.md` that still lack *full* card families include rem
 | `chapters/05-becoming-a-mind.md` | Working TOC Ch. 5 | Curated, voice-checked; archival draft untouched |
 | `chapters/06-the-mind-in-motion.md` | Working TOC Ch. 6 | Curated expansion; archival draft untouched |
 | `chapters/07-the-birth-of-language.md` | Working TOC Ch. 7 | Curated, voice-checked; archival draft untouched |
-| `chapters/14-what-actually-works.md` | Working TOC Ch. 14 | Staging curated copy; artifacts stripped; archival untouched |
+| `chapters/14-what-actually-works.md` | Working TOC Ch. 14 | Curated, voice-checked; artifacts stripped; Appendix B range; archival untouched |
 
 `COMPOSITION.md` Appendix B target: 2,500–4,000 words per finished chapter.
 
@@ -318,9 +318,9 @@ Later packages that treated “PR #4 merged” as true were describing content o
 2. **Chapter 6 archival remains thin** (~1,625 words). A curated copy in `chapters/06-the-mind-in-motion.md` is now in the Appendix B range. Chapter 7 has a curated copy (~3,785 words); archival ~4,908 remains untouched. Chapter 3 curated copy ~2,597 words (archival ~5,497). Chapter 4 curated copy ~2,518 words; archival ~4,561 remains untouched. Chapter 5 curated copy ~2,537 words (archival ~4,900). Chapter 1 curated copy ~2,900 words (archival ~3,985).
 3. **`_TEMPLATE.md` now has OKF frontmatter.** Keep it in sync when live-card fields change.
 4. **`atlas_domains` / `chapter_hooks`** are on the newer cards; most first-pass cards still omit them.
-5. **Draft citation artifacts.** Archival `chapter 14` still has 29 `:contentReference[oaicite:…]` leftovers. Curated `chapters/14-what-actually-works.md` strips them. Do not overwrite the archival draft. Length still over Appendix B.
+5. **Draft citation artifacts.** Archival `chapter 14` still has 29 `:contentReference[oaicite:…]` leftovers. Curated `chapters/14-what-actually-works.md` strips them and is in the Appendix B range. Do not overwrite the archival draft.
 6. **Binary research files.** Most of `preliminary/research/` is `.docx`; grep/search will miss them.
-7. **Catalog-wide retraction lookup is complete for DOI-resolved records** (Crossref + OpenAlex `is_retracted` + PubMed PTs). No retraction/EoC titles. Cochrane `new_version` flags remain successor reviews. Grey-literature IDs (NICHD 05-4318, two WHO IRIS handles, Kramer 1987) have no journal DOI and are now identified rather than missing; dispositions are in `SOURCES.md`. `hiscock-2016` retired. Replication/attenuation is classified catalog-wide; **none moved to `stable`**. `madigan-2020` now points at the 2020 *JAMA Pediatrics* meta-analysis.
+7. **Catalog-wide retraction lookup is complete for DOI-resolved records** (Crossref + OpenAlex `is_retracted` + PubMed PTs). No retraction/EoC titles. Cochrane `new_version` flags remain successor reviews. Grey-literature IDs (NICHD 05-4318, two WHO IRIS handles, Kramer 1987) have no journal DOI and are now identified rather than missing. `hiscock-2016` retired. Replication/attenuation is classified catalog-wide; **three narrow physiology/lab claims are `stable`**. `madigan-2020` now points at the 2020 *JAMA Pediatrics* meta-analysis.
 8. **No tests or lint.** Quality control is methodological (CONTRIBUTING + voice checklist), not automated.
 9. **Do not invent prescriptions.** If evidence does not justify an action, say so.
 10. **PR #4 is closed, not merged.** Unique deliverables already sit on `main` via the #5 squash. See section 9.
@@ -330,15 +330,14 @@ Later packages that treated “PR #4 merged” as true were describing content o
 
 ## 11. Suggested next work
 
-Done in this package: Chapter 1 evidence map + curated chapter + voice review; Chapter 8 triage/map + three draft cards; remaining Ch. 6 and Ch. 7 extraction cards; five no-DOI IDs documented in `SOURCES.md`; curated Chapter 14 artifact strip; `stable-promotion-candidates.md`; preconception/play/social extraction plans. **None to `stable`.**
+Done in this package: Part II triage for Chapters 9, 11, and 12; seven first-pass draft cards; Chapter 14 trimmed to Appendix B range; three *narrow* physiology/lab claims moved to `stable` after a five-rule re-audit. Archival drafts untouched. Sleep/attachment/screen theory not rewritten.
 
 Highest-leverage remaining work:
 
-- Replication notes for the first `stable` physiology/lab candidates (transition, folate NTD, Saffran segmentation).
-- Curated Chapter 8 after a voice review.
-- Pretend/symbolic play cards; father/kin/sibling source-audit.
-- Trim Chapter 14 into the Appendix B range once Part II cards exist.
+- Curated Chapters 8, 9, 11, and 12 after voice reviews.
+- Father/kin/sibling source-audit; outdoor/risky play; Chapter 10 rules/behavior.
 - Chapter 3 neonatal perception (C03) and mode of delivery remain open/held.
+- Further `stable` promotions only after the same five-rule bar (looking-time and perceptual-narrowing still `draft`).
 
 Highest-leverage remaining manuscript work:
 

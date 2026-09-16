@@ -3,10 +3,12 @@ type: Evidence Card
 title: "Periconceptional Folic Acid and Neural-Tube Defects"
 description: "Randomized and systematic-review evidence shows periconceptional folic acid substantially reduces neural-tube-defect risk; this does not generalize to all anomalies or to intelligence."
 tags: [pregnancy, nutrition, rct]
-status: draft
-confidence: high
+status: stable
+confidence: high-ntd; low-other-anomalies-cognition
 generated: { by: agent:cursor, at: 2026-09-15T17:00:00Z }
 stale_after: 2027-03-15T00:00:00Z
+atlas_domains: [pregnancy, nutrition]
+chapter_hooks: [evidence, boundary]
 sources:
   - id: deregil-2015-cochrane
     resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/
@@ -14,16 +16,16 @@ sources:
   - id: mrc-ntd-1991
     resource: https://doi.org/10.1016/0140-6736(91)90133-A
     title: "MRC Vitamin Study Research Group (1991), Lancet, NTD prevention trial"
-  - id: who-anc-2016
-    resource: https://iris.who.int/handle/10665/250796
-    title: "WHO (2016), recommendations on antenatal care"
+  - id: czeizel-dudas-1992
+    resource: https://doi.org/10.1056/NEJM199212243272602
+    title: "Czeizel & Dudás (1992), NEJM, first-occurrence NTD prevention trial"
 ---
 
 # Periconceptional Folic Acid and Neural-Tube Defects
 
 > Domain: pregnancy / feeding
-> Last updated: 2026-09-15
-> Status: Source-audited first pass (CH02-C07)
+> Last updated: 2026-09-16
+> Status: Stable for the *narrow* NTD-prevention claim (`stable-candidates--replication-note.md`). Other-anomaly and cognition claims remain Low.
 
 ## What We Know
 
@@ -35,9 +37,10 @@ Daily periconceptional folic acid (alone or with other vitamins) reduces neural-
 
 ## Evidence and Causal Assessment
 
-- Landmark RCT: MRC Vitamin Study (1991) established prevention of NTD recurrence with periconceptional folic acid.
-- De-Regil et al. (2015) Cochrane review: five RCTs, 6,708 births, RR 0.31 (0.17–0.58) for NTDs; recurrence RR 0.34 (0.18–0.64). Dose subgroup (0.4 mg vs higher) did not change the conclusion.
-- WHO antenatal-care guidance recommends daily iron and folic acid as a public-health measure; that guideline also covers anemia and is a broader package than the NTD-only claim.
+- Landmark RCT: MRC Vitamin Study (1991) established prevention of NTD *recurrence* with periconceptional folic acid.
+- Independent first-occurrence RCT: Czeizel & Dudás (1992), *NEJM*, Hungarian periconceptional multivitamin trial; no NTD in the folic-acid arm versus six in the control arm among women without a prior NTD pregnancy.
+- De-Regil et al. (2015) Cochrane review: five RCTs, 6,708 births, RR 0.31 (0.17–0.58) for NTDs; recurrence RR 0.34 (0.18–0.64). Dose subgroup (0.4 mg vs higher) did not change the conclusion. Cochrane `new_version` on this record is a successor review, not a retraction.
+- WHO antenatal-care guidance recommends daily iron and folic acid as a public-health measure; that guideline is adjacent framework, not this card’s identification.
 
 ## Effect Size and Persistence
 
@@ -45,7 +48,7 @@ Large relative-risk reduction for NTD. Persistence is binary at the structural l
 
 ## Bias, Heterogeneity, and Confounding
 
-Baseline fortification and population folate status change the absolute benefit. Trials are older and often recurrence-focused; first-occurrence evidence is thinner (one large trial with zero events in the folic-acid arm). Adherence, timing (must cover neural-tube closure), and access are implementation issues, not reasons to doubt the core RCT result.
+GI attenuation: **n/a** for NTD. Baseline fortification and population folate status change the absolute benefit. Trials are older and often recurrence-focused; first-occurrence evidence is now represented by Czeizel & Dudás as well as the Cochrane pool. Adherence, timing (must cover neural-tube closure), and access are implementation issues, not reasons to doubt the core RCT result.
 
 ## What Remains Uncertain
 
@@ -63,4 +66,4 @@ Population fortification and periconceptional folic acid as recommended antenata
 
 - De-Regil et al. (2015), Cochrane Database of Systematic Reviews
 - MRC Vitamin Study Research Group (1991), *Lancet*
-- WHO (2016), antenatal care recommendations
+- Czeizel & Dudás (1992), *New England Journal of Medicine*

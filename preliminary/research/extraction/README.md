@@ -46,12 +46,16 @@ Group claims into likely cards **after** they are extracted. One card = one clai
 - [Chapter 5 Evidence Map](ch05-becoming-a-mind--evidence-map.md) — looking-time, attention, object permanence, joint attention; narrowing/statistical/contingency reconciled.
 - [Chapter 7 Evidence Map](ch07-birth-of-language--evidence-map.md) — perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling; screens ID-repaired; parent-implemented language card added; joint attention is a Ch. 5 card.
 - [Chapter 8 Evidence Map](ch08-expanding-world--evidence-map.md) — social referencing, networks, peers; childcare/BEIP reconciled.
-- [Stable-promotion candidates](stable-promotion-candidates.md) — physiology/lab path; none to `stable`.
+- [Chapter 9 Evidence Map](ch09-emotional-revolution--evidence-map.md) — still-face, temperament, inhibition; co-regulation/delay reconciled.
+- [Chapter 11 Evidence Map](ch11-developing-executive--evidence-map.md) — EF unity/diversity and inhibitory control; Watts delay reconciled.
+- [Chapter 12 Evidence Map](ch12-play-imagination--evidence-map.md) — symbolic play and Lillard overclaim.
+- [Stable-promotion candidates](stable-promotion-candidates.md) — physiology/lab path; three narrow claims `stable`.
+- [Stable-candidate replication note](stable-candidates--replication-note.md) — five-rule re-audit; folate, Saffran, neonatal transition.
 - [Preconception extraction plan](preconception--extraction-plan.md) — first dedicated domain plan; Kong card exists.
-- [Play extraction plan](play--extraction-plan.md) — Chapter 12; embodiment/exploration already in Ch. 6.
+- [Play extraction plan](play--extraction-plan.md) — Chapter 12; two first-pass cards exist.
 - [Social-beyond-attachment extraction plan](social-beyond-attachment--extraction-plan.md) — Chapters 8–11 remainder.
-- [Selected-card re-audit](selected-cards--replication-bias-reaudit.md) — first replication/bias pass; none to `stable`.
-- [Catalog-wide replication / attenuation](catalog-wide-replication-attenuation.md) — every live card classified; none to `stable`.
-- [Catalog-wide retraction search](catalog-wide-retraction-search.md) — Crossref/PubMed lookup; none to `stable`.
+- [Selected-card re-audit](selected-cards--replication-bias-reaudit.md) — first replication/bias pass; none to `stable` in that pass.
+- [Catalog-wide replication / attenuation](catalog-wide-replication-attenuation.md) — every live card classified; three later `stable` flips.
+- [Catalog-wide retraction search](catalog-wide-retraction-search.md) — Crossref/PubMed lookup; Cochrane `new_version` is not retraction.
 - [DOI recovery and Retraction Watch](doi-recovery-retraction-watch.md) — 15 of 20 previously unchecked IDs recovered; five listings later repaired.
-- [Five listings and Retraction Watch dump](five-listings-and-retraction-watch-dump.md) — `hiscock-2016` retired; dump finds no retractions; none to `stable`.
+- [Five listings and Retraction Watch dump](five-listings-and-retraction-watch-dump.md) — `hiscock-2016` retired; dump finds no retractions.

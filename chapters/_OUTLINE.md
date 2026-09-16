@@ -16,12 +16,12 @@ Each chapter should still follow the 10-step rhythm in `COMPOSITION.md` Appendix
 | 6 | The Mind in Motion | `preliminary/drafts-chapters/chapter 6` (archival) | Ch. 6 dossier | **Curated expansion:** `chapters/06-the-mind-in-motion.md`. Linked cards: contingency, embodiment, exploration, physical reasoning, deferred imitation. |
 | 7 | The Birth of Language | `preliminary/drafts-chapters/chapter 7` (archival) | Ch. 7 plan + synthesis | **Promoted curated copy:** `chapters/07-the-birth-of-language.md`. Linked cards: perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling, parent-implemented language. Screens ID-repaired, not re-theorized. |
 | 8 | The Expanding World | `preliminary/drafts-chapters/chapter 8.md` | Ch. 8 plan + synthesis | Triage + evidence map + three draft cards. No curated copy yet. |
-| 9 | The Emotional Revolution | `preliminary/drafts-chapters/Chapter 9.md` | Ch. 9 plan | |
+| 9 | The Emotional Revolution | `preliminary/drafts-chapters/Chapter 9.md` | Ch. 9 plan | Triage + evidence map + three draft cards. No curated copy yet. |
 | 10 | Boundaries, Behavior, and the First Rules | `preliminary/drafts-chapters/Chapter 10.md` | Ch. 10 dossier | Seed Ch. 8 “Morality and Rules” is absorbed here, not a separate book chapter. |
-| 11 | The Developing Executive | `preliminary/drafts-chapters/chapter 11` | Ch. 11 dossier | |
-| 12 | Play, Imagination, and Meaning | `preliminary/drafts-chapters/chapter 12` | Ch. 12 plan | |
+| 11 | The Developing Executive | `preliminary/drafts-chapters/chapter 11` | Ch. 11 dossier | Triage + evidence map + two draft cards; Watts delay reconciled. No curated copy yet. |
+| 12 | Play, Imagination, and Meaning | `preliminary/drafts-chapters/chapter 12` | Ch. 12 plan | Triage + evidence map + two draft cards. No curated copy yet. |
 | 13 | The Ecology of Development | `preliminary/drafts-chapters/chapter 13` | Ch. 13 plans | |
-| 14 | What Actually Works? | `preliminary/drafts-chapters/chapter 14` (archival) | Ch. 14 architecture + interventions review | **Staging curated copy:** `chapters/14-what-actually-works.md` (artifacts stripped). Over Appendix B length. |
+| 14 | What Actually Works? | `preliminary/drafts-chapters/chapter 14` (archival) | Ch. 14 architecture + interventions review | **Curated copy:** `chapters/14-what-actually-works.md` (artifacts stripped; trimmed to Appendix B range after Part II cards). |
 | 15 | Three Years: What Has Been Built? | `preliminary/drafts-chapters/chapter 15` | Ch. 15 dossier | Filename was previously `chapter 16`. |
 
 ## Why not the 8-chapter seed
@@ -34,7 +34,7 @@ A chapter moves into `chapters/` only after linked evidence cards are audited an
 
 ## Linked cards for Chapter 2 (current)
 
-All remain `status: draft`. C13 is held on the growth card.
+Most remain `status: draft`. C13 is held on the growth card. `prenatal-folate-ntd.md` is `stable` for the *narrow* NTD claim.
 
 - `prenatal-developmental-timing.md` (C01)
 - `placenta-as-mediator.md` (C02)
@@ -51,7 +51,7 @@ All remain `status: draft`. C13 is held on the growth card.
 
 ## Linked cards for Chapter 3 (current)
 
-All remain `status: draft`. Mode of delivery held.
+Most remain `status: draft`. Mode of delivery held. `neonatal-cardiopulmonary-transition.md` is `stable` for the *narrow* sequence claim.
 
 - `neonatal-cardiopulmonary-transition.md` (CH03-C02)
 - `infant-crying-as-signal.md` (CH03-C04)
@@ -96,7 +96,7 @@ All remain `status: draft`.
 
 ## Linked cards for Chapter 7 (current)
 
-All remain `status: draft`.
+Most remain `status: draft`. `infant-statistical-speech-segmentation.md` is `stable` for the laboratory claim.
 
 - `infant-perceptual-narrowing.md` (CH07-C03)
 - `infant-statistical-speech-segmentation.md` (CH07-C02)
@@ -109,6 +109,7 @@ All remain `status: draft`.
 - Reconcile only: `screen-time-language-development.md` (Madigan 2020 vs Jing 2023 IDs repaired)
 - Adjacent Chapter 3 signal: `infant-crying-as-signal.md`
 - `parent-implemented-language.md` (CH07 parent-implemented)
+- `infant-statistical-speech-segmentation.md` is now `status: stable` for the laboratory claim
 
 ## Linked cards for Chapter 8 (current)
 
@@ -118,3 +119,36 @@ All remain `status: draft`. No curated chapter yet.
 - `infant-multiple-caregiver-attachments.md` (CH08-C01)
 - `toddler-peer-interaction.md` (CH08-C04)
 - Reconcile only: `early-childcare-quality.md`, `infant-caregiver-coregulation.md`, `severe-institutional-deprivation.md`
+
+## Linked cards for Chapter 9 (current)
+
+All remain `status: draft`. No curated chapter yet.
+
+- `infant-still-face-paradigm.md` (CH09-C01b)
+- `temperament-reactivity-not-destiny.md` (CH09-C03)
+- `behavioral-inhibition-anxiety-risk.md` (CH09-C06)
+- Reconcile only: `infant-caregiver-coregulation.md`, `infant-social-referencing.md`, `infant-crying-as-signal.md`, `self-regulation-delay-of-gratification.md`
+
+## Linked cards for Chapter 11 (current)
+
+New cards `status: draft`. Delay card unchanged. No curated chapter yet.
+
+- `executive-function-unity-diversity.md` (CH11-C01/C02)
+- `inhibitory-control-toddler.md` (CH11-C03)
+- Reconcile only: `self-regulation-delay-of-gratification.md`
+
+## Linked cards for Chapter 12 (current)
+
+All remain `status: draft`. No curated chapter yet.
+
+- `symbolic-pretend-play-emergence.md` (CH12-C02)
+- `pretend-play-educational-claims.md` (CH12-C10)
+- Reconcile only: `exploration-as-sampling.md`, `embodied-perception-action.md`, `toddler-peer-interaction.md`, `preschool-early-education-rct.md`, `screen-time-language-development.md`
+
+## Linked cards for Chapter 14 (current)
+
+Curated copy in Appendix B range. Archival untouched.
+
+- `preschool-early-education-rct.md`
+- Adjacent: `prenatal-folate-ntd.md` (`stable` NTD), `responsive-caregiving-attachment-interventions.md`, `early-childcare-quality.md`, `severe-institutional-deprivation.md`
+- Adjacent Part II: still-face, co-regulation, pretend-play overclaim, EF construct, Watts delay

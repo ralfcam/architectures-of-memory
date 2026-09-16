@@ -12,6 +12,9 @@ Entry types:
 ## [Unreleased]
 
 ### Structure
+- Began Part II triage for Chapters 9, 11, and 12 (emotional revolution, developing executive, play). Evidence maps, source audits, and first-pass draft cards added. Archival drafts untouched. Sleep/attachment/screen theory not rewritten. Co-regulation and Watts delay cards reconciled, not rewritten.
+- Trimmed curated Chapter 14 (`chapters/14-what-actually-works.md`) to the Appendix B range (~2,970 words). Archival `preliminary/drafts-chapters/chapter 14` untouched. Voice review updated.
+- Wrote a replication note for the three strongest physiology/lab `stable` candidates and flipped **three** cards to `status: stable` for *narrow* claims only: folate NTD, Saffran laboratory segmentation, neonatal cardiopulmonary sequence. YAML/in-body grades matched; Czeizel 1992, Aslin 1998, and Hillman 2012 added as independent sources. `who-anc-2016` demoted from folate identification. Looking-time and perceptual-narrowing remain `draft`.
 - Promoted a curated, voice-checked Chapter 1 (`chapters/01-before-the-child-is-born.md`) in the Appendix B range. Leftover seed `chapters/01-first-environment.md` removed; Chapter 2 remains `chapters/02-first-environment.md`. Archival draft untouched.
 - Began second-wave Chapter 8 triage and evidence map. Social-referencing, multiple-caregiver, and peer cards added; childcare quality vs quantity reconciled, not rewritten. Stranger anxiety ≠ insecure attachment; group care ≠ deprivation.
 - Closed remaining Chapter 6 extraction gaps (embodiment, exploration-as-sampling, physical reasoning, deferred imitation) and the Chapter 7 parent-implemented language gap.
@@ -55,12 +58,14 @@ Entry types:
 - Source-audited Chapter 5 C01/C03/C06/C07: added looking-time, attention, object-permanence, and joint-attention cards. Narrowing, statistical-segmentation, and contingency cards reconciled, not rewritten.
 - Source-audited remaining Chapter 7 C05/C06: added pointing and babbling cards. Screen-time card IDs repaired, not re-theorized.
 - Source-audited Chapter 1 paternal-age (Kong 2012) and remaining Chapter 6/7/8 claims: paternal-age, social referencing, multiple-caregiver attachments, toddler peer interaction, embodied perception–action, exploration-as-sampling, physical reasoning, deferred imitation, parent-implemented language. Sleep/attachment/screen theory not rewritten.
+- Source-audited Chapter 9 still-face, temperament, and behavioral inhibition; Chapter 11 EF unity/diversity and inhibitory control; Chapter 12 symbolic play and Lillard overclaim. Watts delay and co-regulation cards reconciled, not rewritten.
 
 ### Revised
 - Aligned YAML `confidence` on all eight first-pass cards with in-body grades (cards remain `status: draft`).
 - Resolved the 12 previously unresolved `SOURCES.md` citations (two were already verified; two titles were corrected to the matching papers).
 - Citation-repaired `infant-sleep-training.md`: retired `hiscock-2016`; identified Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020. Harm claim and Low-to-Moderate grade unchanged.
 - Citation-repaired `screen-time-language-development.md`: separated Madigan 2020 *JAMA Pediatrics* from Jing et al. 2023 *Child Development*. Low-to-Moderate grade unchanged.
+- Re-audited folate, Saffran, and neonatal-transition cards against the five promotion rules. Compound YAML on folate (`high-ntd; low-other-anomalies-cognition`). Added Czeizel 1992, Aslin 1998, Hillman 2012. Narrow claims moved to `status: stable`.
 
 
 ## [2026-09-14]

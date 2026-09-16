@@ -1,6 +1,6 @@
 # Evidence Cards Index
 
-Preliminary evidence cards populated as a starting synthesis. All cards are marked **status: draft** in their OKF frontmatter and require deeper audit (full source retrieval, additional replication search, formal bias/heterogeneity review, confidence grading) before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
+Fifty-four evidence cards. **Three** physiology/lab cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other fifty-one remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
 
 # Evidence Cards
 
@@ -10,13 +10,13 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 * [Fetal Autonomic Maturation](fetal-autonomic-maturation.md) - Fetal HRV indexes present maturation, not temperament destiny.
 * [Prenatal Maternal Stress and Anxiety](prenatal-maternal-stress-anxiety.md) - Observational prenatal stress/anxiety associations largely attenuate under genetically informed designs.
 * [Prenatal Auditory Discrimination and Newborn Preference](prenatal-auditory-learning.md) - Late-pregnancy speech exposure can shape newborn preference; not lasting cognitive advantage.
-* [Periconceptional Folic Acid and Neural-Tube Defects](prenatal-folate-ntd.md) - RCTs/Cochrane: folic acid substantially reduces NTD risk; not a general IQ claim.
+* [Periconceptional Folic Acid and Neural-Tube Defects](prenatal-folate-ntd.md) - **`stable`** (narrow NTD claim): RCTs/Cochrane + Czeizel 1992; Low other anomalies / IQ.
 * [Prenatal Iodine and Maternal T4](prenatal-iodine-thyroid.md) - Severe early iodine deficiency can injure the developing brain; mild replete-population claims are weaker.
 * [Prenatal Alcohol and FASD](prenatal-alcohol-fasd.md) - Causal teratology continuum; detected exposure is not a diagnosis.
 * [Maternal Tobacco and Fetal Growth](prenatal-tobacco-birthweight.md) - Dose-related birthweight/preterm associations; not an IQ card.
 * [Prenatal Environmental Mixtures](prenatal-environmental-mixtures.md) - Selected phthalate–placenta associations; not proven permanent child injury.
 * [Fetal Growth Is Not Destiny](fetal-growth-not-destiny.md) - INTERGROWTH standards measure size; percentile is not character.
-* [Neonatal Cardiopulmonary Transition](neonatal-cardiopulmonary-transition.md) - Birth reorganizes gas exchange and circulation; a difficult transition is not a personality forecast.
+* [Neonatal Cardiopulmonary Transition](neonatal-cardiopulmonary-transition.md) - **`stable`** (narrow sequence): birth reorganizes gas exchange and circulation; a difficult transition is not a personality forecast.
 * [Early Skin-to-Skin Contact](skin-to-skin-immediate-physiology.md) - Healthy-newborn SSC: moderate for breastfeeding at 1–4 months; low for infant physiology and character.
 * [Infant–Caregiver Co-Regulation](infant-caregiver-coregulation.md) - Bidirectional, context-sensitive regulation; nurturing care is an ecology, not a purity test.
 * [Severe Institutional Deprivation](severe-institutional-deprivation.md) - BEIP: family placement after severe deprivation is not ordinary parenting.
@@ -26,7 +26,7 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 * [Object Permanence Is Not a Single Staircase](object-permanence-looking-vs-search.md) - Looking-time sensitivity to occlusion is not the same as search, and not a finished object concept.
 * [Joint Attention as Shared Reference](joint-attention-shared-reference.md) - Shared attention is a construct, not a language guarantee.
 * [Infant Perceptual Narrowing](infant-perceptual-narrowing.md) - First-year phonetic attunement; High in the classic lab; Low as a sealed deadline.
-* [Infant Statistical Speech Segmentation](infant-statistical-speech-segmentation.md) - Saffran 1996: High for laboratory transitional-probability learning; Low for transfer.
+* [Infant Statistical Speech Segmentation](infant-statistical-speech-segmentation.md) - **`stable`** (narrow lab claim): Saffran 1996 / Aslin 1998; Low for household transfer.
 * [Conversational Turns and Later Language](conversational-turns-language.md) - Gilkerson 2018: Moderate prediction from turns, not word counts; Low causation.
 * [Pointing as Shared Reference](infant-pointing-as-shared-reference.md) - Colonnesi 2010: Moderate that pointing predicts language; Low that baby-sign products accelerate typical speech.
 * [Babbling as Exploration](infant-babbling-as-exploration.md) - Oller 1999: High that canonical babbling is a real stage; Low as an IQ or parenting verdict.
@@ -39,6 +39,13 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 * [Early Physical Reasoning](infant-physical-reasoning.md) - Baillargeon 1987 / Stahl 2015: Moderate VOE; Low complete physics.
 * [Deferred Imitation](deferred-imitation.md) - Meltzoff 1988: High for 14-month one-week delay; Low neonate/curriculum.
 * [Parent-Implemented Language Interventions](parent-implemented-language.md) - Heidlage 2020: Moderate expressive vocabulary in 25 RCTs; Low universal typical-development IQ.
+* [Still-Face Disruption of Expected Contingency](infant-still-face-paradigm.md) - Tronick 1978 / Mesman 2009: High laboratory procedure effect; Low as attachment verdict. Co-regulation card reconciled.
+* [Temperament as Reactivity and Control](temperament-reactivity-not-destiny.md) - Gartstein & Rothbart 2003: Moderate dimensional differences; Low destiny.
+* [Behavioral Inhibition as Anxiety Risk](behavioral-inhibition-anxiety-risk.md) - Clauss & Blackford 2012: Moderate group social-anxiety risk; Low individual forecast.
+* [Executive Function as Unity and Diversity](executive-function-unity-diversity.md) - Miyake 2000 / Garon 2008: Moderate-to-High construct; not intelligence or character. Watts delay card reconciled.
+* [Toddler Inhibitory Control](inhibitory-control-toddler.md) - Garon / Carlson: Moderate-to-High age trend; Low marshmallow destiny.
+* [Symbolic and Pretend Play Emergence](symbolic-pretend-play-emergence.md) - Belsky & Most 1981: Moderate-to-High second-year emergence; not a diagnostic cutoff.
+* [Educational Claims About Pretend Play](pretend-play-educational-claims.md) - Lillard 2013: High that unique-cause educational claims exceed the evidence.
 * [Two Languages Do Not Confuse](dual-language-does-not-confuse.md) - NAP 2017: High that dual exposure as such does not confuse; Low automatic cognitive bonus.
 * [Infant Crying as a Signal](infant-crying-as-signal.md) - Graded distress signal; not a one-to-one code for hunger, pain, or parental error.
 * [Suck–Swallow–Breathe Coordination](suck-swallow-breathe-coordination.md) - Oral feeding is maturational coordination; feeding method is not parental worth.
@@ -55,8 +62,8 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 # Not Yet Started
 
 * Preconception exposures - Kong paternal-age card exists; other nutrients beyond folate and sperm-epigenetic stories remain planned (`preconception--extraction-plan.md`).
-* Birth - mode of delivery and birth experience (held); skin-to-skin, crying, feeding coordination, and preterm group risk now have cards.
-* Play - unstructured/free play, pretend play, outdoor play (`play--extraction-plan.md`). Embodiment/exploration cards now exist under Chapter 6.
-* Social development beyond attachment - referencing, networks, and peer cards exist; father/kin/sibling claims still `needs-source-audit` (`social-beyond-attachment--extraction-plan.md`).
+* Birth - mode of delivery and birth experience (held); skin-to-skin, crying, feeding coordination, and preterm group risk now have cards; neonatal transition is `stable` for the sequence claim.
+* Play - symbolic/pretend emergence and Lillard overclaim cards exist (`ch12-play-imagination--evidence-map.md`). Outdoor/risky play and guided-play efficacy still `needs-source-audit`. Embodiment/exploration remain Chapter 6.
+* Social development beyond attachment - referencing, networks, and peer cards exist; Chapter 9 still-face/temperament/inhibition cards added; father/kin/sibling claims still `needs-source-audit`.
 
 Add a new file per topic using `_TEMPLATE.md`, then list it here, register its sources in `../SOURCES.md`, and log the addition in `../CHANGELOG.md`.

@@ -1,6 +1,8 @@
 # Catalog-wide replication / attenuation classification
 
-Date: 2026-09-16. **No card is moved to `status: stable`.** Classification is necessary for the third promotion rule; it is not sufficient by itself.
+Date: 2026-09-16 (updated). Classification is necessary for the third promotion rule; it is not sufficient by itself. A later replication note flipped three *narrow* claims to `status: stable`.
+
+Related: [first selected-card pass](selected-cards--replication-bias-reaudit.md) · [retraction dump](five-listings-and-retraction-watch-dump.md) · [replication note](stable-candidates--replication-note.md)
 
 Related: [first selected-card pass](selected-cards--replication-bias-reaudit.md) · [retraction dump](five-listings-and-retraction-watch-dump.md)
 
@@ -16,7 +18,7 @@ A card may move to `stable` only after:
 4. In-body grade still matches YAML `confidence`.
 5. “What This Does Not Mean” still matches the identification.
 
-This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier DOI/retraction dumps. **Zero cards clear all five.**
+This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier DOI/retraction dumps. **Three narrow physiology/lab claims later cleared all five** (`stable-candidates--replication-note.md`).
 
 ## Catalog
 
@@ -28,13 +30,14 @@ This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier 
 | `fetal-autonomic-maturation.md` | Observational physiology | HRV-as-maturation replicated as a *measure*; later connectivity is thinner | n/a | Present-state index, not temperament destiny |
 | `prenatal-maternal-stress-anxiety.md` | Observational + GI triangulation | Attenuation itself replicates across MoBa, MCS siblings, JAACAP GI meta, children-of-twins | **Largely confounded (>50%)** for typical-range prenatal-specific claims | Trauma/disaster boundary untested; card still first-pass prose |
 | `prenatal-auditory-learning.md` | Laboratory preference / encoding | Preference finding conceptually replicated; lasting-advantage claim is not | n/a | Lasting cognitive advantage remains Low |
-| `prenatal-folate-ntd.md` | RCT / Cochrane | MRC 1991 independently followed by later RCTs in De-Regil 2015 | n/a for NTD prevention | Later cognition / other anomalies still Low; first-occurrence thinner than recurrence |
+| `prenatal-folate-ntd.md` | RCT / Cochrane | MRC 1991 independently followed by Czeizel 1992 and De-Regil 2015 | n/a for NTD prevention | **`stable`** for the *narrow* NTD claim (2026-09-16). Other-anomaly / cognition Low stays. |
+| `prenatal-iodine-thyroid.md` | Severe-deficiency epidemiology + endocrine review | Severe cretinism/T4 pathway replicated; mild-replete IQ is not | n/a | Mild-replete supplementation ≠ severe-deficiency evidence |
 | `prenatal-iodine-thyroid.md` | Severe-deficiency epidemiology + endocrine review | Severe cretinism/T4 pathway replicated; mild-replete IQ is not | n/a | Mild-replete supplementation ≠ severe-deficiency evidence |
 | `prenatal-alcohol-fasd.md` | Clinical teratology | Heavy/binge → FASD is independently documented; any-sip is not | n/a for diagnosed FASD | Any-sip / IQ injury still Low |
 | `prenatal-tobacco-birthweight.md` | Observational dose-response | Birthweight association widely reported; not GI in this catalog | not classified (no sibling/MR package on this card) | Cognition is a different card; identification observational |
 | `prenatal-environmental-mixtures.md` | Single-cohort mixtures | Thin independent replication of specific phthalate–placenta estimates | n/a | Single-cohort; Very Low for permanent child injury |
 | `fetal-growth-not-destiny.md` | Measurement standard | INTERGROWTH is a standards paper, not an outcome replication | n/a | Percentile ≠ character is interpretive High; catch-up claims remain open |
-| `neonatal-cardiopulmonary-transition.md` | Mechanistic / clinical | Sequence is independently described in neonatology | n/a | Timing of shunts Moderate; not a personality claim |
+| `neonatal-cardiopulmonary-transition.md` | Mechanistic / clinical | Sequence independently described (Morton 2016; Hillman 2012) | n/a | **`stable`** for the *narrow* sequence claim. Timing of shunts Moderate. |
 | `skin-to-skin-immediate-physiology.md` | Cochrane RCT meta | Breastfeeding 1–4 months supported across trials; infant physiology GRADE low | n/a | Physiology/character still Low; KMC-for-LBW not pooled |
 | `infant-caregiver-coregulation.md` | Observational / theoretical | Bidirectional timing is repeatedly described; mechanism not one pathway | n/a | Mechanism Low-to-Moderate; not a purity test |
 | `severe-institutional-deprivation.md` | RCT (BEIP) | Follow-ups replicate earlier placement benefits *in this deprivation* | n/a (randomized placement, not GI of ordinary parenting) | Very Low that effect sizes describe ordinary care |
@@ -44,7 +47,7 @@ This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier 
 | `object-permanence-looking-vs-search.md` | Classic laboratory | Looking/search dissociation is the live debate, not a settled replication win | n/a | Complete-concept claim Low |
 | `joint-attention-shared-reference.md` | Theoretical / longitudinal | Construct is widely used; isolated training is not an RCT package here | n/a | Isolated training Low |
 | `infant-perceptual-narrowing.md` | Classic laboratory | Hindi/Salish-type attunement conceptually replicated; timetable not universal | n/a | Sealed-deadline claim Low |
-| `infant-statistical-speech-segmentation.md` | Classic laboratory | Transitional-probability segmentation conceptually replicated in lab; household transfer is not | n/a | Transfer / complete grammar Low |
+| `infant-statistical-speech-segmentation.md` | Classic laboratory | Transitional-probability segmentation conceptually replicated (Aslin 1998); household transfer is not | n/a | **`stable`** for the *narrow* lab claim. Transfer / complete grammar Low. |
 | `conversational-turns-language.md` | Observational cohort (LENA) | Prediction finding is this cohort’s; not independently GI | n/a | Causation Low; not Hart & Risley |
 | `dual-language-does-not-confuse.md` | Committee synthesis | No-confusion is the NAP conclusion, not a new RCT | n/a | Automatic cognitive bonus Low |
 | `infant-crying-as-signal.md` | Review | Graded-signal description is consensus; acoustic decoding is not | n/a | Cause-code reading Low |
@@ -69,12 +72,18 @@ This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier 
 | `infant-physical-reasoning.md` | Classic laboratory | VOE looking is standard; complete-theory reading is not | n/a | Finished physics Low |
 | `deferred-imitation.md` | Laboratory experiment | Meltzoff 1988 14-month one-week delay | n/a | Neonatal imitation not this card |
 | `parent-implemented-language.md` | RCT meta (25 trials) | Expressive vocabulary modest; typical-development IQ is not | n/a | Not a screen or LENA-causation card |
+| `infant-still-face-paradigm.md` | Laboratory experiment | Still-face protest/re-engagement synthesized in Mesman 2009 | n/a | Attachment-verdict Low; co-regulation not rewritten |
+| `temperament-reactivity-not-destiny.md` | Caregiver-report factor structure | Dimensional structure recovered; stability moderate | not classified | Destiny Low |
+| `behavioral-inhibition-anxiety-risk.md` | Longitudinal meta-analysis | Group social-anxiety odds elevated; individual forecast thin | not classified | Individual forecast Low; not stranger-wariness-as-attachment |
+| `executive-function-unity-diversity.md` | Psychometric / review | Unity-and-diversity framework; toddler structure Moderate | n/a | Not intelligence or character |
+| `inhibitory-control-toddler.md` | Laboratory batteries | Age trends plus symbolic-distancing experiments | n/a | Delay destiny stays on Watts card |
+| `symbolic-pretend-play-emergence.md` | Observational / cross-sectional | Second-year symbolic shift described | n/a | Not a diagnostic cutoff |
+| `pretend-play-educational-claims.md` | Systematic narrative review | Unique-cause educational claims do not survive Lillard 2013 | n/a | Overclaim is the finding |
+
+This pass completes (3) catalog-wide and records three *narrow* `stable` flips. Rules (1)–(2) were addressed in earlier DOI/retraction dumps plus the 2026-09-16 replication note.
 
 ## Explicit non-promotions
 
-## Explicit non-promotions
-
-- Zero cards set to `status: stable`.
-- YAML `confidence` is not a stability claim.
-- Completing this table does not reopen sleep, attachment, or screen-time *theory*. The screen card’s ID mismatch is repaired in the same package; grades are unchanged.
-- Next *empirical* cards still open: Chapter 3 neonatal perception and mode of delivery (held); father/kin/sibling; pretend play.
+- YAML `confidence` is not by itself a stability claim.
+- Completing this table does not reopen sleep, attachment, or screen-time *theory*.
+- Next *empirical* cards still open: Chapter 3 neonatal perception and mode of delivery (held); father/kin/sibling; outdoor/risky play; Chapter 10 rules/behavior.
