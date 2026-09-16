@@ -34,5 +34,5 @@ Review status: **notes only**. Do not promote this draft to `chapters/` until re
 - Remaining Chapter 2 claims C01–C12 now have draft cards; C13 is interpretive on the growth card.
 - C05, C06, and C07 cards exist and have YAML grades, but all remain `status: draft` (not `stable`).
 - Curated chapter is `chapters/02-first-environment.md`; this note still describes the **archival** draft only.
-- Seed file `chapters/01-first-environment.md` is a sketch for this chapter, not book Chapter 1.
+- Seed file `chapters/01-first-environment.md` was a sketch for this chapter, not book Chapter 1. That leftover seed was later removed when Chapter 1 was promoted.
 - Archival file has no `.md` extension and was not overwritten; curated copy is `chapters/02-first-environment.md`.

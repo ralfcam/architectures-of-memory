@@ -52,5 +52,5 @@ New DOIs this package (`mindell-2006-sleep`, `gradisar-2016-pediatrics`, `bilgin
 ## Decision
 
 - **Zero cards set to `status: stable`.** A completed Retraction Watch–coverage dump is necessary and still not sufficient. Replication/attenuation classification is not catalog-wide; YAML/in-body grade match and “What This Does Not Mean” matching identification remain outstanding for promotion.
-- Grey literature is now *identified*, not missing. Absence of a journal DOI on WHO/NIH reports is a resolved catalog state.
+Grey literature is now *identified*, not missing. Absence of a journal DOI on WHO/NIH reports is a resolved catalog state. A 2026-09-16 hygiene note in `SOURCES.md` records the same four live IDs plus the retired `hiscock-2016` ID; none of the four is retired. They should not be load-bearing primary IDs for a first `stable` card.
 - `hiscock-2016` is gone from the catalog of record.

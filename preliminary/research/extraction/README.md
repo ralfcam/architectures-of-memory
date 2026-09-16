@@ -39,10 +39,17 @@ Group claims into likely cards **after** they are extracted. One card = one clai
 ## Current maps
 
 - [Chapter 2 Evidence Map](ch02-first-environment--evidence-map.md) — first full-system test of this pipeline.
+- [Chapter 1 Evidence Map](ch01-before-the-child--evidence-map.md) — framing claims; paternal-age card; timing/neural/folate/stress linked.
+- [Chapter 3 Evidence Map](ch03-great-transition--evidence-map.md) — transition physiology, bounded skin-to-skin, crying, feeding coordination, preterm group risk.
 - [Chapter 3 Evidence Map](ch03-great-transition--evidence-map.md) — transition physiology, bounded skin-to-skin, crying, feeding coordination, preterm group risk.
 - [Chapter 4 Evidence Map](ch04-regulatory-relationship--evidence-map.md) — co-regulation, deprivation, and feeding-as-regulation; sleep/attachment reconciled.
 - [Chapter 5 Evidence Map](ch05-becoming-a-mind--evidence-map.md) — looking-time, attention, object permanence, joint attention; narrowing/statistical/contingency reconciled.
-- [Chapter 7 Evidence Map](ch07-birth-of-language--evidence-map.md) — perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling; screens ID-repaired; joint attention is a Ch. 5 card.
+- [Chapter 7 Evidence Map](ch07-birth-of-language--evidence-map.md) — perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling; screens ID-repaired; parent-implemented language card added; joint attention is a Ch. 5 card.
+- [Chapter 8 Evidence Map](ch08-expanding-world--evidence-map.md) — social referencing, networks, peers; childcare/BEIP reconciled.
+- [Stable-promotion candidates](stable-promotion-candidates.md) — physiology/lab path; none to `stable`.
+- [Preconception extraction plan](preconception--extraction-plan.md) — first dedicated domain plan; Kong card exists.
+- [Play extraction plan](play--extraction-plan.md) — Chapter 12; embodiment/exploration already in Ch. 6.
+- [Social-beyond-attachment extraction plan](social-beyond-attachment--extraction-plan.md) — Chapters 8–11 remainder.
 - [Selected-card re-audit](selected-cards--replication-bias-reaudit.md) — first replication/bias pass; none to `stable`.
 - [Catalog-wide replication / attenuation](catalog-wide-replication-attenuation.md) — every live card classified; none to `stable`.
 - [Catalog-wide retraction search](catalog-wide-retraction-search.md) — Crossref/PubMed lookup; none to `stable`.

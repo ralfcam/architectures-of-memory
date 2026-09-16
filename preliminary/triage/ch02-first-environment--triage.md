@@ -10,7 +10,7 @@ Status: `extracted`. Full claim inventory is the [Chapter 2 Evidence Map](../res
 | C02-S1 | Alternate module synthesis; do not double-extract |
 | C02-P1 | Near-duplicate of C02-S1 (same size, different hash) |
 | C02-D | Long draft |
-| — | Canonical seed outline `chapters/01-first-environment.md` (numbering collision) |
+| — | Leftover seed `chapters/01-first-environment.md` removed; Chapter 2 is `chapters/02-first-environment.md` |
 | — | Live cards: stress (C06), auditory (C05), folate (C07) |
 
 C02-D1 already contains ten proposed cards. The evidence map splits and regroups those into 13 claims / 10 likely cards so auditory learning, iodine, alcohol, and tobacco are not buried inside broader cards.
@@ -61,5 +61,5 @@ From C02-D1 / C02-S1 prohibited-inference registers:
 
 - C01–C12 source-audited into draft cards; C13 interpretive on the growth card
 - Working TOC Chapter 2 curated copy is `chapters/02-first-environment.md`; archival draft unchanged
-- Seed sketch remains `chapters/01-first-environment.md`
+- Leftover seed `chapters/01-first-environment.md` removed
 - No card may move from `status: draft` to `stable` until a later replication/bias re-audit

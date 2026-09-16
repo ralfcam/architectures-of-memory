@@ -30,6 +30,15 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 * [Conversational Turns and Later Language](conversational-turns-language.md) - Gilkerson 2018: Moderate prediction from turns, not word counts; Low causation.
 * [Pointing as Shared Reference](infant-pointing-as-shared-reference.md) - Colonnesi 2010: Moderate that pointing predicts language; Low that baby-sign products accelerate typical speech.
 * [Babbling as Exploration](infant-babbling-as-exploration.md) - Oller 1999: High that canonical babbling is a real stage; Low as an IQ or parenting verdict.
+* [Paternal Age and De Novo Mutations](paternal-age-de-novo-mutations.md) - Kong 2012: High for mutation rate with father's age; Low as a cognitive/psychiatric forecast.
+* [Infant Social Referencing](infant-social-referencing.md) - Sorce 1985 / Walden 1988: High for laboratory referencing under uncertainty; Low as an attachment verdict.
+* [Multiple Caregiver Attachments](infant-multiple-caregiver-attachments.md) - Dagan 2018/2021: Moderate that multiple attachments occur; Low that network size is a dose.
+* [Toddler Peer Interaction](toddler-peer-interaction.md) - Brownell 2006: Moderate that peer contexts create coordination demands; Low that hours cause later character.
+* [Embodied Perception–Action](embodied-perception-action.md) - Adolph & Hoch 2019: Moderate framework; Low that earlier milestones cause later cognition.
+* [Exploration as Sampling](exploration-as-sampling.md) - Stahl & Feigenson 2015: Moderate that surprise reorganizes exploration; Low transfer.
+* [Early Physical Reasoning](infant-physical-reasoning.md) - Baillargeon 1987 / Stahl 2015: Moderate VOE; Low complete physics.
+* [Deferred Imitation](deferred-imitation.md) - Meltzoff 1988: High for 14-month one-week delay; Low neonate/curriculum.
+* [Parent-Implemented Language Interventions](parent-implemented-language.md) - Heidlage 2020: Moderate expressive vocabulary in 25 RCTs; Low universal typical-development IQ.
 * [Two Languages Do Not Confuse](dual-language-does-not-confuse.md) - NAP 2017: High that dual exposure as such does not confuse; Low automatic cognitive bonus.
 * [Infant Crying as a Signal](infant-crying-as-signal.md) - Graded distress signal; not a one-to-one code for hunger, pain, or parental error.
 * [Suck–Swallow–Breathe Coordination](suck-swallow-breathe-coordination.md) - Oral feeding is maturational coordination; feeding method is not parental worth.
@@ -45,9 +54,9 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 
 # Not Yet Started
 
-* Preconception exposures - parental age, paternal contributions, periconceptional nutrition beyond folate.
+* Preconception exposures - Kong paternal-age card exists; other nutrients beyond folate and sperm-epigenetic stories remain planned (`preconception--extraction-plan.md`).
 * Birth - mode of delivery and birth experience (held); skin-to-skin, crying, feeding coordination, and preterm group risk now have cards.
-* Play - unstructured/free play, pretend play, outdoor play.
-* Social development beyond attachment - peer interaction, sibling effects, daycare socialization.
+* Play - unstructured/free play, pretend play, outdoor play (`play--extraction-plan.md`). Embodiment/exploration cards now exist under Chapter 6.
+* Social development beyond attachment - referencing, networks, and peer cards exist; father/kin/sibling claims still `needs-source-audit` (`social-beyond-attachment--extraction-plan.md`).
 
 Add a new file per topic using `_TEMPLATE.md`, then list it here, register its sources in `../SOURCES.md`, and log the addition in `../CHANGELOG.md`.

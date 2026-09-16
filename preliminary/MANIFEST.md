@@ -2,7 +2,7 @@
 
 Inventory of every file under `preliminary/` as of 2026-09-15. Original uploads are archival. Do not rename or move them. Curated copies use the naming convention in [`README.md`](README.md).
 
-**Chapter numbering** follows the 15-chapter draft sequence. Remaining seed sketch: `chapters/01-first-environment.md` (Ch. 2). Curated copies: `chapters/02-first-environment.md` (Ch. 2), `chapters/03-the-great-transition.md` (Ch. 3), `chapters/04-regulatory-relationship.md` (Ch. 4; replaced the prior seed), `chapters/05-becoming-a-mind.md` (Ch. 5), `chapters/06-the-mind-in-motion.md` (Ch. 6), `chapters/07-the-birth-of-language.md` (Ch. 7).
+**Chapter numbering** follows the 15-chapter draft sequence. Curated copies: `chapters/01-before-the-child-is-born.md` (Ch. 1), `chapters/02-first-environment.md` (Ch. 2), `chapters/03-the-great-transition.md` (Ch. 3), `chapters/04-regulatory-relationship.md` (Ch. 4), `chapters/05-becoming-a-mind.md` (Ch. 5), `chapters/06-the-mind-in-motion.md` (Ch. 6), `chapters/07-the-birth-of-language.md` (Ch. 7). Staging: `chapters/14-what-actually-works.md`. Leftover seed `chapters/01-first-environment.md` removed.
 
 ## Status and type vocabularies
 
@@ -22,7 +22,13 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-README | `preliminary/README.md` | documentation | remain-preliminary | promoted | Workbench + naming convention |
 | G-MANIFEST | `preliminary/MANIFEST.md` | documentation | remain-preliminary | promoted | This file |
 | G-TRIAGE | `preliminary/triage/README.md` | documentation | remain-preliminary | promoted | Part I sequence |
-| G-T01 | `preliminary/triage/ch01-framing--triage.md` | documentation | remain-preliminary | triage-ready | Ch. 1 extraction plan |
+| G-T01 | `preliminary/triage/ch01-framing--triage.md` | documentation | remain-preliminary | extracted | Ch. 1 extraction plan; curated copy promoted |
+| G-MAP01 | `preliminary/research/extraction/ch01-before-the-child--evidence-map.md` | documentation | remain-preliminary | extracted | C01-D1 vs C01-S1 hashes; paternal-age card; four prenatal cards linked |
+| G-R01 | `preliminary/drafts-chapters/reviews/ch01-curated-01-before-the-child--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 1 |
+| G-T08 | `preliminary/triage/ch08-expanding-world--triage.md` | documentation | remain-preliminary | triage-ready | Second-wave Ch. 8; three cards; no curated chapter |
+| G-MAP08 | `preliminary/research/extraction/ch08-expanding-world--evidence-map.md` | documentation | remain-preliminary | extracted | Referencing, networks, peers; childcare/BEIP reconcile |
+| G-STABLE | `preliminary/research/extraction/stable-promotion-candidates.md` | documentation | remain-preliminary | extracted | First `stable` path; none flipped |
+| G-T14 | `preliminary/triage/ch14-what-actually-works--triage.md` | documentation | remain-preliminary | extracted | Artifacts stripped in curated copy; archival still has 29 crumbs |
 | G-T02 | `preliminary/triage/ch02-first-environment--triage.md` | documentation | remain-preliminary | extracted | Points at Ch. 2 map |
 | G-EXT | `preliminary/research/extraction/README.md` | documentation | remain-preliminary | promoted | Atomic-claim pipeline |
 | G-MAP02 | `preliminary/research/extraction/ch02-first-environment--evidence-map.md` | documentation | remain-preliminary | extracted | C01–C12 `promote`; C13 interpretive on growth card |
@@ -33,7 +39,6 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-R02b | `preliminary/drafts-chapters/reviews/ch02-curated-02-first-environment--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated `chapters/02-first-environment.md` |
 | G-T03 | `preliminary/triage/ch03-great-transition--triage.md` | documentation | remain-preliminary | extracted | Ch. 3 extraction plan; five cards exist; curated copy promoted; C08 held |
 | G-T04 | `preliminary/triage/ch04-regulatory-relationship--triage.md` | documentation | remain-preliminary | extracted | Ch. 4 extraction plan; co-regulation, BEIP, feeding cards; curated copy promoted |
-| G-T14 | `preliminary/triage/ch14-what-actually-works--triage.md` | documentation | remain-preliminary | unreviewed | Promotion blocker: 29 `:contentReference` leftovers |
 | G-MAP03 | `preliminary/research/extraction/ch03-great-transition--evidence-map.md` | documentation | remain-preliminary | extracted | C02/C04–C07 promote; C08 held |
 | G-AUDIT03 | `preliminary/research/extraction/ch03-transition-physiology--source-audit.md` | documentation | remain-preliminary | extracted | Morton 2016; Moore 2016; Zeifman 2017; Lau 2015; Burstein 2024; P1≠S1 hashes |
 | G-MAP04 | `preliminary/research/extraction/ch04-regulatory-relationship--evidence-map.md` | documentation | remain-preliminary | extracted | Sleep/attachment reconcile; C01/C02/C04 promote |
@@ -47,6 +52,9 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-AUDIT05 | `preliminary/research/extraction/ch05-cognition--source-audit.md` | documentation | remain-preliminary | extracted | Aslin; Colombo; Baillargeon; Mundy; P1≠D1≠P2 hashes |
 | G-T05 | `preliminary/triage/ch05-becoming-a-mind--triage.md` | documentation | remain-preliminary | extracted | Ch. 5 extraction plan; curated copy promoted |
 | G-AUDIT06 | `preliminary/research/extraction/ch06-contingency-learning--source-audit.md` | documentation | remain-preliminary | extracted | Mobile paradigm card |
+| G-AUDIT06b | `preliminary/research/extraction/ch06-remaining--source-audit.md` | documentation | remain-preliminary | extracted | Embodiment, exploration, VOE, deferred imitation |
+| G-AUDIT07b | `preliminary/research/extraction/ch07-parent-implemented--source-audit.md` | documentation | remain-preliminary | extracted | Heidlage 2020; Whitehurst 1988 |
+| G-R14 | `preliminary/drafts-chapters/reviews/ch14-curated-14-what-actually-works--voice-review.md` | documentation | remain-preliminary | extracted | Artifact-strip pass; over Appendix B length |
 | G-R06 | `preliminary/drafts-chapters/reviews/ch06-curated-06-the-mind-in-motion--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 6 |
 | G-MAP07 | `preliminary/research/extraction/ch07-birth-of-language--evidence-map.md` | documentation | remain-preliminary | extracted | C02/C03/C05–C09 promote; screens ID-repaired |
 | G-AUDIT07 | `preliminary/research/extraction/ch07-language--source-audit.md` | documentation | remain-preliminary | extracted | Werker; Saffran; Gilkerson; NAP; P1≠S1 hashes |
@@ -63,7 +71,7 @@ Window: preconception through early pregnancy / reader-contract (not a single ex
 |---|---|---|---|---|---|
 | C01-D1 | `research/Chapter 1 Research Dossier.docx` | research-dossier | `chapters/` + selected `evidence-cards/` | triage-ready | Primary Ch. 1 dossier. Tests bounded claim that development has antecedents before birth without parental control. |
 | C01-S1 | `research/Early Human Development Book Research.docx` | synthesis | remain-preliminary | unreviewed | Alternate Ch. 1 scientific dossier; overlaps C01-D1 and C02 files (fetal movement/HRV). Treat as `duplicate/alternate` until compared. |
-| C01-D | `drafts-chapters/chapter 1` | chapter-draft | `chapters/` | triage-ready | Extensionless markdown. Future copy: `ch01-before-the-child-is-born--draft-01.md`. |
+| C01-D | `drafts-chapters/chapter 1` | chapter-draft | `chapters/` | extracted | Extensionless markdown. Curated copy: `chapters/01-before-the-child-is-born.md`. |
 
 ## Chapter 2 — The First Environment
 
@@ -74,7 +82,7 @@ Window: conception through birth (embryonic and fetal periods). Domains: biologi
 | C02-D1 | `research/Chapter 2 Research Dossier — The First Environment.docx` | research-dossier | `evidence-cards/` + `SOURCES.md` + `chapters/` | extracted | Canonical Ch. 2 dossier; already proposes 10 cards. Prefer this over C02-S1 for extraction. |
 | C02-S1 | `research/The First Environment_ The Biological Architecture of Early Development.docx` | synthesis | remain-preliminary | extracted | Module-style rewrite of the same territory (clock, placenta, circulation, brain, stress, nutrition, mixtures, growth). Overlaps C02-D1; keep as alternate, do not extract twice. |
 | C02-P1 | `research/Prenatal Biology Research Plan.docx` | research-plan | remain-preliminary | unreviewed | Same byte size as C02-S1 (35,215) but different hash. Opening title matches C02-S1. Treat as `duplicate/alternate` until byte-level diff. |
-| C02-D | `drafts-chapters/chapter 2` | chapter-draft | `chapters/` | extracted | Extensionless markdown. Maps to canonical seed `chapters/01-first-environment.md` (numbering collision). |
+| C02-D | `drafts-chapters/chapter 2` | chapter-draft | `chapters/` | extracted | Extensionless markdown. Curated copy: `chapters/02-first-environment.md`. Leftover seed removed. |
 
 ## Chapter 3 — The Great Transition
 
@@ -132,9 +140,9 @@ Window: late infancy through toddler extrafamilial care. Domains: relational, so
 
 | ID | Path | Type | Destination | Status | Overlap / notes |
 |---|---|---|---|---|---|
-| C08-P1 | `research/Chapter 8 Preliminary Research Plan — The Expanding World.docx` | research-plan | `evidence-cards/` + `chapters/` | unreviewed | Extrafamilial relationships, childcare. |
+| C08-P1 | `research/Chapter 8 Preliminary Research Plan — The Expanding World.docx` | research-plan | `evidence-cards/` + `chapters/` | extracted | Extrafamilial relationships, childcare. |
 | C08-S1 | `research/The Expanding World_ Moving Beyond the Primary Dyad in Early Human Development.docx` | synthesis | remain-preliminary | unreviewed | ~2.9 MB alternate; overlaps C08-P1 and existing `early-childcare-quality.md`. |
-| C08-D | `drafts-chapters/chapter 8.md` | chapter-draft | `chapters/` | unreviewed | Has `.md` suffix unlike most drafts. |
+| C08-D | `drafts-chapters/chapter 8.md` | chapter-draft | `chapters/` | triage-ready | Has `.md` suffix unlike most drafts. No curated copy this pass. |
 
 ## Chapter 9 — The Emotional Revolution
 
@@ -193,7 +201,7 @@ Window: intervention evidence across 0–3. Domains: educational, social, relati
 |---|---|---|---|---|---|
 | C14-D1 | `research/Chapter 14 Research Architecture  What Actually Works.docx` | research-dossier | `evidence-cards/` + `chapters/` | unreviewed | Overlaps existing preschool RCT card and attachment-intervention card. |
 | C14-S1 | `research/Early Childhood Interventions Evidence Review.docx` | synthesis | `evidence-cards/` + `SOURCES.md` | unreviewed | ~3.1 MB. Extract after Ch. 2–4 cards exist so interventions are not the first causal claims. |
-| C14-D | `drafts-chapters/chapter 14` | chapter-draft | `chapters/` | unreviewed | **Promotion blocker:** 29 `:contentReference[oaicite:…]` leftovers. See `triage/ch14-what-actually-works--triage.md`. Do not overwrite. |
+| C14-D | `drafts-chapters/chapter 14` | chapter-draft | `chapters/` | extracted | **Archival still has 29 `:contentReference` leftovers.** Curated copy: `chapters/14-what-actually-works.md`. Do not overwrite. |
 
 ## Chapter 15 — Three Years: What Has Been Built?
 
@@ -266,6 +274,15 @@ Window: preconception through age 3. Domains: all five.
 | `joint-attention-shared-reference.md` | 5 / 7 | Source-audited (C07 / CH07-C04); still `status: draft` |
 | `infant-pointing-as-shared-reference.md` | 7 | Source-audited (CH07-C05); still `status: draft` |
 | `infant-babbling-as-exploration.md` | 7 | Source-audited (CH07-C06); still `status: draft` |
+| `paternal-age-de-novo-mutations.md` | 1 | Source-audited (CH01-C06); still `status: draft` |
+| `infant-social-referencing.md` | 8 | Source-audited (CH08-C02); still `status: draft` |
+| `infant-multiple-caregiver-attachments.md` | 8 | Source-audited (CH08-C01); still `status: draft` |
+| `toddler-peer-interaction.md` | 8 | Source-audited (CH08-C04); still `status: draft` |
+| `embodied-perception-action.md` | 6 | Source-audited; still `status: draft` |
+| `exploration-as-sampling.md` | 6 | Source-audited; still `status: draft` |
+| `infant-physical-reasoning.md` | 6 | Source-audited; still `status: draft` |
+| `deferred-imitation.md` | 6 | Source-audited; still `status: draft` |
+| `parent-implemented-language.md` | 7 | Source-audited; still `status: draft` |
 
 ## Counts
 

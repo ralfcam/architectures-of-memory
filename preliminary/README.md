@@ -15,7 +15,7 @@ Original uploads are **archival source artifacts**. Do not rename or move them. 
 ## Source of truth
 
 - [`MANIFEST.md`](MANIFEST.md) inventories every uploaded file, its chapter, artifact type, destination, and overlap.
-- Numbering in this workbench follows the **15-chapter draft sequence** (Chapter 1 = framing; Chapter 2 = The First Environment). That is now the working TOC in `chapters/_OUTLINE.md`. Seed files: `chapters/01-first-environment.md` (Ch. 2 sketch) and `chapters/04-regulatory-relationship.md` (Ch. 4 sketch). Curated copies: `chapters/02-first-environment.md`, `chapters/06-the-mind-in-motion.md`.
+- Numbering in this workbench follows the **15-chapter draft sequence** (Chapter 1 = framing; Chapter 2 = The First Environment). That is now the working TOC in `chapters/_OUTLINE.md`. Curated copies: `chapters/01-before-the-child-is-born.md` through `07-the-birth-of-language.md`. Staging: `chapters/14-what-actually-works.md`.
 
 ## Workflow
 

@@ -1,6 +1,6 @@
 # Chapter 14 triage — What Actually Works?
 
-Status: `unreviewed`. Second-wave chapter. Do not promote.
+Status: `extracted` (staging curated copy). Second-wave chapter. Cards remain `draft`.
 
 ## 1. Files and overlaps
 
@@ -13,7 +13,7 @@ Status: `unreviewed`. Second-wave chapter. Do not promote.
 
 ## 2. Promotion blockers
 
-1. **Citation artifacts.** The archival draft `preliminary/drafts-chapters/chapter 14` contains **29** leftover `:contentReference[oaicite:…]` strings. These are machine-citation crumbs, not sources. A curated copy must strip them before any voice review can be treated as complete. Do **not** overwrite the archival file to do this.
+1. **Citation artifacts.** The archival draft `preliminary/drafts-chapters/chapter 14` contains **29** leftover `:contentReference[oaicite:…]` strings. A curated copy at `chapters/14-what-actually-works.md` strips them. Do **not** overwrite the archival file.
 2. Intervention claims must wait until Part I cards (especially Ch. 2 nutrition/teratogen and Ch. 4 relationship cards) exist, so efficacy is not the first causal story in the book.
 3. Separate efficacy, real-world effectiveness, scalability, and institutional dependence (`CONTRIBUTING.md`).
 

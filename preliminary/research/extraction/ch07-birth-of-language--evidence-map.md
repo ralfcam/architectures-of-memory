@@ -121,4 +121,4 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 - Four language cards plus pointing, babbling, and prenatal-auditory exist (`draft`, not `stable`).
 - Voice-review of the curated copy: `preliminary/drafts-chapters/reviews/ch07-curated-07-the-birth-of-language--voice-review.md`.
 - Archival `preliminary/drafts-chapters/chapter 7` must not be overwritten.
-- Parent-implemented interventions remain open for a later card. Joint attention is a Chapter 5 card.
+- Parent-implemented interventions: card `parent-implemented-language.md`. Joint attention is a Chapter 5 card.

@@ -12,6 +12,13 @@ Entry types:
 ## [Unreleased]
 
 ### Structure
+- Promoted a curated, voice-checked Chapter 1 (`chapters/01-before-the-child-is-born.md`) in the Appendix B range. Leftover seed `chapters/01-first-environment.md` removed; Chapter 2 remains `chapters/02-first-environment.md`. Archival draft untouched.
+- Began second-wave Chapter 8 triage and evidence map. Social-referencing, multiple-caregiver, and peer cards added; childcare quality vs quantity reconciled, not rewritten. Stranger anxiety ≠ insecure attachment; group care ≠ deprivation.
+- Closed remaining Chapter 6 extraction gaps (embodiment, exploration-as-sampling, physical reasoning, deferred imitation) and the Chapter 7 parent-implemented language gap.
+- Recorded explicit dispositions for the five catalog IDs without a journal DOI in `SOURCES.md` (NIH/WHO/Kramer identified; `hiscock-2016` remains retired). **No card moved to `status: stable`.**
+- Staged a curated Chapter 14 (`chapters/14-what-actually-works.md`) that strips 29 `:contentReference` artifacts. Archival draft untouched. Over Appendix B length; later trim after Part II cards.
+- Named first `stable` candidates (`preliminary/research/extraction/stable-promotion-candidates.md`). Physiology/lab cards are the realistic path; none flipped.
+- Started extraction plans for preconception, play, and social-beyond-attachment.
 - Classified replication/genetically informed attenuation for every live card (`preliminary/research/extraction/catalog-wide-replication-attenuation.md`). **No card moved to `status: stable`.**
 - Citation-repaired `screen-time-language-development.md`: `madigan-2020` now points at Madigan et al. 2020 *JAMA Pediatrics* (DOI 10.1001/jamapediatrics.2020.0327). Jing, Ye, Kirkorian & Mares 2023 *Child Development* is a separate vocabulary meta-analysis (`jing-2023-cdev`). Grade unchanged.
 - Reconciled GitHub history: [PR #4](https://github.com/ralfcam/parenthood-atlas/pull/4) was never squash-merged. Its unique files (Ch. 3 transition/SSC, Ch. 4 co-regulation/BEIP, selected-card re-audit, curated Ch. 6) first reached `main` in the [PR #5](https://github.com/ralfcam/parenthood-atlas/pull/5) squash (`4bba8a7`) because that branch was stacked on `cursor/ch3-ch4-ch6-7d96`. Do not merge PR #4; it is superseded and would regress later Chapter 4 and catalog work.
@@ -46,7 +53,8 @@ Entry types:
 - Source-audited remaining Chapter 3 C04/C05/C07: added crying-as-signal, suck–swallow–breathe, and preterm group-risk cards.
 - Source-audited Chapter 4 C04: added `responsive-feeding-as-regulation.md`.
 - Source-audited Chapter 5 C01/C03/C06/C07: added looking-time, attention, object-permanence, and joint-attention cards. Narrowing, statistical-segmentation, and contingency cards reconciled, not rewritten.
-- Source-audited remaining Chapter 7 C05/C06: added pointing and babbling cards. Parent-implemented interventions still open. Screen-time card IDs repaired, not re-theorized.
+- Source-audited remaining Chapter 7 C05/C06: added pointing and babbling cards. Screen-time card IDs repaired, not re-theorized.
+- Source-audited Chapter 1 paternal-age (Kong 2012) and remaining Chapter 6/7/8 claims: paternal-age, social referencing, multiple-caregiver attachments, toddler peer interaction, embodied perception–action, exploration-as-sampling, physical reasoning, deferred imitation, parent-implemented language. Sleep/attachment/screen theory not rewritten.
 
 ### Revised
 - Aligned YAML `confidence` on all eight first-pass cards with in-body grades (cards remain `status: draft`).

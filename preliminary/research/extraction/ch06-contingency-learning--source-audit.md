@@ -6,4 +6,4 @@ Date: 2026-09-15. Archival draft `preliminary/drafts-chapters/chapter 6` not ove
 |---|---|---|---|---|
 | Infants learn action–outcome contingencies in the mobile paradigm | `infant-contingency-learning.md` | High under controlled conditions; Low for transfer / adult-like cause | `promote` | Rovee & Rovee 1969 DOI 10.1016/0022-0965(69)90025-3 PMID 5804591; Merz et al. 2017 PMC5716629; Cuevas et al. 2025 PMC12354038 |
 
-Other dossier cards (embodied perception–action, exploration-as-sampling, causal representation, imitation controversy) remain `needs-source-audit`. They can be written later; they are not required to finish a first curated Chapter 6 copy that threads visible grades around the contingency anomaly.
+Other dossier cards (embodied perception–action, exploration-as-sampling, causal representation, deferred imitation) are now source-audited in `ch06-remaining--source-audit.md`. Neonatal imitation remains a controversy, not a card.

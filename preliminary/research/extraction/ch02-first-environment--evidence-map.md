@@ -4,7 +4,7 @@ First full-system test of the extraction pipeline: raw dossier → atomic claims
 
 This file started as a map that did **not** create cards. C01–C12 now have source-audited draft cards; C05–C07 came in the previous package. Original uploads stay where they are.
 
-Related: [Ch. 2 triage](../../triage/ch02-first-environment--triage.md) · [draft](../../drafts-chapters/chapter%202) · [seed outline](../../../chapters/01-first-environment.md) · [existing stress card](../../../evidence-cards/prenatal-maternal-stress-anxiety.md) · [voice review](../../drafts-chapters/reviews/ch02-structural-and-voice-review.md)
+Related: [Ch. 2 triage](../../triage/ch02-first-environment--triage.md) · [draft](../../drafts-chapters/chapter%202) · [curated copy](../../../chapters/02-first-environment.md) · [existing stress card](../../../evidence-cards/prenatal-maternal-stress-anxiety.md) · [voice review](../../drafts-chapters/reviews/ch02-structural-and-voice-review.md)
 
 ---
 
@@ -16,7 +16,7 @@ Related: [Ch. 2 triage](../../triage/ch02-first-environment--triage.md) · [draf
 | C02-S1 | `preliminary/research/The First Environment_ The Biological Architecture of Early Development.docx` | Alternate module synthesis (clock, placenta, circulation, cortex, stress, nutrition, mixtures, INTERGROWTH). |
 | C02-P1 | `preliminary/research/Prenatal Biology Research Plan.docx` | Same byte size as C02-S1, different hash; opening title matches C02-S1. Treat as duplicate/alternate. |
 | C02-D | `preliminary/drafts-chapters/chapter 2` | Long prose draft (~4,300 words). |
-| Seed | `chapters/01-first-environment.md` | 10-step seed outline. **Numbering collision:** seed Chapter 1 = this Chapter 2. |
+| Seed | *(removed)* | Former 10-step sketch `chapters/01-first-environment.md` deleted when Chapter 1 was promoted. Chapter 2 remains `chapters/02-first-environment.md`. |
 | Live cards | C01–C12 now have draft cards; C05–C07 from the previous package | C13 held on the growth card. All still `status: draft`. |
 
 Do not extract C02-S1 as a second independent source of truth. Use it to recover named studies (DeCasper & Spence; INTERGROWTH-21st; SEPAGES; Bystron; Seckl/11β-HSD2) that C02-D1 cites more vaguely.
@@ -273,7 +273,7 @@ Existing verified sources covering C06: `bmc-moba-2025`, `ije-millennium-2017`, 
 | System | Draft closing; seed §9 (language, attachment, regulation) | C13 → Ch. 3 and 4 |
 | Return | Draft “Before the First Breath”; seed §10 | C13 |
 
-Canonical seed sketch still lives at `chapters/01-first-environment.md`. The curated proof-of-voice chapter is `chapters/02-first-environment.md`. Birth/skin-to-skin belong to **Chapter 3**, not this map.
+Canonical leftover seed sketch was removed. The curated proof-of-voice chapter is `chapters/02-first-environment.md`. Birth/skin-to-skin belong to **Chapter 3**, not this map.
 
 ---
 

@@ -48,6 +48,6 @@ From the dossier’s own bounded claim:
 
 ## 7. Promotion blockers
 
-- Numbering collision with canonical seed Chapter 1 (*The First Environment*)
-- C01-S1 not yet compared with C01-D1
-- No dedicated `chapters/00-` or `chapters/01-before-the-child-is-born.md` target exists yet
+- Linked cards remain `draft`, not `stable`.
+- C01-S1 compared with C01-D1 (hashes differ; treat as duplicate/alternate).
+- Curated target exists: `chapters/01-before-the-child-is-born.md`. Leftover seed removed.

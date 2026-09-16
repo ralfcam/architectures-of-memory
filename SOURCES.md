@@ -229,6 +229,39 @@ sources:
   - id: petitto-1991-manual-babbling
     resource: https://doi.org/10.1126/science.2006424
     title: "Petitto & Marentette (1991), Science, babbling in the manual mode"
+  - id: kong-2012-nature
+    resource: https://doi.org/10.1038/nature11396
+    title: "Kong et al. (2012), Nature, rate of de novo mutations and father's age"
+  - id: sorce-1985-cliff
+    resource: https://doi.org/10.1037/0012-1649.21.1.195
+    title: "Sorce, Emde, Campos & Klinnert (1985), Developmental Psychology, maternal emotional signaling on the visual cliff"
+  - id: walden-ogan-1988
+    resource: https://doi.org/10.1111/j.1467-8624.1988.tb01492.x
+    title: "Walden & Ogan (1988), Child Development, development of social referencing"
+  - id: dagan-2021-networks
+    resource: https://doi.org/10.1002/cad.20446
+    title: "Dagan & Sagi-Schwartz (2021), NDCAD, attachment networks to multiple caregivers"
+  - id: dagan-2018-cdp
+    resource: https://doi.org/10.1111/cdep.12272
+    title: "Dagan & Sagi-Schwartz (2018), Child Development Perspectives, early attachment network with mother and father"
+  - id: brownell-2006-peers
+    resource: https://doi.org/10.1111/j.1467-8624.2006.00904.x
+    title: "Brownell, Ramani & Zerwas (2006), Child Development, becoming a social partner with peers"
+  - id: adolph-hoch-2019
+    resource: https://doi.org/10.1146/annurev-psych-010418-102836
+    title: "Adolph & Hoch (2019), Annual Review of Psychology, motor development embodied, embedded, enculturated, enabling"
+  - id: stahl-feigenson-2015
+    resource: https://doi.org/10.1126/science.aaa3799
+    title: "Stahl & Feigenson (2015), Science, observing the unexpected enhances infants' learning and exploration"
+  - id: meltzoff-1988-deferred
+    resource: https://doi.org/10.1037/0012-1649.24.4.470
+    title: "Meltzoff (1988), Developmental Psychology, infant imitation after a 1-week delay"
+  - id: heidlage-2020-ecrq
+    resource: https://doi.org/10.1016/j.ecresq.2018.12.006
+    title: "Heidlage et al. (2020), Early Childhood Research Quarterly, parent-implemented language interventions, 25 RCTs"
+  - id: whitehurst-1988-dialogic
+    resource: https://doi.org/10.1037/0012-1649.24.4.552
+    title: "Whitehurst et al. (1988), Developmental Psychology, picture-book reading / dialogic reading"
 ---
 
 # Master Source Catalog
@@ -239,6 +272,18 @@ This catalog aggregates every source currently cited across `evidence-cards/`, s
 2. **Unresolved citations** - sources named in evidence-card bibliographies during the initial literature pass but not yet matched to a verified, stable resource link. These require a follow-up audit pass before being promoted to tier 1.
 
 Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog-wide Crossref/OpenAlex/PubMed / Retraction Watch dump (`preliminary/research/extraction/five-listings-and-retraction-watch-dump.md`) found no retraction or expression-of-concern titles among DOI-resolved records. The five previously no-DOI listings are now repaired: three grey-literature/WHO items have stable IRIS or NIH identifiers and no journal DOI; Kramer 1987 has PMID/PMC/IRIS and no DOI; `hiscock-2016` was retired and replaced by Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020. Catalog-wide replication/attenuation is classified in `preliminary/research/extraction/catalog-wide-replication-attenuation.md`. `madigan-2020` now correctly points at Madigan 2020 *JAMA Pediatrics*; Jing et al. 2023 is a separate vocabulary meta-analysis. None of those checks promote any card to `stable`.
+
+## Grey-literature IDs without a journal DOI (resolved, not retired)
+
+These four live IDs will not acquire a Crossref journal DOI. They already have a persistent identifier (NIH publication number, WHO IRIS handle, and/or PMID). They are **identified grey literature**, not missing sources. They should not be the primary identification for a first `status: stable` card (see `preliminary/research/extraction/stable-promotion-candidates.md`).
+
+| ID | Persistent identifier | Journal DOI? | Disposition |
+|---|---|---|---|
+| `nichd-seccyd-2006` | NIH Publication No. 05-4318; official PDF URL | None expected | Keep. Journal papers remain `nichd-effectsizes-2006`, `nichd-age15`, `belsky-2007-cd`. |
+| `who-anc-2016` | IRIS 10665/250796; ISBN 9789241549912 | None expected | Keep as framework, not primary trial identification. |
+| `who-nurturing-care-2018` | IRIS 10665/272603; ISBN 9789241514064 | None expected | Keep as framework. |
+| `kramer-1987-lbw` | PMID 3322602; PMC2491072; IRIS 10665/264515 | Confirmed absent | Keep. PubMed PT is Journal Article, Review — not retraction. |
+| `hiscock-2016` | — | N/A | **Retired** (2026-09-15). Replaced by `mindell-2006-sleep`, `gradisar-2016-pediatrics`, `bilgin-wolke-2020`. |
 
 ## Verified Resources
 
@@ -302,7 +347,7 @@ Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog
 | `cuevas-2025-contingency` | Cuevas et al. (2025), infant contingency-learning review | [https://pmc.ncbi.nlm.nih.gov/articles/PMC12354038/](https://pmc.ncbi.nlm.nih.gov/articles/PMC12354038/) | [infant-contingency-learning](evidence-cards/infant-contingency-learning.md) |
 | `werker-tees-1984` | Werker & Tees (1984), cross-language speech perception | [https://doi.org/10.1016/S0163-6383(84)80022-3](https://doi.org/10.1016/S0163-6383(84)80022-3) | [infant-perceptual-narrowing](evidence-cards/infant-perceptual-narrowing.md) |
 | `saffran-1996-statistical` | Saffran, Aslin & Newport (1996), statistical learning by 8-month-olds | [https://doi.org/10.1126/science.274.5294.1926](https://doi.org/10.1126/science.274.5294.1926) | [infant-statistical-speech-segmentation](evidence-cards/infant-statistical-speech-segmentation.md) |
-| `gilkerson-2018-lena` | Gilkerson et al. (2018), language experience in the second year | [https://pmc.ncbi.nlm.nih.gov/articles/PMC6192025/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6192025/) | [conversational-turns-language](evidence-cards/conversational-turns-language.md) |
+| `gilkerson-2018-lena` | Gilkerson et al. (2018), language experience in the second year | [https://pmc.ncbi.nlm.nih.gov/articles/PMC6192025/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6192025/) | [conversational-turns-language](evidence-cards/conversational-turns-language.md); [parent-implemented-language](evidence-cards/parent-implemented-language.md) |
 | `nap-2017-dll` | National Academies (2017), dual-language learners | [https://doi.org/10.17226/24677](https://doi.org/10.17226/24677) | [dual-language-does-not-confuse](evidence-cards/dual-language-does-not-confuse.md) |
 | `zeifman-2017-crying` | Zeifman & St James-Roberts (2017), parenting the crying infant | [https://pmc.ncbi.nlm.nih.gov/articles/PMC5494986/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5494986/) | [infant-crying-as-signal](evidence-cards/infant-crying-as-signal.md) |
 | `lau-2015-suck-swallow` | Lau (2015), suck and swallow mechanisms | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4530609/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4530609/) | [suck-swallow-breathe-coordination](evidence-cards/suck-swallow-breathe-coordination.md) |
@@ -312,12 +357,23 @@ Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog
 | `bilgin-wolke-2020` | Bilgin & Wolke (2020), JCPP cry-it-out and attachment | [https://doi.org/10.1111/jcpp.13223](https://doi.org/10.1111/jcpp.13223) | [infant-sleep-training](evidence-cards/infant-sleep-training.md) |
 | `aslin-2007-look` | Aslin (2007), Developmental Science, What's in a look? | [https://doi.org/10.1111/j.1467-7687.2007.00563.x](https://doi.org/10.1111/j.1467-7687.2007.00563.x) | [looking-time-as-measurement](evidence-cards/looking-time-as-measurement.md) |
 | `colombo-2001-attention` | Colombo (2001), visual attention in infancy | [https://doi.org/10.1146/annurev.psych.52.1.337](https://doi.org/10.1146/annurev.psych.52.1.337) | [infant-attention-as-gatekeeper](evidence-cards/infant-attention-as-gatekeeper.md) |
-| `baillargeon-1987-object` | Baillargeon (1987), object permanence in 3.5- and 4.5-month-olds | [https://doi.org/10.1037/0012-1649.23.5.655](https://doi.org/10.1037/0012-1649.23.5.655) | [object-permanence-looking-vs-search](evidence-cards/object-permanence-looking-vs-search.md) |
+| `baillargeon-1987-object` | Baillargeon (1987), object permanence in 3.5- and 4.5-month-olds | [https://doi.org/10.1037/0012-1649.23.5.655](https://doi.org/10.1037/0012-1649.23.5.655) | [object-permanence-looking-vs-search](evidence-cards/object-permanence-looking-vs-search.md); [infant-physical-reasoning](evidence-cards/infant-physical-reasoning.md) |
 | `mundy-newell-2007-ja` | Mundy & Newell (2007), joint attention and social cognition | [https://doi.org/10.1111/j.1467-8721.2007.00518.x](https://doi.org/10.1111/j.1467-8721.2007.00518.x) | [joint-attention-shared-reference](evidence-cards/joint-attention-shared-reference.md) |
 | `colonnesi-2010-pointing` | Colonnesi et al. (2010), pointing and language meta-analysis | [https://doi.org/10.1016/j.dr.2010.10.001](https://doi.org/10.1016/j.dr.2010.10.001) | [infant-pointing-as-shared-reference](evidence-cards/infant-pointing-as-shared-reference.md) |
 | `fitzpatrick-2014-baby-sign` | Fitzpatrick et al. (2014), First Language, baby-sign systematic review | [https://doi.org/10.1177/0142723714562864](https://doi.org/10.1177/0142723714562864) | [infant-pointing-as-shared-reference](evidence-cards/infant-pointing-as-shared-reference.md) |
 | `oller-1999-babbling` | Oller et al. (1999), Journal of Communication Disorders, precursors to speech | [https://doi.org/10.1016/s0021-9924(99)00013-1](https://doi.org/10.1016/s0021-9924(99)00013-1) | [infant-babbling-as-exploration](evidence-cards/infant-babbling-as-exploration.md) |
 | `petitto-1991-manual-babbling` | Petitto & Marentette (1991), Science, babbling in the manual mode | [https://doi.org/10.1126/science.2006424](https://doi.org/10.1126/science.2006424) | [infant-babbling-as-exploration](evidence-cards/infant-babbling-as-exploration.md) |
+| `kong-2012-nature` | Kong et al. (2012), Nature, de novo mutations and father's age | [https://doi.org/10.1038/nature11396](https://doi.org/10.1038/nature11396) | [paternal-age-de-novo-mutations](evidence-cards/paternal-age-de-novo-mutations.md) |
+| `sorce-1985-cliff` | Sorce et al. (1985), visual-cliff social referencing | [https://doi.org/10.1037/0012-1649.21.1.195](https://doi.org/10.1037/0012-1649.21.1.195) | [infant-social-referencing](evidence-cards/infant-social-referencing.md) |
+| `walden-ogan-1988` | Walden & Ogan (1988), development of social referencing | [https://doi.org/10.1111/j.1467-8624.1988.tb01492.x](https://doi.org/10.1111/j.1467-8624.1988.tb01492.x) | [infant-social-referencing](evidence-cards/infant-social-referencing.md) |
+| `dagan-2021-networks` | Dagan & Sagi-Schwartz (2021), attachment networks | [https://doi.org/10.1002/cad.20446](https://doi.org/10.1002/cad.20446) | [infant-multiple-caregiver-attachments](evidence-cards/infant-multiple-caregiver-attachments.md) |
+| `dagan-2018-cdp` | Dagan & Sagi-Schwartz (2018), mother–father attachment network | [https://doi.org/10.1111/cdep.12272](https://doi.org/10.1111/cdep.12272) | [infant-multiple-caregiver-attachments](evidence-cards/infant-multiple-caregiver-attachments.md) |
+| `brownell-2006-peers` | Brownell, Ramani & Zerwas (2006), becoming a social partner with peers | [https://doi.org/10.1111/j.1467-8624.2006.00904.x](https://doi.org/10.1111/j.1467-8624.2006.00904.x) | [toddler-peer-interaction](evidence-cards/toddler-peer-interaction.md) |
+| `adolph-hoch-2019` | Adolph & Hoch (2019), embodied motor development | [https://doi.org/10.1146/annurev-psych-010418-102836](https://doi.org/10.1146/annurev-psych-010418-102836) | [embodied-perception-action](evidence-cards/embodied-perception-action.md) |
+| `stahl-feigenson-2015` | Stahl & Feigenson (2015), observing the unexpected | [https://doi.org/10.1126/science.aaa3799](https://doi.org/10.1126/science.aaa3799) | [exploration-as-sampling](evidence-cards/exploration-as-sampling.md); [infant-physical-reasoning](evidence-cards/infant-physical-reasoning.md) |
+| `meltzoff-1988-deferred` | Meltzoff (1988), deferred imitation after a 1-week delay | [https://doi.org/10.1037/0012-1649.24.4.470](https://doi.org/10.1037/0012-1649.24.4.470) | [deferred-imitation](evidence-cards/deferred-imitation.md) |
+| `heidlage-2020-ecrq` | Heidlage et al. (2020), parent-implemented language, 25 RCTs | [https://doi.org/10.1016/j.ecresq.2018.12.006](https://doi.org/10.1016/j.ecresq.2018.12.006) | [parent-implemented-language](evidence-cards/parent-implemented-language.md) |
+| `whitehurst-1988-dialogic` | Whitehurst et al. (1988), picture-book / dialogic reading | [https://doi.org/10.1037/0012-1649.24.4.552](https://doi.org/10.1037/0012-1649.24.4.552) | [parent-implemented-language](evidence-cards/parent-implemented-language.md) |
 
 ## Unresolved Citations
 

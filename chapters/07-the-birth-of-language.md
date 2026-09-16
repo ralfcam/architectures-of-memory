@@ -243,5 +243,6 @@ Before the child can speak, other people have already built a world of meaning. 
 - Adjacent, not re-extracted: `evidence-cards/prenatal-auditory-learning.md` (CH02-C05)
 - Reconcile only, not rewritten: `evidence-cards/screen-time-language-development.md`
 - Adjacent Chapter 3 signal, not a language dictionary: `evidence-cards/infant-crying-as-signal.md`
+- `evidence-cards/parent-implemented-language.md` (CH07 parent-implemented; Heidlage 2020)
 
 Promotion note: this file is a curated, voice-checked copy in the Appendix B range. The archival draft `preliminary/drafts-chapters/chapter 7` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch07-curated-07-the-birth-of-language--voice-review.md`.

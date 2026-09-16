@@ -187,6 +187,10 @@ Words will soon start to do some of that work. That is the next territory. It is
 ## Linked evidence cards
 
 - `evidence-cards/infant-contingency-learning.md` (CH06-C01)
+- `evidence-cards/embodied-perception-action.md`
+- `evidence-cards/exploration-as-sampling.md`
+- `evidence-cards/infant-physical-reasoning.md`
+- `evidence-cards/deferred-imitation.md`
 - Adjacent, not re-extracted: `evidence-cards/infant-caregiver-coregulation.md` (social partners as part of the learning world)
 - Later-chapter boundary: `evidence-cards/self-regulation-delay-of-gratification.md` (do not import as an infant-learning forecast)
 

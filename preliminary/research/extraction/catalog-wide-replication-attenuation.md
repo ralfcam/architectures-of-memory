@@ -60,10 +60,21 @@ This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier 
 | `preschool-early-education-rct.md` | Historical RCTs | Perry/Abecedarian long-run effects are real *in those programs*; modern at-scale programs are a different claim | n/a | Generalization Low |
 | `infant-pointing-as-shared-reference.md` | Observational meta | Colonnesi 2010 concurrent *r*=.52 / longitudinal *r*=.35; baby-sign products are a different, inconclusive literature | n/a | Product acceleration Low; not causation from pointing drills |
 | `infant-babbling-as-exploration.md` | Observational / clinical screening | Canonical-stage description independently used; late onset predicts later production in screened samples, not IQ in typical homes | n/a | Milestone ≠ intelligence; Petitto 1991 is a modality boundary, not an IQ test |
+| `paternal-age-de-novo-mutations.md` | Trio sequencing | Kong 2012 mutation-rate finding; outcome associations are a different claim | n/a for mutation rate | Forecast Low; first-pass |
+| `infant-social-referencing.md` | Laboratory experiment | Visual-cliff / ambiguous-toy referencing conceptually replicated | n/a | Attachment-verdict Low |
+| `infant-multiple-caregiver-attachments.md` | Observational / review | Multiple attachments described; network-dose untested | n/a | Network size is not a dose |
+| `toddler-peer-interaction.md` | Laboratory / observation | Coordinated peer activity increases across year two | n/a | Hours ≠ later character |
+| `embodied-perception-action.md` | Review of motor-development programs | Framework independently used; milestone→cognition is not | n/a | Milestone ranking Low |
+| `exploration-as-sampling.md` | Laboratory experiment | Stahl & Feigenson 2015 surprise→exploration | n/a | Transfer Low |
+| `infant-physical-reasoning.md` | Classic laboratory | VOE looking is standard; complete-theory reading is not | n/a | Finished physics Low |
+| `deferred-imitation.md` | Laboratory experiment | Meltzoff 1988 14-month one-week delay | n/a | Neonatal imitation not this card |
+| `parent-implemented-language.md` | RCT meta (25 trials) | Expressive vocabulary modest; typical-development IQ is not | n/a | Not a screen or LENA-causation card |
+
+## Explicit non-promotions
 
 ## Explicit non-promotions
 
 - Zero cards set to `status: stable`.
 - YAML `confidence` is not a stability claim.
 - Completing this table does not reopen sleep, attachment, or screen-time *theory*. The screen card’s ID mismatch is repaired in the same package; grades are unchanged.
-- Next *empirical* cards still open: Chapter 6 embodied action / exploration / causal representation / imitation; Chapter 7 parent-implemented interventions; Chapter 3 neonatal perception and mode of delivery (held).
+- Next *empirical* cards still open: Chapter 3 neonatal perception and mode of delivery (held); father/kin/sibling; pretend play.
