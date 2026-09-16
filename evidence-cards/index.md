@@ -21,6 +21,10 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 * [Infant–Caregiver Co-Regulation](infant-caregiver-coregulation.md) - Bidirectional, context-sensitive regulation; nurturing care is an ecology, not a purity test.
 * [Severe Institutional Deprivation](severe-institutional-deprivation.md) - BEIP: family placement after severe deprivation is not ordinary parenting.
 * [Infant Contingency Learning](infant-contingency-learning.md) - Mobile paradigm: High for action–outcome learning under control; Low for transfer.
+* [Looking Time as Measurement](looking-time-as-measurement.md) - A look indexes discrimination or attention; it is not a window into a rich concept.
+* [Infant Attention as a Gatekeeper](infant-attention-as-gatekeeper.md) - Attention is a family of processes, not a trait or a parenting score.
+* [Object Permanence Is Not a Single Staircase](object-permanence-looking-vs-search.md) - Looking-time sensitivity to occlusion is not the same as search, and not a finished object concept.
+* [Joint Attention as Shared Reference](joint-attention-shared-reference.md) - Shared attention is a construct, not a language guarantee.
 * [Infant Perceptual Narrowing](infant-perceptual-narrowing.md) - First-year phonetic attunement; High in the classic lab; Low as a sealed deadline.
 * [Infant Statistical Speech Segmentation](infant-statistical-speech-segmentation.md) - Saffran 1996: High for laboratory transitional-probability learning; Low for transfer.
 * [Conversational Turns and Later Language](conversational-turns-language.md) - Gilkerson 2018: Moderate prediction from turns, not word counts; Low causation.
@@ -33,7 +37,7 @@ Preliminary evidence cards populated as a starting synthesis. All cards are mark
 * [Early Childcare Quality and Development](early-childcare-quality.md) - NICHD SECCYD cohort: modest quality-cognition links; parenting predicts more.
 * [Screen Time and Language Development](screen-time-language-development.md) - Weak-to-moderate observational associations, decomposed by content/co-use/context.
 * [Responsive Caregiving and Attachment Interventions](responsive-caregiving-attachment-interventions.md) - Short sensitivity RCTs move sensitivity more than attachment security.
-* [Infant Sleep Training](infant-sleep-training.md) - RCTs and cohorts find no attachment/behavioral harm through age 6.
+* [Infant Sleep Training](infant-sleep-training.md) - RCTs and cohorts find no attachment/behavioral harm through age 6; `hiscock-2016` listing retired.
 * [Self-Regulation and Delay of Gratification](self-regulation-delay-of-gratification.md) - 2018 NICHD replication shows the original predictor claim was mostly confounded.
 * [Preschool / Early Childhood Education](preschool-early-education-rct.md) - Genuine long-run RCT evidence from small, high-fidelity 1960s-70s programs.
 

@@ -11,7 +11,7 @@ atlas_domains: [regulation, attachment]
 chapter_hooks: [mechanism, boundary]
 sources:
   - id: who-nurturing-care-2018
-    resource: https://www.who.int/publications/i/item/9789241514064
+    resource: https://iris.who.int/handle/10665/272603
     title: "WHO, UNICEF & World Bank Group (2018), Nurturing care for early childhood development"
   - id: feldman-2012-synchrony
     resource: https://doi.org/10.1080/15295192.2012.683342

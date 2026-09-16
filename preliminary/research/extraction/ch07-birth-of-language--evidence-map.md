@@ -56,8 +56,8 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 | Field | Content |
 |---|---|
 | Claim | Coordinated attention around a referent supports mapping sounds to shared experience. |
-| Label | `needs-source-audit`. Named in the curated chapter as a research framework, not a card. |
-| Grade | Low-to-Moderate framework; Low as a parental technique. |
+| Label | `promote` — card `evidence-cards/joint-attention-shared-reference.md` (extracted with Chapter 5; also CH05-C07) |
+| Grade | Moderate construct; Low isolated training. |
 
 ### CH07-C05 — Gesture / pointing as shared reference
 

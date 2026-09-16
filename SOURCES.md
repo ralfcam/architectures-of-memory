@@ -27,7 +27,7 @@ sources:
     title: "Evenhouse & Reilly (2005), sibling comparisons of breastfeeding benefits"
   - id: nichd-seccyd-2006
     resource: https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/seccyd_06.pdf
-    title: "The NICHD Study of Early Child Care and Youth Development"
+    title: "NICHD SECCYD findings booklet, NIH Publication No. 05-4318 (January 2006); government report, no Crossref DOI"
   - id: nichd-effectsizes-2006
     resource: https://doi.org/10.1037/0003-066X.61.2.99
     title: "Child-Care Effect Sizes for the NICHD Study, American Psychologist (2006)"
@@ -52,9 +52,9 @@ sources:
   - id: dewolff-1997
     resource: https://doi.org/10.1111/j.1467-8624.1997.tb04218.x
     title: "De Wolff & van IJzendoorn (1997), Child Development"
-  - id: hiscock-2016
-    resource: https://www.nursingcenter.com/wkhlrp/Handlers/articleContent.pdf?key=pdf_00000446-202006000-00007
-    title: "Hiscock et al., sleep training practices and infant-mother attachment, meta-analysis summary (2016 Pediatrics)"
+  - id: mindell-2006-sleep
+    resource: https://doi.org/10.1093/sleep/29.10.1263
+    title: "Mindell, Kuhn, Lewin, Meltzer & Sadeh (2006), SLEEP, AASM review of behavioral sleep treatments"
   - id: watts-2018
     resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC6050075/
     title: "Watts, Duncan & Quan (2018), Revisiting the Marshmallow Test"
@@ -77,8 +77,8 @@ sources:
     resource: https://doi.org/10.1016/0140-6736(91)90133-A
     title: "MRC Vitamin Study Research Group (1991), Lancet, NTD prevention trial"
   - id: who-anc-2016
-    resource: https://www.who.int/publications/i/item/9789241549912
-    title: "WHO (2016), recommendations on antenatal care"
+    resource: https://iris.who.int/handle/10665/250796
+    title: "WHO (2016), antenatal-care recommendations; ISBN 9789241549912; IRIS handle 10665/250796; no Crossref DOI"
   - id: kramer-2008-probit
     resource: https://doi.org/10.1001/archpsyc.65.5.578
     title: "Kramer et al. (2008), PROBIT IQ outcomes at 6.5 years"
@@ -137,8 +137,8 @@ sources:
     resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC4960726/
     title: "Hoyme et al. (2016), Pediatrics, FASD diagnostic guidelines"
   - id: kramer-1987-lbw
-    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC2491072/
-    title: "Kramer (1987), determinants of low birth weight"
+    resource: https://iris.who.int/handle/10665/264515
+    title: "Kramer (1987), Bull World Health Organ; PMID 3322602; PMC2491072; IRIS 10665/264515; no Crossref DOI"
   - id: papageorghiou-2014-intergrowth
     resource: https://doi.org/10.1016/S0140-6736(14)61490-2
     title: "Papageorghiou et al. (2014), INTERGROWTH-21st fetal growth standards"
@@ -152,8 +152,8 @@ sources:
     resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC6464366/
     title: "Moore, Bergman, Anderson & Medley (2016), Cochrane, early skin-to-skin contact"
   - id: who-nurturing-care-2018
-    resource: https://www.who.int/publications/i/item/9789241514064
-    title: "WHO, UNICEF & World Bank Group (2018), Nurturing care framework"
+    resource: https://iris.who.int/handle/10665/272603
+    title: "WHO, UNICEF & World Bank Group (2018), Nurturing care framework; ISBN 9789241514064; IRIS 10665/272603; no Crossref DOI"
   - id: feldman-2012-synchrony
     resource: https://doi.org/10.1080/15295192.2012.683342
     title: "Feldman (2012), Parenting, bio-behavioral synchrony"
@@ -196,6 +196,24 @@ sources:
   - id: black-aboud-2011-feeding
     resource: https://doi.org/10.3945/jn.110.129973
     title: "Black & Aboud (2011), Journal of Nutrition, responsive feeding"
+  - id: gradisar-2016-pediatrics
+    resource: https://doi.org/10.1542/peds.2015-1486
+    title: "Gradisar et al. (2016), Pediatrics, behavioral infant-sleep RCT"
+  - id: bilgin-wolke-2020
+    resource: https://doi.org/10.1111/jcpp.13223
+    title: "Bilgin & Wolke (2020), JCPP, cry-it-out and attachment at 18 months"
+  - id: aslin-2007-look
+    resource: https://doi.org/10.1111/j.1467-7687.2007.00563.x
+    title: "Aslin (2007), Developmental Science, What's in a look?"
+  - id: colombo-2001-attention
+    resource: https://doi.org/10.1146/annurev.psych.52.1.337
+    title: "Colombo (2001), Annual Review of Psychology, visual attention in infancy"
+  - id: baillargeon-1987-object
+    resource: https://doi.org/10.1037/0012-1649.23.5.655
+    title: "Baillargeon (1987), Developmental Psychology, object permanence in 3.5- and 4.5-month-olds"
+  - id: mundy-newell-2007-ja
+    resource: https://doi.org/10.1111/j.1467-8721.2007.00518.x
+    title: "Mundy & Newell (2007), Current Directions, joint attention and social cognition"
 ---
 
 # Master Source Catalog
@@ -205,7 +223,7 @@ This catalog aggregates every source currently cited across `evidence-cards/`, s
 1. **Verified resources** - sources with a confirmed, resolvable URL, also declared in this file's OKF frontmatter `sources` array for machine traversal.
 2. **Unresolved citations** - sources named in evidence-card bibliographies during the initial literature pass but not yet matched to a verified, stable resource link. These require a follow-up audit pass before being promoted to tier 1.
 
-Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog-wide Crossref/PubMed lookup and a later DOI-recovery / Retraction Watch pass (`preliminary/research/extraction/doi-recovery-retraction-watch.md`) found no retraction or expression-of-concern titles among DOI-resolved records. Five IDs still lack a journal DOI. None of those checks promote any card to `stable`.
+Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog-wide Crossref/OpenAlex/PubMed / Retraction Watch dump (`preliminary/research/extraction/five-listings-and-retraction-watch-dump.md`) found no retraction or expression-of-concern titles among DOI-resolved records. The five previously no-DOI listings are now repaired: three grey-literature/WHO items have stable IRIS or NIH identifiers and no journal DOI; Kramer 1987 has PMID/PMC/IRIS and no DOI; `hiscock-2016` was retired and replaced by Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020. None of those checks promote any card to `stable`.
 
 ## Verified Resources
 
@@ -217,7 +235,7 @@ Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog
 | `lancet-psych-2018` | The Lancet Psychiatry (2018), children-of-twins design | [https://doi.org/10.1016/S2215-0366(18)30225-6](https://doi.org/10.1016/S2215-0366(18)30225-6) | [prenatal-maternal-stress-anxiety](evidence-cards/prenatal-maternal-stress-anxiety.md) |
 | `probit-16yr-2018` | 16-year follow-up of the PROBIT cluster-randomized trial, PLOS Medicine (2018) | [https://pmc.ncbi.nlm.nih.gov/articles/PMC5909901/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5909901/) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
 | `sibling-comparison-2006` | Evenhouse & Reilly (2005), sibling comparisons of breastfeeding benefits | [https://pmc.ncbi.nlm.nih.gov/articles/PMC1361236/](https://pmc.ncbi.nlm.nih.gov/articles/PMC1361236/) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
-| `nichd-seccyd-2006` | The NICHD Study of Early Child Care and Youth Development | [https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/seccyd_06.pdf](https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/seccyd_06.pdf) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
+| `nichd-seccyd-2006` | NICHD SECCYD findings booklet, NIH Publication No. 05-4318 (January 2006); no Crossref DOI | [https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/seccyd_06.pdf](https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/seccyd_06.pdf) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
 | `nichd-effectsizes-2006` | Child-Care Effect Sizes for the NICHD Study, American Psychologist (2006) | [https://doi.org/10.1037/0003-066X.61.2.99](https://doi.org/10.1037/0003-066X.61.2.99) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
 | `nichd-age15` | Vandell et al. (2010), child care to age 15 | [https://doi.org/10.1111/j.1467-8624.2010.01431.x](https://doi.org/10.1111/j.1467-8624.2010.01431.x) | [early-childcare-quality](evidence-cards/early-childcare-quality.md) |
 | `madigan-2020` | Screen media exposure and young children's vocabulary, Child Development meta-analysis (2023) | [https://onlinelibrary.wiley.com/doi/10.1111/cdev.13927](https://onlinelibrary.wiley.com/doi/10.1111/cdev.13927) | [screen-time-language-development](evidence-cards/screen-time-language-development.md) |
@@ -226,7 +244,7 @@ Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog
 | `bakermans-2003` | Bakermans-Kranenburg, van IJzendoorn & Juffer (2003) meta-analysis, Psychological Bulletin | [https://doi.org/10.1037/0033-2909.129.2.195](https://doi.org/10.1037/0033-2909.129.2.195) | [responsive-caregiving-attachment-interventions](evidence-cards/responsive-caregiving-attachment-interventions.md) |
 | `vanijzendoorn-1995` | van IJzendoorn, Juffer & Duyvesteyn (1995), breaking the intergenerational cycle of insecure attachment | [https://doi.org/10.1111/j.1469-7610.1995.tb01822.x](https://doi.org/10.1111/j.1469-7610.1995.tb01822.x) | [responsive-caregiving-attachment-interventions](evidence-cards/responsive-caregiving-attachment-interventions.md) |
 | `dewolff-1997` | De Wolff & van IJzendoorn (1997), Child Development | [https://doi.org/10.1111/j.1467-8624.1997.tb04218.x](https://doi.org/10.1111/j.1467-8624.1997.tb04218.x) | [responsive-caregiving-attachment-interventions](evidence-cards/responsive-caregiving-attachment-interventions.md) |
-| `hiscock-2016` | Hiscock et al., sleep training practices and infant-mother attachment, meta-analysis summary (2016 Pediatrics) | [https://www.nursingcenter.com/wkhlrp/Handlers/articleContent.pdf?key=pdf_00000446-202006000-00007](https://www.nursingcenter.com/wkhlrp/Handlers/articleContent.pdf?key=pdf_00000446-202006000-00007) | [infant-sleep-training](evidence-cards/infant-sleep-training.md) |
+| `mindell-2006-sleep` | Mindell et al. (2006), SLEEP, AASM review of 52 behavioral-sleep studies | [https://doi.org/10.1093/sleep/29.10.1263](https://doi.org/10.1093/sleep/29.10.1263) | [infant-sleep-training](evidence-cards/infant-sleep-training.md) |
 | `watts-2018` | Watts, Duncan & Quan (2018), Revisiting the Marshmallow Test | [https://pmc.ncbi.nlm.nih.gov/articles/PMC6050075/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6050075/) | [self-regulation-delay-of-gratification](evidence-cards/self-regulation-delay-of-gratification.md) |
 | `watts-2018-sage` | Watts, Duncan & Quan (2018), Psychological Science | [https://journals.sagepub.com/doi/10.1177/0956797618761661](https://journals.sagepub.com/doi/10.1177/0956797618761661) | [self-regulation-delay-of-gratification](evidence-cards/self-regulation-delay-of-gratification.md) |
 | `preschool-scale-synthesis` | Are Preschool Programs Becoming Less Effective? (ERIC; journal version 10.1002/pam.70031) | [https://doi.org/10.1002/pam.70031](https://doi.org/10.1002/pam.70031) | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
@@ -234,7 +252,7 @@ Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog
 | `partanen-2013` | Partanen et al. (2013), PNAS, neural memory traces of prenatal sound | [https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/) | [prenatal-auditory-learning](evidence-cards/prenatal-auditory-learning.md) |
 | `deregil-2015-cochrane` | De-Regil et al. (2015), Cochrane periconceptional folate review | [https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) |
 | `mrc-ntd-1991` | MRC Vitamin Study Research Group (1991), Lancet NTD trial | [https://doi.org/10.1016/0140-6736(91)90133-A](https://doi.org/10.1016/0140-6736(91)90133-A) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) |
-| `who-anc-2016` | WHO (2016), recommendations on antenatal care | [https://www.who.int/publications/i/item/9789241549912](https://www.who.int/publications/i/item/9789241549912) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) |
+| `who-anc-2016` | WHO (2016) ANC recommendations; ISBN 9789241549912; IRIS 10665/250796; no Crossref DOI | [https://iris.who.int/handle/10665/250796](https://iris.who.int/handle/10665/250796) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) |
 | `kramer-2008-probit` | Kramer et al. (2008), PROBIT IQ at 6.5 years | [https://doi.org/10.1001/archpsyc.65.5.578](https://doi.org/10.1001/archpsyc.65.5.578) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
 | `der-2006-bmj` | Der, Batty & Deary (2006), BMJ, breastfeeding and intelligence | [https://doi.org/10.1136/bmj.38978.699583.55](https://doi.org/10.1136/bmj.38978.699583.55) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
 | `colen-ramey-2014` | Colen & Ramey (2014), sibling comparisons of breastfeeding | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4077166/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4077166/) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
@@ -254,12 +272,12 @@ Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog
 | `zimmermann-2008-iodine` | Zimmermann, Jooste & Pandav (2008), iodine-deficiency disorders | [https://doi.org/10.1016/S0140-6736(08)61005-3](https://doi.org/10.1016/S0140-6736(08)61005-3) | [prenatal-iodine-thyroid](evidence-cards/prenatal-iodine-thyroid.md) |
 | `deescobar-2004-thyroid` | Morreale de Escobar et al. (2004), maternal T4 and fetal brain | [https://doi.org/10.1016/j.beem.2004.03.012](https://doi.org/10.1016/j.beem.2004.03.012) | [prenatal-iodine-thyroid](evidence-cards/prenatal-iodine-thyroid.md) |
 | `hoyme-2016-fasd` | Hoyme et al. (2016), FASD diagnostic guidelines | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4960726/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4960726/) | [prenatal-alcohol-fasd](evidence-cards/prenatal-alcohol-fasd.md) |
-| `kramer-1987-lbw` | Kramer (1987), determinants of low birth weight | [https://pmc.ncbi.nlm.nih.gov/articles/PMC2491072/](https://pmc.ncbi.nlm.nih.gov/articles/PMC2491072/) | [prenatal-tobacco-birthweight](evidence-cards/prenatal-tobacco-birthweight.md) |
+| `kramer-1987-lbw` | Kramer (1987), Bull WHO; PMID 3322602; IRIS 10665/264515; no Crossref DOI | [https://iris.who.int/handle/10665/264515](https://iris.who.int/handle/10665/264515) | [prenatal-tobacco-birthweight](evidence-cards/prenatal-tobacco-birthweight.md) |
 | `papageorghiou-2014-intergrowth` | Papageorghiou et al. (2014), INTERGROWTH-21st fetal growth | [https://doi.org/10.1016/S0140-6736(14)61490-2](https://doi.org/10.1016/S0140-6736(14)61490-2) | [fetal-growth-not-destiny](evidence-cards/fetal-growth-not-destiny.md) |
 | `philippat-2024-sepages` | Philippat et al. (2024), SEPAGES phenols/phthalates and placenta | [https://pmc.ncbi.nlm.nih.gov/articles/PMC11057944/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11057944/) | [prenatal-environmental-mixtures](evidence-cards/prenatal-environmental-mixtures.md) |
 | `morton-2016-transition` | Morton & Brodsky (2016), fetal-to-neonatal transition | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4987541/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4987541/) | [neonatal-cardiopulmonary-transition](evidence-cards/neonatal-cardiopulmonary-transition.md) |
 | `moore-2016-ssc` | Moore et al. (2016), Cochrane early skin-to-skin contact | [https://pmc.ncbi.nlm.nih.gov/articles/PMC6464366/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6464366/) | [skin-to-skin-immediate-physiology](evidence-cards/skin-to-skin-immediate-physiology.md) |
-| `who-nurturing-care-2018` | WHO/UNICEF/World Bank (2018), Nurturing care framework | [https://www.who.int/publications/i/item/9789241514064](https://www.who.int/publications/i/item/9789241514064) | [infant-caregiver-coregulation](evidence-cards/infant-caregiver-coregulation.md) |
+| `who-nurturing-care-2018` | WHO/UNICEF/World Bank (2018) Nurturing care; ISBN 9789241514064; IRIS 10665/272603; no Crossref DOI | [https://iris.who.int/handle/10665/272603](https://iris.who.int/handle/10665/272603) | [infant-caregiver-coregulation](evidence-cards/infant-caregiver-coregulation.md) |
 | `feldman-2012-synchrony` | Feldman (2012), bio-behavioral synchrony | [https://doi.org/10.1080/15295192.2012.683342](https://doi.org/10.1080/15295192.2012.683342) | [infant-caregiver-coregulation](evidence-cards/infant-caregiver-coregulation.md) |
 | `nelson-2007-beip` | Nelson et al. (2007), BEIP cognitive outcomes | [https://doi.org/10.1126/science.1143921](https://doi.org/10.1126/science.1143921) | [severe-institutional-deprivation](evidence-cards/severe-institutional-deprivation.md) |
 | `nelson-2024-beip-overview` | Nelson, Fox & Zeanah (2023/2024), BEIP overview | [https://pmc.ncbi.nlm.nih.gov/articles/PMC10977996/](https://pmc.ncbi.nlm.nih.gov/articles/PMC10977996/) | [severe-institutional-deprivation](evidence-cards/severe-institutional-deprivation.md) |
@@ -274,6 +292,12 @@ Per `CONTRIBUTING.md`, treat this catalog itself as **status: draft**. A catalog
 | `lau-2015-suck-swallow` | Lau (2015), suck and swallow mechanisms | [https://pmc.ncbi.nlm.nih.gov/articles/PMC4530609/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4530609/) | [suck-swallow-breathe-coordination](evidence-cards/suck-swallow-breathe-coordination.md) |
 | `burstein-2024-preterm` | Burstein, Aryeh & Geva (2024), preterm cognition meta-analysis | [https://doi.org/10.1037/dev0001844](https://doi.org/10.1037/dev0001844) | [preterm-cognition-group-risk](evidence-cards/preterm-cognition-group-risk.md) |
 | `black-aboud-2011-feeding` | Black & Aboud (2011), responsive feeding | [https://doi.org/10.3945/jn.110.129973](https://doi.org/10.3945/jn.110.129973) | [responsive-feeding-as-regulation](evidence-cards/responsive-feeding-as-regulation.md) |
+| `gradisar-2016-pediatrics` | Gradisar et al. (2016), Pediatrics infant-sleep RCT | [https://doi.org/10.1542/peds.2015-1486](https://doi.org/10.1542/peds.2015-1486) | [infant-sleep-training](evidence-cards/infant-sleep-training.md) |
+| `bilgin-wolke-2020` | Bilgin & Wolke (2020), JCPP cry-it-out and attachment | [https://doi.org/10.1111/jcpp.13223](https://doi.org/10.1111/jcpp.13223) | [infant-sleep-training](evidence-cards/infant-sleep-training.md) |
+| `aslin-2007-look` | Aslin (2007), Developmental Science, What's in a look? | [https://doi.org/10.1111/j.1467-7687.2007.00563.x](https://doi.org/10.1111/j.1467-7687.2007.00563.x) | [looking-time-as-measurement](evidence-cards/looking-time-as-measurement.md) |
+| `colombo-2001-attention` | Colombo (2001), visual attention in infancy | [https://doi.org/10.1146/annurev.psych.52.1.337](https://doi.org/10.1146/annurev.psych.52.1.337) | [infant-attention-as-gatekeeper](evidence-cards/infant-attention-as-gatekeeper.md) |
+| `baillargeon-1987-object` | Baillargeon (1987), object permanence in 3.5- and 4.5-month-olds | [https://doi.org/10.1037/0012-1649.23.5.655](https://doi.org/10.1037/0012-1649.23.5.655) | [object-permanence-looking-vs-search](evidence-cards/object-permanence-looking-vs-search.md) |
+| `mundy-newell-2007-ja` | Mundy & Newell (2007), joint attention and social cognition | [https://doi.org/10.1111/j.1467-8721.2007.00518.x](https://doi.org/10.1111/j.1467-8721.2007.00518.x) | [joint-attention-shared-reference](evidence-cards/joint-attention-shared-reference.md) |
 
 ## Unresolved Citations
 

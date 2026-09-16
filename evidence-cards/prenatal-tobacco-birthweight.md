@@ -11,7 +11,7 @@ atlas_domains: [pregnancy]
 chapter_hooks: [evidence]
 sources:
   - id: kramer-1987-lbw
-    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC2491072/
+    resource: https://iris.who.int/handle/10665/264515
     title: "Kramer (1987), WHO Bulletin, determinants of low birth weight"
 ---
 

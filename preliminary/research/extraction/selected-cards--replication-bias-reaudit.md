@@ -9,7 +9,7 @@ Scope: folate, FASD, iodine, prenatal stress, attachment-intervention, plus a st
 A card may move to `stable` only after:
 
 1. Sources remain resolvable.
-2. No retraction or expression-of-concern was found for the primary ID (catalog-wide Crossref/PubMed lookup now exists; 15 of 20 previously unchecked IDs now have recovered DOIs; five still lack a journal DOI; Retraction Watch dump not a complete database export).
+2. No retraction or expression-of-concern was found for the primary ID (catalog-wide Crossref/OpenAlex/PubMed dump now exists; grey-literature IDs identified; `hiscock-2016` retired).
 3. Replication or genetically informed attenuation has been classified (robust / partial / largely confounded) where that design class exists.
 4. In-body grade still matches YAML `confidence`.
 5. “What This Does Not Mean” still matches the identification.
@@ -35,7 +35,7 @@ The five cards from the Chapter 3–4–6 package (`neonatal-cardiopulmonary-tra
 
 - Zero cards set to `status: stable`.
 - YAML `confidence` is not a stability claim.
-- Catalog-wide Crossref/PubMed lookup: [`catalog-wide-retraction-search.md`](catalog-wide-retraction-search.md). DOI recovery / Retraction Watch pass: [`doi-recovery-retraction-watch.md`](doi-recovery-retraction-watch.md). Still not sufficient for `stable` (five IDs lack a journal DOI; replication/attenuation not classified catalog-wide).
+- Catalog-wide Crossref/PubMed lookup: [`catalog-wide-retraction-search.md`](catalog-wide-retraction-search.md). DOI recovery: [`doi-recovery-retraction-watch.md`](doi-recovery-retraction-watch.md). Retraction Watch dump: [`five-listings-and-retraction-watch-dump.md`](five-listings-and-retraction-watch-dump.md). Still not sufficient for `stable` (replication/attenuation not classified catalog-wide). `hiscock-2016` is retired.
 
 ## Next re-audit candidates (not done here)
 

@@ -2,7 +2,7 @@
 
 Inventory of every file under `preliminary/` as of 2026-09-15. Original uploads are archival. Do not rename or move them. Curated copies use the naming convention in [`README.md`](README.md).
 
-**Chapter numbering** follows the 15-chapter draft sequence. Remaining seed sketch: `chapters/01-first-environment.md` (Ch. 2). Curated copies: `chapters/02-first-environment.md` (Ch. 2), `chapters/03-the-great-transition.md` (Ch. 3), `chapters/04-regulatory-relationship.md` (Ch. 4; replaced the prior seed), `chapters/06-the-mind-in-motion.md` (Ch. 6), `chapters/07-the-birth-of-language.md` (Ch. 7).
+**Chapter numbering** follows the 15-chapter draft sequence. Remaining seed sketch: `chapters/01-first-environment.md` (Ch. 2). Curated copies: `chapters/02-first-environment.md` (Ch. 2), `chapters/03-the-great-transition.md` (Ch. 3), `chapters/04-regulatory-relationship.md` (Ch. 4; replaced the prior seed), `chapters/05-becoming-a-mind.md` (Ch. 5), `chapters/06-the-mind-in-motion.md` (Ch. 6), `chapters/07-the-birth-of-language.md` (Ch. 7).
 
 ## Status and type vocabularies
 
@@ -41,6 +41,10 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-REAUDIT | `preliminary/research/extraction/selected-cards--replication-bias-reaudit.md` | documentation | remain-preliminary | extracted | First re-audit pass; none to `stable` |
 | G-RETRACT | `preliminary/research/extraction/catalog-wide-retraction-search.md` | documentation | remain-preliminary | extracted | Catalog-wide Crossref/PubMed lookup; none to `stable` |
 | G-DOI | `preliminary/research/extraction/doi-recovery-retraction-watch.md` | documentation | remain-preliminary | extracted | 15 of 20 DOIs recovered; RW queried; none to `stable` |
+| G-RWDUMP | `preliminary/research/extraction/five-listings-and-retraction-watch-dump.md` | documentation | remain-preliminary | extracted | Five listings repaired; `hiscock-2016` retired; RW dump; none to `stable` |
+| G-MAP05 | `preliminary/research/extraction/ch05-becoming-a-mind--evidence-map.md` | documentation | remain-preliminary | extracted | C01/C03/C06/C07 promote; C02/C04/C05 reconcile |
+| G-AUDIT05 | `preliminary/research/extraction/ch05-cognition--source-audit.md` | documentation | remain-preliminary | extracted | Aslin; Colombo; Baillargeon; Mundy; P1≠D1≠P2 hashes |
+| G-T05 | `preliminary/triage/ch05-becoming-a-mind--triage.md` | documentation | remain-preliminary | extracted | Ch. 5 extraction plan; curated copy promoted |
 | G-AUDIT06 | `preliminary/research/extraction/ch06-contingency-learning--source-audit.md` | documentation | remain-preliminary | extracted | Mobile paradigm card |
 | G-R06 | `preliminary/drafts-chapters/reviews/ch06-curated-06-the-mind-in-motion--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 6 |
 | G-MAP07 | `preliminary/research/extraction/ch07-birth-of-language--evidence-map.md` | documentation | remain-preliminary | extracted | C02/C03/C07–C09 promote; screens reconcile |
@@ -48,6 +52,7 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-R07 | `preliminary/drafts-chapters/reviews/ch07-curated-07-the-birth-of-language--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 7 |
 | G-R03 | `preliminary/drafts-chapters/reviews/ch03-curated-03-the-great-transition--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 3 |
 | G-R04 | `preliminary/drafts-chapters/reviews/ch04-curated-04-regulatory-relationship--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 4; records Ch. 4-not-Ch. 5 decision |
+| G-R05 | `preliminary/drafts-chapters/reviews/ch05-curated-05-becoming-a-mind--voice-review.md` | documentation | remain-preliminary | promoted | Voice review of curated Ch. 5 |
 
 ## Chapter 1 — Before the Child Is Born
 
@@ -96,10 +101,10 @@ Window: infancy (perception, attention, learning, prediction). Domains: biologic
 
 | ID | Path | Type | Destination | Status | Overlap / notes |
 |---|---|---|---|---|---|
-| C05-P1 | `research/Chapter 5 Preliminary Research Plan.docx` | research-plan | `evidence-cards/` + `chapters/` | unreviewed | Interactionist infant-mind plan. Pair with C05-D1; do not merge into one card. |
-| C05-D1 | `research/Chapter 5 Preliminary Research Dossier_ Becoming a Mind.docx` | research-dossier | `evidence-cards/` | unreviewed | ~3.0 MB; likely embedded media. Overlaps C05-P1. |
-| C05-P2 | `research/Infant Cognitive Development Research Plan.docx` | research-plan | remain-preliminary | unreviewed | ~2.9 MB. Broad cognitive plan overlapping C05-P1/C05-D1. |
-| C05-D | `drafts-chapters/chapter 5` | chapter-draft | `chapters/` | unreviewed | Extensionless markdown. |
+| C05-P1 | `research/Chapter 5 Preliminary Research Plan.docx` | research-plan | `evidence-cards/` + `chapters/` | extracted | Extraction source. SHA-256 `73db3356…`. C01/C03/C06/C07 cards exist. |
+| C05-D1 | `research/Chapter 5 Preliminary Research Dossier_ Becoming a Mind.docx` | research-dossier | `evidence-cards/` | extracted | ~3.0 MB; hash ≠ C05-P1. Keep as alternate. |
+| C05-P2 | `research/Infant Cognitive Development Research Plan.docx` | research-plan | remain-preliminary | extracted | ~2.9 MB. Hash ≠ C05-P1/D1. Do not double-extract. |
+| C05-D | `drafts-chapters/chapter 5` | chapter-draft | `chapters/` | extracted | Extensionless markdown. Archival; not overwritten. Curated copy: `chapters/05-becoming-a-mind.md`. |
 
 ## Chapter 6 — The Mind in Motion
 
@@ -254,10 +259,14 @@ Window: preconception through age 3. Domains: all five.
 | `suck-swallow-breathe-coordination.md` | 3 | Source-audited (C05); still `status: draft` |
 | `preterm-cognition-group-risk.md` | 3 | Source-audited (C07); still `status: draft` |
 | `responsive-feeding-as-regulation.md` | 4 | Source-audited (C04); still `status: draft` |
+| `looking-time-as-measurement.md` | 5 | Source-audited (C01); still `status: draft` |
+| `infant-attention-as-gatekeeper.md` | 5 | Source-audited (C03); still `status: draft` |
+| `object-permanence-looking-vs-search.md` | 5 | Source-audited (C06); still `status: draft` |
+| `joint-attention-shared-reference.md` | 5 / 7 | Source-audited (C07 / CH07-C04); still `status: draft` |
 
 ## Counts
 
 - Research/synthesis/plan files: 31
 - Chapter drafts: 15
-- Documentation/governance (including this file): 31
+- Documentation/governance (including this file): 36
 - Exact byte-identical duplicates: none found. Near-duplicates: C02-P1 ~ C02-S1; several ~3 MB chapter syntheses that likely embed media.

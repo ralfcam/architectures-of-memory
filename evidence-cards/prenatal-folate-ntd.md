@@ -15,7 +15,7 @@ sources:
     resource: https://doi.org/10.1016/0140-6736(91)90133-A
     title: "MRC Vitamin Study Research Group (1991), Lancet, NTD prevention trial"
   - id: who-anc-2016
-    resource: https://www.who.int/publications/i/item/9789241549912
+    resource: https://iris.who.int/handle/10665/250796
     title: "WHO (2016), recommendations on antenatal care"
 ---
 

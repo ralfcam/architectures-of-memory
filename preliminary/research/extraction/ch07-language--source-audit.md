@@ -9,7 +9,7 @@ Hash comparison: C07-P1 (241,569 bytes, SHA-256 `1fef9bcedf1b2f572b6afc90c11f0c2
 | C01 prenatal auditory | existing `prenatal-auditory-learning.md` | Moderate preference; Low lasting advantage | reconcile only | already in `SOURCES.md` |
 | C02 statistical segmentation | `infant-statistical-speech-segmentation.md` | High lab; Low transfer | `promote` | Saffran, Aslin & Newport 1996 *Science* 274:1926–1928 DOI 10.1126/science.274.5294.1926 PMID 8943209 |
 | C03 perceptual narrowing | `infant-perceptual-narrowing.md` | High lab; Moderate timetable; Low permanent close | `promote` | Werker & Tees 1984 *Infant Behavior and Development* DOI 10.1016/S0163-6383(84)80022-3 |
-| C04 joint attention | none this pass | Low-to-Moderate framework | `needs-source-audit` | |
+| C04 joint attention | `joint-attention-shared-reference.md` (via Ch. 5) | Moderate construct; Low isolated training | `promote` | Mundy & Newell 2007 |
 | C05 gesture / pointing | none this pass | Moderate reference; Low product | `needs-source-audit` | |
 | C06 babbling | none this pass | — | `needs-source-audit` | overlap with Ch. 6 contingency |
 | C07/C08 turns vs word counts | `conversational-turns-language.md` | Moderate prediction; Low causation | `promote` | Gilkerson et al. 2018 *Pediatrics* PMC6192025 DOI 10.1542/peds.2017-4276; 146 children; CTC at 18–24 mo 14–27% variance at 9–14 years after SES |

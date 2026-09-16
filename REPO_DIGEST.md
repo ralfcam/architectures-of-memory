@@ -65,9 +65,9 @@ REPO_DIGEST.md            This map
 CONTRIBUTING.md           Evidence-card methodology
 CHANGELOG.md              Knowledge-base version history
 COMPOSITION.md            Book compositional grammar
-SOURCES.md                Master source catalog (63 verified)
-evidence-cards/           32 draft cards + template + index
-chapters/                 Working 15-chapter TOC; curated Ch. 2, 3, 4, 6, and 7; seed sketch for Ch. 2 only
+SOURCES.md                Master source catalog (69 verified)
+evidence-cards/           36 draft cards + template + index
+chapters/                 Working 15-chapter TOC; curated Ch. 2, 3, 4, 5, 6, and 7; seed sketch for Ch. 2 only
 style/                    Voice/style constraints for manuscript prose
 preliminary/              Staging area (research notes + chapter drafts)
 ```
@@ -120,7 +120,7 @@ Certainty grades: High / Moderate / Low / Very Low.
 
 OKF bundle root: `index.md` (`okf_version: "0.2"`).
 
-Thirty-two cards, all `status: draft`. YAML `confidence` is aligned with in-body grades. A first selected-card re-audit, a catalog-wide Crossref/PubMed lookup, and a DOI-recovery / Retraction Watch pass (`preliminary/research/extraction/doi-recovery-retraction-watch.md`) moved **none** to `stable`. See `evidence-cards/index.md` for the full list. Chapter 2 has draft cards for C01–C12. Chapter 3 has transition, SSC, crying, feeding-coordination, and preterm cards. Chapter 4 has co-regulation, deprivation, and feeding-as-regulation cards (sleep/attachment reconciled, not rewritten). Chapter 6 has a contingency-learning card. Chapter 7 has perceptual-narrowing, statistical-segmentation, conversational-turns, and dual-language cards (screens reconciled).
+Thirty-six cards, all `status: draft`. YAML `confidence` is aligned with in-body grades. A first selected-card re-audit, a catalog-wide Crossref/PubMed lookup, a DOI-recovery pass, and a Retraction Watch dump (`preliminary/research/extraction/five-listings-and-retraction-watch-dump.md`) moved **none** to `stable`. See `evidence-cards/index.md` for the full list. Chapter 2 has draft cards for C01–C12. Chapter 3 has transition, SSC, crying, feeding-coordination, and preterm cards. Chapter 4 has co-regulation, deprivation, and feeding-as-regulation cards (sleep/attachment citation-repaired, not re-theorized). Chapter 5 has looking-time, attention, object-permanence, and joint-attention cards (narrowing/statistical/contingency reconciled). Chapter 6 has a contingency-learning card. Chapter 7 has perceptual-narrowing, statistical-segmentation, conversational-turns, and dual-language cards (screens reconciled).
 
 The eight first-pass cards plus C05/C07 remain as in the previous digest table. New Chapter 2 cards: `prenatal-developmental-timing.md`, `placenta-as-mediator.md`, `prenatal-neural-construction.md`, `fetal-autonomic-maturation.md`, `prenatal-iodine-thyroid.md`, `prenatal-alcohol-fasd.md`, `prenatal-tobacco-birthweight.md`, `prenatal-environmental-mixtures.md`, `fetal-growth-not-destiny.md`.
 
@@ -149,6 +149,10 @@ The eight first-pass cards plus C05/C07 remain as in the previous digest table. 
 | `suck-swallow-breathe-coordination.md` | birth / feeding | `high-coordination; moderate-practice-effects` | Oral feeding requires asynchronous maturational coordination |
 | `preterm-cognition-group-risk.md` | birth | `moderate-group; low-individual` | Preterm group SMD about −0.57; not an individual sentence |
 | `responsive-feeding-as-regulation.md` | regulation / feeding | `moderate-framework; low-growth-program` | Cue-based bidirectional feeding; not a weight or IQ program |
+| `looking-time-as-measurement.md` | cognition / methods | `high-method; low-rich-interpretation` | A look indexes discrimination or attention, not a rich concept |
+| `infant-attention-as-gatekeeper.md` | cognition | `moderate-functions; low-trait` | Attention is a family of processes, not a character verdict |
+| `object-permanence-looking-vs-search.md` | cognition | `moderate-looking-sensitivity; low-complete-concept` | Looking-time occlusion sensitivity ≠ search ≠ a finished object concept |
+| `joint-attention-shared-reference.md` | cognition / social | `moderate-construct; low-isolated-training` | Shared reference is real; not a language guarantee |
 
 ### Declared but missing evidence cards
 
@@ -159,15 +163,15 @@ From `evidence-cards/index.md` "Not Yet Started":
 - Play (unstructured/free play, pretend play, outdoor play)
 - Social development beyond attachment (peers, siblings, daycare socialization)
 
-Priority domains in `README.md` that still lack cards include preconception, play, and several feeding/language/stress subtopics beyond the thirty-two current cards.
+Priority domains in `README.md` that still lack cards include preconception, play, and several feeding/language/stress subtopics beyond the thirty-six current cards.
 
 ### Sources
 
 `SOURCES.md` is the catalog of record:
 
-- **63 verified** resources with URLs, mirrored in the file's OKF `sources` array
+- **69 verified** resources with URLs, mirrored in the file's OKF `sources` array
 - **12 first-pass unresolved citations resolved** (two were already in the verified table; two titles were corrected to the matching papers). Resolution log lives under Unresolved Citations.
-- Catalog itself is `status: draft`. A later pass recovered DOIs for 15 of 20 previously Crossref-unchecked IDs and found no retraction/EoC titles among DOI-resolved records; five IDs still lack a journal DOI. None promoted to `stable`.
+- Catalog itself is `status: draft`. The five remaining no-DOI listings are repaired (`hiscock-2016` retired). A Retraction Watch dump found no retraction/EoC titles among DOI-resolved records. None promoted to `stable`.
 
 ---
 
@@ -177,7 +181,7 @@ Priority domains in `README.md` that still lack cards include preconception, pla
 
 ### Canonical `chapters/` files
 
-`chapters/01-first-environment.md` is a 10-step sketch. `chapters/02-first-environment.md` is the curated proof-of-voice chapter. `chapters/03-the-great-transition.md` is the curated Chapter 3 copy. `chapters/04-regulatory-relationship.md` is the curated Chapter 4 copy (it replaced the prior 10-step seed in this TOC slot). `chapters/06-the-mind-in-motion.md` is the curated Chapter 6 expansion. `chapters/07-the-birth-of-language.md` is the curated Chapter 7 copy.
+`chapters/01-first-environment.md` is a 10-step sketch. `chapters/02-first-environment.md` is the curated proof-of-voice chapter. `chapters/03-the-great-transition.md` is the curated Chapter 3 copy. `chapters/04-regulatory-relationship.md` is the curated Chapter 4 copy (it replaced the prior 10-step seed in this TOC slot). `chapters/05-becoming-a-mind.md` is the curated Chapter 5 copy. `chapters/06-the-mind-in-motion.md` is the curated Chapter 6 expansion. `chapters/07-the-birth-of-language.md` is the curated Chapter 7 copy.
 
 | Canonical file | Maps to working TOC | Status |
 |---|---|---|
@@ -185,6 +189,7 @@ Priority domains in `README.md` that still lack cards include preconception, pla
 | `chapters/02-first-environment.md` | Working TOC Ch. 2 | Curated, voice-checked; archival draft untouched |
 | `chapters/03-the-great-transition.md` | Working TOC Ch. 3 | Curated, voice-checked; archival draft untouched |
 | `chapters/04-regulatory-relationship.md` | Working TOC Ch. 4 | Curated, voice-checked; replaced prior seed; archival draft untouched |
+| `chapters/05-becoming-a-mind.md` | Working TOC Ch. 5 | Curated, voice-checked; archival draft untouched |
 | `chapters/06-the-mind-in-motion.md` | Working TOC Ch. 6 | Curated expansion; archival draft untouched |
 | `chapters/07-the-birth-of-language.md` | Working TOC Ch. 7 | Curated, voice-checked; archival draft untouched |
 
@@ -200,7 +205,7 @@ Priority domains in `README.md` that still lack cards include preconception, pla
 | `chapter 2` | The First Environment | 4,300 |
 | `chapter 3` | The Great Transition | 5,497 archival; curated copy in `chapters/` ~2,597 |
 | `chapter 4` | The Regulatory Relationship | 4,561 archival; curated copy in `chapters/` ~2,518 |
-| `chapter 5` | Becoming a Mind | 4,900 |
+| `chapter 5` | Becoming a Mind | 4,900 archival; curated copy in `chapters/` ~2,537 |
 | `chapter 6` | The Mind in Motion | 1,625 archival; curated copy in `chapters/` ~2,700 |
 | `chapter 7` | The Birth of Language | 4,908 archival; curated copy in `chapters/` ~3,785 |
 | `chapter 8.md` | The Expanding World | 3,900 |
@@ -212,7 +217,7 @@ Priority domains in `README.md` that still lack cards include preconception, pla
 | `chapter 14` | What Actually Works? | 4,400 |
 | `chapter 15` | Three Years: What Has Been Built? | 4,200 |
 
-None of the archival files have been overwritten. Curated, voice-checked copies exist for Chapters 2, 3, 4, 6, and 7. Some drafts contain leftover citation artifacts such as `:contentReference[oaicite:…]`.
+None of the archival files have been overwritten. Curated, voice-checked copies exist for Chapters 2, 3, 4, 5, 6, and 7. Some drafts contain leftover citation artifacts such as `:contentReference[oaicite:…]`.
 
 Seed filenames still say `01` / `02` because they were written against the old numbering. Do not promote them as Chapter 1 and 2 of the book.
 
@@ -288,34 +293,33 @@ The repo was initialized 2026-09-14 (KB structure, 8 evidence cards, OKF retrofi
 
 ## 10. Known gaps and agent hazards
 
-1. **Working TOC is 15 chapters.** See `chapters/_OUTLINE.md`. Remaining seed sketch: `01-first-environment.md` (Ch. 2). Curated copies: `02-first-environment.md`, `03-the-great-transition.md`, `04-regulatory-relationship.md`, `06-the-mind-in-motion.md`, `07-the-birth-of-language.md`.
-2. **Chapter 6 archival remains thin** (~1,625 words). A curated copy in `chapters/06-the-mind-in-motion.md` is now in the Appendix B range. Chapter 7 has a curated copy (~3,785 words); archival ~4,908 remains untouched. Chapter 3 curated copy ~2,597 words (archival ~5,497). Chapter 4 curated copy ~2,518 words; archival ~4,561 remains untouched.
+1. **Working TOC is 15 chapters.** See `chapters/_OUTLINE.md`. Remaining seed sketch: `01-first-environment.md` (Ch. 2). Curated copies: `02-first-environment.md`, `03-the-great-transition.md`, `04-regulatory-relationship.md`, `05-becoming-a-mind.md`, `06-the-mind-in-motion.md`, `07-the-birth-of-language.md`.
+2. **Chapter 6 archival remains thin** (~1,625 words). A curated copy in `chapters/06-the-mind-in-motion.md` is now in the Appendix B range. Chapter 7 has a curated copy (~3,785 words); archival ~4,908 remains untouched. Chapter 3 curated copy ~2,597 words (archival ~5,497). Chapter 4 curated copy ~2,518 words; archival ~4,561 remains untouched. Chapter 5 curated copy ~2,537 words (archival ~4,900).
 3. **`_TEMPLATE.md` now has OKF frontmatter.** Keep it in sync when live-card fields change.
 4. **`atlas_domains` / `chapter_hooks`** are on the newer cards; most first-pass cards still omit them.
 5. **Draft citation artifacts.** `chapter 14` has 29 `:contentReference[oaicite:…]` leftovers; listed as a promotion blocker in `preliminary/triage/ch14-what-actually-works--triage.md`. Do not overwrite the archival draft.
 6. **Binary research files.** Most of `preliminary/research/` is `.docx`; grep/search will miss them.
-7. **Catalog-wide retraction lookup has begun** (Crossref/PubMed plus a DOI-recovery / Retraction Watch pass). No retraction/EoC titles among DOI-resolved records; five IDs still lack a journal DOI (`nichd-seccyd-2006`, `who-anc-2016`, `who-nurturing-care-2018`, `kramer-1987-lbw`, `hiscock-2016`). OpenRetractions was unreachable; RW was queried via Crossref update metadata, PubMed retraction PTs, and targeted site search. None moved to `stable`.
+7. **Catalog-wide retraction lookup is complete for DOI-resolved records** (Crossref + OpenAlex `is_retracted` + PubMed PTs). No retraction/EoC titles. Cochrane `new_version` flags remain successor reviews. Grey-literature IDs (NICHD 05-4318, two WHO IRIS handles, Kramer 1987) have no journal DOI and are now identified rather than missing. `hiscock-2016` retired. None moved to `stable`.
 8. **No tests or lint.** Quality control is methodological (CONTRIBUTING + voice checklist), not automated.
 9. **Do not invent prescriptions.** If evidence does not justify an action, say so.
-11. **`hiscock-2016` identification mismatch.** Catalog URL is a 2020 MCN handler, not a 2016 Pediatrics meta-analysis of 52 RCTs. Recorded in the DOI-recovery note; sleep card not rewritten.
+11. **`hiscock-2016` identification mismatch is repaired.** The ID is retired. Sleep card now cites Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020 plus Price 2012. Harm claim still `draft`.
 
 ---
 
 ## 11. Suggested next work
 
-Done in this package: recovered DOIs for 15 of 20 previously Crossref-unchecked IDs and queried Retraction Watch coverage (none to `stable`); curated voice-checked Chapter 3; decided Chapter 4 (not 5) as the next proof-of-voice chapter and promoted a curated Chapter 4 after source-auditing feeding-as-regulation.
+Done in this package: repaired the five remaining no-DOI listings (especially `hiscock-2016`); finished a Retraction Watch dump with none to `stable`; extracted and voice-checked Chapter 5.
 
 Highest-leverage remaining knowledge-base work:
 
-- Five catalog IDs still lack a journal DOI. Repair the `hiscock-2016` identification mismatch (without rewriting the sleep card body until a dedicated re-audit) and finish a Retraction Watch dump before any card moves to `stable`.
 - Replication/attenuation classification is still not catalog-wide; that remains a `stable` promotion blocker.
-- Source-audit remaining Chapter 7 dossier cards (joint attention, gesture, babbling, parent-implemented interventions) if Chapter 7 needs a second evidence pass.
+- Source-audit remaining Chapter 7 dossier cards (gesture, babbling, parent-implemented interventions) if Chapter 7 needs a second evidence pass. Joint attention now has a Ch. 5 card.
 - Source-audit remaining Chapter 6 dossier cards (embodied action, exploration, causal representation, imitation) if Chapter 6 needs a second evidence pass.
-- Chapter 3 neonatal perception (C03) and mode of delivery remain open/held.
+- Chapter 3 neonatal perception (C03) and mode of delivery remain open/held. Deferred imitation remains open for Chapter 5.
 
 Highest-leverage remaining manuscript work:
 
-- Voice-check and extract Chapter 5 (*Becoming a Mind*), the next unextracted Part I chapter.
+- Voice-check Chapter 1 (*Before the Child Is Born*) as the remaining unextracted Part I framing chapter, or begin second-wave Chapter 8.
 - Normalize remaining draft filenames on **curated copies only**.
 
 ---

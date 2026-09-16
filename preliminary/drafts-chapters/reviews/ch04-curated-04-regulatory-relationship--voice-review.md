@@ -31,5 +31,5 @@ Target: 2,500–4,000 words. The curated copy is ~2,518 words; the archival draf
 ## Nits (not promotion blockers)
 
 - A dedicated “what attachment measures” card remains interpretive-only.
-- `hiscock-2016` catalog mismatch is recorded in the DOI-recovery note, not repaired by rewriting the sleep card.
+- `hiscock-2016` was retired in a later catalog repair (Mindell 2006 / Gradisar 2016 / Bilgin & Wolke 2020); the sleep card was citation-repaired, not re-theorized.
 - Cards remain `draft`.
