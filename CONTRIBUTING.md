@@ -55,7 +55,7 @@ No design automatically establishes truth. Assess each design's assumptions, pre
 
 ## Versioning
 
-Every substantive addition or revision to an evidence card must be logged in `CHANGELOG.md` under `[Unreleased]`, categorized as Added / Revised / Retracted / Structure. Periodically these are rolled into a dated release (e.g. `## [2026-Q4]`).
+Every substantive addition or revision to an evidence card must be logged in `CHANGELOG.md` under `[Unreleased]`, categorized as Added / Revised / Retracted / Structure. Periodically these are rolled into a dated or tagged release (see `preliminary/releases/v0.1-slice.md`).
 
 ## Compositional Grammar
 

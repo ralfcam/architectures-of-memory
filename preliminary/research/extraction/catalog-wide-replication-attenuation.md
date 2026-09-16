@@ -79,6 +79,12 @@ This pass completes (3) catalog-wide. Rules (1)–(2) were addressed in earlier 
 | `inhibitory-control-toddler.md` | Laboratory batteries | Age trends plus symbolic-distancing experiments | n/a | Delay destiny stays on Watts card |
 | `symbolic-pretend-play-emergence.md` | Observational / cross-sectional | Second-year symbolic shift described | n/a | Not a diagnostic cutoff |
 | `pretend-play-educational-claims.md` | Systematic narrative review | Unique-cause educational claims do not survive Lillard 2013 | n/a | Overclaim is the finding |
+| `father-kin-sibling-heterogeneous-network.md` | Observational meta + network review | McWayne 2013 small-to-moderate associations; Dagan 2018 configuration | not classified | Unique-cause / substitute-caregiver Low |
+| `committed-compliance-not-obedience.md` | Observational longitudinal program | Kochanska 1995 committed vs situational distinction | not classified | Technique / conscience-as-obedience Low |
+| `toddler-physical-aggression-trajectories.md` | Longitudinal cohort trajectories | Tremblay 2004 peak-and-decline for most | not classified | Violence-destiny Low |
+| `physical-punishment-not-necessary.md` | Prospective meta-analysis | Gershoff 2016: no reliable benefit; worse-behavior associations | not classified | Every-instance-damaged-child refused |
+| `income-cash-transfer-early-development.md` | RCT (Baby’s First Years) | Infant EEG difference (Troller-Renfree 2022); age-4 nulls (Noble 2025) | n/a (RCT of transfer, not GI of parenting) | Cash-as-cognition Low-to-Moderate |
+| `neighborhood-mobility-age-dependent.md` | RCT (MTO long-run) | Chetty 2016 age-at-move heterogeneity on later earnings | n/a (voucher experiment) | 0–3 developmental measures Low-to-Moderate |
 
 This pass completes (3) catalog-wide and records three *narrow* `stable` flips. Rules (1)–(2) were addressed in earlier DOI/retraction dumps plus the 2026-09-16 replication note.
 
@@ -86,4 +92,4 @@ This pass completes (3) catalog-wide and records three *narrow* `stable` flips. 
 
 - YAML `confidence` is not by itself a stability claim.
 - Completing this table does not reopen sleep, attachment, or screen-time *theory*.
-- Next *empirical* cards still open: Chapter 3 neonatal perception and mode of delivery (held); father/kin/sibling; outdoor/risky play; Chapter 10 rules/behavior.
+- Next *empirical* cards still open: Chapter 3 neonatal perception and mode of delivery (held); outdoor/risky play; Warneken helping; employment/leave; food security. Father/kin and Chapter 10 rules/behavior now have first-pass cards.

@@ -301,6 +301,27 @@ sources:
   - id: hillman-2012-transition
     resource: https://doi.org/10.1016/j.clp.2012.09.009
     title: "Hillman, Kallapur & Jobe (2012), Clin Perinatol, physiology of transition"
+  - id: mcwayne-2013-father
+    resource: https://doi.org/10.1080/10409289.2013.746932
+    title: "McWayne, Downer, Campos & Harris (2013), Early Education and Development, father involvement and early learning"
+  - id: kochanska-1995-conscience
+    resource: https://doi.org/10.2307/1131908
+    title: "Kochanska (1995), Child Development, committed compliance and emerging internalization"
+  - id: tremblay-2004-aggression
+    resource: https://doi.org/10.1542/peds.114.1.e43
+    title: "Tremblay et al. (2004), Pediatrics, physical-aggression trajectories in early childhood"
+  - id: gershoff-2016-spanking
+    resource: https://doi.org/10.1037/fam0000191
+    title: "Gershoff & Grogan-Kaylor (2016), Journal of Family Psychology, spanking and child outcomes"
+  - id: troller-renfree-2022-bfy
+    resource: https://doi.org/10.1073/pnas.2115649119
+    title: "Troller-Renfree et al. (2022), PNAS, poverty-reduction intervention and infant brain activity"
+  - id: noble-2025-bfy-age4
+    resource: https://doi.org/10.3386/w33844
+    title: "Noble et al. (2025), NBER w33844, Baby’s First Years age-four developmental outcomes"
+  - id: chetty-2016-mto
+    resource: https://doi.org/10.1257/aer.20150572
+    title: "Chetty, Hendren & Katz (2016), American Economic Review, Moving to Opportunity long-run effects"
 ---
 
 # Master Source Catalog
@@ -406,7 +427,7 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `sorce-1985-cliff` | Sorce et al. (1985), visual-cliff social referencing | [https://doi.org/10.1037/0012-1649.21.1.195](https://doi.org/10.1037/0012-1649.21.1.195) | [infant-social-referencing](evidence-cards/infant-social-referencing.md) |
 | `walden-ogan-1988` | Walden & Ogan (1988), development of social referencing | [https://doi.org/10.1111/j.1467-8624.1988.tb01492.x](https://doi.org/10.1111/j.1467-8624.1988.tb01492.x) | [infant-social-referencing](evidence-cards/infant-social-referencing.md) |
 | `dagan-2021-networks` | Dagan & Sagi-Schwartz (2021), attachment networks | [https://doi.org/10.1002/cad.20446](https://doi.org/10.1002/cad.20446) | [infant-multiple-caregiver-attachments](evidence-cards/infant-multiple-caregiver-attachments.md) |
-| `dagan-2018-cdp` | Dagan & Sagi-Schwartz (2018), mother–father attachment network | [https://doi.org/10.1111/cdep.12272](https://doi.org/10.1111/cdep.12272) | [infant-multiple-caregiver-attachments](evidence-cards/infant-multiple-caregiver-attachments.md) |
+| `dagan-2018-cdp` | Dagan & Sagi-Schwartz (2018), mother–father attachment network | [https://doi.org/10.1111/cdep.12272](https://doi.org/10.1111/cdep.12272) | [infant-multiple-caregiver-attachments](evidence-cards/infant-multiple-caregiver-attachments.md); [father-kin-sibling-heterogeneous-network](evidence-cards/father-kin-sibling-heterogeneous-network.md) |
 | `brownell-2006-peers` | Brownell, Ramani & Zerwas (2006), becoming a social partner with peers | [https://doi.org/10.1111/j.1467-8624.2006.00904.x](https://doi.org/10.1111/j.1467-8624.2006.00904.x) | [toddler-peer-interaction](evidence-cards/toddler-peer-interaction.md) |
 | `adolph-hoch-2019` | Adolph & Hoch (2019), embodied motor development | [https://doi.org/10.1146/annurev-psych-010418-102836](https://doi.org/10.1146/annurev-psych-010418-102836) | [embodied-perception-action](evidence-cards/embodied-perception-action.md) |
 | `stahl-feigenson-2015` | Stahl & Feigenson (2015), observing the unexpected | [https://doi.org/10.1126/science.aaa3799](https://doi.org/10.1126/science.aaa3799) | [exploration-as-sampling](evidence-cards/exploration-as-sampling.md); [infant-physical-reasoning](evidence-cards/infant-physical-reasoning.md) |
@@ -426,6 +447,13 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `czeizel-dudas-1992` | Czeizel & Dudás (1992), first-occurrence NTD prevention | [https://doi.org/10.1056/NEJM199212243272602](https://doi.org/10.1056/NEJM199212243272602) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) (`stable` NTD claim) |
 | `aslin-saffran-1998` | Aslin, Saffran & Newport (1998), conditional-probability statistics | [https://doi.org/10.1111/1467-9280.00063](https://doi.org/10.1111/1467-9280.00063) | [infant-statistical-speech-segmentation](evidence-cards/infant-statistical-speech-segmentation.md) (`stable` lab claim) |
 | `hillman-2012-transition` | Hillman, Kallapur & Jobe (2012), physiology of transition | [https://doi.org/10.1016/j.clp.2012.09.009](https://doi.org/10.1016/j.clp.2012.09.009) | [neonatal-cardiopulmonary-transition](evidence-cards/neonatal-cardiopulmonary-transition.md) (`stable` sequence claim) |
+| `mcwayne-2013-father` | McWayne et al. (2013), father involvement and early learning | [https://doi.org/10.1080/10409289.2013.746932](https://doi.org/10.1080/10409289.2013.746932) | [father-kin-sibling-heterogeneous-network](evidence-cards/father-kin-sibling-heterogeneous-network.md) |
+| `kochanska-1995-conscience` | Kochanska (1995), committed compliance and emerging internalization | [https://doi.org/10.2307/1131908](https://doi.org/10.2307/1131908) | [committed-compliance-not-obedience](evidence-cards/committed-compliance-not-obedience.md) |
+| `tremblay-2004-aggression` | Tremblay et al. (2004), physical-aggression trajectories | [https://doi.org/10.1542/peds.114.1.e43](https://doi.org/10.1542/peds.114.1.e43) | [toddler-physical-aggression-trajectories](evidence-cards/toddler-physical-aggression-trajectories.md) |
+| `gershoff-2016-spanking` | Gershoff & Grogan-Kaylor (2016), spanking and child outcomes | [https://doi.org/10.1037/fam0000191](https://doi.org/10.1037/fam0000191) | [physical-punishment-not-necessary](evidence-cards/physical-punishment-not-necessary.md) |
+| `troller-renfree-2022-bfy` | Troller-Renfree et al. (2022), Baby’s First Years infant EEG | [https://doi.org/10.1073/pnas.2115649119](https://doi.org/10.1073/pnas.2115649119) | [income-cash-transfer-early-development](evidence-cards/income-cash-transfer-early-development.md) |
+| `noble-2025-bfy-age4` | Noble et al. (2025), NBER w33844, Baby’s First Years age four | [https://doi.org/10.3386/w33844](https://doi.org/10.3386/w33844) | [income-cash-transfer-early-development](evidence-cards/income-cash-transfer-early-development.md) |
+| `chetty-2016-mto` | Chetty, Hendren & Katz (2016), Moving to Opportunity long-run effects | [https://doi.org/10.1257/aer.20150572](https://doi.org/10.1257/aer.20150572) | [neighborhood-mobility-age-dependent](evidence-cards/neighborhood-mobility-age-dependent.md) |
 
 ## Unresolved Citations
 

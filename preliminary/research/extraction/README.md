@@ -45,10 +45,12 @@ Group claims into likely cards **after** they are extracted. One card = one clai
 - [Chapter 4 Evidence Map](ch04-regulatory-relationship--evidence-map.md) — co-regulation, deprivation, and feeding-as-regulation; sleep/attachment reconciled.
 - [Chapter 5 Evidence Map](ch05-becoming-a-mind--evidence-map.md) — looking-time, attention, object permanence, joint attention; narrowing/statistical/contingency reconciled.
 - [Chapter 7 Evidence Map](ch07-birth-of-language--evidence-map.md) — perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling; screens ID-repaired; parent-implemented language card added; joint attention is a Ch. 5 card.
-- [Chapter 8 Evidence Map](ch08-expanding-world--evidence-map.md) — social referencing, networks, peers; childcare/BEIP reconciled.
+- [Chapter 8 Evidence Map](ch08-expanding-world--evidence-map.md) — social referencing, networks, peers, father/kin remainder; childcare/BEIP reconciled.
 - [Chapter 9 Evidence Map](ch09-emotional-revolution--evidence-map.md) — still-face, temperament, inhibition; co-regulation/delay reconciled.
+- [Chapter 10 Evidence Map](ch10-boundaries-behavior--evidence-map.md) — committed compliance, aggression trajectories, physical punishment; EF/delay reconciled.
 - [Chapter 11 Evidence Map](ch11-developing-executive--evidence-map.md) — EF unity/diversity and inhibitory control; Watts delay reconciled.
 - [Chapter 12 Evidence Map](ch12-play-imagination--evidence-map.md) — symbolic play and Lillard overclaim.
+- [Chapter 13 Evidence Map](ch13-ecology--evidence-map.md) — income/cash (Baby’s First Years) and neighborhood mobility (MTO).
 - [Stable-promotion candidates](stable-promotion-candidates.md) — physiology/lab path; three narrow claims `stable`.
 - [Stable-candidate replication note](stable-candidates--replication-note.md) — five-rule re-audit; folate, Saffran, neonatal transition.
 - [Preconception extraction plan](preconception--extraction-plan.md) — first dedicated domain plan; Kong card exists.

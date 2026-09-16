@@ -74,7 +74,7 @@ Reaching alters visual access. Grasping turns an object into something that can 
 
 Development here emerges from interactions among neural maturation, body structure, posture, motor skill, task demands, environmental conditions, and social context. The classic A-not-B search error is useful as an illustration, not as a diagnosis of a missing concept. Performance on that task reflects memory, perception, posture, motor history, and the way the adult sets the problem, rather than a single cognitive capacity turning on.
 
-**Grade: Moderate** for this embodied coupling as a research framework (dynamic-systems accounts of perception–action). **Grade: Low** that earlier sitting, crawling, or walking generally causes superior later cognition, or that motor timing is an index of parental quality.
+**Grade: Moderate** for this embodied coupling as a research framework (dynamic-systems accounts of perception–action). **Grade: Low** that earlier sitting, crawling, or walking generally causes superior later cognition, or that motor timing is an index of parental quality. The evidence card is `embodied-perception-action.md` (Adolph & Hoch 2019).
 
 The infant does not need to be hurried through milestones. A milestone is not a score.
 
@@ -92,7 +92,7 @@ The loop is:
 
 **experience → encoding → expectation → mismatch or confirmation → action → new experience**
 
-**Grade: Moderate** that violation of expectation can reorganize looking and exploration in specified tasks. **Grade: Low** that surprise guarantees a lasting knowledge update, or that a looking-time difference is already an explanation.
+**Grade: Moderate** that violation of expectation can reorganize looking and exploration in specified tasks. **Grade: Low** that surprise guarantees a lasting knowledge update, or that a looking-time difference is already an explanation. The evidence cards are `exploration-as-sampling.md` (Stahl & Feigenson 2015) and `infant-physical-reasoning.md` (Baillargeon 1987; Stahl 2015).
 
 ## From regularity to cause
 
@@ -118,7 +118,7 @@ The learning environment is social before it is instructional.
 
 Infants encounter faces, voices, gestures, emotional expressions, demonstrations, and shared attention long before formal teaching. Social partners influence what becomes salient, what receives attention, what is imitated, and what is remembered.
 
-Imitation is not simple copying. Infants often attend to goals, constraints, and context. They do not necessarily reproduce every observed action. Neonatal imitation is a live controversy and is not the load-bearing claim of this chapter. Later-infancy and toddler imitation as a route of cultural learning is a different, stronger claim, and still not a claim that the child is a finished pupil.
+Imitation is not simple copying. Infants often attend to goals, constraints, and context. They do not necessarily reproduce every observed action. Neonatal imitation is a live controversy and is not the load-bearing claim of this chapter. Later-infancy and toddler imitation as a route of cultural learning is a different, stronger claim, and still not a claim that the child is a finished pupil. The evidence card is `deferred-imitation.md` (Meltzoff 1988): **Grade: High** for 14-month imitation after a one-week delay; **Grade: Low** that neonatal imitation or a home imitation curriculum follows.
 
 Social learning allows information to accumulate across people. It transforms individual discovery into a shared world. It also means that “the environment” is never only objects. It is people who retrieve the spoon, who look where the infant looks, who refuse to turn every drop into a lesson.
 
@@ -168,7 +168,7 @@ It does not tell us that a laboratory contingency is an intervention program. Co
 
 ## Science, Interpretation, Art
 
-**Science** here is the High-grade laboratory fact that infants can learn action–outcome relations; the Moderate claim that action, memory, surprise, and social partners reorganize one another; and the Low status of transfer, adult-like cause, and lifelong forecast.
+**Science** here is the High-grade laboratory fact that infants can learn action–outcome relations (`infant-contingency-learning.md`); the Moderate claims that embodiment, surprise-driven exploration, and physical-reasoning tasks reorganize looking and action (`embodied-perception-action.md`, `exploration-as-sampling.md`, `infant-physical-reasoning.md`); High-grade deferred imitation at 14 months after a week (`deferred-imitation.md`); and the Low status of transfer, adult-like cause, milestone ranking, and lifelong forecast.
 
 **Interpretation** is the habit of keeping those facts from becoming a story about the kind of person the child will be, or the kind of teacher the parent must become. It is also the habit of matching verbs to grades: *shows* where the grade is High, *suggests* where it is Moderate, *is associated with* where it is Low.
 
