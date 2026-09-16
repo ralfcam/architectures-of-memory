@@ -23,7 +23,7 @@ Toddler through age 3: object play, physical play, pretend/symbolic play, social
 - Educational claims about pretend play exceeding evidence (Lillard)
 - Social / sociodramatic play (adjacent to peer card; `needs-source-audit` for a distinct ToM-transfer claim)
 - Guided play vs instruction (hold; preschool-weighted)
-- Outdoor / risky play (often school-age; check window)
+- Outdoor / risky play (`outdoor-risky-play-not-0-3-law.md`; school-age literature, not a 0–3 law)
 - Digital play (screens card already exists; do not re-theorize screens)
 
 ## 4. Existing KB overlap

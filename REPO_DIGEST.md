@@ -65,9 +65,9 @@ REPO_DIGEST.md            This map
 CONTRIBUTING.md           Evidence-card methodology
 CHANGELOG.md              Knowledge-base version history
 COMPOSITION.md            Book compositional grammar
-SOURCES.md                Master source catalog (108 verified)
-evidence-cards/           63 cards (3 `stable` for a narrow claim; 60 `draft`) + template + index
-chapters/                 Working 15-chapter TOC; curated Ch. 1–14 (Ch. 15 still triage only)
+SOURCES.md                Master source catalog (113 verified)
+evidence-cards/           68 cards (3 `stable` for a narrow claim; 65 `draft`) + template + index
+chapters/                 Working 15-chapter TOC; curated Ch. 1–15
 style/                    Voice/style constraints for manuscript prose
 preliminary/              Staging area (research notes + chapter drafts)
 ```
@@ -120,7 +120,7 @@ Certainty grades: High / Moderate / Low / Very Low.
 
 OKF bundle root: `index.md` (`okf_version: "0.2"`).
 
-Sixty cards remain `status: draft` plus three `stable` physiology/lab cards (63 total). YAML `confidence` is aligned with in-body grades. A first selected-card re-audit, a catalog-wide Crossref/PubMed lookup, a DOI-recovery pass, a Retraction Watch dump, a catalog-wide replication/attenuation classification, and a 2026-09-16 replication note moved **three narrow claims** to `stable`. First-pass Part II remainder and Chapter 15 waypoint cards stay `draft`. See `evidence-cards/index.md` for the full list. `v0.1` is tagged on `main` at `c7c2a7a`.
+Sixty-five cards remain `status: draft` plus three `stable` physiology/lab cards (68 total). YAML `confidence` is aligned with in-body grades. A first selected-card re-audit, a catalog-wide Crossref/PubMed lookup, a DOI-recovery pass, a Retraction Watch dump, a catalog-wide replication/attenuation classification, and a 2026-09-16 replication note moved **three narrow claims** to `stable`. First-pass Part II, Chapter 15 waypoint, and remaining-domain cards stay `draft`. See `evidence-cards/index.md` for the full list. `v0.1` is tagged on `main` at `c7c2a7a`. `v0.2` is tagged on `main` at `9bbc2d9`.
 
 The eight first-pass cards plus C05/C07 remain as in the previous digest table. New Chapter 2 cards: `prenatal-developmental-timing.md`, `placenta-as-mediator.md`, `prenatal-neural-construction.md`, `fetal-autonomic-maturation.md`, `prenatal-iodine-thyroid.md`, `prenatal-alcohol-fasd.md`, `prenatal-tobacco-birthweight.md`, `prenatal-environmental-mixtures.md`, `fetal-growth-not-destiny.md`.
 
@@ -160,21 +160,20 @@ The eight first-pass cards plus C05/C07 remain as in the previous digest table. 
 
 From `evidence-cards/index.md` "Not Yet Started":
 
-- Preconception: Kong paternal-age card exists; other nutrients/epigenetic stories still planned
-- Birth (mode of delivery and birth experience still held; skin-to-skin, crying, feeding coordination, and preterm group risk now have cards)
-- Play (symbolic/pretend and Lillard overclaim cards exist; outdoor/risky still planned; embodiment/exploration remain Chapter 6)
-- Social development beyond attachment (referencing, networks, peers, father/kin, still-face/temperament/inhibition, and Chapter 10 compliance/aggression/punishment now have cards; Warneken helping still planned)
-- Ecology (income/cash and neighborhood-mobility cards exist; employment/leave and food security still planned)
+- Preconception: Kong paternal-age card exists; `preconception-nutrition-beyond-folate.md` now covers other nutrients without inheriting folate’s NTD grade; sperm-epigenetic stories still excluded
+- Birth (mode of delivery and birth experience still held)
+- Play (symbolic/pretend, Lillard, and outdoor/risky cards exist; guided-play efficacy still thinner)
+- Social development beyond attachment (Warneken helping card now exists)
+- Ecology (income/cash, MTO, leave, and food-insecurity cards exist)
+- Age-3 waypoint (three cards plus curated Chapter 15)
 
-- Age-3 waypoint (rank-order continuity, self-control gradient, and ordinary-resilience cards exist; no curated Chapter 15 yet)
-
-Priority domains that still lack *full* card families include remaining preconception nutrients, outdoor/risky play, Warneken helping, and employment/leave. Sixty-three cards are live; three are `stable` for a narrow claim.
+Priority domains that still lack *full* dedicated families include guided-play efficacy, mode of delivery, and sperm-epigenetic claims (excluded). Sixty-eight cards are live; three are `stable` for a narrow claim.
 
 ### Sources
 
 `SOURCES.md` is the catalog of record:
 
-- **108 verified** resources with URLs, mirrored in the file's OKF `sources` array
+- **113 verified** resources with URLs, mirrored in the file's OKF `sources` array
 - **12 first-pass unresolved citations resolved** (two were already in the verified table; two titles were corrected to the matching papers). Resolution log lives under Unresolved Citations.
 - Catalog itself is `status: draft`. The five remaining no-DOI listings are repaired (`hiscock-2016` retired). A Retraction Watch dump found no retraction/EoC titles among DOI-resolved records. Replication/attenuation is classified catalog-wide. `madigan-2020` ID repaired. Three *narrow* physiology/lab claims promoted to `stable`.
 
@@ -186,7 +185,7 @@ Priority domains that still lack *full* card families include remaining preconce
 
 ### Canonical `chapters/` files
 
-`chapters/01-before-the-child-is-born.md` is the curated Chapter 1 copy. The leftover Ch. 2 seed sketch was removed. `chapters/02-first-environment.md` is the curated Chapter 2 copy. `chapters/03-the-great-transition.md` is the curated Chapter 3 copy. `chapters/04-regulatory-relationship.md` is the curated Chapter 4 copy. `chapters/05-becoming-a-mind.md` is the curated Chapter 5 copy. `chapters/06-the-mind-in-motion.md` is the curated Chapter 6 expansion. `chapters/07-the-birth-of-language.md` is the curated Chapter 7 copy. `chapters/08-the-expanding-world.md` through `chapters/13-the-ecology-of-development.md` are curated Part II copies (v0.2 manuscript slice; tag after merge). `chapters/14-what-actually-works.md` is a staging copy with citation artifacts stripped.
+`chapters/01-before-the-child-is-born.md` is the curated Chapter 1 copy. The leftover Ch. 2 seed sketch was removed. `chapters/02-first-environment.md` is the curated Chapter 2 copy. `chapters/03-the-great-transition.md` is the curated Chapter 3 copy. `chapters/04-regulatory-relationship.md` is the curated Chapter 4 copy. `chapters/05-becoming-a-mind.md` is the curated Chapter 5 copy. `chapters/06-the-mind-in-motion.md` is the curated Chapter 6 expansion. `chapters/07-the-birth-of-language.md` is the curated Chapter 7 copy. `chapters/08-the-expanding-world.md` through `chapters/13-the-ecology-of-development.md` are curated Part II copies (v0.2 manuscript slice, tagged at `9bbc2d9`). `chapters/14-what-actually-works.md` is a staging copy with citation artifacts stripped. `chapters/15-three-years.md` is the curated Chapter 15 copy.
 
 | Canonical file | Maps to working TOC | Status |
 |---|---|---|
@@ -204,6 +203,7 @@ Priority domains that still lack *full* card families include remaining preconce
 | `chapters/11-the-developing-executive.md` | Working TOC Ch. 11 | Curated, voice-checked; archival draft untouched |
 | `chapters/12-play-imagination.md` | Working TOC Ch. 12 | Curated, voice-checked; archival draft untouched |
 | `chapters/13-the-ecology-of-development.md` | Working TOC Ch. 13 | Curated, voice-checked; archival draft untouched |
+| `chapters/15-three-years.md` | Working TOC Ch. 15 | Curated, voice-checked; archival draft untouched |
 
 `COMPOSITION.md` Appendix B target: 2,500–4,000 words per finished chapter.
 
@@ -229,7 +229,7 @@ Priority domains that still lack *full* card families include remaining preconce
 | `chapter 14` | What Actually Works? | 4,400 |
 | `chapter 15` | Three Years: What Has Been Built? | 4,200 |
 
-None of the archival files have been overwritten. Curated, voice-checked copies exist for Chapters 1–14. Chapter 15 has triage and draft cards but no curated copy. Some drafts contain leftover citation artifacts such as `:contentReference[oaicite:…]`.
+None of the archival files have been overwritten. Curated, voice-checked copies exist for Chapters 1–15. Some drafts contain leftover citation artifacts such as `:contentReference[oaicite:…]`.
 
 Seed filenames still say `01` / `02` because they were written against the old numbering. Do not promote them as Chapter 1 and 2 of the book.
 
@@ -312,6 +312,11 @@ Squash-merged into `main`, in order: **#1, #2, #3, #5, #6, #7, #8**. There is no
 | [#7](https://github.com/ralfcam/parenthood-atlas/pull/7) | `e379de8` | Five-listing repair, Retraction Watch dump, curated Chapter 5 |
 | [#8](https://github.com/ralfcam/parenthood-atlas/pull/8) | `97544c7` | Recorded that PR #4 was never merged; do not merge it |
 | [#9](https://github.com/ralfcam/parenthood-atlas/pull/9) | `6275ad4` | Catalog-wide replication/attenuation; Madigan 2020 vs Jing 2023 ID repair; pointing and babbling cards |
+| [#10](https://github.com/ralfcam/parenthood-atlas/pull/10) | `499414c` | Curated Chapter 1; Chapter 8 first cards; remaining Ch. 6/7 extraction |
+| [#11](https://github.com/ralfcam/parenthood-atlas/pull/11) | `da2fc75` | Part II Ch. 9/11/12 triage; Chapter 14 trim; three narrow `stable` flips |
+| [#12](https://github.com/ralfcam/parenthood-atlas/pull/12) | `c7c2a7a` | Part II Ch. 8 remainder, 10, 13; Chapters 6–7 update; v0.1 slice defined (`v0.1` tagged here) |
+| [#13](https://github.com/ralfcam/parenthood-atlas/pull/13) | `f6011b7` | Tag plan for v0.1; Chapter 15 triage and three waypoint cards; v0.2 slice defined |
+| [#14](https://github.com/ralfcam/parenthood-atlas/pull/14) | `9bbc2d9` | Curated Chapters 8–13; v0.2 tagged here; v0.3 slice defined |
 
 **Do not merge PR #4.** Its branch `cursor/ch3-ch4-ch6-7d96` (`79419f7`) was the base for the Chapter 7 branch. When #5 squash-merged onto `main` after #3, Git included every file unique to #4. GitHub left PR #4 OPEN until [PR #8](https://github.com/ralfcam/parenthood-atlas/pull/8) closed it without merging. A three-dot merge of #4 onto current `main` would still replay stale digest/catalog counts and the Chapter 4 seed against the later curated Chapter 4.
 
@@ -323,7 +328,7 @@ Later packages that treated “PR #4 merged” as true were describing content o
 
 ## 10. Known gaps and agent hazards
 
-1. **Working TOC is 15 chapters.** See `chapters/_OUTLINE.md`. Curated copies: `01-before-the-child-is-born.md` through `13-the-ecology-of-development.md` plus `14-what-actually-works.md`. Leftover `01-first-environment.md` seed removed. Chapter 15 still has no curated copy.
+1. **Working TOC is 15 chapters.** See `chapters/_OUTLINE.md`. Curated copies exist for all 15 working-TOC chapters. Leftover `01-first-environment.md` seed removed.
 2. **Chapter 6 archival remains thin** (~1,625 words). A curated copy in `chapters/06-the-mind-in-motion.md` is now in the Appendix B range. Chapter 7 has a curated copy (~3,785 words); archival ~4,908 remains untouched. Chapter 3 curated copy ~2,597 words (archival ~5,497). Chapter 4 curated copy ~2,518 words; archival ~4,561 remains untouched. Chapter 5 curated copy ~2,537 words (archival ~4,900). Chapter 1 curated copy ~2,900 words (archival ~3,985).
 3. **`_TEMPLATE.md` now has OKF frontmatter.** Keep it in sync when live-card fields change.
 4. **`atlas_domains` / `chapter_hooks`** are on the newer cards; most first-pass cards still omit them.
@@ -339,19 +344,12 @@ Later packages that treated “PR #4 merged” as true were describing content o
 
 ## 11. Suggested next work
 
-Done in this package: curated, voice-checked Chapters 8–13 (Appendix B range) with reviews; v0.2 slice updated so tag waits for merge to `main`; v0.3 slice defined (curated Chapter 15 + remaining domains). Archival drafts untouched. Sleep/attachment/screen theory not rewritten. **No additional card moved to `stable`.** Catalog remains 63 cards (3 `stable` for a narrow claim; 60 `draft`) and 108 verified `SOURCES.md` IDs.
+Done in this package: tagged `v0.2` on `main` at `9bbc2d9`; curated Chapter 15; five remaining-domain draft cards (Warneken, outdoor/risky play, leave, food insecurity, preconception-beyond-folate). Archival drafts untouched. Sleep/attachment/screen theory not rewritten. **No additional card moved to `stable`.** Catalog is 68 cards (3 `stable`; 65 `draft`) and 113 verified `SOURCES.md` IDs.
 
 Highest-leverage remaining work:
 
-- Tag `v0.2` on `main` after this curation PR merges (see `preliminary/releases/v0.2-slice.md`).
-- Curated Chapter 15 after a voice review (three waypoint cards exist) — manuscript center of v0.3.
-- Outdoor/risky play; Warneken helping; employment/leave; food security; further preconception nutrients.
-- Chapter 3 neonatal perception (C03) and mode of delivery remain open/held.
-- Further `stable` promotions only after the same five-rule bar (looking-time and perceptual-narrowing still `draft`).
-
-Highest-leverage remaining manuscript work:
-
-- Curated Chapter 15 after a voice review (three cards exist).
+- Tag `v0.3` on `main` after this PR merges (see `preliminary/releases/v0.3-slice.md`).
+- Guided-play efficacy; mode of delivery (held); looking-time and perceptual-narrowing as next physiology/lab `stable` candidates only after the five-rule bar.
 - Normalize remaining draft filenames on **curated copies only**.
 
 ---

@@ -76,7 +76,7 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 | Field | Content |
 |---|---|
 | Claim | Instrumental helping appears in the second year; it is not mature altruism. |
-| Label | `needs-source-audit` (Warneken & Tomasello 2006 named, not registered this pass). |
+| Label | `promote` (remainder 2026-09-16) — card `evidence-cards/instrumental-helping-not-altruism.md` |
 | Grade | Moderate emergence; Low character forecast. |
 
 ### CH10-C11 — Aggression peaks and usually declines
@@ -108,4 +108,4 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 
 ## 4. This pass
 
-Three new draft cards: committed compliance, aggression trajectories, physical punishment. EF/delay/contingency remain live cards. No curated Chapter 10. No card to `stable`.
+Three new draft cards: committed compliance, aggression trajectories, physical punishment. Remainder: Warneken helping card (`instrumental-helping-not-altruism.md`). EF/delay/contingency remain live cards. Curated Chapter 10 exists from v0.2. No card to `stable`.

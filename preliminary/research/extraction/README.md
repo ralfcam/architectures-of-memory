@@ -56,8 +56,9 @@ Group claims into likely cards **after** they are extracted. One card = one clai
 - [Stable-candidate replication note](stable-candidates--replication-note.md) — five-rule re-audit; folate, Saffran, neonatal transition.
 - [Preconception extraction plan](preconception--extraction-plan.md) — first dedicated domain plan; Kong card exists.
 - [Play extraction plan](play--extraction-plan.md) — Chapter 12; two first-pass cards exist; curated copy promoted.
-- [Social-beyond-attachment extraction plan](social-beyond-attachment--extraction-plan.md) — Chapters 8–11 remainder; curated Ch. 8–13 exist; Warneken still held.
-- [v0.3 slice](../../releases/v0.3-slice.md) — curated Chapter 15 + remaining domains (plan).
+- [Social-beyond-attachment extraction plan](social-beyond-attachment--extraction-plan.md) — Chapters 8–11 remainder; curated Ch. 8–13 exist; Warneken helping card now exists.
+- [Remaining-domains source audit](remaining-domains--source-audit.md) — Warneken, Brussoni, Carneiro, Cook, Dean; five first-pass draft cards.
+- [v0.3 slice](../../releases/v0.3-slice.md) — curated Chapter 15 + remaining-domain cards on this branch; tag after merge.
 - [Selected-card re-audit](selected-cards--replication-bias-reaudit.md) — first replication/bias pass; none to `stable` in that pass.
 - [Catalog-wide replication / attenuation](catalog-wide-replication-attenuation.md) — every live card classified; three later `stable` flips.
 - [Catalog-wide retraction search](catalog-wide-retraction-search.md) — Crossref/PubMed lookup; Cochrane `new_version` is not retraction.

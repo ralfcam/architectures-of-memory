@@ -12,11 +12,14 @@ Entry types:
 ## [Unreleased]
 
 ### Structure
-- Promoted curated, voice-checked Chapters 8–13 into `chapters/` in the Appendix B range (Expanding World through Ecology). Reviews under `preliminary/drafts-chapters/reviews/`. Archival `preliminary/drafts-chapters/` originals untouched. Sleep/attachment/screen theory not rewritten. Watts delay, childcare, BEIP, preschool RCT, co-regulation, and exploration/embodiment cards reconciled, not rewritten. **No card moved to `status: stable`.** Tag `v0.2` on `main` after this PR merges (see `preliminary/releases/v0.2-slice.md`).
-- Defined the v0.3 release slice (`preliminary/releases/v0.3-slice.md`): curated Chapter 15 (age-three waypoint) plus remaining unstarted domains (preconception remainder, outdoor/risky play, Warneken helping, employment/leave, food security). Tag on `main` after that later merge; not a gate for v0.2.
+- Tagged **`v0.2`** on `main` at `9bbc2d9` (PR #14 merge). See `preliminary/releases/v0.2-slice.md`.
+- Promoted a curated, voice-checked Chapter 15 (`chapters/15-three-years.md`) in the Appendix B range. Archival `chapter 15` untouched. C15-S1 not double-extracted. Continuity, Dunedin, and ordinary-resilience cards named; Watts/BEIP/preschool RCT reconciled, not rewritten. **No card moved to `status: stable`.**
+- Source-audited remaining unstarted domains into five first-pass draft cards: Warneken helping, outdoor/risky play, parental leave, food insecurity, preconception nutrition beyond folate. Folate NTD card not re-estimated. Sperm-epigenetic stories remain excluded. Tag `v0.3` on `main` after this PR merges.
+- Promoted curated, voice-checked Chapters 8–13 into `chapters/` in the Appendix B range (Expanding World through Ecology). Reviews under `preliminary/drafts-chapters/reviews/`. Archival originals untouched. **Now tagged** as `v0.2`.
+- Defined the v0.3 release slice (`preliminary/releases/v0.3-slice.md`): curated Chapter 15 plus remaining-domain cards. Files exist on this branch; tag `v0.3` on `main` after this PR merges. Not a gate for v0.2.
 - Tagged **`v0.1`** on `main` at `c7c2a7a` (PR #12 merge). See `preliminary/releases/v0.1-slice.md`. Chapter 2 curated copy remains ~2,358 words (slightly under Appendix B 2,500); not padded.
 - Began Chapter 15 triage (age-three waypoint). Evidence map, source audit, and three first-pass draft cards. Archival `chapter 15` untouched. Temperament, Watts delay, EF, BEIP, and preschool-RCT cards reconciled, not rewritten. **No card moved to `status: stable`.**
-- Defined the v0.2 release slice (`preliminary/releases/v0.2-slice.md`): curated Chapters 8–13 once voice reviews exist. **Curated copies and reviews now exist on this branch**; tag on `main` after merge. Chapter 15 remains a later candidate (v0.3).
+- Defined the v0.2 release slice (`preliminary/releases/v0.2-slice.md`): curated Chapters 8–13. **Now tagged** on `main` at `9bbc2d9`. Chapter 15 is the v0.3 manuscript center.
 - Began Part II remainder: Chapter 8 father/kin/sibling card; first triage, maps, and draft cards for Chapters 10 (rules/behavior) and 13 (ecology). Archival drafts untouched. Sleep/attachment/screen theory not rewritten. EF, delay, childcare, BEIP, and preschool-RCT cards reconciled, not rewritten. **No card moved to `status: stable`.**
 - Second editorial pass on curated Chapters 6 and 7: named embodiment, exploration, physical-reasoning, deferred-imitation, joint-attention, and parent-implemented cards in-body; recorded Saffran laboratory `stable` and the repaired Madigan/Jing screen IDs. Voice reviews updated. Archival drafts untouched. Lengths remain in the Appendix B range.
 - Defined the v0.1 release slice (`preliminary/releases/v0.1-slice.md`): Prenatal through Language (Ch. 1–7) plus What Actually Works (Ch. 14). **Now tagged** on `main` at `c7c2a7a`.
@@ -70,6 +73,7 @@ Entry types:
 - Source-audited Chapter 8 remainder (fathers/kin/siblings), Chapter 10 committed compliance / aggression trajectories / physical punishment, and Chapter 13 income-cash (Baby’s First Years) / neighborhood mobility (MTO). Sleep/attachment/screen theory not rewritten.
 
 - Source-audited Chapter 15 waypoint claims: rank-order continuity (Roberts 2000), childhood self-control gradient (Moffitt 2011), ordinary resilience (Masten 2001). Watts delay, temperament, BEIP, and preschool RCT reconciled, not rewritten.
+- Source-audited remaining unstarted domains: Warneken 2006, Brussoni 2015, Carneiro 2015, Cook 2004, Dean 2014.
 
 ### Revised
 - Aligned YAML `confidence` on all eight first-pass cards with in-body grades (cards remain `status: draft`).
@@ -77,6 +81,10 @@ Entry types:
 - Citation-repaired `infant-sleep-training.md`: retired `hiscock-2016`; identified Mindell 2006, Gradisar 2016, and Bilgin & Wolke 2020. Harm claim and Low-to-Moderate grade unchanged.
 - Citation-repaired `screen-time-language-development.md`: separated Madigan 2020 *JAMA Pediatrics* from Jing et al. 2023 *Child Development*. Low-to-Moderate grade unchanged.
 - Re-audited folate, Saffran, and neonatal-transition cards against the five promotion rules. Compound YAML on folate (`high-ntd; low-other-anomalies-cognition`). Added Czeizel 1992, Aslin 1998, Hillman 2012. Narrow claims moved to `status: stable`.
+
+## [v0.2] — 2026-09-16
+
+Annotated tag `v0.2` on `main` at `9bbc2d9` (PR #14 merge). Snapshot: v0.1 plus voice-checked curated Chapters 8–13 (Expanding World through Ecology). 63 cards (3 `stable` for a narrow claim; 60 `draft`); 108 verified sources on that commit. See `preliminary/releases/v0.2-slice.md`.
 
 ## [v0.1] — 2026-09-16
 

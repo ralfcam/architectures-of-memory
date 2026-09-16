@@ -52,8 +52,18 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 | Field | Content |
 |---|---|
 | Claim | Employment and leave are heterogeneous packages (hours, predictability, pay, eligibility). Child-development effects are mixed. |
-| Label | `needs-source-audit`. |
-| Grade | Low-to-Moderate. |
+| Sources | Carneiro, Løken & Salvanes 2015 *JPE* DOI 10.1086/679627. |
+| Label | `promote` (remainder 2026-09-16) — card `evidence-cards/parental-leave-heterogeneous-package.md` |
+| Grade | Moderate reform; Low-to-Moderate 0–3. |
+
+### CH13-C12 — Household food insecurity and infant/toddler health
+
+| Field | Content |
+|---|---|
+| Claim | Household food insecurity is associated with poorer infant and toddler health; it is not a parenting residual or a cognitive-intervention law. |
+| Sources | Cook et al. 2004 *Journal of Nutrition* DOI 10.1093/jn/134.6.1432. |
+| Label | `promote` (remainder 2026-09-16) — card `evidence-cards/household-food-insecurity-health.md` |
+| Grade | Moderate health association; Low cognition law. |
 
 ### CH13-C06 — Childcare systems
 
@@ -84,4 +94,4 @@ Labels: `promote` · `needs-source-audit` · `interpretive-only` · `exclude`.
 
 ## 4. This pass
 
-Two new draft cards: income/cash transfer and neighborhood mobility. Childcare, preschool RCT, co-regulation, BEIP remain live. No curated Chapter 13. No card to `stable`.
+Two new draft cards: income/cash transfer and neighborhood mobility. Remainder: leave and food-insecurity cards. Childcare, preschool RCT, co-regulation, BEIP remain live. Curated Chapter 13 exists from v0.2. No card to `stable`.

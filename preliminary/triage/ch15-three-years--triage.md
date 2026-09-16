@@ -1,6 +1,6 @@
 # Chapter 15 triage — Three Years: What Has Been Built?
 
-Status: `triage-ready`. Age-3 waypoint / Part III synthesis. Do not promote a curated chapter in this pass.
+Status: `extracted`. Age-3 waypoint / Part III synthesis. Curated copy promoted this package.
 
 ## 1. Files and overlaps
 
@@ -42,7 +42,7 @@ Age three as a waypoint: what has accumulated across the first 36 months, what i
 1. This triage note.
 2. Evidence map with promote / needs-source-audit / interpretive-only / exclude labels.
 3. Source-audit rank-order continuity, self-control gradient, ordinary resilience.
-4. Do not draft a curated Chapter 15 until those cards exist and a voice review is written. Archival `chapter 15` still has citation artifacts.
+4. Curated `chapters/15-three-years.md` now exists with a passing voice review. Archival `chapter 15` still has citation artifacts and was not overwritten.
 
 ## 6. Prohibited inferences
 
@@ -60,7 +60,7 @@ Age three as a waypoint: what has accumulated across the first 36 months, what i
 
 ## 7. Promotion blockers
 
-- No curated `chapters/15-…` file in this pass.
-- Archival `preliminary/drafts-chapters/chapter 15` must not be overwritten.
+- No card to `stable` here. Continuity and resilience cards are first-pass observational/cohort syntheses.
+- Curated `chapters/15-three-years.md` now exists; archival `preliminary/drafts-chapters/chapter 15` was not overwritten.
 - C15-S1 is not a second source of truth.
 - No card to `stable` here. Continuity and resilience cards are first-pass observational/cohort syntheses.
