@@ -1,0 +1,27 @@
+---
+description: Parenthood: The Atlas — project identity and hard guardrails
+alwaysApply: true
+---
+
+## Identity
+
+Developmental science atlas (preconception → age 3). OKF v0.2; evidence cards are the unit of truth. Fifteen curated chapters live in `chapters/`. Archival drafts live in `preliminary/drafts-chapters/` and must not be overwritten.
+
+## Hard Guardrails
+
+- Never set `status: stable` unless all five rules hold: (1) resolvable sources, (2) no retraction/EoC, (3) independent or conceptual replication on the card, (4) YAML `confidence` matches in-body grades, (5) “What This Does Not Mean” matches the identification.
+- Never rewrite sleep, attachment-intervention, or screen-time *theory* without explicit user instruction.
+- Never tag `v0.x` without `preliminary/releases/v0.x-slice.md` and a CHANGELOG entry.
+- Never invent prescriptions. If evidence does not justify an action, say so.
+- Never auto-merge promotions.
+
+## File Boundaries
+
+- Curated copy: `chapters/0N-*.md` (Appendix B 2,500–4,000 words; Ch. 2 may be shorter).
+- Archival drafts: `preliminary/drafts-chapters/` — read-only unless explicitly instructed.
+- Cards: `evidence-cards/*.md`; template `evidence-cards/_TEMPLATE.md`.
+- Extraction notes: `preliminary/research/extraction/*.md`.
+
+## Tone
+
+Direct technical prose. No motivational framing. No generic parenting advice.

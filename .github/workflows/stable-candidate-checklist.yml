@@ -1,0 +1,83 @@
+name: Stable-candidate five-rule comment
+
+on:
+  issues:
+    types: [opened, labeled, reopened]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  checklist:
+    if: contains(join(github.event.issue.labels.*.name, ','), 'stable-candidate') || contains(join(github.event.issue.labels.*.name, ','), 'extraction')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract card filename
+        id: card
+        env:
+          BODY: ${{ github.event.issue.body }}
+        run: |
+          python3 - <<'PY'
+          import os, re
+          body = os.environ.get("BODY") or ""
+          m = re.search(r"### Card filename\s+([^\n]+)", body)
+          name = (m.group(1).strip() if m else "")
+          name = name.strip("`").strip()
+          if name and not name.endswith(".md"):
+              name += ".md"
+          if name.startswith("evidence-cards/"):
+              name = name.split("/", 1)[1]
+          print(f"name={name}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"name={name}\n")
+          PY
+      - name: Run mechanical five-rule check
+        id: check
+        if: steps.card.outputs.name != ''
+        run: |
+          path="evidence-cards/${{ steps.card.outputs.name }}"
+          if [ -f "$path" ]; then
+            python3 scripts/five_rule_check.py "$path" | tee /tmp/five-rule.txt
+          else
+            echo "Card file not found: $path" | tee /tmp/five-rule.txt
+          fi
+      - name: Comment (read-only; no promotion)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const card = '${{ steps.card.outputs.name }}';
+            let check = '_No card filename parsed from the issue body._';
+            if (fs.existsSync('/tmp/five-rule.txt')) {
+              check = fs.readFileSync('/tmp/five-rule.txt', 'utf8').trim();
+            }
+            const body = [
+              '## Five-rule checklist (read-only)',
+              '',
+              'Automation **does not** set `status: stable` and **does not** open or merge a PR.',
+              'Playbook: `preliminary/research/extraction/issue-to-patch--playbook.md`.',
+              '',
+              card ? `Card named in issue: \`${card}\`` : 'Card filename missing from the form.',
+              '',
+              '```',
+              check,
+              '```',
+              '',
+              '| Rule | Human still needed |',
+              '|---|---|',
+              '| (1) Resolvable sources | Confirm Crossref/PubMed IDs, not only URL strings |',
+              '| (2) No retraction/EoC | Crossref `update-to`; PubMed publication types |',
+              '| (3) Replication of the *narrow* claim | Independent lab, conceptual replication, or procedure meta on the card |',
+              '| (4) YAML = in-body grades | Script tokens only |',
+              '| (5) WTDM matches identification | Script checks nonempty section only |',
+              '',
+              'If any row fails, comment with the missing evidence. Do not promote.'
+            ].join('\n');
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body
+            });

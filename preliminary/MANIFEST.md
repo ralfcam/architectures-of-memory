@@ -51,6 +51,11 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-AUDIT12 | `preliminary/research/extraction/ch12-play--source-audit.md` | documentation | remain-preliminary | extracted | Belsky & Most; Lillard 2013 |
 | G-STABLE | `preliminary/research/extraction/stable-promotion-candidates.md` | documentation | remain-preliminary | extracted | Three narrow claims `stable`; others stay `draft` |
 | G-STABLENOTE | `preliminary/research/extraction/stable-candidates--replication-note.md` | documentation | remain-preliminary | extracted | Five-rule re-audit |
+| G-I2P | `preliminary/research/extraction/issue-to-patch--playbook.md` | documentation | remain-preliminary | extracted | Read-only issue-to-patch; no auto-merge |
+| G-PUB | `preliminary/publishing/README.md` | documentation | remain-preliminary | extracted | Preprint/brief packets; not posted |
+| G-BRIEF1 | `preliminary/publishing/evidence-brief-01--narrow-lab-stables.md` | documentation | remain-preliminary | extracted | Internal Evidence Brief #1 (six stables) |
+| G-CH01PP | `preliminary/publishing/ch01-preprint.md` | documentation | remain-preliminary | extracted | Ch. 1 preprint cover; DOI not minted |
+| G-FIELDS | `preliminary/publishing/issue-fields--org-admin.md` | documentation | remain-preliminary | extracted | Issue Fields blocked (User-owned repo) |
 | G-T14 | `preliminary/triage/ch14-what-actually-works--triage.md` | documentation | remain-preliminary | extracted | Artifacts stripped in curated copy; archival still has 29 crumbs |
 | G-T02 | `preliminary/triage/ch02-first-environment--triage.md` | documentation | remain-preliminary | extracted | Points at Ch. 2 map |
 | G-EXT | `preliminary/research/extraction/README.md` | documentation | remain-preliminary | promoted | Atomic-claim pipeline |

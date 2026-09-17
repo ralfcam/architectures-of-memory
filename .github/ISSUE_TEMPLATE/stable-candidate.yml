@@ -1,0 +1,106 @@
+name: Stable candidate
+description: Run the five-rule checklist on an existing card. Do not flip status in this issue.
+title: "[stable-candidate] "
+labels: ["stable-candidate"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Default triage (until org-level Issue Fields exist): **Priority P1**, **Effort M**, **Card Status stable-candidate**.
+        Automation is **read-only first**: a checklist comment, not a merge. A later human-reviewed PR may promote the *narrow* High claim only.
+  - type: input
+    id: card_file
+    attributes:
+      label: Card filename
+      description: Existing file under evidence-cards/.
+      placeholder: infant-example.md
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Narrow claim to promote
+      description: The High-grade identification only. Transfer, timetable, attachment-verdict, and similar Low grades stay Low even if the card later becomes stable.
+    validations:
+      required: true
+  - type: dropdown
+    id: chapter
+    attributes:
+      label: Chapter
+      options:
+        - Ch. 1
+        - Ch. 2
+        - Ch. 3
+        - Ch. 4
+        - Ch. 5
+        - Ch. 6
+        - Ch. 7
+        - Ch. 8
+        - Ch. 9
+        - Ch. 10
+        - Ch. 11
+        - Ch. 12
+        - Ch. 13
+        - Ch. 14
+        - Ch. 15
+        - none / catalog only
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - prenatal
+        - birth
+        - regulation
+        - cognition
+        - language
+        - social
+        - executive
+        - ecology
+        - waypoint
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - P0-critical
+        - P1-high
+        - P2-medium
+        - P3-low
+      default: 1
+    validations:
+      required: true
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Effort
+      options:
+        - XS
+        - S
+        - M
+        - L
+        - XL
+      default: 2
+    validations:
+      required: true
+  - type: checkboxes
+    id: five_rules
+    attributes:
+      label: Five-rule self-check (author)
+      options:
+        - label: "(1) Sources are resolvable DOIs or persistent URLs on the card"
+        - label: "(2) No retraction or expression-of-concern on the primary IDs"
+        - label: "(3) Independent or conceptual replication of the *narrow* claim is on the card"
+        - label: "(4) YAML confidence matches in-body grades"
+        - label: "(5) What This Does Not Mean matches the identification"
+  - type: textarea
+    id: replication
+    attributes:
+      label: Rule-3 evidence
+      description: Name the independent lab, conceptual replication, or meta. A YAML fix, a committee synthesis, or a neighboring identification is not enough.
+    validations:
+      required: true

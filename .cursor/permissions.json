@@ -1,0 +1,28 @@
+{
+  "mcpAllowlist": [
+    "github:get_issue",
+    "github:get_issue_comments",
+    "github:list_issues",
+    "github:search_issues",
+    "github:search_code",
+    "github:get_file_contents",
+    "github:get_pull_request",
+    "github:get_pull_request_diff",
+    "github:get_pull_request_files",
+    "github:list_pull_requests",
+    "github:get_commit",
+    "github:list_commits",
+    "crossref:*",
+    "pubmed:*"
+  ],
+  "autoRun": {
+    "allow_instructions": [
+      "Read-only GitHub, Crossref, and PubMed lookups for DOI resolution, retraction/EoC flags, and issue or PR inspection are expected in this repo."
+    ],
+    "block_instructions": [
+      "Do not merge pull requests or flip evidence-card status to stable without a five-rule replication note and human review.",
+      "Do not overwrite files under preliminary/drafts-chapters/.",
+      "Do not write new MCP servers; use the existing read-only Crossref and PubMed packages."
+    ]
+  }
+}
