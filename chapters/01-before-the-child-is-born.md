@@ -66,7 +66,7 @@ Periconceptional folic acid substantially reduces neural-tube-defect risk. The C
 
 The lesson is powerful because it is limited. Folate prevents a defined class of defects. It does not prove that a supplement can manufacture intelligence, resilience, or a better human being. Risk reduction is not risk elimination. Preparation is not control. Prevention is not optimization of the child.
 
-WHO’s preconception and nurturing-care frameworks place such interventions in a system — health, nutrition, safety, responsive care, learning — rather than in a private checklist. **Grade: Moderate** that those frameworks correctly widen the unit of analysis beyond the pregnant person. **Grade: Low** that a package of preconception behaviors, taken as a whole, improves later cognitive or educational development. Cards already in the catalog: `who-anc-2016`, `who-nurturing-care-2018` (on the folate and co-regulation cards).
+WHO’s preconception and nurturing-care frameworks place such interventions in a system — health, nutrition, safety, responsive care, learning — rather than in a private checklist. **Grade: Moderate** that those frameworks correctly widen the unit of analysis beyond the pregnant person. **Grade: Low** that a package of preconception behaviors, taken as a whole, improves later cognitive or educational development. Sources already catalogued: `who-anc-2016`, `who-nurturing-care-2018` (on `prenatal-folate-ntd.md` and `infant-caregiver-coregulation.md`).
 
 ## Paternal age, without the myth
 

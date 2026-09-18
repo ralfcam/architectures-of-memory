@@ -69,13 +69,13 @@ SOURCES.md                Master source catalog (114 verified)
 evidence-cards/           68 cards (7 `stable` for a narrow claim; 61 `draft`) + template + index
 chapters/                 Working 15-chapter TOC; curated Ch. 1–15
 style/                    Voice/style constraints for manuscript prose
-.cursor/                  Project rules, read-only MCP config, permissions
+.cursor/                  Project rules, pinned research MCP config, permissions
 .github/                  Issue templates + read-only five-rule comment workflow
 scripts/                  `five_rule_check.py`; publishing PDF renderer
 preliminary/              Staging area (research notes + chapter drafts + publishing packets)
 ```
 
-There is no `.cursor/`, `package.json`, Dockerfile, or test suite. `SPEC.md` exists as a pointer to the external OKF v0.2 specification.
+There is no `package.json`, Dockerfile, or test suite. `SPEC.md` exists as a pointer to the external OKF v0.2 specification.
 
 ---
 
@@ -348,7 +348,7 @@ Later packages that treated “PR #4 merged” as true were describing content o
 
 ## 11. Suggested next work
 
-Done in this package: harness after PR #17 — `.cursor/rules/` (four `.mdc` files), read-only MCP config, issue templates, five-rule comment workflow (no auto-merge), internal Evidence Brief #1 (2-page PDF), Chapter 1 preprint PDF with PsyArXiv/OSF posting notes (no live deposit). Org-level Issue Fields blocked: owner is a User, not an Organization. Catalog unchanged: 68 cards (7 `stable`; 61 `draft`); 114 sources. Do not tag `v0.4`.
+Done in this package: harness after PR #17 — `.cursor/rules/` (four `.mdc` files), exact-version research MCP packages with exact read-only tools allowlisted for unattended use (not an absolute deny policy), secured issue templates/five-rule comment workflow (no auto-merge), internal Evidence Brief #1 (2-page PDF), Chapter 1 preprint PDF with PsyArXiv/OSF posting notes (no live deposit). Org-level Issue Fields blocked: owner is a User, not an Organization. Catalog unchanged: 68 cards (7 `stable`; 61 `draft`); 114 sources. Do not tag `v0.4`.
 
 Highest-leverage remaining work:
 

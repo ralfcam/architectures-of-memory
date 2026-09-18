@@ -30,7 +30,7 @@ Scientific findings do not automatically generate parenting prescriptions.
 /evidence-cards/        One evidence card per major claim/topic
 /chapters/              Working 15-chapter TOC + seed outlines
 /style/                 Voice checklist, forbidden phrases, anomaly bank
-/.cursor/               Project rules, read-only MCP config, agent permissions
+/.cursor/               Project rules, pinned research MCP config, agent permissions
 /.github/               Issue templates and the read-only stable-candidate workflow
 /scripts/               Five-rule mechanical check; publishing PDF renderer
 /preliminary/           Staging: research notes, chapter drafts, manifest, triage, extraction, publishing packets

@@ -113,7 +113,10 @@ def format_report(r: dict) -> str:
         "",
         f"- Rule 1 (mechanical): source URLs present = **{'pass' if r['rule1_urls_present'] else 'fail'}** ({r['source_count']} IDs).",
         "- Rule 2 (retraction/EoC): **not checked here** — resolve each DOI on Crossref (`update-to`) and PubMed publication types.",
-        f"- Rule 3 (replication): second source ID on card = **{'present' if r['rule3_second_source_id'] else 'absent'}**. A second ID is not by itself independent conceptual replication; a human must classify it.",
+        f"- Rule 3 (non-decisive): second source ID on card = **{'present' if r['rule3_second_source_id'] else 'absent'}**.",
+        "- Rule 3: a second source ID is not evidence of independent replication.",
+        "- Design class / GI attenuation: not mechanically audited; must be documented in the promotion note "
+        "as `largely confounded (>50%)`, `partially confounded (20–50%)`, `robust (<20%)`, `n/a`, or `not classified`.",
         f"- Rule 4 (YAML = in-body grade tokens): **{'pass' if r['rule4_yaml_matches_body_tokens'] else 'fail'}** "
         f"(yaml {r['rule4_yaml_tokens']} vs body {r['rule4_body_tokens']}).",
         f"- Rule 5 (WTDM nonempty): **{'pass' if r['rule5_wtdm_nonempty'] else 'fail'}**.",

@@ -12,8 +12,24 @@
     "github:list_pull_requests",
     "github:get_commit",
     "github:list_commits",
-    "crossref:*",
-    "pubmed:*"
+    "crossref:crossref_get_work",
+    "crossref:crossref_search_works",
+    "crossref:crossref_get_references",
+    "crossref:crossref_search_journals",
+    "crossref:crossref_search_funders",
+    "crossref:crossref_get_member",
+    "crossref:crossref_get_prefix",
+    "pubmed:pubmed_search_articles",
+    "pubmed:pubmed_europepmc_search",
+    "pubmed:pubmed_europepmc_fetch",
+    "pubmed:pubmed_fetch_articles",
+    "pubmed:pubmed_fetch_fulltext",
+    "pubmed:pubmed_format_citations",
+    "pubmed:pubmed_find_related",
+    "pubmed:pubmed_spell_check",
+    "pubmed:pubmed_lookup_mesh",
+    "pubmed:pubmed_lookup_citation",
+    "pubmed:pubmed_convert_ids"
   ],
   "autoRun": {
     "allow_instructions": [

@@ -75,6 +75,14 @@ def strip_md(text: str) -> str:
     return text
 
 
+def is_table_separator(line: str) -> bool:
+    return bool(re.fullmatch(r"\|[-:| ]+\|", line))
+
+
+def table_cells(line: str) -> list[str]:
+    return [strip_md(cell.strip()) for cell in line.strip("|").split("|")]
+
+
 class BriefPDF(FPDF):
     def __init__(self) -> None:
         super().__init__(format="letter")
@@ -92,11 +100,19 @@ class BriefPDF(FPDF):
         self.multi_cell(0, 5.1, strip_md(text))
         self.ln(1.2)
 
+    def table_row(self, cells: list[str], *, header: bool = False) -> None:
+        self.set_font("DejaVu", "B" if header else "", 9.5)
+        self.multi_cell(0, 4.7, " · ".join(cells))
+        self.ln(0.8)
+
 
 def md_to_pdf(md: str, pdf_path: Path) -> None:
     pdf = BriefPDF()
     pdf.add_page()
-    for line in md.splitlines():
+    lines = md.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i]
         if line.startswith("# "):
             pdf.heading(line[2:], 16)
         elif line.startswith("## "):
@@ -105,6 +121,18 @@ def md_to_pdf(md: str, pdf_path: Path) -> None:
         elif line.startswith("### "):
             pdf.heading(line[4:], 11)
         elif line.startswith("|"):
+            if i + 1 >= len(lines) or not is_table_separator(lines[i + 1]):
+                raise ValueError(f"Unsupported Markdown table at line {i + 1}: missing separator")
+            rows = [table_cells(line)]
+            i += 2
+            while i < len(lines) and lines[i].startswith("|"):
+                if not is_table_separator(lines[i]):
+                    rows.append(table_cells(lines[i]))
+                i += 1
+            pdf.table_row(rows[0], header=True)
+            for row in rows[1:]:
+                pdf.table_row(row)
+            pdf.ln(1)
             continue
         elif line.startswith("- "):
             pdf.body("• " + line[2:], 10.5)
@@ -112,6 +140,7 @@ def md_to_pdf(md: str, pdf_path: Path) -> None:
             pdf.ln(2)
         elif line.strip():
             pdf.body(line, 10.5)
+        i += 1
     pdf.output(str(pdf_path))
 
 

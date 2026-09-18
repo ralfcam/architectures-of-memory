@@ -10,10 +10,24 @@ permissions:
 
 jobs:
   checklist:
-    if: contains(join(github.event.issue.labels.*.name, ','), 'stable-candidate') || contains(join(github.event.issue.labels.*.name, ','), 'extraction')
+    if: >
+      (
+        github.event.action != 'labeled' &&
+        (
+          contains(github.event.issue.labels.*.name, 'stable-candidate') ||
+          contains(github.event.issue.labels.*.name, 'extraction')
+        )
+      ) ||
+      (
+        github.event.action == 'labeled' &&
+        (
+          github.event.label.name == 'stable-candidate' ||
+          github.event.label.name == 'extraction'
+        )
+      )
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - name: Extract card filename
         id: card
         env:
@@ -27,8 +41,8 @@ jobs:
           name = name.strip("`").strip()
           if name and not name.endswith(".md"):
               name += ".md"
-          if name.startswith("evidence-cards/"):
-              name = name.split("/", 1)[1]
+          if name and not re.fullmatch(r"[A-Za-z0-9._-]+\.md", name):
+              name = ""
           print(f"name={name}")
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
               fh.write(f"name={name}\n")
@@ -36,20 +50,24 @@ jobs:
       - name: Run mechanical five-rule check
         id: check
         if: steps.card.outputs.name != ''
+        env:
+          CARD_NAME: ${{ steps.card.outputs.name }}
         run: |
-          path="evidence-cards/${{ steps.card.outputs.name }}"
+          path="evidence-cards/${CARD_NAME}"
           if [ -f "$path" ]; then
             python3 scripts/five_rule_check.py "$path" | tee /tmp/five-rule.txt
           else
             echo "Card file not found: $path" | tee /tmp/five-rule.txt
           fi
       - name: Comment (read-only; no promotion)
-        uses: actions/github-script@v7
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        env:
+          CARD_NAME: ${{ steps.card.outputs.name }}
         with:
           script: |
             const fs = require('fs');
-            const card = '${{ steps.card.outputs.name }}';
-            let check = '_No card filename parsed from the issue body._';
+            const card = process.env.CARD_NAME ?? '';
+            let check = '_Card filename invalid or missing._';
             if (fs.existsSync('/tmp/five-rule.txt')) {
               check = fs.readFileSync('/tmp/five-rule.txt', 'utf8').trim();
             }
@@ -59,7 +77,7 @@ jobs:
               'Automation **does not** set `status: stable` and **does not** open or merge a PR.',
               'Playbook: `preliminary/research/extraction/issue-to-patch--playbook.md`.',
               '',
-              card ? `Card named in issue: \`${card}\`` : 'Card filename missing from the form.',
+              card ? `Card named in issue: \`${card}\`` : 'Card filename invalid or missing.',
               '',
               '```',
               check,
@@ -69,7 +87,8 @@ jobs:
               '|---|---|',
               '| (1) Resolvable sources | Confirm Crossref/PubMed IDs, not only URL strings |',
               '| (2) No retraction/EoC | Crossref `update-to`; PubMed publication types |',
-              '| (3) Replication of the *narrow* claim | Independent lab, conceptual replication, or procedure meta on the card |',
+              '| (3) Replication of the *narrow* claim | A second ID is not evidence of independence; classify the lab, conceptual replication, or procedure meta |',
+              '| Design class / GI attenuation | State design and one of: largely confounded (>50%), partially confounded (20–50%), robust (<20%), n/a, not classified |',
               '| (4) YAML = in-body grades | Script tokens only |',
               '| (5) WTDM matches identification | Script checks nonempty section only |',
               '',
