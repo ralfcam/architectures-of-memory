@@ -71,7 +71,9 @@ chapters/                 Working 15-chapter TOC; curated Ch. 1–15
 style/                    Voice/style constraints for manuscript prose
 .cursor/                  Project rules, pinned research MCP config, permissions
 .github/                  Issue templates + read-only five-rule comment workflow
-scripts/                  `five_rule_check.py`; publishing PDF renderer
+scripts/                  `five_rule_check.py`; deterministic publishing renderer
+requirements-publishing.txt
+                          Pinned `fpdf2` / `pypdf` publishing dependencies
 preliminary/              Staging area (research notes + chapter drafts + publishing packets)
 ```
 
@@ -350,13 +352,16 @@ Later packages that treated “PR #4 merged” as true were describing content o
 
 Done in this package: harness after PR #17 — `.cursor/rules/` (four `.mdc` files), exact-version research MCP packages with exact read-only tools allowlisted for unattended use (not an absolute deny policy), secured issue templates/five-rule comment workflow (no auto-merge), internal Evidence Brief #1 (2-page PDF), Chapter 1 preprint PDF with PsyArXiv/OSF posting notes (no live deposit). Org-level Issue Fields blocked: owner is a User, not an Organization. Catalog unchanged: 68 cards (7 `stable`; 61 `draft`); 114 sources. Do not tag `v0.4`.
 
+Reader Edition 0.1 package: private-circulation 84-page PDF plus HTML proof and extraction report, frozen to post-PR-#18 `main` commit `9f3b151`. It includes all 15 curated chapters in explicit order with reader note, contents, evidence/uncertainty note, feedback guide, and colophon. Physical proof copies and reader responses are not represented as completed. This publishing artifact changes no chapters, cards, grades, or sources and is not `v0.4`.
+
 Highest-leverage remaining work:
 
 - Guided-play efficacy; mode of delivery and neonatal perception (held); dedicated WM/shifting; routines/modeling.
 - Looking-time remains held as a physiology/lab candidate (linking-hypothesis debate; methods essay).
 - GI classification still “not classified” on many first-pass observational cards.
 - Chapter 2 curated copy remains ~2,358 words (slightly under Appendix B); not padded.
-- Public Evidence Briefs after 10–12 `stable` cards; Ch. 1 preprint DOI after a human PsyArXiv/OSF deposit.
+- Run and record both Reader Edition physical proof copies before private sharing; synthesize de-identified feedback before any prose revision.
+- Public Evidence Briefs after 10–12 `stable` cards; Ch. 1 preprint DOI only after a human PsyArXiv/OSF deposit.
 - Org-level Issue Fields if the repo moves under a GitHub Organization.
 
 ---

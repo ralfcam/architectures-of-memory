@@ -1,6 +1,6 @@
 # Corpus manifest
 
-Inventory of every file under `preliminary/` as of 2026-09-15. Original uploads are archival. Do not rename or move them. Curated copies use the naming convention in [`README.md`](README.md).
+Inventory of every file under `preliminary/` as of 2026-09-18. Original uploads are archival. Do not rename or move them. Curated copies use the naming convention in [`README.md`](README.md).
 
 **Chapter numbering** follows the 15-chapter draft sequence. Curated copies: `chapters/01-before-the-child-is-born.md` (Ch. 1), `chapters/02-first-environment.md` (Ch. 2), `chapters/03-the-great-transition.md` (Ch. 3), `chapters/04-regulatory-relationship.md` (Ch. 4), `chapters/05-becoming-a-mind.md` (Ch. 5), `chapters/06-the-mind-in-motion.md` (Ch. 6), `chapters/07-the-birth-of-language.md` (Ch. 7), `chapters/08-the-expanding-world.md` (Ch. 8), `chapters/09-the-emotional-revolution.md` (Ch. 9), `chapters/10-boundaries-behavior.md` (Ch. 10), `chapters/11-the-developing-executive.md` (Ch. 11), `chapters/12-play-imagination.md` (Ch. 12), `chapters/13-the-ecology-of-development.md` (Ch. 13), `chapters/14-what-actually-works.md` (Ch. 14, Appendix B range), `chapters/15-three-years.md` (Ch. 15). Leftover seed `chapters/01-first-environment.md` removed.
 
@@ -52,9 +52,19 @@ Part I (Ch. 1–5 + 7) is `triage-ready` at the chapter level. Individual files 
 | G-STABLE | `preliminary/research/extraction/stable-promotion-candidates.md` | documentation | remain-preliminary | extracted | Three narrow claims `stable`; others stay `draft` |
 | G-STABLENOTE | `preliminary/research/extraction/stable-candidates--replication-note.md` | documentation | remain-preliminary | extracted | Five-rule re-audit |
 | G-I2P | `preliminary/research/extraction/issue-to-patch--playbook.md` | documentation | remain-preliminary | extracted | Read-only issue-to-patch; no auto-merge |
-| G-PUB | `preliminary/publishing/README.md` | documentation | remain-preliminary | extracted | Preprint/brief packets; not posted |
+| G-PUB | `preliminary/publishing/README.md` | documentation | remain-preliminary | extracted | Private Reader Edition + internal preprint/brief packets; not posted |
 | G-BRIEF1 | `preliminary/publishing/evidence-brief-01--narrow-lab-stables.md` | documentation | remain-preliminary | extracted | Internal Evidence Brief #1 (six stables) |
 | G-CH01PP | `preliminary/publishing/ch01-preprint.md` | documentation | remain-preliminary | extracted | Ch. 1 preprint cover; DOI not minted |
+| G-READER01 | `preliminary/publishing/reader-edition-01--manifest.md` | documentation | remain-preliminary | extracted | Freezes 15 curated chapters at `9f3b151`; private circulation, not `v0.4` |
+| G-READER01-NOTE | `preliminary/publishing/reader-edition-01--reader-note.md` | documentation | remain-preliminary | extracted | Private-circulation status and how-to-read guidance |
+| G-READER01-EVIDENCE | `preliminary/publishing/reader-edition-01--evidence-and-uncertainty.md` | documentation | remain-preliminary | extracted | Grades/claims boundary; reader response is not validation |
+| G-READER01-PRINT | `preliminary/publishing/reader-edition-01--print-checklist.md` | documentation | remain-preliminary | extracted | Copy A/B recording form; no physical proof claimed |
+| G-READER01-PDF | `preliminary/publishing/parenthood-atlas-reader-edition-01.pdf` | documentation | remain-preliminary | extracted | 84-page US Letter private reading proof; physical proof not yet recorded |
+| G-READER01-HTML | `preliminary/publishing/parenthood-atlas-reader-edition-01.html` | documentation | remain-preliminary | extracted | Browser/print proof of the same ordered packet |
+| G-READER01-REPORT | `preliminary/publishing/reader-edition-01--extraction-report.txt` | documentation | remain-preliminary | extracted | PDF text, footer, chapter, content, and HTML verification |
+| G-READER01-FEEDBACK | `preliminary/publishing/reader-edition-01--feedback-guide.md` | documentation | remain-preliminary | extracted | Qualitative reader questions; not evidence adjudication |
+| G-READER01-LOG | `preliminary/publishing/feedback/reader-edition-01--feedback-log.csv` | documentation | remain-preliminary | extracted | Header-only de-identified intake log |
+| G-READER01-TRIAGE | `preliminary/publishing/feedback/reader-edition-01--triage-template.md` | documentation | remain-preliminary | extracted | Post-window synthesis and bounded revision template |
 | G-FIELDS | `preliminary/publishing/issue-fields--org-admin.md` | documentation | remain-preliminary | extracted | Issue Fields blocked (User-owned repo) |
 | G-T14 | `preliminary/triage/ch14-what-actually-works--triage.md` | documentation | remain-preliminary | extracted | Artifacts stripped in curated copy; archival still has 29 crumbs |
 | G-T02 | `preliminary/triage/ch02-first-environment--triage.md` | documentation | remain-preliminary | extracted | Points at Ch. 2 map |

@@ -32,7 +32,9 @@ Scientific findings do not automatically generate parenting prescriptions.
 /style/                 Voice checklist, forbidden phrases, anomaly bank
 /.cursor/               Project rules, pinned research MCP config, agent permissions
 /.github/               Issue templates and the read-only stable-candidate workflow
-/scripts/               Five-rule mechanical check; publishing PDF renderer
+/scripts/               Five-rule check; deterministic publishing renderer
+/requirements-publishing.txt
+                        Pinned Reader Edition PDF/extraction dependencies
 /preliminary/           Staging: research notes, chapter drafts, manifest, triage, extraction, publishing packets
 ```
 

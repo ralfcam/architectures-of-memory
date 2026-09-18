@@ -9,20 +9,26 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-from fpdf import FPDF
+from fpdf import FPDF, __version__ as FPDF_VERSION
 from fpdf.fonts import FontFace
-from pypdf import PdfReader
+from pypdf import PdfReader, __version__ as PYPDF_VERSION
 
 ROOT = Path(__file__).resolve().parents[1]
 FONT = Path("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf")
 FONT_B = Path("/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf")
-FONT_I = Path("/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf")
-FONT_BI = Path("/usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf")
+READER_FONT = Path("/usr/share/fonts/truetype/noto/NotoSerif-Regular.ttf")
+READER_FONT_B = Path("/usr/share/fonts/truetype/noto/NotoSerif-Bold.ttf")
+READER_FONT_I = Path("/usr/share/fonts/truetype/noto/NotoSerif-Italic.ttf")
+READER_FONT_BI = Path("/usr/share/fonts/truetype/noto/NotoSerif-BoldItalic.ttf")
+FALLBACK_FONT = Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf")
+FALLBACK_FONT_B = Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf")
 PUBLISHING = ROOT / "preliminary/publishing"
 EDITION = "Reader Edition 0.1 — Private circulation"
 EDITION_DATE = "2026-09-18"
 FEEDBACK_DEADLINE = "2026-10-16"
 SOURCE_COMMIT = "9f3b151b9c6fdfc1204f4070d09386e76e1b4168"
+EXPECTED_FPDF_VERSION = "2.8.8"
+EXPECTED_PYPDF_VERSION = "6.19.0"
 READER_PDF = PUBLISHING / "parenthood-atlas-reader-edition-01.pdf"
 READER_HTML = PUBLISHING / "parenthood-atlas-reader-edition-01.html"
 READER_REPORT = PUBLISHING / "reader-edition-01--extraction-report.txt"
@@ -74,6 +80,8 @@ def md_to_html(md: str, title: str) -> str:
             out.append(f"<h2>{md_inline_html(line[3:])}</h2>")
         elif line.startswith("### "):
             out.append(f"<h3>{md_inline_html(line[4:])}</h3>")
+        elif line.startswith("> "):
+            out.append(f"<blockquote>{md_inline_html(line[2:])}</blockquote>")
         elif line.startswith("|") and i + 1 < len(lines) and re.match(r"^\|[-:| ]+\|$", lines[i + 1]):
             rows = []
             while i < len(lines) and lines[i].startswith("|"):
@@ -226,6 +234,7 @@ def reader_plain(text: str) -> str:
 def reader_inline_md(text: str) -> str:
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
     text = text.replace("`", "")
+    text = text.replace("--", r"\--").replace("~~", r"\~~")
     return re.sub(r"(?<!\*)\*([^*\n]+?)\*(?!\*)", r"__\1__", text)
 
 
@@ -242,10 +251,13 @@ class ReaderPDF(FPDF):
         self.set_title("Parenthood: The Atlas — Reader Edition 0.1")
         self.set_subject("Private working manuscript for reader feedback")
         self.set_author("Parenthood: The Atlas")
-        self.add_font("DejaVu", "", str(FONT))
-        self.add_font("DejaVu", "B", str(FONT_B))
-        self.add_font("DejaVu", "I", str(FONT_I))
-        self.add_font("DejaVu", "BI", str(FONT_BI))
+        self.add_font("DejaVu", "", str(READER_FONT))
+        self.add_font("DejaVu", "B", str(READER_FONT_B))
+        self.add_font("DejaVu", "I", str(READER_FONT_I))
+        self.add_font("DejaVu", "BI", str(READER_FONT_BI))
+        self.add_font("Fallback", "", str(FALLBACK_FONT))
+        self.add_font("Fallback", "B", str(FALLBACK_FONT_B))
+        self.set_fallback_fonts(["Fallback"], exact_match=False)
 
     def footer(self) -> None:
         self.set_y(-12)
@@ -281,6 +293,21 @@ class ReaderPDF(FPDF):
             markdown=True,
         )
         self.ln(1.1)
+
+    def callout(self, text: str) -> None:
+        self.set_font("DejaVu", "", 9.8)
+        self.set_fill_color(244)
+        self.set_draw_color(120)
+        self.multi_cell(
+            0,
+            4.8,
+            reader_inline_md(text),
+            border="L",
+            fill=True,
+            markdown=True,
+            padding=(2, 3),
+        )
+        self.ln(1.5)
 
     def rule(self) -> None:
         self.ln(1)
@@ -332,6 +359,8 @@ def render_reader_markdown(pdf: ReaderPDF, md: str) -> None:
             pdf.heading(line[3:], 12.5)
         elif line.startswith("### "):
             pdf.heading(line[4:], 11)
+        elif line.startswith("> "):
+            pdf.callout(line[2:])
         elif line.startswith("|"):
             if i + 1 >= len(lines) or not is_table_separator(lines[i + 1]):
                 raise ValueError(f"Unsupported Markdown table at line {i + 1}: missing separator")
@@ -369,7 +398,7 @@ def colophon_markdown(total_pages: int) -> str:
 
 **Extent:** {total_pages} US Letter pages
 
-Generated reproducibly with `fpdf2 2.8.8`; verified by extraction with `pypdf 6.19.0`.
+Generated reproducibly with `fpdf2 {EXPECTED_FPDF_VERSION}`; verified by extraction with `pypdf {EXPECTED_PYPDF_VERSION}`.
 
 This is a working manuscript for private feedback. It is not a knowledge-base release, public preprint, clinical guide, or finished publishing master. Reader response may motivate an editorial issue; factual changes still require the evidence-card workflow.
 """
@@ -460,6 +489,7 @@ h1 {{ font-size:21pt; line-height:1.15; margin-top:0; }} h2 {{ font-size:14pt; m
 h3 {{ font-size:12pt; }} p, li {{ orphans:3; widows:3; }}
 table {{ border-collapse:collapse; font-size:9pt; width:100%; }} th,td {{ border:1px solid #aaa; padding:5px; vertical-align:top; }}
 th {{ background:#eee; }} code {{ font-size:9pt; }}
+blockquote {{ background:#f4f4f4; border-left:3px solid #777; margin:1em 0; padding:.6em .9em; }}
 .page {{ break-after:page; min-height:220mm; display:flex; flex-direction:column; justify-content:center; text-align:center; }}
 .matter, .chapter {{ break-before:page; }} .chapter h1 {{ break-after:avoid; }}
 .toc {{ break-before:page; break-after:page; }} .toc ol {{ list-style:none; padding:0; }}
@@ -493,7 +523,7 @@ def expected_fragments(md: str) -> list[str]:
         if line.startswith("|"):
             fragments.extend(reader_plain(cell.strip()) for cell in line.strip("|").split("|"))
             continue
-        text = re.sub(r"^(?:#{1,3} |- |\d+\. )", "", line)
+        text = re.sub(r"^(?:#{1,3} |> |- |\d+\. )", "", line)
         fragments.append(reader_plain(text))
     return [re.sub(r"\s+", " ", fragment).strip() for fragment in fragments if fragment.strip()]
 
@@ -517,13 +547,24 @@ def verify_reader_pdf(
         for number, path in enumerate(chapters, 1)
         if chapter_title(path) not in normalized_pages[chapter_pages[number] - 1]
     ]
+    toc_text = normalized_pages[3]
+    toc_failures = [
+        number
+        for number, path in enumerate(chapters, 1)
+        if not re.search(
+            rf"{re.escape(chapter_title(path))}\s+\.+\s+{chapter_pages[number]}(?:\s|$)",
+            toc_text,
+        )
+    ]
 
     footer_pattern = re.compile(
         rf"{re.escape(EDITION)}\s+·\s+\d+\s+/\s+{total_pages}"
     )
-    content_text = " ".join(
-        footer_pattern.sub("", text) for text in normalized_pages
-    )
+    content_text = re.sub(
+        r"\s+",
+        " ",
+        " ".join(footer_pattern.sub("", text) for text in normalized_pages),
+    ).strip()
     sources = [
         READER_NOTE,
         *chapters,
@@ -547,12 +588,14 @@ def verify_reader_pdf(
         or blank_pages
         or footer_failures
         or chapter_failures
+        or toc_failures
         or missing_fragments
         or html_failures
     ):
         raise RuntimeError(
             "Reader Edition verification failed: "
             f"blank={blank_pages}, footer={footer_failures}, chapters={chapter_failures}, "
+            f"toc={toc_failures}, "
             f"missing_content={len(missing_fragments)}, html={html_failures}"
         )
 
@@ -573,6 +616,7 @@ Nonblank pages: {total_pages}/{total_pages}
 Edition footer and page number: {total_pages}/{total_pages}
 Source content fragments: {len(fragments)}/{len(fragments)}
 HTML chapter anchors and titles: 15/15
+Contents entries match printed chapter-start pages: 15/15
 TOC/chapter-start pagination stable across both render passes: PASS
 
 Chapter-title extraction
@@ -585,6 +629,12 @@ Mechanical scope
 
 
 def write_reader_edition() -> None:
+    if FPDF_VERSION != EXPECTED_FPDF_VERSION or PYPDF_VERSION != EXPECTED_PYPDF_VERSION:
+        raise RuntimeError(
+            "Publishing dependency mismatch: "
+            f"fpdf2={FPDF_VERSION} (expected {EXPECTED_FPDF_VERSION}), "
+            f"pypdf={PYPDF_VERSION} (expected {EXPECTED_PYPDF_VERSION})"
+        )
     chapters = chapter_paths()
     first_pdf, first_pages = build_reader_pdf(chapters)
     first_total = first_pdf.page_no()
