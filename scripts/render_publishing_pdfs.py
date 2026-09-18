@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import html
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 
 from fpdf import FPDF
@@ -86,6 +87,7 @@ def table_cells(line: str) -> list[str]:
 class BriefPDF(FPDF):
     def __init__(self) -> None:
         super().__init__(format="letter")
+        self.set_creation_date(datetime(2000, 1, 1, tzinfo=timezone.utc))
         self.set_auto_page_break(auto=True, margin=18)
         self.add_font("DejaVu", "", str(FONT))
         self.add_font("DejaVu", "B", str(FONT_B))
