@@ -69,10 +69,13 @@ SOURCES.md                Master source catalog (114 verified)
 evidence-cards/           68 cards (7 `stable` for a narrow claim; 61 `draft`) + template + index
 chapters/                 Working 15-chapter TOC; curated Ch. 1–15
 style/                    Voice/style constraints for manuscript prose
-preliminary/              Staging area (research notes + chapter drafts)
+.cursor/                  Project rules, pinned research MCP config, permissions
+.github/                  Issue templates + read-only five-rule comment workflow
+scripts/                  `five_rule_check.py`; publishing PDF renderer
+preliminary/              Staging area (research notes + chapter drafts + publishing packets)
 ```
 
-There is no `.cursor/`, `package.json`, Dockerfile, or test suite. `SPEC.md` exists as a pointer to the external OKF v0.2 specification.
+There is no `package.json`, Dockerfile, or test suite. `SPEC.md` exists as a pointer to the external OKF v0.2 specification.
 
 ---
 
@@ -345,7 +348,7 @@ Later packages that treated “PR #4 merged” as true were describing content o
 
 ## 11. Suggested next work
 
-Done in this package: second-wave promotions after `v0.3` — four additional *narrow* laboratory claims to `stable` (contingency, social referencing, still-face, perceptual narrowing with Kuhl 1992). Looking-time, dual-language, babbling, Lillard, and deferred imitation remain `draft` with five-rule reasons. Deferred-imitation YAML aligned to Meltzoff 1988. Light manuscript pass (Ch. 5–9 stables named; Ch. 11 EF ≠ Ch. 4 co-regulation). Archival drafts untouched. Sleep/attachment/screen theory not rewritten. **No new cards or chapters.** Catalog is 68 cards (7 `stable`; 61 `draft`) and 114 verified `SOURCES.md` IDs. Do not tag `v0.4`.
+Done in this package: harness after PR #17 — `.cursor/rules/` (four `.mdc` files), exact-version research MCP packages with exact read-only tools allowlisted for unattended use (not an absolute deny policy), secured issue templates/five-rule comment workflow (no auto-merge), internal Evidence Brief #1 (2-page PDF), Chapter 1 preprint PDF with PsyArXiv/OSF posting notes (no live deposit). Org-level Issue Fields blocked: owner is a User, not an Organization. Catalog unchanged: 68 cards (7 `stable`; 61 `draft`); 114 sources. Do not tag `v0.4`.
 
 Highest-leverage remaining work:
 
@@ -353,13 +356,16 @@ Highest-leverage remaining work:
 - Looking-time remains held as a physiology/lab candidate (linking-hypothesis debate; methods essay).
 - GI classification still “not classified” on many first-pass observational cards.
 - Chapter 2 curated copy remains ~2,358 words (slightly under Appendix B); not padded.
+- Public Evidence Briefs after 10–12 `stable` cards; Ch. 1 preprint DOI after a human PsyArXiv/OSF deposit.
+- Org-level Issue Fields if the repo moves under a GitHub Organization.
 
 ---
 
 ## 12. Quick start for a new agent
 
-1. Read `README.md`, `CONTRIBUTING.md`, then this digest.
+1. Read `README.md`, `CONTRIBUTING.md`, then this digest. Project rules live in `.cursor/rules/`.
 2. If changing evidence: start from `preliminary/MANIFEST.md` and `preliminary/research/extraction/`; never skip `SOURCES.md` + `CHANGELOG.md`.
 3. If changing chapters: treat `chapters/` as canonical and `preliminary/drafts-chapters/` as staging; write reviews in `drafts-chapters/reviews/` rather than overwriting archival drafts.
 4. If the task is research synthesis, start from existing cards and `SOURCES.md` before opening the `.docx` dossiers.
 5. Preserve Science / Interpretation / Art. When unsure, write a narrower claim.
+6. Do not set `status: stable` without the five-rule note. Do not auto-merge promotions.

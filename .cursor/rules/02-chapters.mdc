@@ -1,0 +1,29 @@
+---
+description: Curated chapter rhythm, Appendix B length, S/I/A beat, archival-draft boundary
+globs: chapters/**/*.md
+alwaysApply: false
+---
+
+## Archival boundary
+
+Edit only `chapters/0N-*.md`. Files under `preliminary/drafts-chapters/` are archival originals. Do not rename, move, or overwrite them unless the user explicitly instructs it.
+
+## Rhythm
+
+Follow COMPOSITION.md Appendix B: phenomenon → puzzle → case → question → competing explanations → mechanism → evidence → boundary → system → return. Chapter 14 may keep intervention-architecture form with a visible Science / Interpretation / Art close.
+
+Every curated chapter needs a Science / Interpretation / Art beat. Art is not a hidden instruction. Match verbs to grades: *shows* (High), *suggests* (Moderate), *is associated with* (Low).
+
+## Length
+
+Appendix B target: 2,500–4,000 words. Chapter 2 may sit slightly under the floor; do not pad. Voice-check against `style/voice-checklist.md` and `style/forbidden-phrases.md` before treating a copy as release-ready.
+
+## Evidence
+
+Name live card filenames in-body. Reconcile existing cards; do not re-extract sleep, attachment-intervention, or screen-time theory. Do not steal another chapter’s identification (e.g. Ch. 11 EF is not Ch. 4 co-regulation). When a card is `stable` for a *narrow* claim, say so in the Saffran pattern: laboratory/procedure claim `stable`; transfer/verdict remains Low.
+
+Do not invent prescriptions. A High finding does not automatically generate a parenting protocol.
+
+## Catalog
+
+Keep `_OUTLINE.md` in sync when a chapter’s linked-card or `stable` status changes. Do not add a new chapter to the working TOC without an explicit user request.
