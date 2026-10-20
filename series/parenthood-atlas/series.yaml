@@ -1,0 +1,44 @@
+schema_version: "1.0"
+imprint: "Realized Press"
+series_id: "parenthood-atlas"
+title: "Parenthood: The Atlas"
+subtitle: "A Field Guide to the Emergence of a Human Being (Preconception Through Age Three)"
+author: "Jose Campos"
+linear:
+  team_key: "ARC"
+  team_id: "b507edbe-bdaa-4c47-8bdd-63af48774ebf"
+  project_id: "d480b512-ba3d-45dd-9a5a-3933265cdaae"
+epistemic_contract:
+  okf_version: "0.2"
+  three_lenses:
+    - id: "science"
+      label: "Science"
+      focus: "Observable, replicable, causally triangulated and graded findings"
+    - id: "interpretation"
+      label: "Interpretation"
+      focus: "Systems frameworks, dyadic regulation, and developmental cascades"
+    - id: "art"
+      label: "Art"
+      focus: "Parental judgment, values, individuality, and lived human meaning"
+  target_chapter_words: [2500, 4000]
+monetization:
+  kdp:
+    trim_size: "6x9" # 152.4mm x 228.6mm
+    inside_gutter_mm: 20.0
+    outside_margin_mm: 15.0
+    top_bottom_margin_mm: 18.0
+    formats: ["paperback-pdf", "hardcover-pdf", "kindle-epub", "audiobook-wav"]
+    bisac_categories:
+      - "FAM034000" # Family & Relationships / Parenting / General
+      - "PSY004000" # Psychology / Developmental / Child
+      - "SCI049000" # Science / Life Sciences / Developmental Biology
+  patreon:
+    tiers:
+      - "Public Evidence Briefs (stable OKF v0.2 cards)"
+      - "Chapter Preprints & Confounding Audits"
+      - "Reader Edition 0.x Slices & Living Evidence Atlas"
+books:
+  - id: "parenthood-atlas"
+    title: "Parenthood: The Atlas (Volume I: Preconception Through Age Three)"
+    subtitle: "Science, Interpretation, and the Art of Early Human Development"
+    status: "v0.3-curated"

@@ -1,20 +1,27 @@
-# Multi-Series Editorial Monorepo Makefile
+# Realized Press — Book Writing Environment (BWE) & Multi-Series Makefile
 # Usage:
 #   make audit BOOK=series/architectures-of-memory/book-01-vanishing-signal
 #   make audit BOOK=series/parenthood-atlas
 #   make five-rule BOOK=series/parenthood-atlas
 #   make pdf BOOK=series/architectures-of-memory/book-01-vanishing-signal
+#   make kdp BOOK=series/architectures-of-memory/book-01-vanishing-signal
+#   make new-series SERIES=systems-of-trust TITLE="Systems of Trust" LENSES="Mechanism,Institution,Ethics" NEW_BOOK=book-01-the-verification-gap
 
 PYTHON ?= python
 BOOK ?= series/architectures-of-memory/book-01-vanishing-signal
 PREFIX ?=
 VOICE ?= Kore
 CHAPTER ?=
+SERIES ?=
+TITLE ?=
+LENSES ?= Technical,Organizational,Philosophical
+NEW_BOOK ?=
 
 PrefixArg = $(if $(strip $(PREFIX)),--prefix $(strip $(PREFIX)),)
 ChapterArg = $(if $(strip $(CHAPTER)),--chapter $(strip $(CHAPTER)),)
+NewBookArg = $(if $(strip $(NEW_BOOK)),--book $(strip $(NEW_BOOK)),)
 
-.PHONY: merge merge-audiobook merge-both audit audit-gemini audit-all five-rule five-rule-online five-rule-all pdf sync-sources audiobook-dry-run audiobook-tts
+.PHONY: merge merge-audiobook merge-both audit audit-gemini audit-all five-rule five-rule-online five-rule-all pdf kdp epub sync-sources audiobook-dry-run audiobook-tts new-series
 
 merge:
 	$(PYTHON) scripts/merge_book_chapters.py $(BOOK) $(PrefixArg)
@@ -49,7 +56,13 @@ five-rule-all:
 	$(PYTHON) scripts/five_rule_check.py series/parenthood-atlas --summary-only
 
 pdf:
-	$(PYTHON) scripts/render_publishing_pdfs.py $(BOOK)
+	$(PYTHON) scripts/render_publishing_pdfs.py $(BOOK) --format a4
+
+kdp:
+	$(PYTHON) scripts/render_publishing_pdfs.py $(BOOK) --format kdp-6x9 --epub
+
+epub:
+	$(PYTHON) scripts/render_publishing_pdfs.py $(BOOK) --epub
 
 sync-sources:
 	$(PYTHON) scripts/sync_okf_sources.py
@@ -59,3 +72,6 @@ audiobook-dry-run:
 
 audiobook-tts:
 	$(PYTHON) scripts/generate_audiobook_tts.py $(BOOK) $(ChapterArg) --voice $(VOICE)
+
+new-series:
+	$(PYTHON) scripts/init_series.py --series $(SERIES) --title "$(TITLE)" --lenses "$(LENSES)" $(NewBookArg)
