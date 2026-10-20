@@ -1,6 +1,6 @@
-# Repository Digest — Multi-Series Editorial Monorepo
+# Repository Digest — Realized Press (`ralfcam/realized-press`)
 
-Cold-start orientation map for human collaborators and AI agents working in this repository.
+Cold-start orientation map for human collaborators and AI agents working in the **Realized Press** multi-series editorial monorepo (`https://github.com/ralfcam/realized-press`).
 
 ---
 

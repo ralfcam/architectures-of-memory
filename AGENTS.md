@@ -1,6 +1,6 @@
-# Agent Guide — Multi-Series Editorial Monorepo (`Architectures of Memory` & `Parenthood: The Atlas`)
+# Agent Guide — Realized Press (`ralfcam/realized-press`: *Architectures of Memory* & *Parenthood: The Atlas*)
 
-This repository is a **unified multi-series nonfiction monorepo** governed by **Open Knowledge Format (OKF v0.2)**, a **5-step Definitive Tool Routing Protocol**, **Linear (`ARC`)** project tracking, and a **Multi-Format Publishing Pipeline (Markdown, Reader Edition PDF+HTML, and Gemini TTS Audiobook)**. See [README.md](README.md) and [REPO_DIGEST.md](REPO_DIGEST.md).
+This repository (**Realized Press**, `https://github.com/ralfcam/realized-press`) is a **unified multi-series nonfiction monorepo** governed by **Open Knowledge Format (OKF v0.2)**, a **5-step Definitive Tool Routing Protocol**, **Linear (`ARC`)** project tracking, and a **Multi-Format Publishing Pipeline (Markdown, Reader Edition PDF+HTML, and Gemini TTS Audiobook)**. See [README.md](README.md) and [REPO_DIGEST.md](REPO_DIGEST.md).
 
 ## 1. Symmetric Multi-Series File Map
 

@@ -1,6 +1,6 @@
-# Multi-Series Editorial Monorepo — *Architectures of Memory* & *Parenthood: The Atlas*
+# Realized Press (`ralfcam/realized-press`) — *Architectures of Memory* & *Parenthood: The Atlas*
 
-A unified, agent-native research and book-authoring monorepo housing two flagship nonfiction projects governed by **Open Knowledge Format (OKF v0.2)**, a **5-step MCP Tool Routing Protocol**, and a **Multi-Format Publishing Pipeline (Markdown, Reader Edition PDF+HTML, and Gemini TTS Audiobook)**.
+A unified, agent-native research and book-authoring monorepo (**Realized Press**) housing two flagship nonfiction series governed by **Open Knowledge Format (OKF v0.2)**, a **5-step MCP Tool Routing Protocol**, and a **Multi-Format Publishing Pipeline (Markdown, Reader Edition PDF+HTML, and Gemini TTS Audiobook)**.
 
 ---
 
