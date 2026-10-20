@@ -1,12 +1,13 @@
 ---
-description: When to use Perplexity, Linear, GitHub, Context7, Browser for this book series repo
+description: Definitive Tool Routing Protocol for Perplexity, Academic-Bib, Context7, Linear, GitHub, and Manuscript Auditor
 alwaysApply: true
 ---
 
-# MCP and tool policy
+# MCP and Tool Routing Policy (Definitive Protocol for Books 2–5)
 
-- **Perplexity:** Default for historical facts, paper dates, biographies, and **all** `book-*/research/**` investigation. Run structured query sets; store output under `research/notes/`.
-- **Linear:** Issues always on team **ARC**, project **Architectures of Memory — Series**. Use taxonomy labels (`research`, `draft`, `edit`, `fact-check`, `structure`, `book-01`…`book-05`).
-- **GitHub:** PRs, templates, and linking work to commits. Prefer branches over pushing straight to `main` for chapter content.
-- **Context7:** Only for live library/API docs (e.g. RAG stacks, tooling) — mainly Books 3–5 technical sections.
-- **Browser / fetch:** Verify **live URLs** cited in research notes or challenge broken links — not for inventing citations.
+1. **Broad Historical & Multi-Paper Synthesis (Phase 1):** Use **`perplexity_research`** for chapter literature surveys, historical timelines, and technical report numbers; use **`perplexity_ask`** for targeted 2–3 paper lookups.
+2. **Contested Claims, Vendor Statistics & Methodological Audits (Phase 2):** Run **`perplexity_reason`** to audit sample scopes and separate vendor-secondary claims from peer-reviewed empirical studies. For pre-DOI print/literary loci, pair **`perplexity_search`** with **Gemini `search_web`**.
+3. **Live Frameworks, Vector Stores, RAG & Privacy SDKs (Books 2–5 Technical):** Always run **`context7`** (`resolve-library-id` → `query-docs`) rather than writing generic pseudocode.
+4. **Mandatory Bibliographic Lock & `sources.bib` Persistence:** Pass every academic paper/preprint through **`academic-bib`** (`crossref_lookup`, `arxiv_search`, `openalex_work`) to verify exact DOIs, issue numbers, and retraction flags (`is_retracted`), then persist to `book-0X-*/research/sources.bib` via **`add_bibtex_entry`**. Never commit `vertexaisearch.cloud.google.com/grounding-api-redirect/` URLs.
+5. **Pre-PR Manuscript Gate:** Run `python scripts/audit_manuscript.py book-0X-*` (`make audit BOOK=book-0X-*`) before opening any chapter PR.
+6. **Linear & GitHub:** Issues on team **ARC**, project **Architectures of Memory — Series**. Prefer branches and PRs (`gh pr create`) over pushing directly to `main`.

@@ -37,7 +37,7 @@ The Zoomin Analytics product does include a "Freshness of Publications" dashboar
 
 With the following in-text caveat: *"These figures are cited by Episteca from Readme Inc. platform analytics and Zoomin customer data respectively; neither original report is publicly available for independent verification as of April 2026."*
 
-Alternatively, if the chapter requires a citable proxy for documentation decay velocity, the following peer-reviewed source is available: Mimouni et al. (2022), "Detecting Outdated Code Element References in Software Repository Documentation," arXiv:2212.01479, which finds that 28.9% of the most popular GitHub projects contain outdated code references in their documentation — a more conservative and independently verifiable figure.
+Alternatively, if the chapter requires a citable proxy for documentation decay velocity, the following peer-reviewed source is available: **Tan, W. S., Wagner, M., & Treude, C. (2022/2023)**, "Detecting Outdated Code Element References in Software Repository Documentation," arXiv:2212.01479 / *Empirical Software Engineering* 29(1), DOI `10.1007/s10664-023-10397-6` (previously misattributed to "Mimouni et al."), which finds that 28.9% of studied Google projects and 5.4% of top-1,000 GitHub projects contain currently outdated code references in their documentation (82.3% and 29.7% historically) — an independently verifiable peer-reviewed figure.
 
 ### 2. Eppler & Mengis 2004 — DOI and retraction/erratum screen
 
@@ -76,4 +76,4 @@ No paywall-gated access to the Taylor & Francis record was achievable in this pi
 - [x] Zoomin Technical Content Benchmark Reports 2023 & 2024 located and scoped — confirmed not the source of staleness statistics
 - [x] Eppler & Mengis DOI: confirmed via University of St. Gallen Alexandria repository (open-access record); no erratum or retraction found in any source
 - [x] Ch.10 citation block: revised citation treatment documented above; authorial update remains as editorial action
-- [ ] Ch.10 draft: author to insert Episteca blog citation with provenance caveat and optional Mimouni et al. 2022 substitution
+- [x] Ch.10 draft: author to insert Episteca blog citation with provenance caveat and optional Tan, Wagner & Treude (2022/2023) substitution (completed in `chapters/10-documentation-no-gating.md`)

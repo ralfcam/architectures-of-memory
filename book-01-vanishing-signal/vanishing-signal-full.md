@@ -1,6 +1,6 @@
 # book-01-vanishing-signal — Full manuscript
 
-Compiled from `book-01-vanishing-signal/chapters/*.md` in sorted filename order (2026-04-22).
+Compiled from `book-01-vanishing-signal/chapters/*.md` in sorted filename order (2026-10-20).
 
 **Footnotes:** Each chapter defines reference-style footnotes locally. Some labels repeat across chapters; in one file, renderers may attach one definition to every use of a label.
 
@@ -614,7 +614,7 @@ The next chapter is not a kinder case. It is a **wider** one: what happens when 
 
 # Chapter 10 — Why Documentation Systems Fail: Too Much Signal, No Gating
 
-*Sources: research note `research/notes/ch10-documentation-no-gating.md`; M. J. Eppler and J. Mengis (2004); L. J. Holtzblatt, L. E. Damianos, and D. Weiss (2010); J. Mimouni *et al.* (2022, arXiv:2212.01479); Episteca (2025); J. Lave and E. Wenger (1991); E. Wenger (1998); E. Wenger, R. McDermott, and W. M. Snyder (2002); research/fact-checks/ch10.md (ARC-30); research/fact-checks/ch10-residual.md (ARC-49).*
+*Sources: research note `research/notes/ch10-documentation-no-gating.md`; M. J. Eppler and J. Mengis (2004); L. J. Holtzblatt, L. E. Damianos, and D. Weiss (2010); W. S. Tan, M. Wagner, and C. Treude (2022, arXiv:2212.01479; 2023, *Empirical Software Engineering* 29(1)); Episteca (2025); J. Lave and E. Wenger (1991); E. Wenger (1998); E. Wenger, R. McDermott, and W. M. Snyder (2002); research/fact-checks/ch10.md (ARC-30); research/fact-checks/ch10-residual.md (ARC-49).*
 
 ---
 
@@ -638,7 +638,7 @@ Gating is not a decoration. It is how you **bound** a memory when **inflow** is 
 
 ## Organizational lens — Decay, vendor numbers, and the tax on experts
 
-What reads as “helpful” on launch can rot on a faster clock than most governance cycles touch. A 2025 industry blog (Episteca) attributes dramatic figures to Readme- and Zoomin-sourced data—**API**-**class** technical documentation *materially* stale on the order of **tens of days**, and large fractions of enterprise technical content not updated for half-year or year scales. As of 2026 the **original** vendor **reports** for those exact numbers are not independently **archived** in **forms** this book can **verify** (see research/fact-checks/ch10-residual). Treat the Episteca figures as *vendor-routed* **order of magnitude**, not a peer-reviewed experiment. A **citable** independent result in the same **direction** is **Mimouni** *et al.* (2022) on **outdated** code-element references in popular GitHub **project** **documentation** (arXiv preprint).[^episteca2025][^mimouni2022]
+What reads as “helpful” on launch can rot on a faster clock than most governance cycles touch. A 2025 industry blog (Episteca) attributes dramatic figures to Readme- and Zoomin-sourced data—**API**-**class** technical documentation *materially* stale on the order of **tens of days**, and large fractions of enterprise technical content not updated for half-year or year scales. As of 2026 the **original** vendor **reports** for those exact numbers are not independently **archived** in **forms** this book can **verify** (see research/fact-checks/ch10-residual). Treat the Episteca figures as *vendor-routed* **order of magnitude**, not a peer-reviewed experiment. A **citable** peer-reviewed result in the same **direction** is **Wen Siang Tan**, **Markus Wagner**, and **Christoph Treude** (2022/2023), who found outdated code-element references in **28.9%** of studied Google repositories and **5.4%** of the top-1,000 most popular GitHub projects currently (**82.3%** and **29.7%** historically).[^episteca2025][^tan2023]
 
 **Lester J. Holtzblatt**, **Laurie E. Damianos**, and **Daniel Weiss** (MITRE) used **Contextual Inquiry** with 26 **participants** in an **extended** **abstract** at **CHI 2010** to map impediments to **internal** wiki use—a **qualitative** portrait of one large not-for-profit R&D **employer**, not a **statistical** law of all firms. The tension is as much **social** as **technical**: **reluctance** to **share** unfinished or **sensitive** work on open pages; **reliance** on familiar **non-wiki** channels—**governance** **deficits** (ownership, curation) more than a universal “people hate wikis” mood.[^holtzblatt2010]
 
@@ -668,9 +668,9 @@ What the **gated** RNN **family** did in **code** (*Book* *2*), vendors of “wi
 
 [^episteca2025]: Episteca, *The Documentation Decay Problem: Why Your Technical Docs Are Outdated*, Episteca.ai, 19 January 2025, https://episteca.ai/blog/documentation-decay/ — **vendor-secondary**; attributes numeric claims to Readme- and Zoomin-sourced data without publicly archived primary reports (research/fact-checks/ch10-residual.md, ARC-49).
 
-[^mimouni2022]: J. Mimouni *et al.*, “Detecting Outdated Code Element References in Software Repository Documentation,” arXiv:2212.01479 (2022) (peer-reviewed-adjacent; 28.9% of popular GitHub projects with outdated code references in documentation per abstract/finding—cited as *independently* *verifiable* *decay* *shape* in ch10 fact-check, ARC-49).
+[^tan2023]: W. S. Tan, M. Wagner, and C. Treude, “Detecting Outdated Code Element References in Software Repository Documentation,” *Empirical Software Engineering* 29, no. 1 (2023/2024), https://doi.org/10.1007/s10664-023-10397-6 (preprint arXiv:2212.01479, 2022; reports 28.9% of studied Google projects and 5.4% of top-1,000 GitHub projects with current outdated code-element references, and 82.3% / 29.7% historically—see research/fact-checks/ch10-residual.md, ARC-49).
 
-[^holtzblatt2010]: L. J. Holtzblatt, L. E. Damianos, and D. Weiss, “Factors Impeding Wiki Use in the Enterprise: A Case Study,” in *CHI 2010 Extended Abstracts* (New York: ACM, 2010), 4661–4676, https://doi.org/10.1145/1753846.1754202 (n=26; qualitative, MITRE; non-generalizing claim). research/fact-checks/ch10.md (ARC-30).
+[^holtzblatt2010]: L. J. Holtzblatt, L. E. Damianos, and D. Weiss, “Factors Impeding Wiki Use in the Enterprise: A Case Study,” in *CHI 2010 Extended Abstracts* (New York: ACM, 2010), 4661–4676, https://doi.org/10.1145/1753846.1754208 (n=26; qualitative, MITRE; non-generalizing claim). research/fact-checks/ch10.md (ARC-30).
 
 [^lavewenger1991]: J. Lave and E. Wenger, *Situated Learning: Legitimate Peripheral Participation* (Cambridge: Cambridge University Press, 1991) — origin of the situated-learning/CoP line per fact-check mapping. research/fact-checks/ch10.md (ARC-30).
 
@@ -1050,7 +1050,7 @@ Chapter 16 returns to the **technical** history: **Bengio**, **Simard**, and **F
 
 # Chapter 16 — The Question the Field Couldn’t Yet Answer
 
-*Sources: research note `research/notes/ch16-question-unanswered.md`; Y. Bengio, P. Simard, and P. Frasconi, *IEEE Trans. Neural Netw.* 5(2) (1994); A. Waibel *et al.*, *IEEE Trans. Acoust. Speech Signal Process.* 37(3) (1989); S. Chen, S. A. Billings, and P. M. Grant, *Int. J. Control* 51 (1990); K. S. Narendra and K. Parthasarathy, *IEEE Trans. Neural Netw.* 1(1) (1990); R. Pascanu, T. Mikolov, and Y. Bengio, ICML 2013 (arXiv:1211.5063); S. Hochreiter, *Untersuchungen zu dynamischen neuronalen Netzen* (Diplomarbeit, Technische Universität München, 1991); S. Hochreiter and J. Schmidhuber, *Neural Comput.* 9(8) (1997); M. Hammer and J. Champy, *Reengineering the Corporation* (1993); I. Nonaka and H. Takeuchi, *The Knowledge-Creating Company* (1995); T. A. Stewart, *Intellectual Capital* (1997); research/fact-checks/ch16.md (ARC-36).*
+*Sources: research note `research/notes/ch16-question-unanswered.md`; Y. Bengio, P. Simard, and P. Frasconi, *IEEE Trans. Neural Netw.* 5(2) (1994); A. Waibel *et al.*, *IEEE Trans. Acoust. Speech Signal Process.* 37(3) (1989); S. Chen, S. A. Billings, and P. M. Grant, *Int. J. Control* 51(6) (1990); K. S. Narendra and K. Parthasarathy, *IEEE Trans. Neural Netw.* 1(1) (1990); R. Pascanu, T. Mikolov, and Y. Bengio, ICML 2013 (arXiv:1211.5063); S. Hochreiter, *Untersuchungen zu dynamischen neuronalen Netzen* (Diplomarbeit, Technische Universität München, 1991); S. Hochreiter and J. Schmidhuber, *Neural Comput.* 9(8) (1997); M. Hammer and J. Champy, *Reengineering the Corporation* (1993); I. Nonaka and H. Takeuchi, *The Knowledge-Creating Company* (1995); T. A. Stewart, *Intellectual Capital* (1997); research/fact-checks/ch16.md (ARC-36).*
 
 ---
 
@@ -1066,7 +1066,7 @@ Chapter 16 returns to the **technical** history: **Bengio**, **Simard**, and **F
 
 **Time–delay neural networks (TDNN).** The peer-reviewed anchor is **Alexander Waibel**, **Toshiyuki Hanazawa**, **Geoffrey Hinton**, **Kiyohiro Shikano**, and **Kevin Lang**, “Phoneme Recognition Using Time-Delay Neural Networks,” *IEEE Transactions on Acoustics, Speech, and Signal Processing* **37**(3): 328–339 (1989).[^tdnn] Secondary histories often date the *idea* to **1987** CMU work; ARC-36 did not close a primary 1987 technical report number—**cite 1989** for the reviewed article. The design *trades* full recurrence for a *designed* temporal *window* and **weight sharing** across time; the limit is *architectural*: dependencies longer than the window are *out of scope* by construction. This is the **anti-recurrence** fork’s early *move* (later: temporal convolutions, **WaveNet**, then the **Transformer** in 2017—Book 3’s problem field).
 
-**NARX** (nonlinear autoregressive with exogenous inputs). **Sheng Chen**, **Stephen A. Billings**, and **P. M. Grant**, “Non-linear system identification using neural networks,” *International Journal of Control* **51**: 1191–1214 (1990), is a foundational discrete-time identification paper; the **issue** number within vol. 51 is **TBC** against the journal record (ARC-36).[^narx] In parallel, **Kumpati Narendra** and **Kannan Parthasarathy**, “Identification and Control of Dynamical Systems Using Neural Networks,” *IEEE Transactions on Neural Networks* **1**(1): 4–27 (1990), is an independent 1990 pillar; the two strands are **parallel** foundations, not parent and child.[^narendra] **NARX** *recurrent* variants (e.g. Lin *et al.*, NeurIPS 1996, in the research note) exploit *shorter* gradient paths through explicit lags; the **maximum** lag is still **fixed** at design time.
+**NARX** (nonlinear autoregressive with exogenous inputs). **Sheng Chen**, **Stephen A. Billings**, and **P. M. Grant**, “Non-linear system identification using neural networks,” *International Journal of Control* **51**(6): 1191–1214 (1990), DOI 10.1080/00207179008934126, is a foundational discrete-time identification paper.[^narx] In parallel, **Kumpati Narendra** and **Kannan Parthasarathy**, “Identification and Control of Dynamical Systems Using Neural Networks,” *IEEE Transactions on Neural Networks* **1**(1): 4–27 (1990), is an independent 1990 pillar; the two strands are **parallel** foundations, not parent and child.[^narendra] **NARX** *recurrent* variants (e.g. Lin *et al.*, NeurIPS 1996, in the research note) exploit *shorter* gradient paths through explicit lags; the **maximum** lag is still **fixed** at design time.
 
 **Clipping and geometry.** **Razvan Pascanu**, **Tomas Mikolov**, and **Yoshua Bengio**, “On the Difficulty of Training Recurrent Neural Networks,” *ICML* **2013** (arXiv 1211.5063), extends the **geometric** picture; **gradient norm clipping** addresses the *exploding* side. It does not, by itself, restore unbounded *vanishing-free* depth.[^pascanu]
 
@@ -1102,7 +1102,7 @@ Ideas have their own **duration**: a 1997 paper can *wait* while **GPUs**, **dat
 
 [^tdnn]: A. Waibel *et al.*, *IEEE Trans. Acoust. Speech Signal Process.* **37** (3) (1989): 328–339. 1987 CMU *origin* is attested in secondary sources without a closed primary TR in ARC-36. Hampshire and Waibel, NeurIPS 1989 (*Connectionist Architectures for Multi-Speaker Phoneme Recognition*), is a *different* *follow-on* *paper*—*not* the *first* *TDNN* *publication* *.
 
-[^narx]: S. Chen, S. A. Billings, and P. M. Grant, “Non-linear system identification using neural networks,” *Int. J. Control* **51** (1990): 1191–1214. Issue no. TBC—ARC-36.
+[^narx]: S. Chen, S. A. Billings, and P. M. Grant, “Non-linear system identification using neural networks,” *Int. J. Control* **51** (6) (1990): 1191–1214, DOI 10.1080/00207179008934126. research/fact-checks/ch16.md (ARC-36).
 
 [^narendra]: K. S. Narendra and K. Parthasarathy, *IEEE Trans. Neural Netw.* **1** (1) (1990): 4–27. Parallel 1990 foundation, not a citation parent of Chen *et al.*
 

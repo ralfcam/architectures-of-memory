@@ -25,12 +25,23 @@ Use labels `research`, `draft`, `edit`, `fact-check`, `structure`, and `book-01`
 - Work on a branch (`draft/ch-NN-slug`, `research/topic-slug`, `edit/ch-NN-aspect`); open a **PR** for substantive changes.
 - Close Linear issues from commits when applicable: `Closes ARC-NN — short summary`
 
-## Citations and facts
+## Citations, facts & Definitive Tool Routing Protocol (Books 2–5)
 
 **Do not invent dates, quotes, or attributions.** If a claim is not yet sourced, mark it `[citation needed]` and capture the gap in `research/fact-checks/` or a Linear `fact-check` issue.
 
+All research, verification, and drafting tasks MUST follow the **5-step Definitive Tool Routing Protocol**:
+
+1. **Phase 1 — Broad Historical & Archival Synthesis:** Start with **`perplexity_research`** (`perplexity` MCP) for multi-paper timelines, unpublished technical report numbers, and conference histories; use **`perplexity_ask`** for targeted 2–3 paper lookups.
+2. **Phase 2 — Methodological & Vendor-Statistic Audits:** Run **`perplexity_reason`** (`perplexity` MCP) whenever evaluating secondary vendor statistics, sample populations, or contested attributions to prevent secondary-source citation decay. For pre-DOI print/literary loci (e.g., newspaper supplements), pair **`perplexity_search`** with **Gemini `search_web`**.
+3. **Phase 3 — Live Technical Frameworks, Vector Stores & Privacy SDKs:** Always run **`context7` MCP** (`resolve-library-id` → `query-docs`) for Books 2–5 technical chapters (RAG, vector databases, differential privacy, unlearning libraries) rather than relying on LLM-generated pseudocode.
+4. **Mandatory Bibliographic Lock & `sources.bib` Persistence:** Pass every cited academic paper or preprint through **`academic-bib` MCP** (`crossref_lookup`, `arxiv_search`, `openalex_work`) to verify exact DOIs, volume/issue/page numbers, and retraction flags (`is_retracted`), then persist the entry to `book-0X-*/research/sources.bib` via **`add_bibtex_entry`**. Never paste raw `vertexaisearch.cloud.google.com/grounding-api-redirect/` URLs into notes or chapters.
+5. **Pre-PR Manuscript Gate:** Run `python scripts/audit_manuscript.py book-0X-*` (`make audit BOOK=book-0X-*`) before opening any chapter PR to enforce zero metaphor collisions, valid footnote definitions, and character continuity.
+
 ## Project automation
 
-- Cursor **rules** live in `.cursor/rules/` (voice, MCP policy, glob rules for chapters, notes, outlines).
-- Cursor **skills** live in `.cursor/skills/` (`research-loop`, `chapter-draft`, `fact-check-pass`).
-- **Merged manuscripts:** from repo root, `python scripts/merge_book_chapters.py book-NN-…` (add `--audiobook` for TTS; optional `--prefix NAME`). Or `make merge BOOK=book-NN-…` / `make merge-audiobook BOOK=book-NN-…` (optional `PREFIX=…`). VS Code: tasks *Merge book chapters (full)* / *(audiobook)*.
+- Antigravity **rules, skills & hooks** live in `.agents/` (`rules/`, `skills/`, `hooks.json`).
+- Cursor **rules, skills & hooks** live in `.cursor/` (`rules/`, `skills/`, `hooks.json`).
+- **Academic & Bibliographic MCP:** `scripts/mcp_academic_bib.py` (exposed as `academic-bib` MCP server and CLI via `--cli`).
+- **Manuscript & Continuity Auditor:** `python scripts/audit_manuscript.py book-NN-…` (`make audit BOOK=book-NN-…`).
+- **Audiobook TTS Generator:** `python scripts/generate_audiobook_tts.py book-NN-… --dry-run` (`make audiobook-dry-run` / `make audiobook-tts`).
+- **Merged manuscripts:** from repo root, `python scripts/merge_book_chapters.py book-NN-…` (add `--audiobook` for TTS; optional `--prefix NAME`). Or `make merge BOOK=book-NN-…` / `make merge-audiobook BOOK=book-NN-…` (optional `PREFIX=…`). VS Code: tasks in `.vscode/tasks.json`.
