@@ -1,0 +1,74 @@
+schema_version: "1.1"
+imprint: "Realized Press"
+series_id: "parenthood-atlas"
+title: "Parenthood: The Atlas"
+subtitle: "A Field Guide to the Emergence of a Human Being (Preconception Through Age Three)"
+author: "Jose Campos"
+linear:
+  team_key: "ARC"
+  team_id: "b507edbe-bdaa-4c47-8bdd-63af48774ebf"
+  project_id: "d480b512-ba3d-45dd-9a5a-3933265cdaae"
+epistemic_contract:
+  okf_version: "0.2"
+  three_lenses:
+    - id: "science"
+      label: "Science"
+      focus: "Observable, replicable, causally triangulated and graded findings"
+    - id: "interpretation"
+      label: "Interpretation"
+      focus: "Systems frameworks, dyadic regulation, and developmental cascades"
+    - id: "art"
+      label: "Art"
+      focus: "Parental judgment, values, individuality, and lived human meaning"
+  target_chapter_words: [2500, 4000]
+marketing_intelligence:
+  target_personas:
+    - "Evidence-minded expectant and new parents (0–36 months) frustrated by contradictory parenting dogma and ungraded pop-science claims"
+    - "Pediatricians, developmental psychologists, early-childhood educators, and family therapists seeking a causally graded reference"
+    - "Readers of Emily Oster (*Cribsheet*) and Alison Gopnik (*The Gardener and the Carpenter*) who want explicit genetic-confounding and replication audits"
+  high_intent_topic_clusters:
+    - "Infant sleep training, cortisol myths, and behavioral sleep interventions vs. attachment security"
+    - "Breastfeeding vs. sibling-comparison / PROBIT randomized evidence (separating true causal effects from socioeconomic confounding)"
+    - "Screen time, conversational turns (LENA), and shared book-reading effects after controlling for family genetics"
+    - "Daycare / non-maternal care (NICHD SECCYD), temperament differential susceptibility, and dyadic co-regulation"
+  comp_title_gaps:
+    - "Ideological parenting books overstate correlational cohort studies as deterministic prescriptions, inducing unnecessary parental guilt."
+    - "Existing data-driven parenting guides rarely separate genetically-informed (sibling/twin/adoption) estimates from unadjusted observational correlations."
+    - "Academic developmental psychology handbooks lack a humane synthesis of Science, Systems Interpretation, and the Art of individual parental judgment."
+  telemetry_signals:
+    - "Owned marketing site search volume & conversion rate on myth-busting Public Evidence Briefs (sleep, feeding, screens, childcare)"
+    - "Reader Edition 0.1 parent/clinician cohort feedback scores across chapters 01–15"
+    - "Crossref/OpenAlex retraction and replication alerts across the 114 tracked developmental sources"
+monetization:
+  kdp:
+    role: "initial-release-channel-and-expansion-blueprint"
+    expansion_channels: ["ingramspark", "apple-books", "kobo", "direct-storefront"]
+    trim_size: "6x9" # 152.4mm x 228.6mm
+    inside_gutter_mm: 20.0
+    outside_margin_mm: 15.0
+    top_bottom_margin_mm: 18.0
+    formats: ["paperback-pdf", "hardcover-pdf", "kindle-epub", "audiobook-wav"]
+    bisac_categories:
+      - "FAM034000" # Family & Relationships / Parenting / General
+      - "PSY004000" # Psychology / Developmental / Child
+      - "SCI049000" # Science / Life Sciences / Developmental Biology
+    backend_keywords:
+      - "evidence based parenting baby toddler first years"
+      - "child development neuroscience attachment sleep"
+      - "pregnancy prenatal fetal origins infant brain"
+      - "science of parenting crib sheet developmental"
+      - "toddler emotional regulation executive function"
+      - "language acquisition play Montessori guided play"
+      - "behavioral genetics twin studies parenting book"
+  owned_marketing_site:
+    blueprint: "patreon-serial-membership-model"
+    role: "internally-developed-marketing-and-serial-portal"
+    tiers:
+      - "Public Evidence Briefs & Interactive OKF Explorer (top-of-funnel marketing)"
+      - "Chapter Preprints & Confounding Audits"
+      - "Reader Edition 0.x Slices & Living Evidence Atlas"
+books:
+  - id: "parenthood-atlas"
+    title: "Parenthood: The Atlas (Volume I: Preconception Through Age Three)"
+    subtitle: "Science, Interpretation, and the Art of Early Human Development"
+    status: "v0.3-curated"

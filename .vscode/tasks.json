@@ -56,12 +56,30 @@
       "problemMatcher": []
     },
     {
-      "label": "Render Reader Edition PDF + HTML",
+      "label": "Render Reader Edition PDF + HTML (Patreon / Review)",
       "type": "shell",
       "command": "python",
       "args": [
         "scripts/render_publishing_pdfs.py",
-        "${input:bookDir}"
+        "${input:bookDir}",
+        "--format",
+        "a4"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Compile Amazon KDP Release (6x9 Print PDF + Kindle EPUB 3)",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "scripts/render_publishing_pdfs.py",
+        "${input:bookDir}",
+        "--format",
+        "kdp-6x9",
+        "--epub"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
@@ -76,6 +94,18 @@
         "scripts/generate_audiobook_tts.py",
         "${input:bookDir}",
         "--dry-run"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Marketing Intelligence & Topic Scorecard (all series)",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "scripts/marketing_intelligence.py"
       ],
       "options": {
         "cwd": "${workspaceFolder}"

@@ -88,6 +88,34 @@ def _is_book_outline(path: Path) -> bool:
     return path.name.lower() in ("outline.md", "_outline.md")
 
 
+def _is_series_manifest(path: Path) -> bool:
+    return path.name.lower() == "series.yaml"
+
+
+def _check_series_manifest_gates(path: Path) -> list[str]:
+    try:
+        import yaml
+
+        data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        mi = data.get("marketing_intelligence") or {}
+        kdp = (data.get("monetization") or {}).get("kdp") or {}
+        kws = kdp.get("backend_keywords") or []
+        issues: list[str] = []
+        if len(mi.get("target_personas") or []) < 2:
+            issues.append("fewer than 2 target_personas")
+        if len(mi.get("high_intent_topic_clusters") or []) < 3:
+            issues.append("fewer than 3 high_intent_topic_clusters")
+        if len(mi.get("comp_title_gaps") or []) < 2:
+            issues.append("fewer than 2 comp_title_gaps")
+        if len(kws) != 7 or any(len(k) > 50 for k in kws):
+            issues.append("kdp.backend_keywords must have exactly 7 phrases <= 50 chars each")
+        if issues:
+            return [f"Marketing Intelligence Gate (`{path.name}`): {'; '.join(issues)}."]
+    except Exception:
+        pass
+    return []
+
+
 def _check_bibliographic_lock(path: Path, text: str) -> list[str]:
     book_dir = _find_book_or_series_dir(path)
     if not book_dir:
@@ -221,6 +249,9 @@ def handle_post_tool_use(payload: dict) -> None:
             f"Outline Gate: `{path.as_posix()}` was edited — ensure a Linear issue with the `structure` label "
             "exists and cross-references in `chapters/` and `evidence-cards/` remain aligned."
         )
+
+    if _is_series_manifest(path) and path.is_file():
+        notices.extend(_check_series_manifest_gates(path))
 
     if notices:
         try:
