@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "github": {
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${env:GITHUB_TOKEN}"
+      }
+    },
+    "crossref": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@cyanheads/crossref-mcp-server@0.3.12"],
+      "env": {
+        "MCP_TRANSPORT_TYPE": "stdio",
+        "CROSSREF_MAILTO": "${env:CROSSREF_MAILTO}"
+      }
+    },
+    "pubmed": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@cyanheads/pubmed-mcp-server@2.10.13"],
+      "env": {
+        "MCP_TRANSPORT_TYPE": "stdio",
+        "NCBI_API_KEY": "${env:NCBI_API_KEY}"
+      }
+    }
+  }
+}
