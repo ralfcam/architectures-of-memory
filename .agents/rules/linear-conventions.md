@@ -7,6 +7,12 @@ description: Linear team, project, milestone, and git branch conventions for bot
 
 **Team:** `ARC` — `b507edbe-bdaa-4c47-8bdd-63af48774ebf` (`https://linear.app/realized/team/ARC/projects/all`)
 
+## Master 4-Stage Execution Sequence
+1. **Stage 1 (Immediate Goal — Priority 1: Urgent):** Loop on refinement passes until publish for **`Parenthood: The Atlas — Series` (`P-ARC-17`)** (`https://linear.app/realized/project/parenthood-the-atlas-series-e3ae54ac870d/overview`) — *reflect upon and harden the BWE harness along this phase.*
+2. **Stage 2 (Priority 2: High):** Repeat the hardened loop for the full 5-book series **`Architectures of Memory — Series` (`P-ARC-8`)** (`https://linear.app/realized/project/architectures-of-memory-series-e798843bf9fb/overview`).
+3. **Stage 3 (Priority 3: Medium):** Continue in pillar order of **`Realized Press — Canonical Vision & Book Writing Environment (BWE)` (`P-ARC-18`)** (`https://linear.app/realized/project/realized-press-canonical-vision-and-book-writing-environment-bwe-130eae5e23b7/overview`).
+4. **Stage 4 (Expansion):** Consider new series/books driven by **Marketing Intelligence** (`scripts/marketing_intelligence.py`) and publish the **internally developed marketing & serial-membership site**.
+
 ## Canonical Vision & BWE Platform: `Realized Press — Canonical Vision & Book Writing Environment (BWE)` (`P-ARC-18`)
 - **Project ID:** `fe68af35-3169-4d26-868e-0000a8d07672` (`https://linear.app/realized/project/realized-press-canonical-vision-and-book-writing-environment-bwe-130eae5e23b7`)
 - **Canonical Vision Document ID:** `916947a3-864e-45c2-bc26-2a8b2b1a465f`

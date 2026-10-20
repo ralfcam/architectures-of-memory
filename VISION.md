@@ -2,6 +2,15 @@
 
 > **Linear Project (`P-ARC-18`):** [`Realized Press — Canonical Vision & Book Writing Environment (BWE)`](https://linear.app/realized/project/realized-press-canonical-vision-and-book-writing-environment-bwe-130eae5e23b7) (`fe68af35-3169-4d26-868e-0000a8d07672`) · [Canonical Vision Document](https://linear.app/realized/document/canonical-vision-monetization-bwe-multi-series-and-marketing-aecc83c9240e)
 
+## Master 4-Stage Execution Sequence ([`Team ARC Projects`](https://linear.app/realized/team/ARC/projects/all))
+
+1. **Stage 1 (Immediate Goal — Priority 1: Urgent):** Loop on refinement passes until commercial publication for [**Parenthood: The Atlas — Series (`P-ARC-17`)**](https://linear.app/realized/project/parenthood-the-atlas-series-e3ae54ac870d/overview) — *The Book Writing Environment (BWE) harness is reflected upon and hardened along this phase.*
+2. **Stage 2 (Full Series Rollout — Priority 2: High):** Repeat the hardened refinement and publishing loop across all five volumes of [**Architectures of Memory — Series (`P-ARC-8`)**](https://linear.app/realized/project/architectures-of-memory-series-e798843bf9fb/overview).
+3. **Stage 3 (Platform & Channel Execution — Priority 3: Medium):** Continue in pillar order of [**Realized Press — Canonical Vision & Book Writing Environment (`P-ARC-18`)**](https://linear.app/realized/project/realized-press-canonical-vision-and-book-writing-environment-bwe-130eae5e23b7/overview).
+4. **Stage 4 (Expansion & Owned Marketing Site Launch):** Consider and greenlight new series/books driven by **Marketing Intelligence** ([`scripts/marketing_intelligence.py`](scripts/marketing_intelligence.py)) and publish the **internally developed marketing & serial-membership web site** (modeled on the Patreon serial/tier blueprint).
+
+---
+
 **Realized Press** (`ralfcam/realized-press`) operates on a four-pillar strategic thesis:
 1. **Book Monetization & Owned Marketing Engine:**
    - **Amazon KDP as Initial Release Channel & Expansion Blueprint:** Producing high-trust, citation-locked nonfiction series launched first on **Amazon KDP** (Print-on-Demand 6"×9" Paperback/Hardcover, Kindle EPUB 3 eBook, ACX/KDP Audiobook) as the deterministic release blueprint for expanding to IngramSpark, Apple Books, Kobo, and direct storefronts.
