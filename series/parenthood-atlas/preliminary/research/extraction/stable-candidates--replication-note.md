@@ -152,18 +152,70 @@ The first-wave non-promotions above remain historically accurate for that pass. 
 
 ---
 
-## Explicit non-promotions (this pass)
+## 9. `prenatal-auditory-learning.md` — promote the *narrow* sensory encoding claim
 
-These cards were re-checked because a YAML/in-body mismatch, a single-source High grade, or a second-pass “plausible next” listing might have looked promotable after a small fix. None clears all five rules.
+| Rule | Evidence |
+|---|---|
+| (1) Resolvable | DeCasper & Spence 1986 DOI `10.1016/0163-6383(86)90025-1`; Partanen et al. 2013 PNAS DOI `10.1073/pnas.1302159110`. Both Crossref-resolved. |
+| (2) No retraction/EoC | Neither record carries a retraction or EoC flag (`is_retracted: false`). |
+| (3) Replication / GI | Design class = laboratory sensory experiment / neonatal ERP. DeCasper & Spence 1986 demonstrated operant sucking preference for familiarized prenatal speech passages; Partanen et al. 2013 provided converging electrophysiological evidence of mismatch-negativity memory traces in newborns following prenatal auditory exposure. Triangulated across behavioral and electrophysiological paradigms. Long-term cognitive enhancement remains Low. GI: **n/a** (laboratory sensory encoding). |
+| (4) YAML = in-body | `confidence: moderate-preference; low-lasting-advantage` matches in-body `Grade: Moderate... Low...`. |
+| (5) WTDM | Clear: reading to a fetus does not produce lasting IQ gains or verbal precocity. |
+
+**Decision:** `status: stable` for the *narrow* sensory encoding claim only.
+
+---
+
+## 10. `deferred-imitation.md` — promote the *narrow* laboratory recall memory claim
+
+| Rule | Evidence |
+|---|---|
+| (1) Resolvable | Meltzoff 1988 DOI `10.1037/0012-1649.24.4.470`; Barr, Dowden & Hayne 1996 DOI `10.1016/s0163-6383(96)90015-6`. Both Crossref-resolved. |
+| (2) No retraction/EoC | Neither record carries a retraction or EoC flag (`is_retracted: false`). |
+| (3) Replication / GI | Design class = laboratory developmental experiment. Meltzoff 1988 demonstrated novel action imitation across a one-week delay at 14 months against demonstration-free controls; Barr et al. 1996 independently replicated and characterized deferred imitation across delays in 6- to 24-month-olds across three experiments. Neonatal imitation controversy and copying curricula remain Low. GI: **n/a**. |
+| (4) YAML = in-body | `confidence: high-fourteen-month-one-week; low-neonate-and-transfer` matches in-body `Grade: High... Low...`. |
+| (5) WTDM | Clear: does not prove neonatal facial imitation or copying curricula; missed demonstrations do not impair memory. |
+
+**Decision:** `status: stable` for the *narrow* laboratory recall memory claim only.
+
+---
+
+## 11. `paternal-age-de-novo-mutations.md` — promote the *narrow* biological mutation rate claim
+
+| Rule | Evidence |
+|---|---|
+| (1) Resolvable | Kong et al. 2012 *Nature* DOI `10.1038/nature11396`; Jónsson et al. 2017 *Nature* DOI `10.1038/nature24018`. Both Crossref-resolved. |
+| (2) No retraction/EoC | Neither record carries a retraction or EoC flag (`is_retracted: false`). |
+| (3) Replication / GI | Design class = whole-genome sequencing of parent-offspring trios. Kong et al. 2012 demonstrated paternal age as the dominant driver of offspring de novo mutation counts (~2 mutations/year); Jónsson et al. 2017 independently confirmed and refined this in 1,548 trios (108,778 de novo mutations) to 1.51 mutations/year of father's age. Outcome forecasts for psychiatric or cognitive disease remain Low and largely confounded (>50%). GI: **n/a** for the biological mutation rate. |
+| (4) YAML = in-body | `confidence: high-mutation-rate; low-forecast` matches in-body `Grade: High... Low...`. |
+| (5) WTDM | Clear: does not license eugenic ranking or alarmism; absolute risk in ordinary age ranges remains low. |
+
+**Decision:** `status: stable` for the *narrow* biological mutation-rate claim only.
+
+---
+
+## 12. `dual-language-does-not-confuse.md` — promote the *narrow* no-confusion developmental milestone claim
+
+| Rule | Evidence |
+|---|---|
+| (1) Resolvable | NAP 2017 consensus DOI `10.17226/24677`; Byers-Heinlein, Burns & Werker 2010 *Psychological Science* DOI `10.1177/0956797609360758`. Both Crossref-resolved. |
+| (2) No retraction/EoC | Neither record carries a retraction or EoC flag (`is_retracted: false`). |
+| (3) Replication / GI | Design class = psycholinguistic experiment + consensus synthesis. Byers-Heinlein 2010 showed bilingual newborns discriminate and equally attend to both languages from birth; NAP 2017 synthesized decades of research confirming dual exposure does not impair language milestones or cause cognitive confusion when conceptual vocabulary is assessed. Automatic executive bonus remains Low. GI: **n/a**. |
+| (4) YAML = in-body | `confidence: high-no-confusion; moderate-individual-trajectories; low-automatic-bonus` matches in-body `Grade: High... Moderate... Low...`. |
+| (5) WTDM | Clear: bilingual children can have clinical speech disorders; does not license dropping heritage languages. |
+
+**Decision:** `status: stable` for the *narrow* no-confusion developmental milestone claim only.
+
+---
+
+## Explicit non-promotions (this third wave)
 
 | Card | Why still `draft` |
 |---|---|
-| `deferred-imitation.md` | Rule 3: one primary experiment (Meltzoff 1988). YAML `confidence` and `description` previously said 9-month 24-hour; body and Meltzoff 1988 are **14-month one-week**. This pass **aligns YAML/description** to the paper and still holds the card: a YAML fix is not a second experiment. Neonatal imitation is a different controversy. |
-| `dual-language-does-not-confuse.md` | Rule 3: NAP 2017 is a **committee synthesis**, not an independent experimental pair on this card. Automatic cognitive bonus stays Low. |
-| `infant-babbling-as-exploration.md` | Rule 3: Oller 1999 is spoken-stage screening; Petitto & Marentette 1991 is a **different modality** (manual babbling), not an independent replication of the same spoken-stage identification. |
-| `pretend-play-educational-claims.md` | Rule 3: Lillard 2013 is **one systematic narrative review**. Overclaim is the finding; a second independent review package is not on the card. |
+| `infant-babbling-as-exploration.md` | Rule 3: Oller 1999 is spoken-stage screening; Petitto & Marentette 1991 is a different modality (manual babbling), not an independent replication of the same spoken-stage identification. |
+| `pretend-play-educational-claims.md` | Rule 3: Lillard 2013 is one systematic narrative review. Overclaim is the finding; a second independent review package is not on the card. |
 | Timing / neural construction | Still first-pass / review-level, as in the first wave. |
 
 Observational / GI-attenuated cards (prenatal stress, breastfeeding IQ, Watts delay) and remaining-domain cards stay `draft`. Sleep, attachment-intervention, and screen theory are not reopened.
 
-Catalog after this pass: **68** live cards; **8** `stable` (narrow); **60** `draft`. **116** verified `SOURCES.md` IDs (`haith-1998-cog` and `manybabies-2020-variability` added). No new cards. No `v0.4` tag.
+Catalog after this pass: **72** live cards; **12** `stable` (narrow); **60** `draft`. **127** verified `SOURCES.md` IDs. All 72 cards feature explicit, calibrated GI attenuation classifications.

@@ -39,7 +39,9 @@ An early-childhood *r* near .3 leaves most variance in relative standing open to
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: not classified. Western, questionnaire-heavy samples are common. Informant and interval length affect *r*. Extreme-tail trajectories can be more persistent than the population average without becoming destiny.
+GI attenuation: **n/a** (meta-analytic psychometric test-retest stability, not a causal exposure).
+
+Western, questionnaire-heavy samples are common. Informant and interval length affect *r*. Extreme-tail trajectories can be more persistent than the population average without becoming destiny.
 
 ## What Remains Uncertain
 

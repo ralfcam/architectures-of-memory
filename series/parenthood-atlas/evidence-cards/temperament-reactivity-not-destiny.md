@@ -39,7 +39,9 @@ Stability coefficients are typically in a moderate range across infancy into tod
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: not classified on this card (no sibling/adoption package here). Parent-report is contaminated by expectation and current behavior. Culture shapes which expressions are noticed. Goodness-of-fit and differential susceptibility remain live alternatives to “difficult child.”
+GI attenuation: **n/a** (caregiver-report psychometric trait with ~40–60% heritability, not an environmental exposure).
+
+Parent-report is contaminated by expectation and current behavior. Culture shapes which expressions are noticed. Goodness-of-fit and differential susceptibility remain live alternatives to “difficult child.”
 
 ## What Remains Uncertain
 

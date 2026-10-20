@@ -39,6 +39,8 @@ The outcome is contemporaneous looking, not later physics competence. Persistenc
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (laboratory cognitive developmental task, not an observational population phenotype association).
+
 Salience, rotation extent, habituation criteria, and trial structure can change looking. Small classic samples. Replication and alternative perceptual accounts remain live. Task demands (looking vs reaching vs multiple objects) are not noise; they are part of the claim.
 
 ## What Remains Uncertain

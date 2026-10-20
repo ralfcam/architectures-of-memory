@@ -39,6 +39,8 @@ No universal cognitive effect size. Persistence of a structural difference must 
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (neuroembryology and cortical development, not an observational population phenotype association).
+
 Indirect fetal imaging; postmortem and clinical-sample selection; species differences even in a human-focused review; postnatal confounding of later outcomes.
 
 ## What Remains Uncertain

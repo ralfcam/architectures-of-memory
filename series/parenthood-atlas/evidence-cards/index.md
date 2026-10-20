@@ -1,6 +1,6 @@
 # Evidence Cards Index
 
-Sixty-eight evidence cards. **Eight** physiology/lab/methods cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`, `infant-contingency-learning.md`, `infant-social-referencing.md`, `infant-still-face-paradigm.md`, `infant-perceptual-narrowing.md`, `looking-time-as-measurement.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty-four remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
+Seventy-two evidence cards. **Twelve** physiology/lab/methods cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`, `infant-contingency-learning.md`, `infant-social-referencing.md`, `infant-still-face-paradigm.md`, `infant-perceptual-narrowing.md`, `looking-time-as-measurement.md`, `prenatal-auditory-learning.md`, `deferred-imitation.md`, `paternal-age-de-novo-mutations.md`, `dual-language-does-not-confuse.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
 
 # Evidence Cards
 
@@ -9,7 +9,7 @@ Sixty-eight evidence cards. **Eight** physiology/lab/methods cards are `status: 
 * [Prenatal Neural Construction](prenatal-neural-construction.md) - Human cortex is unfinished at birth; structure is not a personality forecast.
 * [Fetal Autonomic Maturation](fetal-autonomic-maturation.md) - Fetal HRV indexes present maturation, not temperament destiny.
 * [Prenatal Maternal Stress and Anxiety](prenatal-maternal-stress-anxiety.md) - Observational prenatal stress/anxiety associations largely attenuate under genetically informed designs.
-* [Prenatal Auditory Discrimination and Newborn Preference](prenatal-auditory-learning.md) - Late-pregnancy speech exposure can shape newborn preference; not lasting cognitive advantage.
+* [Prenatal Auditory Discrimination and Newborn Preference](prenatal-auditory-learning.md) - **`stable`** (narrow sensory encoding): DeCasper & Spence 1986 / Partanen 2013; late-pregnancy speech shapes newborn preference and ERP traces; Low lasting advantage.
 * [Periconceptional Folic Acid and Neural-Tube Defects](prenatal-folate-ntd.md) - **`stable`** (narrow NTD claim): RCTs/Cochrane + Czeizel 1992; Low other anomalies / IQ.
 * [Prenatal Iodine and Maternal T4](prenatal-iodine-thyroid.md) - Severe early iodine deficiency can injure the developing brain; mild replete-population claims are weaker.
 * [Prenatal Alcohol and FASD](prenatal-alcohol-fasd.md) - Causal teratology continuum; detected exposure is not a diagnosis.
@@ -30,14 +30,14 @@ Sixty-eight evidence cards. **Eight** physiology/lab/methods cards are `status: 
 * [Conversational Turns and Later Language](conversational-turns-language.md) - Gilkerson 2018: Moderate prediction from turns, not word counts; Low causation.
 * [Pointing as Shared Reference](infant-pointing-as-shared-reference.md) - Colonnesi 2010: Moderate that pointing predicts language; Low that baby-sign products accelerate typical speech.
 * [Babbling as Exploration](infant-babbling-as-exploration.md) - Oller 1999: High that canonical babbling is a real stage; Low as an IQ or parenting verdict.
-* [Paternal Age and De Novo Mutations](paternal-age-de-novo-mutations.md) - Kong 2012: High for mutation rate with father's age; Low as a cognitive/psychiatric forecast.
+* [Paternal Age and De Novo Mutations](paternal-age-de-novo-mutations.md) - **`stable`** (narrow biological rate): Kong 2012 / Jónsson 2017; ~1.5 mutations/year of father's age; Low psychiatric/cognitive forecast.
 * [Infant Social Referencing](infant-social-referencing.md) - **`stable`** (narrow lab claim): Sorce 1985 / Walden 1988; Low as an attachment verdict.
 * [Multiple Caregiver Attachments](infant-multiple-caregiver-attachments.md) - Dagan 2018/2021: Moderate that multiple attachments occur; Low that network size is a dose.
 * [Toddler Peer Interaction](toddler-peer-interaction.md) - Brownell 2006: Moderate that peer contexts create coordination demands; Low that hours cause later character.
 * [Embodied Perception–Action](embodied-perception-action.md) - Adolph & Hoch 2019: Moderate framework; Low that earlier milestones cause later cognition.
 * [Exploration as Sampling](exploration-as-sampling.md) - Stahl & Feigenson 2015: Moderate that surprise reorganizes exploration; Low transfer.
 * [Early Physical Reasoning](infant-physical-reasoning.md) - Baillargeon 1987 / Stahl 2015: Moderate VOE; Low complete physics.
-* [Deferred Imitation](deferred-imitation.md) - Meltzoff 1988: High for 14-month one-week delay; Low neonate/curriculum. YAML aligned; stays `draft` (one primary experiment).
+* [Deferred Imitation](deferred-imitation.md) - **`stable`** (narrow lab memory): Meltzoff 1988 / Barr 1996; 14-month one-week delay reproduction; Low neonate/curriculum.
 * [Parent-Implemented Language Interventions](parent-implemented-language.md) - Heidlage 2020: Moderate expressive vocabulary in 25 RCTs; Low universal typical-development IQ.
 * [Still-Face Disruption of Expected Contingency](infant-still-face-paradigm.md) - **`stable`** (narrow procedure claim): Tronick 1978 / Mesman 2009; Low as attachment verdict. Co-regulation card reconciled.
 * [Temperament as Reactivity and Control](temperament-reactivity-not-destiny.md) - Gartstein & Rothbart 2003: Moderate dimensional differences; Low destiny.
@@ -60,7 +60,7 @@ Sixty-eight evidence cards. **Eight** physiology/lab/methods cards are `status: 
 * [Parental Leave Is a Heterogeneous Package](parental-leave-heterogeneous-package.md) - Carneiro 2015: Moderate reform; Low-to-Moderate 0–3 cognition.
 * [Household Food Insecurity and Infant Health](household-food-insecurity-health.md) - Cook 2004: Moderate health association; not parental failure.
 * [Preconception Nutrition Beyond Folate](preconception-nutrition-beyond-folate.md) - Dean 2014: Low-to-Moderate beyond folate; do not inherit NTD `stable`.
-* [Two Languages Do Not Confuse](dual-language-does-not-confuse.md) - NAP 2017: High that dual exposure as such does not confuse; Low automatic cognitive bonus.
+* [Two Languages Do Not Confuse](dual-language-does-not-confuse.md) - **`stable`** (narrow no-confusion claim): NAP 2017 / Byers-Heinlein 2010; dual exposure from birth does not impair language milestones; Low automatic cognitive bonus.
 * [Infant Crying as a Signal](infant-crying-as-signal.md) - Graded distress signal; not a one-to-one code for hunger, pain, or parental error.
 * [Suck–Swallow–Breathe Coordination](suck-swallow-breathe-coordination.md) - Oral feeding is maturational coordination; feeding method is not parental worth.
 * [Responsive Feeding as Regulation](responsive-feeding-as-regulation.md) - Cue-based bidirectional feeding; not a weight or IQ program.

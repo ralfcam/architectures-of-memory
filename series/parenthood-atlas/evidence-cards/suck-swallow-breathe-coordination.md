@@ -39,6 +39,8 @@ The immediate outcome is safe transfer of a bolus. Persistence of feeding diffic
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (maturational oral-motor physiology, not an observational population phenotype association).
+
 Gestational age, illness, congenital difference, posture, and caregiver/clinical support are intertwined. Breast, bottle, expressed milk, and tube feeding are distinct situations.
 
 ## What Remains Uncertain

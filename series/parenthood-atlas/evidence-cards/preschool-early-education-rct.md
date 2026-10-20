@@ -50,6 +50,8 @@ Effects are large in the original small samples and unusually persistent -- amon
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (historical randomized controlled educational trials, not an observational parenting phenotype).
+
 Small sample sizes (~60 per program) limit precision and generalizability; both programs were unusually intensive, high-fidelity, researcher-designed model programs, not typical at-scale public preschool. Benefits are plausibly tied to program quality/intensity/fidelity rather than preschool as a generic category.
 
 ## What Remains Uncertain

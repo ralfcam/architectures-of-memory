@@ -39,6 +39,8 @@ There is no portable *d* for “resilience.” Heterogeneity is the finding: som
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (systemic adaptive framework, not an observational population phenotype association).
+
 Who is counted as “resilient” depends on which outcome and which threshold. Survivorship and WEIRD-sample limits apply. Severe, chronic deprivation is a different identification (BEIP).
 
 ## What Remains Uncertain

@@ -39,6 +39,8 @@ No universal effect size. Crying typically rises over the first weeks and falls 
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (developmental acoustic physiology, not an observational population phenotype association).
+
 Parent report vs recording; prematurity, illness, feeding, and temperament; reverse causation if caregivers under strain hear more crying. Studies that treat duration as a child or parent trait risk blame.
 
 ## What Remains Uncertain

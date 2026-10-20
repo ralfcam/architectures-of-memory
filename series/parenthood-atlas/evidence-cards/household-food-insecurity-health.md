@@ -39,7 +39,9 @@ Odds of fair/poor health and hospitalization were elevated with food insecurity 
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: not classified. Low-income clinical samples are not all households. Caregiver report of child health and food can share method variance. Access to care, housing, and income remain entangled.
+GI attenuation: **partially confounded (20–50%)** (food precarity co-occurs with structural economic stress and parental mental health vulnerabilities).
+
+Low-income clinical samples are not all households. Caregiver report of child health and food can share method variance. Access to care, housing, and income remain entangled.
 
 ## What Remains Uncertain
 

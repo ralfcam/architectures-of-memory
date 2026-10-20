@@ -39,6 +39,8 @@ Breastfeeding maintenance is the strongest identified outcome here. Duration fin
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (immediate postpartum clinical physiology and RCT trials, not an observational phenotype).
+
 Performance bias is structural (the intervention is visible). Small samples, co-interventions, and heterogeneous protocols. SSC is not KMC; mixing term SSC with mortality results from very-low-birth-weight kangaroo care is a translation error.
 
 ## What Remains Uncertain

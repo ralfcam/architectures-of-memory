@@ -42,7 +42,9 @@ Small-to-moderate average associations. They do not establish unique or permanen
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: not classified here. Samples often overrepresent Western, relatively stable families. Child-to-parent effects (a difficult toddler reducing measured “involvement”) are plausible.
+GI attenuation: **partially confounded (20–50%)** (father and kin involvement correlates with family socioeconomic resources and genetic stability; not a standalone dosage law).
+
+Samples often overrepresent Western, relatively stable families. Child-to-parent effects (a difficult toddler reducing measured “involvement”) are plausible.
 
 ## What Remains Uncertain
 

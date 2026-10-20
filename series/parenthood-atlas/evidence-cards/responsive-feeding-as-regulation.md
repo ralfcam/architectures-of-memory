@@ -39,6 +39,8 @@ No portable effect size for ordinary cue-based feeding as a developmental interv
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (behavioral feeding framework, not an observational population phenotype association).
+
 Poverty, food availability, illness, and caregiver strain are easily mistaken for “feeding style.” Cross-cultural feeding practices vary; the four-step description should not be read as a single correct script.
 
 ## What Remains Uncertain

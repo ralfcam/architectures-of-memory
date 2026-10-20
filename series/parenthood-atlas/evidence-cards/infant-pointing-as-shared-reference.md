@@ -42,6 +42,8 @@ Concurrent association is large by social-development standards; longitudinal as
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (developmental communicative milestone, not an observational population phenotype association).
+
 Age, pointing motive, and language modality moderate the Colonnesi estimates. SES and country were examined as moderators; they do not license a parental purity test. Baby-sign trials are small and mixed. Genetically informed attenuation: **n/a**.
 
 ## What Remains Uncertain

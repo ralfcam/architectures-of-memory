@@ -46,6 +46,8 @@ Original correlational claims implied a strong, durable trait-like effect; the 2
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **largely confounded (>50%)** (marshmallow delay associations with long-term achievement largely attenuate after controlling for early ability and family background).
+
 The original Mischel studies used a small, homogeneous (Stanford-affiliated preschool) sample. Family instability and environmental trust plausibly explain some children's rational choice to take the immediate reward rather than reflecting a stable deficit in self-regulation capacity.
 
 ## What Remains Uncertain

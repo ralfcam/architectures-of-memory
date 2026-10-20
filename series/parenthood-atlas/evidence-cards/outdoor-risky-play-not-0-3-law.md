@@ -39,7 +39,9 @@ No portable *d* for “risky play” in toddlers. Injury findings are mixed and 
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: not classified. School-age samples dominate. Families who allow more outdoor risk also differ in resources, neighborhoods, and supervision. Injury surveillance and play observation are not the same design.
+GI attenuation: **untested-in-GI** (no twin or sibling designs for 0–3 outdoor play; observational associations reflect family lifestyle selection).
+
+School-age samples dominate. Families who allow more outdoor risk also differ in resources, neighborhoods, and supervision. Injury surveillance and play observation are not the same design.
 
 ## What Remains Uncertain
 

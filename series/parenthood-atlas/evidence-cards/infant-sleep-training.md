@@ -53,6 +53,8 @@ Reported effects are null for attachment security and behavior problems in the R
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (randomized behavioral intervention trials and follow-ups, not an observational phenotype).
+
 Most trials are relatively small to moderate and rely heavily on parent-report sleep measures; Gradisar’s attachment comparison is underpowered. Self-selection into sleep-training studies may limit generalizability. Bilgin & Wolke is observational. Longer-term outcomes and effects in infants with heightened biological vulnerability are not well covered.
 
 ## What Remains Uncertain

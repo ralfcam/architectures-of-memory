@@ -42,6 +42,8 @@ Group differences are large relative to never-institutionalized community compar
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (randomized foster-placement intervention following severe deprivation, not ordinary parenting).
+
 The intervention is a package (stable caregivers, stimulation, nutrition, health, material support). Isolating “attachment” from the rest is not licensed. Attrition and later placement changes complicate long follow-up. Ethical and historical uniqueness limits generalization.
 
 ## What Remains Uncertain

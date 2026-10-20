@@ -49,6 +49,8 @@ Small effect sizes throughout (r's typically 0.10-0.20); dose-response patterns 
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **partially confounded (20–50%)** (screen exposure correlates with parental education, household chaos, and shared genetic traits).
+
 Almost all evidence is observational; most measurement is parent-reported total duration, which the project's own standards classify as weak causal evidence. Reverse causation and confounding by SES/parental engagement are both plausible and largely unaddressed. Content, context, and co-use are decomposed in some but not all studies. Genetically informed attenuation: **n/a**. Madigan 2020 (language skills, quantity negative) and Jing 2023 (vocabulary, overall positive) are heterogeneous outcome packages, not a failed identification of a single paper.
 
 ## What Remains Uncertain

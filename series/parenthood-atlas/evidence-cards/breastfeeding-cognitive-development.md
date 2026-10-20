@@ -51,6 +51,8 @@ Randomized estimate at age 6.5: +5.9 full-scale IQ (ns), +7.5 verbal IQ (signifi
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **largely confounded (>50%)** (observational IQ gains largely attenuate in sibling-comparison designs and PROBIT trials).
+
 **Partially-to-largely confounded** relative to observational estimates: PROBIT's cluster-randomized design removes maternal-choice confounding, yet the effect that remains after 16 years is far smaller than initial observational estimates (~3-4 points) and disappears in sibling comparisons. Findings may not generalize to preterm or malnourished populations.
 
 ## What Remains Uncertain

@@ -39,6 +39,8 @@ There is no universal effect size. The unit is exposure × window × process × 
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (embryological organogenesis windows, not an observational population phenotype association).
+
 Model-system translation; sparse direct human observation of early embryos; dating error; selection into ART and clinical series.
 
 ## What Remains Uncertain

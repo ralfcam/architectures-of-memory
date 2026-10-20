@@ -39,6 +39,8 @@ No portable effect size for “more joint attention” as an intervention in typ
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (developmental interaction construct, not an observational population phenotype association).
+
 Infant characteristics, caregiver behavior, language environment, and measurement (responding vs initiating) all enter the score. Autism-related joint-attention findings are a clinical literature; they do not describe ordinary missed looks.
 
 ## What Remains Uncertain

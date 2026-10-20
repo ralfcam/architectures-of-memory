@@ -39,6 +39,8 @@ FASD persistence is often substantial. Unmeasured low-level exposure does not in
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (teratological toxicology, not an observational population phenotype association).
+
 Exposure under-report; polysubstance use; SES and nutrition; stigma; diagnostic substitution.
 
 ## What Remains Uncertain

@@ -37,7 +37,7 @@ In the mobile-conjugate-reinforcement paradigm, a ribbon links an infant’s ank
 
 ## Evidence and Causal Assessment
 
-Rovee & Rovee (1969) established conjugate reinforcement of infant kicking. Subsequent work, summarized in methods papers (e.g. Merz et al. 2017) and a 2025 review of the last quarter-century, treats the paradigm as a reliable laboratory measure of learning and memory: speed of acquisition and length of retention increase with age; reminders can reactivate a forgotten response, often with high context specificity. Incomplete processing parameters and the later turn toward individual differences and agency do not block the *narrow* High claim that the contingency can be acquired and retained under matching conditions — the same split as Saffran laboratory segmentation versus household transfer. GI: **n/a**.
+Rovee & Rovee (1969) established conjugate reinforcement of infant kicking. Subsequent work, summarized in methods papers (e.g. Merz et al. 2017) and a 2025 review of the last quarter-century, treats the paradigm as a reliable laboratory measure of learning and memory: speed of acquisition and length of retention increase with age; reminders can reactivate a forgotten response, often with high context specificity. Incomplete processing parameters and the later turn toward individual differences and agency do not block the *narrow* High claim that the contingency can be acquired and retained under matching conditions — the same split as Saffran laboratory segmentation versus household transfer. GI attenuation: **n/a** (laboratory operant conditioning / phonetic attunement, not an observational population phenotype association).
 
 ## Effect Size and Persistence
 

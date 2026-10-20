@@ -39,7 +39,9 @@ Many associations are small in cross-lagged analyses. Consistency of direction a
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: not classified as a sibling/adoption package here. Cultural normativeness may moderate, but does not convert spanking into a developmental requirement.
+GI attenuation: **partially confounded (20–50%)** (child aggressive temperament evokes parental harshness; twin-differences models show persistent negative associations after genetic control).
+
+Cultural normativeness may moderate, but does not convert spanking into a developmental requirement.
 
 ## What Remains Uncertain
 

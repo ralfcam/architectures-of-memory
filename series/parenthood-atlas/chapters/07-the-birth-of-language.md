@@ -216,7 +216,7 @@ It does not tell us how extrafamilial worlds will reshape opportunity. That is l
 
 ## Science, Interpretation, Art
 
-**Science** here is the High-grade laboratory facts of perceptual attunement and statistical segmentation (the latter `stable` for the lab claim only); the Moderate claims about prenatal preference, turns as a predictor, parent-implemented expressive vocabulary under protocol, and dual-language trajectories; and the Low status of transfer, turn-count causation, screen-as-unitary-harm, and grammatical theory choice.
+**Science** here is the High-grade laboratory facts of perceptual attunement, statistical segmentation (both `stable` for the narrow lab claim), and dual-language no-confusion (`dual-language-does-not-confuse.md`, `status: stable` for that narrow milestone claim); the Moderate claims about prenatal preference (`prenatal-auditory-learning.md`, `status: stable` for sensory encoding), turns as a predictor, parent-implemented expressive vocabulary under protocol, and dual-language trajectories; and the Low status of transfer, turn-count causation, screen-as-unitary-harm, and grammatical theory choice.
 
 **Interpretation** is the habit of keeping those facts from becoming a story about the kind of speaker the child will be, or the kind of tutor the parent must become. It is also the habit of matching verbs to grades: *shows* where the grade is High, *suggests* where it is Moderate, *is associated with* where it is Low.
 

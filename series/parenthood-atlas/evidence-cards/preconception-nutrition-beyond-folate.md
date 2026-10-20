@@ -39,7 +39,9 @@ Folate’s NTD risk reduction is large and already graded High/`stable`. Other r
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: not classified. Baseline deficiency determines marginal benefit. Trials in deficient populations do not license supplements in replete ones. Observational diet–IQ links mix education, income, and health care.
+GI attenuation: **n/a** (nutritional epidemiology and trials, not an observational population phenotype).
+
+Baseline deficiency determines marginal benefit. Trials in deficient populations do not license supplements in replete ones. Observational diet–IQ links mix education, income, and health care.
 
 ## What Remains Uncertain
 

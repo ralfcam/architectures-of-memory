@@ -49,6 +49,8 @@ Effects are consistently small-to-modest. Both the quality-language link and the
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **largely confounded (>50%)** (childcare quality associations attenuate when family selection and maternal characteristics are controlled).
+
 This is a large observational cohort, not randomized; families were not randomly assigned to care types or quality levels, so selection (e.g., higher-SES/higher-investment families choosing higher-quality care) is a plausible confounder not fully addressed by covariate adjustment. No genetically informed replication identified for this literature.
 
 ## What Remains Uncertain

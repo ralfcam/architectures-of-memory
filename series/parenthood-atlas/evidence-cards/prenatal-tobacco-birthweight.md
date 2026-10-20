@@ -39,6 +39,8 @@ Birthweight deficits are typically on the order of 150–250 g for active smokin
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **partially confounded (20–50%)** (maternal smoking during pregnancy shows partial attenuation in sibling and Mendelian randomization studies).
+
 SES, co-exposures, partner smoking, nutrition, residual confounding. Genetically informed designs for this specific path were not in the Chapter 2 dossier.
 
 ## What Remains Uncertain

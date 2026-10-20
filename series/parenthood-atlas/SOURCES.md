@@ -71,7 +71,7 @@ sources:
     resource: https://doi.org/10.1016/0163-6383(86)90025-1
     title: "DeCasper & Spence (1986), prenatal maternal speech and newborn preference"
   - id: partanen-2013
-    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/
+    resource: https://doi.org/10.1073/pnas.1302159110
     title: "Partanen et al. (2013), PNAS, neural memory traces of prenatal sound exposure"
   - id: deregil-2015-cochrane
     resource: https://doi.org/10.1002/14651858.CD007950.pub3
@@ -379,6 +379,15 @@ sources:
   - id: mindell-2009-bedtime-routine
     resource: https://doi.org/10.1093/sleep/32.5.599
     title: "Mindell et al. (2009), Sleep, nightly bedtime routine RCT and young child sleep"
+  - id: barr-1996-deferred
+    resource: https://doi.org/10.1016/s0163-6383(96)90015-6
+    title: "Barr, Dowden & Hayne (1996), Infant Behavior and Development, deferred imitation across 6- to 24-month-olds"
+  - id: jonsson-2017-mutations
+    resource: https://doi.org/10.1038/nature24018
+    title: "Jónsson et al. (2017), Nature, parental influence on de novo mutations in 1,548 trios"
+  - id: byers-heinlein-2010-bilingual
+    resource: https://doi.org/10.1177/0956797609360758
+    title: "Byers-Heinlein, Burns & Werker (2010), Psychological Science, roots of bilingualism in newborns"
 ---
 
 # Master Source Catalog
@@ -427,7 +436,7 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `watts-2018-sage` | Watts, Duncan & Quan (2018), Psychological Science | [https://journals.sagepub.com/doi/10.1177/0956797618761661](https://journals.sagepub.com/doi/10.1177/0956797618761661) | [self-regulation-delay-of-gratification](evidence-cards/self-regulation-delay-of-gratification.md) |
 | `preschool-scale-synthesis` | Are Preschool Programs Becoming Less Effective? (ERIC; journal version 10.1002/pam.70031) | [https://doi.org/10.1002/pam.70031](https://doi.org/10.1002/pam.70031) | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
 | `decasper-spence-1986` | DeCasper & Spence (1986), prenatal maternal speech and newborn preference | [https://doi.org/10.1016/0163-6383(86)90025-1](https://doi.org/10.1016/0163-6383(86)90025-1) | [prenatal-auditory-learning](evidence-cards/prenatal-auditory-learning.md) |
-| `partanen-2013` | Partanen et al. (2013), PNAS, neural memory traces of prenatal sound | [https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/) | [prenatal-auditory-learning](evidence-cards/prenatal-auditory-learning.md) |
+| `partanen-2013` | Partanen et al. (2013), PNAS, neural memory traces of prenatal sound | [https://doi.org/10.1073/pnas.1302159110](https://doi.org/10.1073/pnas.1302159110) | [prenatal-auditory-learning](evidence-cards/prenatal-auditory-learning.md) |
 | `deregil-2015-cochrane` | De-Regil et al. (2015), Cochrane periconceptional folate review | [https://doi.org/10.1002/14651858.CD007950.pub3](https://doi.org/10.1002/14651858.CD007950.pub3) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) (`stable` NTD claim) |
 | `mrc-ntd-1991` | MRC Vitamin Study Research Group (1991), Lancet NTD trial | [https://doi.org/10.1016/0140-6736(91)90133-A](https://doi.org/10.1016/0140-6736(91)90133-A) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) (`stable` NTD claim) |
 | `who-anc-2016` | WHO (2016) ANC recommendations; ISBN 9789241549912; IRIS 10665/250796; no Crossref DOI | [https://iris.who.int/handle/10665/250796](https://iris.who.int/handle/10665/250796) | Framework only; demoted from `prenatal-folate-ntd` identification 2026-09-16 |
@@ -530,6 +539,9 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `zelazo-2006-dccs` | Zelazo (2006), Nature Protocols, Dimensional Change Card Sort method for EF | [https://doi.org/10.1038/nprot.2006.46](https://doi.org/10.1038/nprot.2006.46) | [working-memory-cognitive-shifting-infancy](evidence-cards/working-memory-cognitive-shifting-infancy.md) |
 | `fiese-2002-family-routines` | Fiese et al. (2002), Journal of Family Psychology, 50-year review of family routines | [https://doi.org/10.1037/0893-3200.16.4.381](https://doi.org/10.1037/0893-3200.16.4.381) | [routines-and-adult-modeling](evidence-cards/routines-and-adult-modeling.md) |
 | `mindell-2009-bedtime-routine` | Mindell et al. (2009), Sleep, nightly bedtime routine RCT and young child sleep | [https://doi.org/10.1093/sleep/32.5.599](https://doi.org/10.1093/sleep/32.5.599) | [routines-and-adult-modeling](evidence-cards/routines-and-adult-modeling.md) |
+| `barr-1996-deferred` | Barr, Dowden & Hayne (1996), Infant Behavior and Development, deferred imitation across 6- to 24-month-olds | [https://doi.org/10.1016/s0163-6383(96)90015-6](https://doi.org/10.1016/s0163-6383(96)90015-6) | [deferred-imitation](evidence-cards/deferred-imitation.md) |
+| `jonsson-2017-mutations` | Jónsson et al. (2017), Nature, parental influence on de novo mutations in 1,548 trios | [https://doi.org/10.1038/nature24018](https://doi.org/10.1038/nature24018) | [paternal-age-de-novo-mutations](evidence-cards/paternal-age-de-novo-mutations.md) |
+| `byers-heinlein-2010-bilingual` | Byers-Heinlein, Burns & Werker (2010), Psychological Science, roots of bilingualism in newborns | [https://doi.org/10.1177/0956797609360758](https://doi.org/10.1177/0956797609360758) | [dual-language-does-not-confuse](evidence-cards/dual-language-does-not-confuse.md) |
 
 ## Unresolved Citations
 

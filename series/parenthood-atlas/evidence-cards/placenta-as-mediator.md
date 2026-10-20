@@ -42,6 +42,8 @@ A placental enzyme level or weight is contemporaneous physiology. Lasting impair
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (biological placental transport physiology, not an observational population phenotype association).
+
 Placenta sampled at birth; reverse causation; maternal–fetal genotype; over-translation of programming animal models.
 
 ## What Remains Uncertain

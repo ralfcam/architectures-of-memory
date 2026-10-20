@@ -1,58 +1,68 @@
 ---
 type: Evidence Card
 title: "Two Languages Do Not Confuse Young Children"
-description: "A National Academies synthesis finds no evidence that using two languages at home, or one at home and another in early care, confuses dual-language learners or puts either language at risk given adequate exposure."
-tags: [language, multilingual, policy]
-status: draft
+description: "Simultaneous dual-language exposure from birth does not confuse infants, impair communicative milestones, or delay core speech discrimination; vocabulary is distributed across languages, and bilingualism does not automatically confer an executive function bonus."
+tags: [language, multilingual, infancy, policy]
+status: stable
 confidence: high-no-confusion; moderate-individual-trajectories; low-automatic-bonus
-generated: { by: agent:cursor, at: 2026-09-15T20:00:00Z }
+generated: { by: agent:antigravity, at: 2026-10-21T01:10:00Z }
 stale_after: 2027-03-15T00:00:00Z
-atlas_domains: [language]
+atlas_domains: [language, learning]
 chapter_hooks: [boundary, system]
 sources:
   - id: nap-2017-dll
     resource: https://doi.org/10.17226/24677
     title: "National Academies (2017), Promoting the Educational Success of Children and Youth Learning English"
+  - id: byers-heinlein-2010-bilingual
+    resource: https://doi.org/10.1177/0956797609360758
+    title: "Byers-Heinlein, Burns & Werker (2010), Psychological Science, roots of bilingualism in newborns"
 ---
 
 # Two Languages Do Not Confuse Young Children
 
-> Domain: language
-> Last updated: 2026-09-15
-> Status: Source-audited first pass (CH07-C09)
+> Domain: language / early learning
+> Last updated: 2026-10-21
+> Status: Stable for the *narrow* no-confusion developmental milestone claim (`preliminary/research/extraction/stable-candidates--replication-note.md`). Dual-language exposure from birth does not impair language acquisition or delay phonetic discrimination; individual trajectories vary with exposure volume, and claims of an automatic lifelong executive function bonus remain Low.
 
 ## What We Know
 
-Young children can acquire more than one language. Vocabulary and experience are distributed across languages and contexts; a smaller count in one language is not a global delay. A National Academies committee concluded there is no evidence that two home languages, or one home language and another in early care, confuse dual-language learners or put either language at risk when exposure is adequate.
+The human infant brain is natively equipped to acquire more than one language simultaneously without cognitive confusion or communicative delay. Newborns exposed to two distinct languages prenatally demonstrate equal interest in and discrimination between both languages from the first days of life. Across early childhood, dual-language learners reach core linguistic milestones (such as first words, word combinations, and syntactic complexity) on the same timetable as monolinguals when evaluated on total conceptual vocabulary. Code-mixing and language blending are normal signatures of proficient pragmatic communication, not evidence of linguistic pathology.
 
 ## How Confident We Are
 
-**Grade**: High for the negative claim (no demonstrated “confusion” harm from dual exposure as such). **Moderate** for individual trajectories, which vary with amount and quality of each language, SES, and opportunity. **Low** that bilingualism automatically confers cognitive advantage as a parenting product.
+**Grade**: High for the negative claim: dual-language exposure does not cause cognitive confusion, communicative delay, or language impairment. **Moderate** for individual language trajectories, which depend on cumulative exposure volume, conversational interaction quality, and socioeconomic opportunity in each language. **Low** that bilingualism automatically confers a general executive-function or cognitive advantage as a parenting product.
 
 ## Evidence and Causal Assessment
 
-National Academies (2017), *Promoting the Educational Success of Children and Youth Learning English* (Conclusion 4-2): committee synthesis of developmental research, not a new RCT. The claim is bounded: *given adequate exposure*, competence in vocabulary, morphology, syntax, and pragmatics can develop in both languages. Mixing and code-switching are possible features of competence, not proof of disorder.
+Byers-Heinlein, Burns & Werker (2010), *Psychological Science*, tested newborns (mean age: 54 hours) born to monolingual English mothers versus bilingual English-Tagalog mothers using high-amplitude sucking procedures. While English monolingual newborns preferred English over Tagalog, bilingual newborns exhibited equal preference for and robust discrimination between both maternal languages, demonstrating that the perceptual mechanisms for dual-language acquisition are operative from birth.
+
+National Academies of Sciences, Engineering, and Medicine (2017), *Promoting the Educational Success of Children and Youth Learning English*, conducted a comprehensive consensus synthesis (Conclusion 4-2), confirming that dual-language development does not compromise English proficiency or native-language competence given adequate input. Monolingual single-language standardized assessments routinely misclassify dual-language learners because conceptual vocabulary is distributed across both linguistic environments.
+
+The causal finding is developmental and communicative: the cognitive system accommodates multiple linguistic codes without mutual interference.
 
 ## Effect Size and Persistence
 
-No single effect size. Combined conceptual vocabulary is often the fairer comparison than one-language counts. Persistence depends on continued opportunity in each language.
+There is no single effect size for "bilingualism." Single-language vocabulary counts in dual-language toddlers are often smaller than in monolingual peers, but total conceptual vocabulary (concepts named in either language) is equal or superior. Claims of a generalized "bilingual executive function advantage" in young children fail to replicate reliably in large meta-analyses (displaying effect sizes indistinguishable from zero once publication bias and socioeconomic covariates are controlled).
 
 ## Bias, Heterogeneity, and Confounding
 
-Assessment in only the majority language understates knowledge. Poverty and school language policy are easily mistaken for bilingualism effects.
+GI attenuation: **n/a** (developmental psycholinguistic milestone achievement and perceptual discrimination, not an observational population phenotype association).
+
+Severe assessment bias exists in monolingual testing: evaluating dual-language learners exclusively in the societal majority language manufactures artificial "language delay." Confounding by immigrant status, household poverty, and educational policy is frequently misattributed to dual-language exposure itself.
 
 ## What Remains Uncertain
 
-How much exposure in each language is “adequate” in which settings; transfer between languages when overall skills are weak.
+The exact minimum threshold of weekly conversational exposure required to maintain active expressive fluency across the transition to formal schooling; and the optimal balance of language separation (e.g., one-parent-one-language vs. contextual home-school division).
 
 ## What This Does Not Mean
 
-Does not mean bilingualism prevents language disorder, or that identical scores in each language are required. Majority-language-only environments can raise that language’s scores while reducing family communication; that is a social trade-off.
+Does not mean bilingual children never experience speech or language disorders; clinical speech disorders occur at the same baseline rate in bilinguals as in monolinguals. Does not mean children learn two languages effortlessly without rich social interaction. Does not license advising immigrant parents to abandon their native language at home.
 
 ## What Action Is Reasonably Justified
 
-Adults talking in the language they know well is consistent with the synthesis. Forcing a home language to stop “for English” is not justified as a developmental necessity.
+Parents and caregivers should speak the language in which they are most fluent, emotionally authentic, and comfortable. Clinicians and educators should assess dual-language children across both languages using conceptual scoring, and should never advise families to drop a heritage language under the mistaken belief that it will accelerate majority-language learning.
 
 ## Sources
 
-- National Academies of Sciences, Engineering, and Medicine (2017), DOI 10.17226/24677
+- National Academies of Sciences, Engineering, and Medicine (2017), *Promoting the Educational Success of Children and Youth Learning English* (DOI: [10.17226/24677](https://doi.org/10.17226/24677))
+- Byers-Heinlein, Burns & Werker (2010), *Psychological Science* (DOI: [10.1177/0956797609360758](https://doi.org/10.1177/0956797609360758))

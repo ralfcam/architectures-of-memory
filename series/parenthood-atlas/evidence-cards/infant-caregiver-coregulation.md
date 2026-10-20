@@ -42,6 +42,8 @@ There is no single effect size for “co-regulation.” Immediate changes in aro
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (bidirectional dynamic interaction framework, not an observational dosage law).
+
 Infant distress can move caregiver physiology (child-to-parent effects). Matching can be engagement, recovery, or stress contagion depending on timing and system. Material conditions (leave, housing, health services) enable or constrain responsiveness; treating the parent as a sole exposure is a specification error.
 
 ## What Remains Uncertain

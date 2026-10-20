@@ -39,6 +39,8 @@ Most children reduce physical aggression after the toddler peak. Persistence is 
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **partially confounded (20–50%)** (early physical aggression is moderately heritable with environmental moderation across typical cohorts).
+
 Parent-report and observer measures differ. Sexed rating biases, socioeconomic stress, sleep, disability, and exposure to violence are intertwined with caregiver responses.
 
 ## What Remains Uncertain

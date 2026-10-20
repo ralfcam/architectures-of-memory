@@ -42,6 +42,8 @@ Primary outcomes are contemporaneous. Later associations, where present, are sma
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (fetal cardiac electrophysiology, not an observational population phenotype association).
+
 Indirect measurement; fetal state and maternal movement; publication bias toward striking findings; IUGR as a clinical, not typical, contrast.
 
 ## What Remains Uncertain

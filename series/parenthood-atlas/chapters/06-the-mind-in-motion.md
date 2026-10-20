@@ -168,7 +168,7 @@ It does not tell us that a laboratory contingency is an intervention program. Co
 
 ## Science, Interpretation, Art
 
-**Science** here is the High-grade laboratory fact that infants can learn action–outcome relations (`infant-contingency-learning.md`; `status: stable` for that narrow claim); the Moderate claims that embodiment, surprise-driven exploration, and physical-reasoning tasks reorganize looking and action (`embodied-perception-action.md`, `exploration-as-sampling.md`, `infant-physical-reasoning.md`); High-grade deferred imitation at 14 months after a week (`deferred-imitation.md`, still `draft`); and the Low status of transfer, adult-like cause, milestone ranking, and lifelong forecast.
+**Science** here is the High-grade laboratory fact that infants can learn action–outcome relations (`infant-contingency-learning.md`; `status: stable` for that narrow claim); the Moderate claims that embodiment, surprise-driven exploration, and physical-reasoning tasks reorganize looking and action (`embodied-perception-action.md`, `exploration-as-sampling.md`, `infant-physical-reasoning.md`); High-grade deferred imitation at 14 months after a week (`deferred-imitation.md`, `status: stable` for that narrow lab recall claim); and the Low status of transfer, adult-like cause, milestone ranking, and lifelong forecast.
 
 **Interpretation** is the habit of keeping those facts from becoming a story about the kind of person the child will be, or the kind of teacher the parent must become. It is also the habit of matching verbs to grades: *shows* where the grade is High, *suggests* where it is Moderate, *is associated with* where it is Low.
 

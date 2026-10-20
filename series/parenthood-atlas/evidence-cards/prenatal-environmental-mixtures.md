@@ -39,6 +39,8 @@ Placental weight shifts are small relative to clinical pathology. Child neurodev
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (environmental toxicological biomarker study, not an observational population phenotype association).
+
 SES and housing; multiple-exposure; sex interaction; mechanism-to-outcome leap; single-cohort replication still thin.
 
 ## What Remains Uncertain

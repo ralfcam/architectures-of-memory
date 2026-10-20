@@ -20,6 +20,12 @@ Entry types:
 - Catalog expanded to **72** live cards (8 `stable`, 64 `draft`); **124** verified `SOURCES.md` IDs. Chapters 3, 10, 11, and 12 linked and synchronized. Closes Linear issue `ARC-50`.
 
 ### Revised
+- Promoted **four** additional narrow claims to `status: stable` under the OKF v0.2 Five-Rule Gate:
+  - `prenatal-auditory-learning.md` (narrow sensory encoding): DeCasper & Spence 1986 / Partanen 2013 PNAS; late-pregnancy speech shapes newborn preference and neonatal ERP memory traces.
+  - `deferred-imitation.md` (narrow laboratory recall memory): Meltzoff 1988 / Barr, Dowden & Hayne 1996; 14-month multi-step imitation after up to one-week delay.
+  - `paternal-age-de-novo-mutations.md` (narrow biological mutation rate): Kong 2012 Nature / Jónsson 2017 Nature (1,548 trios); ~1.5 de novo mutations/year of father's age.
+  - `dual-language-does-not-confuse.md` (narrow no-confusion milestone claim): NAP 2017 / Byers-Heinlein, Burns & Werker 2010; simultaneous dual exposure does not impair language milestones or cause communicative delay.
+- Catalog-wide GI attenuation backfill across all 72 live evidence cards: 100% of cards now feature explicit, context-calibrated classifications (`largely confounded (>50%)`, `partially confounded (20–50%)`, `robust (<20%)`, `untested-in-GI`, or `n/a`). Catalog now contains **12 `stable`** and **60 `draft`** cards across **127** verified sources in `SOURCES.md` and `sources.bib`. Closes Linear issue `ARC-51`.
 - Promoted `looking-time-as-measurement.md` from `draft` to `status: stable` under the OKF v0.2 Five-Rule Promotion Gate for the *narrow* methodological measurement claim: infant looking-time methods reliably index perceptual discrimination, stimulus novelty, and attentional allocation under controlled conditions; looking duration is not a transparent readout of rich conceptual knowledge, belief, or innate theories. Triangulated Aslin 2007 (linking-hypothesis logic) with Haith 1998 (critique of perceptual confounding in nativist infant cognition) and ManyBabies Consortium / Frank et al. 2020 (empirical multi-lab measurement dynamics across 2,329 infants and 67 laboratories; DOI 10.1177/2515245919900809). Catalog is now 68 cards (8 `stable`; 60 `draft`); 116 verified `SOURCES.md` IDs. Closes Linear issue `ARC-52`.
 
 ### Structure

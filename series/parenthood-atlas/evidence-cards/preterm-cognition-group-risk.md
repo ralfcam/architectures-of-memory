@@ -39,6 +39,8 @@ SMD ≈ −0.57 is an average. Moderate-to-late preterm cohorts do not show the 
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (clinical cohort meta-analysis of gestational age, not an observational parenting phenotype).
+
 Survival/referral bias; historical treatment change; confounding by indication; attrition. Corrected age matters in early assessment (clinical follow-up guidance such as NICE NG72 is adjacent policy, not this card’s identification).
 
 ## What Remains Uncertain

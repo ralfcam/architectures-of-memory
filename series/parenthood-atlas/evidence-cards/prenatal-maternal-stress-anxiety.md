@@ -49,6 +49,8 @@ Observational associations are small-to-moderate; genetically informed estimates
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **largely confounded (>50%)** (typical-range maternal prenatal stress associations largely attenuate under sibling and children-of-twins designs).
+
 **Largely confounded (>50%)** for prenatal-specific associations across multiple independent genetically informed designs and cohorts (Norway, UK, other Nordic/twin registries). Genetic transmission and shared family environment are the dominant alternative explanations. Concurrent/postnatal parental anxiety shows less attenuation and may reflect a partially independent pathway.
 
 ## What Remains Uncertain

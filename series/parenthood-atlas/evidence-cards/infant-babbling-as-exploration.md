@@ -42,6 +42,8 @@ The screening result is a group difference in later production vocabulary. It is
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (observational clinical screening of vocal milestones, not an observational parenting exposure).
+
 Hearing impairment, motor difference, and illness can delay canonical babbling; those pathways are not typical-home intelligence. Parent report is usable for screening, not acoustic verification. Genetically informed attenuation: **n/a**.
 
 ## What Remains Uncertain

@@ -39,7 +39,9 @@ Helping rates are high for some out-of-reach tasks and lower for others. Persist
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: not classified. Experimenter presence, task familiarity, and cultural expectations about assisting adults are live threats. Samples are modest and Western.
+GI attenuation: **n/a** (laboratory behavioral task, not an observational population phenotype association).
+
+Experimenter presence, task familiarity, and cultural expectations about assisting adults are live threats. Samples are modest and Western.
 
 ## What Remains Uncertain
 

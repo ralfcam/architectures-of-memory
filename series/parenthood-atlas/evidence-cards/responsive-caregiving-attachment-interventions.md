@@ -45,6 +45,8 @@ Sensitivity change: d~0.33-0.58 (medium). Attachment security change: d~0.17-0.2
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (randomized sensitivity intervention trials, not an observational population phenotype).
+
 Moderator analyses consistently show shorter, more behaviorally focused interventions outperform longer/more clinical ones. Effectiveness in multi-problem/high-risk families appears comparable to lower-risk families, suggesting some scalability, but effectiveness trials and cross-cultural replication outside Western/high-income settings are less represented.
 
 ## What Remains Uncertain

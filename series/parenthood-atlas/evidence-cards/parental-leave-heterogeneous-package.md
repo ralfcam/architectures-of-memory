@@ -39,7 +39,9 @@ Long-run education and earnings effects are the identification. Near-term infant
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: not classified. Eligibility, wage replacement, duration, and which parent stays home vary across countries. A night shift and a salaried leave are not one exposure. Selection into take-up remains a threat where leave is not universal.
+GI attenuation: **n/a** (policy natural experiment / reform evaluation, not an observational family phenotype).
+
+Eligibility, wage replacement, duration, and which parent stays home vary across countries. A night shift and a salaried leave are not one exposure. Selection into take-up remains a threat where leave is not universal.
 
 ## What Remains Uncertain
 

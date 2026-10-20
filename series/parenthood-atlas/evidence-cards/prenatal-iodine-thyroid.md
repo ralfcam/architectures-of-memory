@@ -42,6 +42,8 @@ Severe deficiency: large, lasting neurological injury. Mild deficiency: smaller 
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (severe deficiency epidemiology and endocrine physiology, not an observational population phenotype association).
+
 Population iodine status; over-translation of endemic data to replete settings; confounding of mild hypothyroxinemia with other pregnancy risks.
 
 ## What Remains Uncertain

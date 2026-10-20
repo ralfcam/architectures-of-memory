@@ -42,6 +42,8 @@ Report the infant EEG effect separately from the age-four nulls. Do not infer th
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (randomized controlled cash transfer trial, not an observational parenting phenotype).
+
 Effects may depend on transfer size, duration, baseline deprivation, local prices, and other services. The trial does not estimate broader anti-poverty packages.
 
 ## What Remains Uncertain

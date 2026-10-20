@@ -39,7 +39,9 @@ Odds ratios in the meta-analysis are meaningful at the group level and heterogen
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: not classified here. Shared method variance (parent report of both inhibition and later anxiety) is a live threat. Reduced exposure to novelty can maintain both the marker and the outcome.
+GI attenuation: **partially confounded (20–50%)** (behavioral inhibition is a moderately heritable phenotype with shared genetic liability for social anxiety; individual risk forecasts are not deterministic).
+
+Shared method variance (parent report of both inhibition and later anxiety) is a live threat. Reduced exposure to novelty can maintain both the marker and the outcome.
 
 ## What Remains Uncertain
 

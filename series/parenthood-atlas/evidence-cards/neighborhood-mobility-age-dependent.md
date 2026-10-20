@@ -39,6 +39,8 @@ The headline MTO estimate for young movers is about 35% higher individual earnin
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (randomized housing voucher experiment, not an observational parenting phenotype).
+
 Age at move, disruption, take-up, school and peer environments, and pollution all matter. Neighborhood effects in the broader observational literature are typically modest.
 
 ## What Remains Uncertain

@@ -39,6 +39,8 @@ No portable effect size for “better attention” as a developmental interventi
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (attentional function review, not an observational population phenotype association).
+
 Arousal, hunger, fatigue, distress, overstimulation, and posture alter looking. Parent-report “inattentive” and laboratory look duration are not the same construct. Prediction from early looking to later scores is not determination.
 
 ## What Remains Uncertain

@@ -39,6 +39,8 @@ Distinguish percentile difference, functional difference, and impairment. Dating
 
 ## Bias, Heterogeneity, and Confounding
 
+GI attenuation: **n/a** (normative anthropometric measurement standard, not an observational exposure).
+
 Low-risk INTERGROWTH sample is prescriptive, not a census of all fetuses; collider/selection if only small babies are followed; postnatal nutrition.
 
 ## What Remains Uncertain
