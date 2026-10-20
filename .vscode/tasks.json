@@ -99,6 +99,18 @@
         "cwd": "${workspaceFolder}"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Marketing Intelligence & Topic Scorecard (all series)",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "scripts/marketing_intelligence.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
     }
   ],
   "inputs": [

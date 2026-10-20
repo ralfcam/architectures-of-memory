@@ -1,4 +1,4 @@
-schema_version: "1.0"
+schema_version: "1.1"
 imprint: "Realized Press"
 series_id: "architectures-of-memory"
 title: "The Architectures of Memory"
@@ -21,6 +21,24 @@ epistemic_contract:
       label: "Philosophical"
       focus: "Identity, duration, testimony, and the ethics of forgetting"
   target_chapter_words: [1100, 2500]
+marketing_intelligence:
+  target_personas:
+    - "AI/ML Engineers, Staff Architects, and CTOs building long-context LLMs, RAG pipelines, and institutional knowledge systems"
+    - "Engineering Leaders, GRC/Compliance Directors, and Organizational Designers diagnosing post-reorg amnesia and documentation rot"
+    - "Readers of serious interdisciplinary nonfiction (Hofstadter, Gleick, Christian & Griffiths) seeking mathematical honesty without textbook dryness"
+  high_intent_topic_clusters:
+    - "Why long-context LLMs still lose information in the middle (Lost in the Middle / attention dilution)"
+    - "How recurrent neural networks, LSTMs, and Transformers trade off compression vs. random-access retrieval"
+    - "Why corporate wikis, runbooks, and compliance audits fail to preserve institutional memory across reorgs"
+    - "Machine unlearning, differential privacy, and GDPR right-to-be-forgotten in foundation models"
+  comp_title_gaps:
+    - "AI history books (e.g., *Genius Makers*) tell biographical stories without deriving the underlying mathematical theorems (vanishing gradients, constant error carousels, softmax routing)."
+    - "Management books on 'organizational learning' rely on unverified case-study anecdotes rather than information-theoretic and architectural mechanisms."
+    - "Technical deep-learning textbooks omit the organizational and philosophical consequences of how memory and forgetting are engineered."
+  telemetry_signals:
+    - "Owned marketing site OKF Evidence Brief downloads & search queries per topic cluster"
+    - "OpenAlex/Crossref citation velocity on long-context, RAG, and machine-unlearning benchmarks"
+    - "Reader Edition beta completion & highlight density by lens (Technical vs. Organizational vs. Philosophical)"
 monetization:
   kdp:
     role: "initial-release-channel-and-expansion-blueprint"
@@ -34,6 +52,14 @@ monetization:
       - "COM004000" # Computers / Intelligence (AI) & Semantics
       - "BUS041000" # Business & Economics / Knowledge Capital
       - "PHI015000" # Philosophy / Mind & Body
+    backend_keywords:
+      - "artificial intelligence memory neural networks"
+      - "deep learning history transformer attention llm"
+      - "organizational memory knowledge management reorg"
+      - "philosophy of mind identity forgetting bergson"
+      - "machine unlearning differential privacy ai ethics"
+      - "retrieval augmented generation context window rag"
+      - "vanishing gradient lstm hochreiter schmidhuber"
   owned_marketing_site:
     blueprint: "patreon-serial-membership-model"
     role: "internally-developed-marketing-and-serial-portal"

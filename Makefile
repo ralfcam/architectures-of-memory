@@ -21,7 +21,7 @@ PrefixArg = $(if $(strip $(PREFIX)),--prefix $(strip $(PREFIX)),)
 ChapterArg = $(if $(strip $(CHAPTER)),--chapter $(strip $(CHAPTER)),)
 NewBookArg = $(if $(strip $(NEW_BOOK)),--book $(strip $(NEW_BOOK)),)
 
-.PHONY: merge merge-audiobook merge-both audit audit-gemini audit-all five-rule five-rule-online five-rule-all pdf kdp epub sync-sources audiobook-dry-run audiobook-tts new-series
+.PHONY: merge merge-audiobook merge-both audit audit-gemini audit-all five-rule five-rule-online five-rule-all pdf kdp epub sync-sources audiobook-dry-run audiobook-tts new-series market-intel
 
 merge:
 	$(PYTHON) scripts/merge_book_chapters.py $(BOOK) $(PrefixArg)
@@ -75,3 +75,6 @@ audiobook-tts:
 
 new-series:
 	$(PYTHON) scripts/init_series.py --series $(SERIES) --title "$(TITLE)" --lenses "$(LENSES)" $(NewBookArg)
+
+market-intel:
+	$(PYTHON) scripts/marketing_intelligence.py $(if $(strip $(SERIES)),--series $(strip $(SERIES)),)

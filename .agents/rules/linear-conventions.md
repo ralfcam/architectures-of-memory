@@ -14,6 +14,7 @@ description: Linear team, project, milestone, and git branch conventions for bot
   - **Pillar 1 — KDP Launch Channel & Owned Marketing/Serial Site:** `11633e7c-51be-4b14-bfbd-5574f5af65c2`
   - **Pillar 2 — Book Writing Environment (BWE) Software & Agentic Harness:** `f87ccfa9-55a1-4124-ace0-6f514e001ead`
   - **Pillar 3 — Plug-and-Play Multi-Series Extensibility (`series/<slug>/`):** `beac3251-0a47-4546-9603-a30c9037a64e`
+  - **Pillar 4 — Marketing Intelligence & Data-Driven Topic Selection:** `4ac18540-c439-42d0-a29d-fbd13d4d17dc`
 
 ## Series 1: `Architectures of Memory — Series` (`P-ARC-8`)
 - **Project ID:** `3cae0985-8124-4f85-a959-6216cb041c81`

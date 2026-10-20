@@ -1,4 +1,4 @@
-schema_version: "1.0"
+schema_version: "1.1"
 imprint: "Realized Press"
 series_id: "parenthood-atlas"
 title: "Parenthood: The Atlas"
@@ -21,6 +21,24 @@ epistemic_contract:
       label: "Art"
       focus: "Parental judgment, values, individuality, and lived human meaning"
   target_chapter_words: [2500, 4000]
+marketing_intelligence:
+  target_personas:
+    - "Evidence-minded expectant and new parents (0–36 months) frustrated by contradictory parenting dogma and ungraded pop-science claims"
+    - "Pediatricians, developmental psychologists, early-childhood educators, and family therapists seeking a causally graded reference"
+    - "Readers of Emily Oster (*Cribsheet*) and Alison Gopnik (*The Gardener and the Carpenter*) who want explicit genetic-confounding and replication audits"
+  high_intent_topic_clusters:
+    - "Infant sleep training, cortisol myths, and behavioral sleep interventions vs. attachment security"
+    - "Breastfeeding vs. sibling-comparison / PROBIT randomized evidence (separating true causal effects from socioeconomic confounding)"
+    - "Screen time, conversational turns (LENA), and shared book-reading effects after controlling for family genetics"
+    - "Daycare / non-maternal care (NICHD SECCYD), temperament differential susceptibility, and dyadic co-regulation"
+  comp_title_gaps:
+    - "Ideological parenting books overstate correlational cohort studies as deterministic prescriptions, inducing unnecessary parental guilt."
+    - "Existing data-driven parenting guides rarely separate genetically-informed (sibling/twin/adoption) estimates from unadjusted observational correlations."
+    - "Academic developmental psychology handbooks lack a humane synthesis of Science, Systems Interpretation, and the Art of individual parental judgment."
+  telemetry_signals:
+    - "Owned marketing site search volume & conversion rate on myth-busting Public Evidence Briefs (sleep, feeding, screens, childcare)"
+    - "Reader Edition 0.1 parent/clinician cohort feedback scores across chapters 01–15"
+    - "Crossref/OpenAlex retraction and replication alerts across the 114 tracked developmental sources"
 monetization:
   kdp:
     role: "initial-release-channel-and-expansion-blueprint"
@@ -34,6 +52,14 @@ monetization:
       - "FAM034000" # Family & Relationships / Parenting / General
       - "PSY004000" # Psychology / Developmental / Child
       - "SCI049000" # Science / Life Sciences / Developmental Biology
+    backend_keywords:
+      - "evidence based parenting baby toddler first years"
+      - "child development neuroscience attachment sleep"
+      - "pregnancy prenatal fetal origins infant brain"
+      - "science of parenting crib sheet developmental"
+      - "toddler emotional regulation executive function"
+      - "language acquisition play Montessori guided play"
+      - "behavioral genetics twin studies parenting book"
   owned_marketing_site:
     blueprint: "patreon-serial-membership-model"
     role: "internally-developed-marketing-and-serial-portal"

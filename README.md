@@ -5,6 +5,7 @@
 1. **Book Monetization & Owned Marketing Engine:** Compiles verified manuscripts directly into **Amazon KDP** assets (**6"×9" Print-on-Demand PDF** with mirrored gutter margins, **Kindle EPUB 3**, and **Gemini TTS Audiobook** — serving as the initial release channel and blueprint for multi-retailer expansion) alongside an **internally developed Marketing & Serial-Membership Web Site** modeled on Patreon (**Public Evidence Briefs**, **Interactive OKF Explorer**, **Chapter Preprints**, and **Reader Edition 0.1 PDF+HTML**).
 2. **The Book Writing Environment (BWE):** An agentic authoring, verification, and publishing software harness governed by **Open Knowledge Format (OKF v0.2)** (an epistemic type system and unit-test suite for prose), a **5-step MCP Tool Routing Protocol**, real-time style/continuity linting, and CI release gates.
 3. **Plug-and-Play Multi-Series Extensibility:** Declarative `series/<series-slug>/series.yaml` manifests and automated scaffolding (`scripts/init_series.py`) allow new book series and volumes to be added in seconds without changing the core harness.
+4. **Marketing Intelligence & Data-Driven Topic Selection:** Upstream and closed-loop telemetry (`scripts/marketing_intelligence.py`) driving series/book topic selection, competitive review-gap mining, OpenAlex/Crossref citation velocity, Amazon KDP 7-slot backend keywords, and owned-marketing-site lead-magnet ranking.
 
 See **[VISION.md](VISION.md)** for the full product, monetization, and BWE software architecture roadmap, and **[REPO_DIGEST.md](REPO_DIGEST.md)** for the cold-start inventory.
 
@@ -23,7 +24,8 @@ See **[VISION.md](VISION.md)** for the full product, monetization, and BWE softw
 
 | SDLC / IDE Equivalent | Realized Press BWE Component | Purpose |
 | :--- | :--- | :--- |
-| **Product & Monetization Vision** | **[VISION.md](VISION.md)** | Commercial publishing model (Amazon KDP + Patreon), BWE software product architecture, and multi-series specification. |
+| **Product & Monetization Vision** | **[VISION.md](VISION.md)** | 4-pillar strategy: KDP initial launch + owned Patreon-style marketing site, BWE software architecture, multi-series extensibility, and marketing intelligence. |
+| **Product Discovery & Market Telemetry** | **[scripts/marketing_intelligence.py](scripts/marketing_intelligence.py)** | Evaluates target personas, high-intent topic clusters, comp-title review gaps, KDP 7-slot keywords, bibliographic velocity, and top OKF lead magnets (`make market-intel`). |
 | **Type System & Unit Tests** | **[SPEC.md](SPEC.md) & [CONTRIBUTING.md](CONTRIBUTING.md)** | Universal **OKF v0.2** specification for atomic `evidence-cards/*.md` (9 required sections, compound certainty grading, confounding attenuation, and `## What This Does Not Mean`). |
 | **Language Grammar & Style Guide** | **[COMPOSITION.md](COMPOSITION.md) & [style/](style/)** | Three-Lens epistemic crosswalk, anomaly-driven chapter openings, grade-calibrated verb grammar (*shows* / *suggests* / *is associated with*), and [`style/forbidden-phrases.md`](style/forbidden-phrases.md). |
 | **Dependency Lockfile & CVE Scanner** | **[scripts/mcp_academic_bib.py](scripts/mcp_academic_bib.py) & [scripts/five_rule_check.py](scripts/five_rule_check.py)** | Verifies DOIs/arXiv IDs against Crossref (`updates_or_errata`) and OpenAlex (`is_retracted`), locks `sources.bib` $\leftrightarrow$ `SOURCES.md`, and enforces the 5-rule promotion gate. |

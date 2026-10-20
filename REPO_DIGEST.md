@@ -32,6 +32,7 @@ This repository unites nonfiction book series under a single **Book Writing Envi
   - [`scripts/render_publishing_pdfs.py`](scripts/render_publishing_pdfs.py) — Compiles deterministic **Reader Edition (A4 PDF + HTML)**, **Amazon KDP 6"×9" Print Interior PDF** (`--format kdp-6x9`), and **Kindle EPUB 3** (`--epub`).
   - [`scripts/generate_audiobook_tts.py`](scripts/generate_audiobook_tts.py) — Synthesizes chapter audio via Gemini 2.5 Flash TTS.
   - [`scripts/init_series.py`](scripts/init_series.py) — Scaffolds new series (`series/<slug>/series.yaml`) and book volumes in one command.
+  - [`scripts/marketing_intelligence.py`](scripts/marketing_intelligence.py) — Marketing Intelligence & Topic Scorecard engine (`make market-intel`).
 
 ---
 

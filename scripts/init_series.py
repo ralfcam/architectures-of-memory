@@ -135,6 +135,17 @@ def main() -> int:
             "  three_lenses:\n"
             f"{lens_yaml}\n"
             "  target_chapter_words: [1500, 3500]\n"
+            "marketing_intelligence:\n"
+            "  target_personas:\n"
+            '    - "[Primary reader persona & problem statement]"\n'
+            '    - "[Secondary practitioner / interdisciplinary persona]"\n'
+            "  high_intent_topic_clusters:\n"
+            '    - "[High-intent search/citation cluster 1]"\n'
+            '    - "[High-intent search/citation cluster 2]"\n'
+            '    - "[High-intent search/citation cluster 3]"\n'
+            "  comp_title_gaps:\n"
+            '    - "[Comp title category 1 gap & review frustration]"\n'
+            '    - "[Comp title category 2 gap & review frustration]"\n'
             "monetization:\n"
             "  kdp:\n"
             '    role: "initial-release-channel-and-expansion-blueprint"\n'
@@ -144,6 +155,15 @@ def main() -> int:
             "    outside_margin_mm: 15.0\n"
             "    top_bottom_margin_mm: 18.0\n"
             '    formats: ["paperback-pdf", "hardcover-pdf", "kindle-epub", "audiobook-wav"]\n'
+            '    bisac_categories: ["NON000000", "SCI000000"]\n'
+            "    backend_keywords:\n"
+            '      - "keyword phrase 1"\n'
+            '      - "keyword phrase 2"\n'
+            '      - "keyword phrase 3"\n'
+            '      - "keyword phrase 4"\n'
+            '      - "keyword phrase 5"\n'
+            '      - "keyword phrase 6"\n'
+            '      - "keyword phrase 7"\n'
             "  owned_marketing_site:\n"
             '    blueprint: "patreon-serial-membership-model"\n'
             '    role: "internally-developed-marketing-and-serial-portal"\n'
