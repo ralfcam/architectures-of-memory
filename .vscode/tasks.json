@@ -26,6 +26,32 @@
         "reveal": "always",
         "panel": "shared"
       }
+    },
+    {
+      "label": "Audit book manuscript & continuity",
+      "type": "shell",
+      "command": "python scripts/audit_manuscript.py ${input:bookDir}",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Audiobook TTS plan (dry-run)",
+      "type": "shell",
+      "command": "python scripts/generate_audiobook_tts.py ${input:bookDir} --dry-run",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
     }
   ],
   "inputs": [

@@ -1,2 +1,7 @@
 # Cursor local planning artifacts (not part of book content)
 .cursor/plans/
+
+# Python bytecode & transient hook state
+__pycache__/
+*.py[cod]
+.agents/hooks/.pending_notice.txt
