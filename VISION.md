@@ -9,6 +9,17 @@
 3. **Stage 3 (Platform & Channel Execution — Priority 3: Medium):** Continue in pillar order of [**Realized Press — Canonical Vision & Book Writing Environment (`P-ARC-18`)**](https://linear.app/realized/project/realized-press-canonical-vision-and-book-writing-environment-bwe-130eae5e23b7/overview).
 4. **Stage 4 (Expansion & Owned Marketing Site Launch):** Consider and greenlight new series/books driven by **Marketing Intelligence** ([`scripts/marketing_intelligence.py`](scripts/marketing_intelligence.py)) and publish the **internally developed marketing & serial-membership web site** (modeled on the Patreon serial/tier blueprint).
 
+### Antigravity Native Automation Primitives Map Across the 4 Stages
+
+| Antigravity Primitive | BWE Implementation in Repo | Role in the Master 4-Stage Sequence |
+| :--- | :--- | :--- |
+| **Lifecycle Hooks ([`.agents/hooks.json`](.agents/hooks.json))** | [`.agents/hooks/post_edit_guard.py`](.agents/hooks/post_edit_guard.py) (`PostToolUse` & `PostInvocation`) | **Stages 1–4 Real-Time Guard:** Enforces OKF v0.2 Five-Rule checks, DOI bibliographic locks, forbidden phrases, metaphor-collision limits, footnote integrity, and `series.yaml` KDP 7-keyword-slot gates on every file edit. |
+| **Workspace Skills ([`.agents/skills/*/SKILL.md`](.agents/skills/))** | `refinement-pass`, `research-loop`, `evidence-card-pass`, `chapter-draft`, `fact-check-pass`, `manuscript-audit`, `audiobook-tts` | **Stages 1–2 Execution Runbooks:** Modular, progressive-disclosure agent workflows for the 5-step MCP research loop, iterative chapter refinement, and harness hardening. |
+| **Autonomous Goal Loop (`/goal`)** | Paired with [`refinement-pass`](.agents/skills/refinement-pass/SKILL.md) & `audit_manuscript.py --strict` | **Stages 1–2 Unattended Iteration:** Runs multi-pass refinement loops on *Parenthood: The Atlas* and *Architectures of Memory* until all OKF, continuity, and KDP PDF/EPUB extraction gates pass. |
+| **Subagent Teams (`invoke_subagent` / `/teamwork-preview`)** | Parallel subagents (`Workspace: "branch"` / `"share"`) | **Stages 1–2 Scale-Out:** Parallelizes the 61 `draft` $\to$ `stable` GI-confounding card audits ([`ARC-51`](https://linear.app/realized/issue/ARC-51)) in Stage 1 and multi-lens/multi-volume research in Stage 2. |
+| **Scheduled Sidecars (`/schedule` / `sidecar.json`)** | `parenthood-daily-refinement`, `bwe-nightly-retraction-sentinel`, `bwe-weekly-market-intel`, `bwe-weekly-kdp-and-reader-build` | **Stages 1–4 Continuous Daemons:** Cron-triggered background conversations for daily OKF card promotion, nightly Crossref/OpenAlex retraction scans, and weekly Marketing Intelligence radar. |
+| **Plugin Packaging (`/plugin`) & Generative UI (`generative_ui`)** | `realized-bwe` plugin bundle + 3-Pane Epistemic IDE | **Stages 3–4 Productization:** Bundles rules, skills, hooks, and `academic-bib` MCP into an installable BWE plugin ([`ARC-56`](https://linear.app/realized/issue/ARC-56)) and powers the 3-Pane Epistemic IDE & owned marketing site preview. |
+
 ---
 
 **Realized Press** (`ralfcam/realized-press`) operates on a four-pillar strategic thesis:

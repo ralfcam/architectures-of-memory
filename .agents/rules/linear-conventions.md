@@ -13,6 +13,12 @@ description: Linear team, project, milestone, and git branch conventions for bot
 3. **Stage 3 (Priority 3: Medium):** Continue in pillar order of **`Realized Press — Canonical Vision & Book Writing Environment (BWE)` (`P-ARC-18`)** (`https://linear.app/realized/project/realized-press-canonical-vision-and-book-writing-environment-bwe-130eae5e23b7/overview`).
 4. **Stage 4 (Expansion):** Consider new series/books driven by **Marketing Intelligence** (`scripts/marketing_intelligence.py`) and publish the **internally developed marketing & serial-membership site**.
 
+## Antigravity Native Automation Primitives Map
+- **Stages 1–4 Real-Time Guard:** `.agents/hooks.json` $\to$ `.agents/hooks/post_edit_guard.py` (`PostToolUse` & `PostInvocation` checks on chapters, evidence cards, research notes, outlines, and `series.yaml`).
+- **Stage 1 & 2 Iterative Loop:** `/goal` + `.agents/skills/refinement-pass/SKILL.md` (autonomous refinement passes + mandatory BWE harness hardening) and `/teamwork-preview` / `invoke_subagent` (parallel subagents for the 61 `draft` OKF card GI-confounding audits in `ARC-51` and Books 2–5 research).
+- **Stages 1–4 Scheduled Sidecars (`/schedule`):** `parenthood-daily-refinement`, `bwe-nightly-retraction-sentinel`, `bwe-weekly-market-intel`, and `bwe-weekly-kdp-and-reader-build`.
+- **Stage 3 Productization (`ARC-56`):** `/plugin` packaging of `.agents/` + `academic-bib` MCP into `realized-bwe` and `generative_ui` 3-Pane Epistemic IDE.
+
 ## Canonical Vision & BWE Platform: `Realized Press — Canonical Vision & Book Writing Environment (BWE)` (`P-ARC-18`)
 - **Project ID:** `fe68af35-3169-4d26-868e-0000a8d07672` (`https://linear.app/realized/project/realized-press-canonical-vision-and-book-writing-environment-bwe-130eae5e23b7`)
 - **Canonical Vision Document ID:** `916947a3-864e-45c2-bc26-2a8b2b1a465f`
