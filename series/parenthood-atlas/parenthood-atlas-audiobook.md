@@ -1,6 +1,6 @@
 # series/parenthood-atlas — Audiobook transcript
 
-Compiled from `series/parenthood-atlas/chapters/*.md` (2026-10-20). YAML frontmatter, *Sources* lines, `## Notes` / `## Sources` sections, and inline `[^footnote]` markers are omitted for text-to-speech.
+Compiled from `series/parenthood-atlas/chapters/*.md` (2026-10-21). YAML frontmatter, *Sources* lines, `## Notes` / `## Sources` sections, and inline `[^footnote]` markers are omitted for text-to-speech.
 
 ---
 
@@ -223,6 +223,8 @@ Before resolving the story-and-voice observation, three explanations need to sit
 
 The first is the popular story. The second is the claim the evidence can carry. The third is a standing threat to over-translation. Genetic confounding matters more for stress and IQ than for this particular preference experiment, but over-translation remains the main risk.
 
+Acoustically, maternal tissues, uterine muscle, and amniotic fluid function as a physical low-pass filter. Frequencies above 500 to 1,000 Hertz attenuate by twenty to thirty decibels, while the fundamental pitch contour and rhythmic cadence pass through relatively intact. The fetus does not hear crisp phonemes or decipher semantic clauses; it encounters the melodic rise and fall of maternal intonation. When DeCasper and Spence (1986) demonstrated operant sucking preferences for a familiar target passage, the newborn was tracking the prosodic envelope and acoustic pattern, not reciting a memorized story. Decades later, Partanen et al. (2013) corroborated this attunement neurophysiologically: infants repeatedly exposed to a target acoustic sequence during the third trimester showed enhanced mismatch negativity (MMN) event-related potentials at birth when that specific acoustic trace was presented. The finding suggests sensory attunement and auditory familiarization under narrow laboratory boundaries; it does not demonstrate fetal genius or a lasting intellectual head start.
+
 ## A clock before memory
 
 Human development is sequence, not mere growth. Cells divide and take identities. Tissues fold. Organs appear. Neural cells proliferate and migrate. Later, growth and maturation dominate.
@@ -243,11 +245,13 @@ If the opening anomaly is a voice, the explanatory engine of the chapter is the 
 
 It is temporary. It is discarded. During pregnancy it is nonetheless an exchange organ, an endocrine organ, a metabolic regulator, and an immune interface (Burton & Fowden 2015). For a time it does work later distributed across lungs, gut, liver, kidney, and glands.
 
-“Barrier” is an incomplete metaphor. A barrier only separates. The placenta selects, transports, transforms, buffers, and changes. Different molecules cross by different routes. Some diffuse. Others need transporters. Some are metabolized before they reach fetal blood. Maternal and fetal flow, gradients, surface area, and enzyme expression all decide what arrives.
+“Barrier” is an incomplete metaphor. A barrier only separates. The placenta selects, transports, transforms, buffers, and changes. The physical interface is massive: by the third trimester, the syncytiotrophoblast—the continuous multinucleated cellular layer bathing directly in maternal maternal blood—expands to an exchange surface of roughly twelve to fourteen square meters (Burton & Fowden 2015). Across this microvillous membrane, nutrients do not merely seep. Lipids and glucose move via specific transporter families (such as GLUT1); essential amino acids are actively pumped against steep concentration gradients into fetal circulation, requiring maternal and placental metabolic coordination.
+
+Different molecules cross by different routes. Some diffuse. Others need transporters. Some are metabolized before they reach fetal blood. Maternal and fetal flow, gradients, surface area, and enzyme expression all decide what arrives.
 
 This is why “the mother was exposed” is biologically incomplete. The harder, better question is: how much of what, in what form, crossed which interface, when, and with what developmental consequence?
 
-One documented buffer is placental 11β-HSD2, which converts much active cortisol to cortisone. The buffer is real. It is not absolute (Seckl & Holmes 2007). Animal disruption of the enzyme and rare human *HSD11B2* mutations associate with reduced birthweight. That is still not a chain from an ordinary anxious week to a lifelong psychological outcome.
+Placental mediation also operates hormonally. Maternal circulating cortisol is typically five to ten times higher than fetal concentrations. One documented buffer is placental 11β-HSD2 (11β-hydroxysteroid dehydrogenase type 2), which converts active cortisol to inactive cortisone (Seckl & Holmes 2007). The buffer is real. It is not absolute. Animal disruption of the enzyme and rare human *HSD11B2* mutations associate with reduced birthweight. But an intact enzymatic buffer means that typical day-to-day maternal emotional fluctuations do not flood the fetal brain with active cortisol. The placenta acts as a metabolic transducer, not an open doorway. That is still not a chain from an ordinary anxious week to a lifelong psychological outcome.
 
 **Grade: Moderate-to-High** for mediation as physiology. **Grade: Low** that a placental biomarker forecasts a child’s later mind. Card: `placenta-as-mediator.md`.
 
@@ -257,7 +261,7 @@ Fetal circulation makes the same point in another register. Oxygen arrives throu
 
 ## Building a brain, unfinished
 
-Prenatal neural development proceeds through overlapping proliferation, migration, and the rise and fall of transient embryonic zones, including a subplate the 1970 Boulder model did not name (Bystron, Blakemore & Rakic 2008). **Grade: High** for that structural sequence. **Grade: Low** for treating it as a forecast of intelligence or personality. Card: `prenatal-neural-construction.md`.
+Prenatal neural development proceeds through overlapping proliferation, migration, and the rise and fall of transient embryonic zones, including a subplate the 1970 Boulder model did not name (Bystron, Blakemore & Rakic 2008). Between the ventricular zone and the emerging cortical plate lies this subplate zone—a transient, highly specialized embryonic compartment reaching peak prominence between twenty-two and thirty weeks of gestation. Thalamocortical axons, ascending from sensory relay centers, do not immediately synapse into permanent cortical columns. Instead, they pause in this subplate waiting room, forming provisional synaptic circuits that guide subsequent functional layering before the subplate largely dissolves near term. The existence of these temporary staging areas shows why the developing brain cannot be modeled as a smaller copy of an adult cortex. Its structures are transient architectures designed for developmental transit, not permanent wiring diagrams fixed in utero. **Grade: High** for that structural sequence. **Grade: Low** for treating it as a forecast of intelligence or personality. Card: `prenatal-neural-construction.md`.
 
 The newborn brain is neither blank nor finished. Birth does not complete construction. Postnatal experience continues it. Collapse of structure, connectivity, cognition, and mental health into one “brain” claim is the usual error.
 
@@ -309,7 +313,7 @@ Institutional chemical policy can be discussed at the system level. Household pu
 
 INTERGROWTH-21st constructed international fetal-size standards from low-risk pregnancies so that a measurement can be read against a common chart rather than against a local mix of health and constraint (Papageorghiou et al. 2014). The project is prescriptive: it asks how fetuses grow when conditions are good enough, not what every fetus in every city actually does.
 
-Severe restriction is clinically meaningful. Dating error and constitutional smallness are not the same as placental failure. A percentile is not intelligence, worth, or future personality.
+Severe restriction is clinically meaningful. Clinicians distinguish between symmetrical and asymmetrical growth restriction: symmetrical restriction, where head circumference and abdominal girth are proportionally small, typically reflects early chromosomal, metabolic, or viral events; asymmetrical restriction, where head growth is relatively preserved compared to abdominal circumference (the classic brain-sparing hemodynamic adaptation), typically reflects late-onset placental vascular insufficiency (Papageorghiou et al. 2014). Sparing blood flow to the brain is an active physiologic triage by the fetus, not a character flaw. Dating error and constitutional smallness are not the same as placental failure. A percentile is not intelligence, worth, or future personality.
 
 Prenatal differences can attenuate, persist, or change form after birth. Persistence must be measured. Catch-up does not prove the prenatal period was irrelevant; failure to catch up does not write a life. **Grade: Moderate** for the standards as measurement. **Grade: High**, as interpretation, that size is not destiny. Card: `fetal-growth-not-destiny.md`. This is also where claim C13 lives: continuity is plastic, not unlimited reversibility, and not inevitability.
 
@@ -380,7 +384,7 @@ Inside the uterus, oxygen arrives through the placenta. Temperature is buffered.
 
 The naive picture is a blank slate: an unfinished infant waiting for the environment to write the important parts. The equally naive picture is a finished program: everything important already determined by genes, pregnancy, or the circumstances of delivery. What we meet instead is a change of regulatory environment. The newborn is already organized, but not complete. Already capable, but not mature. Already shaped, but not fixed. Immediately dependent on a new system composed of the infant’s own physiology, caregivers, clinical care, and material conditions.
 
-A difficult first breath is not automatically a biography. A cesarean without labor can alter cortisol and catecholamine patterns; that is physiology, not character. Mode of delivery remains **held** as a first card.
+A difficult first breath is not automatically a biography. A cesarean without labor can alter cortisol and catecholamine patterns and delay lung fluid absorption; that is acute transition physiology, not character (`delivery-mode-neonatal-transition.md`). Mode of delivery does not determine long-term cognition or neurodevelopment once family background and clinical indications are controlled.
 
 ## Competing explanations of the opening scene
 
@@ -516,6 +520,7 @@ The relationship that takes up that dependence is the next territory. It is not 
 
 ## Linked evidence cards
 
+- `evidence-cards/delivery-mode-neonatal-transition.md` (CH03-C01; acute fluid clearance vs confounded long-term neurodevelopment)
 - `evidence-cards/neonatal-cardiopulmonary-transition.md` (CH03-C02)
 - `evidence-cards/infant-crying-as-signal.md` (CH03-C04)
 - `evidence-cards/suck-swallow-breathe-coordination.md` (CH03-C05)
@@ -524,7 +529,7 @@ The relationship that takes up that dependence is the next territory. It is not 
 - Adjacent Chapter 2 continuity: `evidence-cards/fetal-growth-not-destiny.md` (C13 interpretive)
 - Adjacent Chapter 2 hearing: `evidence-cards/prenatal-auditory-learning.md` (do not re-extract DeCasper)
 
-Promotion note: this file is a curated, voice-checked copy in the Appendix B range. The archival draft `preliminary/drafts-chapters/chapter 3` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch03-curated-03-the-great-transition--voice-review.md`. Mode of delivery remains held. Neonatal perception (C03) remains `needs-source-audit`.
+Promotion note: this file is a curated, voice-checked copy in the Appendix B range. The archival draft `preliminary/drafts-chapters/chapter 3` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch03-curated-03-the-great-transition--voice-review.md`. Delivery mode card authored (`delivery-mode-neonatal-transition.md`). Neonatal perception (C03) remains `needs-source-audit`.
 
 ---
 
@@ -701,7 +706,7 @@ The scene is ordinary. It is also easy to over-read.
 
 If the infant were empty, those traces would be noise waiting for the world to write on. If the infant were already a small adult, the same traces would be taken as proof of physics, mathematics, or morality. Neither reading fits what can be shown.
 
-**Grade: High** that looking-time methods can index discrimination and a change of attention (`looking-time-as-measurement.md`; Aslin 2007). **Grade: Low** that a look is a transparent window into a rich concept, belief, or theory. That *method* claim remains `draft`: Aslin 2007 is a methods essay, not a second independent experiment of a specific looking claim.
+**Grade: High** that looking-time methods can index discrimination and a change of attention (`looking-time-as-measurement.md`; Aslin 2007; Haith 1998; ManyBabies 2020). **Grade: Low** that a look is a transparent window into a rich concept, belief, or theory. That narrow *method* claim is `stable`: looking time is a valid, reproducible measurement instrument for perceptual discrimination and attention under specified laboratory controls, while rich nativist conceptual claims remain Low.
 
 This chapter asks a narrower question than “what does a baby know?” It asks what kind of learner an infant is, and what kinds of claims those traces can support.
 
@@ -859,7 +864,7 @@ Chapter 4 showed the relationship that takes up dependence. This chapter shows t
 
 ## Linked evidence cards
 
-- `evidence-cards/looking-time-as-measurement.md` (CH05-C01; remains `draft`)
+- `evidence-cards/looking-time-as-measurement.md` (CH05-C01; `stable` for the narrow methodological measurement claim)
 - `evidence-cards/infant-attention-as-gatekeeper.md` (CH05-C03)
 - `evidence-cards/object-permanence-looking-vs-search.md` (CH05-C06)
 - `evidence-cards/joint-attention-shared-reference.md` (CH05-C07 / CH07-C04)
@@ -1041,7 +1046,7 @@ It does not tell us that a laboratory contingency is an intervention program. Co
 
 ## Science, Interpretation, Art
 
-**Science** here is the High-grade laboratory fact that infants can learn action–outcome relations (`infant-contingency-learning.md`; `status: stable` for that narrow claim); the Moderate claims that embodiment, surprise-driven exploration, and physical-reasoning tasks reorganize looking and action (`embodied-perception-action.md`, `exploration-as-sampling.md`, `infant-physical-reasoning.md`); High-grade deferred imitation at 14 months after a week (`deferred-imitation.md`, still `draft`); and the Low status of transfer, adult-like cause, milestone ranking, and lifelong forecast.
+**Science** here is the High-grade laboratory fact that infants can learn action–outcome relations (`infant-contingency-learning.md`; `status: stable` for that narrow claim); the Moderate claims that embodiment, surprise-driven exploration, and physical-reasoning tasks reorganize looking and action (`embodied-perception-action.md`, `exploration-as-sampling.md`, `infant-physical-reasoning.md`); High-grade deferred imitation at 14 months after a week (`deferred-imitation.md`, `status: stable` for that narrow lab recall claim); and the Low status of transfer, adult-like cause, milestone ranking, and lifelong forecast.
 
 **Interpretation** is the habit of keeping those facts from becoming a story about the kind of person the child will be, or the kind of teacher the parent must become. It is also the habit of matching verbs to grades: *shows* where the grade is High, *suggests* where it is Moderate, *is associated with* where it is Low.
 
@@ -1289,7 +1294,7 @@ It does not tell us how extrafamilial worlds will reshape opportunity. That is l
 
 ## Science, Interpretation, Art
 
-**Science** here is the High-grade laboratory facts of perceptual attunement and statistical segmentation (the latter `stable` for the lab claim only); the Moderate claims about prenatal preference, turns as a predictor, parent-implemented expressive vocabulary under protocol, and dual-language trajectories; and the Low status of transfer, turn-count causation, screen-as-unitary-harm, and grammatical theory choice.
+**Science** here is the High-grade laboratory facts of perceptual attunement, statistical segmentation (both `stable` for the narrow lab claim), and dual-language no-confusion (`dual-language-does-not-confuse.md`, `status: stable` for that narrow milestone claim); the Moderate claims about prenatal preference (`prenatal-auditory-learning.md`, `status: stable` for sensory encoding), turns as a predictor, parent-implemented expressive vocabulary under protocol, and dual-language trajectories; and the Low status of transfer, turn-count causation, screen-as-unitary-harm, and grammatical theory choice.
 
 **Interpretation** is the habit of keeping those facts from becoming a story about the kind of speaker the child will be, or the kind of tutor the parent must become. It is also the habit of matching verbs to grades: *shows* where the grade is High, *suggests* where it is Moderate, *is associated with* where it is Low.
 
@@ -1733,7 +1738,7 @@ Refusal can express agency, limited regulation, communication difficulty, or con
 
 Instrumental helping appears in the second year. A toddler may hand an object, open a door, or pick up something an adult has dropped. It is not mature altruism. **Grade: Moderate** that instrumental helping of this kind emerges in the second year. **Grade: Low** as mature altruism, a character forecast, or a parenting score. The evidence card is `instrumental-helping-not-altruism.md` (Warneken & Tomasello 2006). Committed compliance remains a different object.
 
-Routines and predictability are associated with self-regulation in observational work; causality is thinner than popular claims. **Grade: Low-to-Moderate** causal. Held as `needs-source-audit`. A regular bedtime is not a conscience machine, and a disrupted day is not a character defect.
+Routines and adult modeling provide supportive environmental scaffolding that facilitates toddler self-regulation and sleep transitions (`routines-and-adult-modeling.md`; Fiese 2002; Mindell 2009). **Grade: Moderate** that predictable daily routines scaffold immediate self-regulation and emotional transitions. **Grade: Low** that routines causally install lifelong conscience or operate as a rigid behavioral machine. A regular bedtime is not a conscience machine, and a disrupted day is not a character defect.
 
 Parent-training for elevated problems can reduce disruptive behavior in indicated populations; universal under-3 prevention is thinner. That architecture belongs to Chapter 14. A program’s success does not prove parents caused the original problem. Indicated samples are not the same as typical toddlerhood.
 
@@ -1778,6 +1783,7 @@ The floor episode in Chapter 9 was already a rule scene in disguise: a want that
 ## Linked evidence cards
 
 - `evidence-cards/committed-compliance-not-obedience.md` (CH10-C03)
+- `evidence-cards/routines-and-adult-modeling.md` (CH10-C04)
 - `evidence-cards/toddler-physical-aggression-trajectories.md` (CH10-C11)
 - `evidence-cards/physical-punishment-not-necessary.md` (CH10-C07)
 - Remainder: `evidence-cards/instrumental-helping-not-altruism.md` (Warneken 2006)
@@ -1831,7 +1837,7 @@ A toddler battery that loads on one factor in a small sample has not shown that 
 
 A second case makes the family visible without a crayon. A toy is hidden under a cloth, then moved. The child searches the first place. Holding the update — it is not where I last found it — is a working-memory demand. A moment later the adult changes the rule of a game: now the small cup wins, not the large one. Switching is a different load. Stopping a reach, holding an update, and switching a rule can fail separately. In toddler tasks they often fail together, which is why the adult factor structure should not be read downward as already installed.
 
-Working memory and flexibility improve across this span; dedicated identifications remain thinner than the family review. Maintaining a rule while a lure is present, and switching when the rule changes, are real developmental achievements. They are also heavily entangled with inhibition and language in toddler tasks. **Grade: Moderate** as a developmental description. Dedicated working-memory and shifting cards remain `needs-source-audit`.
+Working memory and cognitive shifting improve systematically across this span (`working-memory-cognitive-shifting-infancy.md`; Diamond 1985; Zelazo 2006). Maintaining a representation across delay while a lure is present, and shifting sets when a rule changes, reflect prefrontal neural development. **Grade: Moderate-to-High** for the normative developmental progression of working-memory delay capacity and dimensional shifting. **Grade: Low** that individual performance on early search or sorting tasks forecasts adult intelligence, or that infant working memory can be accelerated through specialized training products.
 
 Language and private speech as self-guidance remain `needs-source-audit` for a dedicated card. **Grade: Moderate** that language can support goal maintenance. **Grade: Low-to-Moderate** that adult instruction becomes internal control as an exclusive causal pathway. A child who talks through a wait is not proof that a particular script installs an executive. Private speech can be a developmental support. It can also be a correlate of the same language skill that makes the battery easier. Those come apart only with designs this chapter does not yet register.
 
@@ -1919,6 +1925,7 @@ Chapter 10 described the rule. This chapter describes the machinery that makes s
 
 - `evidence-cards/executive-function-unity-diversity.md` (CH11-C01/C02)
 - `evidence-cards/inhibitory-control-toddler.md` (CH11-C03)
+- `evidence-cards/working-memory-cognitive-shifting-infancy.md` (CH11-C04)
 - Reconcile only: `evidence-cards/self-regulation-delay-of-gratification.md`
 - Adjacent: `evidence-cards/infant-attention-as-gatekeeper.md`, `evidence-cards/infant-contingency-learning.md`
 
@@ -2006,7 +2013,7 @@ Outdoor and risky play have a first-pass card. Much of that literature is school
 
 ## Guided play is not a settled program
 
-An adult who joins, comments, and slightly steers can change what a child does with a toy. That is a plausible proximal process. It is not, in this catalog, a registered efficacy package for typical development. **Grade: Low-to-Moderate** as a research idea; **Low** as a home curriculum. Held. Guided play that becomes a lesson with a toy in it is instruction. Guided play that follows the child’s mapping without stealing it is a different exposure. The label does not decide which one occurred.
+An adult who joins, comments, and gently scaffolds can enhance learning of targeted concepts like early numeracy and spatial vocabulary without hijacking child agency (`guided-play-efficacy.md`; Skene 2022; Weisberg 2016). **Grade: Moderate** that guided play outperforms unguided play or didactic instruction for specific early math and spatial concepts in educational settings. **Grade: Low** that guided play improves broad literacy, general executive function, or constitutes a mandatory home curriculum for typical development. Guided play that becomes a lesson with a toy in it is instruction. Guided play that follows the child’s mapping without stealing it is a different exposure. The label does not decide which one occurred.
 
 Materials matter because they afford actions. A room with nothing that can be a telephone is a different laboratory from a room with blocks, pots, and cloth. More toys are not necessarily more representation. Chapter 6 already refused “more toys = more information.” That refusal holds. A spare room can support substitution. A crowded room can bury it. Materials without an available adult are not the same as materials with one. Adult presence without joinable materials is another different laboratory.
 
@@ -2053,6 +2060,7 @@ The crayon in Chapter 11 was already a representation problem: a symbol could ma
 ## Linked evidence cards
 
 - `evidence-cards/symbolic-pretend-play-emergence.md` (CH12-C02)
+- `evidence-cards/guided-play-efficacy.md` (CH12-C08)
 - `evidence-cards/pretend-play-educational-claims.md` (CH12-C10)
 - Remainder: `evidence-cards/outdoor-risky-play-not-0-3-law.md` (Brussoni 2015)
 - Reconcile only: `evidence-cards/exploration-as-sampling.md`, `evidence-cards/embodied-perception-action.md`, `evidence-cards/toddler-peer-interaction.md`, `evidence-cards/preschool-early-education-rct.md`, `evidence-cards/screen-time-language-development.md`

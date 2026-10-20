@@ -37,11 +37,11 @@ preliminary/          staging workbench (not OKF, not voice-checked)
   drafts-chapters/    full chapter prose still in composition
   drafts-chapters/reviews/  structural/voice notes (do not overwrite drafts)
 
-evidence-cards/       canonical knowledge base (OKF v0.2, draft status)
-SOURCES.md            single point of truth for cited sources
+evidence-cards/       canonical knowledge base (72 OKF v0.2 cards: 12 stable, 60 draft)
+SOURCES.md            single point of truth for cited sources (127 verified sources)
 CONTRIBUTING.md       evidence-evaluation methodology
 
-chapters/             canonical manuscript (seed outlines only so far)
+chapters/             canonical manuscript (15 curated chapters, 41,342 words)
 COMPOSITION.md        book grammar (voice, chapter rhythm, claim calibration)
 style/                voice checklist, forbidden phrases, anomaly bank
 ```

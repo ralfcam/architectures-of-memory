@@ -1,0 +1,25 @@
+Publishing Extraction Verification — Parenthood Atlas
+Status: PASS
+Edition: Reader Edition — Working Slice
+Renderer: fpdf2 2.8.9 / pypdf 6.0.0
+PDF: parenthood-atlas-reader-edition.pdf
+SHA-256: edee85fd51bef867d8644ca4de30ed8960c9d2e043e795fe2092dcb20712dfff
+Bytes: 388,268
+Pages: 94 (94/94 nonblank)
+
+Chapters:
+- PASS · PDF page 2 · Chapter 1 — Before the Child Is Born
+- PASS · PDF page 9 · Chapter 2 — The First Environment
+- PASS · PDF page 15 · Chapter 3 — The Great Transition
+- PASS · PDF page 21 · Chapter 4 — The Regulatory Relationship
+- PASS · PDF page 27 · Chapter 5 — Becoming a Mind
+- PASS · PDF page 33 · Chapter 6 — The Mind in Motion
+- PASS · PDF page 39 · Chapter 7 — The Birth of Language
+- PASS · PDF page 48 · Chapter 8 — The Expanding World
+- PASS · PDF page 54 · Chapter 9 — The Emotional Revolution
+- PASS · PDF page 60 · Chapter 10 — Boundaries, Behavior, and the First Rules
+- PASS · PDF page 65 · Chapter 11 — The Developing Executive
+- PASS · PDF page 70 · Chapter 12 — Play, Imagination, and Meaning
+- PASS · PDF page 75 · Chapter 13 — The Ecology of Development
+- PASS · PDF page 81 · Chapter 14 — What Actually Works?
+- PASS · PDF page 89 · Chapter 15 — Three Years: What Has Been Built?

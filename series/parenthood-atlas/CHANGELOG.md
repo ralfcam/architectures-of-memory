@@ -9,7 +9,30 @@ Entry types:
 - `Retracted` - claims withdrawn or downgraded due to failed replication or new genetically informed evidence
 - `Structure` - changes to templates, methodology, or repository organization
 
-## [Unreleased]
+## [1.0.0] - 2026-10-21
+
+### Added
+- **Public Evidence Briefs Generator (`scripts/render_evidence_briefs.py`, `make briefs`):**
+  - Compiles all 12 verified `status: stable` cards into deterministic standalone 2-page print PDFs and responsive HTML briefs with verified DOIs.
+  - Builds compiled 13-page Evidence Briefs Compendium (`parenthood-atlas-evidence-briefs-compendium.pdf`) and interactive `index.html` catalog.
+  - Mirrored to `series/parenthood-atlas/publishing/evidence-briefs/` and `preliminary/publishing/evidence-briefs/`. Closes `ARC-59`.
+- **Multi-Format Commercial Publishing Release:**
+  - Amazon KDP 6"×9" trade paperback print interior PDF (`parenthood-atlas-kdp-6x9.pdf`, 139 pages) with mirrored gutter margins (20mm inside / 15mm outside).
+  - Kindle EPUB 3 reflowable eBook archive (`parenthood-atlas-kdp.epub`, 116 KB).
+  - Patreon / private circulation A4 Reader Edition PDF (`parenthood-atlas-reader-edition.pdf`, 94 pages) and standalone HTML.
+  - Gemini TTS Audiobook Transcript (`parenthood-atlas-audiobook.md`, 41,118 words, 93 chunks, 4.57 hours estimated runtime with Voice Kore). Closes `ARC-61`.
+
+### Revised
+- **Chapter 02 Prose & Word-Count Calibration (`chapters/02-first-environment.md`):**
+  - Expanded from 2,358 to 2,815 words, bringing 100% of the 15 chapters into the Appendix B target range (2,500–3,800 words; manuscript total 41,342 words).
+  - Deepened DeCasper & Spence (1986) / Partanen et al. (2013) acoustic filter physics (low-pass filtering of intonational envelope vs high-frequency formants) and neonatal MMN electrophysiology.
+  - Expanded Burton & Fowden (2015) syncytiotrophoblast active transport (12–14 m² microvillous exchange surface, GLUT1, amino acid pumping) and 11β-HSD2 enzymatic buffering.
+  - Integrated Bystron, Blakemore & Rakic (2008) transient subplate waiting room architecture.
+  - Added Papageorghiou et al. (2014) INTERGROWTH-21st symmetrical vs asymmetrical growth restriction (brain-sparing hemodynamic adaptation). Closes `ARC-60`.
+- **Reader Feedback Triage Sign-Off:**
+  - Completed `reader-edition-01--triage-report.md` and `reader-edition-01--feedback-log.csv` addressing all qualitative reader inputs across looking-time method bounds, guided play separation, delivery mode, prenatal acoustics, and systematic GI attenuation. Closes `ARC-53`.
+
+## [0.4.0] - 2026-10-21
 
 ### Added
 - Authored four new OKF v0.2 domain evidence cards completing the remaining unstarted domain coverage for milestone `v0.4`:
@@ -17,7 +40,11 @@ Entry types:
   - `delivery-mode-neonatal-transition.md` (CH03): Jain & Dudell 2006 / Curran 2015 sibling design; distinguishes immediate neonatal fluid clearance/stress physiology from long-term neurodevelopment/ASD which attenuates to null in sibling comparisons.
   - `working-memory-cognitive-shifting-infancy.md` (CH11): Diamond 1985 / Zelazo 2006; characterizes the normative developmental progression of working memory delay tolerance and dimensional shifting across infancy and toddlerhood.
   - `routines-and-adult-modeling.md` (CH10): Fiese 2002 / Mindell 2009; frames predictable routines and adult modeling as supportive regulatory scaffolding rather than an autonomous machine that installs moral conscience.
-- Catalog expanded to **72** live cards (8 `stable`, 64 `draft`); **124** verified `SOURCES.md` IDs. Chapters 3, 10, 11, and 12 linked and synchronized. Closes Linear issue `ARC-50`.
+- Catalog expanded to **72** live cards (12 `stable`, 60 `draft`); **127** verified `SOURCES.md` IDs and `sources.bib` BibTeX entries. Chapters 3, 10, 11, and 12 linked and synchronized. Closes Linear issue `ARC-50`.
+- Upgraded Book Writing Environment (BWE) mechanical harness (`scripts/five_rule_check.py` and `.agents/hooks/post_edit_guard.py`):
+  - Mechanically audits and enforces explicit GI attenuation tokens (`largely confounded (>50%)`, `partially confounded (20–50%)`, `robust (<20%)`, `untested-in-GI`, or `n/a`) across Section 5 of evidence cards.
+  - Fails on forbidden `not classified` markers.
+  - Enforces required frontmatter schema (`atlas_domains` / `series_domains` and `chapter_hooks`).
 
 ### Revised
 - Promoted **four** additional narrow claims to `status: stable` under the OKF v0.2 Five-Rule Gate:

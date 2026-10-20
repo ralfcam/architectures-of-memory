@@ -11,7 +11,7 @@ This repository unites nonfiction book series under a single **Book Writing Envi
 | Series | Root Path & Manifest | Linear Project (Team `ARC`) | Epistemic Three-Lens Method | Current Status |
 | :--- | :--- | :--- | :--- | :--- |
 | **Series 1: *Architectures of Memory*** | [`series/architectures-of-memory/`](series/architectures-of-memory/) ([`series.yaml`](series/architectures-of-memory/series.yaml)) | `Architectures of Memory — Series` (`3cae0985-8124-4f85-a959-6216cb041c81`) | **Technical $\to$ Organizational $\to$ Philosophical** | **Book 1 (`book-01-vanishing-signal`)**: Complete 16-chapter manuscript (~42,100 words), fact-checked, BibTeX-locked, KDP 6"×9" PDF / EPUB 3 / Reader Edition / TTS ready. **Books 2–5**: Outlined, `sources.bib` + `evidence-cards/` seeded. |
-| **Series 2: *Parenthood: The Atlas*** | [`series/parenthood-atlas/`](series/parenthood-atlas/) ([`series.yaml`](series/parenthood-atlas/series.yaml)) | `Parenthood: The Atlas — Series` (`d480b512-ba3d-45dd-9a5a-3933265cdaae`) | **Science $\to$ Interpretation $\to$ Art** | **`v0.3` Release Slice**: 15 curated chapters (~27,200 words), 68 OKF v0.2 `evidence-cards/*.md`, 114 sources in `SOURCES.md` + `sources.bib`, KDP 6"×9" PDF / EPUB 3 / Reader Edition 0.1 / TTS ready. |
+| **Series 2: *Parenthood: The Atlas*** | [`series/parenthood-atlas/`](series/parenthood-atlas/) ([`series.yaml`](series/parenthood-atlas/series.yaml)) | `Parenthood: The Atlas — Series` (`d480b512-ba3d-45dd-9a5a-3933265cdaae`) | **Science $\to$ Interpretation $\to$ Art** | **`v1.0` Commercial & Public Release**: 15 curated chapters (41,342 words), 72 OKF v0.2 `evidence-cards/*.md` (12 `stable`, 60 `draft`), 127 verified sources in `SOURCES.md` + `sources.bib`, Public Evidence Briefs (12 individual PDFs/HTML + Compendium), Amazon KDP 6"×9" Print Interior PDF (139 pages), Kindle EPUB 3 (116 KB), Reader Edition PDF/HTML (94 pages), and Gemini TTS Audiobook Transcript (41,118 words, 4.57 hrs). |
 
 ---
 
@@ -30,6 +30,7 @@ This repository unites nonfiction book series under a single **Book Writing Envi
   - [`scripts/audit_manuscript.py`](scripts/audit_manuscript.py) — Cross-chapter continuity, metaphor collision, footnote integrity, forbidden-phrase, and grade-verb auditor.
   - [`scripts/merge_book_chapters.py`](scripts/merge_book_chapters.py) — Merges book chapters into full print Markdown and TTS-stripped audiobook transcripts.
   - [`scripts/render_publishing_pdfs.py`](scripts/render_publishing_pdfs.py) — Compiles deterministic **Reader Edition (A4 PDF + HTML)**, **Amazon KDP 6"×9" Print Interior PDF** (`--format kdp-6x9`), and **Kindle EPUB 3** (`--epub`).
+  - [`scripts/render_evidence_briefs.py`](scripts/render_evidence_briefs.py) — Compiles deterministic **Public Evidence Briefs** (standalone 2-page PDFs + responsive HTML + Compendium PDF) for all `stable` OKF v0.2 cards (`make briefs`).
   - [`scripts/generate_audiobook_tts.py`](scripts/generate_audiobook_tts.py) — Synthesizes chapter audio via Gemini 2.5 Flash TTS.
   - [`scripts/init_series.py`](scripts/init_series.py) — Scaffolds new series (`series/<slug>/series.yaml`) and book volumes in one command.
   - [`scripts/marketing_intelligence.py`](scripts/marketing_intelligence.py) — Marketing Intelligence & Topic Scorecard engine (`make market-intel`).
@@ -58,6 +59,9 @@ make pdf BOOK=series/parenthood-atlas
 # Render Amazon KDP Print Interior (6"x9" PDF) + Kindle EPUB 3 eBook
 make kdp BOOK=series/architectures-of-memory/book-01-vanishing-signal
 make kdp BOOK=series/parenthood-atlas
+
+# Render Public Evidence Briefs (2-Page PDFs + HTML + Compendium)
+make briefs BOOK=series/parenthood-atlas
 
 # Estimate duration / dry-run Gemini TTS Audiobook
 make audiobook-dry-run BOOK=series/architectures-of-memory/book-01-vanishing-signal
