@@ -7,6 +7,14 @@ description: Linear team, project, milestone, and git branch conventions for bot
 
 **Team:** `ARC` — `b507edbe-bdaa-4c47-8bdd-63af48774ebf` (`https://linear.app/realized/team/ARC/projects/all`)
 
+## Canonical Vision & BWE Platform: `Realized Press — Canonical Vision & Book Writing Environment (BWE)` (`P-ARC-18`)
+- **Project ID:** `fe68af35-3169-4d26-868e-0000a8d07672` (`https://linear.app/realized/project/realized-press-canonical-vision-and-book-writing-environment-bwe-130eae5e23b7`)
+- **Canonical Vision Document ID:** `916947a3-864e-45c2-bc26-2a8b2b1a465f`
+- **Milestones:**
+  - **Pillar 1 — Book & Serial Monetization Engine (Amazon KDP + Patreon):** `11633e7c-51be-4b14-bfbd-5574f5af65c2`
+  - **Pillar 2 — Book Writing Environment (BWE) Software & Agentic Harness:** `f87ccfa9-55a1-4124-ace0-6f514e001ead`
+  - **Pillar 3 — Plug-and-Play Multi-Series Extensibility (`series/<slug>/`):** `beac3251-0a47-4546-9603-a30c9037a64e`
+
 ## Series 1: `Architectures of Memory — Series` (`P-ARC-8`)
 - **Project ID:** `3cae0985-8124-4f85-a959-6216cb041c81`
 - **Directory:** `series/architectures-of-memory/book-01..05-*`

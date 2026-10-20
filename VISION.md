@@ -1,5 +1,7 @@
 # Realized Press — Vision, Monetization & Book Writing Environment (BWE) Architecture
 
+> **Linear Project (`P-ARC-18`):** [`Realized Press — Canonical Vision & Book Writing Environment (BWE)`](https://linear.app/realized/project/realized-press-canonical-vision-and-book-writing-environment-bwe-130eae5e23b7) (`fe68af35-3169-4d26-868e-0000a8d07672`) · [Canonical Vision Document](https://linear.app/realized/document/canonical-vision-monetization-book-writing-environment-bwe-and-multi-aecc83c9240e)
+
 **Realized Press** (`ralfcam/realized-press`) operates on a dual-value thesis:
 1. **An IP & Publishing House:** Producing high-trust, citation-locked nonfiction series monetized through **Amazon KDP** (Print-on-Demand Paperback/Hardcover, Kindle eBook, Audiobook) and **Patreon / Serial Memberships** (Reader Editions, Evidence Briefs, Living Atlases).
 2. **A Software & Agentic Product ("The Book Writing Environment" / BWE):** Treating book authoring with the rigor of the **Software Development Lifecycle (SDLC)** and modern **IDEs**—where claims have type-checked evidence cards, prose is linted against certainty grades, citations are cryptographically/DOI-locked against retractions, and manuscripts compile deterministically to every commercial format.
