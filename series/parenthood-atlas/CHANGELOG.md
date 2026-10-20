@@ -11,6 +11,14 @@ Entry types:
 
 ## [Unreleased]
 
+### Added
+- Authored four new OKF v0.2 domain evidence cards completing the remaining unstarted domain coverage for milestone `v0.4`:
+  - `guided-play-efficacy.md` (CH12): Skene 2022 meta-analysis / Weisberg 2016; separates adult-scaffolded guided play in early mathematics/spatial concepts from broad literacy, EF, and home curricula.
+  - `delivery-mode-neonatal-transition.md` (CH03): Jain & Dudell 2006 / Curran 2015 sibling design; distinguishes immediate neonatal fluid clearance/stress physiology from long-term neurodevelopment/ASD which attenuates to null in sibling comparisons.
+  - `working-memory-cognitive-shifting-infancy.md` (CH11): Diamond 1985 / Zelazo 2006; characterizes the normative developmental progression of working memory delay tolerance and dimensional shifting across infancy and toddlerhood.
+  - `routines-and-adult-modeling.md` (CH10): Fiese 2002 / Mindell 2009; frames predictable routines and adult modeling as supportive regulatory scaffolding rather than an autonomous machine that installs moral conscience.
+- Catalog expanded to **72** live cards (8 `stable`, 64 `draft`); **124** verified `SOURCES.md` IDs. Chapters 3, 10, 11, and 12 linked and synchronized. Closes Linear issue `ARC-50`.
+
 ### Revised
 - Promoted `looking-time-as-measurement.md` from `draft` to `status: stable` under the OKF v0.2 Five-Rule Promotion Gate for the *narrow* methodological measurement claim: infant looking-time methods reliably index perceptual discrimination, stimulus novelty, and attentional allocation under controlled conditions; looking duration is not a transparent readout of rich conceptual knowledge, belief, or innate theories. Triangulated Aslin 2007 (linking-hypothesis logic) with Haith 1998 (critique of perceptual confounding in nativist infant cognition) and ManyBabies Consortium / Frank et al. 2020 (empirical multi-lab measurement dynamics across 2,329 infants and 67 laboratories; DOI 10.1177/2515245919900809). Catalog is now 68 cards (8 `stable`; 60 `draft`); 116 verified `SOURCES.md` IDs. Closes Linear issue `ARC-52`.
 

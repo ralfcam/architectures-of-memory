@@ -88,7 +88,7 @@ Refusal can express agency, limited regulation, communication difficulty, or con
 
 Instrumental helping appears in the second year. A toddler may hand an object, open a door, or pick up something an adult has dropped. It is not mature altruism. **Grade: Moderate** that instrumental helping of this kind emerges in the second year. **Grade: Low** as mature altruism, a character forecast, or a parenting score. The evidence card is `instrumental-helping-not-altruism.md` (Warneken & Tomasello 2006). Committed compliance remains a different object.
 
-Routines and predictability are associated with self-regulation in observational work; causality is thinner than popular claims. **Grade: Low-to-Moderate** causal. Held as `needs-source-audit`. A regular bedtime is not a conscience machine, and a disrupted day is not a character defect.
+Routines and adult modeling provide supportive environmental scaffolding that facilitates toddler self-regulation and sleep transitions (`routines-and-adult-modeling.md`; Fiese 2002; Mindell 2009). **Grade: Moderate** that predictable daily routines scaffold immediate self-regulation and emotional transitions. **Grade: Low** that routines causally install lifelong conscience or operate as a rigid behavioral machine. A regular bedtime is not a conscience machine, and a disrupted day is not a character defect.
 
 Parent-training for elevated problems can reduce disruptive behavior in indicated populations; universal under-3 prevention is thinner. That architecture belongs to Chapter 14. A program’s success does not prove parents caused the original problem. Indicated samples are not the same as typical toddlerhood.
 
@@ -133,6 +133,7 @@ The floor episode in Chapter 9 was already a rule scene in disguise: a want that
 ## Linked evidence cards
 
 - `evidence-cards/committed-compliance-not-obedience.md` (CH10-C03)
+- `evidence-cards/routines-and-adult-modeling.md` (CH10-C04)
 - `evidence-cards/toddler-physical-aggression-trajectories.md` (CH10-C11)
 - `evidence-cards/physical-punishment-not-necessary.md` (CH10-C07)
 - Remainder: `evidence-cards/instrumental-helping-not-altruism.md` (Warneken 2006)

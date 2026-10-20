@@ -22,7 +22,7 @@ Inside the uterus, oxygen arrives through the placenta. Temperature is buffered.
 
 The naive picture is a blank slate: an unfinished infant waiting for the environment to write the important parts. The equally naive picture is a finished program: everything important already determined by genes, pregnancy, or the circumstances of delivery. What we meet instead is a change of regulatory environment. The newborn is already organized, but not complete. Already capable, but not mature. Already shaped, but not fixed. Immediately dependent on a new system composed of the infant’s own physiology, caregivers, clinical care, and material conditions.
 
-A difficult first breath is not automatically a biography. A cesarean without labor can alter cortisol and catecholamine patterns; that is physiology, not character. Mode of delivery remains **held** as a first card.
+A difficult first breath is not automatically a biography. A cesarean without labor can alter cortisol and catecholamine patterns and delay lung fluid absorption; that is acute transition physiology, not character (`delivery-mode-neonatal-transition.md`). Mode of delivery does not determine long-term cognition or neurodevelopment once family background and clinical indications are controlled.
 
 ## Competing explanations of the opening scene
 
@@ -158,6 +158,7 @@ The relationship that takes up that dependence is the next territory. It is not 
 
 ## Linked evidence cards
 
+- `evidence-cards/delivery-mode-neonatal-transition.md` (CH03-C01; acute fluid clearance vs confounded long-term neurodevelopment)
 - `evidence-cards/neonatal-cardiopulmonary-transition.md` (CH03-C02)
 - `evidence-cards/infant-crying-as-signal.md` (CH03-C04)
 - `evidence-cards/suck-swallow-breathe-coordination.md` (CH03-C05)
@@ -166,4 +167,4 @@ The relationship that takes up that dependence is the next territory. It is not 
 - Adjacent Chapter 2 continuity: `evidence-cards/fetal-growth-not-destiny.md` (C13 interpretive)
 - Adjacent Chapter 2 hearing: `evidence-cards/prenatal-auditory-learning.md` (do not re-extract DeCasper)
 
-Promotion note: this file is a curated, voice-checked copy in the Appendix B range. The archival draft `preliminary/drafts-chapters/chapter 3` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch03-curated-03-the-great-transition--voice-review.md`. Mode of delivery remains held. Neonatal perception (C03) remains `needs-source-audit`.
+Promotion note: this file is a curated, voice-checked copy in the Appendix B range. The archival draft `preliminary/drafts-chapters/chapter 3` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch03-curated-03-the-great-transition--voice-review.md`. Delivery mode card authored (`delivery-mode-neonatal-transition.md`). Neonatal perception (C03) remains `needs-source-audit`.

@@ -78,7 +78,7 @@ Outdoor and risky play have a first-pass card. Much of that literature is school
 
 ## Guided play is not a settled program
 
-An adult who joins, comments, and slightly steers can change what a child does with a toy. That is a plausible proximal process. It is not, in this catalog, a registered efficacy package for typical development. **Grade: Low-to-Moderate** as a research idea; **Low** as a home curriculum. Held. Guided play that becomes a lesson with a toy in it is instruction. Guided play that follows the child’s mapping without stealing it is a different exposure. The label does not decide which one occurred.
+An adult who joins, comments, and gently scaffolds can enhance learning of targeted concepts like early numeracy and spatial vocabulary without hijacking child agency (`guided-play-efficacy.md`; Skene 2022; Weisberg 2016). **Grade: Moderate** that guided play outperforms unguided play or didactic instruction for specific early math and spatial concepts in educational settings. **Grade: Low** that guided play improves broad literacy, general executive function, or constitutes a mandatory home curriculum for typical development. Guided play that becomes a lesson with a toy in it is instruction. Guided play that follows the child’s mapping without stealing it is a different exposure. The label does not decide which one occurred.
 
 Materials matter because they afford actions. A room with nothing that can be a telephone is a different laboratory from a room with blocks, pots, and cloth. More toys are not necessarily more representation. Chapter 6 already refused “more toys = more information.” That refusal holds. A spare room can support substitution. A crowded room can bury it. Materials without an available adult are not the same as materials with one. Adult presence without joinable materials is another different laboratory.
 
@@ -125,6 +125,7 @@ The crayon in Chapter 11 was already a representation problem: a symbol could ma
 ## Linked evidence cards
 
 - `evidence-cards/symbolic-pretend-play-emergence.md` (CH12-C02)
+- `evidence-cards/guided-play-efficacy.md` (CH12-C08)
 - `evidence-cards/pretend-play-educational-claims.md` (CH12-C10)
 - Remainder: `evidence-cards/outdoor-risky-play-not-0-3-law.md` (Brussoni 2015)
 - Reconcile only: `evidence-cards/exploration-as-sampling.md`, `evidence-cards/embodied-perception-action.md`, `evidence-cards/toddler-peer-interaction.md`, `evidence-cards/preschool-early-education-rct.md`, `evidence-cards/screen-time-language-development.md`

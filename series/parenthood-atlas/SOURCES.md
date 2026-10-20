@@ -355,6 +355,30 @@ sources:
   - id: dean-2014-preconception-nutrition
     resource: https://doi.org/10.1186/1742-4755-11-S3-S3
     title: "Dean et al. (2014), Reproductive Health, preconception care: nutritional risks and interventions"
+  - id: skene-2022-guided-play
+    resource: https://doi.org/10.1111/cdev.13730
+    title: "Skene et al. (2022), Child Development, meta-analysis of guided play in educational contexts"
+  - id: weisberg-2016-guided-play
+    resource: https://doi.org/10.1177/0963721416645512
+    title: "Weisberg et al. (2016), Current Directions, guided play principles and practices"
+  - id: curran-2015-cesarean-sibling
+    resource: https://doi.org/10.1001/jamapsychiatry.2015.0846
+    title: "Curran et al. (2015), JAMA Psychiatry, obstetric mode of delivery and ASD sibling design"
+  - id: jain-dudell-2006-cesarean
+    resource: https://doi.org/10.1053/j.semperi.2006.07.011
+    title: "Jain & Dudell (2006), Seminars in Perinatology, respiratory transition in infants delivered by cesarean"
+  - id: diamond-1985-recall
+    resource: https://doi.org/10.2307/1130099
+    title: "Diamond (1985), Child Development, recall to guide action in infants' AB performance"
+  - id: zelazo-2006-dccs
+    resource: https://doi.org/10.1038/nprot.2006.46
+    title: "Zelazo (2006), Nature Protocols, Dimensional Change Card Sort method for EF"
+  - id: fiese-2002-family-routines
+    resource: https://doi.org/10.1037/0893-3200.16.4.381
+    title: "Fiese et al. (2002), Journal of Family Psychology, 50-year review of family routines and rituals"
+  - id: mindell-2009-bedtime-routine
+    resource: https://doi.org/10.1093/sleep/32.5.599
+    title: "Mindell et al. (2009), Sleep, nightly bedtime routine RCT and young child sleep"
 ---
 
 # Master Source Catalog
@@ -498,6 +522,14 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `carneiro-2015-leave` | Carneiro, Løken & Salvanes (2015), maternity leave and long-run child outcomes | [https://doi.org/10.1086/679627](https://doi.org/10.1086/679627) | [parental-leave-heterogeneous-package](evidence-cards/parental-leave-heterogeneous-package.md) |
 | `cook-2004-food-insecurity` | Cook et al. (2004), food insecurity and infant/toddler health | [https://doi.org/10.1093/jn/134.6.1432](https://doi.org/10.1093/jn/134.6.1432) | [household-food-insecurity-health](evidence-cards/household-food-insecurity-health.md) |
 | `dean-2014-preconception-nutrition` | Dean et al. (2014), preconception nutritional risks and interventions | [https://doi.org/10.1186/1742-4755-11-S3-S3](https://doi.org/10.1186/1742-4755-11-S3-S3) | [preconception-nutrition-beyond-folate](evidence-cards/preconception-nutrition-beyond-folate.md) |
+| `skene-2022-guided-play` | Skene et al. (2022), Child Development, meta-analysis of guided play | [https://doi.org/10.1111/cdev.13730](https://doi.org/10.1111/cdev.13730) | [guided-play-efficacy](evidence-cards/guided-play-efficacy.md) |
+| `weisberg-2016-guided-play` | Weisberg et al. (2016), Current Directions, guided play principles and practices | [https://doi.org/10.1177/0963721416645512](https://doi.org/10.1177/0963721416645512) | [guided-play-efficacy](evidence-cards/guided-play-efficacy.md) |
+| `curran-2015-cesarean-sibling` | Curran et al. (2015), JAMA Psychiatry, obstetric mode of delivery and ASD sibling design | [https://doi.org/10.1001/jamapsychiatry.2015.0846](https://doi.org/10.1001/jamapsychiatry.2015.0846) | [delivery-mode-neonatal-transition](evidence-cards/delivery-mode-neonatal-transition.md) |
+| `jain-dudell-2006-cesarean` | Jain & Dudell (2006), Seminars in Perinatology, respiratory transition in cesarean delivery | [https://doi.org/10.1053/j.semperi.2006.07.011](https://doi.org/10.1053/j.semperi.2006.07.011) | [delivery-mode-neonatal-transition](evidence-cards/delivery-mode-neonatal-transition.md) |
+| `diamond-1985-recall` | Diamond (1985), Child Development, recall to guide action in infants' AB performance | [https://doi.org/10.2307/1130099](https://doi.org/10.2307/1130099) | [working-memory-cognitive-shifting-infancy](evidence-cards/working-memory-cognitive-shifting-infancy.md) |
+| `zelazo-2006-dccs` | Zelazo (2006), Nature Protocols, Dimensional Change Card Sort method for EF | [https://doi.org/10.1038/nprot.2006.46](https://doi.org/10.1038/nprot.2006.46) | [working-memory-cognitive-shifting-infancy](evidence-cards/working-memory-cognitive-shifting-infancy.md) |
+| `fiese-2002-family-routines` | Fiese et al. (2002), Journal of Family Psychology, 50-year review of family routines | [https://doi.org/10.1037/0893-3200.16.4.381](https://doi.org/10.1037/0893-3200.16.4.381) | [routines-and-adult-modeling](evidence-cards/routines-and-adult-modeling.md) |
+| `mindell-2009-bedtime-routine` | Mindell et al. (2009), Sleep, nightly bedtime routine RCT and young child sleep | [https://doi.org/10.1093/sleep/32.5.599](https://doi.org/10.1093/sleep/32.5.599) | [routines-and-adult-modeling](evidence-cards/routines-and-adult-modeling.md) |
 
 ## Unresolved Citations
 

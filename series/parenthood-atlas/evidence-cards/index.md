@@ -1,6 +1,6 @@
 # Evidence Cards Index
 
-Sixty-eight evidence cards. **Eight** physiology/lab/methods cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`, `infant-contingency-learning.md`, `infant-social-referencing.md`, `infant-still-face-paradigm.md`, `infant-perceptual-narrowing.md`, `looking-time-as-measurement.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
+Sixty-eight evidence cards. **Eight** physiology/lab/methods cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`, `infant-contingency-learning.md`, `infant-social-referencing.md`, `infant-still-face-paradigm.md`, `infant-perceptual-narrowing.md`, `looking-time-as-measurement.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty-four remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
 
 # Evidence Cards
 
@@ -72,13 +72,18 @@ Sixty-eight evidence cards. **Eight** physiology/lab/methods cards are `status: 
 * [Infant Sleep Training](infant-sleep-training.md) - RCTs and cohorts find no attachment/behavioral harm through age 6; `hiscock-2016` listing retired.
 * [Self-Regulation and Delay of Gratification](self-regulation-delay-of-gratification.md) - 2018 NICHD replication shows the original predictor claim was mostly confounded.
 * [Preschool / Early Childhood Education](preschool-early-education-rct.md) - Genuine long-run RCT evidence from small, high-fidelity 1960s-70s programs.
+* [Guided Play Efficacy and Pedagogical Scaffolding](guided-play-efficacy.md) - Skene 2022 / Weisberg 2016: Moderate for early math/spatial concepts; Low for literacy, EF, or mandatory home curriculum.
+* [Mode of Delivery and Neonatal Physiological Transition](delivery-mode-neonatal-transition.md) - Jain & Dudell 2006 / Curran 2015: High for acute lung fluid clearance and stress surge; Low for long-term neurodevelopment/ASD (attenuates to null in sibling designs).
+* [Working Memory and Cognitive Shifting in Infancy and Toddlerhood](working-memory-cognitive-shifting-infancy.md) - Diamond 1985 / Zelazo 2006: Moderate-to-High developmental progression across delay and shifting; Low individual long-term forecast.
+* [Family Routines, Predictability, and Adult Modeling](routines-and-adult-modeling.md) - Fiese 2002 / Mindell 2009: Moderate scaffolding for immediate regulation and sleep; Low that routines causally install conscience.
 
-# Not Yet Started
+# Domain Status and Crosswalk
 
 * Preconception exposures - Kong paternal-age card exists; `preconception-nutrition-beyond-folate.md` covers other nutrients without inheriting folate’s NTD grade. Sperm-epigenetic stories remain excluded.
-* Birth - mode of delivery and birth experience (held); skin-to-skin, crying, feeding coordination, and preterm group risk now have cards; neonatal transition is `stable` for the sequence claim.
-* Play - symbolic/pretend, Lillard overclaim, and outdoor/risky-play cards exist; curated Chapter 12 exists. Guided-play efficacy still thinner than a dedicated card.
-* Social development beyond attachment - referencing, networks, peers, father/kin, still-face, compliance/aggression, and Warneken helping cards exist; curated Chapters 8–10 and 15 exist.
+* Birth - `delivery-mode-neonatal-transition.md` covers acute transition and sibling-controlled neurodevelopment; skin-to-skin, crying, feeding coordination, and preterm group risk have dedicated cards; neonatal transition is `stable` for the sequence claim.
+* Play - symbolic/pretend, Lillard overclaim, outdoor/risky-play, and `guided-play-efficacy.md` now exist; curated Chapter 12 exists.
+* Social development beyond attachment - referencing, networks, peers, father/kin, still-face, compliance/aggression, routines/modeling, and Warneken helping cards exist; curated Chapters 8–10 and 15 exist.
+* Executive function / cognition - looking-time (`stable`), attention, object-permanence, joint-attention, and `working-memory-cognitive-shifting-infancy.md` now exist; curated Chapters 5 and 11 exist.
 * Ecology / policy - income/cash, MTO, leave, and food-insecurity cards exist; curated Chapter 13 exists.
 * Age-3 waypoint - continuity, self-control gradient, and ordinary-resilience cards exist; **curated Chapter 15** exists (`chapters/15-three-years.md`).
 

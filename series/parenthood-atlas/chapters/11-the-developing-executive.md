@@ -42,7 +42,7 @@ A toddler battery that loads on one factor in a small sample has not shown that 
 
 A second case makes the family visible without a crayon. A toy is hidden under a cloth, then moved. The child searches the first place. Holding the update — it is not where I last found it — is a working-memory demand. A moment later the adult changes the rule of a game: now the small cup wins, not the large one. Switching is a different load. Stopping a reach, holding an update, and switching a rule can fail separately. In toddler tasks they often fail together, which is why the adult factor structure should not be read downward as already installed.
 
-Working memory and flexibility improve across this span; dedicated identifications remain thinner than the family review. Maintaining a rule while a lure is present, and switching when the rule changes, are real developmental achievements. They are also heavily entangled with inhibition and language in toddler tasks. **Grade: Moderate** as a developmental description. Dedicated working-memory and shifting cards remain `needs-source-audit`.
+Working memory and cognitive shifting improve systematically across this span (`working-memory-cognitive-shifting-infancy.md`; Diamond 1985; Zelazo 2006). Maintaining a representation across delay while a lure is present, and shifting sets when a rule changes, reflect prefrontal neural development. **Grade: Moderate-to-High** for the normative developmental progression of working-memory delay capacity and dimensional shifting. **Grade: Low** that individual performance on early search or sorting tasks forecasts adult intelligence, or that infant working memory can be accelerated through specialized training products.
 
 Language and private speech as self-guidance remain `needs-source-audit` for a dedicated card. **Grade: Moderate** that language can support goal maintenance. **Grade: Low-to-Moderate** that adult instruction becomes internal control as an exclusive causal pathway. A child who talks through a wait is not proof that a particular script installs an executive. Private speech can be a developmental support. It can also be a correlate of the same language skill that makes the battery easier. Those come apart only with designs this chapter does not yet register.
 
@@ -130,6 +130,7 @@ Chapter 10 described the rule. This chapter describes the machinery that makes s
 
 - `evidence-cards/executive-function-unity-diversity.md` (CH11-C01/C02)
 - `evidence-cards/inhibitory-control-toddler.md` (CH11-C03)
+- `evidence-cards/working-memory-cognitive-shifting-infancy.md` (CH11-C04)
 - Reconcile only: `evidence-cards/self-regulation-delay-of-gratification.md`
 - Adjacent: `evidence-cards/infant-attention-as-gatekeeper.md`, `evidence-cards/infant-contingency-learning.md`
 
