@@ -37,13 +37,15 @@ In the mobile-conjugate-reinforcement paradigm, a ribbon links an infant’s ank
 
 ## Evidence and Causal Assessment
 
-Rovee & Rovee (1969) established conjugate reinforcement of infant kicking. Subsequent work, summarized in methods papers (e.g. Merz et al. 2017) and a 2025 review of the last quarter-century, treats the paradigm as a reliable laboratory measure of learning and memory: speed of acquisition and length of retention increase with age; reminders can reactivate a forgotten response, often with high context specificity. Incomplete processing parameters and the later turn toward individual differences and agency do not block the *narrow* High claim that the contingency can be acquired and retained under matching conditions — the same split as Saffran laboratory segmentation versus household transfer. GI attenuation: **n/a** (laboratory operant conditioning / phonetic attunement, not an observational population phenotype association).
+Rovee & Rovee (1969) established conjugate reinforcement of infant kicking. Subsequent work, summarized in methods papers (e.g. Merz et al. 2017) and a 2025 review of the last quarter-century, treats the paradigm as a reliable laboratory measure of learning and memory: speed of acquisition and length of retention increase with age; reminders can reactivate a forgotten response, often with high context specificity. Incomplete processing parameters and the later turn toward individual differences and agency do not block the *narrow* High claim that the contingency can be acquired and retained under matching conditions — the same split as Saffran laboratory segmentation versus household transfer.
 
 ## Effect Size and Persistence
 
 There is no single standardized effect for “infant learning.” The defensible unit is behavioral acquisition and a retention window that varies with age, training distribution, and contextual match. A weak test response can be retrieval or motor-performance failure rather than absent learning.
 
 ## Bias, Heterogeneity, and Confounding
+
+GI attenuation: **n/a** (laboratory operant conditioning / infant contingency reinforcement, not an observational population phenotype association).
 
 Arousal, interest in the mobile, motor capacity, and the opportunity to kick all affect the score. Laboratory contingency is not everyday exploration. Agency (whether the infant experiences the relation as self-caused) remains an interpretive question.
 

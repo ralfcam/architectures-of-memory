@@ -7,6 +7,8 @@ status: draft
 confidence: moderate-to-high-sensitivity; moderate-attachment
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
+atlas_domains: [attachment, parenting, social]
+chapter_hooks: [anomaly, mechanism, boundary]
 sources:
   - id: bakermans-2003
     resource: https://pubmed.ncbi.nlm.nih.gov/12696839/

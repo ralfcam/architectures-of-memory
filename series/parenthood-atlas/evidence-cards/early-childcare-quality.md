@@ -7,6 +7,8 @@ status: draft
 confidence: moderate
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
+atlas_domains: [parenting, ecology, early-learning]
+chapter_hooks: [anomaly, mechanism, boundary]
 sources:
   - id: nichd-seccyd-2006
     resource: https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/seccyd_06.pdf

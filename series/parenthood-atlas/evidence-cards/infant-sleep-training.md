@@ -7,6 +7,8 @@ status: draft
 confidence: low-to-moderate
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
+atlas_domains: [regulation, health, parenting]
+chapter_hooks: [anomaly, mechanism, boundary]
 sources:
   - id: mindell-2006-sleep
     resource: https://doi.org/10.1093/sleep/29.10.1263

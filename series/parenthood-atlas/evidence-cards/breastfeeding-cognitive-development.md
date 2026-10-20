@@ -7,6 +7,8 @@ status: draft
 confidence: moderate
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
+atlas_domains: [feeding, cognition]
+chapter_hooks: [anomaly, mechanism, boundary]
 sources:
   - id: probit-16yr-2018
     resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC5909901/

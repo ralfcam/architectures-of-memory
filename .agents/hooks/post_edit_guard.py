@@ -164,6 +164,10 @@ def _check_evidence_card_gates(path: Path) -> list[str]:
             issues.append("Rule 5 fail (`## What This Does Not Mean` missing or <= 40 chars)")
         if rep["missing_sections"]:
             issues.append(f"Missing required sections: {rep['missing_sections']}")
+        if not rep.get("confounding_pass", True):
+            issues.append(f"Confounding/GI attenuation fail ({rep.get('confounding_notes', 'missing or invalid classification')})")
+        if not rep.get("frontmatter_pass", True):
+            issues.append(f"Frontmatter schema fail (missing {rep.get('frontmatter_missing')})")
         if issues:
             return [f"OKF Five-Rule Gate (`{path.name}`): {'; '.join(issues)}."]
     except Exception:

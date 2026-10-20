@@ -7,6 +7,8 @@ status: draft
 confidence: low-to-moderate-typical-range; moderate-largely-confounded; low-residual-prenatal
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
+atlas_domains: [pregnancy, development]
+chapter_hooks: [anomaly, mechanism, boundary]
 sources:
   - id: bmc-moba-2025
     resource: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-024-03834-w

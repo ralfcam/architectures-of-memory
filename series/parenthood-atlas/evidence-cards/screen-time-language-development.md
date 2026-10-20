@@ -7,6 +7,8 @@ status: draft
 confidence: low-to-moderate
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
+atlas_domains: [language, ecology, parenting]
+chapter_hooks: [anomaly, mechanism, boundary]
 sources:
   - id: madigan-2020
     resource: https://doi.org/10.1001/jamapediatrics.2020.0327

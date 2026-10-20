@@ -9,6 +9,12 @@ Rules checked:
   independent/conceptual replication before setting `status: stable`).
 - Rule 4 (grade token parity): YAML `confidence` grade tokens match in-body `**Grade**` tokens.
 - Rule 5 (substantive WTDM): `## What This Does Not Mean` is present and > 40 chars.
+- Confounding & GI Attenuation Gate: Section `## Bias, Heterogeneity, and Confounding` contains
+  an explicit classification token (`largely confounded (>50%)`, `partially confounded (20–50%)`,
+  `robust (<20%)`, `untested-in-GI`, or `n/a`), and does NOT contain `not classified`.
+- Frontmatter Schema Gate: YAML frontmatter contains required keys (`type`, `title`, `description`,
+  `tags`, `status`, `confidence`, `sources`, plus series-specific `atlas_domains` or `series_domains`
+  and `chapter_hooks`).
 """
 
 from __future__ import annotations
@@ -17,6 +23,11 @@ import argparse
 import re
 import sys
 from pathlib import Path
+
+try:
+    import yaml
+except ImportError:
+    yaml = None
 
 ROOT = Path(__file__).resolve().parent.parent
 if str(ROOT / "scripts") not in sys.path:
@@ -123,6 +134,15 @@ def check_online_retractions(sources: list[tuple[str, str]]) -> tuple[bool, list
     return len(flags) == 0, flags or [f"0 retractions/EoCs across {checked} DOIs"]
 
 
+CONFOUNDING_PATTERNS = [
+    (r"largely confounded", "largely confounded (>50%)"),
+    (r"partially confounded", "partially confounded (20–50%)"),
+    (r"\brobust\b", "robust (<20%)"),
+    (r"untested-in-gi|untested in gi", "untested-in-GI"),
+    (r"\bn/?a\b", "n/a"),
+]
+
+
 def check_card(path: Path, online_retraction: bool = False) -> dict:
     text = path.read_text(encoding="utf-8")
     fm, body = split_frontmatter(text)
@@ -136,6 +156,61 @@ def check_card(path: Path, online_retraction: bool = False) -> dict:
     if wtdm:
         chunk = body.split("## What This Does Not Mean", 1)[1]
         wtdm_text = chunk.split("## ", 1)[0].strip()
+
+    # Confounding and GI attenuation check
+    confounding_pass = False
+    confounding_label = ""
+    confounding_notes = ""
+    if "## Bias, Heterogeneity, and Confounding" in body:
+        chunk = body.split("## Bias, Heterogeneity, and Confounding", 1)[1]
+        conf_sec = chunk.split("## ", 1)[0].lower()
+        if "not classified" in conf_sec:
+            confounding_pass = False
+            confounding_notes = "contains forbidden 'not classified' token"
+        else:
+            for pat, label in CONFOUNDING_PATTERNS:
+                if re.search(pat, conf_sec):
+                    confounding_pass = True
+                    confounding_label = label
+                    confounding_notes = f"classified as {label}"
+                    break
+            if not confounding_pass:
+                confounding_notes = "no recognized GI attenuation / confounding token found"
+    else:
+        confounding_notes = "section ## Bias, Heterogeneity, and Confounding is missing"
+
+    # Frontmatter schema check
+    frontmatter_pass = True
+    frontmatter_missing: list[str] = []
+    if fm:
+        req_keys = {"type", "title", "description", "tags", "status", "confidence", "sources"}
+        parts_lower = [p.lower() for p in path.parts]
+        if "parenthood-atlas" in parts_lower:
+            req_keys.update({"atlas_domains", "chapter_hooks"})
+        elif "architectures-of-memory" in parts_lower:
+            req_keys.update({"series_domains", "chapter_hooks"})
+
+        parsed_keys = set()
+        if yaml:
+            try:
+                parsed_dict = yaml.safe_load(fm) or {}
+                if isinstance(parsed_dict, dict):
+                    parsed_keys = set(parsed_dict.keys())
+            except Exception:
+                pass
+        if not parsed_keys:
+            for line in fm.splitlines():
+                km = re.match(r"^([a-zA-Z0-9_-]+):", line)
+                if km:
+                    parsed_keys.add(km.group(1))
+
+        missing_keys = sorted(req_keys - parsed_keys)
+        if missing_keys:
+            frontmatter_pass = False
+            frontmatter_missing = missing_keys
+    else:
+        frontmatter_pass = False
+        frontmatter_missing = ["frontmatter missing entirely"]
 
     rule2_checked = online_retraction
     rule2_pass = True
@@ -159,6 +234,11 @@ def check_card(path: Path, online_retraction: bool = False) -> dict:
         "rule4_body_tokens": sorted(body_tok),
         "rule5_wtdm_nonempty": wtdm and len(wtdm_text) > 40,
         "missing_sections": missing_sections,
+        "confounding_pass": confounding_pass,
+        "confounding_label": confounding_label,
+        "confounding_notes": confounding_notes,
+        "frontmatter_pass": frontmatter_pass,
+        "frontmatter_missing": frontmatter_missing,
     }
 
 
@@ -182,8 +262,8 @@ def format_report(r: dict) -> str:
         r2_line,
         f"- Rule 3 (non-decisive): second source ID on card = **{'present' if r['rule3_second_source_id'] else 'absent'}**.",
         "- Rule 3: a second source ID is not evidence of independent replication.",
-        "- Design class / GI attenuation: not mechanically audited; must be documented in the promotion note "
-        "as `largely confounded (>50%)`, `partially confounded (20–50%)`, `robust (<20%)`, `n/a`, or `not classified`.",
+        f"- Design class / GI attenuation: **{'pass' if r['confounding_pass'] else 'FAIL'}** ({r['confounding_notes']}).",
+        f"- Frontmatter schema: **{'pass' if r['frontmatter_pass'] else 'FAIL'}** ({'missing: ' + ', '.join(r['frontmatter_missing']) if r['frontmatter_missing'] else 'all required keys present'}).",
         f"- Rule 4 (YAML = in-body grade tokens): **{'pass' if r['rule4_yaml_matches_body_tokens'] else 'fail'}** "
         f"(yaml {r['rule4_yaml_tokens']} vs body {r['rule4_body_tokens']}).",
         f"- Rule 5 (WTDM nonempty): **{'pass' if r['rule5_wtdm_nonempty'] else 'fail'}**.",
@@ -250,6 +330,8 @@ def main(argv: list[str]) -> int:
             and report["rule4_yaml_matches_body_tokens"]
             and report["rule5_wtdm_nonempty"]
             and not report["missing_sections"]
+            and report["confounding_pass"]
+            and report["frontmatter_pass"]
         )
         if card_ok:
             passed += 1

@@ -7,6 +7,8 @@ status: draft
 confidence: moderate-historical; low-generalization
 generated: { by: human:jose-campos, at: 2026-09-14T16:11:00Z }
 stale_after: 2027-03-14T00:00:00Z
+atlas_domains: [early-learning, cognition, policy]
+chapter_hooks: [anomaly, mechanism, boundary]
 sources:
   - id: preschool-scale-synthesis
     resource: https://files.eric.ed.gov/fulltext/ED672217.pdf

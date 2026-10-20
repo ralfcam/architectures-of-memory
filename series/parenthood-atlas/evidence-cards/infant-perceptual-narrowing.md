@@ -34,13 +34,15 @@ Young infants can discriminate phonetic contrasts they have not yet needed for a
 
 ## Evidence and Causal Assessment
 
-Werker & Tees (1984) compared English infants with English and Salish adults on a Salish (non-English) contrast, and combined cross-sectional with longitudinal infant data. Infants discriminated the nonnative contrast; the decline appeared within the first year and depended on specific language experience. Kuhl, Williams, Lacerda, Stevens & Lindblom (1992), *Science*, showed in an independent laboratory that by six months American infants’ vowel perception had already been altered by English experience — a conceptual replication of experience-dependent phonetic attunement, not a household-vocabulary study and not a universal 6–12-month clock. Identification is experimental (manipulated contrast × age/experience), not a randomized life-course trial. GI attenuation: **n/a** (laboratory operant conditioning / phonetic attunement, not an observational population phenotype association). A 2002 reprint of Werker & Tees remains a landmark; later work has questioned how far the original samples generalize. The timetable and sealed-deadline claims are **not** replicated as universals and remain Moderate and Low.
+Werker & Tees (1984) compared English infants with English and Salish adults on a Salish (non-English) contrast, and combined cross-sectional with longitudinal infant data. Infants discriminated the nonnative contrast; the decline appeared within the first year and depended on specific language experience. Kuhl, Williams, Lacerda, Stevens & Lindblom (1992), *Science*, showed in an independent laboratory that by six months American infants’ vowel perception had already been altered by English experience — a conceptual replication of experience-dependent phonetic attunement, not a household-vocabulary study and not a universal 6–12-month clock. Identification is experimental (manipulated contrast × age/experience), not a randomized life-course trial. A 2002 reprint of Werker & Tees remains a landmark; later work has questioned how far the original samples generalize. The timetable and sealed-deadline claims are **not** replicated as universals and remain Moderate and Low.
 
 ## Effect Size and Persistence
 
 The outcome is contemporaneous discrimination, not later vocabulary. Persistence of the *decline* into adulthood is well known for some contrasts; recovery and bilingual maintenance show that the system is not sealed.
 
 ## Bias, Heterogeneity, and Confounding
+
+GI attenuation: **n/a** (laboratory phonetic discrimination task, not an observational population phenotype association).
 
 Historically narrow language samples; looking-time methods; infant state. Diversity of languages and communities remains a live critique of treating 6–12 months as a single clock.
 
