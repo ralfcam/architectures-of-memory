@@ -1,6 +1,12 @@
-# Research notes template & quality bar
+---
+trigger: glob
+globs: "series/**/research/notes/*.md"
+description: Research notes template and bibliographic quality bar.
+---
 
-Applies to: `book-*/research/notes/**/*.md`
+# Research Notes Template & Quality Bar
+
+Applies to: `series/architectures-of-memory/book-*/research/notes/**/*.md`
 
 Every note must include:
 
@@ -11,14 +17,14 @@ Every note must include:
 **Queries:** [numbered list]
 
 ## Findings
-[Output with inline source URLs, grouped by query]
+[Output with inline canonical DOIs/URLs, grouped by query]
 
 ## Verified Claims
-- [ ] or [x] claim → source
+- [ ] or [x] claim → source (BibTeX key in sources.bib + OKF card in evidence-cards/)
 
 ## Open Questions
 - ...
 ```
 
-- **No naked paraphrase** of a primary source without a short quoted excerpt or explicit pointer (URL / DOI / bibkey).
-- **URLs** live in Findings, not only at the end.
+- **No naked paraphrase** of a primary source without a short quoted excerpt or explicit pointer (DOI / URL / `sources.bib` key).
+- **Never** paste raw `vertexaisearch.cloud.google.com/grounding-api-redirect/` URLs.

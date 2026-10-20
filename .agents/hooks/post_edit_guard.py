@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Antigravity lifecycle hook enforcing the Definitive Tool Routing Protocol (Books 2–5):
+"""Antigravity & Cursor lifecycle hook enforcing the Multi-Series Definitive Tool Routing Protocol & OKF v0.2:
 
-1. Blocks/warns on raw `vertexaisearch.cloud.google.com/grounding-api-redirect/` URLs in notes/fact-checks/chapters.
+1. Blocks/warns on raw `vertexaisearch.cloud.google.com/grounding-api-redirect/` URLs in notes/fact-checks/cards/chapters.
 2. Enforces Mandatory Bibliographic Lock: checks that any DOI (`10.xxxx/...`) or `arXiv:xxxx.xxxxx` cited in
-   `research/notes/*.md`, `research/fact-checks/*.md`, or `chapters/*.md` is locked in `book-0X-*/research/sources.bib`
-   via `academic-bib` (`crossref_lookup` / `arxiv_search` -> `add_bibtex_entry`).
-3. Enforces Pre-PR Manuscript Gate on `chapters/*.md`: checks `[citation needed]` markers, section-level metaphor
-   collisions (max 1 controlling metaphor per section), and inline vs. `## Notes` footnote definitions.
-4. Enforces `structure` workflow reminder on `book-*/outline.md` edits.
+   `research/notes/*.md`, `research/fact-checks/*.md`, `evidence-cards/*.md`, or `chapters/*.md` is locked in
+   `sources.bib` / `SOURCES.md` via `academic-bib` (`crossref_lookup` / `arxiv_search` -> `add_bibtex_entry`).
+3. Enforces OKF v0.2 Five-Rule Gate on `evidence-cards/*.md` edits (Rules 1, 4, 5, and required 9 sections).
+4. Enforces Pre-PR Manuscript & Style Gate on `chapters/*.md`: checks `[citation needed]` markers, section-level
+   metaphor collisions, forbidden phrases (`style/forbidden-phrases.md`), and inline vs. `## Notes` footnotes.
+5. Enforces `structure` workflow reminder on `outline.md` / `_OUTLINE.md` edits.
 """
 from __future__ import annotations
 
@@ -15,6 +16,10 @@ import json
 import re
 import sys
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(ROOT / "scripts"))
 
 MARKER = "[citation needed]"
 REDIRECT_MARKER = "vertexaisearch.cloud.google.com/grounding-api-redirect/"
@@ -34,58 +39,108 @@ METAPHOR_PATTERNS: dict[str, re.Pattern[str]] = {
     "forgetting-as-design": re.compile(r"\b(forgetting as design|selective forgetting|happy forgetting|adaptive forgetting)\b", re.IGNORECASE),
 }
 
+FORBIDDEN_PHRASES_PATTERNS: dict[str, re.Pattern[str]] = {
+    "instructional-you-must": re.compile(r"\b(you should|you must)\b", re.IGNORECASE),
+    "uncalibrated-science-says": re.compile(r"\b(science says|studies prove that|brain-based proof)\b", re.IGNORECASE),
+    "alarmist-determinism": re.compile(r"\b(irreversibly harms|parental fate|developmental destiny)\b", re.IGNORECASE),
+    "manufacturing-child": re.compile(r"\b(perfect child|ideal child)\b", re.IGNORECASE),
+    "anthropomorphic-ai": re.compile(r"\b(the network thinks|the model believes|the AI wants)\b", re.IGNORECASE),
+}
 
-def _find_book_dir(path: Path) -> Path | None:
+
+def _find_book_or_series_dir(path: Path) -> Path | None:
     for parent in [path] + list(path.parents):
-        if parent.name.lower().startswith("book-") and parent.is_dir():
+        name = parent.name.lower()
+        if (name.startswith("book-") or name == "parenthood-atlas") and parent.is_dir():
             return parent
     return None
 
 
 def _is_book_chapter(path: Path) -> bool:
     parts = [p.lower() for p in path.parts]
-    return any(p.startswith("book-") for p in parts) and "chapters" in parts and path.suffix.lower() == ".md"
+    return (
+        "chapters" in parts
+        and path.suffix.lower() == ".md"
+        and not path.name.startswith("_")
+        and path.name.lower() not in ("index.md", "readme.md")
+    )
+
+
+def _is_evidence_card(path: Path) -> bool:
+    parts = [p.lower() for p in path.parts]
+    return (
+        "evidence-cards" in parts
+        and path.suffix.lower() == ".md"
+        and path.name not in ("_TEMPLATE.md", "index.md", "README.md")
+    )
 
 
 def _is_research_md(path: Path) -> bool:
     parts = [p.lower() for p in path.parts]
     return (
-        any(p.startswith("book-") for p in parts)
-        and "research" in parts
-        and ("notes" in parts or "fact-checks" in parts)
+        "research" in parts
+        and ("notes" in parts or "fact-checks" in parts or "extraction" in parts)
         and path.suffix.lower() == ".md"
     )
 
 
 def _is_book_outline(path: Path) -> bool:
-    parts = [p.lower() for p in path.parts]
-    return path.name.lower() == "outline.md" and any(p.startswith("book-") for p in parts)
+    return path.name.lower() in ("outline.md", "_outline.md")
 
 
 def _check_bibliographic_lock(path: Path, text: str) -> list[str]:
-    book_dir = _find_book_dir(path)
+    book_dir = _find_book_or_series_dir(path)
     if not book_dir:
         return []
-    bib_path = book_dir / "research" / "sources.bib"
-    bib_text = bib_path.read_text(encoding="utf-8", errors="replace").lower() if bib_path.is_file() else ""
+    bib_candidates = [
+        book_dir / "research" / "sources.bib",
+        book_dir / "sources.bib",
+        book_dir / "SOURCES.md",
+        book_dir / "research" / "SOURCES.md",
+    ]
+    combined_bib = "\n".join(
+        p.read_text(encoding="utf-8", errors="replace").lower()
+        for p in bib_candidates
+        if p.is_file()
+    )
 
     raw_dois = {d.rstrip(".,;:)]>*") for d in DOI_RE.findall(text)}
-    # Ignore truncated example prefixes like 10.1080 without suffix
-    valid_dois = {d for d in raw_dois if "/" in d and len(d.split("/", 1)[1]) >= 3}
-    missing_dois = sorted(d for d in valid_dois if d.lower() not in bib_text)
+    valid_dois = {d for d in raw_dois if "/" in d and len(d.split("/", 1)[1]) >= 3 and "xxxx" not in d.lower()}
+    missing_dois = sorted(d for d in valid_dois if d.lower() not in combined_bib)
 
     arxiv_ids = {a for a in ARXIV_RE.findall(text)}
-    missing_arxiv = sorted(a for a in arxiv_ids if a.lower() not in bib_text)
+    missing_arxiv = sorted(a for a in arxiv_ids if a.lower() not in combined_bib)
 
     warnings: list[str] = []
     if missing_dois or missing_arxiv:
         items = [f"DOI:{d}" for d in missing_dois[:5]] + [f"arXiv:{a}" for a in missing_arxiv[:5]]
         warnings.append(
             f"Routing Protocol (Step 4 — Bibliographic Lock): `{path.name}` cites {', '.join(items)} "
-            f"which are not yet in `{book_dir.name}/research/sources.bib`. Run `academic-bib` "
-            "(`crossref_lookup` / `arxiv_search` -> `add_bibtex_entry`) to lock verified BibTeX."
+            f"which are not yet locked in `{book_dir.name}` bibliography (`sources.bib` / `SOURCES.md`). "
+            "Run `academic-bib` (`crossref_lookup` / `arxiv_search` -> `add_bibtex_entry`) and `python scripts/sync_okf_sources.py`."
         )
     return warnings
+
+
+def _check_evidence_card_gates(path: Path) -> list[str]:
+    try:
+        from five_rule_check import check_card
+
+        rep = check_card(path, online_retraction=False)
+        issues: list[str] = []
+        if not rep["rule1_urls_present"]:
+            issues.append("Rule 1 fail (missing/non-http source URLs)")
+        if not rep["rule4_yaml_matches_body_tokens"]:
+            issues.append(f"Rule 4 fail (YAML {rep['rule4_yaml_tokens']} != body {rep['rule4_body_tokens']})")
+        if not rep["rule5_wtdm_nonempty"]:
+            issues.append("Rule 5 fail (`## What This Does Not Mean` missing or <= 40 chars)")
+        if rep["missing_sections"]:
+            issues.append(f"Missing required sections: {rep['missing_sections']}")
+        if issues:
+            return [f"OKF Five-Rule Gate (`{path.name}`): {'; '.join(issues)}."]
+    except Exception:
+        pass
+    return []
 
 
 def _check_chapter_gates(path: Path, text: str) -> list[str]:
@@ -108,10 +163,19 @@ def _check_chapter_gates(path: Path, text: str) -> list[str]:
     if unused_defs:
         notices.append(f"Footnote Gate: `{path.name}` has unused footnote definition(s) in `## Notes`: {unused_defs}.")
 
+    no_bq = "\n".join(line for line in body_before_notes.splitlines() if not line.lstrip().startswith(">"))
+    unquoted = re.sub(r'"[^"\n]{1,300}"|\u201c[^\u201d\n]{1,300}\u201d', '""', no_bq)
+    for label, pat in FORBIDDEN_PHRASES_PATTERNS.items():
+        m = pat.search(unquoted)
+        if m:
+            notices.append(
+                f"Style Gate (`style/forbidden-phrases.md`): `{path.name}` uses forbidden phrase `{m.group(0)}` ({label})."
+            )
+
     matches = list(HEADING_RE.finditer(body_before_notes))
     for idx, m in enumerate(matches):
         sec_title = m.group(2).strip()
-        if sec_title.lower().startswith("notes"):
+        if sec_title.lower().startswith(("notes", "sources", "further reading")):
             continue
         start = m.end()
         end = matches[idx + 1].start() if idx + 1 < len(matches) else len(body_before_notes)
@@ -136,7 +200,7 @@ def handle_post_tool_use(payload: dict) -> None:
     path = Path(raw_path)
     notices: list[str] = []
 
-    if (_is_book_chapter(path) or _is_research_md(path)) and path.is_file():
+    if (_is_book_chapter(path) or _is_research_md(path) or _is_evidence_card(path)) and path.is_file():
         try:
             text = path.read_text(encoding="utf-8", errors="replace")
             if REDIRECT_MARKER in text.lower():
@@ -147,13 +211,15 @@ def handle_post_tool_use(payload: dict) -> None:
             notices.extend(_check_bibliographic_lock(path, text))
             if _is_book_chapter(path):
                 notices.extend(_check_chapter_gates(path, text))
+            if _is_evidence_card(path):
+                notices.extend(_check_evidence_card_gates(path))
         except OSError:
             pass
 
     if _is_book_outline(path):
         notices.append(
             f"Outline Gate: `{path.as_posix()}` was edited — ensure a Linear issue with the `structure` label "
-            "exists and cross-references in `chapters/` and `research/notes/` remain aligned."
+            "exists and cross-references in `chapters/` and `evidence-cards/` remain aligned."
         )
 
     if notices:

@@ -1,0 +1,30 @@
+---
+description: Evidence-card template, word budget, YAML, and five-rule promotion bar
+globs: evidence-cards/**/*.md
+alwaysApply: false
+---
+
+## Template
+
+Copy `evidence-cards/_TEMPLATE.md`. Required sections, in order: What We Know; How Confident We Are; Evidence and Causal Assessment; Effect Size and Persistence; Bias, Heterogeneity, and Confounding; What Remains Uncertain; What This Does Not Mean; What Action Is Reasonably Justified; Sources.
+
+Body: 200–400 words unless deeper analysis is explicitly warranted. First-wave over-length cards are not trimmed as a silent side-effect of another pass.
+
+## YAML
+
+Frontmatter must include `type`, `title`, `description`, `tags`, `status`, `confidence`, `generated`, `stale_after`, `sources`. Chapter-anchoring cards also take `atlas_domains` and `chapter_hooks`.
+
+- `description` is the *narrowest* claim, not a slogan.
+- `confidence` must match the in-body **Grade** compound (e.g. `high-lab; low-transfer`). Coarse `high` is not a substitute for a split grade.
+- Every `sources[].id` must exist in `SOURCES.md` (YAML array **and** verified table) in the same commit.
+- Default `status: draft`. Flip to `stable` only after the five-rule note.
+
+## Promotion
+
+A card may move to `stable` only when `preliminary/research/extraction/stable-candidates--replication-note.md` records a green row for all five rules on the *narrow* High claim. Transfer, timetable, attachment-verdict, and similar Low grades stay Low. Grey-lit IDs are not load-bearing primaries. Cochrane `new_version` is not retraction.
+
+Do not create a new card to dodge a failed promotion. Align YAML to the paper, or hold with an explicit rule-3 reason.
+
+## Register
+
+List the card in `evidence-cards/index.md`. Log the change under CHANGELOG `[Unreleased]`.

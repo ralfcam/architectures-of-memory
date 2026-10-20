@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Five-rule playbook
+    url: https://github.com/ralfcam/parenthood-atlas/blob/main/preliminary/research/extraction/issue-to-patch--playbook.md
+    about: How Cloud Agents score stable-candidate issues (read-only first; no auto-merge)

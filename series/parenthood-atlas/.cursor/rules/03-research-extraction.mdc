@@ -1,0 +1,33 @@
+---
+description: Stable-candidate notes, replication/attenuation, manuscript-revision checklist
+globs: preliminary/research/extraction/**/*.md
+alwaysApply: false
+---
+
+## Decision rule
+
+Classification is necessary for promotion rule 3; it is not sufficient. Record design class, replication of the *narrow* claim, and GI attenuation (largely confounded >50% / partial 20–50% / robust <20% / n/a / not classified). Grey-lit IDs are framework, not identification.
+
+## Stable-candidate note
+
+Before any `status: stable` flip, write or extend `stable-candidates--replication-note.md` with a five-rule table per card. Number waves explicitly (`# First wave`, `# Second wave`) so later entries are not an orphaned 4–7. Historical non-promotions stay historically accurate; a later wave may supersede a named hold.
+
+Promote the *narrow* High claim only. Independent conceptual replication must be on the card (different lab or a meta of the procedure), not a neighboring identification.
+
+## YAML vs prose
+
+If YAML `confidence` or `description` diverges from the body or the primary paper, align YAML to the paper. A YAML fix is not a second experiment and does not by itself promote the card.
+
+## Manuscript-revision checklist
+
+When a pass touches curated `chapters/`:
+
+- [ ] Archival `preliminary/drafts-chapters/` untouched
+- [ ] Sleep / attachment-intervention / screen *theory* not rewritten
+- [ ] Named card IDs match live filenames
+- [ ] Cross-chapter terms (regulation, causation, risk, resilience, attachment, institutions) are not silently re-estimated
+- [ ] Appendix B lengths preserved; Ch. 2 not padded
+- [ ] CHANGELOG, index, MANIFEST, REPO_DIGEST, SOURCES updated together
+- [ ] No new cards or chapters unless the user asked
+
+Do not tag `v0.x` from a deepening pass unless a matching `preliminary/releases/v0.x-slice.md` exists.

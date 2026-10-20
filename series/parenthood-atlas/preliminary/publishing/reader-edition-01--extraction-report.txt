@@ -1,0 +1,35 @@
+Reader Edition 0.1 extraction verification
+Status: PASS
+Edition: Reader Edition 0.1 — Private circulation
+Source commit: 9f3b151b9c6fdfc1204f4070d09386e76e1b4168
+PDF: parenthood-atlas-reader-edition-01.pdf
+SHA-256: 71dae140054dc0651a0ff0fb0c6c5db46bebefdbf1c30103196bce3c631d0947
+Bytes: 351375
+Pages: 84
+Nonblank pages: 84/84
+Edition footer and page number: 84/84
+Source content fragments: 1406/1406
+HTML chapter anchors and titles: 15/15
+Contents entries match printed chapter-start pages: 15/15
+TOC/chapter-start pagination stable across both render passes: PASS
+
+Chapter-title extraction
+- PASS · PDF page 5 · Chapter 1 — Before the Child Is Born
+- PASS · PDF page 11 · Chapter 2 — The First Environment
+- PASS · PDF page 16 · Chapter 3 — The Great Transition
+- PASS · PDF page 21 · Chapter 4 — The Regulatory Relationship
+- PASS · PDF page 26 · Chapter 5 — Becoming a Mind
+- PASS · PDF page 31 · Chapter 6 — The Mind in Motion
+- PASS · PDF page 36 · Chapter 7 — The Birth of Language
+- PASS · PDF page 43 · Chapter 8 — The Expanding World
+- PASS · PDF page 48 · Chapter 9 — The Emotional Revolution
+- PASS · PDF page 53 · Chapter 10 — Boundaries, Behavior, and the First Rules
+- PASS · PDF page 57 · Chapter 11 — The Developing Executive
+- PASS · PDF page 61 · Chapter 12 — Play, Imagination, and Meaning
+- PASS · PDF page 65 · Chapter 13 — The Ecology of Development
+- PASS · PDF page 70 · Chapter 14 — What Actually Works?
+- PASS · PDF page 77 · Chapter 15 — Three Years: What Has Been Built?
+
+Mechanical scope
+- Confirms nonempty output, page text, footer numbering, ordered chapter starts, source fragments, and HTML anchors.
+- Physical trim, binding, widows/orphans, and perceived readability require the two-copy proof-print checklist.

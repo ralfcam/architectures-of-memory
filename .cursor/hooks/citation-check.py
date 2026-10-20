@@ -1,18 +1,20 @@
-"""Cursor afterFileEdit hook: enforce Definitive Tool Routing Protocol & chapter gates."""
+"""Cursor afterFileEdit hook: enforce Definitive Tool Routing Protocol, OKF v0.2 cards & chapter gates."""
 from __future__ import annotations
 
 import json
 import sys
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO_ROOT / ".agents" / "hooks"))
 
 from post_edit_guard import (  # noqa: E402
     REDIRECT_MARKER,
     _check_bibliographic_lock,
     _check_chapter_gates,
+    _check_evidence_card_gates,
     _is_book_chapter,
+    _is_evidence_card,
     _is_research_md,
 )
 
@@ -30,7 +32,7 @@ def main() -> None:
         return
 
     path = Path(raw)
-    if not (_is_book_chapter(path) or _is_research_md(path)) or not path.is_file():
+    if not (_is_book_chapter(path) or _is_research_md(path) or _is_evidence_card(path)) or not path.is_file():
         print("{}", flush=True)
         return
 
@@ -49,6 +51,8 @@ def main() -> None:
     notices.extend(_check_bibliographic_lock(path, text))
     if _is_book_chapter(path):
         notices.extend(_check_chapter_gates(path, text))
+    if _is_evidence_card(path):
+        notices.extend(_check_evidence_card_gates(path))
 
     out: dict[str, str] = {}
     if notices:

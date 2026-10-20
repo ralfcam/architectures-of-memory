@@ -1,30 +1,28 @@
 ---
 name: chapter-draft
 description: >-
-  Drafts a new chapter from research notes using series voice and three-lens structure.
-  Use when the user asks to draft, write, compose, or expand a chapter for any book
-  in the Architectures of Memory series.
+  Drafts or curates a chapter from research notes and OKF v0.2 evidence cards using series
+  voice and three-lens structure. Use when the user asks to draft, write, compose, or
+  expand a chapter in Architectures of Memory or Parenthood: The Atlas.
 ---
 
-# Chapter Draft
+# Chapter Draft (Multi-Series Three-Lens & OKF v0.2)
 
 ## Prerequisites
 
-- `book-0X-*/research/notes/chNN-*.md` exists for the chapter (or user explicitly waives with `[citation needed]` plan)
-- Linear **`draft`** issue + **`book-0X`** label (create if missing), milestone set
+- Matching OKF v0.2 `evidence-cards/*.md` and `research/notes/chNN-*.md` (or `preliminary/triage/chNN-*.md`) exist for the chapter.
+- Linear **`draft`** issue under Team **ARC** (`Architectures of Memory — Series` `P-ARC-8` or `Parenthood: The Atlas — Series` `P-ARC-17`).
 
 ## Steps
 
-1. Read [series-bible.md](../../../series-bible.md), `book-0X-*/outline.md`, all matching `research/notes/` for the chapter, and [characters.md](../../../characters.md) for everyone named.
-2. Create `book-0X-*/chapters/NN-slug.md` (two-digit `NN`, kebab-case `slug` aligned with outline).
-3. **Structure:** Follow outline beats; use **technical → organizational → philosophical** where the outline implies all three.
-4. **Citations:** Footnotes or inline pointers to research note sections and `research/sources.bib` keys; use `[citation needed]` only when unavoidable — then list in `research/fact-checks/chNN.md`.
-5. **Audit:** Run `python scripts/audit_manuscript.py book-0X-*` to verify zero metaphor collisions, valid footnote definitions, and character continuity.
-6. **Branch + PR** — `draft/ch-NN-slug`; PR description links the Linear draft issue and lists open citation gaps.
-
-## Checklist before requesting review
-
-- [ ] Voice matches series-bible (no triumphalism; uncertainty flagged)
-- [ ] One controlling metaphor per section
-- [ ] Every date and attribution traceable or marked
-- [ ] `outline.md` chapter title still matches file focus
+1. Read [`COMPOSITION.md`](../../../COMPOSITION.md), [`style/forbidden-phrases.md`](../../../style/forbidden-phrases.md), [`style/voice-checklist.md`](../../../style/voice-checklist.md), and the series-specific bible:
+   - **Series 1:** [`series/architectures-of-memory/series-bible.md`](../../../series/architectures-of-memory/series-bible.md), [`series/architectures-of-memory/characters.md`](../../../series/architectures-of-memory/characters.md), and `outline.md`.
+   - **Series 2:** [`series/parenthood-atlas/COMPOSITION.md`](../../../series/parenthood-atlas/COMPOSITION.md), [`series/parenthood-atlas/chapters/_OUTLINE.md`](../../../series/parenthood-atlas/chapters/_OUTLINE.md), and [`series/parenthood-atlas/style/anomaly-bank.md`](../../../series/parenthood-atlas/style/anomaly-bank.md).
+2. Create or update `<book-dir>/chapters/NN-slug.md` (two-digit `NN`, kebab-case `slug`).
+3. **Three-Lens Structure:**
+   - **Series 1 (*Architectures of Memory*):** **Technical** $\to$ **Organizational** $\to$ **Philosophical**.
+   - **Series 2 (*Parenthood: The Atlas*):** **Science** $\to$ **Interpretation** $\to$ **Art**.
+4. **Grade-Calibrated Verbs & Citations:**
+   - Calibrate claim verbs to the underlying OKF v0.2 Evidence Card grade (*High* $\to$ **shows**; *Moderate* $\to$ **suggests**; *Low* $\to$ **is associated with**).
+   - Trace every claim to `sources.bib` / `SOURCES.md` and `evidence-cards/*.md`.
+5. **Audit:** Run `python scripts/audit_manuscript.py <book-dir> --strict` and `python scripts/five_rule_check.py <book-dir>` before opening a PR.

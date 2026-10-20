@@ -1,0 +1,447 @@
+﻿Three Years: What Has Been Built? Longitudinal Synthesis of Early Human Development
+Conceptual Clarification: Age Three as a Waypoint, Not an Endpoint
+The developmental status of a three-year-old child represents neither an immutable biological blueprint nor a malleable blank slate1. Developmental science has historically oscillated between two reductive fallacies: treating the end of toddlerhood as an irreversible developmental crystallization point (the myth of early destiny), or dismissing the first thirty-six months as a series of transient, developmentally insignificant reflexes destined to be overwritten by formal schooling and social acculturation3.
+Contemporary developmental systems theory demonstrates that both interpretations fail to capture the architecture of human ontogeny5. Human development proceeds according to the orthogenetic principle and dynamic transactional systems: it unfolds through progressive differentiation, hierarchical integration, and continuous bidirectional feedback between biological substrates and environmental contexts5.
+Age three constitutes an essential developmental waypoint—a moment of structural consolidation across biological, cognitive, emotional, and social domains8. By thirty-six months, a human child has transitioned from an obligate sensorimotor organism entirely dependent on external physiological scaffolding into a semi-autonomous agent equipped with symbolic language, internalized mental representations, emerging self-regulation, and differentiated affective schemas8.
+Yet, this consolidated foundation remains fundamentally open2. Development across the life course operates within a probabilistic, cumulative, and modifiable framework rather than a deterministic sequence3. The structural changes built by age three significantly influence subsequent developmental trajectories by constraining initial options and establishing behavioral baselines, but they do not predetermine adult adaptation13.
+Biological Architecture: Neurodevelopmental Bloom and Protracted Systems
+Between conception and age three, the human central nervous system undergoes the most concentrated structural expansion of any postnatal epoch1. Total brain volume reaches approximately 80% to 85% of adult size by thirty-six months15. This volumetric expansion is propelled by massive synaptogenesis—often termed the "synaptic bloom"—wherein the rate of synapse formation across the cerebral cortex dramatically outpaces adult levels1. By age three, a child's brain contains approximately 1,000 trillion synapses, roughly double the synaptic density observed in the mature adult brain1.
+Concurrently, myelination follows a strict hierarchical trajectory1. While primary sensory and motor projection tracts complete initial myelination during early infancy, neural pathways governing complex social processing, emotional integration, and language exhibit a steep, accelerated rate of myelination throughout the first three years8. Diffusion tensor imaging demonstrates marked reductions in radial diffusivity and corresponding increases in fractional anisotropy across the corpus callosum, arcuate fasciculus, and uncinate fasciculus by age three, providing the structural insulation necessary for high-velocity signal propagation across distributed neural networks8.
+Despite this rapid structural growth, the neural systems supporting executive control remain profoundly immature1. Comparative transcriptomic and neuroimaging analyses reveal that the human prefrontal cortex (PFC) exhibits an exceptionally prolonged developmental timeline relative to sensory regions16. While synaptic proliferation in the visual and auditory cortices peaks within the first year of life and quickly transitions into competitive elimination, synaptogenesis and subsequent synaptic pruning in the dorsolateral prefrontal and anterior cingulate cortices continue through adolescence and into the third decade of life1.
+At age three, the prefrontal cortex is functionally specialized and connected to subcortical hubs, supporting intrinsically motivated exploration and rudimentary cognitive flexibility18. However, its capacity for top-down inhibitory modulation over subcortical limbic structures remains fragile and easily overwhelmed by physiological stress or affective arousal1. The structural platform built by age three equips the child with sensory, motor, and basic associative integrity, while higher-order regulatory circuitry remains deliberately plastic and context-dependent1.
+Postnatal biological accumulation is equally evident in the organization of the neuroendocrine and autonomic nervous systems8. The hypothalamic-pituitary-adrenal (HPA) axis and the autonomic nervous system establish foundational set points during the first three years19. These systems do not mature in isolation; rather, they are calibrated through repeated environmental interactions7.
+Translational models demonstrate that variations in early caregiving directly influence DNA methylation patterns at the glucocorticoid receptor gene (NR3C1) promoter in the hippocampus19. High maternal responsiveness facilitates histone acetylation and demethylation of the promoter, upregulating glucocorticoid receptor expression and conferring efficient negative feedback sensitivity over cortisol secretion19. Conversely, persistent neglect, institutional deprivation, or chronic unpredictability induces stable epigenetic modifications that compromise glucocorticoid feedback, resulting in chronic allostatic load and elevated stress reactivity19. By age three, physiological regulation has consolidated into recognizable baseline reaction patterns, yet these neuroendocrine calibrations remain modifiable by subsequent ecological shifts19.
+Cognitive Emergence: The Representational Leap, Unitary Executive Function, and Language
+Between twelve and thirty-six months, human cognition undergoes a qualitative paradigm shift characterized by the emergence of symbolic representation8. Prior to this period, infant understanding is tied to direct physical action and perceptual presence18. By age three, the child has achieved representational insight—the capacity to manipulate mental symbols independently of direct sensorimotor interaction8. This capacity manifests across multiple behavioral phenotypes: deferred imitation over protracted temporal delays, sophisticated pretend play featuring counterfactual object substitution, and the emergence of dual representation8.
+Executive function (EF)—the suite of neurocognitive mechanisms underlying goal-directed thought and behavior—undergoes critical structural consolidation during toddlerhood10. Psychometric and factor-analytic studies indicate that while adult executive function separates into distinct subcomponents (inhibitory control, working memory, and cognitive flexibility), executive function at age three is best characterized as a unitary, unseparated latent construct10. The three-year-old recruits an undifferentiated pool of executive attention to solve cognitive conflicts10.
+Experimental paradigms tailored to this age window document both emerging capabilities and clear developmental boundaries:
+* Dimensional Change Card Sort (DCCS): Standard DCCS protocols illustrate cognitive inflexibility in typical three-year-olds10. While three-year-olds easily master sorting cards by a single dimension (such as sorting shapes into blue and red boxes), when the experimenter switches the sorting rule (such as sorting by shape, regardless of color), three-year-olds repeatedly perseverate on the initial dimension10. Despite accurately reciting the new rule verbally, they fail to implement it behaviorally, reflecting an inability to disengage attentional focus from the previously reinforced perceptual dimension10. Cognitive flexibility on this task matures rapidly between ages three and four and a half10.
+* Day/Night Stroop Paradigms: Tasks requiring children to inhibit a dominant verbal response (saying "day" to a picture of a moon and "night" to a sun) demonstrate that three-year-olds can maintain rules in working memory, but require prolonged latency intervals to suppress prepotent responses10. Accuracy drops precipitously when inter-stimulus intervals are shortened, reflecting limitations in rapid inhibitory recruitment10.
+* Delay of Gratification: In behavioral delay tasks (such as the Crayon Delay or Gift Delay), three-year-olds demonstrate nascent inhibitory control by employing rudimentary behavioral distraction strategies, yet latency to failure remains closely tied to external environmental cues and immediate visceral salience10.
+Language acquisition operates as both an index of cognitive capacity and an organizing force that restructures mental operations10. By thirty-six months, typical development includes a vocabulary exceeding 500 to 1,000 words, mastery of basic grammatical inflections, and the systematic production of multi-clause utterances8.
+Crucially, longitudinal modeling indicates that early linguistic proficiency causally underpins the differentiation of executive functions10. Language equips the toddler with an internal verbal code that converts external caregiver commands into private speech10. Toddlers with higher language proficiency at twenty-four months achieve significantly higher executive function performance at thirty-six months10. Semantic labels provide discrete cognitive anchors that help children suppress prepotent motor impulses and coordinate arbitrary task switching10.
+Socio-Emotional Reorganization: Attachment, Emotion Regulation, and Nascent Autonomy
+The transition from infancy to toddlerhood restructures the child's socio-emotional world, shifting functioning from obligate dyadic co-regulation to nascent self-regulation8. While the infant depends almost exclusively on caregiver interventions to modulate arousal, the three-year-old possesses an expanding repertoire of self-soothing behaviors, including attentional re-deployment, verbalization of inner feeling states, and instrumental seeking of soothing objects8.
+Simultaneously, the emotional spectrum expands beyond basic survival affects to incorporate secondary, self-conscious emotions8. The emergence of shame, embarrassment, guilt, and pride between twenty-four and thirty-six months marks the psychological birth of self-evaluation relative to external normative standards8.
+
+
+Functional Dimension
+	Infant Baseline (0–12 Months)
+	Milestone Attainment by Age Three (36 Months)
+	Remaining Immaturity & External Scaffolding Needs
+	Emotion Regulation
+	Obligate external co-regulation; crying and physiological collapse upon caregiver absence8.
+	Emergence of self-directed coping (averting gaze, verbalizing distress, self-soothing gestures, purposeful distraction)8.
+	Highly vulnerable to acute limbic escalation; cannot sustain emotional equilibrium under prolonged exhaustion or chronic stress without adult re-centering8.
+	Attachment Organization
+	Dyadic behavioral strategies measured via Strange Situation proximities and reunions24.
+	Internal Working Models consolidated; goal-corrected partnership begins to emerge; symbolic representations of security8.
+	Caregiver presence still required as a physical anchor for exploratory competence in novel, high-threat situations8.
+	Social Cognition
+	Preference for faces, eye gaze tracking, basic biological motion detection, dyadic joint attention8.
+	Implicit Theory of Mind: comprehension of others' intentions, desires, and subjective emotional states; explicit empathy and spontaneous instrumental helping8.
+	Fails explicit false-belief paradigms; struggles to distinguish personal mental knowledge from objective external reality or another person's erroneous belief8.
+	Peer Dynamics
+	Solitary object exploration; viewing peers primarily as animate perceptual distractions8.
+	Parallel play transitions into associative play; cooperative play episodes with shared goals and turn-taking routines7.
+	Peer conflict resolution requires frequent adult mediation; prosocial sharing collapses readily in competitive resource distribution7.
+	Affective Spectrum
+	Primary affect: interest, joy, fear, disgust, anger, distress8.
+	Secondary, self-conscious emotions: emergence of shame, guilt, embarrassment, pride, and envy8.
+	Inability to modulate secondary emotions autonomously; excessive shame can induce sudden externalizing aggression or withdrawal8.
+	The defining socio-emotional feature of the three-year-old is the paradox of nascent autonomy8. Motor competence, locational independence, and expressive linguistic mastery give the outward impression of self-sufficiency8. The child asserts selfhood through oppositional boundary-testing, explicit linguistic negation ("no"), and willful declarations of intentionality8.
+However, this apparent autonomy is built upon a continuous foundation of external scaffolding8. The toddler operates on an oscillatory cycle: venturing into physical and social environments using newly acquired motor and linguistic tools, encountering regulatory or cognitive overload, and returning to the primary caregiver for physiological and emotional recalibration8. Autonomy at age three is real, but it remains fully situated within relational dependency8.
+Persistence of Early Differences: Rank-Order Stability and Extreme-Tail Trajectories
+To evaluate whether early individual differences endure, developmental science examines rank-order consistency—the degree to which an individual's relative standing on a given trait within a peer cohort remains stable across developmental transitions14.
+In their foundational meta-analysis of 152 longitudinal studies encompassing 3,217 test-retest correlations, Roberts and DelVecchio demonstrated that personality rank-order consistency is an increasing function of chronological age14. Across childhood (birth to age three), population-level rank-order stability coefficients average approximately   14. Consistency climbs to    during the college years, reaches    at age thirty, and plateaus around    between ages fifty and seventy14.
+Because a correlation of    yields a shared variance (  ) of less than 10%, more than 90% of the variance in relative trait standing remains open to reallocation across middle childhood14. The assertion that adult personality is fixed by thirty-six months is contradicted by empirical evidence14. Rank-order reshuffling is normal as children transition into structured schooling, acquire literacy, and expand peer networks14.
+Developmental Epoch
+	Approximate Age Window
+	Population Rank-Order Stability (r)
+	Proportion of Trait Variance Open to Reallocation (1−r2)
+	Infancy and Toddlerhood
+	Birth to 3 Years
+	  
+
+[cite: 14, 32]
+	  
+
+	Middle and Late Childhood
+	4 to 10 Years
+	  
+
+[cite: 14, 32]
+	  
+
+	Emerging Adulthood
+	18 to 22 Years
+	  
+
+[cite: 14, 32]
+	  
+
+	Young Adulthood
+	~30 Years
+	  
+
+[cite: 14, 32]
+	  
+
+	Mature Adulthood Plateau
+	50 to 70 Years
+	  
+
+[cite: 14, 32]
+	  
+
+	While population-wide trait correlations indicate substantial fluidity, prospective cohort studies demonstrate that extreme-tail behavioral configurations at age three can foreshadow significant adult clinical and social outcomes13. The Dunedin Multidisciplinary Health and Development Study tracked a complete birth cohort of 1,037 individuals born in 1972–1973 in New Zealand, utilizing an objective 90-minute behavioral assessment conducted by independent examiners when children were three years old13. Children were classified into five distinct temperamental typologies13:
+1. Well-Adjusted (40%): Displayed normative self-regulation, cooperative engagement, and age-appropriate exploration13.
+2. Confident (28%): Outgoing, assertive, eager in approaching novel physical and social stimuli13.
+3. Reserved (15%): Quiet, timid, compliant, slow to warm up13.
+4. Undercontrolled (10%): Impulsive, emotionally dysregulated, restless, prone to anger, distractible13.
+5. Inhibited (8%): Socially reticent, fearful, highly anxious, prone to distress during novelty13.
+Longitudinal assessments over three decades revealed persistent associations:
+* The Undercontrolled Cohort: Toddlers classified as undercontrolled at age three were more than twice as likely to develop disordered gambling at ages twenty-one and thirty-two relative to well-adjusted controls (odds ratio [OR] = 2.64,   ; adjusted OR = 2.35,    after controlling for sex, childhood IQ, and socioeconomic status)33. By age twenty-one, undercontrolled toddlers were significantly more likely to meet diagnostic criteria for antisocial personality disorder, be involved in criminal behavior, and experience chronic interpersonal conflict in workplace and personal relationships13.
+* The Inhibited Cohort: Toddlers classified as inhibited at age three were twice as likely to receive clinical diagnoses of major depressive disorder at age twenty-one (OR = 2.2, 95% CI [1.2, 4.0]), possessed smaller adult social networks, and demonstrated elevated rates of internalizing psychopathology and suicidal behavior13.
+These findings demonstrate that while the broad majority of individual differences remain malleable, severe dysregulation at either extreme of regulatory capacity at age three creates probabilistic vulnerabilities that persist across the life course13.
+A parallel principle emerges in contemporary models of effortful control7. Mary Rothbart and colleagues define temperament as biologically rooted individual differences in reactivity and self-regulation across three dimensions: Negative Affectivity, Surgency, and Effortful Control30.
+Effortful control assessed at age three demonstrates moderate stability into adolescence7. However, Arnold Sameroff’s transactional developmental model demonstrates that stability is sustained or disrupted through continuous child-environment feedback loops7.
+Low effortful control at age three can elicit harsh, inconsistent parental discipline, which degrades the child's regulatory development and amplifies externalizing symptoms by middle childhood7. Conversely, when parents maintain warm, structured scaffolding in response to early regulatory deficits, the negative developmental cascade is attenuated7. Persistence is maintained by stable, repeating ecologies; when ecologies shift, trajectories diverge6.
+Similarly, comprehensive meta-analyses examining the stability of attachment classifications from infancy through early adulthood (such as Pinquart et al., 2013, and Fraley, 2002) confirm moderate overall stability across time29. However, continuity is moderated by life circumstances: attachment security remains highly stable when caregiving quality and family socioeconomic environments remain predictable29.
+Exposure to major life stressors—such as parental divorce, economic shock, maternal depression, or bereavement—routinely disrupts secure internal working models, driving transitions toward insecure classifications29. Attachment at age three is a consolidated working model of relational trust, not an unalterable imprint; it tracks the enduring reliability of the caregiving ecosystem24.
+Discontinuity, Fadeout, and Compensatory Catch-Up
+A frequent finding in intervention science is the rapid "fadeout" of early educational intervention effects4. High-profile interventions—from national initiatives like Head Start to structured preschool mathematics and literacy pilots—often generate substantial short-term gains on standardized cognitive and achievement metrics (effect sizes of    to    standard deviations), only for these differences to diminish or disappear within two to three years of elementary school entry4.
+Drew Bailey, Greg Duncan, and colleagues synthesized the structural mechanisms governing intervention fadeout and persistence, formulating three core processes4:
+   1. Targeting "Trifecta" Skills: Intervention impacts endure when they target skills that meet three distinct criteria: they must be malleable (responsive to instructional training), fundamental (serving as a direct causal subroutine for higher-order competencies), and non-redundant (skills that would not be readily mastered later in the absence of the intervention)4. When interventions target constrained skills that children routinely acquire during early elementary schooling regardless of preschool exposure (such as basic letter naming or shape identification), control group peers quickly catch up, causing treatment-control differences to naturally converge6.
+   2. Sustaining Environments: The developmental gains produced in early childhood require supportive subsequent environments to survive6. If children transition from enriched preschool environments into underfunded, chaotic elementary schools, initial cognitive gains dissolve6. Sustained advantages require continuity in educational and community quality6.
+   3. Foot-in-the-Door Mechanisms: Interventions can improve adult outcomes even when standardized cognitive test scores fade out4. Early interventions (such as the Perry Preschool Project or the Carolina Abecedarian Project) equipped children with sufficient behavioral and cognitive competence to avoid negative institutional turning points, such as special education placement, grade retention, or early juvenile arrest4. Even if their IQ scores converged with controls by third grade, avoiding negative institutional tracks placed treated individuals on divergent adult trajectories, resulting in higher high school graduation rates, higher employment earnings, and reduced adult criminality4.
+The plasticity of early development is underscored by natural experiments examining extreme institutional neglect and subsequent family placement23. The English and Romanian Adoptees (ERA) study, led by Sir Michael Rutter, evaluated children exposed to severe institutional deprivation in Ceaușescu-era orphanages who were subsequently adopted into supportive United Kingdom families23. The findings established a clear timing threshold:
+   * Adoptions Before 6 Months: Children adopted into UK households prior to six months of age demonstrated substantial physical, cognitive, and developmental catch-up23. By early childhood and adolescence, their developmental parameters did not differ significantly from matched, non-deprived UK adoptees, demonstrating profound developmental resilience when severe early deprivation is terminated early23.
+   * Adoptions After 6 Months: Children institutionalized for longer than six months exhibited a stepwise increase in persistent developmental deficits23. These manifested as a distinct constellation of deprivation-specific problems, including disinhibited social engagement, quasi-autistic behavioral features, cognitive impairment, and persistent attention-deficit/hyperactivity symptoms that endured into adulthood23.
+Similarly, the Bucharest Early Intervention Project (BEIP)—the only randomized controlled trial of foster care placement for institutionalized infants—confirmed the critical role of timing24. Charles Nelson, Nathan Fox, and Charles Zeanah evaluated children living in institutions who were randomized either to care-as-usual or to high-quality foster care24.
+Children placed into foster care before the threshold of twenty-four months exhibited substantial cognitive and linguistic recovery, showing normative IQ trajectories and higher rates of secure attachment by age eight and twelve24. In contrast, children placed after twenty-four months demonstrated persistent neurocognitive and socio-emotional compromises24. Early deprivation imposes lasting neurobiological costs, yet children retain meaningful capacity for recovery when placed into nurturing environments before sensitive-period windows close24.
+Resilience as Systemic Adaptation: Deconstructing "Ordinary Magic"
+The study of children developing amid structural adversity reveals that positive adaptation does not require extraordinary or invulnerable traits2. In her framework, Ann Masten conceptualized resilience as "ordinary magic"2. Resilience represents the normative operation of basic human adaptational systems2.
+These include:
+   * An intact, responsive caregiving relationship2.
+   * Intact neurobiological machinery for problem-solving, cognitive flexibility, and learning2.
+   * Self-regulation and effortful control supported by context11.
+   * Protective socio-cultural institutions, communities, and structured environments5.
+When these fundamental protective systems remain functional, human development displays remarkable robustness in the face of acute stress2. Resilience is not a fixed, internal trait residing within the child; it is a dynamic capacity generated across nested biological, psychological, relational, and structural systems5. Severe, chronic adversity harms children when it systematically compromises these fundamental adaptational systems2.
+The Limits of Prediction: Epistemological Audit and Algorithmic Forecasting
+A major finding in contemporary computational social science is the presence of an empirical ceiling on the predictability of human life courses3. The Fragile Families Challenge, organized by Matthew Salganik and 112 international collaborators, investigated this constraint using the common task framework3. A total of 160 research teams built predictive models using data from the Fragile Families and Child Wellbeing Study, which tracked thousands of families across six waves (birth, ages 1, 3, 5, 9, and 15) using thousands of biological, familial, social, and economic variables3.
+Teams employed diverse modeling techniques—from standard ordinary least squares and logistic regressions to complex supervised machine learning architectures, including deep neural networks, random forests, and gradient boosting machines—to predict six life outcomes at age fifteen (child GPA, grit, material hardship, caregiver layoff, household eviction, and job training) using holdout validation data3.
+The results established clear limits on developmental forecasting:
+   * Despite access to longitudinal data covering birth to age nine, the most complex machine learning models yielded poor predictive accuracy, with out-of-sample    values for continuous outcomes rarely exceeding   , and in some domains failing to reach   3.
+   * Complex machine learning algorithms performed only marginally better than a simple four-variable linear regression benchmark constructed using basic parental education and family income metrics3.
+   * Prediction errors were strongly associated with specific families rather than the algorithms utilized, indicating that the failure of prediction stemmed from unmeasured idiosyncratic life events, stochastic biological processes, and dynamic nonlinear interactions, rather than a lack of statistical sophistication3.
+The Fragile Families Challenge provides an empirical counterweight to deterministic narratives: human life courses are complex systems characterized by emergent properties, contextual sensitivity, and unpredictable branching points that cannot be forecasted from early childhood metrics3.
+To avoid clinical and policy overreach, developmental science maintains clear distinctions across three predictive domains:
+      1. Robust Population Stratification: Epidemiological risk factors (such as severe poverty, low maternal education, and perinatal complications) reliably predict population-level shifts in mean school readiness and academic performance in cohorts like ALSPAC and the Millennium Cohort Study55. Similarly, extreme behavioral dysregulation (the bottom 10% in the Dunedin cohort) reliably predicts heightened relative risk (odds ratios greater than 2.0) for clinical disorders13.
+      2. Weak and Modifiable Individual Forecasting: Continuous variations within typical ranges—such as individual IQ, Bayley Mental Development Index scores, or card-sorting latencies at age three—share modest variance (  ) with adolescent cognitive functioning, leaving substantial room for individual re-ranking over time20.
+      3. Speculative and Pseudoscientific Claims: Claims that an individual toddler's adult career, relationship stability, or life success can be accurately determined from early neuroimaging or behavioral milestones lack scientific validity3. Critical-period fixity claims that assume non-deprived brains are permanently closed to enrichment after age three directly contradict neurodevelopmental evidence1.
+Comprehensive Research Dossier and Synthesis Registers
+Landmark Research Atlas
+
+
+Research Program / Scholar
+	Methodological Paradigm
+	Sample / Cohort Characteristics
+	Primary Developmental Contribution
+	Key Synthesis Finding
+	Avshalom Caspi & Terrie Moffitt
+	Prospective longitudinal cohort study
+	Dunedin Study (  ), birth to age 50+ in New Zealand13.
+	Behavioral typologies at age three and adult life outcomes13.
+	Undercontrolled toddlers showed elevated adult criminal involvement, antisocial personality disorder, and gambling (OR = 2.35–2.64)13.
+	Brent W. Roberts & Wendy DelVecchio
+	Meta-analysis of longitudinal trait studies
+	152 longitudinal studies, 3,217 test-retest coefficients, lifespan scope14.
+	Trajectory of rank-order personality consistency across the human lifespan14.
+	Trait rank-order consistency is modest in childhood (  ), climbing to    at age 30 and plateauing at    in late middle age14.
+	Mary Rothbart & Colleagues
+	Psychometric and laboratory observation batteries
+	Multidomain cohorts of infants, toddlers, and adolescents7.
+	Dimensional model of temperament (Negative Affect, Surgency, Effortful Control)11.
+	Effortful control emerges across years 2–3, providing cognitive-attentional self-regulation that moderates reactive temperament11.
+	Arnold Sameroff
+	Longitudinal systems modeling
+	Rochester Longitudinal Study and multi-wave family cohorts7.
+	Transactional Model of Development7.
+	Trajectory stability is driven by dynamic, repeating interactions between child characteristics and caregiving environments over time7.
+	Ann Masten
+	Longitudinal risk and resilience tracking
+	Project Competence Longitudinal Study (  ), urban adversity cohorts48.
+	Conceptualization of resilience as "Ordinary Magic"2.
+	Resilience arises from normative adaptational systems (caregiving, cognition, self-regulation, community) rather than rare traits2.
+	Sir Michael Rutter
+	Prospective natural experiment
+	English and Romanian Adoptees (ERA) study, institutionalized orphans23.
+	Impact of extreme deprivation and timing of environmental remediation23.
+	Removal from deprivation before 6 months led to substantial catch-up; deprivation beyond 6 months produced persistent deficits23.
+	Charles Nelson, Nathan Fox, & Charles Zeanah
+	Randomized controlled trial of foster care
+	Bucharest Early Intervention Project (BEIP) (  ), infants in institutions24.
+	Sensitive periods for cognitive, linguistic, and attachment recovery24.
+	Placement into supportive foster care before 24 months preserved cognitive potential and secure attachment compared to institutional care24.
+	Michael Meaney
+	Translational rodent and human epigenetic models
+	Cross-fostering and maternal licking paradigms; postmortem human tissues19.
+	Epigenetic programming of the HPA stress response by maternal care19.
+	Maternal responsiveness regulates NR3C1 glucocorticoid receptor methylation, altering stress reactivity and allostatic load19.
+	Drew Bailey & Greg Duncan
+	Meta-analytic and econometric evaluations
+	Large-scale preschool interventions (Head Start, Perry, Abecedarian)4.
+	Mechanisms of intervention fadeout, persistence, and sleeper effects4.
+	Early cognitive test score advantages commonly fade unless targeting trifecta skills, supported by sustaining environments, or averting negative tracking4.
+	Matthew Salganik & Colleagues
+	Scientific mass collaboration and machine learning
+	Fragile Families Challenge (   families, 160 modeling teams)3.
+	Predictive bounds and forecasting ceilings for complex human life courses3.
+	Machine learning models trained on rich birth-to-age-9 data yielded poor predictions of age-15 outcomes (  ), demonstrating predictability limits3.
+	Marc Bornstein
+	Cross-cultural longitudinal developmental modeling
+	Cross-national cohorts of mother-infant dyads57.
+	Specificity principle and continuity from infant information processing57.
+	Early attention habituation and maternal responsive interactions show moderate specific continuity to childhood language and cognitive competence57.
+	ALSPAC / ECLS-K Consortia
+	Population-level prospective birth cohorts
+	Avon Longitudinal (  ); Early Childhood Longitudinal Study (  )25.
+	Population-level forecasting of school readiness and academic trajectories25.
+	Early executive function and socioeconomic factors reliably predict school readiness and early academic success across large populations25.
+	Longitudinal Development Arc: Preconception to Age Three
+
+
+Epoch / Subsystem
+	Primary Developmental Process
+	Consolidated Assets at Age Three
+	Fragilities and Scaffolding Requirements
+	Preconception & Prenatal
+	Epigenetic programming, neural tube formation, neurogenesis, sensory organ development19.
+	Innate structural brain architecture; sensory systems fully functional; baseline autonomic reactivity9.
+	High vulnerability to toxic prenatal stress, teratogens, and nutritional deprivation20.
+	Birth & Neonatal Transition
+	Physiological independence, pulmonary shift, initial homeostatic and thermal regulation61.
+	Metabolic survival systems; reflexive social seeking (eye gaze, preference for maternal voice)8.
+	Absolute dependence on maternal-caregiver allostatic regulation8.
+	Early Infancy (0–6 Months)
+	Social smiling, primary intersubjectivity, visual cortex synaptogenesis, stress axis calibration8.
+	Dyadic engagement routines; circadian rhythm establishment; sensory-motor coordination8.
+	Zero cognitive self-regulation; stress regulation completely reliant on caregiver holding and soothing8.
+	Later Infancy (6–18 Months)
+	Locomotor onset, secondary intersubjectivity, intentional joint attention, initial receptive language8.
+	Bipedal mobility; early word recognition; intentional means-end exploration; consolidated attachment dyads8.
+	Separation anxiety; immediate distress upon disruption of familiarity; inability to delay motor impulses8.
+	Toddlerhood (18–36 Months)
+	Representational insight, vocabulary explosion, emergence of effortful control, peer awareness8.
+	Fluent expressive vocabulary; symbolic play; unitary executive function; shame/empathy; associative play8.
+	High perseveration on changing cognitive rules; vulnerability to affective meltdowns; requires external boundaries10.
+	Longitudinal Synthesis Claim Register
+
+
+Claim ID
+	Core Proposition
+	Empirical Status
+	Key Supporting Evidence & Mechanisms
+	C15-01
+	The first three years involve extraordinary developmental transformation.
+	Supported
+	Brain reaches ~80–85% of adult volume; synaptic bloom to ~1,000 trillion connections; shift from sensorimotor infant to symbolic thinker1.
+	C15-02
+	Biological, cognitive, emotional, and social capacities emerge by thirty-six months.
+	Supported
+	Multimodal neuroimaging documents steep myelination of social brain tracts alongside expressive syntax and emerging effortful control8.
+	C15-03
+	Early differences demonstrate variable stability across traits.
+	Supported
+	Population rank-order personality consistency is modest (  ), yet extreme temperamental dysregulation predicts persistent adult clinical risks13.
+	C15-04
+	Some developmental disparities fade over time.
+	Supported
+	Cognitive intervention impacts commonly fade out unless targeting non-redundant, fundamental trifecta skills and supported by sustaining environments4.
+	C15-05
+	Resilience is a common developmental phenomenon.
+	Supported
+	Ann Masten’s "Ordinary Magic": normative adaptational systems (caregiving, cognitive functioning, community support) buffer children against adversity2.
+	C15-06
+	Development remains neurobiologically plastic after age three.
+	Supported
+	Prefrontal cortex synaptic generation and pruning extend through adolescence; BEIP and ERA studies show meaningful recovery within specific windows16.
+	C15-07
+	Prediction from early childhood is inherently probabilistic.
+	Supported
+	The Fragile Families Challenge established that machine learning models predicting adolescent life courses from early life variables face a low predictability ceiling3.
+	C15-08
+	Early development is foundational without determining outcomes.
+	Supported
+	Early experience shapes biological baselines and behavioral habits, but subsequent life experiences, transitions, and ecologies reshape trajectories2.
+	C15-09
+	Relationships remain central throughout development.
+	Supported
+	Neuroendocrine regulation, attachment models, and linguistic mastery are organized through responsive, bidirectional caregiver interactions7.
+	C15-10
+	Ecological conditions continue shaping developmental opportunity.
+	Supported
+	Structural advantages or systemic deprivations across schools, neighborhoods, and economic settings interact continuously with child endowments6.
+	C15-11
+	Effective interventions can alter developmental trajectories.
+	Supported
+	Early interventions and foster care placement produce sustained adult non-cognitive benefits via foot-in-the-door mechanisms and institutional protection4.
+	C15-12
+	Uncertainty remains an unavoidable feature of developmental science.
+	Supported
+	Nonlinear developmental cascades, unmeasured life shocks, and stochastic environmental dynamics prevent deterministic forecasting of individual life paths3.
+	Methodological and Epistemic Bias Audit
+
+
+Bias Dimension
+	Mechanism in Developmental Literature
+	Scientific Distortion
+	Corrective Empirical Reality
+	Deterministic Bias
+	Attributing unalterable, long-term permanence to early neurodevelopmental measurements1.
+	Fosters parental fatalism and misdirects policy by assuming remediation after age three is impossible17.
+	Neurobiological plasticity extends into adulthood; synaptic remodeling in the prefrontal cortex persists for decades16.
+	Survivorship Bias
+	Retrospective analysis of highly impaired adult clinical cohorts tracing problems back to toddlerhood12.
+	Creates an illusion that early behavioral quirks inevitably culminate in adult psychopathology31.
+	Prospective cohorts show that many dysregulated toddlers do not develop adult clinical disorders13.
+	Predictive Overreach
+	Generalizing population-level risk ratios and structural correlations to deterministic predictions for individual children3.
+	Leads to inappropriate clinical categorization and false developmental forecasts3.
+	Machine learning benchmarks show individual trajectories are subject to low predictability ceilings (  )3.
+	WEIRD-Sample Bias
+	Deriving universal developmental milestones from Western, Educated, Industrialized, Rich, Democratic cohorts5.
+	Overlooks cross-cultural diversity in sleep routines, linguistic exposure, and autonomy expectations5.
+	Core neurobiology interacts with culturally diverse parenting goals and community care systems5.
+	Intervention Optimism
+	Assuming that short-term laboratory gains on test scores automatically convert into permanent adult life advantages4.
+	Obscures the reality of skill fadeout and ignores the necessity of continuous, sustaining environments4.
+	Early interventions fade unless they target non-redundant trifecta skills and avoid negative institutional tracks4.
+	"What Developmental Science Cannot Infer" Register
+
+
+Common Misconception
+	Fallacious Interpretation
+	Empirical Refutation
+	Defensible Scientific Claim
+	Early Determinism
+	"A child's personality, intelligence, and life trajectory are fixed by age three."
+	Roberts & DelVecchio meta-analysis demonstrates population rank-order consistency is modest (  ), with    of trait variance open to reallocation14.
+	The first three years establish behavioral foundations and baseline set points, but subsequent environments continually reshape life paths2.
+	Irreversible Deprivation
+	"Early institutional neglect or traumatic adversity permanently ruins developmental potential."
+	Rutter's ERA study and BEIP randomized trials demonstrate substantial cognitive and social recovery when children are placed in supportive families within sensitive windows23.
+	Early severe deprivation carries measurable neurobiological risks, but timely intervention enables meaningful recovery and resilience5.
+	Guaranteed Early Advantage
+	"Toddler precocity guarantees lifelong intellectual and academic superiority."
+	Bailey and Duncan document widespread fadeout of early cognitive gains when subsequent educational environments fail to sustain initial advantages4.
+	Early cognitive advantages must be continuously reinforced by sustaining school and home ecologies to endure across schooling6.
+	Parental Omnipotence
+	"Parenting style alone accounts for child cognitive and behavioral outcomes."
+	Behavioral genetics and ecological systems theory demonstrate that genetics, peer networks, schools, and structural poverty account for significant variance5.
+	Parents provide crucial developmental scaffolding, but operate as one component within a multi-level developmental ecology5.
+	Absolute Plasticity
+	"Because the brain is plastic, any early neurobiological injury can be completely erased later."
+	The BEIP and ERA studies show that institutionalization exceeding 6 to 24 months leaves persistent cognitive and social deficits in many individuals23.
+	Neuroplasticity confers significant recovery potential, but biological and sensitive-period constraints limit complete reversibility after severe early deprivation23.
+	Algorithmic Forecasting
+	"Advanced predictive algorithms can accurately forecast a toddler's adolescent life outcomes."
+	The Fragile Families Challenge established an empirical ceiling where complex machine learning models explained    of out-of-sample variance in adolescent outcomes3.
+	Early data identify broad population risk probabilities, but idiosyncratic life events and nonlinear interactions make individual forecasting highly uncertain3.
+	Parent-Facing Translation Matrix
+
+
+Developmental Dimension
+	What the Science Shows
+	Common Cultural Myth
+	Grounded Parental Guidance
+	Brain Development
+	Rapid synaptogenesis and myelination establish neural foundations, while executive circuitry continues developing for decades1.
+	"You only have three years to wire your child's brain, after which the developmental window shuts forever."
+	Focus on responsive, warm daily interactions and low-stress routines; brain development remains open and responsive throughout childhood and adolescence1.
+	Early Intelligence
+	Early cognitive and milestone test scores reflect current developmental status and show modest long-term predictive power (  )20.
+	"A toddler who can read early is destined for genius; a toddler who struggles is permanently behind."
+	Provide varied learning experiences without treating early toddler milestones as fixed predictors of adult intellectual capability2.
+	Tantrums and Impulse Control
+	The prefrontal cortex is structurally immature at age three; executive function is unitary and cognitive flexibility on rule changes remains fragile10.
+	"A three-year-old having a public meltdown is exhibiting willful disobedience or deep character deficits."
+	View dysregulation as a normative sign of an immature inhibitory system that still requires calm adult co-regulation and clear boundaries8.
+	Temperament and Behavior
+	Extreme behavioral undercontrol or inhibition carries probabilistic vulnerabilities, but trajectories remain modifiable through parenting feedback7.
+	"My child's shy or oppositional toddler behavior means they are locked into that personality forever."
+	Respond to child temperament with structured, warm parenting; avoiding harsh cycles helps prevent early traits from turning into behavioral problems7.
+	Enrichment and Interventions
+	Targeted early skills fade out unless reinforced by subsequent educational environments; non-cognitive habits yield the most durable long-term benefits4.
+	"Purchasing specialized toddler curricula and flashcards is necessary to secure future academic success."
+	Prioritize language-rich conversations, open-ended play, shared reading, and emotional security, which provide foundational building blocks for later learning6.
+	Epistemic Synthesis: Foundations, Possibility, and the Unfinished Person
+Synthesizing findings across biological, cognitive, emotional, social, and intervention sciences establishes a coherent portrait of the child at age three8. The first thirty-six months represent an extraordinarily active window of human ontogeny1. During this period, the human organism undergoes extensive transformation8.
+Relationships calibrate neuroendocrine regulation21. Sensory experience guides synaptic remodeling1. Vocal communication is transformed into structured language10. Impulsive motor reflexes give way to intentional, goal-directed behavior10. Perception expands into mental representation and imaginative thought8.
+Yet, the central conclusion of developmental science is not that early life determines everything2. Development accumulates without concluding2. Some early differences endure; others fade4. Some vulnerabilities persist; others are buffered by responsive care and supportive environments5.
+Plasticity, resilience, caregiving relationships, ecological context, and systematic intervention continue to shape developmental trajectories long past the third birthday2.
+By age three, an intricate foundation has been laid, but the structure remains unfinished1. The child standing at the threshold of the fourth year is neither a blank slate nor a completed product1. The child is a developing human being whose early history matters deeply, and whose future remains open2.
+Works cited
+         1. 1.3 Summarise current scientific research relating to neurological, https://carelearning.org.uk/qualifications/level-3-diploma-eyp/unit-39-cognitive-development/1-3-summarise-current-scientific-research-relating-to-neurological-and-brain-development-in-early-years/
+         2. Ordinary Magic | Request PDF - ResearchGate, https://www.researchgate.net/publication/12020095_Ordinary_Magic
+         3. Measuring the predictability of life outcomes with a scientific mass, https://www.researchgate.net/publication/340299299_Measuring_the_predictability_of_life_outcomes_with_a_scientific_mass_collaboration
+         4. Persistence and Fadeout in the Impacts of Child and Adolescent, https://www.researchgate.net/publication/307944850_Persistence_and_Fadeout_in_the_Impacts_of_Child_and_Adolescent_Interventions
+         5. Ordinary magic: Resilience process in development | Request PDF, https://www.researchgate.net/publication/287648508_Ordinary_magic_Resilience_process_in_development
+         6. PERSISTENCE AND FADEOUT IN INTERVENTION IMPACTS 1, https://bpb-us-e2.wpmucdn.com/sites.uci.edu/dist/1/1159/files/2013/06/Fadeout-paper-Submitted-pdf.pdf
+         7. Parenting and the Development of Effortful Control from Early ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC5206969/
+         8. Connecting inside out: Development of the social brain in infants, https://pmc.ncbi.nlm.nih.gov/articles/PMC9290142/
+         9. Brain development during the preschool years - PMC - NIH, https://pmc.ncbi.nlm.nih.gov/articles/PMC3511633/
+         10. The Longitudinal Contributions of Child Language, Negative ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC10527090/
+         11. "Effortful Control" in, https://emergingtrends.stanford.edu/files/original/e093e7f897b6c3bc3896b3eac6687f4403010662.pdf
+         12. The Dunedin Study: 50 Years of Data on Why We Struggle, https://recover-you.ca/dunedin-study
+         13. The Child Is Father of the Man: Personality Continuities From, https://www.researchgate.net/publication/12660309_The_Child_Is_Father_of_the_Man_Personality_Continuities_From_Childhood_to_Adulthood
+         14. The Rank-Order Consistency of Personality Traits From Childhood, https://www.managementcraft.co/sources/roberts-delvecchio-rank-order-consistency
+         15. The Current State of Scientific Knowledge on Pre-Kindergarten Effects, https://www.brookings.edu/wp-content/uploads/2017/04/duke_prekstudy_final_4-4-17_hires.pdf
+         16. The Developmental Course of Human Brain Development Note, https://www.researchgate.net/figure/The-Developmental-Course-of-Human-Brain-Development-Note-This-graph-illustrates-the_fig1_395883004
+         17. Cutting across structural and transcriptomic scales translates time, https://royalsocietypublishing.org/rspb/article/288/1944/20202987/86010/Cutting-across-structural-and-transcriptomic
+         18. Learning in Infancy Is Active, Endogenously Motivated, and, https://www.annualreviews.org/doi/10.1146/annurev-devpsych-121318-084841
+         19. Glucocorticoid Receptor–Regulated Gene Networks and Mental, https://www.annualreviews.org/content/journals/10.1146/annurev-neuro-102124-031826
+         20. Prenatal Risk Predicts Preschooler Executive Function - PMC - NIH, https://pmc.ncbi.nlm.nih.gov/articles/PMC6917992/
+         21. Epigenetics in Psychology: Mechanisms, Evidence, and Implications, https://www.zubairkhalid.com/knowledge/molecular-biology/epigenetics-psychology
+         22. Behind the Curtains of Maternal Care Research - Frontiers, https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.804239/pdf
+         23. III. Deprivation-specific psychological patterns | Request PDF, https://www.researchgate.net/publication/44628588_III_Deprivation-specific_psychological_patterns
+         24. Lessons from the Bucharest Early Intervention Project - ResearchGate, https://www.researchgate.net/profile/Charles-Zeanah/publication/321840548_The_Effects_of_Psychosocial_Deprivation_on_Attachment_Lessons_from_the_Bucharest_Early_Intervention_Project/links/5b65b3eca6fdcc94a70e80a7/The-Effects-of-Psychosocial-Deprivation-on-Attachment-Lessons-from-the-Bucharest-Early-Intervention-Project.pdf
+         25. The Mediational Role of Pre-kindergarten Learning-related Behaviors, https://pmc.ncbi.nlm.nih.gov/articles/PMC4878834/
+         26. Self-regulation in Preschool Children: Factor Structure of Different, https://boris-portal.unibe.ch/server/api/core/bitstreams/605547ff-7a12-4e06-92f4-a26dda1c31fb/content
+         27. Developing Mechanisms of Temperamental Effortful Control, https://www.researchgate.net/publication/8995188_Developing_Mechanisms_of_Temperamental_Effortful_Control
+         28. The relationship between executive functioning and language, https://www.researchgate.net/publication/318833208_The_relationship_between_executive_functioning_and_language_Examining_vocabulary_syntax_and_language_learning_in_preschoolers_attending_Head_Start
+         29. A study of the Attachment Stability of Children Living in Different, https://www.academia.edu/93312247/A_study_of_the_Attachment_Stability_of_Children_Living_in_Different_Family_Types_A_Longitudinal_Study_of_Children_from_the_Age_of_6_to_11_
+         30. Full article: Reactive temperament and self-regulation in preschool, https://www.tandfonline.com/doi/full/10.1080/21622965.2025.2519862
+         31. Behavioral Observations at Age 3 Years Predict Adult psychiatric, https://dunedinstudy.otago.ac.nz/files/1589353262282.pdf
+         32. The rank-order consistency of personality traits from childhood to old, https://pubmed.ncbi.nlm.nih.gov/10668348/
+         33. Undercontrolled Temperament at Age 3 Predicts Disordered ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC3556900/
+         34. Latent Profiles of Temperament and Their Relations to, https://psychiatryonline.org/doi/full/10.1176/foc.8.2.foc240
+         35. The stability of temperament from early childhood to early adolescence, https://pmc.ncbi.nlm.nih.gov/articles/PMC6407883/
+         36. (PDF) Parenting and the development of effortful control from early, https://www.researchgate.net/publication/305414716_Parenting_and_the_development_of_effortful_control_from_early_childhood_to_early_adolescence_A_transactional_developmental_model
+         37. Meta-analytic evidence for stability in attachments from infancy to, https://www.researchgate.net/publication/233847620_Meta-analytic_evidence_for_stability_in_attachments_from_infancy_to_early_adulthood
+         38. Mary Ainsworth and the Strange Situation Procedure, https://academic.oup.com/book/28760/chapter/235147154
+         39. Early Learning Across Decades: Advances in Measuring Head Start, https://docs.iza.org/dp18407.pdf
+         40. Drew BAILEY - University of California, Irvine - ResearchGate, https://www.researchgate.net/profile/Drew-Bailey-2
+         41. Examining the Effects of Changes in Classroom Quality on Within, https://pmc.ncbi.nlm.nih.gov/articles/PMC9279005/
+         42. Cognitive Recovery in Socially Deprived Young Children, https://www.semanticscholar.org/paper/Cognitive-Recovery-in-Socially-Deprived-Young-The-Nelson-Zeanah/3d972662e62f186dcd448b5d7eda38878db8aac1
+         43. the impact of pre-adoption stress on the romanian adoptees, https://case.edu/socialwork/sites/default/files/2018-11/Nedelcu%20Dissertation.pdf
+         44. 5.6: Relationship Deprivation - Social Sci LibreTexts, https://socialsci.libretexts.org/Bookshelves/Early_Childhood_Education/General_Child_Development/Infant_and_Toddler_Care_and_Development_2e/05%3A_Supporting_Brain_Development_in_Group_Care/5.06%3A_Relationship_Deprivation
+         45. The Effects of Severe Psychosocial Deprivation and Foster Care, https://www.semanticscholar.org/paper/The-Effects-of-Severe-Psychosocial-Deprivation-and-Fox-Almas/84e468a608f32a75ea7e46120e08dfa2fac04517
+         46. (PDF) Cognitive Recovery in Socially Deprived Young Children, https://www.researchgate.net/publication/5751943_Cognitive_Recovery_in_Socially_Deprived_Young_Children_The_Bucharest_Early_Intervention_Project
+         47. Ordinary Magic: Resilience and Community Building, https://belongingforum.org/ordinary-magic-resilience-and-community-building/
+         48. Ann S. Masten - Wikipedia, https://en.wikipedia.org/wiki/Ann_S._Masten
+         49. Ordinary magic - CEHD Connect Magazine - University of Minnesota, https://connect.cehd.umn.edu/ordinary-magic
+         50. Introduction to the Special Collection on the Fragile Families ... - PMC, https://pmc.ncbi.nlm.nih.gov/articles/PMC10260255/
+         51. Projecting the outcomes of people's lives with AI isn't so simple, https://news.vt.edu/articles/2020/03/Fralin-Life-Sci-AI-Predictive-Models-Brian-Goode.html
+         52. Measuring the predictability of life outcomes with a scientific mass, https://www.pnas.org/doi/10.1073/pnas.1915006117
+         53. What failure to predict life outcomes can teach us - PNAS, https://www.pnas.org/doi/10.1073/pnas.2003390117
+         54. The value of qualitative data in understanding failure in prediction, https://www.pnas.org/doi/10.1073/pnas.2409327121
+         55. Development of a predictive risk model for school readiness at age 3, https://pmc.ncbi.nlm.nih.gov/articles/PMC6596936/
+         56. (PDF) How well can we predict educational outcomes? Examining, https://www.researchgate.net/publication/295819405_How_well_can_we_predict_educational_outcomes_Examining_the_roles_of_cognitive_ability_and_social_position_in_educational_attainment
+         57. Stability and Continuity in Mental Development: Behavioral and, https://www.routledge.com/Stability-and-Continuity-in-Mental-Development-Behavioral-and-Biological-Perspectives/Bornstein-Krasnegor/p/book/9781138996458
+         58. Longitudinal Assessment of Children's Mental and Social Abilities, https://grantome.com/index.php/grant/NIH/Z01-HD001122-11
+         59. Configurations of early risk and their association with academic, https://kretschmertina.wordpress.com/wp-content/uploads/2018/10/oliver-2014-configurations-of-preschool-risk-and-associations-with-academic-cognitive-emotional-and-behavioral-outcomes-in-middle-childhood.pdf
+         60. Executive function facilitates learning from math instruction in, https://www.researchgate.net/publication/338971036_Executive_function_facilitates_learning_from_math_instruction_in_kindergarten_Evidence_from_the_ECLS-K
+         61. 1.5.3: Nervous System Development - Social Sci LibreTexts, https://socialsci.libretexts.org/Courses/Irvine_Valley_College/Physiological_Psychology_(IVC_PSYCH003)/01%3A_Part_I-_Foundations_of_Physiological_Psychology/1.05%3A_Functional_Anatomy-_Nervous_System_Anatomy_-Functional_Anatomy_of_the_Cerebral_Cortex_and_Spinal_Cord/1.5.03%3A_Nervous_System_Development
+         62. Psychosocial and educational outcomes of weight faltering in, https://bmjopen.bmj.com/content/3/7/e002863
