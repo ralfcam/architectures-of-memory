@@ -1,0 +1,32 @@
+name: Manuscript & OKF v0.2 Gate
+
+on:
+  pull_request:
+    paths:
+      - "series/**"
+      - "scripts/**"
+      - "style/**"
+      - "SPEC.md"
+      - "COMPOSITION.md"
+
+permissions:
+  contents: read
+
+jobs:
+  okf-and-manuscript-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run OKF v0.2 Five-Rule Check across all series
+        run: |
+          python3 scripts/five_rule_check.py series/architectures-of-memory/book-01-vanishing-signal --summary-only
+          python3 scripts/five_rule_check.py series/architectures-of-memory/book-02-forget-gate --summary-only
+          python3 scripts/five_rule_check.py series/architectures-of-memory/book-03-weight-of-attention --summary-only
+          python3 scripts/five_rule_check.py series/parenthood-atlas --summary-only
+      - name: Run Manuscript Continuity & Style Audit across active books
+        run: |
+          python3 scripts/audit_manuscript.py series/architectures-of-memory/book-01-vanishing-signal --strict
+          python3 scripts/audit_manuscript.py series/parenthood-atlas --strict

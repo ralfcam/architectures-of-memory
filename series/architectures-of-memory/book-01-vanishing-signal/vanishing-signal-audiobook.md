@@ -1,6 +1,6 @@
-# book-01-vanishing-signal — Audiobook transcript
+# series/architectures-of-memory/book-01-vanishing-signal — Audiobook transcript
 
-Compiled from `book-01-vanishing-signal/chapters/*.md` (2026-10-20). *Sources* lines, `## Notes` sections, and inline `[^footnote]` markers are omitted for text-to-speech.
+Compiled from `series/architectures-of-memory/book-01-vanishing-signal/chapters/*.md` (2026-10-20). YAML frontmatter, *Sources* lines, `## Notes` / `## Sources` sections, and inline `[^footnote]` markers are omitted for text-to-speech.
 
 ---
 

@@ -10,17 +10,52 @@ from datetime import date
 from pathlib import Path
 
 INLINE_FOOTNOTE_RE = re.compile(r"\[\^[^^\]]+\]")
-NOTES_HEADING_RE = re.compile(r"^## Notes\s*$", re.MULTILINE)
+NOTES_HEADING_RE = re.compile(r"^## (?:Notes|Sources|Further Reading)\s*$", re.MULTILINE)
 
 
 def repo_root() -> Path:
     return Path(__file__).resolve().parent.parent
 
 
+def resolve_book_path(root: Path, book_arg: Path) -> Path:
+    """Resolve a book or series path whether passed relative to root or by short folder name."""
+    direct = book_arg.resolve() if book_arg.is_absolute() else (root / book_arg).resolve()
+    if direct.is_dir():
+        return direct
+    for candidate in (
+        root / "series" / "architectures-of-memory" / book_arg.name,
+        root / "series" / book_arg.name,
+    ):
+        if candidate.is_dir():
+            return candidate.resolve()
+    return direct
+
+
+def iter_chapter_files(chapters_dir: Path) -> list[Path]:
+    """Return sorted chapter markdown files, excluding _OUTLINE.md, _TEMPLATE.md, and index.md."""
+    if not chapters_dir.is_dir():
+        return []
+    return [
+        p
+        for p in sorted(chapters_dir.glob("*.md"))
+        if not p.name.startswith("_") and p.name.lower() not in ("index.md", "readme.md")
+    ]
+
+
+def strip_yaml_frontmatter(text: str) -> str:
+    if not text.startswith("---"):
+        return text
+    parts = text.split("---", 2)
+    if len(parts) >= 3:
+        return parts[2].lstrip("\r\n")
+    return text
+
+
 def transform_audiobook(text: str) -> str:
+    stripped = strip_yaml_frontmatter(text)
     lines: list[str] = []
-    for line in text.splitlines(keepends=True):
-        if line.lstrip().startswith("*Sources:"):
+    for line in stripped.splitlines(keepends=True):
+        if line.lstrip().startswith("*Sources:") or line.lstrip().startswith("> **Domain"):
             continue
         lines.append(line)
     body = "".join(lines)
@@ -48,7 +83,7 @@ def preamble_audiobook(book_rel: str) -> str:
     today = date.today().isoformat()
     return f"""# {book_rel} — Audiobook transcript
 
-Compiled from `{book_rel}/chapters/*.md` ({today}). *Sources* lines, `## Notes` sections, and inline `[^footnote]` markers are omitted for text-to-speech.
+Compiled from `{book_rel}/chapters/*.md` ({today}). YAML frontmatter, *Sources* lines, `## Notes` / `## Sources` sections, and inline `[^footnote]` markers are omitted for text-to-speech.
 
 ---
 
@@ -57,17 +92,17 @@ Compiled from `{book_rel}/chapters/*.md` ({today}). *Sources* lines, `## Notes` 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Merge chapters/*.md under a book-NN-* directory into one file.",
+        description="Merge chapters/*.md under a book or series directory into one file.",
     )
     parser.add_argument(
         "book",
         type=Path,
-        help="Book directory relative to repo root or absolute (e.g. book-01-vanishing-signal).",
+        help="Book directory relative to repo root or short name (e.g. series/architectures-of-memory/book-01-vanishing-signal or series/parenthood-atlas).",
     )
     parser.add_argument(
         "--audiobook",
         action="store_true",
-        help="Strip Sources, Notes, and inline footnote calls (TTS-friendly).",
+        help="Strip YAML frontmatter, Sources, Notes, and inline footnote calls (TTS-friendly).",
     )
     parser.add_argument(
         "--prefix",
@@ -78,7 +113,7 @@ def main() -> None:
     args = parser.parse_args()
 
     root = repo_root()
-    book_path = args.book.resolve() if args.book.is_absolute() else (root / args.book).resolve()
+    book_path = resolve_book_path(root, args.book)
 
     if not book_path.is_dir():
         print(f"error: not a directory: {book_path}", file=sys.stderr)
@@ -89,9 +124,9 @@ def main() -> None:
         print(f"error: missing chapters/: {chapters_dir}", file=sys.stderr)
         sys.exit(1)
 
-    md_files = sorted(chapters_dir.glob("*.md"))
+    md_files = iter_chapter_files(chapters_dir)
     if not md_files:
-        print(f"error: no *.md under {chapters_dir}", file=sys.stderr)
+        print(f"error: no chapter *.md under {chapters_dir}", file=sys.stderr)
         sys.exit(1)
 
     try:
@@ -110,7 +145,7 @@ def main() -> None:
 
     for i, f in enumerate(md_files):
         raw = f.read_text(encoding="utf-8")
-        body = transform_audiobook(raw) if args.audiobook else raw.rstrip()
+        body = transform_audiobook(raw) if args.audiobook else strip_yaml_frontmatter(raw).rstrip()
         parts.append(body)
         if i < len(md_files) - 1:
             parts.append(sep)

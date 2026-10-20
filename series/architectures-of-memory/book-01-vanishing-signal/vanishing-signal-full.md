@@ -1,6 +1,6 @@
-# book-01-vanishing-signal — Full manuscript
+# series/architectures-of-memory/book-01-vanishing-signal — Full manuscript
 
-Compiled from `book-01-vanishing-signal/chapters/*.md` in sorted filename order (2026-10-20).
+Compiled from `series/architectures-of-memory/book-01-vanishing-signal/chapters/*.md` in sorted filename order (2026-10-20).
 
 **Footnotes:** Each chapter defines reference-style footnotes locally. Some labels repeat across chapters; in one file, renderers may attach one definition to every use of a label.
 

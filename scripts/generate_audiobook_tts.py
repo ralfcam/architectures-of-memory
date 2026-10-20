@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Gemini TTS / Audiobook Synthesis Pipeline for Architectures of Memory.
+"""Gemini TTS / Audiobook Synthesis Pipeline for Multi-Series Editorial Monorepo.
 
-Transforms book chapters into clean spoken transcripts (stripping footnotes, Sources,
-and Notes), chunks by section/paragraph, estimates speaking duration (--dry-run), and
-synthesizes 24kHz WAV audio files via Gemini 2.5 TTS (--chapter or full book).
+Transforms book chapters into clean spoken transcripts (stripping YAML frontmatter,
+footnotes, Sources, and Notes), chunks by section/paragraph, estimates speaking
+duration (--dry-run), and synthesizes 24kHz WAV audio files via Gemini 2.5 TTS.
 """
 from __future__ import annotations
 
@@ -17,27 +17,19 @@ import urllib.request
 import wave
 from pathlib import Path
 
-from merge_book_chapters import transform_audiobook
+from merge_book_chapters import iter_chapter_files, repo_root, resolve_book_path, transform_audiobook
 
 WPM_SPEAKING_RATE = 150  # Standard nonfiction audiobook narration pace
 
 
-def repo_root() -> Path:
-    return Path(__file__).resolve().parent.parent
-
-
 def clean_markdown_for_speech(md_text: str) -> str:
     text = transform_audiobook(md_text)
-    # Remove horizontal rules
     text = re.sub(r"^---+\s*$", "", text, flags=re.MULTILINE)
-    # Convert headings into clean spoken transitions
     text = re.sub(r"^#\s+(.+)$", r"\1.\n", text, flags=re.MULTILINE)
     text = re.sub(r"^##+\s+(.+)$", r"\n\1.\n", text, flags=re.MULTILINE)
-    # Strip bold/italic/code markers while preserving words
     text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
     text = re.sub(r"\*([^*]+)\*", r"\1", text)
     text = re.sub(r"`([^`]+)`", r"\1", text)
-    # Collapse excessive blank lines
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
 
@@ -118,8 +110,8 @@ def write_wav(out_path: Path, pcm_bytes: bytes, sample_rate: int = 24000) -> Non
 def main() -> None:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    parser = argparse.ArgumentParser(description="Gemini TTS audiobook generator for Architectures of Memory.")
-    parser.add_argument("book", type=Path, help="Book directory (e.g. book-01-vanishing-signal)")
+    parser = argparse.ArgumentParser(description="Gemini TTS audiobook generator for both series.")
+    parser.add_argument("book", type=Path, help="Book directory (e.g. series/architectures-of-memory/book-01-vanishing-signal or series/parenthood-atlas)")
     parser.add_argument("--chapter", default=None, help="Filter to a specific chapter prefix (e.g. '01' or '07')")
     parser.add_argument("--voice", default="Kore", help="Gemini prebuilt voice name (default: Kore)")
     parser.add_argument("--model", default="gemini-2.5-flash-preview-tts", help="Gemini TTS model")
@@ -128,13 +120,13 @@ def main() -> None:
     args = parser.parse_args()
 
     root = repo_root()
-    book_path = args.book.resolve() if args.book.is_absolute() else (root / args.book).resolve()
+    book_path = resolve_book_path(root, args.book)
     chapters_dir = book_path / "chapters"
     if not chapters_dir.is_dir():
         print(f"error: chapters directory not found: {chapters_dir}", file=sys.stderr)
         sys.exit(1)
 
-    md_files = sorted(chapters_dir.glob("*.md"))
+    md_files = iter_chapter_files(chapters_dir)
     if args.chapter:
         prefix = args.chapter.zfill(2)
         md_files = [f for f in md_files if f.name.startswith(prefix)]

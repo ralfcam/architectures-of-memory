@@ -2,81 +2,101 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Merge book chapters (full)",
+      "label": "Merge book chapters (full manuscript)",
       "type": "shell",
-      "command": "python scripts/merge_book_chapters.py ${input:bookDir} ${input:mergeExtra}",
+      "command": "python",
+      "args": [
+        "scripts/merge_book_chapters.py",
+        "${input:bookDir}"
+      ],
       "options": {
         "cwd": "${workspaceFolder}"
       },
-      "problemMatcher": [],
-      "presentation": {
-        "reveal": "always",
-        "panel": "shared"
-      }
+      "problemMatcher": []
     },
     {
-      "label": "Merge book chapters (audiobook)",
+      "label": "Merge book chapters (audiobook / TTS)",
       "type": "shell",
-      "command": "python scripts/merge_book_chapters.py ${input:bookDir} --audiobook ${input:mergeExtra}",
+      "command": "python",
+      "args": [
+        "scripts/merge_book_chapters.py",
+        "${input:bookDir}",
+        "--audiobook"
+      ],
       "options": {
         "cwd": "${workspaceFolder}"
       },
-      "problemMatcher": [],
-      "presentation": {
-        "reveal": "always",
-        "panel": "shared"
-      }
+      "problemMatcher": []
     },
     {
-      "label": "Audit book manuscript & continuity",
+      "label": "Audit book manuscript (continuity, metaphors, footnotes & OKF)",
       "type": "shell",
-      "command": "python scripts/audit_manuscript.py ${input:bookDir}",
+      "command": "python",
+      "args": [
+        "scripts/audit_manuscript.py",
+        "${input:bookDir}"
+      ],
       "options": {
         "cwd": "${workspaceFolder}"
       },
-      "problemMatcher": [],
-      "presentation": {
-        "reveal": "always",
-        "panel": "shared"
-      }
+      "problemMatcher": []
     },
     {
-      "label": "Audiobook TTS plan (dry-run)",
+      "label": "OKF v0.2 Five-Rule Evidence Card Check",
       "type": "shell",
-      "command": "python scripts/generate_audiobook_tts.py ${input:bookDir} --dry-run",
+      "command": "python",
+      "args": [
+        "scripts/five_rule_check.py",
+        "${input:bookDir}",
+        "--online-retraction-check"
+      ],
       "options": {
         "cwd": "${workspaceFolder}"
       },
-      "problemMatcher": [],
-      "presentation": {
-        "reveal": "always",
-        "panel": "shared"
-      }
+      "problemMatcher": []
+    },
+    {
+      "label": "Render Reader Edition PDF + HTML",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "scripts/render_publishing_pdfs.py",
+        "${input:bookDir}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Audiobook TTS Dry-Run (estimate duration & chunks)",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "scripts/generate_audiobook_tts.py",
+        "${input:bookDir}",
+        "--dry-run"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
     }
   ],
   "inputs": [
     {
       "id": "bookDir",
       "type": "pickString",
-      "description": "Book directory (under workspace root)",
+      "description": "Book or series directory",
       "options": [
-        "book-01-vanishing-signal",
-        "book-02-forget-gate",
-        "book-03-weight-of-attention",
-        "book-04-context-window",
-        "book-05-architecture-of-forgetting"
+        "series/architectures-of-memory/book-01-vanishing-signal",
+        "series/architectures-of-memory/book-02-forget-gate",
+        "series/architectures-of-memory/book-03-weight-of-attention",
+        "series/architectures-of-memory/book-04-context-window",
+        "series/architectures-of-memory/book-05-architecture-of-forgetting",
+        "series/parenthood-atlas"
       ],
-      "default": "book-01-vanishing-signal"
-    },
-    {
-      "id": "mergeExtra",
-      "type": "pickString",
-      "description": "Optional --prefix (otherwise output basename = folder name)",
-      "options": [
-        "",
-        "--prefix vanishing-signal"
-      ],
-      "default": ""
+      "default": "series/architectures-of-memory/book-01-vanishing-signal"
     }
   ]
 }

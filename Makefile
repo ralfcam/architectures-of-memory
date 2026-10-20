@@ -1,53 +1,59 @@
-# Merge all chapters under a book-NN-* directory into one Markdown file.
-# Requires GNU Make and Python 3 on PATH.
-#
-# Examples:
-#   make merge BOOK=book-01-vanishing-signal PREFIX=vanishing-signal
-#   make merge-audiobook BOOK=book-01-vanishing-signal PREFIX=vanishing-signal
+# Multi-Series Editorial Monorepo Makefile
+# Usage:
+#   make audit BOOK=series/architectures-of-memory/book-01-vanishing-signal
+#   make audit BOOK=series/parenthood-atlas
+#   make five-rule BOOK=series/parenthood-atlas
+#   make pdf BOOK=series/architectures-of-memory/book-01-vanishing-signal
 
-.PHONY: merge merge-audiobook merge-help audit audiobook-dry-run audiobook-tts
-
-BOOK ?=
+PYTHON ?= python
+BOOK ?= series/architectures-of-memory/book-01-vanishing-signal
 PREFIX ?=
 VOICE ?= Kore
+CHAPTER ?=
 
-_MERGE_EXTRA = $(if $(strip $(PREFIX)),--prefix $(PREFIX),)
+PrefixArg = $(if $(strip $(PREFIX)),--prefix $(strip $(PREFIX)),)
+ChapterArg = $(if $(strip $(CHAPTER)),--chapter $(strip $(CHAPTER)),)
 
-merge-help:
-	@echo Usage:
-	@echo   make merge BOOK=book-01-vanishing-signal
-	@echo   make merge BOOK=book-01-vanishing-signal PREFIX=vanishing-signal
-	@echo   make merge-audiobook BOOK=book-01-vanishing-signal
-	@echo   make audit BOOK=book-01-vanishing-signal
-	@echo   make audiobook-dry-run BOOK=book-01-vanishing-signal
-	@echo   make audiobook-tts BOOK=book-01-vanishing-signal VOICE=Kore
+.PHONY: merge merge-audiobook merge-both audit audit-gemini audit-all five-rule five-rule-online five-rule-all pdf sync-sources audiobook-dry-run audiobook-tts
 
 merge:
-ifeq ($(strip $(BOOK)),)
-	$(error Set BOOK, e.g. make merge BOOK=book-01-vanishing-signal)
-endif
-	python scripts/merge_book_chapters.py $(BOOK) $(_MERGE_EXTRA)
+	$(PYTHON) scripts/merge_book_chapters.py $(BOOK) $(PrefixArg)
 
 merge-audiobook:
-ifeq ($(strip $(BOOK)),)
-	$(error Set BOOK, e.g. make merge-audiobook BOOK=book-01-vanishing-signal)
-endif
-	python scripts/merge_book_chapters.py $(BOOK) --audiobook $(_MERGE_EXTRA)
+	$(PYTHON) scripts/merge_book_chapters.py $(BOOK) --audiobook $(PrefixArg)
+
+merge-both: merge merge-audiobook
 
 audit:
-ifeq ($(strip $(BOOK)),)
-	$(error Set BOOK, e.g. make audit BOOK=book-01-vanishing-signal)
-endif
-	python scripts/audit_manuscript.py $(BOOK)
+	$(PYTHON) scripts/audit_manuscript.py $(BOOK)
+
+audit-gemini:
+	$(PYTHON) scripts/audit_manuscript.py $(BOOK) --gemini
+
+audit-all:
+	$(PYTHON) scripts/audit_manuscript.py series/architectures-of-memory/book-01-vanishing-signal --strict
+	$(PYTHON) scripts/audit_manuscript.py series/parenthood-atlas --strict
+
+five-rule:
+	$(PYTHON) scripts/five_rule_check.py $(BOOK) --summary-only
+
+five-rule-online:
+	$(PYTHON) scripts/five_rule_check.py $(BOOK) --online-retraction-check
+
+five-rule-all:
+	$(PYTHON) scripts/five_rule_check.py series/architectures-of-memory/book-01-vanishing-signal --summary-only
+	$(PYTHON) scripts/five_rule_check.py series/architectures-of-memory/book-02-forget-gate --summary-only
+	$(PYTHON) scripts/five_rule_check.py series/architectures-of-memory/book-03-weight-of-attention --summary-only
+	$(PYTHON) scripts/five_rule_check.py series/parenthood-atlas --summary-only
+
+pdf:
+	$(PYTHON) scripts/render_publishing_pdfs.py $(BOOK)
+
+sync-sources:
+	$(PYTHON) scripts/sync_okf_sources.py
 
 audiobook-dry-run:
-ifeq ($(strip $(BOOK)),)
-	$(error Set BOOK, e.g. make audiobook-dry-run BOOK=book-01-vanishing-signal)
-endif
-	python scripts/generate_audiobook_tts.py $(BOOK) --dry-run --voice $(VOICE)
+	$(PYTHON) scripts/generate_audiobook_tts.py $(BOOK) $(ChapterArg) --voice $(VOICE) --dry-run
 
 audiobook-tts:
-ifeq ($(strip $(BOOK)),)
-	$(error Set BOOK, e.g. make audiobook-tts BOOK=book-01-vanishing-signal)
-endif
-	python scripts/generate_audiobook_tts.py $(BOOK) --voice $(VOICE)
+	$(PYTHON) scripts/generate_audiobook_tts.py $(BOOK) $(ChapterArg) --voice $(VOICE)
