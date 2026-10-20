@@ -74,7 +74,7 @@ sources:
     resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/
     title: "Partanen et al. (2013), PNAS, neural memory traces of prenatal sound exposure"
   - id: deregil-2015-cochrane
-    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/
+    resource: https://doi.org/10.1002/14651858.CD007950.pub3
     title: "De-Regil et al. (2015), Cochrane review of periconceptional folate"
   - id: mrc-ntd-1991
     resource: https://doi.org/10.1016/0140-6736(91)90133-A
@@ -211,6 +211,12 @@ sources:
   - id: aslin-2007-look
     resource: https://doi.org/10.1111/j.1467-7687.2007.00563.x
     title: "Aslin (2007), Developmental Science, What's in a look?"
+  - id: haith-1998-cog
+    resource: https://doi.org/10.1016/s0163-6383(98)90001-7
+    title: "Haith (1998), Infant Behavior and Development, Who put the cog in infant cognition? Is rich interpretation too costly?"
+  - id: manybabies-2020-variability
+    resource: https://doi.org/10.1177/2515245919900809
+    title: "ManyBabies Consortium / Frank et al. (2020), AMPPS, Quantifying sources of variability in infancy research using the infant-directed-speech preference"
   - id: colombo-2001-attention
     resource: https://doi.org/10.1146/annurev.psych.52.1.337
     title: "Colombo (2001), Annual Review of Psychology, visual attention in infancy"
@@ -398,7 +404,7 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `preschool-scale-synthesis` | Are Preschool Programs Becoming Less Effective? (ERIC; journal version 10.1002/pam.70031) | [https://doi.org/10.1002/pam.70031](https://doi.org/10.1002/pam.70031) | [preschool-early-education-rct](evidence-cards/preschool-early-education-rct.md) |
 | `decasper-spence-1986` | DeCasper & Spence (1986), prenatal maternal speech and newborn preference | [https://doi.org/10.1016/0163-6383(86)90025-1](https://doi.org/10.1016/0163-6383(86)90025-1) | [prenatal-auditory-learning](evidence-cards/prenatal-auditory-learning.md) |
 | `partanen-2013` | Partanen et al. (2013), PNAS, neural memory traces of prenatal sound | [https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3847147/) | [prenatal-auditory-learning](evidence-cards/prenatal-auditory-learning.md) |
-| `deregil-2015-cochrane` | De-Regil et al. (2015), Cochrane periconceptional folate review | [https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) (`stable` NTD claim) |
+| `deregil-2015-cochrane` | De-Regil et al. (2015), Cochrane periconceptional folate review | [https://doi.org/10.1002/14651858.CD007950.pub3](https://doi.org/10.1002/14651858.CD007950.pub3) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) (`stable` NTD claim) |
 | `mrc-ntd-1991` | MRC Vitamin Study Research Group (1991), Lancet NTD trial | [https://doi.org/10.1016/0140-6736(91)90133-A](https://doi.org/10.1016/0140-6736(91)90133-A) | [prenatal-folate-ntd](evidence-cards/prenatal-folate-ntd.md) (`stable` NTD claim) |
 | `who-anc-2016` | WHO (2016) ANC recommendations; ISBN 9789241549912; IRIS 10665/250796; no Crossref DOI | [https://iris.who.int/handle/10665/250796](https://iris.who.int/handle/10665/250796) | Framework only; demoted from `prenatal-folate-ntd` identification 2026-09-16 |
 | `kramer-2008-probit` | Kramer et al. (2008), PROBIT IQ at 6.5 years | [https://doi.org/10.1001/archpsyc.65.5.578](https://doi.org/10.1001/archpsyc.65.5.578) | [breastfeeding-cognitive-development](evidence-cards/breastfeeding-cognitive-development.md) |
@@ -444,6 +450,8 @@ These four live IDs will not acquire a Crossref journal DOI. They already have a
 | `gradisar-2016-pediatrics` | Gradisar et al. (2016), Pediatrics infant-sleep RCT | [https://doi.org/10.1542/peds.2015-1486](https://doi.org/10.1542/peds.2015-1486) | [infant-sleep-training](evidence-cards/infant-sleep-training.md) |
 | `bilgin-wolke-2020` | Bilgin & Wolke (2020), JCPP cry-it-out and attachment | [https://doi.org/10.1111/jcpp.13223](https://doi.org/10.1111/jcpp.13223) | [infant-sleep-training](evidence-cards/infant-sleep-training.md) |
 | `aslin-2007-look` | Aslin (2007), Developmental Science, What's in a look? | [https://doi.org/10.1111/j.1467-7687.2007.00563.x](https://doi.org/10.1111/j.1467-7687.2007.00563.x) | [looking-time-as-measurement](evidence-cards/looking-time-as-measurement.md) |
+| `haith-1998-cog` | Haith (1998), Who put the cog in infant cognition? | [https://doi.org/10.1016/s0163-6383(98)90001-7](https://doi.org/10.1016/s0163-6383(98)90001-7) | [looking-time-as-measurement](evidence-cards/looking-time-as-measurement.md) |
+| `manybabies-2020-variability` | ManyBabies Consortium / Frank et al. (2020), Quantifying sources of variability in infancy research | [https://doi.org/10.1177/2515245919900809](https://doi.org/10.1177/2515245919900809) | [looking-time-as-measurement](evidence-cards/looking-time-as-measurement.md) |
 | `colombo-2001-attention` | Colombo (2001), visual attention in infancy | [https://doi.org/10.1146/annurev.psych.52.1.337](https://doi.org/10.1146/annurev.psych.52.1.337) | [infant-attention-as-gatekeeper](evidence-cards/infant-attention-as-gatekeeper.md) |
 | `baillargeon-1987-object` | Baillargeon (1987), object permanence in 3.5- and 4.5-month-olds | [https://doi.org/10.1037/0012-1649.23.5.655](https://doi.org/10.1037/0012-1649.23.5.655) | [object-permanence-looking-vs-search](evidence-cards/object-permanence-looking-vs-search.md); [infant-physical-reasoning](evidence-cards/infant-physical-reasoning.md) |
 | `mundy-newell-2007-ja` | Mundy & Newell (2007), joint attention and social cognition | [https://doi.org/10.1111/j.1467-8721.2007.00518.x](https://doi.org/10.1111/j.1467-8721.2007.00518.x) | [joint-attention-shared-reference](evidence-cards/joint-attention-shared-reference.md) |

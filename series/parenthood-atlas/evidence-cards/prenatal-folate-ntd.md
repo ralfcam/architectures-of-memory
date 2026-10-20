@@ -11,7 +11,7 @@ atlas_domains: [pregnancy, nutrition]
 chapter_hooks: [evidence, boundary]
 sources:
   - id: deregil-2015-cochrane
-    resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC8783750/
+    resource: https://doi.org/10.1002/14651858.CD007950.pub3
     title: "De-Regil et al. (2015), Cochrane review of periconceptional folate"
   - id: mrc-ntd-1991
     resource: https://doi.org/10.1016/0140-6736(91)90133-A

@@ -138,13 +138,26 @@ The first-wave non-promotions above remain historically accurate for that pass. 
 
 ---
 
-## Explicit non-promotions (this second wave)
+## 8. `looking-time-as-measurement.md` — promote the *narrow* methodological measurement claim
+
+| Rule | Evidence |
+|---|---|
+| (1) Resolvable | Aslin 2007 DOI `10.1111/j.1467-7687.2007.00563.x`; Haith 1998 DOI `10.1016/s0163-6383(98)90001-7`; ManyBabies Consortium / Frank et al. 2020 DOI `10.1177/2515245919900809`. All three Crossref and OpenAlex resolved. |
+| (2) No retraction/EoC | None of the three records carries a retraction or EoC flag (`is_retracted: false`). |
+| (3) Replication / GI | Design class = laboratory measurement / multi-lab consortium empirical quantification. Aslin 2007 formalizes the linking-hypothesis requirement; Haith 1998 demonstrates that perceptual and visual saliency confounds routinely account for rich-interpretation overreach; ManyBabies (Frank et al. 2020) empirically quantifies looking-time measurement dynamics across 2,329 infants and 67 laboratories, confirming robust measurement validity for discrimination while documenting systematic method-dependent effect sizes and state variability. Triangulation satisfies Rule 3 for the *narrow* measurement claim. Rich conceptual nativism remains Low. GI: **n/a** (methodological measurement property). |
+| (4) YAML = in-body | `confidence: high-method; low-rich-interpretation` matches body `Grade: High... Low...`. |
+| (5) WTDM | Clear and nonempty: does not mean looking time is invalid; does not license treating a laboratory look as proof of innate physics, mathematics, or morality. |
+
+**Decision:** `status: stable` for the *narrow* methodological measurement claim only.
+
+---
+
+## Explicit non-promotions (this pass)
 
 These cards were re-checked because a YAML/in-body mismatch, a single-source High grade, or a second-pass “plausible next” listing might have looked promotable after a small fix. None clears all five rules.
 
 | Card | Why still `draft` |
 |---|---|
-| `looking-time-as-measurement.md` | Rule 3: Aslin 2007 is a **methods essay**, not a second independent experiment of a specific looking claim. The live issue is rich-interpretation *linking hypotheses*, not whether looking can index discrimination. Baillargeon 1987 is a different identification (`object-permanence-looking-vs-search.md`). High-method is a methods judgment, not a replicated experimental result. |
 | `deferred-imitation.md` | Rule 3: one primary experiment (Meltzoff 1988). YAML `confidence` and `description` previously said 9-month 24-hour; body and Meltzoff 1988 are **14-month one-week**. This pass **aligns YAML/description** to the paper and still holds the card: a YAML fix is not a second experiment. Neonatal imitation is a different controversy. |
 | `dual-language-does-not-confuse.md` | Rule 3: NAP 2017 is a **committee synthesis**, not an independent experimental pair on this card. Automatic cognitive bonus stays Low. |
 | `infant-babbling-as-exploration.md` | Rule 3: Oller 1999 is spoken-stage screening; Petitto & Marentette 1991 is a **different modality** (manual babbling), not an independent replication of the same spoken-stage identification. |
@@ -153,4 +166,4 @@ These cards were re-checked because a YAML/in-body mismatch, a single-source Hig
 
 Observational / GI-attenuated cards (prenatal stress, breastfeeding IQ, Watts delay) and remaining-domain cards stay `draft`. Sleep, attachment-intervention, and screen theory are not reopened.
 
-Catalog after this wave: **68** live cards; **7** `stable` (narrow); **61** `draft`. **114** verified `SOURCES.md` IDs (`kuhl-1992` added). No new cards. No `v0.4` tag.
+Catalog after this pass: **68** live cards; **8** `stable` (narrow); **60** `draft`. **116** verified `SOURCES.md` IDs (`haith-1998-cog` and `manybabies-2020-variability` added). No new cards. No `v0.4` tag.

@@ -8,7 +8,7 @@ The scene is ordinary. It is also easy to over-read.
 
 If the infant were empty, those traces would be noise waiting for the world to write on. If the infant were already a small adult, the same traces would be taken as proof of physics, mathematics, or morality. Neither reading fits what can be shown.
 
-**Grade: High** that looking-time methods can index discrimination and a change of attention (`looking-time-as-measurement.md`; Aslin 2007). **Grade: Low** that a look is a transparent window into a rich concept, belief, or theory. That *method* claim remains `draft`: Aslin 2007 is a methods essay, not a second independent experiment of a specific looking claim.
+**Grade: High** that looking-time methods can index discrimination and a change of attention (`looking-time-as-measurement.md`; Aslin 2007; Haith 1998; ManyBabies 2020). **Grade: Low** that a look is a transparent window into a rich concept, belief, or theory. That narrow *method* claim is `stable`: looking time is a valid, reproducible measurement instrument for perceptual discrimination and attention under specified laboratory controls, while rich nativist conceptual claims remain Low.
 
 This chapter asks a narrower question than “what does a baby know?” It asks what kind of learner an infant is, and what kinds of claims those traces can support.
 
@@ -166,7 +166,7 @@ Chapter 4 showed the relationship that takes up dependence. This chapter shows t
 
 ## Linked evidence cards
 
-- `evidence-cards/looking-time-as-measurement.md` (CH05-C01; remains `draft`)
+- `evidence-cards/looking-time-as-measurement.md` (CH05-C01; `stable` for the narrow methodological measurement claim)
 - `evidence-cards/infant-attention-as-gatekeeper.md` (CH05-C03)
 - `evidence-cards/object-permanence-looking-vs-search.md` (CH05-C06)
 - `evidence-cards/joint-attention-shared-reference.md` (CH05-C07 / CH07-C04)

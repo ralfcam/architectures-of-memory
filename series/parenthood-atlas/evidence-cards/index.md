@@ -1,6 +1,6 @@
 # Evidence Cards Index
 
-Sixty-eight evidence cards. **Seven** physiology/lab cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`, `infant-contingency-learning.md`, `infant-social-referencing.md`, `infant-still-face-paradigm.md`, `infant-perceptual-narrowing.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty-one remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
+Sixty-eight evidence cards. **Eight** physiology/lab/methods cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`, `infant-contingency-learning.md`, `infant-social-referencing.md`, `infant-still-face-paradigm.md`, `infant-perceptual-narrowing.md`, `looking-time-as-measurement.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
 
 # Evidence Cards
 
@@ -21,7 +21,7 @@ Sixty-eight evidence cards. **Seven** physiology/lab cards are `status: stable` 
 * [Infant–Caregiver Co-Regulation](infant-caregiver-coregulation.md) - Bidirectional, context-sensitive regulation; nurturing care is an ecology, not a purity test.
 * [Severe Institutional Deprivation](severe-institutional-deprivation.md) - BEIP: family placement after severe deprivation is not ordinary parenting.
 * [Infant Contingency Learning](infant-contingency-learning.md) - **`stable`** (narrow lab claim): mobile paradigm replicated across decades; Low for transfer.
-* [Looking Time as Measurement](looking-time-as-measurement.md) - A look indexes discrimination or attention; it is not a window into a rich concept. Held at `draft` (methods essay, not a second experiment).
+* [Looking Time as Measurement](looking-time-as-measurement.md) - **`stable`** (narrow method claim): Aslin 2007 / Haith 1998 / ManyBabies 2020; indexes perceptual discrimination and attention; Low for rich conceptual nativism.
 * [Infant Attention as a Gatekeeper](infant-attention-as-gatekeeper.md) - Attention is a family of processes, not a trait or a parenting score.
 * [Object Permanence Is Not a Single Staircase](object-permanence-looking-vs-search.md) - Looking-time sensitivity to occlusion is not the same as search, and not a finished object concept.
 * [Joint Attention as Shared Reference](joint-attention-shared-reference.md) - Shared attention is a construct, not a language guarantee.

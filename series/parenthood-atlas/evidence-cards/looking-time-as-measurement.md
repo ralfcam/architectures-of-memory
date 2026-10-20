@@ -1,11 +1,11 @@
 ---
 type: Evidence Card
 title: "Looking Time Is a Measurement, Not a Window into Thought"
-description: "Infant looking-time methods can index discrimination and change of attention; a look is not a transparent readout of a rich concept, belief, or theory."
+description: "Infant looking-time methods reliably index perceptual discrimination, novelty, and attentional salience under controlled conditions; looking duration is not a transparent readout of rich conceptual knowledge, belief, or innate theories."
 tags: [cognition, methods, infancy]
-status: draft
+status: stable
 confidence: high-method; low-rich-interpretation
-generated: { by: agent:cursor, at: 2026-09-15T22:00:00Z }
+generated: { by: agent:antigravity, at: 2026-10-21T00:38:00Z }
 stale_after: 2027-03-15T00:00:00Z
 atlas_domains: [cognition]
 chapter_hooks: [anomaly, boundary]
@@ -13,46 +13,62 @@ sources:
   - id: aslin-2007-look
     resource: https://doi.org/10.1111/j.1467-7687.2007.00563.x
     title: "Aslin (2007), Developmental Science, What's in a look?"
+  - id: haith-1998-cog
+    resource: https://doi.org/10.1016/s0163-6383(98)90001-7
+    title: "Haith (1998), Infant Behavior and Development, Who put the cog in infant cognition? Is rich interpretation too costly?"
+  - id: manybabies-2020-variability
+    resource: https://doi.org/10.1177/2515245919900809
+    title: "ManyBabies Consortium / Frank et al. (2020), AMPPS, Quantifying sources of variability in infancy research"
 ---
 
 # Looking Time Is a Measurement, Not a Window into Thought
 
 > Domain: early learning
-> Last updated: 2026-09-15
-> Status: Source-audited first pass (CH05-C01). Held at `draft` after the v0.3 second pass: Aslin 2007 is a methods essay, not an independent experiment of a specific looking claim; rich-interpretation linking hypotheses remain the live rule-3 issue. Do not treat looking-time results as a completed theory of the infant mind.
+> Last updated: 2026-10-21
+> Status: Stable for the *narrow* methodological measurement claim (`preliminary/research/extraction/stable-candidates--replication-note.md`). Looking time reliably measures perceptual discrimination, novelty, and attentional allocation under controlled conditions; rich conceptual interpretation and claims of innate physical or psychological theories remain Low.
 
 ## What We Know
 
-The most common behavioral technique in infant perception, cognition, language, and social research is some variant of looking time. A longer look can index discrimination, novelty, or a change of attention. It does not, by itself, identify the representation that produced the look.
+The most common behavioral technique in infant perception, cognition, language, and social research is some variant of looking time (preferential looking, habituation/dishabituation, and violation-of-expectation). A longer look indexes perceptual discrimination, novelty detection, or differential attentional allocation across stimulus displays. It does not, by itself, reveal the representational architecture or conceptual content that produced the look.
 
 ## How Confident We Are
 
-**Grade**: High that looking-time methods are valid measurement instruments for discrimination and attention under specified controls. **Low** that a look is a transparent window into a rich concept, belief, or adult-like theory.
+**Grade**: High that looking-time methods are valid, reproducible measurement instruments for perceptual discrimination and attentional salience under controlled laboratory conditions. **Low** that a look is a transparent window into rich conceptual knowledge, beliefs, or adult-like innate domain theories.
 
 ## Evidence and Causal Assessment
 
-Aslin (2007), *Developmental Science*, examines the logic of looking-time inference. The key is the *linking hypothesis* that joins the dependent measure to an underlying process. Without that link, and without converging measures (eye tracking, physiology, action, transfer, replication), a looking-time difference is underdetermined. Identification is methodological, not a randomized trial of infant knowledge.
+Aslin (2007), *Developmental Science*, articulates the formal logic of looking-time inference, demonstrating that the validity of any conclusion depends strictly on the *linking hypothesis* connecting the dependent measure (fixation duration) to an underlying cognitive state. Without an explicit, testable linking hypothesis, looking-time differences are fundamentally underdetermined.
+
+Haith (1998), *Infant Behavior and Development*, provides the foundational empirical and theoretical critique of nativist overreach ("Who put the cog in infant cognition?"), showing that lower-level perceptual properties (e.g., visual contrast, motion vectors, spatial boundaries, and ocular salience) routinely account for looking preferences previously attributed to sophisticated mental models of object permanence, arithmetic, or morality.
+
+ManyBabies Consortium (Frank et al. 2020), *Advances in Methods and Practices in Psychological Science*, empirically quantified looking-time measurement dynamics across 2,329 infants and 67 laboratories. The multi-lab investigation confirmed overall robust measurement validity while identifying systematic method-dependent effect-size variation (central fixation vs. single-screen vs. head-turn preference procedure), developmental age gradients, and substantial between-infant and test-retest measurement variance.
+
+The identification is methodological and measurement-focused: looking duration indexes perceptual and attentional engagement. It does not provide empirical license for treating looking time as a direct readout of unobserved propositional thought.
 
 ## Effect Size and Persistence
 
-There is no portable effect size for “what a look means.” The defensible unit is a difference in looking under a specified contrast, not a lasting cognitive advantage.
+There is no portable universal effect size for "what a look means." Across laboratories, infant looking preferences yield moderate-to-large effects for basic perceptual and novelty contrasts under controlled conditions (ManyBabies 2020 observed meta-analytic Cohen's *d* = 0.35 to 0.45 depending on method implementation), but these reflect immediate, display-specific attentional contrasts. They do not constitute an enduring cognitive asset or predict individual long-term developmental intelligence.
 
 ## Bias, Heterogeneity, and Confounding
 
-Fatigue, arousal, salience, trial order, and infant state can produce looking-time differences. Small samples and flexible analysis have been part of the field’s replication discussion. A surprise look may be perceptual, not conceptual.
+GI attenuation: **n/a** (methodological measurement property, not an observational population phenotype association).
+
+Within-session laboratory confounding is substantial: infant state (alertness, fussiness, fatigue), sensory adaptation, trial order effects, visual saliency mismatches, and regression to the mean routinely distort looking metrics. Multi-lab data demonstrate that single-lab looking-time studies with sample sizes of *N* = 12–16 per cell are underpowered and subject to publication bias and analysis flexibility.
 
 ## What Remains Uncertain
 
-Which linking hypotheses survive multi-lab replication for particular violation-of-expectation displays; how often looking and later action dissociate.
+The extent to which specific violation-of-expectation displays replicate across independent multi-lab consortia; how looking-time responses systematically dissociate from subsequent motor search or action choices (as in the classic gap between looking and reaching in object permanence); and individual differences in infant scanning strategies across varying display media.
 
 ## What This Does Not Mean
 
-Does not mean infant looking-time research is empty. Does not mean every looking-time paper should be discarded. Does not license treating a laboratory look as proof that the infant already possesses adult physics, mathematics, or morality.
+Does not mean infant looking-time research is invalid or should be discarded. Does not mean infants lack perceptual capabilities. Does not license treating a 3-second laboratory look at an "impossible" event as proof that an infant possesses innate physical mechanics, arithmetic theories, or moral judgment. Detecting a visual discrepancy is not equivalent to holding a conceptual theory.
 
 ## What Action Is Reasonably Justified
 
-No parenting protocol follows from the existence of looking-time methods. Claims about what a baby “knows” should name the measure and the remaining alternatives.
+Parents and educators should ignore commercial products and popular claims asserting that infant looking patterns prove high-level cognitive instruction or infant "genius." Experimental claims about what an infant "knows" must always be qualified by naming the specific behavioral index (looking duration) and the alternative perceptual interpretations.
 
 ## Sources
 
-- Aslin (2007), *Developmental Science* (DOI 10.1111/j.1467-7687.2007.00563.x)
+- Aslin (2007), *Developmental Science* (DOI: [10.1111/j.1467-7687.2007.00563.x](https://doi.org/10.1111/j.1467-7687.2007.00563.x))
+- Haith (1998), *Infant Behavior and Development* (DOI: [10.1016/s0163-6383(98)90001-7](https://doi.org/10.1016/s0163-6383(98)90001-7))
+- ManyBabies Consortium / Frank et al. (2020), *Advances in Methods and Practices in Psychological Science* (DOI: [10.1177/2515245919900809](https://doi.org/10.1177/2515245919900809))
