@@ -137,14 +137,18 @@ def main() -> int:
             "  target_chapter_words: [1500, 3500]\n"
             "monetization:\n"
             "  kdp:\n"
+            '    role: "initial-release-channel-and-expansion-blueprint"\n'
+            '    expansion_channels: ["ingramspark", "apple-books", "kobo", "direct-storefront"]\n'
             '    trim_size: "6x9"\n'
             "    inside_gutter_mm: 20.0\n"
             "    outside_margin_mm: 15.0\n"
             "    top_bottom_margin_mm: 18.0\n"
             '    formats: ["paperback-pdf", "hardcover-pdf", "kindle-epub", "audiobook-wav"]\n'
-            "  patreon:\n"
+            "  owned_marketing_site:\n"
+            '    blueprint: "patreon-serial-membership-model"\n'
+            '    role: "internally-developed-marketing-and-serial-portal"\n'
             "    tiers:\n"
-            '      - "Public Evidence Briefs"\n'
+            '      - "Public Evidence Briefs & Interactive OKF Explorer (top-of-funnel marketing)"\n'
             '      - "Chapter Preprints & Audio"\n'
             '      - "Reader Edition Slices"\n'
             "books:\n"

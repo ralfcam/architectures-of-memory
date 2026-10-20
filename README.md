@@ -2,7 +2,7 @@
 
 **Realized Press** (`https://github.com/ralfcam/realized-press`) is a dual-engine publishing studio and **Book Writing Environment (BWE)** built on the principles of the **Software Development Lifecycle (SDLC)** and modern **IDEs**:
 
-1. **Multi-Channel Book & Serial Monetization:** Compiles verified manuscripts directly into **Amazon KDP** assets (**6"×9" Print-on-Demand PDF** with mirrored gutter margins, **Kindle EPUB 3**, and **Gemini TTS Audiobook**) alongside **Patreon** serial membership releases (**Public Evidence Briefs**, **Chapter Preprints**, and **Reader Edition 0.1 PDF+HTML**).
+1. **Book Monetization & Owned Marketing Engine:** Compiles verified manuscripts directly into **Amazon KDP** assets (**6"×9" Print-on-Demand PDF** with mirrored gutter margins, **Kindle EPUB 3**, and **Gemini TTS Audiobook** — serving as the initial release channel and blueprint for multi-retailer expansion) alongside an **internally developed Marketing & Serial-Membership Web Site** modeled on Patreon (**Public Evidence Briefs**, **Interactive OKF Explorer**, **Chapter Preprints**, and **Reader Edition 0.1 PDF+HTML**).
 2. **The Book Writing Environment (BWE):** An agentic authoring, verification, and publishing software harness governed by **Open Knowledge Format (OKF v0.2)** (an epistemic type system and unit-test suite for prose), a **5-step MCP Tool Routing Protocol**, real-time style/continuity linting, and CI release gates.
 3. **Plug-and-Play Multi-Series Extensibility:** Declarative `series/<series-slug>/series.yaml` manifests and automated scaffolding (`scripts/init_series.py`) allow new book series and volumes to be added in seconds without changing the core harness.
 

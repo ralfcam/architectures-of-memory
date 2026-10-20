@@ -1,6 +1,6 @@
 # Agent Guide — Realized Press (`ralfcam/realized-press`: Book Writing Environment & Multi-Series Imprint)
 
-This repository (**Realized Press**, `https://github.com/ralfcam/realized-press`) is both a **multi-series nonfiction publishing imprint** (targeting **Amazon KDP** and **Patreon**) and a **Book Writing Environment (BWE)** software harness governed by **Open Knowledge Format (OKF v0.2)**, a **5-step Definitive Tool Routing Protocol**, **Linear (`ARC`)** project tracking, and a **Multi-Format Publishing Pipeline (Markdown, Reader Edition PDF+HTML, KDP 6"×9" Print PDF, Kindle EPUB 3, and Gemini TTS Audiobook)**. See [VISION.md](VISION.md), [README.md](README.md), and [REPO_DIGEST.md](REPO_DIGEST.md).
+This repository (**Realized Press**, `https://github.com/ralfcam/realized-press`) is both a **multi-series nonfiction publishing imprint** (launching initially via **Amazon KDP** as an expansion blueprint and marketed/serialized via an **internally developed Patreon-style marketing & membership site**) and a **Book Writing Environment (BWE)** software harness governed by **Open Knowledge Format (OKF v0.2)**, a **5-step Definitive Tool Routing Protocol**, **Linear (`ARC`)** project tracking, and a **Multi-Format Publishing Pipeline (Markdown, Reader Edition PDF+HTML, KDP 6"×9" Print PDF, Kindle EPUB 3, and Gemini TTS Audiobook)**. See [VISION.md](VISION.md), [README.md](README.md), and [REPO_DIGEST.md](REPO_DIGEST.md).
 
 ## 1. Symmetric Multi-Series File Map
 
