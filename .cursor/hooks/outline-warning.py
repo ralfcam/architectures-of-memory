@@ -1,4 +1,4 @@
-"""Cursor afterFileEdit hook: remind about structure workflow when outline.md changes."""
+"""Cursor afterFileEdit hook: remind about structure workflow when outline.md or _OUTLINE.md changes."""
 from __future__ import annotations
 
 import json
@@ -7,10 +7,7 @@ from pathlib import Path
 
 
 def _is_book_outline(path: Path) -> bool:
-    parts = path.parts
-    if path.name != "outline.md":
-        return False
-    return any(p.startswith("book-") for p in parts)
+    return path.name.lower() in ("outline.md", "_outline.md")
 
 
 def main() -> None:
@@ -32,7 +29,7 @@ def main() -> None:
 
     msg = (
         "Outline edited — consider opening a Linear issue with the `structure` label "
-        "and updating cross-references in `chapters/` and `research/notes/` if chapter "
+        "and updating cross-references in `chapters/`, `evidence-cards/`, and `research/notes/` if chapter "
         "numbering or titles changed."
     )
     print(msg, file=sys.stderr)

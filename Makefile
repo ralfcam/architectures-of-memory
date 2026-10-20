@@ -44,6 +44,8 @@ five-rule-all:
 	$(PYTHON) scripts/five_rule_check.py series/architectures-of-memory/book-01-vanishing-signal --summary-only
 	$(PYTHON) scripts/five_rule_check.py series/architectures-of-memory/book-02-forget-gate --summary-only
 	$(PYTHON) scripts/five_rule_check.py series/architectures-of-memory/book-03-weight-of-attention --summary-only
+	$(PYTHON) scripts/five_rule_check.py series/architectures-of-memory/book-04-context-window --summary-only
+	$(PYTHON) scripts/five_rule_check.py series/architectures-of-memory/book-05-architecture-of-forgetting --summary-only
 	$(PYTHON) scripts/five_rule_check.py series/parenthood-atlas --summary-only
 
 pdf:

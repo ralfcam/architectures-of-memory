@@ -1,9 +1,0 @@
-# Series voice (Architectures of Memory)
-
-Full reference: [series-bible.md](../../series-bible.md).
-
-- **Tone:** Analytic, historically grounded; name people, papers, dates. No triumphalism.
-- **Three lenses:** **Technical** (mechanism) → **organizational** (institutions, GRC) → **philosophical** (persons, concepts). Rotate per chapter outline.
-- **Metaphors (one per section):** gradient as **debt**; gate as **judgment**; attention as **valuation**; context as **horizon**; forgetting as **design**.
-- **Glossary touchstones:** vanishing gradient; RNN; LSTM / CEC; attention; Transformer; context window; parametric memory; RAG; machine unlearning; right to be forgotten.
-- **Spine:** Book 1 = proof of failure; Book 2 = selective forgetting; Book 3 = retrieval vs memory; Book 4 = scale / opacity; Book 5 = governance and ethics of forgetting. Hochreiter 1991 thesis bookends Books 1 and 5.

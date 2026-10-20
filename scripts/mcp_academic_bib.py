@@ -283,7 +283,14 @@ def tool_add_bibtex_entry(args: dict[str, Any]) -> dict[str, Any]:
         raise ValueError("Invalid BibTeX entry: could not parse citation key.")
     cite_key = m.group(1)
 
-    bib_path = (repo_root() / book / "research" / "sources.bib").resolve()
+    root = repo_root()
+    candidates = [
+        root / book / "research" / "sources.bib",
+        root / "series" / "architectures-of-memory" / book / "research" / "sources.bib",
+        root / book / "sources.bib",
+        root / "series" / book / "sources.bib",
+    ]
+    bib_path = next((c.resolve() for c in candidates if c.parent.is_dir()), candidates[0].resolve())
     if not bib_path.parent.is_dir():
         raise ValueError(f"Directory does not exist: {bib_path.parent}")
 

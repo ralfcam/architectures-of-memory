@@ -47,17 +47,17 @@ jobs:
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
               fh.write(f"name={name}\n")
           PY
-      - name: Run mechanical five-rule check
+      - name: Run mechanical five-rule check across series
         id: check
         if: steps.card.outputs.name != ''
         env:
           CARD_NAME: ${{ steps.card.outputs.name }}
         run: |
-          path="evidence-cards/${CARD_NAME}"
-          if [ -f "$path" ]; then
-            python3 scripts/five_rule_check.py "$path" | tee /tmp/five-rule.txt
+          match=$(find series -path "*/evidence-cards/${CARD_NAME}" -print -quit)
+          if [ -n "$match" ] && [ -f "$match" ]; then
+            python3 scripts/five_rule_check.py "$match" --online-retraction-check | tee /tmp/five-rule.txt
           else
-            echo "Card file not found: $path" | tee /tmp/five-rule.txt
+            echo "Card file not found under series/**/evidence-cards/: ${CARD_NAME}" | tee /tmp/five-rule.txt
           fi
       - name: Comment (read-only; no promotion)
         uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
@@ -75,7 +75,6 @@ jobs:
               '## Five-rule checklist (read-only)',
               '',
               'Automation **does not** set `status: stable` and **does not** open or merge a PR.',
-              'Playbook: `preliminary/research/extraction/issue-to-patch--playbook.md`.',
               '',
               card ? `Card named in issue: \`${card}\`` : 'Card filename invalid or missing.',
               '',
@@ -83,14 +82,14 @@ jobs:
               check,
               '```',
               '',
-              '| Rule | Human still needed |',
+              '| Rule | Verification Scope |',
               '|---|---|',
-              '| (1) Resolvable sources | Confirm Crossref/PubMed IDs, not only URL strings |',
-              '| (2) No retraction/EoC | Crossref `update-to`; PubMed publication types |',
-              '| (3) Replication of the *narrow* claim | A second ID is not evidence of independence; classify the lab, conceptual replication, or procedure meta |',
-              '| Design class / GI attenuation | State design and one of: largely confounded (>50%), partially confounded (20–50%), robust (<20%), n/a, not classified |',
-              '| (4) YAML = in-body grades | Script tokens only |',
-              '| (5) WTDM matches identification | Script checks nonempty section only |',
+              '| (1) Resolvable sources | Verified against `SOURCES.md` and `sources.bib` |',
+              '| (2) No retraction/EoC | Automated via Crossref `update-to` & OpenAlex `is_retracted` |',
+              '| (3) Replication of the *narrow* claim | Human classification of independent/conceptual replication |',
+              '| Design class / GI attenuation | State design and attenuation class (`>50%`, `20–50%`, `<20%`, `n/a`) |',
+              '| (4) YAML = in-body grades | Script verifies exact grade token parity |',
+              '| (5) Substantive WTDM | Script verifies nonempty `## What This Does Not Mean` (>40 chars) |',
               '',
               'If any row fails, comment with the missing evidence. Do not promote.'
             ].join('\n');

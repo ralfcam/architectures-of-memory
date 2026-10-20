@@ -11,7 +11,7 @@ series_domains: [organizational, technical]
 chapter_hooks: [anomaly, mechanism, boundary]
 sources:
   - id: Tan2023
-    resource: https://doi.org/10.48550/arXiv.2206.05663
+    resource: https://doi.org/10.1007/s10664-023-10397-6
     title: "Tan, Wagner, and Treude (2023), Detecting Outdated Code Element References in Software Repository Documentation"
   - id: Holtzblatt2010
     resource: https://doi.org/10.1145/1753846.1754208
@@ -60,5 +60,5 @@ Engineering teams should couple critical operational invariants to automated CI 
 
 ## Sources
 
-- Tan, W. S., Wagner, M., & Treude, C. (2023). Detecting Outdated Code Element References in Software Repository Documentation. *Empirical Software Engineering*, 29(1). https://doi.org/10.48550/arXiv.2206.05663
+- Tan, W. S., Wagner, M., & Treude, C. (2023). Detecting Outdated Code Element References in Software Repository Documentation. *Empirical Software Engineering*, 29(1). https://doi.org/10.1007/s10664-023-10397-6
 - Holtzblatt, L. J., Damianos, L. E., & Weiss, D. (2010). Factors impeding Wiki use in the enterprise: a case study. *CHI '10 Extended Abstracts on Human Factors in Computing Systems*, 4661–4676. https://doi.org/10.1145/1753846.1754208
