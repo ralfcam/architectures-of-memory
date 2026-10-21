@@ -6,7 +6,7 @@
 
 ## A theorem dressed as a training failure
 
-**Yoshua Bengio**, **Patrice Simard**, and **Paolo Frasconi** published “Learning Long-Term Dependencies with Gradient Descent is Difficult” in the *IEEE Transactions on Neural Networks*, March **1994**, **5**(2), **157**–**166** (DOI 10.1109/72.279181, PMID 18267787).[^bengio1994] The paper is *not* a story about bad luck with hyperparameters. It formalises a **structural** tension: with standard recurrent training, gradients through long *time* depth tend to **vanish** or **explode**; the conditions that help a recurrent dynamic *retain* information and the conditions that make gradient-based **credit assignment** across the same depth *tractable* stand in the *tension* the paper makes precise (read the theorem, not this gloss). The work circulated earlier as a Université de Montréal technical report; the **citable** anchor is the **1994** journal paper.[^tr-note]
+**Yoshua Bengio**, **Patrice Simard**, and **Paolo Frasconi** published “Learning Long-Term Dependencies with Gradient Descent is Difficult” in the *IEEE Transactions on Neural Networks*, March **1994**, **5**(2), **157**–**166** (DOI 10.1109/72.279181, PMID 18267787).[^ch16-bengio1994] The paper is *not* a story about bad luck with hyperparameters. It formalises a **structural** tension: with standard recurrent training, gradients through long *time* depth tend to **vanish** or **explode**; the conditions that help a recurrent dynamic *retain* information and the conditions that make gradient-based **credit assignment** across the same depth *tractable* stand in the *tension* the paper makes precise (read the theorem, not this gloss). The work circulated earlier as a Université de Montréal technical report; the **citable** anchor is the **1994** journal paper.[^tr-note]
 
 **Metaphor (this section):** a **fence**—a *bounded* question: what naive BPTT could not honestly *promise* under the paper’s assumptions.
 
@@ -46,7 +46,7 @@ Ideas have their own **duration**: a 1997 paper can *wait* while **GPUs**, **dat
 
 ## Notes
 
-[^bengio1994]: Y. Bengio, P. Simard, and P. Frasconi, “Learning Long-Term Dependencies with Gradient Descent is Difficult,” *IEEE Trans. Neural Netw.* **5** (2) (Mar. 1994): 157–166, DOI 10.1109/72.279181, PMID 18267787. research/fact-checks/ch16.md (ARC-36).
+[^ch16-bengio1994]: Y. Bengio, P. Simard, and P. Frasconi, “Learning Long-Term Dependencies with Gradient Descent is Difficult,” *IEEE Trans. Neural Netw.* **5** (2) (Mar. 1994): 157–166, DOI 10.1109/72.279181, PMID 18267787. research/fact-checks/ch16.md (ARC-36).
 
 [^tr-note]: 1993 Montréal technical report predates the journal *publication*; canonical reference is 1994 *IEEE* *TNN*. ARC-36.
 

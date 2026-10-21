@@ -20,7 +20,7 @@ On **15 June 1991**, **Sepp Hochreiter** submitted a diploma thesis—*Diplomarb
 
 **Chapter 2** of the thesis, especially the material around **pp. 19–21** in the scan quoted by the 1997 LSTM paper, is where the **unfolding-in-time** analysis lives: you see the *same* layer copied across time, you write the *same* backprop *product* as in a deep *feedforward* net, and you *prove* a statement your eyes already suspected: **debt** can die on the *way* back. That is the **gradient vanishing (or explosion) problem** in *embryo* for recurrent nets trained by standard methods.
 
-**Independence, not plagiarism.** The Montréal group’s journal paper of **Yoshua Bengio**, **Patrice Simard**, and **Paolo Frasconi (1994)** *does* **not** cite the 1991 German thesis. The results **converge**—two labs, two languages, one obstacle—rather than a neat chain of footnotes. By **1997** the *LSTM* paper **does** **cite** **Bengio** et al., knitting the story together *after* the fact. The moral is *not* “someone was scooped” but “the phenomenon was *real* enough to *find* *twice* before Twitter could remind you to read a Diplom.”[^independence]
+**Independence, not plagiarism.** The Montréal group’s journal paper of **Yoshua Bengio**, **Patrice Simard**, and **Paolo Frasconi (1994)** *does* **not** cite the 1991 German thesis. The results **converge**—two labs, two languages, one obstacle—rather than a neat chain of footnotes. By **1997** the *LSTM* paper **does** **cite** **Bengio** et al., knitting the story together *after* the fact. The moral is *not* “someone was scooped” but “the phenomenon was *real* enough to *find* *twice* before Twitter could remind you to read a Diplom.”[^ch07-independence]
 
 ---
 
@@ -58,6 +58,6 @@ A student *proved* that the dominant training recipe of his moment could misfire
 
 [^residual-claim]: J. Schmidhuber, *Who Invented Deep Residual Learning?* arXiv:2509.24732 (2025)—**interpretive** priority; contrast community attribution: K. He *et al.*, ResNets, 2015; R. K. Srivastava *et al.*, Highway Networks, 2015. research/fact-checks/ch07.md.
 
-[^independence]: Y. Bengio, P. Simard, and P. Frasconi (1994) does not cite Hochreiter (1991). S. Hochreiter and J. Schmidhuber (1997) does cite Bengio *et al.* (1994). research/fact-checks/ch07.md.
+[^ch07-independence]: Y. Bengio, P. Simard, and P. Frasconi (1994) does not cite Hochreiter (1991). S. Hochreiter and J. Schmidhuber (1997) does cite Bengio *et al.* (1994). research/fact-checks/ch07.md.
 
 [^availability]: On **pre-1997** “**public** web” availability, no confirmed first-upload date; **IDSIA** PDF date unverified. English synthesis: 2001 Field Guide chapter (see research notes ch07, fact-check ch07).
