@@ -6,11 +6,14 @@
 *.env
 .env.*
 
-# Generated binary audio files
+# Generated binary audio and publishing staging files
 *.wav
 *.mp3
 **/audiobook/*.wav
 **/audiobook/*.mp3
+site/*.pdf
+site/*.wav
+site/*.mp3
 
 # Python bytecode & transient hook state
 __pycache__/
