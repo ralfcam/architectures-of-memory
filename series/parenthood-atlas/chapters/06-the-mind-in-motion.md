@@ -6,7 +6,7 @@ The scene is ordinary. It is also strange.
 
 If the infant were only a bundle of reflexes, the second kick should not become more organized because the first one moved the world. If the infant were already a small scientist, the same scene would be taken as proof of hypothesis testing. Neither reading fits what can be shown.
 
-**Grade: High** that, under these controlled conditions, a young infant can learn that a self-generated action predicts a sensory consequence. **Grade: Low** that this is adult-like causal theory, lasting cognitive advantage, or a mandate for stimulation. The evidence card is `infant-contingency-learning.md` (Rovee & Rovee 1969; later methods and reviews). That *laboratory* claim is `status: stable`.
+Under controlled laboratory conditions, young infants learn that a self-generated motor action predicts an immediate sensory consequence.[^ch06-contingency-learning] Yet demonstrating operant contingency is neither proof of an adult-like causal theory nor evidence that commercial sensory stimulation produces lasting cognitive acceleration.
 
 This chapter asks a narrower question than “do babies learn?” It asks what kind of learner an acting infant is, and what kinds of claims that activity can support.
 
@@ -60,7 +60,7 @@ That is a small conceptual step and an important developmental one.
 
 Contingency is not the same thing as conscious agency. A behavior can become organized around an action–outcome relation long before a child can explain what happened. The 2025 review of this literature still treats “does the infant demonstrate agency?” as an open question, not as a solved metaphysics.
 
-**Grade: High** for acquisition and, under matching conditions, retention of the mobile contingency. Speed of learning and length of retention typically increase with age; a reminder can reactivate a forgotten response. **Grade: Low** for broad transfer and for treating a weak test session as proof that nothing was learned. Performance depends on motor capacity, arousal, and the chance to express the response. A quiet test can be a retrieval problem.
+Acquisition and retention of mobile contingencies are robustly demonstrated when test cues closely match original training conditions.[^ch06-mobile-retention] Learning speed and retention intervals increase with age, and brief reminder cues can reactivate an apparently extinguished motor response, demonstrating that apparent forgetting is frequently a retrieval failure rather than an erased memory trace.
 
 The memory that supports this learning is specific. Encoding, retention, and retrieval can come apart. A learned relation may fail to appear because the test does not match the original training world. That is a fact about memory, not a verdict on the child’s intelligence.
 
@@ -74,7 +74,7 @@ Reaching alters visual access. Grasping turns an object into something that can 
 
 Development here emerges from interactions among neural maturation, body structure, posture, motor skill, task demands, environmental conditions, and social context. The classic A-not-B search error is useful as an illustration, not as a diagnosis of a missing concept. Performance on that task reflects memory, perception, posture, motor history, and the way the adult sets the problem, rather than a single cognitive capacity turning on.
 
-**Grade: Moderate** for this embodied coupling as a research framework (dynamic-systems accounts of perception–action). **Grade: Low** that earlier sitting, crawling, or walking generally causes superior later cognition, or that motor timing is an index of parental quality. The evidence card is `embodied-perception-action.md` (Adolph & Hoch 2019).
+Embodied perception–action couplings demonstrate that infant motor exploration continuously generates the perceptual inputs that drive cognitive development.[^ch06-embodied-action] Yet achieving motor milestones earlier does not cause superior long-term intellectual ability, and infant motor timing is never a metric of parental competence.
 
 The infant does not need to be hurried through milestones. A milestone is not a score.
 
@@ -92,7 +92,7 @@ The loop is:
 
 **experience → encoding → expectation → mismatch or confirmation → action → new experience**
 
-**Grade: Moderate** that violation of expectation can reorganize looking and exploration in specified tasks. **Grade: Low** that surprise guarantees a lasting knowledge update, or that a looking-time difference is already an explanation. The evidence cards are `exploration-as-sampling.md` (Stahl & Feigenson 2015) and `infant-physical-reasoning.md` (Baillargeon 1987; Stahl 2015).
+Violations of physical expectation systematically reorganize infant looking time and subsequent tactile exploration in tightly controlled tasks.[^ch06-surprise-sampling] A surprise-induced shift in attention demonstrates active perceptual sampling, though it does not guarantee a permanent conceptual revision or substitute for direct physical experience.
 
 ## From regularity to cause
 
@@ -108,7 +108,7 @@ A useful sequence, which should not be collapsed into one word, is:
 
 Observation reveals patterns. Intervention changes the evidence. Through action, infants can learn that some outcomes depend on what they do. That is not yet mature causal reasoning. It is a foundation on which later explanation can be built.
 
-**Grade: Moderate** for a developmental progression from regularity and contingency toward more differentiated causal expectations in the second year, under tightly designed tasks. **Grade: Low** that looking or reaching in those tasks is already an articulate “why.”
+A developmental progression unfolds across the first two years from detecting simple sensory regularities toward forming differentiated causal expectations.[^ch06-causal-progression] Yet visual discrimination or manual reaching in laboratory tasks does not indicate that a toddler possesses an articulate, explanatory causal framework.
 
 The mobile sits on step three. It should not be asked to do the work of step five.
 
@@ -118,7 +118,7 @@ The learning environment is social before it is instructional.
 
 Infants encounter faces, voices, gestures, emotional expressions, demonstrations, and shared attention long before formal teaching. Social partners influence what becomes salient, what receives attention, what is imitated, and what is remembered.
 
-Imitation is not simple copying. Infants often attend to goals, constraints, and context. They do not necessarily reproduce every observed action. Neonatal imitation is a live controversy and is not the load-bearing claim of this chapter. Later-infancy and toddler imitation as a route of cultural learning is a different, stronger claim, and still not a claim that the child is a finished pupil. The evidence card is `deferred-imitation.md` (Meltzoff 1988): **Grade: High** for 14-month imitation after a one-week delay; **Grade: Low** that neonatal imitation or a home imitation curriculum follows.
+Imitation is not simple mechanical copying. Infants attend to observed goals, bodily constraints, and situational context, reproducing intentional actions while filtering incidental movements.[^ch06-deferred-imitation] Fourteen-month-old toddlers reliably demonstrate deferred imitation of novel actions even after a one-week delay, establishing imitation as a primary channel of cultural transmission without requiring a contrived parental training curriculum.
 
 Social learning allows information to accumulate across people. It transforms individual discovery into a shared world. It also means that “the environment” is never only objects. It is people who retrieve the spoon, who look where the infant looks, who refuse to turn every drop into a lesson.
 
@@ -132,7 +132,7 @@ As learning accumulates, behavior can become more coordinated. The child begins 
 
 These are early foundations of cognitive control. They remain fragile and context-dependent during infancy. Development is not the sudden appearance of a completed ability. It is increasing coordination among systems that already exist in partial form.
 
-**Grade: Moderate** that repeated learning processes contribute to more coordinated control over the infant-to-toddler span. **Grade: Low** that an infant’s score on a single laboratory task forecasts later character or school success. Infant task performance is unstable. Stronger stabilization appears later.
+Repeated learning and motor practice gradually build coordinated cognitive control across the transition from infancy to toddlerhood.[^ch06-fragile-control] Yet infant performance on single laboratory tasks remains highly unstable, providing no reliable forecast of lifelong executive function, academic success, or character.
 
 The marshmallow-test literature belongs to a later chapter and already has a card: the original predictor story was mostly confounded. This chapter does not borrow that forecast language in advance.
 
@@ -168,7 +168,7 @@ It does not tell us that a laboratory contingency is an intervention program. Co
 
 ## Science, Interpretation, Art
 
-**Science** here is the High-grade laboratory fact that infants can learn action–outcome relations (`infant-contingency-learning.md`; `status: stable` for that narrow claim); the Moderate claims that embodiment, surprise-driven exploration, and physical-reasoning tasks reorganize looking and action (`embodied-perception-action.md`, `exploration-as-sampling.md`, `infant-physical-reasoning.md`); High-grade deferred imitation at 14 months after a week (`deferred-imitation.md`, `status: stable` for that narrow lab recall claim); and the Low status of transfer, adult-like cause, milestone ranking, and lifelong forecast.
+**Science** here is the High-grade laboratory demonstration that infants learn action–outcome relations; the Moderate evidence that embodiment, surprise-driven exploration, and physical-reasoning tasks reorganize looking and motor action; the High-grade finding of deferred imitation at 14 months after a one-week delay; and the Low certainty for long-distance transfer, milestone timing as an intellectual index, or infant laboratory scores forecasting adult character.
 
 **Interpretation** is the habit of keeping those facts from becoming a story about the kind of person the child will be, or the kind of teacher the parent must become. It is also the habit of matching verbs to grades: *shows* where the grade is High, *suggests* where it is Moderate, *is associated with* where it is Low.
 
@@ -183,6 +183,16 @@ The mind in motion is not a camera. It is not a classroom. It is a succession of
 Chapter 5 showed a mind becoming organized. This chapter shows that organized mind becoming a participant. The child does not wait for knowledge to be delivered. The child acts, the world answers, and the answer changes what the child does next.
 
 Words will soon start to do some of that work. That is the next territory. It is not a verdict on the kicks that came before.
+
+## Notes
+
+[^ch06-contingency-learning]: **Grade: High** that young infants acquire and retain mobile contingencies under controlled conditions (Rovee & Rovee 1969); **Grade: Low** for broad transfer or lasting general cognitive acceleration. Evidence Card: `evidence-cards/infant-contingency-learning.md`.
+[^ch06-mobile-retention]: **Grade: High** that retention intervals lengthen with age and reactivate via brief reminder cues; **Grade: Low** that absence of response indicates complete memory loss.
+[^ch06-embodied-action]: **Grade: Moderate** for perception-action coupling frameworks in motor-cognitive development (Adolph & Hoch 2019); **Grade: Low** that motor milestone timing predicts lifelong intelligence. Evidence Card: `evidence-cards/embodied-perception-action.md`.
+[^ch06-surprise-sampling]: **Grade: Moderate** that physical expectation violations modulate visual attention and manual exploration (Stahl & Feigenson 2015; Baillargeon 1987); **Grade: Low** that brief surprise guarantees permanent conceptual updates. Evidence Cards: `evidence-cards/exploration-as-sampling.md`, `evidence-cards/infant-physical-reasoning.md`.
+[^ch06-causal-progression]: **Grade: Moderate** for developmental progression from regularity detection to differentiated causal expectations in the second year; **Grade: Low** for inferring verbal-like causal explanation from gaze.
+[^ch06-deferred-imitation]: **Grade: High** for deferred imitation of novel actions in 14-month infants after a 1-week delay (Meltzoff 1988); **Grade: Low** for contested neonatal imitation or formal home imitation drilling. Evidence Card: `evidence-cards/deferred-imitation.md`.
+[^ch06-fragile-control]: **Grade: Moderate** that repeated practice supports developing cognitive control; **Grade: Low** that infant task scores forecast later executive function or school outcomes.
 
 ## Linked evidence cards
 
