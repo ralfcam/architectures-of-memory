@@ -9,30 +9,23 @@ Entry types:
 - `Retracted` - claims withdrawn or downgraded due to failed replication or new genetically informed evidence
 - `Structure` - changes to templates, methodology, or repository organization
 
-## [1.0.0] - 2026-10-21
+## [v1.0-rc1] - 2026-10-21
 
-### Added
-- **Public Evidence Briefs Generator (`scripts/render_evidence_briefs.py`, `make briefs`):**
-  - Compiles all 12 verified `status: stable` cards into deterministic standalone 2-page print PDFs and responsive HTML briefs with verified DOIs.
-  - Builds compiled 13-page Evidence Briefs Compendium (`parenthood-atlas-evidence-briefs-compendium.pdf`) and interactive `index.html` catalog.
-  - Mirrored to `series/parenthood-atlas/publishing/evidence-briefs/` and `preliminary/publishing/evidence-briefs/`. Closes `ARC-59`.
-- **Multi-Format Commercial Publishing Release:**
-  - Amazon KDP 6"×9" trade paperback print interior PDF (`parenthood-atlas-kdp-6x9.pdf`, 139 pages) with mirrored gutter margins (20mm inside / 15mm outside).
-  - Kindle EPUB 3 reflowable eBook archive (`parenthood-atlas-kdp.epub`, 116 KB).
-  - Patreon / private circulation A4 Reader Edition PDF (`parenthood-atlas-reader-edition.pdf`, 94 pages) and standalone HTML.
-  - Gemini TTS Audiobook Transcript (`parenthood-atlas-audiobook.md`, 41,118 words, 93 chunks, 4.57 hours estimated runtime with Voice Kore). Closes `ARC-61`.
+### Commercial Publishing Pipeline & Release Candidate
+- **Publishing Harness & Build Artifacts:**
+  - Compiled Amazon KDP 6"×9" trade paperback print interior PDF (`parenthood-atlas-kdp-6x9.pdf`, 139 pages).
+  - Generated Kindle EPUB 3 reflowable eBook archive (`parenthood-atlas-kdp.epub`, 116 KB).
+  - Rendered Patreon / private circulation A4 Reader Edition PDF (`parenthood-atlas-reader-edition.pdf`, 94 pages) and standalone HTML.
+  - Generated Gemini TTS Audiobook Transcript (`parenthood-atlas-audiobook.md`, 40,654 words, 93 chunks, ~4.5 hours estimated runtime).
+  - Built internal Evidence Briefs Compendium (`parenthood-atlas-evidence-briefs-compendium.pdf`, 10 pages across 9 stable cards).
+- **v1.0 Human & Verification Release Gates (Active in Linear Milestone `v1.0`):**
+  - Reader Edition circulation and triage (`ARC-53`): awaiting authentic physical proofs and reader feedback.
+  - Audio files generation: synthesized mp3 chapters using Gemini Voice Kore.
+  - Preprint deposit: PsyArXiv / OSF deposit packet preparation.
+  - KDP Print cover: wrap cover formatting, spine width calculation, and Amazon KDP Print Previewer inspection.
+  - EPUB verification: `epubcheck` validation.
 
-### Revised
-- **Chapter 02 Prose & Word-Count Calibration (`chapters/02-first-environment.md`):**
-  - Expanded from 2,358 to 2,815 words, bringing 100% of the 15 chapters into the Appendix B target range (2,500–3,800 words; manuscript total 41,342 words).
-  - Deepened DeCasper & Spence (1986) / Partanen et al. (2013) acoustic filter physics (low-pass filtering of intonational envelope vs high-frequency formants) and neonatal MMN electrophysiology.
-  - Expanded Burton & Fowden (2015) syncytiotrophoblast active transport (12–14 m² microvillous exchange surface, GLUT1, amino acid pumping) and 11β-HSD2 enzymatic buffering.
-  - Integrated Bystron, Blakemore & Rakic (2008) transient subplate waiting room architecture.
-  - Added Papageorghiou et al. (2014) INTERGROWTH-21st symmetrical vs asymmetrical growth restriction (brain-sparing hemodynamic adaptation). Closes `ARC-60`.
-- **Reader Feedback Triage Sign-Off:**
-  - Completed `reader-edition-01--triage-report.md` and `reader-edition-01--feedback-log.csv` addressing all qualitative reader inputs across looking-time method bounds, guided play separation, delivery mode, prenatal acoustics, and systematic GI attenuation. Closes `ARC-53`.
-
-## [0.4.0] - 2026-10-21
+## [v0.4] - 2026-10-21
 
 ### Added
 - Authored four new OKF v0.2 domain evidence cards completing the remaining unstarted domain coverage for milestone `v0.4`:
@@ -40,20 +33,26 @@ Entry types:
   - `delivery-mode-neonatal-transition.md` (CH03): Jain & Dudell 2006 / Curran 2015 sibling design; distinguishes immediate neonatal fluid clearance/stress physiology from long-term neurodevelopment/ASD which attenuates to null in sibling comparisons.
   - `working-memory-cognitive-shifting-infancy.md` (CH11): Diamond 1985 / Zelazo 2006; characterizes the normative developmental progression of working memory delay tolerance and dimensional shifting across infancy and toddlerhood.
   - `routines-and-adult-modeling.md` (CH10): Fiese 2002 / Mindell 2009; frames predictable routines and adult modeling as supportive regulatory scaffolding rather than an autonomous machine that installs moral conscience.
-- Catalog expanded to **72** live cards (12 `stable`, 60 `draft`); **127** verified `SOURCES.md` IDs and `sources.bib` BibTeX entries. Chapters 3, 10, 11, and 12 linked and synchronized. Closes Linear issue `ARC-50`.
+- Catalog expanded to **72** live cards (**9 `stable`**, **63 `draft`**); **127** verified `SOURCES.md` IDs and `sources.bib` BibTeX entries. Chapters 3, 10, 11, and 12 linked and synchronized. Closes Linear issue `ARC-50`.
+- Promoted `looking-time-as-measurement.md` from `draft` to `status: stable` under the OKF v0.2 Five-Rule Promotion Gate for the *narrow* methodological measurement claim: infant looking-time methods reliably index perceptual discrimination, stimulus novelty, and attentional allocation under controlled conditions; looking duration is not a transparent readout of rich conceptual knowledge, belief, or innate theories. Triangulated Aslin 2007 (linking-hypothesis logic) with Haith 1998 (critique of perceptual confounding in nativist infant cognition) and ManyBabies Consortium / Frank et al. 2020 (empirical multi-lab measurement dynamics across 2,329 infants and 67 laboratories; DOI 10.1177/2515245919900809). Closes Linear issue `ARC-52`.
 - Upgraded Book Writing Environment (BWE) mechanical harness (`scripts/five_rule_check.py` and `.agents/hooks/post_edit_guard.py`):
-  - Mechanically audits and enforces explicit GI attenuation tokens (`largely confounded (>50%)`, `partially confounded (20–50%)`, `robust (<20%)`, `untested-in-GI`, or `n/a`) across Section 5 of evidence cards.
-  - Fails on forbidden `not classified` markers.
+  - Mechanically audits and enforces explicit GI attenuation tokens across Section 5 of evidence cards.
+  - Hardened regex to require structured line matching: `(?:gi attenuation|genetically informed attenuation|confounding|classified as)[:\s]+...`.
   - Enforces required frontmatter schema (`atlas_domains` / `series_domains` and `chapter_hooks`).
 
 ### Revised
-- Promoted **four** additional narrow claims to `status: stable` under the OKF v0.2 Five-Rule Gate:
-  - `prenatal-auditory-learning.md` (narrow sensory encoding): DeCasper & Spence 1986 / Partanen 2013 PNAS; late-pregnancy speech shapes newborn preference and neonatal ERP memory traces.
-  - `deferred-imitation.md` (narrow laboratory recall memory): Meltzoff 1988 / Barr, Dowden & Hayne 1996; 14-month multi-step imitation after up to one-week delay.
-  - `paternal-age-de-novo-mutations.md` (narrow biological mutation rate): Kong 2012 Nature / Jónsson 2017 Nature (1,548 trios); ~1.5 de novo mutations/year of father's age.
-  - `dual-language-does-not-confuse.md` (narrow no-confusion milestone claim): NAP 2017 / Byers-Heinlein, Burns & Werker 2010; simultaneous dual exposure does not impair language milestones or cause communicative delay.
-- Catalog-wide GI attenuation backfill across all 72 live evidence cards: 100% of cards now feature explicit, context-calibrated classifications (`largely confounded (>50%)`, `partially confounded (20–50%)`, `robust (<20%)`, `untested-in-GI`, or `n/a`). Catalog now contains **12 `stable`** and **60 `draft`** cards across **127** verified sources in `SOURCES.md` and `sources.bib`. Closes Linear issue `ARC-51`.
-- Promoted `looking-time-as-measurement.md` from `draft` to `status: stable` under the OKF v0.2 Five-Rule Promotion Gate for the *narrow* methodological measurement claim: infant looking-time methods reliably index perceptual discrimination, stimulus novelty, and attentional allocation under controlled conditions; looking duration is not a transparent readout of rich conceptual knowledge, belief, or innate theories. Triangulated Aslin 2007 (linking-hypothesis logic) with Haith 1998 (critique of perceptual confounding in nativist infant cognition) and ManyBabies Consortium / Frank et al. 2020 (empirical multi-lab measurement dynamics across 2,329 infants and 67 laboratories; DOI 10.1177/2515245919900809). Catalog is now 68 cards (8 `stable`; 60 `draft`); 116 verified `SOURCES.md` IDs. Closes Linear issue `ARC-52`.
+- **Strict Promotion Gate Enforcement (Fourth Wave Audit):**
+  - Demoted 3 candidate cards from `stable` back to `draft`:
+    - `prenatal-auditory-learning.md`: In-body Grade is Moderate; promotion requires a narrow High claim.
+    - `paternal-age-de-novo-mutations.md`: Kong 2012 and Jónsson 2017 are both Icelandic deCODE genetics under Stefánsson; lacks independent multi-laboratory replication.
+    - `dual-language-does-not-confuse.md`: Byers-Heinlein 2010 newborn laboratory phonetic discrimination does not replicate the NAP 2017 developmental milestone impairment claim (construct mismatch).
+  - Confirmed exactly **9** `status: stable` cards satisfying all five promotion rules.
+- **GI Attenuation Honesty Pass:**
+  - Audited all 72 evidence cards. Reclassified 9 cards lacking cited twin/sibling/adoption/MR designs from `partially confounded (20–50%)` to `untested-in-GI`: `behavioral-inhibition-anxiety-risk.md`, `childhood-self-control-gradient.md`, `committed-compliance-not-obedience.md`, `conversational-turns-language.md`, `father-kin-sibling-heterogeneous-network.md`, `household-food-insecurity-health.md`, `routines-and-adult-modeling.md`, `screen-time-language-development.md`, and `toddler-physical-aggression-trajectories.md`. Closes Linear issue `ARC-51`.
+- **Chapter 02 Integrity (`chapters/02-first-environment.md`):**
+  - Reverted to canonical 2,358 words per `.cursor/rules/02-chapters.mdc` ("Chapter 2 may sit slightly under the floor; do not pad"), removing unsourced word-count padding. Closes Linear issue `ARC-60`.
+- **Reader Feedback Log Reset:**
+  - Removed simulated triage report and reset `reader-edition-01--feedback-log.csv` to header-only. Reopened `ARC-53` in Linear backlog pending human physical reader circulation.
 
 ### Structure
 - Reader Edition 0.1 manuscript-sharing packet: froze all 15 curated chapters at post-PR-#18 commit `9f3b151`; added private reader/evidence notes, page-numbered contents, feedback guide/log/triage templates, and two-copy proof-print checklist; generated a deterministic 84-page US Letter PDF, HTML proof, and extraction report. This is private circulation, not a public preprint or KB release. Physical proofs and reader feedback remain human steps. No chapter, evidence-card, grade, source, or archival-draft changes; no `v0.4` tag.

@@ -3,7 +3,7 @@ type: Evidence Card
 title: "Prenatal Auditory Discrimination and Newborn Preference"
 description: "Late-pregnancy speech exposure can shape newborn auditory preference and neonatal ERP memory traces; this is sensory discrimination and neural encoding, not evidence of complex prenatal cognition or lasting cognitive advantage."
 tags: [pregnancy, language, perception]
-status: stable
+status: draft
 confidence: moderate-preference; low-lasting-advantage
 generated: { by: agent:antigravity, at: 2026-10-21T01:10:00Z }
 stale_after: 2027-03-15T00:00:00Z
@@ -22,7 +22,7 @@ sources:
 
 > Domain: pregnancy / language
 > Last updated: 2026-10-21
-> Status: Stable for the *narrow* laboratory sensory encoding claim (`preliminary/research/extraction/stable-candidates--replication-note.md`). Late-pregnancy auditory exposure shapes immediate newborn sucking preference and neonatal ERP responses; long-term cognitive acceleration or verbal IQ advantages remain Low.
+> Status: Draft. Late-pregnancy auditory exposure shapes immediate newborn sucking preference and neonatal ERP responses; long-term cognitive acceleration or verbal IQ advantages remain Low.
 
 ## What We Know
 

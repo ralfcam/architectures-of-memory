@@ -42,7 +42,7 @@ Small-to-moderate average associations. They do not establish unique or permanen
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: **partially confounded (20–50%)** (father and kin involvement correlates with family socioeconomic resources and genetic stability; not a standalone dosage law).
+GI attenuation: **untested-in-GI** (father and kin involvement correlates with family socioeconomic resources and unmeasured genetic factors; quantitative GI attenuation estimates absent in this literature).
 
 Samples often overrepresent Western, relatively stable families. Child-to-parent effects (a difficult toddler reducing measured “involvement”) are plausible.
 

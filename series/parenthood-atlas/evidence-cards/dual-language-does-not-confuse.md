@@ -3,7 +3,7 @@ type: Evidence Card
 title: "Two Languages Do Not Confuse Young Children"
 description: "Simultaneous dual-language exposure from birth does not confuse infants, impair communicative milestones, or delay core speech discrimination; vocabulary is distributed across languages, and bilingualism does not automatically confer an executive function bonus."
 tags: [language, multilingual, infancy, policy]
-status: stable
+status: draft
 confidence: high-no-confusion; moderate-individual-trajectories; low-automatic-bonus
 generated: { by: agent:antigravity, at: 2026-10-21T01:10:00Z }
 stale_after: 2027-03-15T00:00:00Z
@@ -22,7 +22,7 @@ sources:
 
 > Domain: language / early learning
 > Last updated: 2026-10-21
-> Status: Stable for the *narrow* no-confusion developmental milestone claim (`preliminary/research/extraction/stable-candidates--replication-note.md`). Dual-language exposure from birth does not impair language acquisition or delay phonetic discrimination; individual trajectories vary with exposure volume, and claims of an automatic lifelong executive function bonus remain Low.
+> Status: Draft. Dual-language exposure from birth does not impair language acquisition or delay phonetic discrimination; individual trajectories vary with exposure volume, and claims of an automatic lifelong executive function bonus remain Low.
 
 ## What We Know
 

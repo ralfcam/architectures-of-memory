@@ -3,7 +3,7 @@ type: Evidence Card
 title: "Paternal Age and De Novo Mutation Rate"
 description: "De novo single-nucleotide mutations in offspring increase linearly with paternal age at conception; this establishes a biological germline mutation rate, not an individual psychiatric or cognitive forecast for a child."
 tags: [preconception, genetics, paternal]
-status: stable
+status: draft
 confidence: high-mutation-rate; low-forecast
 generated: { by: agent:antigravity, at: 2026-10-21T01:10:00Z }
 stale_after: 2027-03-15T00:00:00Z
@@ -22,7 +22,7 @@ sources:
 
 > Domain: preconception / genetics
 > Last updated: 2026-10-21
-> Status: Stable for the *narrow* biological mutation-rate claim (`preliminary/research/extraction/stable-candidates--replication-note.md`). De novo single-nucleotide mutations scale reliably with father's age at conception; claims using paternal age to forecast individual psychiatric illness or cognitive ability remain Low.
+> Status: Draft. De novo single-nucleotide mutations scale reliably with father's age at conception; claims using paternal age to forecast individual psychiatric illness or cognitive ability remain Low.
 
 ## What We Know
 

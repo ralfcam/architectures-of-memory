@@ -3,8 +3,8 @@ Status: PASS
 Edition: Reader Edition — Working Slice
 Renderer: fpdf2 2.8.9 / pypdf 6.0.0
 PDF: parenthood-atlas-reader-edition.pdf
-SHA-256: edee85fd51bef867d8644ca4de30ed8960c9d2e043e795fe2092dcb20712dfff
-Bytes: 388,268
+SHA-256: 0d4785ffdb3b81b1ff8e476d9c8cf2803c6e9bcd95f9c91d079e05ad8190eedc
+Bytes: 385,152
 Pages: 94 (94/94 nonblank)
 
 Chapters:

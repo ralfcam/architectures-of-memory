@@ -135,11 +135,11 @@ def check_online_retractions(sources: list[tuple[str, str]]) -> tuple[bool, list
 
 
 CONFOUNDING_PATTERNS = [
-    (r"largely confounded", "largely confounded (>50%)"),
-    (r"partially confounded", "partially confounded (20–50%)"),
-    (r"\brobust\b", "robust (<20%)"),
-    (r"untested-in-gi|untested in gi", "untested-in-GI"),
-    (r"\bn/?a\b", "n/a"),
+    (r"(?:gi attenuation|genetically informed attenuation|confounding|classified as)[:\s]+[`\*]*largely confounded\s*(?:\(>50%\))?[`\*]*", "largely confounded (>50%)"),
+    (r"(?:gi attenuation|genetically informed attenuation|confounding|classified as)[:\s]+[`\*]*partially confounded\s*(?:\(20[–-]50%\))?[`\*]*", "partially confounded (20–50%)"),
+    (r"(?:gi attenuation|genetically informed attenuation|confounding|classified as)[:\s]+[`\*]*robust\s*(?:\(<20%\))?[`\*]*", "robust (<20%)"),
+    (r"(?:gi attenuation|genetically informed attenuation|confounding|classified as)[:\s]+[`\*]*(?:untested-in-gi|untested in gi)[`\*]*", "untested-in-GI"),
+    (r"(?:gi attenuation|genetically informed attenuation|confounding|classified as)[:\s]+[`\*]*n/?a[`\*]*", "n/a"),
 ]
 
 

@@ -39,7 +39,7 @@ Effects are described as a gradient across the distribution, not only the clinic
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: **partially confounded (20–50%)** (childhood self-control is moderately heritable; genetic factors explain a substantial share of the socioeconomic gradient).
+GI attenuation: **untested-in-GI** (childhood self-control is moderately heritable and shares genetic variance with socioeconomic gradients; specific genetically informed attenuation studies on Dunedin gradient estimates remain unparameterized on this card).
 
 Family resources, IQ, and later environments remain entangled. Childhood self-control here is a multi-age composite, not a 36-month snapshot.
 

@@ -44,7 +44,7 @@ In randomized trials of targeted bedtime routines, improvements in sleep latency
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: **partially confounded (20–50%)** (household consistency is genetically and environmentally correlated with parental conscientiousness, executive functioning, and mental health; twin studies demonstrate that structured home environments reflect both parent-child evocative genetic correlation and environmental scaffolding).
+GI attenuation: **untested-in-GI** (household consistency correlates with parental conscientiousness, executive functioning, and mental health; specific causal attenuation percentages from twin/sibling designs are untested on this card).
 
 Observational studies frequently confound household routines with economic resources and maternal stress: households experiencing financial precarity, erratic work schedules, or housing instability face objective barriers to routine consistency that independently impact child development.
 

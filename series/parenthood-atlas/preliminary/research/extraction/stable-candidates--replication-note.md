@@ -218,4 +218,32 @@ The first-wave non-promotions above remain historically accurate for that pass. 
 
 Observational / GI-attenuated cards (prenatal stress, breastfeeding IQ, Watts delay) and remaining-domain cards stay `draft`. Sleep, attachment-intervention, and screen theory are not reopened.
 
-Catalog after this pass: **72** live cards; **12** `stable` (narrow); **60** `draft`. **127** verified `SOURCES.md` IDs. All 72 cards feature explicit, calibrated GI attenuation classifications.
+---
+
+# Fourth wave — remediation demotions (2026-10-21)
+
+Date: 2026-10-21. Formal remediation audit following executive review of Stage 1 sign-off.
+Three cards promoted in the third wave failed the strict promotion rules (`03-research-extraction.mdc` and the five promotion rules) upon closer inspection:
+
+1. **`prenatal-auditory-learning.md`**: Demoted to `draft`.
+   - *Reason for demotion*: The highest in-body confidence grade is **Moderate** (for immediate neonatal preference/ERP traces), with lasting cognitive advantage graded **Low**. Rule 4 / promotion standards require an underlying **narrow High** claim for `status: stable`. A card whose highest grade is Moderate cannot hold `stable` status.
+
+2. **`paternal-age-de-novo-mutations.md`**: Demoted to `draft`.
+   - *Reason for demotion*: Kong et al. 2012 and Jónsson et al. 2017 are both from deCODE genetics (Reykjavik, Iceland) under Kári Stefánsson, using overlapping Icelandic cohort sequence data. While high quality, they do not constitute **independent laboratory replication** across separate groups. Card stays `draft` pending triangulation with an independent cohort/consortium sequencing program.
+
+3. **`dual-language-does-not-confuse.md`**: Demoted to `draft`.
+   - *Reason for demotion*: Construct mismatch under Rule 5. Byers-Heinlein et al. 2010 measures newborn phonetic discrimination/looking preference in lab, whereas the card's stable claim targeted the absence of developmental milestone delay (NAP 2017 policy consensus). The laboratory citation does not constitute an empirical replication of the milestone claim. Card stays `draft` pending direct twin/cohort empirical milestone replications.
+
+### Confirmed Stable Cards (9 total)
+The following 9 cards strictly satisfy all five promotion rules with independent replication and narrow High identification:
+1. `prenatal-folate-ntd.md` (MRC 1991 + Czeizel 1992 + De-Regil Cochrane)
+2. `infant-statistical-speech-segmentation.md` (Saffran 1996 + Aslin 1998)
+3. `neonatal-cardiopulmonary-transition.md` (Morton & Brodsky 2016 + Hillman 2012)
+4. `infant-contingency-learning.md` (Rovee 1969 + Merz 2017 + Cuevas 2025)
+5. `infant-social-referencing.md` (Sorce 1985 + Walden & Ogan 1988)
+6. `infant-still-face-paradigm.md` (Tronick 1978 + Mesman 2009 meta-analysis)
+7. `infant-perceptual-narrowing.md` (Werker & Tees 1984 + Kuhl 1992)
+8. `looking-time-as-measurement.md` (Aslin 2007 + Haith 1998 + ManyBabies 2020)
+9. `deferred-imitation.md` (Meltzoff 1988 + Barr 1996)
+
+Catalog after this remediation pass: **72** live cards; **9** `stable` (narrow); **63** `draft`. **127** verified `SOURCES.md` IDs. All 72 cards feature explicit, calibrated GI attenuation classifications.

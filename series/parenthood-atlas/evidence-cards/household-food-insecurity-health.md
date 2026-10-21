@@ -39,7 +39,7 @@ Odds of fair/poor health and hospitalization were elevated with food insecurity 
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: **partially confounded (20–50%)** (food precarity co-occurs with structural economic stress and parental mental health vulnerabilities).
+GI attenuation: **untested-in-GI** (food precarity co-occurs with structural economic stress and parental vulnerabilities; twin/sibling designs not applied to this specific pediatric association).
 
 Low-income clinical samples are not all households. Caregiver report of child health and food can share method variance. Access to care, housing, and income remain entangled.
 

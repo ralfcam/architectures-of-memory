@@ -723,13 +723,6 @@ def main(argv: list[str]) -> int:
         compendium_path, index_path = render_compendium_and_index(rendered, out_dir)
         print(f"[compendium] Wrote {compendium_path} ({len(rendered)} briefs)")
         print(f"[index] Wrote {index_path}")
-        # Also copy/sync to preliminary/publishing/evidence-briefs for convenience
-        prelim_dir = target_dir / "preliminary" / "publishing" / "evidence-briefs"
-        prelim_dir.mkdir(parents=True, exist_ok=True)
-        import shutil
-        for f in out_dir.glob("*.*"):
-            shutil.copy2(f, prelim_dir / f.name)
-        print(f"[sync] Mirrored {len(rendered)} briefs to {prelim_dir}")
     else:
         print(f"No cards matching status '{args.status}' found.")
 

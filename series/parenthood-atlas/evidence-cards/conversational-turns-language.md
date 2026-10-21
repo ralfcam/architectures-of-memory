@@ -39,7 +39,7 @@ Reported 14–27% variance at a decade is a prediction interval in one cohort, n
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: **partially confounded (20–50%)** (conversational turn-taking shares genetic variance with parental verbal ability and child communicative drive).
+GI attenuation: **untested-in-GI** (conversational turn-taking shares unmeasured genetic variance with parental verbal ability and child communicative drive; not yet tested in sibling-comparison or twin designs).
 
 LENA classification error; who talks more may already be the more verbal child; SES residual confounding; LENA-using families are not a random population.
 

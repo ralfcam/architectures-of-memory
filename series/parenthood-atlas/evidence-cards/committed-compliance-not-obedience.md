@@ -39,7 +39,7 @@ The relevant object is not “obedience” as a single score. Context-specific s
 
 ## Bias, Heterogeneity, and Confounding
 
-GI attenuation: **partially confounded (20–50%)** (mutually responsive orientation and compliance reflect both evocative child temperament and parental scaffolding).
+GI attenuation: **untested-in-GI** (mutually responsive orientation and compliance reflect both evocative child temperament and parental scaffolding; observational laboratory dyads lack genetically informed twin/adoption controls).
 
 Language comprehension, fatigue, hearing, and cultural expectations about deference can be mistaken for defiance. Samples are often maternal and Western.
 

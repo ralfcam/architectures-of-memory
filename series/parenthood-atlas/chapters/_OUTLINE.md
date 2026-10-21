@@ -12,7 +12,7 @@ Each chapter should still follow the 10-step rhythm in `COMPOSITION.md` Appendix
 | 2 | The First Environment | `preliminary/drafts-chapters/chapter 2` (archival) | Ch. 2 dossier cluster | **Promoted curated copy:** `chapters/02-first-environment.md`. |
 | 3 | The Great Transition | `preliminary/drafts-chapters/chapter 3` (archival) | Ch. 3 plan + continuum synthesis | **Promoted curated copy:** `chapters/03-the-great-transition.md`. Five draft cards. Mode of delivery held. |
 | 4 | The Regulatory Relationship | `preliminary/drafts-chapters/chapter 4` (archival) | Ch. 4 dossier | **Promoted curated copy:** `chapters/04-regulatory-relationship.md` (replaces prior seed sketch). Feeding-as-regulation card added; sleep/attachment not rewritten. |
-| 5 | Becoming a Mind | `preliminary/drafts-chapters/chapter 5` (archival) | Ch. 5 plan + dossier | **Promoted curated copy:** `chapters/05-becoming-a-mind.md`. Looking-time remains `draft`; narrowing/statistical/contingency now `stable` for *narrow* lab claims. |
+| 5 | Becoming a Mind | `preliminary/drafts-chapters/chapter 5` (archival) | Ch. 5 plan + dossier | **Promoted curated copy:** `chapters/05-becoming-a-mind.md`. Looking-time now `stable` for *narrow* method; narrowing/statistical/contingency now `stable` for *narrow* lab claims. |
 | 6 | The Mind in Motion | `preliminary/drafts-chapters/chapter 6` (archival) | Ch. 6 dossier | **Curated expansion:** `chapters/06-the-mind-in-motion.md`. Linked cards: contingency, embodiment, exploration, physical reasoning, deferred imitation. |
 | 7 | The Birth of Language | `preliminary/drafts-chapters/chapter 7` (archival) | Ch. 7 plan + synthesis | **Promoted curated copy:** `chapters/07-the-birth-of-language.md`. Linked cards: perceptual narrowing, statistical segmentation, conversational turns, dual language, pointing, babbling, parent-implemented language. Screens ID-repaired, not re-theorized. |
 | 8 | The Expanding World | `preliminary/drafts-chapters/chapter 8.md` | Ch. 8 plan + synthesis | **Promoted curated copy:** `chapters/08-the-expanding-world.md`. Four draft cards; childcare/BEIP reconciled. |
@@ -72,7 +72,7 @@ All remain `status: draft`.
 
 All remain `status: draft`.
 
-- `looking-time-as-measurement.md` (CH05-C01; remains `draft`)
+- `looking-time-as-measurement.md` (CH05-C01; `stable` method)
 - `infant-attention-as-gatekeeper.md` (CH05-C03)
 - `object-permanence-looking-vs-search.md` (CH05-C06)
 - `joint-attention-shared-reference.md` (CH05-C07 / CH07-C04)
@@ -91,7 +91,7 @@ All remain `status: draft`.
 All remain `status: draft`.
 
 - `infant-contingency-learning.md` (CH06-C01; `stable` lab)
-- `embodied-perception-action.md`, `exploration-as-sampling.md`, `infant-physical-reasoning.md`, `deferred-imitation.md`
+- `embodied-perception-action.md`, `exploration-as-sampling.md`, `infant-physical-reasoning.md`, `deferred-imitation.md` (`stable` lab memory)
 - Adjacent: `infant-caregiver-coregulation.md` (not a learning card)
 - Later-chapter boundary: `self-regulation-delay-of-gratification.md`
 

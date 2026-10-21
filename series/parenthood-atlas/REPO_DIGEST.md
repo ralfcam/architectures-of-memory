@@ -37,11 +37,11 @@ preliminary/          staging workbench (not OKF, not voice-checked)
   drafts-chapters/    full chapter prose still in composition
   drafts-chapters/reviews/  structural/voice notes (do not overwrite drafts)
 
-evidence-cards/       canonical knowledge base (72 OKF v0.2 cards: 12 stable, 60 draft)
+evidence-cards/       canonical knowledge base (72 OKF v0.2 cards: 9 stable, 63 draft)
 SOURCES.md            single point of truth for cited sources (127 verified sources)
 CONTRIBUTING.md       evidence-evaluation methodology
 
-chapters/             canonical manuscript (15 curated chapters, 41,342 words)
+chapters/             canonical manuscript (15 curated chapters, 40,885 words)
 COMPOSITION.md        book grammar (voice, chapter rhythm, claim calibration)
 style/                voice checklist, forbidden phrases, anomaly bank
 ```
@@ -51,7 +51,7 @@ Promotion is one-way:
 1. Research notes in `preliminary/research/` → atomic claims in `research/extraction/` → OKF evidence card in `evidence-cards/` + register sources in `SOURCES.md` + log in `CHANGELOG.md`.
 2. Chapter drafts in `preliminary/drafts-chapters/` → review notes in `drafts-chapters/reviews/` → curated copy to `chapters/` only after linked cards are audited.
 
-Do not treat `preliminary/` as published. Do not treat `evidence-cards/` cards as settled unless `status: stable`. Three physiology/lab cards are `stable` for a *narrow* claim only. YAML `confidence` matching in-body grades is not the same as `status: stable`.
+Do not treat `preliminary/` as published. Do not treat `evidence-cards/` cards as settled unless `status: stable`. Nine physiology/lab/methods cards are `stable` for a *narrow* claim only. YAML `confidence` matching in-body grades is not the same as `status: stable`.
 
 ---
 

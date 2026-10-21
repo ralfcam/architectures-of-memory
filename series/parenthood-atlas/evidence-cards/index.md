@@ -1,6 +1,6 @@
 # Evidence Cards Index
 
-Seventy-two evidence cards. **Twelve** physiology/lab/methods cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`, `infant-contingency-learning.md`, `infant-social-referencing.md`, `infant-still-face-paradigm.md`, `infant-perceptual-narrowing.md`, `looking-time-as-measurement.md`, `prenatal-auditory-learning.md`, `deferred-imitation.md`, `paternal-age-de-novo-mutations.md`, `dual-language-does-not-confuse.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
+Seventy-two evidence cards. **Nine** physiology/lab/methods cards are `status: stable` for a *narrow* claim only (`prenatal-folate-ntd.md`, `infant-statistical-speech-segmentation.md`, `neonatal-cardiopulmonary-transition.md`, `infant-contingency-learning.md`, `infant-social-referencing.md`, `infant-still-face-paradigm.md`, `infant-perceptual-narrowing.md`, `looking-time-as-measurement.md`, `deferred-imitation.md`; see `preliminary/research/extraction/stable-candidates--replication-note.md`). The other sixty-three remain **status: draft** and require deeper audit before being treated as settled entries. See `CONTRIBUTING.md` for the methodology each card follows, `SOURCES.md` for the full bibliography, and [`SPEC.md`](../SPEC.md) for this bundle's OKF v0.2 pointer (canonical spec is external).
 
 # Evidence Cards
 
@@ -9,7 +9,7 @@ Seventy-two evidence cards. **Twelve** physiology/lab/methods cards are `status:
 * [Prenatal Neural Construction](prenatal-neural-construction.md) - Human cortex is unfinished at birth; structure is not a personality forecast.
 * [Fetal Autonomic Maturation](fetal-autonomic-maturation.md) - Fetal HRV indexes present maturation, not temperament destiny.
 * [Prenatal Maternal Stress and Anxiety](prenatal-maternal-stress-anxiety.md) - Observational prenatal stress/anxiety associations largely attenuate under genetically informed designs.
-* [Prenatal Auditory Discrimination and Newborn Preference](prenatal-auditory-learning.md) - **`stable`** (narrow sensory encoding): DeCasper & Spence 1986 / Partanen 2013; late-pregnancy speech shapes newborn preference and ERP traces; Low lasting advantage.
+* [Prenatal Auditory Discrimination and Newborn Preference](prenatal-auditory-learning.md) - DeCasper & Spence 1986 / Partanen 2013; late-pregnancy speech shapes newborn preference and ERP traces; Low lasting advantage.
 * [Periconceptional Folic Acid and Neural-Tube Defects](prenatal-folate-ntd.md) - **`stable`** (narrow NTD claim): RCTs/Cochrane + Czeizel 1992; Low other anomalies / IQ.
 * [Prenatal Iodine and Maternal T4](prenatal-iodine-thyroid.md) - Severe early iodine deficiency can injure the developing brain; mild replete-population claims are weaker.
 * [Prenatal Alcohol and FASD](prenatal-alcohol-fasd.md) - Causal teratology continuum; detected exposure is not a diagnosis.
@@ -30,7 +30,7 @@ Seventy-two evidence cards. **Twelve** physiology/lab/methods cards are `status:
 * [Conversational Turns and Later Language](conversational-turns-language.md) - Gilkerson 2018: Moderate prediction from turns, not word counts; Low causation.
 * [Pointing as Shared Reference](infant-pointing-as-shared-reference.md) - Colonnesi 2010: Moderate that pointing predicts language; Low that baby-sign products accelerate typical speech.
 * [Babbling as Exploration](infant-babbling-as-exploration.md) - Oller 1999: High that canonical babbling is a real stage; Low as an IQ or parenting verdict.
-* [Paternal Age and De Novo Mutations](paternal-age-de-novo-mutations.md) - **`stable`** (narrow biological rate): Kong 2012 / Jónsson 2017; ~1.5 mutations/year of father's age; Low psychiatric/cognitive forecast.
+* [Paternal Age and De Novo Mutations](paternal-age-de-novo-mutations.md) - Kong 2012 / Jónsson 2017; ~1.5 mutations/year of father's age; Low psychiatric/cognitive forecast.
 * [Infant Social Referencing](infant-social-referencing.md) - **`stable`** (narrow lab claim): Sorce 1985 / Walden 1988; Low as an attachment verdict.
 * [Multiple Caregiver Attachments](infant-multiple-caregiver-attachments.md) - Dagan 2018/2021: Moderate that multiple attachments occur; Low that network size is a dose.
 * [Toddler Peer Interaction](toddler-peer-interaction.md) - Brownell 2006: Moderate that peer contexts create coordination demands; Low that hours cause later character.
@@ -60,7 +60,7 @@ Seventy-two evidence cards. **Twelve** physiology/lab/methods cards are `status:
 * [Parental Leave Is a Heterogeneous Package](parental-leave-heterogeneous-package.md) - Carneiro 2015: Moderate reform; Low-to-Moderate 0–3 cognition.
 * [Household Food Insecurity and Infant Health](household-food-insecurity-health.md) - Cook 2004: Moderate health association; not parental failure.
 * [Preconception Nutrition Beyond Folate](preconception-nutrition-beyond-folate.md) - Dean 2014: Low-to-Moderate beyond folate; do not inherit NTD `stable`.
-* [Two Languages Do Not Confuse](dual-language-does-not-confuse.md) - **`stable`** (narrow no-confusion claim): NAP 2017 / Byers-Heinlein 2010; dual exposure from birth does not impair language milestones; Low automatic cognitive bonus.
+* [Two Languages Do Not Confuse](dual-language-does-not-confuse.md) - NAP 2017 / Byers-Heinlein 2010; dual exposure from birth does not impair language milestones; Low automatic cognitive bonus.
 * [Infant Crying as a Signal](infant-crying-as-signal.md) - Graded distress signal; not a one-to-one code for hunger, pain, or parental error.
 * [Suck–Swallow–Breathe Coordination](suck-swallow-breathe-coordination.md) - Oral feeding is maturational coordination; feeding method is not parental worth.
 * [Responsive Feeding as Regulation](responsive-feeding-as-regulation.md) - Cue-based bidirectional feeding; not a weight or IQ program.
