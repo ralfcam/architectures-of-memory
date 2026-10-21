@@ -17,7 +17,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 BWE_DIR = Path(__file__).resolve().parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 SERIES_DIR = REPO_ROOT / "series"
-SITE_DIR = BWE_DIR / "site"
+STATIC_DIR = BWE_DIR / "static"
+STATIC_DIR.mkdir(parents=True, exist_ok=True)
 
 # Ensure scripts directory is importable for data synthesis
 if str(SCRIPTS_DIR) not in sys.path:
@@ -27,14 +28,73 @@ from render_audiobook_player import DEFAULT_GITHUB_REPO, scan_all_imprint_books
 app = FastAPI(title="Realized Press — BWE & Serial Portal (P-ARC-18)")
 templates = Jinja2Blocks(directory=str(REPO_ROOT / "bwe" / "templates"))
 
+# Mount static client assets
+app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
+
 # Mount documentation if present
 if (REPO_ROOT / "docs").exists():
     app.mount("/docs-static", StaticFiles(directory=str(REPO_ROOT / "docs")), name="docs")
+
+# In-memory index of canonical media files for O(1) streaming
+AUDIO_CACHE: dict[str, Path] = {}
+PDF_CACHE: dict[str, Path] = {}
+
+
+def refresh_media_cache() -> None:
+    """Index canonical audio and PDF files from series directories without duplication."""
+    AUDIO_CACHE.clear()
+    PDF_CACHE.clear()
+    for ext in ("*.mp3", "*.wav"):
+        for p in SERIES_DIR.glob(f"**/audiobook/{ext}"):
+            if p.is_file():
+                AUDIO_CACHE[p.stem] = p
+                AUDIO_CACHE[p.name] = p
+        for p in (REPO_ROOT / ".cache" / "tts_pcm").glob(ext):
+            if p.is_file():
+                AUDIO_CACHE.setdefault(p.stem, p)
+                AUDIO_CACHE.setdefault(p.name, p)
+    for p in SERIES_DIR.glob("**/*.pdf"):
+        if p.is_file():
+            PDF_CACHE[p.name] = p
+
+
+def find_canonical_audio(filename: str) -> Path | None:
+    """Locates canonical audio in series/**/audiobook/ without duplication."""
+    stem = Path(filename).stem
+    ext = Path(filename).suffix.lower() or ".mp3"
+    full_name = f"{stem}{ext}"
+    if full_name in AUDIO_CACHE:
+        return AUDIO_CACHE[full_name]
+    if stem in AUDIO_CACHE:
+        return AUDIO_CACHE[stem]
+    # Fallback search if newly generated
+    for candidate_ext in (".mp3", ".wav"):
+        for p in SERIES_DIR.glob(f"**/audiobook/{stem}{candidate_ext}"):
+            if p.is_file():
+                AUDIO_CACHE[stem] = p
+                AUDIO_CACHE[p.name] = p
+                return p
+    return None
+
+
+def find_canonical_pdf(filename: str) -> Path | None:
+    """Locates canonical PDF across series/**/publishing/ without duplication."""
+    pdf_name = Path(filename).name
+    if not pdf_name.lower().endswith(".pdf"):
+        pdf_name = f"{pdf_name}.pdf"
+    if pdf_name in PDF_CACHE:
+        return PDF_CACHE[pdf_name]
+    for p in SERIES_DIR.glob(f"**/{pdf_name}"):
+        if p.is_file():
+            PDF_CACHE[pdf_name] = p
+            return p
+    return None
 
 
 @app.on_event("startup")
 def on_startup() -> None:
     init_db(REPO_ROOT)
+    refresh_media_cache()
 
 
 @app.get("/")
@@ -73,29 +133,36 @@ async def imprint_site_home(request: Request):
     )
 
 
-# Root media fallbacks if requested without /site prefix
+# Canonical zero-copy media streaming endpoints (supporting HTTP 206 Range requests)
+@app.get("/media/audio/{filename}")
+@app.head("/media/audio/{filename}")
+@app.get("/site/{filename}.mp3")
+@app.head("/site/{filename}.mp3")
 @app.get("/{filename}.mp3")
 @app.head("/{filename}.mp3")
-async def audio_root_fallback(filename: str):
-    candidate = SITE_DIR / f"{filename}.mp3"
-    if candidate.exists():
-        return FileResponse(candidate, media_type="audio/mpeg")
-    raise HTTPException(status_code=404, detail="Audio file not found")
+@app.get("/site/{filename}.wav")
+@app.head("/site/{filename}.wav")
+@app.get("/{filename}.wav")
+@app.head("/{filename}.wav")
+async def stream_audio(filename: str):
+    audio_path = find_canonical_audio(filename)
+    if audio_path and audio_path.is_file():
+        media_type = "audio/mpeg" if audio_path.suffix.lower() == ".mp3" else "audio/wav"
+        return FileResponse(audio_path, media_type=media_type)
+    raise HTTPException(status_code=404, detail=f"Audio asset '{filename}' not found")
 
 
+@app.get("/media/pdf/{filename}")
+@app.head("/media/pdf/{filename}")
+@app.get("/site/{filename}.pdf")
+@app.head("/site/{filename}.pdf")
 @app.get("/{filename}.pdf")
 @app.head("/{filename}.pdf")
-async def pdf_root_fallback(filename: str):
-    candidate = SITE_DIR / f"{filename}.pdf"
-    if candidate.exists():
-        return FileResponse(candidate, media_type="application/pdf")
-    raise HTTPException(status_code=404, detail="PDF file not found")
-
-
-# Static file mounts for audio binaries and PDFs (registered after HTML route)
-if SITE_DIR.exists():
-    app.mount("/site-static", StaticFiles(directory=str(SITE_DIR)), name="site-static")
-    app.mount("/site", StaticFiles(directory=str(SITE_DIR)), name="site-files")
+async def stream_pdf(filename: str):
+    pdf_path = find_canonical_pdf(filename)
+    if pdf_path and pdf_path.is_file():
+        return FileResponse(pdf_path, media_type="application/pdf")
+    raise HTTPException(status_code=404, detail=f"PDF publication '{filename}' not found")
 
 
 # -------------------------------------------------------------------------

@@ -87,10 +87,9 @@ audiobook-player:
 	$(PYTHON) scripts/render_audiobook_player.py $(BOOK)
 
 site:
-	$(PYTHON) scripts/render_audiobook_player.py --imprint --output bwe/site
+	$(PYTHON) scripts/render_audiobook_player.py --imprint --output dist/site
 
-serve:
-	$(PYTHON) -m http.server 8000 --directory bwe/site
+serve: bwe-serve
 
 new-series:
 	$(PYTHON) scripts/init_series.py --series $(SERIES) --title "$(TITLE)" --lenses "$(LENSES)" $(NewBookArg)
@@ -99,10 +98,13 @@ market-intel:
 	$(PYTHON) scripts/marketing_intelligence.py $(if $(strip $(SERIES)),--series $(strip $(SERIES)),)
 
 # Stage 3: BWE Productization (P-ARC-18)
-.PHONY: bwe-serve bwe-schema bwe-audit bwe-intelligence
+.PHONY: bwe-serve bwe-schema bwe-audit bwe-intelligence bwe-export-site
 
 bwe-serve: ## Launch Epistemic IDE & Serial Reader Portal on port 8080 (ARC-55 / ARC-56)
 	$(PYTHON) -m bwe.cli serve --host 0.0.0.0 --port 8080
+
+bwe-export-site: ## Export static offline imprint site bundle to dist/site (ARC-55)
+	$(PYTHON) -m bwe.cli export-site --output dist/site
 
 bwe-schema: ## Export series.schema.json and validate series.yaml files (ARC-57)
 	$(PYTHON) -m bwe.cli validate-schema --series-slug parenthood-atlas

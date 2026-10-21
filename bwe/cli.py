@@ -38,6 +38,15 @@ def audit(target: str = typer.Argument("series/parenthood-atlas", help="Target s
             raise typer.Exit(code=rc)
 
 
+@cli.command("export-site")
+def export_site(output: str = "dist/site"):
+    """Export standalone static offline imprint player and briefs to dist/site."""
+    rc = subprocess.call([sys.executable, str(REPO_ROOT / "scripts" / "render_audiobook_player.py"), "--imprint", "--output", output])
+    if rc != 0:
+        raise typer.Exit(code=rc)
+    typer.echo(f"[PASS] Successfully exported standalone static imprint to {output}")
+
+
 @cli.command()
 def intelligence():
     """ARC-58: Run Marketing Intelligence & Citation Telemetry synthesis."""

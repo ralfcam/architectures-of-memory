@@ -1840,7 +1840,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Render interactive HTML5 audiobook web player & imprint portal.")
     parser.add_argument("book", nargs="?", default=None, type=Path, help="Specific book directory (optional)")
     parser.add_argument("--imprint", action="store_true", help="Generate centralized imprint-wide multi-series portal")
-    parser.add_argument("--output", default="bwe/site", help="Output directory for imprint portal (default: bwe/site)")
+    parser.add_argument("--output", default="dist/site", help="Output directory for static imprint export (default: dist/site)")
     parser.add_argument("--release-tag", default="v1.0-rc1", help="GitHub Release tag for online streaming (default: v1.0-rc1)")
     parser.add_argument("--repo", default=DEFAULT_GITHUB_REPO, help="GitHub repository (owner/repo)")
     args = parser.parse_args()
