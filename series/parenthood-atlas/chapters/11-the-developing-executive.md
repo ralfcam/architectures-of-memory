@@ -36,15 +36,15 @@ The first is the popular forecast. The second is too complete. The third is the 
 
 Control, in this chapter, is a family of skills that help a person stop, hold information, and switch when the world requires it. It is not a verdict on whether the child is good. Miyake and colleagues (2000) described executive functions in young adults as both unified and diverse: inhibition, updating, and shifting share common variance and are not identical. Garon, Bryson and Smith (2008) reviewed how those processes appear in preschoolers as developing, heavily scaffolded forms rather than adult factor structure transplanted downward.
 
-**Grade: Moderate-to-High** for the unity-and-diversity construct in the psychometric literature. **Grade: Moderate** for toddler factor structure. The evidence card is `executive-function-unity-diversity.md`. EF is not intelligence or character. This family is executive function, not Chapter 4’s co-regulation. (Chapter 4’s co-regulation was bidirectional repair between persons; this is a different claim.) Stopping a reach on a battery is not the same identification as bidirectional repair in a relationship.
+Executive function is psychometrically characterized by unity and diversity—inhibition, working-memory updating, and cognitive shifting share common variance while maintaining distinct functions.[^ch11-ef-unity-diversity] In toddlers, these processes emerge as an undifferentiated, heavily scaffolded capacity rather than distinct adult-like mental modules.
 
 A toddler battery that loads on one factor in a small sample has not shown that the adult three-factor solution is already present. A child who fails a wait and passes a sort has not revealed a broken module. The useful object is the family, still assembling, still dependent on language, fatigue, and how the problem is set.
 
 A second case makes the family visible without a crayon. A toy is hidden under a cloth, then moved. The child searches the first place. Holding the update — it is not where I last found it — is a working-memory demand. A moment later the adult changes the rule of a game: now the small cup wins, not the large one. Switching is a different load. Stopping a reach, holding an update, and switching a rule can fail separately. In toddler tasks they often fail together, which is why the adult factor structure should not be read downward as already installed.
 
-Working memory and cognitive shifting improve systematically across this span (`working-memory-cognitive-shifting-infancy.md`; Diamond 1985; Zelazo 2006). Maintaining a representation across delay while a lure is present, and shifting sets when a rule changes, reflect prefrontal neural development. **Grade: Moderate-to-High** for the normative developmental progression of working-memory delay capacity and dimensional shifting. **Grade: Low** that individual performance on early search or sorting tasks forecasts adult intelligence, or that infant working memory can be accelerated through specialized training products.
+Working-memory representation across delays and dimensional cognitive shifting improve systematically across infancy and toddlerhood as prefrontal networks mature.[^ch11-working-memory-shifting] Yet early performance on object-search or dimensional sorting tasks provides no valid forecast of lifelong intelligence, and no evidence supports commercial products claiming to accelerate infant working memory.
 
-Language and private speech as self-guidance remain `needs-source-audit` for a dedicated card. **Grade: Moderate** that language can support goal maintenance. **Grade: Low-to-Moderate** that adult instruction becomes internal control as an exclusive causal pathway. A child who talks through a wait is not proof that a particular script installs an executive. Private speech can be a developmental support. It can also be a correlate of the same language skill that makes the battery easier. Those come apart only with designs this chapter does not yet register.
+Language and spontaneous private speech increasingly serve as self-regulatory tools that help toddlers maintain goals during challenging tasks.[^ch11-private-speech] However, verbal self-guidance emerges from broad linguistic competence rather than specific adult instructional scripts mechanically installing self-control.
 
 Attention as a gatekeeper is already a Chapter 5 card (`infant-attention-as-gatekeeper.md`). Contingency learning is Chapter 6 (`infant-contingency-learning.md`). They are neighbors, not this construct. Looking longer at a surprising event is not the same as stopping a reach. Learning that a kick moves a mobile is not the same as holding a rule when the crayon is in reach. A mobile that stops being contingent is a still-face cousin (Chapter 9), not an executive battery.
 
@@ -52,7 +52,7 @@ Attention as a gatekeeper is already a Chapter 5 card (`infant-attention-as-gate
 
 Response suppression becomes more reliable across toddlerhood and preschool under particular cues and supports. Carlson’s developmentally sensitive batteries, and the Less Is More experiments of Carlson, Davis and Leach, show that symbolic distancing — making the tempting thing less literally present — can improve performance. A child who cannot wait for a visible treat may wait longer when the treat is represented by a symbol. Failure to inhibit is not character.
 
-**Grade: Moderate-to-High** for an age trend toward more reliable suppression. **Grade: Moderate** for any single task. **Grade: Low** that a failed wait forecasts later character or school success. The evidence card is `inhibitory-control-toddler.md`.
+Inhibitory control displays a pronounced normative developmental improvement across the toddler and preschool years.[^ch11-inhibitory-control] Nevertheless, performance on any single laboratory task remains highly sensitive to emotional context, fatigue, and symbolic cues, offering no predictive basis for lifelong academic or character outcomes.
 
 Performance depends on language, fatigue, the salience of the lure, and how the problem is set. A child who fails one battery and passes another has not revealed a trait so much as a context. The socket in Chapter 10 and the crayon in this chapter can look like the same hand. They are not the same identification. Chapter 10 asked whether cooperation was willing. This chapter asks whether stopping is possible under this cue.
 
@@ -66,7 +66,7 @@ This chapter does not steal Chapter 10’s committed-compliance distinction. A c
 
 The original delay-of-gratification predictor story treated minutes of waiting as a window onto later achievement. Watts, Duncan and Quan’s 2018 NICHD replication showed that the original claim was mostly confounded once family and early cognitive measures were in the model.
 
-**Grade: Moderate-to-High** that the original predictor claim was overstated. The live card is `self-regulation-delay-of-gratification.md`. It was **reconciled, not rewritten**. This chapter does not restore the destiny reading.
+Large-scale replication of the classic delay-of-gratification paradigm demonstrates that the original predictive link between preschool waiting time and adult success was largely confounded by family socioeconomic background and early cognitive ability.[^ch11-delay-gratification] Once these family characteristics are controlled, the predictive power of waiting for a treat attenuates dramatically.
 
 The crayon scene is a cousin of that story, not a replication of it. A wait of seconds in a toddler battery is not Mischel’s preschool minutes, and neither is a life. When family resources and early cognition are modeled, the leftover association between waiting and later achievement shrinks. That is a fact about identification. It is not a claim that waiting has no developmental interest. It is a claim that waiting is a poor individual forecast.
 
@@ -74,9 +74,7 @@ Reliability of a single delay session is modest. A child who waits today and not
 
 Chapter 15’s Dunedin self-control gradient is a different identification: a multi-age composite predicting later health, wealth, and public safety at the group level (Moffitt 2011). It is not a marshmallow replication and is not this chapter’s card. A childhood composite is not a crayon. A group gradient is not an individual sentence. Keep the IDs apart.
 
-Play may exercise control processes; ordinary pretend play as unique EF training is not established. That boundary belongs to Chapter 12’s Lillard card. **Grade: Low-to-Moderate** causation. Reconcile later; do not steal the play chapter.
-
-Targeted EF training can move trained tasks; durable far transfer is inconsistent. **Grade: Moderate** near transfer. **Grade: Low-to-Moderate** far/durable. Interpretive here; efficacy architecture belongs to Chapter 14. A brain-training toy that improves the game is not a school-success program. Near transfer is still a finding. It is not the popular product claim.
+While imaginative play provides natural practice in holding rules in mind, pretend play has not been empirically proven as a unique causal engine of executive function.[^ch11-play-ef] Furthermore, computerized cognitive training programs frequently demonstrate near transfer on identical game mechanics but fail to show consistent or durable far transfer to generalized academic competence.[^ch11-ef-training]
 
 ## Control remains socially held
 
@@ -84,7 +82,7 @@ A toddler’s control is still often borrowed. An adult’s presence, a simpler 
 
 Return to the crayon. The adult leaves. The hand goes, stops, goes again. If the adult stays, the wait may lengthen. If the crayon is covered, the wait may lengthen. If the room is noisy and the child is tired, the wait may vanish. Those are not measurement errors to be averaged away. They are the phenomenon. Control at this age is a joint product of the child’s assembling skills and the world’s current demands.
 
-Co-regulation, already carded in Chapter 4, is the relational version of the same fact. An adult who shortens the wait is not installing a module. The adult is part of the control system. **Grade: Moderate** that support changes performance. **Grade: Low** that a particular technique becomes the child’s trait.
+Early executive performance is heavily scaffolded by caregiver presence, structured cues, and emotional reassurance.[^ch11-social-scaffolding] An adult who shortens a delay or covers a temptation is participating as part of the child's distributed regulatory system rather than installing a permanent mental trait.
 
 Severe deprivation can injure the conditions under which control develops. BEIP remains the upper bound, not a classroom EF program. Ordinary missed cues are not that identification. `severe-institutional-deprivation.md` is reconciled, not rewritten, and is not this chapter’s executive card.
 
@@ -125,6 +123,17 @@ The child at the crayon has not become a different child because we now have a m
 Control is being assembled. It is related and not identical. It fails when the world is too tempting, too fast, or too poorly symbolized. That is a fact about a developing system, not a verdict on a character. The second reach toward the crayon was not a life. It was a load the assembling system could not yet hold without help, a symbol, or a shorter wait. The map does not lengthen the wait. It changes what the second reach can be taken to mean.
 
 Chapter 10 described the rule. This chapter describes the machinery that makes stopping more possible. The same child who reached for the socket is now visible as a control system under construction: sometimes able to stop, often able to stop with help, rarely able to stop as a trait. Play will soon use some of the same machinery to pretend. That is the next territory. It is not a verdict on the hand that reached.
+
+## Notes
+
+[^ch11-ef-unity-diversity]: **Grade: Moderate-to-High** for executive function unity and diversity in developmental psychometrics (Miyake et al. 2000; Garon, Bryson & Smith 2008); **Grade: Moderate** for undifferentiated factor structure in toddlers. Evidence Card: `evidence-cards/executive-function-unity-diversity.md`.
+[^ch11-working-memory-shifting]: **Grade: Moderate-to-High** for developmental increases in working-memory delay and cognitive shifting (Diamond 1985; Zelazo 2006); **Grade: Low** for infant performance forecasting adult IQ. Evidence Card: `evidence-cards/working-memory-cognitive-shifting-infancy.md`.
+[^ch11-private-speech]: **Grade: Moderate** that spontaneous private speech supports goal maintenance in young children; **Grade: Low-to-Moderate** that scripted parental instruction causally installs self-control.
+[^ch11-inhibitory-control]: **Grade: Moderate-to-High** for age-related increases in response suppression across early childhood (Carlson 2005); **Grade: Low** that single-task failure forecasts adult character. Evidence Card: `evidence-cards/inhibitory-control-toddler.md`.
+[^ch11-delay-gratification]: **Grade: Moderate-to-High** that the original preschool delay-of-gratification predictor was largely confounded by family background (Watts, Duncan & Quan 2018). Evidence Card: `evidence-cards/self-regulation-delay-of-gratification.md`.
+[^ch11-play-ef]: **Grade: Low-to-Moderate** that pretend play causally trains executive function as an exclusive mechanism (Lillard et al. 2013).
+[^ch11-ef-training]: **Grade: Moderate** for near transfer on trained tasks in cognitive training; **Grade: Low-to-Moderate** for durable far transfer to academic achievement.
+[^ch11-social-scaffolding]: **Grade: Moderate** that adult presence and environmental scaffolding modulate toddler regulatory performance; **Grade: Low** that specific techniques permanently alter baseline traits.
 
 ## Linked evidence cards
 
