@@ -6,6 +6,12 @@
 *.env
 .env.*
 
+# Generated binary audio files
+*.wav
+*.mp3
+**/audiobook/*.wav
+**/audiobook/*.mp3
+
 # Python bytecode & transient hook state
 __pycache__/
 *.py[cod]
