@@ -46,6 +46,12 @@ sources:
   - id: Hochreiter_Schmidhuber_1996
     resource: https://papers.nips.cc/paper_files/paper/1996/file/a4d2f0d23dcc84ce983ff9157f8b7f88-Paper.pdf
     title: "LSTM can Solve Hard Long Time Lag Problems (1997)"
+  - id: Greff_2017
+    resource: http://dx.doi.org/10.1109/tnnls.2016.2582924
+    title: "LSTM: A Search Space Odyssey (2017)"
+  - id: Bengio_1994
+    resource: http://dx.doi.org/10.1109/72.279181
+    title: "Learning long-term dependencies with gradient descent is difficult (1994)"
   - id: Borges_1944_Funes
     resource: https://scholar.google.com/scholar?q=Borges_1944_Funes
     title: "Funes el memorioso (1944)"
@@ -66,4 +72,6 @@ sources:
 - **`abadi2016arxiv`** (2016): Deep Learning with Differential Privacy — <https://arxiv.org/abs/1607.00133>
 - **`Hochreiter_Schmidhuber_1995`** (1995): Long Short-Term Memory — <https://scholar.google.com/scholar?q=Hochreiter_Schmidhuber_1995>
 - **`Hochreiter_Schmidhuber_1996`** (1997): LSTM can Solve Hard Long Time Lag Problems — <https://papers.nips.cc/paper_files/paper/1996/file/a4d2f0d23dcc84ce983ff9157f8b7f88-Paper.pdf>
+- **`Greff_2017`** (2017): LSTM: A Search Space Odyssey — <http://dx.doi.org/10.1109/tnnls.2016.2582924>
+- **`Bengio_1994`** (1994): Learning long-term dependencies with gradient descent is difficult — <http://dx.doi.org/10.1109/72.279181>
 - **`Borges_1944_Funes`** (1944): Funes el memorioso — <https://scholar.google.com/scholar?q=Borges_1944_Funes>
