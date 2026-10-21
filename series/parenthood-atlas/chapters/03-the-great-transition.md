@@ -6,7 +6,7 @@ Before this hour there was pregnancy: hidden development, a placenta, an enclose
 
 The organism that emerges already has a beating heart, an organizing nervous system, lungs that have grown without yet exchanging air, and senses that have been receiving information. Birth does not create this organism. It changes its environment.
 
-**Grade: High** that, after placental separation, gas exchange must move to the lungs and the circulation must reorganize around that new fact (`neonatal-cardiopulmonary-transition.md`; Morton & Brodsky 2016). **Grade: Moderate** for the exact timing of each shunt. **Grade: Low** that a difficult first hour is a personality forecast.
+After placental separation, gas exchange must move to the lungs and the circulation must reorganize around that new physical reality.[^ch03-cardiopulmonary] The sequence is biologically mandatory, but the exact timing of each vascular shunt varies, and a difficult first hour provides no forecast of a child's future personality.
 
 This chapter asks a narrower question than “what kind of birth makes what kind of child?” It asks what kind of transition birth is, and what kinds of claims that hour can support.
 
@@ -22,7 +22,7 @@ Inside the uterus, oxygen arrives through the placenta. Temperature is buffered.
 
 The naive picture is a blank slate: an unfinished infant waiting for the environment to write the important parts. The equally naive picture is a finished program: everything important already determined by genes, pregnancy, or the circumstances of delivery. What we meet instead is a change of regulatory environment. The newborn is already organized, but not complete. Already capable, but not mature. Already shaped, but not fixed. Immediately dependent on a new system composed of the infant’s own physiology, caregivers, clinical care, and material conditions.
 
-A difficult first breath is not automatically a biography. A cesarean without labor can alter cortisol and catecholamine patterns and delay lung fluid absorption; that is acute transition physiology, not character (`delivery-mode-neonatal-transition.md`). Mode of delivery does not determine long-term cognition or neurodevelopment once family background and clinical indications are controlled.
+A difficult first breath is not automatically a biography. A cesarean without labor can alter cortisol and catecholamine patterns and delay lung fluid absorption; that is acute transition physiology, not character.[^ch03-delivery-mode] Mode of delivery does not determine long-term cognition or neurodevelopment once family background and clinical indications are controlled.
 
 ## Competing explanations of the opening scene
 
@@ -40,7 +40,7 @@ The visible event begins with labor. The preparation starts earlier.
 
 Late-gestation cortisol contributes to the maturation of organs that will soon have to function independently. Labor is accompanied by a surge of catecholamines that affects cardiovascular adaptation, energy mobilization, and respiratory transition. Human parturition remains incompletely understood. The relative contributions of endocrine, placental, inflammatory, mechanical, and maternal processes are still being investigated.
 
-**Grade: Moderate** that late-gestation and labor endocrine changes support the transition. **Grade: Low** that scientists have found a single switch labelled “birth.”
+Late-gestation and labor endocrine changes support this physiological transition, but biological research has found no single master switch labelled “birth.”[^ch03-labor-endocrine]
 
 The fetus is biologically active before delivery. The newborn does not arrive as a passenger whose preparation begins only after the first breath. The transition is the culmination of developmental preparation followed by an abrupt environmental demand.
 
@@ -52,7 +52,7 @@ Breathing and circulation are coupled. Lung aeration alters vascular resistance.
 
 The fetal pathways — ductus venosus, foramen ovale, ductus arteriosus — were adaptations to placental life, not defective adult parts. At birth their logic changes. Functional closure and anatomical closure are not the same event. Different structures change on different timescales. Persistent fetal channels may be ordinary in some circumstances and clinically important in others.
 
-**Grade: High** for the direction of this sequence in typical term transition. **Grade: Moderate** for exact shunt timing and for the relative contribution of individual mediators. Identification is mechanistic and clinical, not randomized. Illness, prematurity, and asphyxia are natural contrasts and are confounded by treatment.
+The direction of this sequence is firmly established in typical term transition, even as the exact timing of each shunt and the relative contribution of individual mediators vary across infants.[^ch03-shunt-timing] Clinical observation and mechanistic physiology demonstrate the sequence, though illness, prematurity, and acute interventions introduce confounding that prevents treating this transition as a simple linear program.
 
 A difficult respiratory transition can be medically serious. It does not follow that it becomes psychologically determinative. Longer-term outcomes require separate evidence and are influenced by gestational age, illness, treatment, and later care. A difficult first breath is a medical risk, not a biography.
 
@@ -60,7 +60,7 @@ A difficult respiratory transition can be medically serious. It does not follow 
 
 Temperature is easy to underestimate because adults experience it as background. For a newborn it is an immediate problem. Heat can be lost rapidly. Surface area is large relative to mass. Shivering is limited. Brown adipose tissue is part of the solution. Glucose and catecholamines support the same hour.
 
-**Grade: Moderate** that thermal and metabolic adaptation is part of the same transition as breathing and circulation. **Grade: Low** that early temperature instability, handled, writes a character.
+Thermal and metabolic adaptation is inseparable from the respiratory and circulatory shift, but transient temperature instability, once addressed, carries no predictive weight for lifelong disposition.[^ch03-thermal-metabolic]
 
 The placenta has ceased to be the organ of exchange. Dependence has not ceased. It has changed form.
 
@@ -68,7 +68,7 @@ The placenta has ceased to be the organ of exchange. Dependence has not ceased. 
 
 The newborn brain is unfinished in a structural sense and already at work in a functional one. Prenatal construction continues after birth. Experience will calibrate what is already organized. That is Chapter 2’s neural-construction claim, adjacent here, not re-extracted.
 
-Sensory life is new, but not entirely new. Some of the earliest sounds that help organize attention after birth are sounds the infant has already encountered. **Grade: Moderate** that late-pregnancy speech can shape newborn preference (`prenatal-auditory-learning.md`). **Grade: Low** that this is lasting cognitive advantage. Faces, smell, and touch similarly help the infant find a caregiver in a world of new contingencies. A dedicated neonatal-perception card remains `needs-source-audit`. Maternal-voice preference is not re-extracted as DeCasper.
+Sensory life is new, but not entirely new. Some of the earliest sounds that help organize attention after birth are acoustic patterns the infant has already encountered in the womb.[^ch03-auditory-continuity] Late-pregnancy speech shapes newborn auditory preference without constituting a permanent cognitive advantage. Faces, maternal odor, and skin contact similarly guide the infant toward a caregiver in a world of new sensory contingencies.[^ch03-neonatal-senses]
 
 Learning, in a modest sense, is already possible. Habituation and preference can be measured under specified conditions. That does not mean the newborn is a small scientist. It means the transition is not an encounter between a blank organism and a first stimulus.
 
@@ -78,7 +78,7 @@ If the first breath is the most visible physiological adaptation, crying is one 
 
 A newborn cannot name hunger, cold, pain, overstimulation, or fatigue. Many states converge on a limited repertoire. Crying recruits care. It is a graded signal of how upset the infant is, not a catalog of distinct “hunger,” “pain,” and “boredom” cries that a competent adult can decode from acoustics alone. Context, not timbre, usually tells the caregiver what to try.
 
-**Grade: Moderate** that crying functions as a recruiting, graded distress signal (`infant-crying-as-signal.md`; Zeifman & St James-Roberts 2017). **Grade: Low** that acoustic features identify specific causes in ordinary homes.
+Crying functions as a recruiting, graded distress signal rather than an acoustically encoded diagnostic dictionary.[^ch03-infant-crying]
 
 Inability to name the cause from the sound is not parental failure. Prolonged crying is not automatically proof of harm or of spoiling. Crying is also physiology: respiratory effort, autonomic activation, metabolic expenditure. A caregiver can influence that state. The infant can influence the caregiver. That is enough to establish co-regulation as a principle without requiring a single grand theory of the autonomic nervous system. Chapter 4 takes up the relationship. This chapter keeps the signal.
 
@@ -86,7 +86,7 @@ Inability to name the cause from the sound is not parental failure. Prolonged cr
 
 Before birth, nutrients arrive without a decision. After birth, oral feeding requires sucking, swallowing, breathing, arousal, and gastrointestinal function to work together. Each function has parts that mature at different times. “Coordination” is not a single switch. Preterm infants often take longer to feed safely by mouth; swallow–respiration matching is a common bottleneck.
 
-**Grade: High** that suck–swallow–breathe coordination is required for safe oral feeding (`suck-swallow-breathe-coordination.md`; Lau 2015). **Grade: Moderate** for particular practice or intervention effects, because improvements may be maturation rather than treatment. This is not a cognition card. `breastfeeding-cognitive-development.md` remains the place for PROBIT and sibling comparisons.
+Suck–swallow–breathe coordination is mechanically required for safe oral feeding, developing along a predictable neuromuscular sequence where timing improvements often reflect organic maturation rather than specific training.[^ch03-suck-swallow-breathe]
 
 Feeding difficulty is not a verdict on parental worth. Breast, bottle, expressed milk, and tube feeding are distinct situations. Ranking families by feeding method is not justified here.
 
@@ -98,7 +98,7 @@ When a stable newborn is placed against a caregiver’s skin, the infant receive
 
 In healthy-newborn trials, early skin-to-skin contact is associated with breastfeeding maintenance at 1–4 months. Infant glucose, temperature, and cardiorespiratory stability findings are smaller, lower-certainty, and not a character result. Kangaroo mother care for low-birth-weight infants is a different claim, with a mortality literature that this chapter does not pool into the healthy-newborn card.
 
-**Grade: Moderate** for breastfeeding at 1–4 months in healthy-newborn SSC (`skin-to-skin-immediate-physiology.md`; Moore et al. 2016 Cochrane). **Grade: Low** for infant physiology and for bonding, character, or later cognition. SSC does not guarantee breastfeeding. Closeness and vigilance belong together; rare collapse after unobserved contact is a reason for structured observation, not a reason to treat contact as destiny.
+Immediate skin-to-skin contact between a stable newborn and caregiver supports physiological stabilization and is associated with breastfeeding continuation at one to four months.[^ch03-skin-to-skin] Yet contact does not guarantee feeding success, nor does it fix lifelong bonding or character. Closeness and vigilance belong together; rare sudden collapse during unobserved contact reminds us that proximity requires watchful care rather than ideological romanticism.
 
 Caregivers participate in regulation. They do not replace the placenta as an organ.
 
@@ -108,7 +108,7 @@ Prematurity exposes something that term birth can conceal. Developmental timing 
 
 Across decades of standardized testing, children born preterm score lower, on average, than term-born peers on global cognitive measures. The gap is larger with more extreme immaturity and with neonatal pulmonary morbidity.
 
-**Grade: Moderate** for an elevated *group-level* cognitive difference (`preterm-cognition-group-risk.md`; Burstein, Aryeh & Geva 2024: 161 studies, 39,799 children; SMD −0.57). **Grade: Low** for forecasting any particular child. A group mean is not a child’s worth, personality, or a parental verdict. Corrected age matters in early assessment. Trajectories should be followed over time.
+Children born preterm show an elevated group-level difference on standardized cognitive assessments, with larger differences observed among those born extremely early or with severe neonatal illness.[^ch03-preterm-cognition] Yet a statistical group mean is never an individual child's destiny, worth, or character forecast. Corrected age is vital in early assessment, and developmental trajectories unfold across years of care.
 
 Newborns also differ in size, state, sensory responsiveness, and how readily they take to feeding. Variation is not noise. It is part of the phenomenon. An isolated first-hour difficulty is not a test that the family passed or failed.
 
@@ -155,6 +155,20 @@ Birth is not an origin. It is a change of conditions. Before it came months of c
 Chapter 2 showed a first environment that was already at work. This chapter shows that environment being exchanged. The child is no longer buffered by a placenta. The child is buffered, imperfectly, by people, by physiology still in motion, and by the material conditions around both.
 
 The relationship that takes up that dependence is the next territory. It is not a verdict on the hour that came before.
+
+## Notes
+
+[^ch03-cardiopulmonary]: **Grade: High** for post-separation pulmonary aeration and circulatory reorganization; **Grade: Moderate** for exact shunt timing; **Grade: Low** that early transition difficulty forecasts personality. Morton & Brodsky (2016). Evidence Card: `evidence-cards/neonatal-cardiopulmonary-transition.md`.
+[^ch03-delivery-mode]: **Grade: High** that planned cesarean alters acute fluid clearance and endocrine surges; **Grade: High** that delivery mode does not cause long-term cognitive or behavioral deficits once family and clinical confounding are controlled. Evidence Card: `evidence-cards/delivery-mode-neonatal-transition.md`.
+[^ch03-labor-endocrine]: **Grade: Moderate** that late-gestation cortisol and catecholamines support cardiorespiratory adaptation; **Grade: Low** that human parturition operates via a single biological switch.
+[^ch03-shunt-timing]: **Grade: High** for functional sequence of ductus arteriosus, foramen ovale, and ductus venosus closure; **Grade: Moderate** for exact anatomical timing.
+[^ch03-thermal-metabolic]: **Grade: Moderate** that non-shivering thermogenesis via brown adipose tissue and glycogen mobilization are necessary adaptations; **Grade: Low** that early thermal instability predicts disposition.
+[^ch03-auditory-continuity]: **Grade: Moderate** that late-pregnancy auditory familiarization shapes neonatal orientation; **Grade: Low** that prenatal audio stimulation creates lasting cognitive advantage. Evidence Card: `evidence-cards/prenatal-auditory-learning.md`.
+[^ch03-neonatal-senses]: **Grade: Moderate** that multimodal cues (olfactory, facial schematic, tactile) guide initial caregiver orientation.
+[^ch03-infant-crying]: **Grade: Moderate** that crying functions as a graded recruitment signal; **Grade: Low** that distinct acoustic profiles reliably diagnose specific home needs. Zeifman & St James-Roberts (2017). Evidence Card: `evidence-cards/infant-crying-as-signal.md`.
+[^ch03-suck-swallow-breathe]: **Grade: High** that coordination of sucking, swallowing, and breathing is necessary for oral feeding; **Grade: Moderate** that clinical interventions accelerate this beyond organic maturation. Lau (2015). Evidence Card: `evidence-cards/suck-swallow-breathe-coordination.md`.
+[^ch03-skin-to-skin]: **Grade: Moderate** that immediate skin-to-skin in term infants supports 1–4 month breastfeeding continuation; **Grade: Low** for lasting cognitive or bonding changes. Moore et al. (2016 Cochrane). Evidence Card: `evidence-cards/skin-to-skin-immediate-physiology.md`.
+[^ch03-preterm-cognition]: **Grade: Moderate** for group-level cognitive score differences in preterm cohorts; **Grade: Low** for predicting individual child development. Burstein, Aryeh & Geva (2024: 161 studies, 39,799 children; SMD −0.57). Evidence Card: `evidence-cards/preterm-cognition-group-risk.md`.
 
 ## Linked evidence cards
 
