@@ -17,7 +17,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 BWE_DIR = Path(__file__).resolve().parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 SERIES_DIR = REPO_ROOT / "series"
-SITE_DIR = BWE_DIR / "site" if (BWE_DIR / "site").exists() else REPO_ROOT / "site"
+SITE_DIR = BWE_DIR / "site"
 
 # Ensure scripts directory is importable for data synthesis
 if str(SCRIPTS_DIR) not in sys.path:

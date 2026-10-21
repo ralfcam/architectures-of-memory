@@ -11,9 +11,6 @@
 *.mp3
 **/audiobook/*.wav
 **/audiobook/*.mp3
-site/*.pdf
-site/*.wav
-site/*.mp3
 bwe/site/*.pdf
 bwe/site/*.wav
 bwe/site/*.mp3
