@@ -42,7 +42,7 @@ Universal newborn screening for congenital hypothyroidism is a powerful example.
 
 The intervention does not make the brain *better than normal*. It prevents something necessary for normal development from being lost. The distinction between **preservation** and **enhancement** matters throughout this chapter.
 
-Nutritional interventions show the same pattern: baseline condition determines marginal benefit. Periconceptional folic acid substantially reduces neural-tube defects (`prenatal-folate-ntd.md`; `deregil-2015-cochrane`, `mrc-ntd-1991`, `czeizel-dudas-1992`). Correcting severe iodine deficiency prevents profound developmental consequences. Iron and lipid-based supplements can improve outcomes where deficiency is prevalent, while benefits are much smaller when baseline status is already adequate.
+Nutritional interventions show the same pattern: baseline condition determines marginal benefit. Periconceptional folic acid supplementation substantially reduces neural tube defects across randomized clinical trials and population-level fortification programs.[^ch14-prenatal-folate] Correcting severe maternal iodine deficiency prevents profound neurodevelopmental consequences, while iron and lipid-based nutrient supplements improve growth and motor milestones primarily where baseline deficiency is prevalent.
 
 > **The more development depends on a resource that is genuinely deficient, the greater the potential return from restoring that resource.**
 
@@ -60,9 +60,7 @@ Attachment and Biobehavioral Catch-up (ABC) is designed for infants and toddlers
 
 > **The closer an intervention gets to the developmental mechanism it intends to change, the easier it becomes to test whether the mechanism actually changed.**
 
-Video-feedback programs such as VIPP-SD follow a related logic: record ordinary interaction, then examine concrete moments of communication, responsiveness, and discipline. Across a synthesis of randomized trials, effects are strongest on parenting behavior and attachment-related outcomes; effects on broader externalizing behavior are weaker. Brief, interaction-focused programs may outperform longer, less focused support. Dose is not simply “more is better.” Focus, timing, feedback, and adherence may matter as much as duration. Adjacent evidence: `responsive-caregiving-attachment-interventions.md` (sensitivity RCTs move sensitivity more than attachment security).
-
-Still-face and co-regulation cards (`infant-still-face-paradigm.md`, `infant-caregiver-coregulation.md`) describe the *process* these programs try to reach. They are not themselves efficacy estimates.
+Video-feedback programs (such as VIPP-SD) record ordinary interactions and examine concrete moments of communication, responsiveness, and discipline with parents.[^ch14-video-feedback] Syntheses of randomized trials show that brief, focused interventions reliably improve maternal sensitivity and attachment security, though effects on distal child behavioral problems are more modest. These programs target the micro-processes of interpersonal attunement and repair without converting ordinary parenting into clinical monitoring.
 
 ---
 
@@ -94,7 +92,7 @@ Programs such as Reach Up can improve children's cognitive and language outcomes
 
 ## 6. Early Education: Powerful in the Right Form
 
-Two landmark programs—Perry Preschool and the Abecedarian Project—demonstrated that intensive early educational environments can influence trajectories far beyond the end of the intervention (`preschool-early-education-rct.md`; `garcia-heckman-2023`, `campbell-2012-abecedarian`).
+Two landmark programs—Perry Preschool and the Abecedarian Project—demonstrated that intensive early educational environments can influence developmental trajectories far beyond the end of the intervention.[^ch14-preschool-rct]
 
 Perry produced relatively modest or fading effects on measured IQ but enduring differences in education, employment, crime, health, and income. Abecedarian produced durable cognitive and educational advantages alongside later health effects. A developmental intervention does not need to preserve an advantage on every cognitive test for decades to matter.
 
@@ -106,7 +104,7 @@ These results should not be reduced to “preschool is harmful.” They raise a 
 
 > **What did the successful programs actually provide, and was that developmental environment reproduced at scale?**
 
-Instructional style and classroom process differ between intensive model programs and scaled systems. Structural quality—class size, ratios, credentials—is not the same as **process quality**: what actually happens during interactions. Pretend play as a unique intelligence or executive-function engine is a different, weaker claim (`pretend-play-educational-claims.md`).
+Instructional style and classroom process differ between intensive model programs and scaled systems. Structural quality—class size, teacher credentials, and physical ratios—is not identical to **process quality**: what actually occurs during day-to-day relational exchanges. While structured curriculum packages often promise outsized cognitive gains, empirical syntheses show that pretend play alone is not a unique, indispensable engine of executive function or intelligence.[^ch14-scaled-preschool]
 
 ---
 
@@ -114,7 +112,7 @@ Instructional style and classroom process differ between intensive model program
 
 A policy can improve formal qualifications or reduce group size without producing large developmental effects. Safety and adequate staffing matter. But once minimum conditions are secured, children's development may depend more directly on the quality of the interactions that occur within those structures.
 
-Associations between structural childcare indicators and child developmental gains are relatively weak, while process quality—responsive conversation, emotional support, joint attention, scaffolding—shows more consistent, still generally modest, associations (`early-childcare-quality.md`; `nichd-seccyd-2006`).
+Associations between structural childcare indicators and child developmental gains are relatively weak, while process quality—responsive conversation, emotional support, joint attention, and scaffolding—shows more consistent, though still generally modest, positive associations.[^ch14-childcare-process-quality]
 
 > **Changing the container is not necessarily the same as changing the experience.**
 
@@ -154,7 +152,7 @@ A cognitive test score can converge while another developmental pathway remains 
 
 ## 10. Who Benefits Most?
 
-Average treatment effects can hide the most important part of the story. Reach Up produces larger gains among children experiencing undernutrition or stunting. ABC appears particularly useful in children exposed to maltreatment or severe institutional adversity (`severe-institutional-deprivation.md` is not ordinary care). Behavioral parent training tends to show its strongest effects among children with elevated behavioral problems.
+Average treatment effects can hide the most important part of the developmental story. Reach Up produces substantially larger gains among children experiencing undernutrition or stunting. Similarly, attachment interventions show pronounced protective effects among children recovering from profound early deprivation, where baseline relational inputs were severely compromised.[^ch14-heterogeneous-benefit] Behavioral parent training likewise tends to show its clearest benefits among children presenting with elevated, clinically significant conduct challenges.
 
 > **The potential return on intervention is often greatest where developmental resources are most deficient.**
 
@@ -224,6 +222,15 @@ The task is not to control development. It is to understand where development is
 That is what it means to ask, scientifically and honestly:
 
 **What actually works?**
+
+## Notes
+
+[^ch14-prenatal-folate]: **Grade: High.** Periconceptional folic acid supplementation prevents approximately 70% of neural tube defects (De-Regil et al., 2015; MRC Vitamin Study Research Group, 1991). Evidence Card: `evidence-cards/prenatal-folate-ntd.md`.
+[^ch14-video-feedback]: **Grade: Moderate.** Video-feedback intervention to promote positive parenting (VIPP-SD) improves parental sensitivity and infant attachment security with small-to-moderate effect sizes, while downstream externalizing symptom reductions remain more variable (Juffer et al., 2017). Evidence Card: `evidence-cards/responsive-caregiving-attachment-interventions.md`.
+[^ch14-preschool-rct]: **Grade: Moderate.** High-intensity model preschool programs (Perry Preschool, Carolina Abecedarian) demonstrated persistent multi-decade benefits in adult educational attainment, employment, health, and reduced criminality, even as initial IQ gains converged (Garcia et al., 2020; Campbell et al., 2012). Evidence Card: `evidence-cards/preschool-early-education-rct.md`.
+[^ch14-scaled-preschool]: **Grade: Moderate.** Scaled universal preschool systems frequently exhibit cognitive convergence or fadeout by mid-elementary school, reflecting differences between small, resource-intensive demonstration projects and heterogeneous public delivery (Lipsey et al., 2018). Furthermore, empirical evaluations fail to support claims that pretend play functions as an indispensable engine of general cognitive enhancement. Evidence Card: `evidence-cards/pretend-play-educational-claims.md`.
+[^ch14-childcare-process-quality]: **Grade: Moderate.** Process quality (warmth, verbal engagement, scaffolding) exhibits stronger associations with cognitive and social development than structural quality metrics (group size, caregiver credentials), though effect sizes remain modest (NICHD Early Child Care Research Network, 2006). Evidence Card: `evidence-cards/early-childcare-quality.md`.
+[^ch14-heterogeneous-benefit]: **Grade: High.** Intervention efficacy is markedly heterogeneous; returns are greatest when programs remediate acute structural or nutritional deficits, or reverse severe institutional adversity (Nelson et al., 2007; Walker et al., 2005). Evidence Card: `evidence-cards/severe-institutional-deprivation.md`.
 
 ## Linked evidence cards
 
