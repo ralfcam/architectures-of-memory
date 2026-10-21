@@ -36,17 +36,17 @@ The first is too complete for toddlerhood. The second is the popular market. The
 
 A rule in this chapter is a recurring social condition: some acts are stopped, redirected, or named as not-for-now. The child who hears “no” is not already a moral philosopher. Behavioral organization increases across toddlerhood and remains externally supported. Frequent impulsive action is not itself a moral failure.
 
-Age trends in response suppression belong to Chapter 11’s inhibitory-control card. **Grade: Moderate-to-High** as a population description. The card `inhibitory-control-toddler.md` is reconciled, not rewritten. This chapter does not steal the executive-function construct. A failed wait at the crayon is a control problem. A second reach toward the socket can be that problem, or a communication problem, or a goal that has not yet been replaced. The identifications come apart.
+Response suppression and motor inhibition improve substantially across the toddler years as a normative neurodevelopmental process.[^ch10-inhibitory-control] A failed attempt to stop reaching toward an electrical outlet is often a cognitive control limitation or communication gap rather than deliberate defiance.
 
 The marshmallow-test predictor story remains on `self-regulation-delay-of-gratification.md`. It is not this chapter’s rule story. Infant action–outcome learning (`infant-contingency-learning.md`) is a different paradigm: a mobile that moves when a foot kicks is not a household “no.” Sleep and attachment-intervention theory are not restated.
 
-Observation can contribute to acquisition. Contingent consequences can change specific behaviors. Everyday magnitude and durability vary. Bandura-classics and parent-training packages are not the same identification. **Grade: Moderate** for acquisition and short-term change. **Grade: Low-to-Moderate** for generalization. Held as `needs-source-audit`. The sibling who puts a toy in a basket is a case, not a modeling law.
+Observational modeling and contingent feedback shape discrete toddler behaviors in everyday settings.[^ch10-behavioral-modeling] Yet the durability and generalization of learned actions across contexts vary widely, and a toddler imitating a sibling's cleanup is an opportunistic demonstration rather than a rigid behavioral law.
 
 ## Committed compliance is not obedience
 
 A toddler can follow a request because an adult is standing there, or because the child has taken the request as their own. Kochanska (1995) traced *committed compliance* — willing, self-regulated cooperation with a caregiver’s agenda — as more closely related to later internalization of rules than situational, pressure-dependent compliance.
 
-**Grade: Moderate** that the distinction is theoretically useful and longitudinally replicated in this observational program. **Grade: Low** that a particular wording or discipline technique causes internalization, or that immediate compliance equals conscience. The evidence card is `committed-compliance-not-obedience.md`.
+Committed compliance—willing, self-regulated cooperation with adult expectations—predicts subsequent conscience internalization more reliably than situational, pressure-dependent obedience.[^ch10-committed-compliance] Yet immediate compliance in response to a stern command does not equate to moral development, and no scripted discipline technique guarantees moral internalization.
 
 Home and laboratory observations in modest, culturally bounded samples. Longitudinal associations are compatible with child characteristics, relationship quality, and bidirectional effects. This is not an RCT of a discipline package. “Do” and “don’t” contexts can diverge: a child who willingly puts toys away may still reach for the socket. Clean-up is a request to begin an act. A prohibition is a request to stop one. Those loads are not interchangeable, and a battery that scores only one of them has not measured conscience. Language comprehension, fatigue, hearing, and cultural expectations about deference can be mistaken for defiance.
 
@@ -60,7 +60,7 @@ The distinction matters because the market sells the second reading. A script th
 
 Physical hitting, grabbing, and related acts are common in toddlerhood. Tremblay and colleagues described trajectories of physical aggression in early childhood: a typical rise and later decline for most children, and a smaller group with persistently elevated frequency. Frequency, severity, context, and change over time are more informative than presence alone.
 
-**Grade: Moderate-to-High** for a population-level peak around ages two to three with subsequent decline for most children. **Grade: Moderate** for individual prediction. **Grade: Low** that ordinary toddler hitting forecasts later violence. The evidence card is `toddler-physical-aggression-trajectories.md`.
+Physical aggression—including hitting, pushing, and grabbing—typically peaks between ages two and three and subsequently declines for the vast majority of children as language and regulatory skills mature.[^ch10-physical-aggression] While a small persistent-high trajectory warrants developmental support, typical hitting during toddlerhood provides no forecast of adolescent or adult violence.
 
 Longitudinal cohorts identify multiple pathways, not inevitability. Child characteristics, language, sibling and peer contexts, caregiver responses, and stress all participate. A child who hits when a toy is taken is not the same identification as a child who injures repeatedly across settings. The persistent-high group is a minority pathway. It is the group that most needs follow-up. It is still not a violence forecast from a single afternoon. Parent-training efficacy belongs to Chapter 14. It is not this identification. A program that reduces hitting in an indicated sample does not prove that parents caused the original problem, and it does not convert ordinary toddler hitting into a violence forecast.
 
@@ -74,7 +74,7 @@ Peer conflict, already carded in Chapter 8, is one arena in which grabbing and h
 
 Physical punishment (spanking and related acts) is consistently associated with poorer behavioral outcomes in prospective research. Gershoff and Grogan-Kaylor (2016) found no evidence of a reliable positive developmental benefit, with associations in the direction of more, not fewer, behavior problems. The identification is stronger as “not necessary / not beneficial” than as a precise universal causal effect size.
 
-**Grade: Moderate-to-High** that physical punishment is not a necessary or beneficial developmental tool. **Grade: Moderate** regarding the exact causal effect size. The evidence card is `physical-punishment-not-necessary.md`.
+Prospective evidence indicates that physical punishment is not a necessary or beneficial tool for healthy child development, and is consistently associated with elevated risk for externalizing behavior problems.[^ch10-physical-punishment] While exact causal effect sizes remain debated due to bidirectional parent–child dynamics, physical discipline offers no developmental advantage over non-violent behavioral boundaries.
 
 Child behavior can evoke harsh responses. A toddler who hits more may be spanked more; a later association can then look like spanking “causing” hitting when the pathway also runs the other way. Prospective designs and attempts to control for earlier behavior reduce that threat. They do not eliminate it. A later contrary meta-analysis arguing near-zero average effects of “customary spanking” is a live identification dispute; it does not establish developmental *benefit*. Cultural normativeness may moderate associations. It does not convert spanking into a requirement of typical development.
 
@@ -84,11 +84,11 @@ The Art of the socket is not a registered package. Moving the child, covering th
 
 ## Opposition can be a kind of participation
 
-Refusal can express agency, limited regulation, communication difficulty, or conflict. That claim is interpretive here; it lives on the compliance card’s “What This Does Not Mean.” **Grade: Moderate** as description.
+Toddler refusal can express emerging personal agency, regulatory fatigue, or communication mismatch rather than malicious opposition.[^ch10-toddler-refusal]
 
-Instrumental helping appears in the second year. A toddler may hand an object, open a door, or pick up something an adult has dropped. It is not mature altruism. **Grade: Moderate** that instrumental helping of this kind emerges in the second year. **Grade: Low** as mature altruism, a character forecast, or a parenting score. The evidence card is `instrumental-helping-not-altruism.md` (Warneken & Tomasello 2006). Committed compliance remains a different object.
+Spontaneous instrumental helping—such as retrieving a dropped object or opening a cabinet door for an adult whose hands are full—normatively emerges during the second year of life.[^ch10-instrumental-helping] This reflects early socio-cognitive coordination rather than full moral altruism, and it provides no forecast of future virtue.
 
-Routines and adult modeling provide supportive environmental scaffolding that facilitates toddler self-regulation and sleep transitions (`routines-and-adult-modeling.md`; Fiese 2002; Mindell 2009). **Grade: Moderate** that predictable daily routines scaffold immediate self-regulation and emotional transitions. **Grade: Low** that routines causally install lifelong conscience or operate as a rigid behavioral machine. A regular bedtime is not a conscience machine, and a disrupted day is not a character defect.
+Predictable daily routines and adult emotional modeling provide essential environmental scaffolding for toddler self-regulation and bedtime transitions.[^ch10-routines-modeling] Yet family routines function as supportive scaffolding rather than a rigid behavioral machine, and a disrupted day does not produce a character defect.
 
 Parent-training for elevated problems can reduce disruptive behavior in indicated populations; universal under-3 prevention is thinner. That architecture belongs to Chapter 14. A program’s success does not prove parents caused the original problem. Indicated samples are not the same as typical toddlerhood.
 
@@ -129,6 +129,17 @@ The child at the socket has not become a different child because we now have a m
 A “no” is communication that has to be cognitively and emotionally usable. Cooperation can be willing or merely situational. Hitting is often a season. Force is not a requirement of development. The map does not make the socket safe. It changes what the scream and the second reach can be taken to mean.
 
 The floor episode in Chapter 9 was already a rule scene in disguise: a want that could not be met, a body that could not yet stop. This chapter names the rule as a recurring social condition rather than as a feeling. The developing executive will soon make stopping more possible, and still fragile. That is the next territory. It is not a verdict on the hand that reached. The second reach toward the socket was not a character. It was a developing rule-user in a world that still had to be made safer than a speech.
+
+## Notes
+
+[^ch10-inhibitory-control]: **Grade: Moderate-to-High** for age-related increases in response suppression across toddlerhood; **Grade: Low** that early motor disinhibition predicts moral character. Evidence Card: `evidence-cards/inhibitory-control-toddler.md`.
+[^ch10-behavioral-modeling]: **Grade: Moderate** for observational learning and contingent consequences shaping discrete toddler behaviors; **Grade: Low-to-Moderate** for cross-contextual generalization.
+[^ch10-committed-compliance]: **Grade: Moderate** for Kochanska's distinction between committed and situational compliance predicting later rule internalization (Kochanska 1995); **Grade: Low** that specific discipline scripts cause internalization. Evidence Card: `evidence-cards/committed-compliance-not-obedience.md`.
+[^ch10-physical-aggression]: **Grade: Moderate-to-High** for a population peak in physical aggression between ages 2 and 3 followed by normative decline (Tremblay et al. 2004); **Grade: Low** that typical toddler hitting forecasts adolescent violence. Evidence Card: `evidence-cards/toddler-physical-aggression-trajectories.md`.
+[^ch10-physical-punishment]: **Grade: Moderate-to-High** that physical punishment is neither necessary nor beneficial for child development (Gershoff & Grogan-Kaylor 2016); **Grade: Moderate** on precise causal effect sizes. Evidence Card: `evidence-cards/physical-punishment-not-necessary.md`.
+[^ch10-toddler-refusal]: **Grade: Moderate** for toddler refusal as an expression of agency and regulatory limits rather than conduct pathology.
+[^ch10-instrumental-helping]: **Grade: Moderate** for spontaneous instrumental helping emerging in the second year (Warneken & Tomasello 2006); **Grade: Low** for equating instrumental helping with mature moral altruism. Evidence Card: `evidence-cards/instrumental-helping-not-altruism.md`.
+[^ch10-routines-modeling]: **Grade: Moderate** that predictable household routines scaffold immediate behavioral self-regulation (Fiese 2002; Mindell 2009); **Grade: Low** that routines causally determine lifelong conscientiousness. Evidence Card: `evidence-cards/routines-and-adult-modeling.md`.
 
 ## Linked evidence cards
 
