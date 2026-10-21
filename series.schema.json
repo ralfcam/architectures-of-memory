@@ -1,0 +1,414 @@
+{
+  "$defs": {
+    "AudioSpec": {
+      "properties": {
+        "sample_rate_bytes_per_sec": {
+          "default": 48000,
+          "title": "Sample Rate Bytes Per Sec",
+          "type": "integer"
+        },
+        "pcm_cache_dir": {
+          "default": ".cache/tts_pcm",
+          "title": "Pcm Cache Dir",
+          "type": "string"
+        },
+        "total_semantic_blocks": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Total Semantic Blocks"
+        },
+        "auto_scroll_grace_timer_ms": {
+          "default": 5000,
+          "title": "Auto Scroll Grace Timer Ms",
+          "type": "integer"
+        },
+        "tts_model_chain": {
+          "default": [
+            "gemini-2.5-pro-preview-tts",
+            "gemini-3.8-flash-tts",
+            "gemini-3.1-flash-tts-preview",
+            "gemini-2.5-flash-preview-tts"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "title": "Tts Model Chain",
+          "type": "array"
+        }
+      },
+      "title": "AudioSpec",
+      "type": "object"
+    },
+    "BookSpec": {
+      "properties": {
+        "id": {
+          "pattern": "^book-\\d{2}-[a-z0-9-]+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "path": {
+          "default": ".",
+          "description": "Relative directory path inside series/<slug>/ ('.' for single-volume series, or 'book-01-...' for multi-book series).",
+          "title": "Path",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "subtitle": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Subtitle"
+        },
+        "status": {
+          "default": "outline",
+          "pattern": "^(outline|outlined|draft|drafting|research-seeded|rc|complete)$",
+          "title": "Status",
+          "type": "string"
+        },
+        "target_words": {
+          "default": 19500,
+          "minimum": 1000,
+          "title": "Target Words",
+          "type": "integer"
+        },
+        "min_okf_cards": {
+          "default": 6,
+          "minimum": 1,
+          "title": "Min Okf Cards",
+          "type": "integer"
+        },
+        "total_footnotes": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Total Footnotes"
+        },
+        "movements": {
+          "items": {
+            "$ref": "#/$defs/MovementSpec"
+          },
+          "title": "Movements",
+          "type": "array"
+        },
+        "chapters": {
+          "items": {
+            "$ref": "#/$defs/ChapterSpec"
+          },
+          "title": "Chapters",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "title"
+      ],
+      "title": "BookSpec",
+      "type": "object"
+    },
+    "ChapterSpec": {
+      "properties": {
+        "slug": {
+          "pattern": "^\\d{2}-[a-z0-9-]+$",
+          "title": "Slug",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "audio_blocks": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Audio Blocks"
+        },
+        "footnotes_migrated": {
+          "default": true,
+          "title": "Footnotes Migrated",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "slug",
+        "title"
+      ],
+      "title": "ChapterSpec",
+      "type": "object"
+    },
+    "EpistemicLens": {
+      "enum": [
+        "technical",
+        "organizational",
+        "philosophical",
+        "biological",
+        "ecological",
+        "science",
+        "interpretation",
+        "art"
+      ],
+      "title": "EpistemicLens",
+      "type": "string"
+    },
+    "KDPPrintSpec": {
+      "properties": {
+        "trim_size": {
+          "default": "6x9",
+          "title": "Trim Size",
+          "type": "string"
+        },
+        "wrap_cover_dimensions_in": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Wrap Cover Dimensions In"
+        },
+        "spine_width_in": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Spine Width In"
+        },
+        "spine_width_mm": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Spine Width Mm"
+        },
+        "interior_pdf": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Interior Pdf"
+        },
+        "cover_pdf": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cover Pdf"
+        }
+      },
+      "title": "KDPPrintSpec",
+      "type": "object"
+    },
+    "MovementSpec": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title"
+      ],
+      "title": "MovementSpec",
+      "type": "object"
+    },
+    "OKFSpec": {
+      "properties": {
+        "version": {
+          "default": "0.2",
+          "title": "Version",
+          "type": "string"
+        },
+        "total_cards": {
+          "default": 6,
+          "minimum": 0,
+          "title": "Total Cards",
+          "type": "integer"
+        },
+        "stable_cards": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Stable Cards",
+          "type": "integer"
+        },
+        "locked_dois": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Locked Dois",
+          "type": "integer"
+        },
+        "retractions": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Retractions",
+          "type": "integer"
+        },
+        "genetically_informed_triangulation": {
+          "default": false,
+          "title": "Genetically Informed Triangulation",
+          "type": "boolean"
+        },
+        "scaffolding_policy": {
+          "default": "Purged harness prose; calibrated verbs in text; all OKF metadata isolated in chapter-local ## Notes.",
+          "title": "Scaffolding Policy",
+          "type": "string"
+        }
+      },
+      "title": "OKFSpec",
+      "type": "object"
+    }
+  },
+  "description": "ARC-57: Unified declarative series.yaml schema for all Realized Press series.",
+  "properties": {
+    "slug": {
+      "pattern": "^[a-z0-9-]+$",
+      "title": "Slug",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "subtitle": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Subtitle"
+    },
+    "linear_project_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Linear Project Id"
+    },
+    "version": {
+      "default": "v0.1",
+      "title": "Version",
+      "type": "string"
+    },
+    "epistemic_contract": {
+      "default": "Science -> Interpretation -> Art",
+      "title": "Epistemic Contract",
+      "type": "string"
+    },
+    "governing_principle": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Governing Principle"
+    },
+    "lenses": {
+      "items": {
+        "$ref": "#/$defs/EpistemicLens"
+      },
+      "title": "Lenses",
+      "type": "array"
+    },
+    "okf_spec": {
+      "$ref": "#/$defs/OKFSpec"
+    },
+    "audio_spec": {
+      "$ref": "#/$defs/AudioSpec"
+    },
+    "kdp_print_spec": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/KDPPrintSpec"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "books": {
+      "items": {
+        "$ref": "#/$defs/BookSpec"
+      },
+      "minItems": 1,
+      "title": "Books",
+      "type": "array"
+    }
+  },
+  "required": [
+    "slug",
+    "title",
+    "lenses",
+    "books"
+  ],
+  "title": "SeriesManifest",
+  "type": "object"
+}

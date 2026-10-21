@@ -1,0 +1,134 @@
+# bwe/schema.py
+from __future__ import annotations
+
+import json
+from enum import Enum
+from pathlib import Path
+from typing import Any, List, Optional, Union
+import yaml
+from pydantic import BaseModel, Field, model_validator
+
+
+class EpistemicLens(str, Enum):
+    TECHNICAL = "technical"
+    ORGANIZATIONAL = "organizational"
+    PHILOSOPHICAL = "philosophical"
+    BIOLOGICAL = "biological"
+    ECOLOGICAL = "ecological"
+    SCIENCE = "science"
+    INTERPRETATION = "interpretation"
+    ART = "art"
+
+
+class MovementSpec(BaseModel):
+    id: str
+    title: str
+
+
+class ChapterSpec(BaseModel):
+    slug: str = Field(..., pattern=r"^\d{2}-[a-z0-9-]+$")
+    title: str
+    audio_blocks: Optional[int] = Field(default=None, ge=1)
+    footnotes_migrated: bool = True
+
+
+class OKFSpec(BaseModel):
+    version: str = "0.2"
+    total_cards: int = Field(default=6, ge=0)
+    stable_cards: int = Field(default=0, ge=0)
+    locked_dois: int = Field(default=0, ge=0)
+    retractions: int = Field(default=0, ge=0)
+    genetically_informed_triangulation: bool = False
+    scaffolding_policy: str = (
+        "Purged harness prose; calibrated verbs in text; all OKF metadata isolated in chapter-local ## Notes."
+    )
+
+
+class AudioSpec(BaseModel):
+    sample_rate_bytes_per_sec: int = 48000
+    pcm_cache_dir: str = ".cache/tts_pcm"
+    total_semantic_blocks: Optional[int] = None
+    auto_scroll_grace_timer_ms: int = 5000
+    tts_model_chain: List[str] = Field(
+        default=[
+            "gemini-2.5-pro-preview-tts",
+            "gemini-3.8-flash-tts",
+            "gemini-3.1-flash-tts-preview",
+            "gemini-2.5-flash-preview-tts",
+        ]
+    )
+
+
+class KDPPrintSpec(BaseModel):
+    trim_size: str = "6x9"
+    wrap_cover_dimensions_in: Optional[str] = None
+    spine_width_in: Optional[float] = None
+    spine_width_mm: Optional[float] = None
+    interior_pdf: Optional[str] = None
+    cover_pdf: Optional[str] = None
+
+
+class BookSpec(BaseModel):
+    id: str = Field(..., pattern=r"^book-\d{2}-[a-z0-9-]+$")
+    path: str = Field(
+        default=".",
+        description="Relative directory path inside series/<slug>/ ('.' for single-volume series, or 'book-01-...' for multi-book series).",
+    )
+    title: str
+    subtitle: Optional[str] = None
+    status: str = Field(default="outline", pattern=r"^(outline|outlined|draft|drafting|research-seeded|rc|complete)$")
+    target_words: int = Field(default=19500, ge=1000)
+    min_okf_cards: int = Field(default=6, ge=1)
+    total_footnotes: Optional[int] = None
+    movements: List[MovementSpec] = Field(default_factory=list)
+    chapters: List[ChapterSpec] = Field(default_factory=list)
+
+
+class SeriesManifest(BaseModel):
+    """ARC-57: Unified declarative series.yaml schema for all Realized Press series."""
+
+    slug: str = Field(..., pattern=r"^[a-z0-9-]+$")
+    title: str
+    subtitle: Optional[str] = None
+    linear_project_id: Optional[str] = None
+    version: str = "v0.1"
+    epistemic_contract: str = "Science -> Interpretation -> Art"
+    governing_principle: Optional[str] = None
+    lenses: List[EpistemicLens]
+    okf_spec: OKFSpec = Field(default_factory=OKFSpec)
+    audio_spec: AudioSpec = Field(default_factory=AudioSpec)
+    kdp_print_spec: Optional[KDPPrintSpec] = None
+    books: List[BookSpec] = Field(..., min_length=1)
+
+    @model_validator(mode="before")
+    @classmethod
+    def normalize_manifest(cls, data: Any) -> Any:
+        if not isinstance(data, dict):
+            return data
+        # Fallback slug from series_id
+        if "slug" not in data and "series_id" in data:
+            data["slug"] = data["series_id"]
+
+        # Normalize epistemic_contract if structured
+        raw_contract = data.get("epistemic_contract")
+        if isinstance(raw_contract, dict):
+            # Extract lenses if not top-level
+            if "lenses" not in data and "three_lenses" in raw_contract:
+                data["lenses"] = [l.get("id", "").lower() for l in raw_contract["three_lenses"] if "id" in l]
+            data["epistemic_contract"] = "Technical -> Organizational -> Philosophical"
+
+        # Ensure lenses defaults if missing
+        if "lenses" not in data or not data["lenses"]:
+            data["lenses"] = ["technical", "organizational", "philosophical"]
+
+        return data
+
+
+def export_json_schema(output_path: Path) -> None:
+    schema = SeriesManifest.model_json_schema()
+    output_path.write_text(json.dumps(schema, indent=2), encoding="utf-8")
+
+
+def validate_series_yaml(yaml_path: Path) -> SeriesManifest:
+    raw = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))
+    return SeriesManifest.model_validate(raw)

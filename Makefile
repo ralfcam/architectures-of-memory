@@ -97,3 +97,20 @@ new-series:
 
 market-intel:
 	$(PYTHON) scripts/marketing_intelligence.py $(if $(strip $(SERIES)),--series $(strip $(SERIES)),)
+
+# Stage 3: BWE Productization (P-ARC-18)
+.PHONY: bwe-serve bwe-schema bwe-audit bwe-intelligence
+
+bwe-serve: ## Launch Epistemic IDE & Serial Reader Portal on port 8080 (ARC-55 / ARC-56)
+	$(PYTHON) -m bwe.cli serve --host 0.0.0.0 --port 8080
+
+bwe-schema: ## Export series.schema.json and validate series.yaml files (ARC-57)
+	$(PYTHON) -m bwe.cli validate-schema --series-slug parenthood-atlas
+	$(PYTHON) -m bwe.cli validate-schema --series-slug architectures-of-memory
+
+bwe-audit: ## Run 5-Rule Check and Manuscript Audit via BWE CLI (ARC-56)
+	$(PYTHON) -m bwe.cli audit $(BOOK)
+
+bwe-intelligence: ## Run Marketing Intelligence & Citation Telemetry (ARC-58)
+	$(PYTHON) -m bwe.cli intelligence
+

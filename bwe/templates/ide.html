@@ -1,0 +1,236 @@
+<!-- bwe/templates/ide.html -->
+<!DOCTYPE html>
+<html lang="en" class="bg-stone-950 text-stone-100 antialiased">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Realized Press — Epistemic IDE (ARC-56)</title>
+  <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+  <script src="https://unpkg.com/htmx-ext-sse@2.2.2/sse.js"></script>
+  <script defer src="https://unpkg.com/alpinejs@3.14.8/dist/cdn.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex flex-col" x-data="ideWorkbench()">
+
+  <!-- Top Epistemic Contract Header -->
+  <header class="border-b border-stone-800 bg-stone-900/90 px-6 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <span class="font-serif text-lg font-bold tracking-tight text-amber-400">REALIZED PRESS</span>
+      <span class="text-xs px-2 py-0.5 rounded bg-stone-800 text-stone-300 font-mono">BWE IDE • ARC-56</span>
+      <span class="hidden md:inline-block text-xs text-stone-400">
+        Governing Contract: <strong class="text-stone-200">Science → Interpretation → Art</strong> (Never Collapse Categories)
+      </span>
+    </div>
+    <div class="flex items-center gap-3 text-xs">
+      <a href="/read/parenthood-atlas/01-before-the-child-is-born"
+         class="px-3 py-1.5 rounded bg-stone-800 hover:bg-stone-700 text-stone-200 transition">
+        Open Reader Portal (ARC-55) →
+      </a>
+    </div>
+  </header>
+
+  <!-- 3-Column Epistemic Workbench -->
+  <main class="flex-1 grid grid-cols-1 lg:grid-cols-12 divide-y lg:divide-y-0 lg:divide-x divide-stone-800">
+
+    <!-- COLUMN 1 (4 cols): Live SQLite FTS5 OKF v0.2 Evidence Card Search -->
+    <section class="lg:col-span-4 flex flex-col h-[calc(100vh-57px)]">
+      <div class="p-4 border-b border-stone-800 bg-stone-900/40 space-y-2">
+        <div class="flex items-center justify-between">
+          <h2 class="text-xs font-semibold uppercase tracking-wider text-stone-400">
+            OKF v0.2 Evidence Cards (FTS5)
+          </h2>
+          <span id="search-spinner" class="htmx-indicator text-xs text-amber-400 font-mono">Indexing...</span>
+        </div>
+        <input type="search"
+               name="q"
+               value="{{ query or '' }}"
+               placeholder="Search DOIs, GI designs, claims (e.g. 'folate', '11b-HSD2', 'attention')..."
+               hx-get="/ide/search-cards"
+               hx-trigger="keyup changed delay:200ms, search"
+               hx-target="#card-results"
+               hx-indicator="#search-spinner"
+               class="w-full bg-stone-950 border border-stone-700 focus:border-amber-500 rounded px-3 py-2 text-sm outline-none">
+      </div>
+
+      <!-- Jinja2 Fragment Block for HTMX Swap -->
+      <div id="card-results" class="flex-1 overflow-y-auto p-4 space-y-3">
+        {% block card_results %}
+          {% for card in cards %}
+          <article class="p-3 rounded-lg bg-stone-900 border border-stone-800 hover:border-stone-700 transition space-y-1.5">
+            <div class="flex items-start justify-between gap-2">
+              <div>
+                <span class="text-[11px] font-mono text-amber-400">{{ card.series_slug }} / {{ card.book_slug }}</span>
+                <h3 class="text-sm font-semibold text-stone-100 leading-snug">{{ card.title }}</h3>
+              </div>
+              <button type="button"
+                      @click="copyFootnote('{{ card.card_slug }}')"
+                      class="shrink-0 text-[11px] font-mono px-2 py-1 rounded bg-stone-800 hover:bg-amber-600 hover:text-stone-950 text-stone-300 transition"
+                      title="Copy formal Markdown footnote tag">
+                [^{{ card.card_slug }}]
+              </button>
+            </div>
+            <p class="text-xs text-stone-400 leading-relaxed">{{ card.snippet | safe }}</p>
+          </article>
+          {% else %}
+          <p class="text-xs text-stone-500 italic">No matching OKF v0.2 evidence cards found.</p>
+          {% endfor %}
+        {% endblock %}
+      </div>
+    </section>
+
+    <!-- COLUMN 2 (4 cols): Manuscript Gate & 5-Rule Audit Workbench -->
+    <section class="lg:col-span-4 flex flex-col h-[calc(100vh-57px)]">
+      <div class="p-4 border-b border-stone-800 bg-stone-900/40 space-y-3">
+        <div class="flex items-center justify-between">
+          <h2 class="text-xs font-semibold uppercase tracking-wider text-stone-400">
+            Epistemic Gate & Audit Runner
+          </h2>
+          <span id="audit-spinner" class="htmx-indicator text-xs text-amber-400 font-mono">Running Gate...</span>
+        </div>
+
+        <form hx-post="/ide/audit"
+              hx-target="#audit-output"
+              hx-indicator="#audit-spinner"
+              class="space-y-2.5">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <div>
+              <label class="block text-[11px] text-stone-400 mb-1">Gate Script</label>
+              <select name="script_name" class="w-full bg-stone-950 border border-stone-700 rounded px-2.5 py-1.5 text-xs">
+                <option value="five_rule_check">five_rule_check.py (5-Rule Gate)</option>
+                <option value="audit_manuscript">audit_manuscript.py (Full Audit)</option>
+                <option value="audit_epub">audit_epub.py (EPUB 3 Conformance)</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-[11px] text-stone-400 mb-1">Target Series / Chapter Path</label>
+              <select name="target_path" class="w-full bg-stone-950 border border-stone-700 rounded px-2.5 py-1.5 text-xs font-mono">
+                <option value="series/parenthood-atlas">series/parenthood-atlas (v1.0-rc1)</option>
+                <option value="series/parenthood-atlas/chapters/01-before-the-child-is-born.md">parenthood-atlas/ch01</option>
+                <option value="series/architectures-of-memory/book-01-vanishing-signal">aom/book-01-vanishing-signal</option>
+                <option value="series/architectures-of-memory/book-02-forget-gate">aom/book-02-forget-gate</option>
+                <option value="series/architectures-of-memory/book-03-weight-of-attention">aom/book-03-weight-of-attention</option>
+                <option value="series/architectures-of-memory/book-04-context-window">aom/book-04-context-window</option>
+                <option value="series/architectures-of-memory/book-05-architecture-of-forgetting">aom/book-05-architecture-of-forgetting</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit"
+                  class="w-full py-1.5 bg-amber-600 hover:bg-amber-500 text-stone-950 font-semibold rounded text-xs transition">
+            Execute Epistemic Audit Gate
+          </button>
+        </form>
+      </div>
+
+      <div id="audit-output" class="flex-1 overflow-y-auto p-4 font-mono text-xs text-stone-300 space-y-2">
+        <div class="p-3 rounded bg-stone-900/60 border border-stone-800 text-stone-400">
+          Select a gate script above to verify purged harness scaffolding, calibrated claim verbs, locked DOIs, and formal <code>## Notes</code> footnote migration.
+        </div>
+      </div>
+    </section>
+
+    <!-- COLUMN 3 (4 cols): SSE Audio Synthesis & SHA-256 PCM Cache Stream -->
+    <section class="lg:col-span-4 flex flex-col h-[calc(100vh-57px)]">
+      <div class="p-4 border-b border-stone-800 bg-stone-900/40 space-y-3">
+        <div class="flex items-center justify-between">
+          <h2 class="text-xs font-semibold uppercase tracking-wider text-stone-400">
+            Zero-Drift TTS Synthesis Stream (ARC-62)
+          </h2>
+          <span class="text-[11px] font-mono text-emerald-400">48,000 bytes/sec PCM</span>
+        </div>
+
+        <!-- Fallback Chain Telemetry Badge -->
+        <div class="p-2 rounded bg-stone-950 border border-stone-800 text-[11px] font-mono text-stone-400 leading-relaxed">
+          <span class="text-stone-300 font-semibold">Fallback Chain:</span>
+          2.5-pro-preview-tts → 3.8-flash-tts → 3.1-flash-tts-preview → 2.5-flash-preview-tts
+        </div>
+
+        <div class="flex gap-2">
+          <select x-model="ttsSeries" class="bg-stone-950 border border-stone-700 rounded px-2 py-1.5 text-xs font-mono w-1/2">
+            <option value="parenthood-atlas">parenthood-atlas</option>
+            <option value="architectures-of-memory">architectures-of-memory</option>
+          </select>
+          <select x-model="ttsChapter" class="bg-stone-950 border border-stone-700 rounded px-2 py-1.5 text-xs font-mono w-1/2">
+            <option value="01-before-the-child-is-born">01-before-the-child-is-born</option>
+            <option value="02-first-environment">02-first-environment</option>
+            <option value="03-the-great-transition">03-the-great-transition</option>
+            <option value="04-regulatory-relationship">04-regulatory-relationship</option>
+            <option value="05-becoming-a-mind">05-becoming-a-mind</option>
+            <option value="06-the-mind-in-motion">06-the-mind-in-motion</option>
+            <option value="07-the-birth-of-language">07-the-birth-of-language</option>
+            <option value="08-the-expanding-world">08-the-expanding-world</option>
+            <option value="09-the-emotional-revolution">09-the-emotional-revolution</option>
+            <option value="10-boundaries-behavior">10-boundaries-behavior</option>
+            <option value="11-the-developing-executive">11-the-developing-executive</option>
+            <option value="12-play-imagination">12-play-imagination</option>
+            <option value="13-the-ecology-of-development">13-the-ecology-of-development</option>
+            <option value="14-what-actually-works">14-what-actually-works</option>
+            <option value="15-three-years">15-three-years</option>
+          </select>
+        </div>
+
+        <div class="flex items-center justify-between gap-2">
+          <button type="button"
+                  @click="startTtsStream()"
+                  class="flex-1 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-stone-950 font-semibold rounded text-xs transition">
+            Stream Incremental Synthesis (.cache/tts_pcm/)
+          </button>
+          <button type="button"
+                  @click="clearTtsLog()"
+                  class="px-3 py-1.5 bg-stone-800 hover:bg-stone-700 text-stone-300 rounded text-xs">
+            Clear
+          </button>
+        </div>
+      </div>
+
+      <!-- Dynamic SSE Log Container -->
+      <div id="tts-sse-mount" class="flex-1 overflow-y-auto p-4 bg-stone-950 font-mono text-xs space-y-1">
+        <div class="text-stone-500">
+          Ready. Unchanged paragraphs resolve in &lt;10 ms via SHA-256 PCM disk cache.
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Toast Notification for Copied Footnote Tags -->
+  <div x-show="toastMessage"
+       x-transition
+       class="fixed bottom-5 right-5 px-4 py-2 rounded bg-amber-500 text-stone-950 font-mono text-xs font-semibold shadow-lg">
+    <span x-text="toastMessage"></span>
+  </div>
+
+  <script>
+    function ideWorkbench() {
+      return {
+        ttsSeries: 'parenthood-atlas',
+        ttsChapter: '01-before-the-child-is-born',
+        toastMessage: '',
+        copyFootnote(slug) {
+          const tag = `[^${slug}]`;
+          navigator.clipboard.writeText(tag);
+          this.toastMessage = `Copied ${tag} to clipboard`;
+          setTimeout(() => { this.toastMessage = ''; }, 2200);
+        },
+        startTtsStream() {
+          const mount = document.getElementById('tts-sse-mount');
+          const url = `/ide/tts-stream/${this.ttsSeries}/${this.ttsChapter}`;
+          mount.innerHTML = `
+            <div hx-ext="sse" sse-connect="${url}" class="space-y-1">
+              <div class="text-amber-400 pb-1 border-b border-stone-800">
+                Connecting to ${url} ...
+              </div>
+              <div sse-swap="tts-log" hx-swap="beforeend"></div>
+              <div sse-swap="tts-done" hx-swap="innerHTML" class="pt-2 text-emerald-400"></div>
+            </div>
+          `;
+          htmx.process(mount);
+        },
+        clearTtsLog() {
+          document.getElementById('tts-sse-mount').innerHTML =
+            '<div class="text-stone-500">Log cleared.</div>';
+        }
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!-- bwe/templates/partials/audit_results.html -->
+<div class="space-y-3">
+  <div class="flex items-center justify-between p-2.5 rounded border {{ 'bg-emerald-950/50 border-emerald-700 text-emerald-300' if returncode == 0 else 'bg-rose-950/50 border-rose-700 text-rose-300' }}">
+    <span class="font-semibold">{{ script_name }}.py</span>
+    <span class="px-2 py-0.5 rounded text-[11px] {{ 'bg-emerald-800 text-emerald-100' if returncode == 0 else 'bg-rose-800 text-rose-100' }}">
+      {{ 'PASS (Exit 0)' if returncode == 0 else 'GATE FAILED (Exit ' ~ returncode ~ ')' }}
+    </span>
+  </div>
+
+  {% if stdout %}
+  <pre class="p-3 rounded bg-stone-900 border border-stone-800 overflow-x-auto whitespace-pre-wrap text-stone-200 leading-relaxed">{{ stdout }}</pre>
+  {% endif %}
+
+  {% if stderr %}
+  <pre class="p-3 rounded bg-rose-950/30 border border-rose-900/60 overflow-x-auto whitespace-pre-wrap text-rose-300 leading-relaxed">{{ stderr }}</pre>
+  {% endif %}
+</div>

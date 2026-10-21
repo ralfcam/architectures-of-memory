@@ -1,26 +1,48 @@
-schema_version: "1.1"
-imprint: "Realized Press"
-series_id: "parenthood-atlas"
+# series/parenthood-atlas/series.yaml
+# Canonical BWE Series Manifest — Conforms to ARC-57 (series.schema.json)
+
+slug: parenthood-atlas
 title: "Parenthood: The Atlas"
-subtitle: "A Field Guide to the Emergence of a Human Being (Preconception Through Age Three)"
-author: "Jose Campos"
-linear:
-  team_key: "ARC"
-  team_id: "b507edbe-bdaa-4c47-8bdd-63af48774ebf"
-  project_id: "d480b512-ba3d-45dd-9a5a-3933265cdaae"
-epistemic_contract:
-  okf_version: "0.2"
-  three_lenses:
-    - id: "science"
-      label: "Science"
-      focus: "Observable, replicable, causally triangulated and graded findings"
-    - id: "interpretation"
-      label: "Interpretation"
-      focus: "Systems frameworks, dyadic regulation, and developmental cascades"
-    - id: "art"
-      label: "Art"
-      focus: "Parental judgment, values, individuality, and lived human meaning"
-  target_chapter_words: [2500, 4000]
+subtitle: "What Science Knows, What It Doesn't, and Where Art Begins from Conception to Age Three"
+linear_project_id: P-ARC-17
+version: v1.0-rc1
+
+epistemic_contract: "Science -> Interpretation -> Art"
+governing_principle: "Continuity without determination: reject both Genesis at visibility and Destiny already written."
+
+lenses:
+  - biological
+  - ecological
+  - philosophical
+
+okf_spec:
+  version: "0.2"
+  total_cards: 72
+  stable_cards: 9
+  locked_dois: 127
+  retractions: 0
+  genetically_informed_triangulation: true
+  scaffolding_policy: "Purged harness prose; calibrated verbs in text; all OKF metadata isolated in chapter-local ## Notes."
+
+audio_spec:
+  sample_rate_bytes_per_sec: 48000
+  pcm_cache_dir: ".cache/tts_pcm"
+  total_semantic_blocks: 1144
+  auto_scroll_grace_timer_ms: 5000
+  tts_model_chain:
+    - gemini-2.5-pro-preview-tts
+    - gemini-3.8-flash-tts
+    - gemini-3.1-flash-tts-preview
+    - gemini-2.5-flash-preview-tts
+
+kdp_print_spec:
+  trim_size: "6x9"
+  wrap_cover_dimensions_in: "12.5585x9.2500"
+  spine_width_in: 0.3085
+  spine_width_mm: 7.84
+  interior_pdf: "preliminary/publishing/parenthood-atlas-reader-edition.pdf"
+  cover_pdf: "publishing/parenthood-atlas-kdp-cover.pdf"
+
 marketing_intelligence:
   target_personas:
     - "Evidence-minded expectant and new parents (0–36 months) frustrated by contradictory parenting dogma and ungraded pop-science claims"
@@ -39,19 +61,20 @@ marketing_intelligence:
     - "Owned marketing site search volume & conversion rate on myth-busting Public Evidence Briefs (sleep, feeding, screens, childcare)"
     - "Reader Edition 0.1 parent/clinician cohort feedback scores across chapters 01–15"
     - "Crossref/OpenAlex retraction and replication alerts across the 114 tracked developmental sources"
+
 monetization:
   kdp:
     role: "initial-release-channel-and-expansion-blueprint"
     expansion_channels: ["ingramspark", "apple-books", "kobo", "direct-storefront"]
-    trim_size: "6x9" # 152.4mm x 228.6mm
+    trim_size: "6x9"
     inside_gutter_mm: 20.0
     outside_margin_mm: 15.0
     top_bottom_margin_mm: 18.0
     formats: ["paperback-pdf", "hardcover-pdf", "kindle-epub", "audiobook-wav"]
     bisac_categories:
-      - "FAM034000" # Family & Relationships / Parenting / General
-      - "PSY004000" # Psychology / Developmental / Child
-      - "SCI049000" # Science / Life Sciences / Developmental Biology
+      - "FAM034000"
+      - "PSY004000"
+      - "SCI049000"
     backend_keywords:
       - "evidence based parenting baby toddler first years"
       - "child development neuroscience attachment sleep"
@@ -67,8 +90,70 @@ monetization:
       - "Public Evidence Briefs & Interactive OKF Explorer (top-of-funnel marketing)"
       - "Chapter Preprints & Confounding Audits"
       - "Reader Edition 0.x Slices & Living Evidence Atlas"
+
 books:
-  - id: "parenthood-atlas"
-    title: "Parenthood: The Atlas (Volume I: Preconception Through Age Three)"
-    subtitle: "Science, Interpretation, and the Art of Early Human Development"
-    status: "v0.3-curated"
+  - id: book-01-parenthood-atlas
+    path: "."
+    title: "Parenthood: The Atlas (Conception to Age Three)"
+    status: rc
+    target_words: 42276
+    min_okf_cards: 72
+    total_footnotes: 117
+    movements:
+      - id: movement-1
+        title: "Movement I: The Reader's Contract: Three Categories That Must Not Collapse"
+      - id: movement-2
+        title: "Movement II: The Preconception Substrate: Gametes, Age, and Epigenetics"
+      - id: movement-3
+        title: "Movement III: Morphogenesis and the Discipline of Timing"
+      - id: movement-4
+        title: "Movement IV: The Mediated Ecology: Placental Buffers and Stress Triangulation"
+      - id: movement-5
+        title: "Movement V: The Co-Developing Caregiver and the Return"
+    chapters:
+      - slug: 01-before-the-child-is-born
+        title: "Before the Child Is Born"
+        audio_blocks: 55
+        footnotes_migrated: true
+      - slug: 02-first-environment
+        title: "The First Environment"
+        footnotes_migrated: true
+      - slug: 03-the-great-transition
+        title: "The Great Transition"
+        footnotes_migrated: true
+      - slug: 04-regulatory-relationship
+        title: "The Regulatory Relationship"
+        footnotes_migrated: true
+      - slug: 05-becoming-a-mind
+        title: "Becoming a Mind"
+        footnotes_migrated: true
+      - slug: 06-the-mind-in-motion
+        title: "The Mind in Motion"
+        footnotes_migrated: true
+      - slug: 07-the-birth-of-language
+        title: "The Birth of Language"
+        footnotes_migrated: true
+      - slug: 08-the-expanding-world
+        title: "The Expanding World"
+        footnotes_migrated: true
+      - slug: 09-the-emotional-revolution
+        title: "The Emotional Revolution"
+        footnotes_migrated: true
+      - slug: 10-boundaries-behavior
+        title: "Boundaries and Behavior"
+        footnotes_migrated: true
+      - slug: 11-the-developing-executive
+        title: "The Developing Executive"
+        footnotes_migrated: true
+      - slug: 12-play-imagination
+        title: "Play and Imagination"
+        footnotes_migrated: true
+      - slug: 13-the-ecology-of-development
+        title: "The Ecology of Development"
+        footnotes_migrated: true
+      - slug: 14-what-actually-works
+        title: "What Actually Works"
+        footnotes_migrated: true
+      - slug: 15-three-years
+        title: "Three Years: What Has Been Built"
+        footnotes_migrated: true
