@@ -18,10 +18,13 @@ import argparse
 import html
 import json
 import re
+import shutil
 import sys
 from pathlib import Path
 
 import markdown
+import bs4
+from audio_sync_utils import HEADING_PAUSE_WORDS, load_timings_manifest
 from merge_book_chapters import iter_chapter_files, repo_root, resolve_book_path, strip_yaml_frontmatter, transform_audiobook
 
 WPM_SPEAKING_RATE = 150
@@ -39,7 +42,13 @@ def extract_chapter_title(md_path: Path) -> str:
     return md_path.stem.replace("-", " ").title()
 
 
-def extract_clean_text(md_path: Path) -> str:
+def format_time_sec(sec: float) -> str:
+    m = int(sec // 60)
+    s = int(sec % 60)
+    return f"{m}:{s:02d}"
+
+
+def extract_clean_text(md_path: Path, timings_path: Path | None = None) -> str:
     content = md_path.read_text(encoding="utf-8")
     body = strip_yaml_frontmatter(content)
     # Filter out non-prose internal domain markers
@@ -54,38 +63,96 @@ def extract_clean_text(md_path: Path) -> str:
         clean_md,
         extensions=["extra", "smarty", "sane_lists"],
     )
-    # Tag title (h1), subheadings (h2, h3), and paragraphs with calibrated word-proportional pacing segments
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(html_raw, "html.parser")
-    segments = soup.find_all(["h1", "h2", "h3", "p"])
 
-    # Vocal cadence weighting: titles and section headers carry a natural breathing pause before the text
-    HEADING_PAUSE_WORDS = {"h1": 3, "h2": 2, "h3": 2}
+    # Mark all footnote links & footnote definitions as non-spoken visual apparatus
+    for sup in soup.find_all(lambda t: t.name == "sup" and (t.get("id", "").startswith("fnref") or t.find("a", class_="footnote-ref"))):
+        sup["data-spoken"] = "false"
+        classes = sup.get("class", []) or []
+        sup["class"] = classes + ["non-spoken"]
+    for fn_div in soup.find_all("div", class_="footnote"):
+        fn_div["data-spoken"] = "false"
+        classes = fn_div.get("class", []) or []
+        fn_div["class"] = classes + ["non-spoken"]
 
-    def segment_weight(el) -> int:
-        base_words = len(el.get_text().split())
-        if base_words == 0:
-            return 0
-        pause_bonus = HEADING_PAUSE_WORDS.get(el.name, 0)
-        return base_words + pause_bonus
-
-    total_weight = sum(segment_weight(s) for s in segments) or 1
-
-    cum_weight = 0
-    for idx, s in enumerate(segments):
-        w = segment_weight(s)
-        if w == 0:
+    # Traverse document in structural order for semantic spoken elements
+    elements = []
+    for el in soup.children:
+        if not isinstance(el, bs4.Tag):
             continue
-        start_ratio = round(cum_weight / total_weight, 4)
-        cum_weight += w
-        end_ratio = round(cum_weight / total_weight, 4)
-        existing_classes = s.get("class", []) or []
-        s["class"] = existing_classes + ["sync-segment"]
-        s["data-start-ratio"] = str(start_ratio)
-        s["data-end-ratio"] = str(end_ratio)
-        s["data-seg-idx"] = str(idx)
-        s["title"] = f"Tap to jump audio to ~{start_ratio*100:.1f}%"
-        s["title"] = f"Tap to jump audio to ~{start_ratio*100:.1f}%"
+        if el.name in ["h1", "h2", "h3", "p"]:
+            elements.append(el)
+        elif el.name in ["ul", "ol"]:
+            for li in el.find_all("li", recursive=False):
+                elements.append(li)
+        elif el.name == "table":
+            elements.append(el)
+        elif el.name == "blockquote":
+            p_children = el.find_all("p")
+            if p_children:
+                for p_tag in p_children:
+                    elements.append(p_tag)
+            else:
+                elements.append(el)
+
+    manifest = load_timings_manifest(timings_path) if timings_path else None
+    if manifest and manifest.get("blocks"):
+        blocks = manifest["blocks"]
+        for idx, el in enumerate(elements):
+            if idx < len(blocks):
+                b = blocks[idx]
+                el["id"] = b["id"]
+                classes = el.get("class", []) or []
+                el["class"] = classes + ["sync-segment"]
+                el["data-start-time"] = f"{b['start_sec']:.2f}"
+                el["data-end-time"] = f"{b['end_sec']:.2f}"
+                el["data-start-ratio"] = f"{b['start_ratio']:.4f}"
+                el["data-end-ratio"] = f"{b['end_ratio']:.4f}"
+                el["data-chunk-id"] = str(b.get("chunk_id", 1))
+                el["data-seg-idx"] = str(idx)
+                el["title"] = f"Tap to jump audio to {format_time_sec(b['start_sec'])}"
+            else:
+                el["data-spoken"] = "false"
+                classes = el.get("class", []) or []
+                el["class"] = classes + ["non-spoken"]
+    else:
+        # Fallback to calibrated word-weight model
+        spoken_cutoff = len(elements)
+        for i, el in enumerate(elements):
+            if el.name in ["h2", "h3"] and el.get_text().strip().lower() in [
+                "notes", "sources", "further reading", "linked evidence cards"
+            ]:
+                spoken_cutoff = i
+                break
+
+        def segment_weight(el) -> int:
+            base_words = len(el.get_text().split())
+            if base_words == 0:
+                return 0
+            pause_bonus = HEADING_PAUSE_WORDS.get(el.name, 0)
+            return base_words + pause_bonus
+
+        spoken_elements = elements[:spoken_cutoff]
+        total_weight = sum(segment_weight(s) for s in spoken_elements) or 1
+
+        cum_weight = 0
+        for idx, s in enumerate(elements):
+            if idx < spoken_cutoff:
+                w = segment_weight(s)
+                start_ratio = round(cum_weight / total_weight, 4)
+                cum_weight += w
+                end_ratio = round(cum_weight / total_weight, 4)
+                classes = s.get("class", []) or []
+                s["class"] = classes + ["sync-segment"]
+                s["data-start-ratio"] = str(start_ratio)
+                s["data-end-ratio"] = str(end_ratio)
+                s["data-seg-idx"] = str(idx)
+                s["title"] = f"Tap to jump audio to ~{start_ratio*100:.1f}%"
+            else:
+                s["data-spoken"] = "false"
+                classes = s.get("class", []) or []
+                s["class"] = classes + ["non-spoken"]
 
     return str(soup)
 
@@ -129,7 +196,8 @@ def collect_book_data(book_path: Path, series_title: str, series_subtitle: str, 
         has_wav = (audio_dir / f"{stem}.wav").exists()
         online_url = f"https://github.com/{repo}/releases/download/{release_tag}/{stem}.mp3"
         local_url = f"{stem}.mp3" if has_mp3 else f"{stem}.wav"
-        clean_html = extract_clean_text(f)
+        timings_file = audio_dir / f"{stem}.timings.json"
+        clean_html = extract_clean_text(f, timings_file)
 
         chapters.append({
             "num": idx,
@@ -139,6 +207,7 @@ def collect_book_data(book_path: Path, series_title: str, series_subtitle: str, 
             "minutes": f"{words / WPM_SPEAKING_RATE:.1f}",
             "hasLocalMp3": has_mp3,
             "hasLocalWav": has_wav,
+            "hasTimings": timings_file.exists(),
             "onlineUrl": online_url,
             "localUrl": local_url,
             "transcriptHtml": clean_html,
@@ -872,6 +941,32 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
       padding-top: 8px;
       padding-bottom: 8px;
       margin-top: 20px;
+    }}
+    .reader-pane li.sync-segment {{
+      padding: 4px 10px;
+      margin-left: -10px;
+      border-radius: 4px;
+      border-left: 3px solid transparent;
+      transition: background 0.2s ease, border-color 0.2s ease;
+    }}
+    .reader-pane li.sync-segment.active-segment {{
+      background: rgba(210, 153, 34, 0.14) !important;
+      border-left: 3px solid var(--gold) !important;
+      color: #fff !important;
+    }}
+    .reader-pane table.sync-segment {{
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      transition: all 0.25s ease;
+    }}
+    .reader-pane table.sync-segment.active-segment {{
+      border: 2px solid var(--gold) !important;
+      background: rgba(210, 153, 34, 0.05);
+      box-shadow: 0 0 24px rgba(210, 153, 34, 0.2);
+    }}
+    .non-spoken,
+    [data-spoken="false"] {{
+      opacity: 0.85;
     }}
     .sync-indicator {{
       display: inline-flex;
@@ -1616,14 +1711,26 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
     window.addEventListener('wheel', pauseUserScroll, {{ passive: true }});
     window.addEventListener('touchmove', pauseUserScroll, {{ passive: true }});
 
-    function updateAudioSyncHighlight(ratio) {{
+    function updateAudioSyncHighlight(currentTime, duration) {{
       const segments = document.querySelectorAll('.sync-segment');
       if (!segments.length) return;
+      const hasTimings = segments[0].hasAttribute('data-start-time');
+      const ratio = duration > 0 ? (currentTime / duration) : 0;
       let active = null;
+
       segments.forEach(seg => {{
-        const start = parseFloat(seg.getAttribute('data-start-ratio'));
-        const end = parseFloat(seg.getAttribute('data-end-ratio'));
-        if (ratio >= start && ratio < end) {{
+        let isActive = false;
+        if (hasTimings && seg.hasAttribute('data-start-time')) {{
+          const start = parseFloat(seg.getAttribute('data-start-time'));
+          const end = parseFloat(seg.getAttribute('data-end-time'));
+          isActive = (currentTime >= start && currentTime < end);
+        }} else {{
+          const startRatio = parseFloat(seg.getAttribute('data-start-ratio'));
+          const endRatio = parseFloat(seg.getAttribute('data-end-ratio'));
+          isActive = (ratio >= startRatio && ratio < endRatio);
+        }}
+
+        if (isActive) {{
           active = seg;
           seg.classList.add('active-segment');
         }} else {{
@@ -1640,11 +1747,21 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
     document.addEventListener('click', (e) => {{
       const seg = e.target.closest('.sync-segment');
       if (seg && currentView === 'reader') {{
-        const startRatio = parseFloat(seg.getAttribute('data-start-ratio'));
-        if (audio.duration && !isNaN(startRatio)) {{
-          audio.currentTime = Math.max(0, Math.min(audio.duration, startRatio * audio.duration));
-          if (audio.paused) {{
-            audio.play().catch(err => console.log('Autoplay on tap handled:', err));
+        if (seg.hasAttribute('data-start-time')) {{
+          const startTime = parseFloat(seg.getAttribute('data-start-time'));
+          if (!isNaN(startTime)) {{
+            audio.currentTime = Math.max(0, startTime);
+            if (audio.paused) {{
+              audio.play().catch(err => console.log('Autoplay on tap handled:', err));
+            }}
+          }}
+        }} else {{
+          const startRatio = parseFloat(seg.getAttribute('data-start-ratio'));
+          if (audio.duration && !isNaN(startRatio)) {{
+            audio.currentTime = Math.max(0, Math.min(audio.duration, startRatio * audio.duration));
+            if (audio.paused) {{
+              audio.play().catch(err => console.log('Autoplay on tap handled:', err));
+            }}
           }}
         }}
       }}
@@ -1656,7 +1773,7 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
       if (audio.duration) {{
         barFill.style.width = `${{(audio.currentTime / audio.duration) * 100}}%`;
         if (currentView === 'reader') {{
-          updateAudioSyncHighlight(audio.currentTime / audio.duration);
+          updateAudioSyncHighlight(audio.currentTime, audio.duration);
         }}
       }}
     }});
@@ -1700,6 +1817,13 @@ def main() -> None:
         docs_dir.mkdir(parents=True, exist_ok=True)
         docs_file = docs_dir / "index.html"
         docs_file.write_text(portal_html, encoding="utf-8")
+
+        # Copy any generated audio files into site directory for direct local streaming
+        for audio_mp3 in root.glob("series/**/audiobook/*.mp3"):
+            dest = out_dir / audio_mp3.name
+            if not dest.exists() or audio_mp3.stat().st_mtime > dest.stat().st_mtime:
+                shutil.copy2(audio_mp3, dest)
+                print(f"[imprint] Synced audio: {audio_mp3.name} -> {out_dir.name}/")
 
         print(f"[imprint] Rendered Mobile-First Centralized Imprint Portal across {len(catalog)} volumes:")
         for b in catalog:

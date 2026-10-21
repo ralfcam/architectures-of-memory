@@ -2,8 +2,10 @@
 """Gemini TTS / Audiobook Synthesis Pipeline for Multi-Series Editorial Monorepo.
 
 Transforms book chapters into clean spoken transcripts (stripping YAML frontmatter,
-footnotes, Sources, and Notes), chunks by section/paragraph, estimates speaking
-duration (--dry-run), and synthesizes 24kHz WAV audio files via Gemini 2.5 TTS.
+footnotes, Sources, and Notes), segments into semantic blocks, packs whole blocks
+into TTS chunks without splitting, estimates speaking duration (--dry-run),
+synthesizes 24kHz WAV audio files via Gemini 2.5 TTS, encodes MP3s, and outputs
+zero-drift ground-truth audio timing sidecars (*.timings.json).
 """
 from __future__ import annotations
 
@@ -11,7 +13,6 @@ import argparse
 import base64
 import json
 import os
-import re
 import shutil
 import subprocess
 import sys
@@ -19,40 +20,16 @@ import urllib.request
 import wave
 from pathlib import Path
 
-from merge_book_chapters import iter_chapter_files, repo_root, resolve_book_path, transform_audiobook
-
-WPM_SPEAKING_RATE = 150  # Standard nonfiction audiobook narration pace
-
-
-def clean_markdown_for_speech(md_text: str) -> str:
-    text = transform_audiobook(md_text)
-    text = re.sub(r"^---+\s*$", "", text, flags=re.MULTILINE)
-    text = re.sub(r"^#\s+(.+)$", r"\1.\n", text, flags=re.MULTILINE)
-    text = re.sub(r"^##+\s+(.+)$", r"\n\1.\n", text, flags=re.MULTILINE)
-    text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
-    text = re.sub(r"\*([^*]+)\*", r"\1", text)
-    text = re.sub(r"`([^`]+)`", r"\1", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
-
-
-def chunk_text(text: str, max_chars: int = 3500) -> list[str]:
-    paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
-    chunks: list[str] = []
-    current: list[str] = []
-    current_len = 0
-
-    for p in paragraphs:
-        if current_len + len(p) + 2 > max_chars and current:
-            chunks.append("\n\n".join(current))
-            current = [p]
-            current_len = len(p)
-        else:
-            current.append(p)
-            current_len += len(p) + 2
-    if current:
-        chunks.append("\n\n".join(current))
-    return chunks
+from audio_sync_utils import (
+    BYTES_PER_SECOND,
+    SAMPLE_RATE,
+    WPM_SPEAKING_RATE,
+    build_timings_manifest,
+    extract_semantic_blocks,
+    pack_semantic_blocks,
+    save_timings_manifest,
+)
+from merge_book_chapters import iter_chapter_files, repo_root, resolve_book_path
 
 
 def synthesize_chunk_pcm(text: str, voice: str, model: str, api_key: str) -> bytes:
@@ -100,7 +77,7 @@ def synthesize_chunk_pcm(text: str, voice: str, model: str, api_key: str) -> byt
     raise RuntimeError("No inlineData audio returned in Gemini response.")
 
 
-def write_wav(out_path: Path, pcm_bytes: bytes, sample_rate: int = 24000) -> None:
+def write_wav(out_path: Path, pcm_bytes: bytes, sample_rate: int = SAMPLE_RATE) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with wave.open(str(out_path), "wb") as wf:
         wf.setnchannels(1)
@@ -124,13 +101,13 @@ def load_dotenv(root: Path) -> None:
 def main() -> None:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    parser = argparse.ArgumentParser(description="Gemini TTS audiobook generator for both series.")
+    parser = argparse.ArgumentParser(description="Gemini TTS audiobook generator with zero-drift timing sidecars.")
     parser.add_argument("book", type=Path, help="Book directory (e.g. series/architectures-of-memory/book-01-vanishing-signal or series/parenthood-atlas)")
     parser.add_argument("--chapter", default=None, help="Filter to a specific chapter prefix (e.g. '01' or '07')")
     parser.add_argument("--voice", default="Kore", help="Gemini prebuilt voice name (default: Kore)")
     parser.add_argument("--model", default="gemini-2.5-flash-preview-tts", help="Gemini TTS model")
     parser.add_argument("--max-chars", type=int, default=3500, help="Max characters per TTS request chunk")
-    parser.add_argument("--dry-run", action="store_true", help="Estimate duration & chunk counts without calling API")
+    parser.add_argument("--dry-run", action="store_true", help="Estimate duration, blocks & chunk counts without calling API")
     parser.add_argument("--encode-mp3-only", action="store_true", help="Encode existing WAVs in audiobook/ to MP3 without calling Gemini")
     args = parser.parse_args()
 
@@ -174,26 +151,29 @@ def main() -> None:
         sys.exit(1)
 
     total_words = 0
+    total_blocks = 0
     total_chunks = 0
-    rows: list[tuple[str, int, int, float]] = []
+    rows: list[tuple[str, int, int, int, float]] = []
 
     for f in md_files:
-        spoken = clean_markdown_for_speech(f.read_text(encoding="utf-8"))
-        words = len(spoken.split())
-        chunks = chunk_text(spoken, max_chars=args.max_chars)
+        content = f.read_text(encoding="utf-8")
+        blocks = extract_semantic_blocks(content)
+        chunks = pack_semantic_blocks(blocks, max_chars=args.max_chars)
+        words = sum(b["words"] for b in blocks)
         minutes = words / WPM_SPEAKING_RATE
         total_words += words
+        total_blocks += len(blocks)
         total_chunks += len(chunks)
-        rows.append((f.name, words, len(chunks), minutes))
+        rows.append((f.name, words, len(blocks), len(chunks), minutes))
 
     print(f"# Audiobook TTS Plan — {book_path.name} (Voice: {args.voice})")
-    print(f"{'Chapter':<44} {'Words':>7} {'Chunks':>7} {'Est. Min':>9}")
-    print("-" * 71)
-    for name, words, n_chunks, mins in rows:
-        print(f"{name:<44} {words:>7,d} {n_chunks:>7,d} {mins:>8.1f}m")
-    print("-" * 71)
+    print(f"{'Chapter':<38} {'Words':>7} {'Blocks':>7} {'Chunks':>7} {'Est. Min':>9}")
+    print("-" * 73)
+    for name, words, n_blocks, n_chunks, mins in rows:
+        print(f"{name:<38} {words:>7,d} {n_blocks:>7,d} {n_chunks:>7,d} {mins:>8.1f}m")
+    print("-" * 73)
     total_min = total_words / WPM_SPEAKING_RATE
-    print(f"{'TOTAL':<44} {total_words:>7,d} {total_chunks:>7,d} {total_min:>8.1f}m ({total_min / 60:.2f} hrs)")
+    print(f"{'TOTAL':<38} {total_words:>7,d} {total_blocks:>7,d} {total_chunks:>7,d} {total_min:>8.1f}m ({total_min / 60:.2f} hrs)")
 
     if args.dry_run:
         return
@@ -205,15 +185,32 @@ def main() -> None:
 
     ffmpeg_bin = shutil.which("ffmpeg")
     for f in md_files:
-        spoken = clean_markdown_for_speech(f.read_text(encoding="utf-8"))
-        chunks = chunk_text(spoken, max_chars=args.max_chars)
+        content = f.read_text(encoding="utf-8")
+        blocks = extract_semantic_blocks(content)
+        chunks = pack_semantic_blocks(blocks, max_chars=args.max_chars)
         pcm_all = bytearray()
-        for idx, ch_text in enumerate(chunks, 1):
-            print(f"Synthesizing {f.stem} [chunk {idx}/{len(chunks)}]...")
-            pcm_all.extend(synthesize_chunk_pcm(ch_text, voice=args.voice, model=args.model, api_key=api_key))
+        chunk_durations_sec: list[float] = []
+        chunk_pcm_bytes: list[int] = []
+
+        for idx, chunk in enumerate(chunks, 1):
+            print(f"Synthesizing {f.stem} [chunk {idx}/{len(chunks)}] ({chunk['total_words']} words, {len(chunk['blocks'])} blocks)...")
+            pcm = synthesize_chunk_pcm(chunk["spoken_text"], voice=args.voice, model=args.model, api_key=api_key)
+            dur = len(pcm) / BYTES_PER_SECOND
+            chunk_durations_sec.append(dur)
+            chunk_pcm_bytes.append(len(pcm))
+            pcm_all.extend(pcm)
+            print(f"  -> Received {len(pcm):,d} PCM bytes ({dur:.2f}s narration)")
+
         wav_path = out_dir / f"{f.stem}.wav"
         write_wav(wav_path, bytes(pcm_all))
-        print(f"Wrote {wav_path}")
+        print(f"Wrote master WAV: {wav_path}")
+
+        # Build and save zero-drift timings sidecar JSON
+        manifest = build_timings_manifest(f.stem, chunks, chunk_durations_sec, chunk_pcm_bytes)
+        timings_path = out_dir / f"{f.stem}.timings.json"
+        save_timings_manifest(manifest, timings_path)
+        print(f"Wrote zero-drift ground-truth timings sidecar: {timings_path}")
+
         if ffmpeg_bin:
             mp3_path = out_dir / f"{f.stem}.mp3"
             res = subprocess.run(
@@ -223,6 +220,7 @@ def main() -> None:
             if res.returncode == 0:
                 print(f"Wrote web-streamable MP3: {mp3_path}")
 
+    # Re-render audio player
     render_script = root / "scripts" / "render_audiobook_player.py"
     if render_script.exists():
         subprocess.run([sys.executable, str(render_script), str(book_path)])

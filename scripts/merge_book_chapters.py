@@ -10,7 +10,7 @@ from datetime import date
 from pathlib import Path
 
 INLINE_FOOTNOTE_RE = re.compile(r"\[\^[^^\]]+\]")
-NOTES_HEADING_RE = re.compile(r"^## (?:Notes|Sources|Further Reading)\s*$", re.MULTILINE)
+NOTES_HEADING_RE = re.compile(r"^## (?:Notes|Sources|Further Reading|Linked evidence cards)\s*$", re.MULTILINE)
 
 
 def repo_root() -> Path:
