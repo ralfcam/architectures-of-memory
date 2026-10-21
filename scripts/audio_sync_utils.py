@@ -28,6 +28,7 @@ HEADING_PAUSE_WORDS = {
     "h2": 2,
     "h3": 2,
     "li": 1,
+    "tr": 2,
 }
 
 

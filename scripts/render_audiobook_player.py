@@ -192,10 +192,13 @@ def collect_book_data(book_path: Path, series_title: str, series_subtitle: str, 
         words = len(content.split())
         title = extract_chapter_title(f)
         stem = f.stem
-        has_mp3 = (audio_dir / f"{stem}.mp3").exists()
-        has_wav = (audio_dir / f"{stem}.wav").exists()
+        mp3_file = audio_dir / f"{stem}.mp3"
+        wav_file = audio_dir / f"{stem}.wav"
+        has_mp3 = mp3_file.exists()
+        has_wav = wav_file.exists()
+        mtime = int(mp3_file.stat().st_mtime) if has_mp3 else (int(wav_file.stat().st_mtime) if has_wav else 0)
         online_url = f"https://github.com/{repo}/releases/download/{release_tag}/{stem}.mp3"
-        local_url = f"{stem}.mp3" if has_mp3 else f"{stem}.wav"
+        local_url = f"{stem}.mp3?v={mtime}" if has_mp3 else (f"{stem}.wav?v={mtime}" if has_wav else f"{stem}.mp3")
         timings_file = audio_dir / f"{stem}.timings.json"
         clean_html = extract_clean_text(f, timings_file)
 
@@ -954,6 +957,20 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
       border-left: 3px solid var(--gold) !important;
       color: #fff !important;
     }}
+    .reader-pane tr.sync-segment {{
+      cursor: pointer;
+      transition: background 0.2s ease, border-color 0.2s ease;
+    }}
+    .reader-pane tr.sync-segment:hover {{
+      background: rgba(255, 255, 255, 0.05);
+    }}
+    .reader-pane tr.sync-segment.active-segment {{
+      background: rgba(210, 153, 34, 0.18) !important;
+      color: #fff !important;
+    }}
+    .reader-pane tr.sync-segment.active-segment td:first-child {{
+      border-left: 3px solid var(--gold) !important;
+    }}
     .reader-pane table.sync-segment {{
       border: 1px solid var(--border);
       border-radius: 8px;
@@ -1421,6 +1438,20 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
     const barFill = document.getElementById('bar-fill');
 
     function init() {{
+      const isLocalHost = ['localhost', '127.0.0.1'].includes(window.location.hostname) ||
+                          window.location.hostname.startsWith('192.168.') ||
+                          window.location.hostname.startsWith('10.') ||
+                          window.location.protocol === 'file:';
+      if (isLocalHost) {{
+        streamMode = 'local';
+        const btnLocal = document.getElementById('btn-src-local');
+        const btnOnline = document.getElementById('btn-src-online');
+        if (btnLocal && btnOnline) {{
+          btnLocal.classList.add('active');
+          btnOnline.classList.remove('active');
+        }}
+      }}
+
       const pIdx = catalog.findIndex(b => b.id === 'parenthood-atlas');
       if (pIdx >= 0) currentBookIdx = pIdx;
 
@@ -1745,6 +1776,7 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
 
     // Bidirectional seek: Tap any text segment to jump audio to that exact moment
     document.addEventListener('click', (e) => {{
+      if (e.target.closest('a') || e.target.closest('button')) return;
       const seg = e.target.closest('.sync-segment');
       if (seg && currentView === 'reader') {{
         if (seg.hasAttribute('data-start-time')) {{

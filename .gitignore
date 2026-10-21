@@ -18,5 +18,6 @@ site/*.mp3
 # Python bytecode & transient hook state
 __pycache__/
 *.py[cod]
+.cache/
 .agents/hooks/.pending_notice.txt
 scratch/

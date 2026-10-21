@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import hashlib
 import json
 import os
 import shutil
@@ -34,7 +35,7 @@ from audio_sync_utils import (
 from merge_book_chapters import iter_chapter_files, repo_root, resolve_book_path
 
 
-def synthesize_chunk_pcm(text: str, voice: str, model: str, api_key: str, max_retries: int = 5) -> bytes:
+def synthesize_chunk_pcm(text: str, voice: str, model: str, api_key: str, max_retries: int = 8) -> bytes:
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     payload = {
         "contents": [
@@ -81,8 +82,8 @@ def synthesize_chunk_pcm(text: str, voice: str, model: str, api_key: str, max_re
             raise RuntimeError("No inlineData audio returned in Gemini response.")
         except urllib.error.HTTPError as e:
             if e.code in [429, 500, 503] and attempt < max_retries - 1:
-                wait_s = (2 ** attempt) + 1.0
-                print(f"    [HTTP {e.code}] Rate limit hit. Backing off {wait_s:.1f}s before retry...")
+                wait_s = max(5.0, float(2 ** (attempt + 1)))
+                print(f"    [HTTP {e.code}] Rate limit hit. Backing off {wait_s:.1f}s before retry (attempt {attempt+1}/{max_retries})...")
                 time.sleep(wait_s)
                 continue
             raise
@@ -198,6 +199,9 @@ def main() -> None:
         print("\nerror: set GEMINI_API_KEY in environment to synthesize audio (or use --dry-run).", file=sys.stderr)
         sys.exit(1)
 
+    cache_dir = root / ".cache" / "tts_pcm"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+
     ffmpeg_bin = shutil.which("ffmpeg")
     for f in md_files:
         content = f.read_text(encoding="utf-8")
@@ -211,14 +215,27 @@ def main() -> None:
             block = chunk["blocks"][0] if chunk["blocks"] else None
             tag = block["tag"] if block else "p"
             preview = chunk["spoken_text"][:50].replace("\n", " ")
-            print(f"Synthesizing {f.stem} [{idx}/{len(chunks)}] <{tag}> ({chunk['total_words']}w): {repr(preview)}...")
-            pcm = synthesize_chunk_pcm(chunk["spoken_text"], voice=args.voice, model=args.model, api_key=api_key)
+            spoken_text = chunk["spoken_text"]
+
+            cache_key = hashlib.sha256(f"{args.voice}:{args.model}:{spoken_text}".encode("utf-8")).hexdigest()
+            cache_file = cache_dir / f"{cache_key}.pcm"
+
+            if cache_file.exists():
+                print(f"Loaded cached {f.stem} [{idx}/{len(chunks)}] <{tag}> ({chunk['total_words']}w): {repr(preview)}...", flush=True)
+                pcm = cache_file.read_bytes()
+            else:
+                print(f"Synthesizing {f.stem} [{idx}/{len(chunks)}] <{tag}> ({chunk['total_words']}w): {repr(preview)}...", flush=True)
+                pcm = synthesize_chunk_pcm(spoken_text, voice=args.voice, model=args.model, api_key=api_key)
+                cache_file.write_bytes(pcm)
+                time.sleep(1.0)
 
             # Insert calibrated natural breath pause after block
             if tag in ["h1", "h2", "h3"]:
                 pause_sec = 0.45
             elif tag == "li":
                 pause_sec = 0.20
+            elif tag == "tr":
+                pause_sec = 0.35
             else:
                 pause_sec = 0.30
 
