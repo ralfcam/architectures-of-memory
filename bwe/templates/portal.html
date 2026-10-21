@@ -16,7 +16,11 @@
   <main class="lg:col-span-8 space-y-4" @wheel="pauseAutoScroll()" @touchmove="pauseAutoScroll()">
     <header class="border-b border-stone-800 pb-4 mb-6 flex items-center justify-between">
       <div>
-        <a href="/ide" class="text-xs text-amber-400 hover:text-amber-300 font-mono">← Return to Epistemic IDE</a>
+        <div class="flex items-center gap-3">
+          <a href="/ide" class="text-xs text-amber-400 hover:text-amber-300 font-mono">← Epistemic IDE</a>
+          <span class="text-stone-600">|</span>
+          <a href="/site" class="text-xs text-stone-400 hover:text-stone-300 font-mono">Imprint Site (/site)</a>
+        </div>
         <h1 class="text-2xl font-serif font-bold text-stone-100 mt-1 capitalize">{{ chapter_slug.replace('-', ' ') }}</h1>
         <p class="text-xs text-stone-400 font-mono mt-0.5">{{ series_slug }}</p>
       </div>

@@ -14,18 +14,21 @@ from bwe.db import get_db, init_db
 from bwe.schema import validate_series_yaml
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+BWE_DIR = Path(__file__).resolve().parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 SERIES_DIR = REPO_ROOT / "series"
+SITE_DIR = BWE_DIR / "site" if (BWE_DIR / "site").exists() else REPO_ROOT / "site"
 
 app = FastAPI(title="Realized Press — BWE & Serial Portal (P-ARC-18)")
 templates = Jinja2Blocks(directory=str(REPO_ROOT / "bwe" / "templates"))
 
-# Mount existing static reader and audiobook assets
+# Mount existing static reader, site, and audiobook assets
 if (REPO_ROOT / "docs").exists():
     app.mount("/docs-static", StaticFiles(directory=str(REPO_ROOT / "docs")), name="docs")
 
-if (REPO_ROOT / "site").exists():
-    app.mount("/site-static", StaticFiles(directory=str(REPO_ROOT / "site")), name="site")
+if SITE_DIR.exists():
+    app.mount("/site", StaticFiles(directory=str(SITE_DIR), html=True), name="site")
+    app.mount("/site-static", StaticFiles(directory=str(SITE_DIR)), name="site-static")
 
 
 @app.on_event("startup")

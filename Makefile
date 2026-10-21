@@ -87,10 +87,10 @@ audiobook-player:
 	$(PYTHON) scripts/render_audiobook_player.py $(BOOK)
 
 site:
-	$(PYTHON) scripts/render_audiobook_player.py --imprint
+	$(PYTHON) scripts/render_audiobook_player.py --imprint --output bwe/site
 
 serve:
-	$(PYTHON) -m http.server 8000 --directory site
+	$(PYTHON) -m http.server 8000 --directory bwe/site
 
 new-series:
 	$(PYTHON) scripts/init_series.py --series $(SERIES) --title "$(TITLE)" --lenses "$(LENSES)" $(NewBookArg)

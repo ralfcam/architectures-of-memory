@@ -14,6 +14,9 @@
 site/*.pdf
 site/*.wav
 site/*.mp3
+bwe/site/*.pdf
+bwe/site/*.wav
+bwe/site/*.mp3
 
 # Python bytecode & transient hook state
 __pycache__/
