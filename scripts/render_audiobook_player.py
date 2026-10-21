@@ -54,25 +54,37 @@ def extract_clean_text(md_path: Path) -> str:
         clean_md,
         extensions=["extra", "smarty", "sane_lists"],
     )
-    # Tag paragraphs, subheadings, and blockquotes with word-proportional pacing segments
+    # Tag title (h1), subheadings (h2, h3), and paragraphs with calibrated word-proportional pacing segments
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(html_raw, "html.parser")
-    segments = soup.find_all(["p", "h2", "h3"])
-    total_words = sum(len(s.get_text().split()) for s in segments) or 1
+    segments = soup.find_all(["h1", "h2", "h3", "p"])
 
-    cum_words = 0
+    # Vocal cadence weighting: titles and section headers carry a natural breathing pause before the text
+    HEADING_PAUSE_WORDS = {"h1": 3, "h2": 2, "h3": 2}
+
+    def segment_weight(el) -> int:
+        base_words = len(el.get_text().split())
+        if base_words == 0:
+            return 0
+        pause_bonus = HEADING_PAUSE_WORDS.get(el.name, 0)
+        return base_words + pause_bonus
+
+    total_weight = sum(segment_weight(s) for s in segments) or 1
+
+    cum_weight = 0
     for idx, s in enumerate(segments):
-        words = len(s.get_text().split())
-        if words == 0:
+        w = segment_weight(s)
+        if w == 0:
             continue
-        start_ratio = round(cum_words / total_words, 4)
-        cum_words += words
-        end_ratio = round(cum_words / total_words, 4)
+        start_ratio = round(cum_weight / total_weight, 4)
+        cum_weight += w
+        end_ratio = round(cum_weight / total_weight, 4)
         existing_classes = s.get("class", []) or []
         s["class"] = existing_classes + ["sync-segment"]
         s["data-start-ratio"] = str(start_ratio)
         s["data-end-ratio"] = str(end_ratio)
         s["data-seg-idx"] = str(idx)
+        s["title"] = f"Tap to jump audio to ~{start_ratio*100:.1f}%"
         s["title"] = f"Tap to jump audio to ~{start_ratio*100:.1f}%"
 
     return str(soup)
@@ -853,6 +865,13 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
       border-left: 3px solid var(--gold) !important;
       color: #fff !important;
       box-shadow: 0 0 20px rgba(210, 153, 34, 0.12);
+    }}
+    .reader-pane h1.sync-segment,
+    .reader-pane h2.sync-segment,
+    .reader-pane h3.sync-segment {{
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin-top: 20px;
     }}
     .sync-indicator {{
       display: inline-flex;
