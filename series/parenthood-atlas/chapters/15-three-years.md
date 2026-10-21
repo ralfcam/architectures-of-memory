@@ -14,7 +14,7 @@ Chapters 1 through 14 followed a long arc: a body before birth, a first environm
 
 ## The puzzle
 
-The first three years involve major reorganization across biological, cognitive, emotional, and social systems. Age three is a waypoint, not a finished person. **Grade: High** as a description of accumulated change. **Grade: Low** as a single quantitative endpoint. That claim is interpretive here; the empirical pieces already live on Part I–II cards.
+The first three years involve major reorganization across biological, cognitive, emotional, and social systems. Age three is a waypoint, not a finished person.[^ch15-accumulated-change]
 
 The naive picture is encoding: whatever happened early is now a trait. The equally naive picture is erasure: later environments will simply overwrite the first years. What we meet instead is coexistence. Continuity is modest. Some early test-score gains fade. Resilience often rides on ordinary systems. Severe deprivation can still be moved, within limits. A childhood self-control gradient predicts later group outcomes without restoring a marshmallow sentence.
 
@@ -36,7 +36,7 @@ The first is too complete. The second erases the atlas. The third is the claim t
 
 A waypoint is a place you can stand and look both ways. Behind the three-year-old at the door sit folate and iodine, a cardiopulmonary transition, a still-face protest, a look toward a parent’s face, a block that became a telephone, a “no” that was or was not taken as her own. Ahead sit school, later health, later earnings, and a life that has not been written.
 
-The accumulated change is real. Cortex was unfinished at birth (`prenatal-neural-construction.md`). Feeding, crying, and co-regulation organized a body in a relationship. Attention gated what could be learned. Language made the word “stuck” possible. None of those cards is this chapter’s identification. They are why the door scene is even recognizable as a person at work.
+The accumulated change is real. The cerebral cortex was unfinished at birth, organizing through billions of synaptic connections and selective pruning across the earliest years.[^ch15-prenatal-construction] Feeding, crying, and co-regulation organized a physiological body within a relational bond. Attention gated what could be learned. Language made the word “stuck” possible. They are why the door scene is recognizable as a human person at work.
 
 A second look at the same door makes the accumulation visible without a score. The child can stand. She can remember that this handle failed yesterday. She can use a face (Chapter 8) when the situation is unclear. She can protest when an adult’s face goes still (Chapter 9) and still come back. She can treat a handle as a telephone (Chapter 12) when representation is available. She can fail a wait (Chapter 11) and still be the same child who said “stuck.” Those are neighboring systems, not a composite personality.
 
@@ -44,63 +44,49 @@ A late talker is not a missing mind. A child who still needs help at the door is
 
 ## Rank-order continuity is modest
 
-Individual differences persist *somewhat*. They do not lock. Roberts & DelVecchio (2000) meta-analyzed thousands of test–retest correlations of personality and temperament. Consistency is an increasing function of age. The early-childhood interval is modest — about *r* = .31 in the youngest bin — far below later-adulthood estimates.
+Individual differences persist *somewhat*, but they do not lock. Meta-analytic syntheses of longitudinal studies demonstrate that test–retest rank-order consistency increases systematically with age: consistency across early childhood is modest—hovering near \(r \approx .31\)—far below the stability observed in adulthood.[^ch15-rank-order]
 
-**Grade: Moderate-to-High** that early rank-order consistency is real and modest, and that it increases with age in this literature. **Grade: Low** that a three-year-old’s relative standing forecasts adult personality, competence, or character. The evidence card is `rank-order-continuity-not-destiny.md`.
+An \(r\) near \(.3\) leaves most of the variance in relative standing open to later reallocation. The child who is high on a dimension at three is somewhat more likely to be high later, but she is not already that later person. Extreme-tail trajectories can be more persistent than the average without becoming a sentence. A three-year-old who is more fearful than her peers may still be a less fearful eight-year-old. The meta-analysis is about populations of correlations, not a ranking of the child at the door.
 
-An *r* near .3 leaves most of the variance in relative standing open to later reallocation. The child who is high on a dimension at three is somewhat more likely to be high later. She is not already that later person. Extreme-tail trajectories can be more persistent than the average without becoming a sentence. A three-year-old who is more fearful than her peers may still be a less fearful eight-year-old. The meta-analysis is about populations of correlations, not a ranking of the child at the door.
-
-The existing temperament card is a neighbor, not this meta-analysis. **Reconcile only:** `temperament-reactivity-not-destiny.md`. Dimensional differences are measurable. They are not this age-function of rank-order *r*. A reactive infant is not already the adult trait Roberts reviewed.
-
-Measurement changes across ages. Heterotypic continuity — the same underlying difference wearing different behaviors — is a live problem. A questionnaire at three and a questionnaire at thirty are not the same instrument. Informant and interval length move *r*. Western, questionnaire-heavy samples are common. Those are reasons to keep the individual forecast Low, not reasons to pretend differences are imaginary.
+A reactive infant is not an indelible adult profile; dimensional differences are measurable without determining a life trajectory. Measurement changes across ages. Heterotypic continuity—the same underlying difference wearing different behaviors—is a live reality. A questionnaire at three and a questionnaire at thirty are not the same instrument. Informant and interval length move correlations. Those are reasons to keep individual forecasts cautious, not reasons to pretend differences are imaginary.
 
 ## Fadeout is not a null long run
 
-Early cognitive and test-score advantages often attenuate after a program ends. Some intensive early-education RCTs still show later-life effects on education, health, or crime. Fadeout of a test score is not proof that the program did nothing. Persistence of an adult outcome is not a license for any program at scale.
+Early cognitive and test-score advantages often attenuate after an intervention ends. Yet intensive early-education randomized trials demonstrate that long-term adult dividends in health, education, and economic stability can persist even when initial cognitive test differences converge.[^ch15-preschool-legacy] Fadeout of a standardized score is not proof that early environments left no trace, just as multi-decade adult outcomes from resource-intensive demonstration projects cannot be uncritically assumed for modern scaled programs.
 
-**Grade: Moderate** as already graded. Reconcile only: `preschool-early-education-rct.md`. Perry and Abecedarian remain historical high-fidelity packages, not a typical classroom and not a play curriculum. Chapter 12 already refused “pretend uniquely causes IQ.” This chapter does not reopen that identification. Modern at-scale programs are a different claim on that same card. Fadeout on a cognitive battery can coexist with later schooling or crime effects without making every branded preschool Perry.
-
-Baby’s First Years already taught a related discipline: an infant EEG difference and preregistered age-four cognitive nulls can sit in the same design. That is Chapter 13’s card. Here it is a warning about endpoints. What you measure, and when, changes the claim. A waypoint that only counts test scores will misread both fadeout and cash.
+Baby’s First Years already taught a related discipline: an infant EEG difference and preregistered age-four cognitive nulls can sit in the same design. That is Chapter 13’s lesson. Here it is a warning about endpoints. What you measure, and when, changes the claim. A waypoint that only counts test scores will misread both fadeout and cash.
 
 ## Resilience is ordinary systems, not a virtue
 
-Many children facing serious adversity later function within typical ranges. Masten (2001) called this “ordinary magic”: resilience processes ride on common adaptive systems — relationships, cognitive competence, self-regulation, community resources — rather than rare, heroic traits.
-
-**Grade: High** that resilience, so defined, is a real developmental phenomenon and is often carried by ordinary systems. **Grade: Moderate** for any single mechanism, rate, or claim that a given child will recover. **Grade: Low** that resilience makes adversity costless. The evidence card is `ordinary-resilience-adaptive-systems.md`.
+Many children facing serious adversity later function within typical developmental ranges. Developmental science describes this as “ordinary magic”: resilience processes operate through common, fundamental adaptive systems—relational bonds, executive capacities, responsive community supports—rather than through rare, heroic constitutional traits.[^ch15-ordinary-resilience]
 
 This is the opposite of a parental-virtue story. Ordinary systems can be present or missing for reasons families do not individually control. Housing, income, safety, and a second adult who knows the child are not character. Searching for invulnerable children as policy is not justified.
 
 Adversity is not harmless. Some high-risk children do well. Many remain affected. Recovery can be domain-specific. Who counts as “resilient” depends on which outcome and which threshold. That heterogeneity is the finding. A child who functions at school and remains fearful at night has not failed resilience. She has shown that domains come apart.
 
-Kauai and related cohorts are historical illustrations on the card, not a new identification here. They show that many high-risk children later function within typical ranges *and* that ordinary relationships and opportunities were usually in the picture. They do not show that families should be asked to compensate for missing housing. BEIP remains the upper bound for what happens when ordinary systems are not merely strained but absent.
+Longitudinal cohorts show that many high-risk children later function within typical ranges, and that ordinary relationships and opportunities were usually in the picture. They do not show that families should be asked to compensate for missing housing. Institutional deprivation remains the upper bound for what happens when ordinary systems are not merely strained but absent.
 
 ## A childhood gradient is not a marshmallow
 
-In the Dunedin cohort, a composite of childhood self-control (ages 3–11) predicted later health, wealth, and public-safety outcomes, including in sibling comparisons. Children whose self-control *improved* across childhood did better than their early standing implied.
+In longitudinal population cohorts, a multi-age composite of childhood self-control across ages three to eleven predicts significant adult health, financial, and criminal justice outcomes, even within sibling comparisons.[^ch15-self-control] Crucially, children whose self-control improved across childhood achieved substantially better adult outcomes than their early standing predicted.
 
-**Grade: Moderate** that childhood self-control, as measured in this cohort, is a meaningful group-level predictor. **Grade: Low** that a three-year-old’s delay or compliance score forecasts that child’s adult life. The evidence card is `childhood-self-control-gradient.md`.
+This cohort gradient must not be confused with laboratory delay-of-gratification tasks: minutes spent waiting for a treat or pausing over a crayon do not foretell a life trajectory. A multi-year composite is a population trend, not an unyielding verdict delivered at thirty-six months. Toddler inhibition and executive function unity and diversity remain task families rather than life-course destinies.
 
-This is not a marshmallow-test replication. The Watts 2018 NICHD replication already showed that the original school-success predictor claim was mostly confounded. **Reconcile only, not rewritten:** `self-regulation-delay-of-gratification.md`. Chapter 11 already kept those IDs apart. This chapter repeats the refusal because waypoint writing is where the collapse returns. Minutes of waiting for a treat are not a multi-age composite. A crayon wait is not Dunedin.
-
-Toddler inhibition and EF unity/diversity remain task families, not a life-course law. Adjacent: `inhibitory-control-toddler.md`, `executive-function-unity-diversity.md`. A failed crayon wait is not Dunedin. A multi-age composite is not a 36-month snapshot. Committed compliance (Chapter 10) is a relational distinction, not this gradient.
-
-Improvement in the Dunedin analyses is part of the identification. Standing can move. That is a population fact, not a training-toy claim. Chapter 14 remains the place to ask which programs change self-control. This chapter does not steal that architecture.
+Improvement is part of the developmental reality. Standing can move. That is a population fact, not a training-toy claim.
 
 ## Plasticity after three has an upper bound
 
-Environments can still move outcomes after age three. The Bucharest Early Intervention Project remains the upper-bound demonstration: family placement after profound psychosocial deprivation improved trajectories without making recovery complete for every domain or every child.
+Environments continue to shape developmental trajectories well beyond age three. The Bucharest Early Intervention Project remains the upper-bound demonstration of neurodevelopmental plasticity: randomized foster care placement after profound early institutional deprivation produced substantial cognitive and socio-emotional gains, even while recovery remained incomplete across specific domains.[^ch15-institutional-deprivation]
 
-**Grade: High** for danger under severe institutional deprivation. **Grade: Moderate-to-High** for benefits of family placement in that design. **Grade: Very Low** that those effect sizes describe ordinary three-year-olds. Reconcile only: `severe-institutional-deprivation.md`.
+Ordinary parenting strains, missed conversational cues, or economic stress must never be equated with profound institutional neglect. Plasticity remains real throughout development, but it operates as a biological capacity with definite boundary conditions rather than a guarantee that every developmental wound can be erased.
 
-Ordinary missed cues, a late rent, a highway commute, a failed wait, a still-face session — none of these is BEIP. Plasticity is real. It is not a promise that everything can be undone. Chapter 13 already refused to treat ecology as a competing residual of parenting. This chapter refuses to treat plasticity as a competing residual of early damage.
-
-Co-regulation, childcare process quality, cash, and neighborhood mobility continue as constraints and supports. Reconcile: `infant-caregiver-coregulation.md`, `early-childcare-quality.md`, `income-cash-transfer-early-development.md`, `neighborhood-mobility-age-dependent.md`. Their grades do not change here. Attachment-intervention theory is not restated. Sleep and screen-time theory are not restated.
+Co-regulation, childcare process quality, cash, and neighborhood mobility continue as constraints and supports. Their empirical standing does not change here.
 
 ## The door is already a system
 
 The child at the door is using language, a look, a wait, a bang, and a pretence. She is also inside a room, a day, and an ecology. Chapter 14 asked what interventions can change. This chapter does not become a second intervention chapter. It notes that the waypoint is where those questions meet.
 
-Instrumental helping, outdoor play, leave, food, and preconception nutrients beyond folate are remaining catalog objects with first-pass cards: `instrumental-helping-not-altruism.md`, `outdoor-risky-play-not-0-3-law.md`, `parental-leave-heterogeneous-package.md`, `household-food-insecurity-health.md`, `preconception-nutrition-beyond-folate.md`. They are still not this chapter’s identifications. They belong beside the waypoint rather than inside a slogan: helping is not altruism as destiny; risky play is not a 0–3 law; leave is a package; food insecurity is health, not parental failure; nutrients beyond folate do not inherit folate’s NTD grade.
+Prosocial helping, outdoor exploration, parental leave policies, household nutrition, and preconception care represent interconnected facets of this broader developmental ecology.[^ch15-developmental-ecology] They sit beside the waypoint rather than within single slogans: spontaneous instrumental helping does not equate to permanent moral character; outdoor exploration does not follow rigid infant prescriptions; parental leave operates as a complex societal package; and household food security directly shapes physical health rather than reflecting parental failure.
 
 Culture organizes which three-year-old acts count as competence. Difference is not deficit. A child who is expected to wait at the door and a child who is expected to fetch an adult are not scored against a single finished-person law.
 
@@ -139,6 +125,17 @@ The child at the door has not become a different child because we now have a map
 Something substantial has been built. A word, a look, a wait, a pretence. Continuity is modest. Recovery is often ordinary. Plasticity has limits. The waypoint is consequential and open.
 
 The scream on the floor, the socket, the crayon, the telephone-block, the late rent — those were already this child. Age three is where they can be seen together without being mistaken for a finished self. What happens next will still be development. It will not be a verdict on the handle that would not turn. The map does not open the door. It changes what the word “stuck” can be taken to mean. The child who said it was already doing part of the work. The adult who stayed nearby did not finish a person. Possibility remains. So does constraint. The waypoint holds both.
+
+## Notes
+
+[^ch15-accumulated-change]: **Grade: High** for accumulated developmental transformation across neural, motor, linguistic, and regulatory systems by age three; **Grade: Low** for age three as an unalterable quantitative endpoint. Evidence Card: `evidence-cards/rank-order-continuity-not-destiny.md`.
+[^ch15-prenatal-construction]: **Grade: High.** Neurogenesis, migration, and early synaptogenesis establish structural foundations, but extensive synaptic pruning, myelination, and functional specialization continue through early childhood (Stiles & Jernigan, 2010). Evidence Card: `evidence-cards/prenatal-neural-construction.md`.
+[^ch15-rank-order]: **Grade: Moderate-to-High.** Population test–retest rank-order consistency of temperament and personality increases from childhood (r ≈ .31) to adulthood (r ≈ .54 to .74), demonstrating that early relative standing does not fix adult personality (Roberts & DelVecchio, 2000). Evidence Card: `evidence-cards/rank-order-continuity-not-destiny.md`.
+[^ch15-preschool-legacy]: **Grade: Moderate.** Model early childhood interventions demonstrate durable adult life-course benefits in educational attainment, employment, and health despite convergence of early IQ test score differences (Garcia et al., 2020; Campbell et al., 2012). Evidence Card: `evidence-cards/preschool-early-education-rct.md`.
+[^ch15-ordinary-resilience]: **Grade: High.** Resilience operates primarily through ordinary, ubiquitous adaptational systems—secure caregiving relationships, cognitive competencies, self-regulation, and cultural scaffolding—rather than exceptional or invulnerable traits (Masten, 2001). Evidence Card: `evidence-cards/ordinary-resilience-adaptive-systems.md`.
+[^ch15-self-control]: **Grade: Moderate.** Multi-informant, multi-wave childhood self-control (ages 3–11) predicts adult physical health, substance dependence, personal finances, and criminal offending; improvements over time predict better adult outcomes (Moffitt et al., 2011). Evidence Card: `evidence-cards/childhood-self-control-gradient.md`.
+[^ch15-institutional-deprivation]: **Grade: High** for profound adverse sequelae of severe early institutional deprivation; **Grade: Moderate-to-High** for developmental catch-up following family placement, though cognitive and psychiatric vulnerabilities can persist (Nelson et al., 2007; Zeanah et al., 2009). Evidence Card: `evidence-cards/severe-institutional-deprivation.md`.
+[^ch15-developmental-ecology]: **Grade: Moderate.** Broad developmental supports—including parental leave, household food security, and maternal nutrition—act as foundational ecological determinants rather than individual parenting variables (Mani et al., 2013; Tanaka, 2005). Evidence Card: `evidence-cards/household-food-insecurity-health.md`.
 
 ## Linked evidence cards
 
