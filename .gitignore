@@ -19,3 +19,4 @@ site/*.mp3
 __pycache__/
 *.py[cod]
 .agents/hooks/.pending_notice.txt
+scratch/
