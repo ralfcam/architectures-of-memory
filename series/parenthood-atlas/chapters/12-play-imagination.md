@@ -34,9 +34,7 @@ The first is the market. The second is too thin. The third is the claim the evid
 
 Play, in this chapter, is a family of activities that are not fully constrained by the world’s literal use. Mouthing and banging are not the same as pretending a block is a telephone. Building a tower is not the same as assigning roles in a kitchen corner. An adult joining and steering (“guided play”) is a different exposure again. Collapsing those into “play time” manufactures a variable that cannot bear a causal story.
 
-A second case sits beside the telephone. Two toddlers in a kitchen corner argue over who is the cook. One offers a spoon as a microphone. The other refuses the script and takes the pot. Representation, peer demand, and a failed wait are all in the room. Counting the minutes as “play” would hide every identification this book has already paid for.
-
-**Grade: Moderate** conceptually for that family distinction. It is interpretive here; it lives on the two play cards’ boundaries.
+A second case sits beside the telephone. Two toddlers in a kitchen corner argue over who is the cook. One offers a spoon as a microphone. The other refuses the script and takes the pot. Representation, peer negotiation, and motor coordination converge in the room, demonstrating that play is a multi-dimensional activity rather than a uniform developmental exposure.[^ch12-play-multidimensional]
 
 Functions should not be assumed from the label. A child stacking blocks may be exploring balance, practising a motor skill, or waiting for an adult. A child on a telephone-block may be representing a conversation, imitating a household routine, or seeking a laugh. The same surface act is not one mechanism.
 
@@ -46,7 +44,7 @@ Culture organizes which forms count as play, who is allowed to join, and whether
 
 Across the second year, children increasingly treat objects and actions as standing for something else. Belsky and Most (1981) described a shift from exploration toward symbolic play in observational work. This is a representational transition, not a diagnostic cutoff. Children vary in timing. A late telephone is not a missing mind.
 
-**Grade: Moderate-to-High** for second-year emergence of symbolic/pretend acts in this observational literature. **Grade: Moderate** for mechanism. **Grade: Low** as a diagnostic cutoff or intelligence index. The evidence card is `symbolic-pretend-play-emergence.md`.
+Symbolic and pretend acts normatively emerge across the second year of life in observational research.[^ch12-symbolic-play-emergence] Children transition from literal sensorimotor exploration to functional and substitute object use, though individual timing varies widely and provides no diagnostic cutoff for general cognitive ability.
 
 The mechanism, stated narrowly, is that the child can now hold a mapping: this object, in this moment, stands for another. The mapping is often fragile. A block is a telephone, then a block again, then a hammer. Substitution, role, and sequence do not arrive as a single switch. Simple exploratory mouthing and banging tend to recede as functional use and then symbolic substitution become more available. That sequence is a research description of a shift in typical samples. It is not a staircase a clinician can score as delayed mind.
 
@@ -54,7 +52,7 @@ A child who pretends with a realistic toy telephone has not shown the same subst
 
 The same architecture was visible in Chapter 6. Exploration as sampling and embodied perception–action remain the better cards for information-seeking and motor worlds. They are **reconciled, not rewritten**: `exploration-as-sampling.md`, `embodied-perception-action.md`. Pretend is not a second exploration card. A child who mouths a block is sampling. A child who holds it to her ear is representing. Both can look like “playing with a block.” Surprise that reorganizes exploration (Stahl & Feigenson) is still an information-seeking identification. It is not a pretend identification.
 
-Peer play, already carded in Chapter 8, is a social arena in which representation can be shared. Coordinating roles and objects with others is a distinctive demand; it does not automatically cause theory of mind. **Grade: Moderate** for coordination. **Grade: Low** for durable theory-of-mind causation. The live card is `toddler-peer-interaction.md`. Further ToM-transfer claims remain `needs-source-audit`. Sociodramatic play with assigned roles is a later, more demanding form than a solo telephone. Collapsing them into “pretend hours” is the same error as collapsing childcare into attendance.
+Peer play introduces distinctive communicative and sociocognitive demands as toddlers coordinate roles and negotiate shared pretend scripts.[^ch12-peer-coordination] While collaborative play provides rich social practice, early peer play hours do not uniquely or causally install an advanced theory of mind.
 
 Language and executive skill sit beside the telephone. A child who can hold a rule (Chapter 11) may find it easier to treat a block as not-a-block. A child who can share a referent (Chapter 7) may find it easier to invite another person into the pretence. Those are neighboring systems, not proof that pretend uniquely trains them. A child who cannot yet pretend is not shown to lack language or control. A child who pretends richly is not shown to have them.
 
@@ -62,23 +60,23 @@ Language and executive skill sit beside the telephone. A child who can hold a ru
 
 Lillard and colleagues (2013) reviewed the impact of pretend play on later development. Unique-cause educational claims — that pretend specifically produces theory of mind, self-control, or academic skill beyond other engaging activities — do not survive that review. Equifinality is the more honest reading: several kinds of rich activity may support the same outcomes.
 
-**Grade: High** that unique-cause educational claims about pretend play exceed the evidence. The evidence card is `pretend-play-educational-claims.md`.
+Comprehensive empirical reviews demonstrate that claims treating pretend play as a unique, indispensable causal engine for executive function, intelligence, or academic achievement substantially exceed the scientific evidence.[^ch12-pretend-educational-claims] Rather than operating as an exclusive cognitive catalyst, play is one of several rich, equifinal developmental activities through which children explore meaning and relationship.
 
 That finding is not a claim that play is worthless. It is a claim about identification. A correlational “children who pretend more score higher” does not isolate pretend as the active ingredient. Children who pretend more may also hear more language, own more materials, have more adult time, or already have more language and control. Experimental packages that mix language, adult attention, materials, and play cannot attribute effects to pretend alone. Equifinality cuts both ways: if several rich activities support similar outcomes, then removing pretend is not shown to remove the outcome, and adding a pretend curriculum is not shown to add it.
 
 Lillard’s review is strongest as a boundary on unique-cause stories about theory of mind, self-control, and academic skill. It is not a finding that play has no functions. Meaning-making, coordination with a partner, and practising a mapping are live candidates. They are not registered as the engines of later IQ. Creativity as an outcome is especially poorly identified: the same act is often both the treatment and the measure.
 
-Association between play and executive function is real at the level of task demands. Holding a role, inhibiting a literal use, switching when a partner changes the game — those loads resemble Chapter 11’s family. Ordinary pretend play as unique EF training is not established. **Grade: Moderate** association. **Grade: Low** unique causation. Held on the Lillard card and the Chapter 11 map. This chapter does not steal Chapter 11’s construct, and it does not restore the marshmallow story.
+Task demands in pretend play—such as holding a role in mind, inhibiting literal actions, and flexibly switching rules—correlate with emerging executive function skills.[^ch12-play-ef-association] Yet correlational overlap does not establish that ordinary pretend play causally trains or accelerates generalized self-control.
 
 Preschool RCTs remain a different identification. Perry and Abecedarian are not “play causes IQ.” The live card `preschool-early-education-rct.md` is reconciled, not rewritten. Those programs mixed language, materials, adult skill, health, and sometimes home visiting. Branding a modern classroom as play-based does not import their long-run effects. Historical high-fidelity programs are not the same claim as a typical contemporary play hour.
 
 Screens are not re-theorized. The live card `screen-time-language-development.md` stays a language-and-exposure object: content, co-use, and context, not a unitary harm. A video of a telephone is not the block. Co-viewing is not guided play. Do not collapse them. Sleep and attachment-intervention theory are not restated as play.
 
-Outdoor and risky play have a first-pass card. Much of that literature is school-age. A toddler on a low step is not the same identification as a schoolyard risk study. **Grade: Moderate** for associations in that mostly older-child literature. **Grade: Low-to-Moderate** as a 0–3 developmental law. **Grade: Low** as a toddler efficacy package. The evidence card is `outdoor-risky-play-not-0-3-law.md` (Brussoni 2015). Guided-play efficacy remains thinner than a dedicated card.
+Outdoor and minor risk-negotiating play offer physical exploration and environmental engagement in young children, though evidence for developmental benefits derives primarily from older preschool and school-age cohorts.[^ch12-outdoor-risky-play] While safe physical risk-taking supports motor confidence, it does not operate as a mandatory developmental curriculum for infants and toddlers.
 
 ## Guided play is not a settled program
 
-An adult who joins, comments, and gently scaffolds can enhance learning of targeted concepts like early numeracy and spatial vocabulary without hijacking child agency (`guided-play-efficacy.md`; Skene 2022; Weisberg 2016). **Grade: Moderate** that guided play outperforms unguided play or didactic instruction for specific early math and spatial concepts in educational settings. **Grade: Low** that guided play improves broad literacy, general executive function, or constitutes a mandatory home curriculum for typical development. Guided play that becomes a lesson with a toy in it is instruction. Guided play that follows the child’s mapping without stealing it is a different exposure. The label does not decide which one occurred.
+In educational settings, adult-guided play—where a caregiver subtly scaffolds an activity toward a learning goal while preserving child agency—outperforms free play or didactic instruction for specific spatial and early mathematical concepts.[^ch12-guided-play] However, guided play has not demonstrated broad transfer to general literacy or executive function, and it does not constitute a required home training program.
 
 Materials matter because they afford actions. A room with nothing that can be a telephone is a different laboratory from a room with blocks, pots, and cloth. More toys are not necessarily more representation. Chapter 6 already refused “more toys = more information.” That refusal holds. A spare room can support substitution. A crowded room can bury it. Materials without an available adult are not the same as materials with one. Adult presence without joinable materials is another different laboratory.
 
@@ -121,6 +119,16 @@ The child with the block has not become a different child because we now have a 
 A thing can stand for something else. That is a real developmental achievement. It is not a unique engine of later success, and it is not a residual leftover. Meaning is being practised in a room with other people and limited materials. The telephone was never a school. It was a mapping the child could hold for a moment, and then drop, and then try again. The map does not make the block a curriculum. It changes what the telephone can be taken to mean.
 
 The crayon in Chapter 11 was already a representation problem: a symbol could make waiting more possible. This chapter describes representation as play rather than as a delay trick. The ecology around the same room — money, housing, hours, policy — will soon refuse to stay offstage. That is the next territory. It is not a verdict on the telephone that came before.
+
+## Notes
+
+[^ch12-play-multidimensional]: **Grade: Moderate** conceptually that play represents a multidimensional family of behaviors with distinct cognitive and social demands.
+[^ch12-symbolic-play-emergence]: **Grade: Moderate-to-High** for the normative emergence of symbolic and pretend play during the second year (Belsky & Most 1981); **Grade: Low** as a diagnostic marker for intelligence. Evidence Card: `evidence-cards/symbolic-pretend-play-emergence.md`.
+[^ch12-peer-coordination]: **Grade: Moderate** for peer play introducing unique reciprocal coordination demands; **Grade: Low** that peer play hours causally drive theory-of-mind acquisition. Evidence Card: `evidence-cards/toddler-peer-interaction.md`.
+[^ch12-pretend-educational-claims]: **Grade: High** that claims of pretend play uniquely causing cognitive, social, or academic development exceed the evidence (Lillard et al. 2013). Evidence Card: `evidence-cards/pretend-play-educational-claims.md`.
+[^ch12-play-ef-association]: **Grade: Moderate** for task-demand correlations between pretend play and executive function; **Grade: Low** for pretend play uniquely causing executive gains.
+[^ch12-outdoor-risky-play]: **Grade: Moderate** for positive associations between outdoor play and physical development in older children (Brussoni et al. 2015); **Grade: Low** as an infant-toddler efficacy prescription. Evidence Card: `evidence-cards/outdoor-risky-play-not-0-3-law.md`.
+[^ch12-guided-play]: **Grade: Moderate** that guided play supports specific early numeracy and spatial concept acquisition in educational contexts (Skene et al. 2022; Weisberg et al. 2016); **Grade: Low** for broad transfer or home necessity. Evidence Card: `evidence-cards/guided-play-efficacy.md`.
 
 ## Linked evidence cards
 
