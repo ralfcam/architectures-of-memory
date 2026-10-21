@@ -10,7 +10,7 @@ The scene is ordinary. It is also easy to misread.
 
 If the infant were only being trained, the pickup would be a mistake: a reward for noise. If the infant were only being rescued, the same pickup would be a test the adult must pass every time. Neither reading fits what can be shown.
 
-**Grade: Moderate** that co-regulation exists as a bidirectional, context-sensitive process (`infant-caregiver-coregulation.md`; WHO/UNICEF/World Bank Nurturing Care 2018; Feldman 2012). **Grade: Low-to-Moderate** for any single biological mechanism — cortisol matching, autonomic coupling, neural synchrony — as a parenting score.
+Co-regulation operates as a bidirectional, context-sensitive process between infant and caregiver, rather than an automated transmission of calm.[^ch04-coregulation] While physiological coupling—such as cortisol attunement, autonomic coordination, and neural synchrony—can be observed in controlled settings, no single biological measure functions as a valid parenting score or developmental guarantee.
 
 This chapter asks a narrower question than “how do I produce a well-regulated child?” It asks what kind of relationship an infant’s regulation lives in, and what kinds of claims that relationship can support.
 
@@ -56,7 +56,7 @@ Heart-rate variability and related autonomic measures provide short windows into
 
 Hunger and satiety are among the first problems the dyad solves together. The infant signals. The adult offers, waits, pauses, or persists. The child experiences a more or less predictable world of food.
 
-**Grade: Moderate** that feeding can be described as a reciprocal, cue-based process rather than a one-way transfer of calories (`responsive-feeding-as-regulation.md`; Black & Aboud 2011). **Grade: Low** that “responsive feeding” as a program reliably changes weight, IQ, or character. Suck–swallow–breathe coordination is a Chapter 3 maturational claim. Breastfeeding and later cognition is a different card. Neither is reused here.
+Feeding develops as a reciprocal, cue-based interaction rather than a mechanical transfer of calories.[^ch04-responsive-feeding] Yet treating responsive feeding as a standardized intervention program has not reliably changed long-term growth trajectories, intelligence, or character.
 
 Forcing intake, ignoring satiety, or treating every feed as a performance are not licensed as developmental necessities. Ordinary noticing of cues is consistent with the framework. A feeding dashboard is not.
 
@@ -66,13 +66,13 @@ A six-month-old wakes at night. One adult responds quickly. Another waits. Over 
 
 Randomized and follow-up evidence does not find that graduated-extinction or related behavioral sleep interventions harm measured attachment or increase behavioral problems through age 6. Some trials also find that night waking and parental sleep improve under protocol. Those are short-horizon, selected-sample findings. They are not a mandate to train every infant, and they are not a license to treat a family that does not use extinction as a developmental failure.
 
-**Grade: Low-to-Moderate** for no measured attachment or behavioral harm through age 6 (`infant-sleep-training.md`; Price, Wake, Ukoumunne & Hiscock 2012; Gradisar et al. 2016). Most trials are underpowered for rare or late harms. No evidence of harm is not a completed safety guarantee. The previously mismatched `hiscock-2016` catalog listing has been retired and replaced by Mindell 2006 (efficacy review), Gradisar 2016, and Bilgin & Wolke 2020 (observational). The sleep card’s harm claim was citation-repaired, not re-extracted as a new theory.
+Follow-up studies of behavioral sleep interventions report no measured attachment disruption or behavioral harm through age six, though existing randomized trials remain underpowered for rare or late-emerging outcomes.[^ch04-sleep-training] Demonstrating an absence of measured harm in moderate-sized cohorts is reassuring for parents who choose extinction protocols, but it is not an all-encompassing philosophical guarantee or a universal mandate.
 
 Attachment, similarly, is a relationship-specific organization of proximity, protection, comfort, and exploration. It is not a personality test, a parenting style, or a forecast. The Strange Situation is a twenty-minute procedure in which a child and a caregiver are separated and reunited under a standard script. What it classifies is a pattern of behavior in that situation with that person. A classification is not a kind of child. A child can be secure with one adult and not with another. Meta-analytic associations between security and later social adaptation are modest. They do not justify a developmental prophecy.
 
 Short sensitivity-focused RCTs move observed sensitivity more than attachment security.
 
-**Grade: Moderate-to-High** that brief, targeted sensitivity interventions can increase sensitivity; **Moderate** for attachment security (`responsive-caregiving-attachment-interventions.md`; Bakermans-Kranenburg, van IJzendoorn & Juffer 2003, “less is more”). Distal child outcomes are weaker. The card was reconciled, not re-extracted.
+Brief, targeted interventions focused on parental sensitivity reliably increase observed sensitivity and moderately improve attachment security, following a documented 'less is more' pattern.[^ch04-sensitivity-interventions] Effects on distal cognitive and behavioral outcomes, however, remain substantially weaker.
 
 A securely attached child can struggle. An insecurely attached child can thrive. The popular pipeline — responsive parent → co-regulated infant → secure attachment → strong self-regulation → successful adult — is not a finding this chapter can carry. Sensitivity is reliably associated with security, but the association is moderate rather than deterministic. Changing a proximal process is easier than transforming a distant outcome.
 
@@ -82,7 +82,7 @@ If ordinary differences in caregiving produce modest associations, where is the 
 
 The Bucharest Early Intervention Project studied children who had already experienced severe institutional deprivation. Children randomly assigned to family-based foster care showed better outcomes on some measures than children who remained in institutional care. Recovery was real and incomplete. Timing, stability, and later care mattered.
 
-**Grade: High** that severe institutional deprivation is dangerous (`severe-institutional-deprivation.md`; Nelson et al. 2007; Nelson, Fox & Zeanah 2023/2024). **Grade: Moderate-to-High** that family placement improved some outcomes in this trial. Generalization to ordinary parenting, daycare, a missed cue, or sleep training is prohibited.
+Severe institutional deprivation profoundly compromises cognitive, social, and neural development, and randomized family-based foster placement substantially improves developmental trajectories.[^ch04-institutional-deprivation] Yet generalizing these severe clinical findings to ordinary parenting variations, community daycare, a missed cue, or a difficult bedtime is an empirical and ethical category error.
 
 Institutional deprivation can combine rotating caregivers, low social stimulation, poor nutrition, health risks, separation, and instability. It is not a difficult bedtime.
 
@@ -147,6 +147,14 @@ The second environment is not a classroom. It is a succession of exchanges: a cr
 Chapter 3 showed a change of regulatory environment. This chapter shows the relationship that takes up that dependence. Dependence is not a defect to be trained out in a week. It is transformed, over years, into participation. The mature state is not isolation. It is interdependence.
 
 The mind that will act, remember, and later use words is already being organized inside this relationship. That is the next territory. It is not a verdict on the pickup that came before.
+
+## Notes
+
+[^ch04-coregulation]: **Grade: Moderate** that co-regulation operates as a bidirectional, context-sensitive process (WHO/UNICEF/World Bank Nurturing Care 2018; Feldman 2012); **Grade: Low-to-Moderate** for single biomarkers (cortisol, HRV, neural synchrony) predicting long-term outcomes. Evidence Card: `evidence-cards/infant-caregiver-coregulation.md`.
+[^ch04-responsive-feeding]: **Grade: Moderate** that feeding functions as a reciprocal cue-based interaction (Black & Aboud 2011); **Grade: Low** that formal responsive feeding programs reliably alter child weight or IQ. Evidence Card: `evidence-cards/responsive-feeding-as-regulation.md`.
+[^ch04-sleep-training]: **Grade: Low-to-Moderate** for no measured attachment or emotional harm through age 6 in behavioral sleep trials (Price et al. 2012; Gradisar et al. 2016; Bilgin & Wolke 2020). Evidence Card: `evidence-cards/infant-sleep-training.md`.
+[^ch04-sensitivity-interventions]: **Grade: Moderate-to-High** that brief sensitivity interventions improve parental sensitivity; **Grade: Moderate** for attachment security (Bakermans-Kranenburg et al. 2003). Evidence Card: `evidence-cards/responsive-caregiving-attachment-interventions.md`.
+[^ch04-institutional-deprivation]: **Grade: High** that severe institutional deprivation causes profound developmental deficits (Nelson et al. 2007; Nelson, Fox & Zeanah 2023/2024); **Grade: Moderate-to-High** that family foster care fosters selective recovery. Evidence Card: `evidence-cards/severe-institutional-deprivation.md`.
 
 ## Linked evidence cards
 
