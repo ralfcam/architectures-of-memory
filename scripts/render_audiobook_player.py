@@ -50,10 +50,32 @@ def extract_clean_text(md_path: Path) -> str:
         lines.append(line)
     clean_md = "".join(lines)
     # Render with full markdown parser including footnotes, tables, smart typography
-    return markdown.markdown(
+    html_raw = markdown.markdown(
         clean_md,
         extensions=["extra", "smarty", "sane_lists"],
     )
+    # Tag paragraphs, subheadings, and blockquotes with word-proportional pacing segments
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(html_raw, "html.parser")
+    segments = soup.find_all(["p", "h2", "h3"])
+    total_words = sum(len(s.get_text().split()) for s in segments) or 1
+
+    cum_words = 0
+    for idx, s in enumerate(segments):
+        words = len(s.get_text().split())
+        if words == 0:
+            continue
+        start_ratio = round(cum_words / total_words, 4)
+        cum_words += words
+        end_ratio = round(cum_words / total_words, 4)
+        existing_classes = s.get("class", []) or []
+        s["class"] = existing_classes + ["sync-segment"]
+        s["data-start-ratio"] = str(start_ratio)
+        s["data-end-ratio"] = str(end_ratio)
+        s["data-seg-idx"] = str(idx)
+        s["title"] = f"Tap to jump audio to ~{start_ratio*100:.1f}%"
+
+    return str(soup)
 
 
 def collect_book_data(book_path: Path, series_title: str, series_subtitle: str, release_tag: str, repo: str) -> dict:
@@ -812,6 +834,50 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
       margin-left: 4px;
     }}
 
+    /* Synchronized Read-Along Highlighting */
+    .sync-segment {{
+      cursor: pointer;
+      border-radius: 6px;
+      padding: 6px 12px;
+      margin-left: -12px;
+      margin-right: -12px;
+      border-left: 3px solid transparent;
+      transition: background 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+      position: relative;
+    }}
+    .sync-segment:hover {{
+      background: rgba(255, 255, 255, 0.04);
+    }}
+    .sync-segment.active-segment {{
+      background: rgba(210, 153, 34, 0.14) !important;
+      border-left: 3px solid var(--gold) !important;
+      color: #fff !important;
+      box-shadow: 0 0 20px rgba(210, 153, 34, 0.12);
+    }}
+    .sync-indicator {{
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: var(--gold);
+      background: var(--gold-dim);
+      border: 1px solid rgba(210, 153, 34, 0.3);
+      padding: 4px 10px;
+      border-radius: 999px;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.15s;
+    }}
+    .sync-indicator:hover {{
+      background: rgba(210, 153, 34, 0.22);
+    }}
+    .sync-indicator.disabled {{
+      color: var(--text-muted);
+      border-color: var(--border);
+      background: transparent;
+    }}
+
     /* Marketing & Patreon Tier Blueprint */
     .patreon-blueprint {{
       background: #090e15;
@@ -1419,19 +1485,22 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
       if (!ch) return;
 
       document.getElementById('reader-header').innerHTML = `
-        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
           <span style="font-size: 0.76rem; color: var(--gold); text-transform: uppercase; font-weight: 700; letter-spacing: 0.08em;">
             ${{book.title}} · Chapter ${{ch.num}} of ${{book.chapters.length}}
           </span>
-          <button onclick="switchView('playlist')" style="background: transparent; border: 1px solid var(--border); color: var(--text-muted); border-radius: 6px; padding: 4px 10px; font-size: 0.76rem; font-weight: 600; cursor: pointer;">
-            ← Back to Playlist
-          </button>
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <button id="btn-autoscroll" onclick="toggleAutoScroll()" class="sync-indicator">📜 Auto-Scroll: ON</button>
+            <button onclick="switchView('playlist')" style="background: transparent; border: 1px solid var(--border); color: var(--text-muted); border-radius: 6px; padding: 4px 10px; font-size: 0.76rem; font-weight: 600; cursor: pointer;">
+              ← Playlist
+            </button>
+          </div>
         </div>
-        <div style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 10px;">
+        <div style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
           <span>${{ch.words.toLocaleString()}} words</span>
           <span>•</span>
           <span>~${{ch.minutes}} min narration</span>
-          ${{ch.hasLocalMp3 || ch.stem === '01-before-the-child-is-born' ? '<span>• 🎧 Audio Live</span>' : ''}}
+          ${{ch.hasLocalMp3 || ch.stem === '01-before-the-child-is-born' ? '<span>• 🎧 Narration Live (Tap any text to jump audio)</span>' : ''}}
         </div>
       `;
       const readerContent = document.getElementById('reader-content');
@@ -1505,11 +1574,71 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
       renderPlaylist();
     }});
 
+    let autoScrollEnabled = true;
+    let userScrollTimer = null;
+
+    function toggleAutoScroll() {{
+      autoScrollEnabled = !autoScrollEnabled;
+      const btn = document.getElementById('btn-autoscroll');
+      if (btn) {{
+        btn.classList.toggle('disabled', !autoScrollEnabled);
+        btn.innerText = autoScrollEnabled ? '📜 Auto-Scroll: ON' : '📜 Auto-Scroll: OFF';
+      }}
+    }}
+
+    function pauseUserScroll() {{
+      if (!autoScrollEnabled) return;
+      clearTimeout(userScrollTimer);
+      userScrollTimer = setTimeout(() => {{
+        userScrollTimer = null;
+      }}, 5000); // Resume auto-scrolling 5s after user stops touching/scrolling
+    }}
+
+    window.addEventListener('wheel', pauseUserScroll, {{ passive: true }});
+    window.addEventListener('touchmove', pauseUserScroll, {{ passive: true }});
+
+    function updateAudioSyncHighlight(ratio) {{
+      const segments = document.querySelectorAll('.sync-segment');
+      if (!segments.length) return;
+      let active = null;
+      segments.forEach(seg => {{
+        const start = parseFloat(seg.getAttribute('data-start-ratio'));
+        const end = parseFloat(seg.getAttribute('data-end-ratio'));
+        if (ratio >= start && ratio < end) {{
+          active = seg;
+          seg.classList.add('active-segment');
+        }} else {{
+          seg.classList.remove('active-segment');
+        }}
+      }});
+
+      if (active && autoScrollEnabled && !userScrollTimer) {{
+        active.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
+      }}
+    }}
+
+    // Bidirectional seek: Tap any text segment to jump audio to that exact moment
+    document.addEventListener('click', (e) => {{
+      const seg = e.target.closest('.sync-segment');
+      if (seg && currentView === 'reader') {{
+        const startRatio = parseFloat(seg.getAttribute('data-start-ratio'));
+        if (audio.duration && !isNaN(startRatio)) {{
+          audio.currentTime = Math.max(0, Math.min(audio.duration, startRatio * audio.duration));
+          if (audio.paused) {{
+            audio.play().catch(err => console.log('Autoplay on tap handled:', err));
+          }}
+        }}
+      }}
+    }});
+
     audio.addEventListener('timeupdate', () => {{
       timeCur.innerText = formatTime(audio.currentTime);
       timeTotal.innerText = formatTime(audio.duration);
       if (audio.duration) {{
         barFill.style.width = `${{(audio.currentTime / audio.duration) * 100}}%`;
+        if (currentView === 'reader') {{
+          updateAudioSyncHighlight(audio.currentTime / audio.duration);
+        }}
       }}
     }});
 
