@@ -10,7 +10,7 @@ Development tells a different story.
 
 The first recognizable word is not the beginning of language. It is one of the first highly visible products of a process that has been unfolding since before birth: hearing a voice in the womb, discriminating sounds, finding seams in a speech stream, coordinating attention with another person, pointing, babbling, taking turns. Adults hear a debut. The child has been in rehearsal.
 
-**Grade: Moderate** that late-pregnancy speech can shape newborn preference (`prenatal-auditory-learning.md`; DeCasper & Spence 1986; Partanen 2013). **Grade: Low** that this is lasting cognitive advantage or a prenatal curriculum.
+Late-pregnancy speech exposure reliably shapes newborn auditory preferences for familiar voices and rhythm patterns.[^ch07-prenatal-auditory] Yet demonstrating prenatal acoustic familiarization confers no permanent cognitive advantage and provides no justification for a commercial prenatal curriculum.
 
 This chapter asks a narrower question than “how do we teach a child to talk?” It asks what kind of learner a language learner is, and what kinds of claims that participation can support.
 
@@ -44,7 +44,7 @@ The newborn does not arrive without communication.
 
 Crying already changes another person’s behavior. A caregiver hears it and approaches. At first this does not require the child to understand crying as a symbolic message. A distress signal can recruit a response without being a word.
 
-**Grade: Moderate** that crying functions as a recruiting, graded distress signal. **Grade: Low** that acoustic features identify hunger, pain, or parental error in ordinary homes. The Chapter 3 card is `infant-crying-as-signal.md`. It belongs here as a boundary, not as a language-decoding kit.
+Crying operates as a recruiting, graded distress signal rather than an acoustically encoded vocabulary of distinct infant needs.[^ch07-infant-crying] In ordinary homes, acoustic pitch or duration cannot reliably diagnose whether an infant is hungry, tired, or in pain, serving as an urgent call for adult proximity rather than an early dialect.
 
 Over the first months, exchanges become more reciprocal. The infant looks; the caregiver looks back. The infant vocalizes; the adult answers. The infant pauses. These episodes have been called proto-conversations because they contain timing, alternation, and repair. They are not adult dialogue. A signal is not necessarily an intention. An interaction is not necessarily a symbolic exchange.
 
@@ -64,7 +64,7 @@ Early in life, infants can discriminate a broad range of phonetic distinctions. 
 
 This process is often called **perceptual narrowing**. The phrase misleads if it suggests simple deterioration. What is happening is better understood as attunement. The infant is becoming more efficient at the patterns that matter in this environment.
 
-**Grade: High** that this language-specific reorganization occurs in the first year in the classic contrast experiments (`infant-perceptual-narrowing.md`; Werker & Tees 1984; Kuhl et al. 1992). That *laboratory* claim is `status: stable`. **Grade: Moderate** for a universal timetable across languages, samples, and methods. **Grade: Low** that the change is a permanent closing of later language learning. A second language is not forbidden by a first-year laboratory decline.
+Language-specific perceptual attunement reliably occurs across the first year of life in classic laboratory speech-contrast experiments.[^ch07-perceptual-attunement] This tuning represents efficient neural specialization rather than a permanent closing of future language-learning capacity, and exposing an infant to a second language does not violate a biological deadline.
 
 A child growing up with one language is tuned toward that language. A child exposed to several is adapting to more than one system. The developing ear is not being handed a universal phonetic dictionary and then deleting most of it.
 
@@ -74,7 +74,7 @@ To an adult, fluent speech appears already divided into words. To an infant, spe
 
 In a classic laboratory demonstration, eight-month-olds extracted such regularities from two minutes of artificial speech.
 
-**Grade: High** that infants can compute this kind of distributional regularity under controlled conditions (`infant-statistical-speech-segmentation.md`; Saffran, Aslin & Newport 1996; Aslin, Saffran & Newport 1998). That *laboratory* claim is `status: stable`. **Grade: Low** that two minutes of nonsense speech equals how children find words at home, or that statistical learning is a complete theory of grammar; those transfer claims remain `draft`.
+Infants reliably track transitional probabilities between syllables to segment continuous, artificial speech streams into candidate word boundaries under controlled laboratory conditions.[^ch07-statistical-segmentation] While statistical extraction is a robust discovery, detecting syllable boundaries in an acoustic laboratory is not identical to learning meaningful words in a noisy household, nor does it constitute a complete theory of syntax.
 
 No one has to point at the boundaries and explain them. Detecting a regularity is still not knowing a meaning. Chapter 6’s mobile sits on action–outcome learning. This laboratory stream sits on regularity detection. Neither should be asked to do the work of a conversation.
 
@@ -90,7 +90,7 @@ One of the solutions is **joint attention**: not merely looking at the same obje
 
 A sound becomes easier to interpret when the child can infer what the other person is talking about. Language, in this sense, is not only a mapping from sounds to objects. It is a mapping from **signals to shared experience**.
 
-Research associates early joint attention with later language. The direction of causation is complicated. Children with stronger emerging communication may elicit richer interactions; caregivers shape opportunities at the same time. Joint attention is therefore part of a transactional system, not a lever that manufactures vocabulary. The evidence card is `joint-attention-shared-reference.md` (Mundy & Newell 2007; extracted with Chapter 5). **Grade: Low-to-Moderate** as a research framework; **Low** as a parental technique.
+Early joint attention is longitudinally associated with subsequent vocabulary growth within a transactional social communicative system.[^ch07-joint-attention] Yet joint attention is not a unilateral instructional lever that manufactures words, and drilling gaze-following as a parental technique has not shown causal acceleration of communicative competence.
 
 The point is simpler than instruction. A child and caregiver looking at the same thing creates an opportunity for meaning. Missing a demonstration is not a missed mind.
 
@@ -106,7 +106,7 @@ This is why gesture deserves a place in the story of language that the phrase �
 
 Gesture often precedes or accompanies early speech and has been associated longitudinally with later vocabulary. Prediction is not causation. A child who gestures early may also be a child with stronger attention, motor control, and social engagement. The gesture may be a scaffold. It may also be a marker. The evidence does not require choosing once and for all.
 
-Commercial programs that teach arbitrary signs to typically developing hearing infants are a different claim. Naturally emerging gesture is part of communication. That does not mean every gesture-training package produces additional language growth. See `infant-pointing-as-shared-reference.md`. **Grade: Moderate** that pointing can function as shared reference; **Low** that sign-training products accelerate typical spoken language.
+Infant pointing functions as an intentional act of shared reference that reliably predicts subsequent expressive vocabulary.[^ch07-infant-pointing] However, commercial baby-sign programs marketed to hearing infants have not demonstrated accelerated spoken language growth over naturally emerging communicative gestures.
 
 ## The mouth learns by trying
 
@@ -134,7 +134,7 @@ Comprehension often arrives before production. A child may understand many words
 
 During the second year, vocabulary often accelerates. It is tempting to imagine a switch. Accumulated learning is less theatrical. Every established word changes the conditions under which the next can be learned. The phrase “vocabulary explosion” can describe a common acceleration without becoming a requirement. Some children accelerate earlier, some later. Some show strength in comprehension, others in production. Variation is part of the phenomenon.
 
-Grammar arrives as pattern, not as a book. Children generalize. They say things they have not been explicitly taught. Generative and usage-based theories disagree about the machinery. The evidence does not justify declaring one complete theory victorious. **Grade: Moderate** that children productively combine and extend forms; **Low** that this chapter can settle how the entire grammatical system is constructed. Uncertainty here is not a defect in the prose. It is the state of the science.
+Grammar develops through productive generalization as children combine morphemes and extend syntactic patterns to novel utterances they have never explicitly heard.[^ch07-grammatical-productivity] While theoretical traditions dispute the underlying cognitive architecture, the evidence firmly establishes productive combination without requiring this chapter to declare one linguistic paradigm victorious.
 
 ## Conversation is more than exposure
 
@@ -146,13 +146,13 @@ Conversation has a structure. The child does something. The adult responds. The 
 
 Automated daylong recordings can count adult words and adult–child conversational turns. In a longitudinal LENA sample, turns at 18–24 months accounted for a substantial share of variance in later language and IQ measures after socioeconomic status was controlled; raw adult word counts in the same window were weakened by that control.
 
-**Grade: Moderate** that turns are a stronger *predictor* than raw adult word counts in this design (`conversational-turns-language.md`; Gilkerson et al. 2018). **Grade: Low** that increasing turns would cause those later scores. Child speech is part of the turn count. Families are not randomized. The second year is a bounded window in this cohort. It is not a “critical window,” and it is not a license to treat a missed month as a written life.
+Conversational turns between caregivers and children in the second year are a substantially stronger longitudinal predictor of later language and cognitive scores than raw adult word volume.[^ch07-conversational-turns] Yet turns represent a reciprocal transaction in non-randomized families rather than a standalone causal lever, and this associative window must not be converted into a deterministic panic.
 
 The original Hart & Risley “30-million-word gap” depended on a small sample and extrapolation. A word count is not a language environment. Two children might hear a similar number of words. One hears them mostly as background. The other spends part of the day in exchanges in which an adult notices what the child is doing, names it, waits, and continues. The difference is not necessarily the number of words. It is the structure of participation.
 
 Even here the book must resist an overly individualized reading. Language environments are shaped by time, work, childcare, housing, stress, education, income, literacy, and support. These conditions affect opportunities for communication without revealing how much a family cares about language. A family with fewer recorded words is not a family with less love.
 
-Parent-implemented language interventions, especially those embedded in shared reading, play, and ordinary routines, have produced improvements in some expressive-language outcomes in research settings. Effects on receptive language have been less consistent. The evidence card is `parent-implemented-language.md` (Heidlage et al. 2020, 25 RCTs). **Grade: Moderate** for modest expressive-vocabulary gains under protocol; **Low** that ordinary life should be converted into a language-training program, or that typical-development IQ follows. Efficacy, effectiveness, and what a family can reasonably do remain different claims.
+Parent-implemented language interventions embedded in shared book reading and daily routines produce modest, positive gains in expressive vocabulary under experimental protocols.[^ch07-parent-interventions] Yet effects on receptive language are less consistent, and experimental efficacy under a clinical protocol does not justify turning everyday domestic life into a structured training curriculum.
 
 The child is not completing exercises. The child is joining a conversation.
 
@@ -164,7 +164,7 @@ A screen is not simply “language exposure,” any more than a person is simply
 
 Infants and young toddlers often learn less effectively from prerecorded material than from contingent social interaction. That is not a claim that a device is intrinsically ruinous, or that every screen experience is equivalent.
 
-The existing card is `screen-time-language-development.md`. It was **not re-extracted** for this chapter. **Grade: Low-to-Moderate** for observational associations that decompose quantity, content, co-use, and context. The Madigan 2020 *JAMA Pediatrics* ID and Jing, Ye, Kirkorian & Mares 2023 *Child Development* vocabulary meta-analysis are now separate catalog entries; the earlier frontmatter/body mismatch was repaired. YAML `confidence` remains `low-to-moderate`. The card remains `status: draft`. Sleep and attachment-intervention theory are not restated.
+Observational research links excessive early screen exposure with lower language scores, though these associations attenuate substantially when analyzing program content, caregiver co-viewing, and family socioeconomic background.[^ch07-screen-time] Prerecorded video lacks the contingent responsiveness that powers early language learning, but screen viewing operates as a heterogeneous medium rather than a uniform developmental toxin.
 
 A child does not experience “thirty minutes of language.” The child experiences a particular activity, with a particular level of contingency, attention, and competing opportunity.
 
@@ -174,7 +174,7 @@ Human language development is not fundamentally a monolingual phenomenon.
 
 Children can grow up with more than one language and learn the structure of multiple systems from the beginning. Vocabulary is distributed across people, activities, and settings. A smaller count in one language is not a global delay. Measuring only the majority language can manufacture a deficit.
 
-**Grade: High** that dual-language exposure as such does not confuse young children (`dual-language-does-not-confuse.md`; National Academies 2017, Conclusion 4-2). **Grade: Moderate** for individual trajectories, which vary with amount and quality of each language, opportunity, and socioeconomic conditions. **Grade: Low** that bilingualism automatically confers a cognitive advantage as a parenting product.
+Dual-language exposure from infancy does not confuse developing children or cause global language delay.[^ch07-dual-language] Individual trajectories vary with the quantity and quality of exposure in each language, and code-switching reflects normal communicative competence across settings rather than linguistic confusion.
 
 Code-switching is similarly easy to misunderstand. Moving between languages is not, by itself, evidence of confusion. It can reflect adaptation to the person and the context. There is no contradiction between biological preparedness and environmental specificity. The learning system is flexible enough to organize more than one linguistic environment. The environment determines which languages that flexibility is used to acquire.
 
@@ -216,7 +216,7 @@ It does not tell us how extrafamilial worlds will reshape opportunity. That is l
 
 ## Science, Interpretation, Art
 
-**Science** here is the High-grade laboratory facts of perceptual attunement, statistical segmentation (both `stable` for the narrow lab claim), and dual-language no-confusion (`dual-language-does-not-confuse.md`, `status: stable` for that narrow milestone claim); the Moderate claims about prenatal preference (`prenatal-auditory-learning.md`, `status: stable` for sensory encoding), turns as a predictor, parent-implemented expressive vocabulary under protocol, and dual-language trajectories; and the Low status of transfer, turn-count causation, screen-as-unitary-harm, and grammatical theory choice.
+**Science** here is the High-grade laboratory demonstration of perceptual attunement, statistical segmentation, and dual-language non-confusion; the Moderate evidence for prenatal auditory familiarization, conversational turns as a longitudinal predictor, parent-implemented expressive vocabulary gains, and differentiated bilingual trajectories; and the Low certainty for direct laboratory transfer to natural vocabulary, turn-count causation, screens as a monolithic harm, and adjudicating between formal grammatical frameworks.
 
 **Interpretation** is the habit of keeping those facts from becoming a story about the kind of speaker the child will be, or the kind of tutor the parent must become. It is also the habit of matching verbs to grades: *shows* where the grade is High, *suggests* where it is Moderate, *is associated with* where it is Low.
 
@@ -233,6 +233,20 @@ Then words begin to combine. Patterns become grammar. Conversation becomes more 
 Chapter 4 described relationship as a regulatory system. Chapter 5 described an active mind. Chapter 6 described learning through action, prediction, and memory. This chapter describes what happens when learning becomes shared meaning.
 
 Before the child can speak, other people have already built a world of meaning. Language is the invitation into it. Once the invitation is accepted, the child is no longer learning only from what happens. The child can begin learning from what someone else knows.
+
+## Notes
+
+[^ch07-prenatal-auditory]: **Grade: Moderate** that late-pregnancy auditory familiarization shapes newborn preferences (DeCasper & Spence 1986; Partanen et al. 2013); **Grade: Low** for permanent cognitive acceleration. Evidence Card: `evidence-cards/prenatal-auditory-learning.md`.
+[^ch07-infant-crying]: **Grade: Moderate** that infant crying operates as a graded distress signal; **Grade: Low** for acoustic features diagnosing specific needs in domestic settings. Evidence Card: `evidence-cards/infant-crying-as-signal.md`.
+[^ch07-perceptual-attunement]: **Grade: High** for laboratory phonetic attunement across the first year (Werker & Tees 1984; Kuhl et al. 1992); **Grade: Low** for permanent critical window closure. Evidence Card: `evidence-cards/infant-perceptual-narrowing.md`.
+[^ch07-statistical-segmentation]: **Grade: High** for laboratory statistical speech segmentation via transitional probabilities (Saffran, Aslin & Newport 1996); **Grade: Low** for direct equivalence to natural household vocabulary acquisition. Evidence Card: `evidence-cards/infant-statistical-speech-segmentation.md`.
+[^ch07-joint-attention]: **Grade: Moderate** that joint attention predicts subsequent communicative development within a transactional framework (Mundy & Newell 2007); **Grade: Low** for drilled gaze-following as a parental technique. Evidence Card: `evidence-cards/joint-attention-shared-reference.md`.
+[^ch07-infant-pointing]: **Grade: Moderate** that infant pointing functions as intentional shared reference predicting vocabulary; **Grade: Low** that commercial sign-training products accelerate spoken language. Evidence Card: `evidence-cards/infant-pointing-as-shared-reference.md`.
+[^ch07-grammatical-productivity]: **Grade: Moderate** that children productively combine and extend grammatical morphemes; **Grade: Low** that empirical data adjudicates between competing generative and usage-based frameworks.
+[^ch07-conversational-turns]: **Grade: Moderate** that conversational turns at 18–24 months predict adolescent verbal skills more strongly than adult word volume (Gilkerson et al. 2018); **Grade: Low** that turns function as a unilateral causal intervention. Evidence Card: `evidence-cards/conversational-turns-language.md`.
+[^ch07-parent-interventions]: **Grade: Moderate** for parent-implemented shared reading and interaction interventions improving expressive vocabulary (Heidlage et al. 2020); **Grade: Low** that typical-development IQ follows. Evidence Card: `evidence-cards/parent-implemented-language.md`.
+[^ch07-screen-time]: **Grade: Low-to-Moderate** for observational associations between early solo screen use and language outcomes (Madigan et al. 2020; Jing et al. 2023); **Grade: Low** that screens represent a single monolithic causal exposure. Evidence Card: `evidence-cards/screen-time-language-development.md`.
+[^ch07-dual-language]: **Grade: High** that dual-language exposure does not confuse young children or impair overall development (National Academies 2017); **Grade: Moderate** for input-dependent trajectory variation; **Grade: Low** for guaranteed bilingual cognitive advantage. Evidence Card: `evidence-cards/dual-language-does-not-confuse.md`.
 
 ## Linked evidence cards
 
