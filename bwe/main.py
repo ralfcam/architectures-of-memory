@@ -6,7 +6,7 @@ import subprocess
 import sys
 from pathlib import Path
 from fastapi import FastAPI, Form, HTTPException, Request
-from fastapi.responses import HTMLResponse, StreamingResponse
+from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from jinja2_fragments.fastapi import Jinja2Blocks
 
@@ -37,10 +37,10 @@ def on_startup() -> None:
     init_db(REPO_ROOT)
 
 
-@app.get("/", response_class=HTMLResponse)
-async def root_redirect(request: Request):
+@app.get("/")
+async def root_redirect():
     """Root entrypoint landing on the unified Imprint Hub."""
-    return await imprint_site_home(request)
+    return RedirectResponse(url="/site/", status_code=307)
 
 
 # -------------------------------------------------------------------------
@@ -48,7 +48,12 @@ async def root_redirect(request: Request):
 # -------------------------------------------------------------------------
 
 
-@app.get("/site", response_class=HTMLResponse)
+@app.get("/site")
+async def imprint_site_redirect():
+    """Redirects /site to /site/ to preserve relative audio asset resolution."""
+    return RedirectResponse(url="/site/", status_code=307)
+
+
 @app.get("/site/", response_class=HTMLResponse)
 async def imprint_site_home(request: Request):
     """
@@ -66,6 +71,25 @@ async def imprint_site_home(request: Request):
             "active_tab": "site",
         },
     )
+
+
+# Root media fallbacks if requested without /site prefix
+@app.get("/{filename}.mp3")
+@app.head("/{filename}.mp3")
+async def audio_root_fallback(filename: str):
+    candidate = SITE_DIR / f"{filename}.mp3"
+    if candidate.exists():
+        return FileResponse(candidate, media_type="audio/mpeg")
+    raise HTTPException(status_code=404, detail="Audio file not found")
+
+
+@app.get("/{filename}.pdf")
+@app.head("/{filename}.pdf")
+async def pdf_root_fallback(filename: str):
+    candidate = SITE_DIR / f"{filename}.pdf"
+    if candidate.exists():
+        return FileResponse(candidate, media_type="application/pdf")
+    raise HTTPException(status_code=404, detail="PDF file not found")
 
 
 # Static file mounts for audio binaries and PDFs (registered after HTML route)

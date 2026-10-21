@@ -1577,7 +1577,12 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
       if (!ch) return;
 
       dockTitle.innerText = `${{String(ch.num).padStart(2, '0')}}. ${{ch.title}}`;
-      const url = streamMode === 'online' ? ch.onlineUrl : ch.localUrl;
+      let url = streamMode === 'online' ? ch.onlineUrl : ch.localUrl;
+      if (streamMode === 'local' && !url.startsWith('/') && !url.startsWith('http')) {{
+        if (window.location.pathname.startsWith('/site')) {{
+          url = '/site/' + url;
+        }}
+      }}
       audio.src = url;
       dockSub.innerText = streamMode === 'online' ? `${{book.title}} · Online Stream` : `${{book.title}} · Local Audio`;
 
