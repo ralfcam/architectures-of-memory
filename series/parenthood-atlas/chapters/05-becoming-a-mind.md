@@ -8,7 +8,7 @@ The scene is ordinary. It is also easy to over-read.
 
 If the infant were empty, those traces would be noise waiting for the world to write on. If the infant were already a small adult, the same traces would be taken as proof of physics, mathematics, or morality. Neither reading fits what can be shown.
 
-**Grade: High** that looking-time methods can index discrimination and a change of attention (`looking-time-as-measurement.md`; Aslin 2007; Haith 1998; ManyBabies 2020). **Grade: Low** that a look is a transparent window into a rich concept, belief, or theory. That narrow *method* claim is `stable`: looking time is a valid, reproducible measurement instrument for perceptual discrimination and attention under specified laboratory controls, while rich nativist conceptual claims remain Low.
+Looking-time paradigms reliably index perceptual discrimination and shifts in infant attention under controlled laboratory conditions.[^ch05-looking-time] Yet treating a sustained gaze as a transparent window into a rich concept, conceptual theory, or adult-like belief overinterprets what visual behavior can demonstrate.
 
 This chapter asks a narrower question than “what does a baby know?” It asks what kind of learner an infant is, and what kinds of claims those traces can support.
 
@@ -60,7 +60,7 @@ These abilities are not complete representations of people, objects, or language
 
 Sensation is not perception. Perceptual discrimination is not object representation. Object representation is not meaning. A detectable difference is not necessarily an understood difference.
 
-**Grade: High** that first-year phonetic attunement occurs in the classic laboratory contrasts (`infant-perceptual-narrowing.md`; Werker & Tees 1984; Kuhl et al. 1992). That *laboratory* claim is `status: stable`. **Grade: Moderate** for a universal timetable. **Grade: Low** that the change is a sealed deadline. This is calibration, not a story of loss, and not a reason to treat a second language as confusion.
+First-year perceptual attunement reliably sharpens sensitivity to native phonemic contrasts while attenuating responsiveness to unexperienced distinctions in classic laboratory settings.[^ch05-perceptual-narrowing] This process represents adaptive neural calibration rather than permanent cognitive loss, and it operates without imposing a sealed developmental deadline or presenting an obstacle to bilingual development.
 
 A nervous system that remained equally sensitive to every possible distinction would be expensive to operate. Specialization allows efficiency for the patterns actually encountered. Timing must not be turned into destiny. Sensitive periods are windows in which particular forms of experience and maturation interact strongly. They are not universal deadlines after which learning becomes impossible.
 
@@ -68,7 +68,7 @@ A nervous system that remained equally sensitive to every possible distinction w
 
 The world contains more information than an infant can process at once. Something has to be selected. Attention is that selection.
 
-**Grade: Moderate** that infant visual attention comprises dissociable functions — alertness, spatial orienting, attention to object features, and endogenous control — that change on different postnatal schedules (`infant-attention-as-gatekeeper.md`; Colombo 2001). **Grade: Low** that attention is a single trait, a moral quality, or a forecast of later intelligence.
+Infant visual attention comprises dissociable neurodevelopmental functions—alertness, spatial orienting, feature processing, and endogenous control—that mature along distinct postnatal timetables.[^ch05-attention-gatekeeper] Attention is not a unified moral trait, a personality verdict, or a deterministic forecast of future intelligence.
 
 A tired infant may look inattentive. A hungry infant may disengage. A distressed infant may struggle to sustain attention. A highly stimulating environment may produce more movement and less useful processing rather than better learning.
 
@@ -82,7 +82,7 @@ Once information is selected, the infant can search for regularities.
 
 Spoken language does not arrive with spaces between words. In a classic experiment, infants listened to continuous streams of speech-like syllables. The only reliable clues were statistical: syllables occurring within a hidden word were more likely to follow one another than syllables spanning a word boundary. After brief exposure, infants distinguished higher-probability sequences from lower-probability combinations.
 
-**Grade: High** for laboratory transitional-probability segmentation (`infant-statistical-speech-segmentation.md`; Saffran, Aslin & Newport 1996). **Grade: Low** for transfer to household vocabulary or a complete theory of grammar.
+Infants reliably track transitional probabilities between syllables to extract word-like units from continuous speech streams in controlled laboratory experiments.[^ch05-statistical-segmentation] While statistical extraction is a robust discovery, it does not by itself explain vocabulary acquisition in noisy homes or serve as a complete theory of syntax.
 
 Statistical learning can detect structure. It does not by itself explain goals, social meaning, causal understanding, or language as a symbolic system. Associative learning, contingency learning, imitation, observational learning, and socially guided learning overlap. There is no need to make one mechanism the winner.
 
@@ -94,7 +94,7 @@ Prediction requires history. Infant memory is one of the stronger arguments agai
 
 The mobile-conjugate-reinforcement paradigm remains the clearest laboratory demonstration. A ribbon links an infant’s ankle to a mobile. Kicking moves the mobile. Later kicking above baseline indexes retention of that action–outcome relation.
 
-**Grade: High** that young infants can acquire and, under matching conditions, retain this contingency (`infant-contingency-learning.md`; Rovee & Rovee 1969). **Grade: Low** that this is adult-like causal theory, lasting cognitive advantage, or a mandate for stimulation.
+Young infants rapidly acquire and, under matching sensory cues, retain contingency relationships between their own motor actions and environmental movements.[^ch05-contingency-learning] Demonstrating operant conditioning, however, does not reveal adult causal reasoning, confer long-term cognitive advantage, or justify an intensive home enrichment curriculum.
 
 Three questions that are often collapsed should stay separate. Was something encoded? Was it retained? Could it be retrieved under the conditions of the test? A changed room, a changed cue, or a different motor demand can matter. Failure to retrieve is not proof that no representation existed. Early memory and later autobiographical memory are not the same system. The infant can remember before the child can tell a story about remembering.
 
@@ -104,7 +104,7 @@ The infant must eventually learn not only that patterns recur, but that the worl
 
 The disagreement is useful if it is not turned into a score-settling.
 
-**Grade: Moderate** that young infants can show looking-time sensitivity to occlusion and solidity displays (`object-permanence-looking-vs-search.md`; Baillargeon 1987). **Grade: Low** that the look is a finished object concept, or that search-task ages were simply a mistake.
+Young infants display looking-time sensitivity to displays involving occlusion and physical solidity well before they reliably search for hidden objects with their hands.[^ch05-object-permanence] Longer looking at an unexpected event indicates perceptual discrimination and expectation violation, but it does not prove a fully consolidated, abstract object concept.
 
 Different tasks measure different layers of competence. An infant might expect an object to persist but lack the motor control to search. An infant might represent where an object should be while still being pulled toward a previously reinforced reaching location. An apparent cognitive error may emerge from the interaction of memory, attention, motor history, posture, and task demands.
 
@@ -118,7 +118,7 @@ Dynamic-systems work made a related point about the A-not-B error. Behavior can 
 
 The infant is never learning from objects alone. Faces, voices, gaze, affect, and contingent responses help organize what is selected and how events are interpreted.
 
-**Grade: Moderate** that joint attention — the coordinated processing of one’s own attention, another person’s attention, and a shared referent — is a real developmental construct (`joint-attention-shared-reference.md`; Mundy & Newell 2007). **Grade: Low** that drilling gaze-following in ordinary homes produces language or intelligence, or that a missed shared look is a missed mind.
+Joint attention—the coordinated engagement between an infant, a caregiver, and an external object—is a foundational construct in early social communication.[^ch05-joint-attention] Yet attempting to drill gaze-following in ordinary households does not accelerate language or intelligence, and an occasional unshared gaze is never evidence of an absent mind.
 
 Responding to joint attention and initiating it are not the same skill. They develop on overlapping schedules. Associations with later communication are informative. They do not establish that increasing one isolated behavior will produce language gains. Conversational turns as a later predictor belong to Chapter 7. Hart & Risley is not this chapter.
 
@@ -163,6 +163,16 @@ The infant who looked, and could not say what it saw, has not become a different
 A mind is not poured in. It is not installed. It is assembled: selection, regularity, memory, prediction, action, and other people, on overlapping schedules, under conditions that include rest as well as play.
 
 Chapter 4 showed the relationship that takes up dependence. This chapter shows that the same relationship is already a learning environment. The next territory is what happens when that mind acts. It is not a verdict on the look that came before.
+
+## Notes
+
+[^ch05-looking-time]: **Grade: High** that looking-time methods reliably index perceptual discrimination and attentional shifts under laboratory controls (Aslin 2007; Haith 1998; ManyBabies 2020); **Grade: Low** for inferring rich conceptual theories or beliefs from visual fixation alone. Evidence Card: `evidence-cards/looking-time-as-measurement.md`.
+[^ch05-perceptual-narrowing]: **Grade: High** for laboratory phonetic attunement across the first year (Werker & Tees 1984; Kuhl et al. 1992); **Grade: Moderate** for universal timing; **Grade: Low** that narrowing imposes a closed critical period. Evidence Card: `evidence-cards/infant-perceptual-narrowing.md`.
+[^ch05-attention-gatekeeper]: **Grade: Moderate** that visual attention comprises dissociable components maturing on distinct postnatal schedules (Colombo 2001); **Grade: Low** that early attention predicts global adult intelligence. Evidence Card: `evidence-cards/infant-attention-as-gatekeeper.md`.
+[^ch05-statistical-segmentation]: **Grade: High** for laboratory statistical speech segmentation via transitional probabilities (Saffran, Aslin & Newport 1996); **Grade: Low** for direct transfer to natural grammar acquisition. Evidence Card: `evidence-cards/infant-statistical-speech-segmentation.md`.
+[^ch05-contingency-learning]: **Grade: High** that infants acquire and retain mobile-conjugate contingencies under matching cue conditions (Rovee & Rovee 1969); **Grade: Low** for permanent cognitive acceleration. Evidence Card: `evidence-cards/infant-contingency-learning.md`.
+[^ch05-object-permanence]: **Grade: Moderate** that infants show looking-time sensitivity to occlusion and solidity displays (Baillargeon 1987); **Grade: Low** that looking equates to a mature object concept. Evidence Card: `evidence-cards/object-permanence-looking-vs-search.md`.
+[^ch05-joint-attention]: **Grade: Moderate** for joint attention as a construct predicting subsequent social-communicative development (Mundy & Newell 2007); **Grade: Low** for drilled gaze-following producing general intellectual gains. Evidence Card: `evidence-cards/joint-attention-shared-reference.md`.
 
 ## Linked evidence cards
 
