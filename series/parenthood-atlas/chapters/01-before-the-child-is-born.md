@@ -2,161 +2,109 @@
 
 There is a moment when a child becomes visible.
 
-It may be the first ultrasound: a small flicker, a heartbeat that is suddenly no longer an abstraction. Or it may come later — a movement under a hand, a photograph, a first cry in a delivery room.
+It may be the first ultrasound: a small flicker, a rhythm of light on a dark monitor, a heartbeat that is suddenly no longer an abstraction. Or it may arrive later — a distinct movement felt beneath a resting hand, a printed photograph, or a first sharp cry in a delivery room.
 
-We are drawn to such moments because they give beginnings a shape. A date appears on a screen. A story can start.
+We are drawn to such moments because they give beginnings a shape. A date appears on a screen; an entry is made in a medical chart; a story can officially start.
 
-Biology is less accommodating. By the time that heartbeat is heard, cells have already divided countless times. Organs are taking form. A placenta is already deciding what passes between two circulations. The adults who will care for this child may already be changing — physically, psychologically, socially. The child has not been born. Development has already begun.
+Biology is less accommodating. By the time that heartbeat is detected, cells have already divided countless times. Tissues have segregated into specialized layers, and primitive organs are taking form. A placenta is already negotiating what passes between two circulations. The adults who will nurture this child are already changing — hormonally, psychologically, and relationally. The child has not yet been born, but development is already well underway.
 
-That is the opening anomaly of this book. The stranger fact underneath it is this: **parental biology before conception is already a developmental environment.** Eggs and sperm carry histories. Nutrients, toxins, age, illness, and the social conditions that shape those things are not waiting for a positive test. They are already in the room.
+That is the opening anomaly of this atlas. The deeper reality beneath it is this: **parental biology before conception is already a developmental environment.** Eggs and sperm carry histories. Nutrients, exposures, age, physical health, and the social conditions that shape daily life are not waiting outside for a positive test. They are already in the room.
 
-A case makes the same point without a laboratory. Two people trying to conceive are told to “prepare.” One starts folic acid because a clinician named a defect that can be prevented. Another lies awake replaying every stressful week as if it were already an injury to a child who does not yet exist. Both are responding to the knowledge that development has a before. Only one of those responses is calibrated to what the evidence can carry.
+Consider two people preparing to conceive. One begins taking folic acid because a clinician identified a structural defect that can be prevented. Another lies awake replaying every stressful week at work as if ordinary worry were already an indelible injury to a child who does not yet exist. Both are responding to the realization that development has an antecedent. Yet only one of those responses is calibrated to what scientific evidence can actually carry.
 
-This chapter is the reader’s contract with the rest of the atlas. It is not a complete prenatal textbook. Chapters 2 through 7 will do the empirical work of pregnancy, birth, regulation, attention, action, and language. Here the question is narrower and more dangerous: what does “starts before birth” license, and what does it refuse?
+This chapter forms the reader’s epistemic contract with the rest of the atlas. It is not a clinical textbook of embryology, nor a prenatal instruction manual. Subsequent chapters will trace the empirical terrain of pregnancy, birth, autonomic regulation, perceptual attention, motor action, and the emergence of language. Here, our inquiry is narrower and more foundational: what does the fact that development starts before birth license, and what does it strictly refuse?
 
-## The puzzle
+## I. The Reader's Contract: Three Categories That Must Not Collapse
 
-The conventional story of parenting begins when the child arrives. The developmental story does not.
+The conventional cultural story of parenting begins when the infant arrives in the nursery. The developmental science story does not.
 
-If we begin too late, we miss conditions that are already operating. If we begin too early in the wrong register, we turn biology into a verdict on character, intelligence, or parental worth.
+Yet tracing beginnings backward carries serious intellectual risks. If we begin too late, we overlook conditions and biological processes that are already operating. If we begin too early in the wrong register, we turn probabilistic biology into a fatalistic verdict on character, intelligence, or parental worth.
 
-The bounded claim this chapter will carry is the one the Chapter 1 dossier was written to test: human development has relevant antecedents before birth, and the transition to parenthood changes the biological, relational, and social context into which a child is born. That claim is high as biology and very low as a license to read a future from a fetus or to treat parents as the sole engineers of that future.
+To navigate this landscape without distortion, this atlas maintains a strict discipline between three distinct kinds of statements:
 
-## Three categories that must not collapse
-
-This book never treats three kinds of statement as the same thing.
-
-| Category | Meaning here |
+| Category | Meaning in this atlas |
 |---|---|
 | **Science** | What can be observed, measured, tested, replicated, and reasonably inferred |
-| **Interpretation** | How evidence should be understood, contextualized, and translated |
-| **Art** | Judgment, relationships, values, culture, individuality, uncertainty, lived experience |
+| **Interpretation** | How empirical evidence is understood, contextualized, and translated into systems |
+| **Art** | Human judgment, relationships, cultural values, individuality, and lived experience |
 
-A High finding does not automatically generate a parenting prescription. A moving scene does not automatically generate a High finding. When those categories collapse, developmental science becomes either a manual or a mythology.
+A rigorous scientific finding does not automatically generate a parenting prescription. A moving clinical scene does not automatically establish an empirical law. When these categories collapse, developmental science ceases to illuminate and degenerates into either an anxious optimization manual or a moralizing mythology.
 
-The questions that will travel with the reader are therefore not only “what can parents do?” They are also: **what can parents not do, and what must institutions do instead?**
+Before interpreting what unfolds on the ultrasound screen, three competing explanations must sit clearly in view:
 
-## Competing explanations of the opening scene
+- **Genesis at visibility.** The assumption that nothing of developmental importance occurs until an observer can measure or see it.
+- **Destiny already written.** The fatalistic belief that early biological conditions have already locked in the child’s cognitive, emotional, and physical future.
+- **Continuity without determination.** The understanding that development is an ongoing, mediated process that began before conception, remains highly plastic, and is perpetually open to subsequent environments.
 
-Before resolving the ultrasound, three explanations need to sit in view:
+The first is a social illusion. The second is an ideological temptation this book exists to reject. The third is the only claim that empirical evidence can legitimately support.
 
-- **Genesis at visibility.** Nothing important has happened until someone can see it.
-- **Destiny already written.** Whatever is measurable this early has already decided the child’s future.
-- **Continuity without determination.** Development is already underway; it remains open, mediated, and unfinished.
+## II. The Preconception Substrate: Gametes, Age, and Epigenetics
 
-The first is a social story. The second is the temptation this book exists to refuse. The third is the claim the evidence can carry.
+The developmental story reaches back before conception into parental biology. Eggs and sperm are not abstract genetic packages; they are living cells produced under specific biological circumstances.
 
-## Timing is not a slogan
+On the paternal side, sperm production involves continual cellular replication across the male lifespan. In whole-genome sequencing of parent–offspring trios, Kong and colleagues demonstrated that *de novo* mutations in offspring increase steadily with paternal age, rising at a rate of approximately two additional point mutations per year of the father's life.[^ch01-paternal-mutations] The underlying mutational biology is genuine. 
 
-Human development is sequence, not mere growth. Preimplantation life, gastrulation, organogenesis, and later fetal growth are different jobs. An exposure during specification of a structure is not the same exposure after the structure exists.[^ch01-timing]
+Yet the interpretive boundary surrounding this finding is equally vital. While advanced paternal age is statistically associated with modest increases in the relative risk of certain neurodevelopmental conditions, those associations in pooled population studies are small in absolute terms. More crucially, they are heavily entangled with unmeasured socioeconomic variables, reproductive selection, assortative mating, and inherited familial liabilities.[^ch01-paternal-outcomes] The mutational rate is an observation about cellular biology; it is not a personality forecast, an indictment of older parents, or a license to treat paternal age as a deterministic script.
 
-A sensitive window is not an inevitable-injury window. The useful scientific question is always more precise: sensitive to *what*, at what time, at what dose, through what pathway, producing what outcome?
+A parallel temptation appears one layer below DNA sequence in the realm of epigenetics. Cells carry enzymatic marks, such as DNA methylation and histone modifications, that regulate how genes are expressed without altering the underlying code. These mechanisms explain how tissues differentiate and how cells remember past exposures.
 
-The prenatal nervous system makes the same point in another register. Construction proceeds through overlapping proliferation, migration, and transient embryonic zones.[^ch01-neural]
+In popular parenting culture, however, the word "epigenetic" is frequently invoked to suggest that a parent’s momentary sadness, poor night of sleep, or workplace strain will chemically scar a child's future temperament. The laboratory evidence is far more modest. Preconception and prenatal environments can indeed induce epigenetic marks in animal models and human tissues. Yet rigorous evidence that typical-range parental moods or everyday stress write lasting developmental deficits into offspring epigenetics remains sparse and largely unproven.[^ch01-epigenetics] Biological marking is real; it is a mechanism of adaptation, not a mechanism of parental guilt.
 
-Birth does not complete the brain. Collapse of structure, connectivity, cognition, and mental health into one “brain” claim is the usual error.
+## III. Morphogenesis and the Discipline of Timing
 
-## Folate, and the discipline of a narrow success
+Human development is not continuous enlargement; it is sequence. Preimplantation cleavage, gastrulation, organogenesis, and subsequent fetal growth are fundamentally distinct developmental jobs. An exposure during the initial specification of a tissue produces consequences entirely different from the same exposure after that anatomical structure is established.[^ch01-timing]
 
-Some preconception interventions have exceptionally clear evidence.
+A sensitive window is not an inevitable-injury window. The precise scientific question is always: sensitive to *what*, at what developmental timing, at what biological dose, through what physiological pathway, and producing what specific outcome?
 
-Periconceptional folic acid substantially reduces neural-tube-defect risk. The Cochrane synthesis of five trials reports a relative risk of 0.31 for neural tube defects.[^ch01-folate]
+The construction of the prenatal nervous system illustrates this sequence with extraordinary fidelity. Neuronal proliferation, migration along radial glial fibers, cortical layering, and the establishment of transient embryonic zones proceed in an orderly, clockwork progression.[^ch01-neural] Birth does not complete the brain; it merely transitions an unfinished neural organ into an atmospheric, relational environment. Collapsing structural anatomy, synaptic connectivity, cognitive potential, and mental health into an undifferentiated "brain claim" is the standard error of modern developmental writing.
 
-The lesson is powerful because it is limited. Folate prevents a defined class of defects. It does not prove that a supplement can manufacture intelligence, resilience, or a better human being. Risk reduction is not risk elimination. Preparation is not control. Prevention is not optimization of the child.
+This timing discipline is best illustrated by periconceptional folic acid. When taken before conception and throughout the first four weeks of gestation, maternal folate supplementation substantially reduces the occurrence of neural tube defects. The Cochrane systematic review of randomized trials demonstrates a relative risk of 0.31, averting more than two-thirds of anencephaly and spina bifida occurrences.[^ch01-folate]
 
-WHO’s preconception and nurturing-care frameworks place such interventions in a system — health, nutrition, safety, responsive care, learning — rather than in a private checklist.[^ch01-who]
+The power of folate’s lesson lies precisely in its boundaries. The human neural tube closes between the twenty-first and twenty-eighth day after fertilization — often before a missed menstrual cycle or a clinical confirmation of pregnancy.[^ch01-timing-clocks] Folate succeeds because it is present during that exact, fleeting embryological window. 
 
-## Paternal age, without the myth
+Yet what folate establishes for structural organogenesis, it refuses to grant to cognitive optimization. Preventing an anatomical closure failure does not mean that megadoses of vitamins can engineer higher IQ, emotional resilience, or accelerated learning. Other dietary nutrients do not inherit folate's structural preventability.[^ch01-nutrition-beyond-folate] Prevention of catastrophe is not the optimization of a human mind.
 
-The developmental story reaches back before conception on the paternal side as well. Sperm production involves continual cell division. Kong et al. (2012) showed, in whole-genome sequences of parent–offspring trios, that de novo mutations in offspring increase with father’s age — on the order of two additional mutations per year.[^ch01-paternal-mutations]
+## IV. The Mediated Ecology: Placental Buffers and Stress Triangulation
 
-The underlying biology is real, but so are the limits of the finding. Advanced paternal age has been associated with selected perinatal and neurodevelopmental outcomes. Those associations are generally modest in pooled reviews and are entangled with socioeconomic conditions, reproductive selection, assortative mating, and inherited liability. A finding can be biologically true while a simplified causal story is wrong.[^ch01-paternal-outcomes]
+Few topics in prenatal literature generate more acute parental anxiety than maternal psychological stress.
 
-The appropriate conclusion is not *have children early or risk damaging them*. It is: reproductive biology changes with age; some risks change with it; those risks are probabilistic; interpretation requires absolute risk and family context.
+The popular narrative sounds intuitive: stress elevates maternal cortisol; cortisol crosses the placenta; cortisol alters fetal brain development; therefore, a mother's stress damages her child’s future. In reality, each link in this causal chain becomes progressively weaker under scientific scrutiny.
 
-The mutational relationship is an observation about biological rate. It is not a personality forecast, a fertility instruction, or a ranking of families by the age at which they conceived.
+The placenta is not a passive permeable filter; it is an active biochemical gatekeeper. Among its critical enzymatic defenses is $11\beta$-hydroxysteroid dehydrogenase type 2 ($11\beta\text{-HSD2}$), which oxidizes active cortisol into biologically inactive cortisone, shielding the developing fetus from circulating maternal glucocorticoids.[^ch01-placenta] The placental buffer is substantial, protecting the embryo from ordinary fluctuations in daily parental distress.
 
-## Marking is not a script
+More decisively, when researchers investigate prenatal stress using genetically informed methodologies — such as sibling comparisons, children-of-twins designs, and in vitro fertilization cross-fostering — traditional observational correlations largely evaporate. A comprehensive genetically informed meta-analysis revealed that after accounting for shared inherited liabilities and family confounding, the specific prenatal contribution of maternal anxiety to child internalizing problems dropped to near zero, while modest postnatal parent–child associations remained.[^ch01-stress-gi] 
 
-A related temptation sits one layer down from genes. Cells can carry chemical marks that change how DNA is used without changing the sequence. Those marks are part of how development remembers an environment. The word that travels with them into popular writing is “epigenetic.”
+What seemed to be direct fetal programming in simple observational studies was largely the reflection of shared genetics and the continuous postnatal caregiving environment. Triangulation showed that an attractive causal story was largely an artifact of unadjusted confounding. 
 
-The laboratory fact is narrower than the story. Some preconception and prenatal environments can leave marks. Some of those marks have been measured in human tissues. Few of them have been shown, in humans, to be the pathway that turns a parent’s week of strain into a child’s later character. Animal models can demonstrate mechanism. They do not automatically measure a human childhood.[^ch01-epigenetics]
+Parents are human beings, not sterile laboratory instruments. They experience bereavement, job insecurity, discrimination, housing instability, and the ordinary frictions of daily life. Alleviating parental distress is a moral and public-health imperative because parents deserve care in their own right — not merely as biological incubators calibrated to maximize a future infant's developmental score.
 
-This is one of the atomic claims the Chapter 1 dossier was written to test: marking can happen without determinism. Continuity of biology is not a completed biography.
+## V. The Co-Developing Caregiver and the Return
 
-## Timing windows before a heartbeat
+The transition to parenthood is not an event that happens solely to an infant; it transforms the adults as well.
 
-The same discipline applies to the days before implantation. A fertilized egg is already in a developmental environment: the reproductive tract, the metabolic state of the adults, the presence or absence of a nutrient the embryo will soon need. Folate’s success is partly a timing success. The neural tube closes in the first weeks, often before a pregnancy is recognized. That is why the intervention is periconceptional rather than “sometime in the second trimester.”[^ch01-timing-clocks]
+During pregnancy and the early postpartum period, mothers undergo pronounced endocrine and neurobiological adaptation. Longitudinal neuroimaging studies have documented widespread structural remodeling across maternal cortical networks involved in social cognition, empathy, and threat processing.[^ch01-maternal-remodeling] Popular journalism frequently misinterprets this cortical thinning as "maternal brain loss" or intellectual decline. It is precisely the opposite: a highly coordinated, plastic specialization that attunes the caregiver to infant communicative cues.
 
-A window is a statement about a process. It is not a slogan that every early moment is equally loaded. The useful scientific question is again the same one the timing card already carries: sensitive to *what*, at what time, at what dose, through what pathway, producing what outcome?
+Crucially, this neurobiological remodeling is not exclusive to biological mothers. Longitudinal imaging in first-time fathers demonstrates parallel structural changes in social cognition networks, with the magnitude of neural adaptation correlating with active caregiving engagement.[^ch01-paternal-remodeling] The parental brain is not a fixed, finished machine that simply dispenses care; it is itself a developing organ that reorganizes under the demands of parenthood.
 
-Other preconception nutrients do not inherit folate’s structural preventability.[^ch01-nutrition-beyond-folate]
+The couple relationship also enters a dynamic transition. While group-level averages frequently record a decline in relationship satisfaction following the arrival of a first child, those statistical averages mask profound variation.[^ch01-couple-change] Sleep disruption, financial strain, unequal distribution of domestic tasks, and lack of community support all mediate this trajectory. There is no single universal transition to parenthood; there are as many transitions as there are families.
 
-WHO’s preconception-care frame is biomedical, behavioral, and social, and it names couples rather than a solitary pregnant person. That widening is **Interpretation** grounded in the evidence framework, not a proof that a household checklist can manufacture a mind.
+Development unfolds within a multi-layered ecology. The World Health Organization's nurturing care framework emphasizes that child development relies upon an interlocking matrix of nutrition, responsive caregiving, physical safety, healthcare infrastructure, and supportive community institutions.[^ch01-who] It is not a private domestic checklist to be executed in isolation.
 
-## Stress, cortisol, and what genetically informed designs did to a popular story
+To summarize the epistemic boundaries of this pre-birth territory:
 
-Few prenatal topics produce more anxiety than maternal stress.
+- **Biological relevance is not parental control.** Recognizing that early physiology matters does not mean parents can dictate every outcome.
+- **Association is not causation.** Statistical correlations in observational cohorts frequently vanish when genetic confounding is resolved.
+- **An early difference is not a permanent fate.** Biological plasticities and compensatory mechanisms operate across the entire lifespan.
+- **Modifiability is not solitary responsibility.** What is biologically modifiable requires institutional resources, clean air, safe shelter, and medical care — not solitary parental guilt.
+- **Family action is not an institutional substitute.** Individual devotion cannot compensate for absent societal infrastructure.
 
-The chain sounds convincing: stress changes cortisol; cortisol can cross boundaries; the fetal brain is developing; therefore prenatal stress must damage the future. Every step after the first two becomes less certain.
+Now we return to the ultrasound monitor.
 
-Observational studies have often found associations between prenatal anxiety or stress and later emotional or behavioral outcomes. When researchers use sibling comparisons, children-of-twins, IVF/adoption designs, and other triangulation, many of those associations shrink or disappear. A genetically informed meta-analysis reported essentially no prenatal-anxiety association with offspring internalizing after relatedness was accounted for, while postnatal parent–child associations remained small but detectable.[^ch01-stress-gi]
+The small flicker on the screen has not changed. It pulses with the same quiet, fragile rhythm. 
 
-There are at least three pathways, and they can coexist: a direct biological effect during pregnancy; inherited characteristics shared by parent and child; and a prenatal period that is simply continuous with the postnatal environment. Correlation is a clue. Triangulation tells us more. Sometimes the scientifically important result is that an attractive explanation becomes weaker under better methods. That is not a failure of science. It is science doing its job.
+What has changed is what that flicker is permitted to mean. It is not the sudden creation of a person from a vacuum, nor is it a finished blueprint that predetermines a child's character, intelligence, or happiness. It is a visible waypoint in a vast, continuous developmental landscape — one that began before conception, is actively buffered by biology, and will unfold through relationships and communities that are still taking shape.
 
-The placenta is part of why the simple story fails. It is an active interface, including 11β-HSD2 conversion of much active cortisol to cortisone. The buffer is real. It is not absolute.[^ch01-placenta]
-
-A mechanism tells us that something *can* happen. It does not tell us that it *will* happen to a particular child, and it does not make a parent morally responsible for every fluctuation in physiology.
-
-People are not laboratory instruments. They live through bereavement, unsafe housing, discrimination, illness, work, and ordinary frustration. Some of those conditions can be changed by individual action. Many cannot. Treating distress is worthwhile because distress itself matters. A parent’s wellbeing is not merely a means to a child’s developmental score. It is an end in its own right.
-
-## The adults are developing too
-
-The transformation of parenthood is not confined to the child.
-
-Pregnancy brings endocrine change. Longitudinal neuroimaging has documented remodeling of maternal cortical structure across the transition to motherhood, including networks involved in social cognition. The popular translation is that pregnancy “shrinks the brain” or reduces intelligence. That is not what the evidence establishes. Structural change is not damage. The adult brain is plastic; it remodels under major biological and behavioral demand.[^ch01-maternal-remodeling]
-
-The story does not belong only to mothers. Work on first-time fathers has identified related structural change, associated in part with caregiving engagement.[^ch01-paternal-remodeling] The interpretive point is stronger than any single scan: the parental brain is also developed. Noticing a cry, remaining responsive while exhausted, thinking from another person’s perspective — these are skills under construction, not proofs of a finished adult who then manufactures a child.
-
-Couples change too. On average, some measures of relationship functioning decline after a first birth. The averages conceal enormous variation, and relationship satisfaction can decline among couples who never become parents. Sleep, money, unequal domestic labor, health complications, and missing family support all sit inside the same average. There is a transition. There is not one transition.[^ch01-couple-change]
-
-## Early is not permanent
-
-An effect measured early in life is not necessarily an effect that lasts. That is as true of a prenatal association as of an intervention. Follow-up studies find that some gains fade, others persist, and others change form. The disappearance of one measured advantage does not mean nothing happened. Development can move effects from one pathway to another.
-
-The right question is therefore never simply *did it work?* It is: **what changed, for whom, by how much, for how long, under what conditions, and compared with what?**
-
-That question belongs to later chapters on interventions. It belongs here as a prohibition: an early biological difference is not a life sentence, and a missed supplement is not a completed character.
-
-## What this chapter does not license
-
-From the dossier’s own boundaries, still in force:
-
-- Biological relevance is not parental control.
-- Association is not causation.
-- An early difference is not a persistent effect.
-- Modifiability is not individual responsibility.
-- Family action is not a substitute for institutional obligation.
-
-Those sentences are **Interpretation** grounded in **Science**. They are not a refusal to act where action is justified. Folate is such a place. Managing serious pre-existing disease is such a place. Turning every association into a private self-improvement project is not.
-
-A further clarification belongs here because it is the reader’s first encounter with grades. A High grade on a structural embryonic outcome does not travel. Folate’s High grade is for neural-tube-defect risk; it is Low for later cognition. Stress’s Low-to-Moderate grade is for typical-range prenatal-specific causation after genetically informed designs, not for treating clinical trauma as imaginary. Neural construction’s High grade is for sequence; it is Low for personality. Those are different claims sharing a chapter. They are not a blended “prenatal score.”
-
-## System
-
-The child who will be born enters a world that already contains biology, relationships, and institutions. WHO’s nurturing-care frame is a map of that system, not a verdict on a particular household. Chapter 2 will take up pregnancy as a mediated environment. Chapter 3 will take up birth as reorganization rather than genesis. Chapter 4 will take up regulation as a relationship. None of those chapters can do their work if this one has already turned “before birth” into destiny.
-
-The adults are in the system too. The transition to parenthood changes sleep, identity, couple functioning, and, in some neuroimaging work, cortical structure. Structural change is not damage. Average decline in relationship satisfaction after a first birth conceals enormous variation and is partly continuous with ordinary relationship change. Those are later chapters’ empirical problems. The interpretive point belongs here: the book is about a developing child *and* a developing caregiving environment.
-
-What, then, is a “developmental environment” if it can include a parent’s biology before a child exists? It is not a verdict. It is a set of conditions that can be described, some of which can be changed, many of which cannot be changed by the people who will love this child. Eggs and sperm, a placenta that is not yet formed, a clinic that does or does not stock folic acid, a workplace that does or does not allow rest, a housing market that does or does not leave a family in mold: these are not the same kind of fact. The atlas’s job is to keep them from collapsing into one parental performance.
-
-## Return
-
-The flicker on the screen has not changed.
-
-What has changed is what it is allowed to mean. It is not the beginning of the organism. It is not a completed person whose future can be read from a handful of prenatal measurements. It is a visible moment in a process that started earlier and will continue after birth, through relationships that are not yet in the room and institutions that will either hold this family or fail to.
-
-The child is not yet born. Development has already begun. That is a reason to start here. It is not a reason to finish here.
+The child is not yet born. Development has already begun.
 
 ## Notes
 
@@ -185,5 +133,3 @@ The child is not yet born. Development has already begun. That is a reason to st
 - Adjacent later: `evidence-cards/severe-institutional-deprivation.md` (not this chapter’s claim)
 - This package: `evidence-cards/paternal-age-de-novo-mutations.md`
 - Adjacent remainder: `evidence-cards/preconception-nutrition-beyond-folate.md` (Dean 2014; folate NTD not re-estimated)
-
-Promotion note: this file is a curated, voice-checked Chapter 1. The leftover seed sketch `chapters/01-first-environment.md` is removed; Chapter 2 remains `chapters/02-first-environment.md`. Archival `preliminary/drafts-chapters/chapter 1` was not overwritten. Review: `preliminary/drafts-chapters/reviews/ch01-curated-01-before-the-child--voice-review.md`.

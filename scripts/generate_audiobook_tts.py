@@ -35,58 +35,79 @@ from audio_sync_utils import (
 from merge_book_chapters import iter_chapter_files, repo_root, resolve_book_path
 
 
-def synthesize_chunk_pcm(text: str, voice: str, model: str, api_key: str, max_retries: int = 8) -> bytes:
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
-    payload = {
-        "contents": [
-            {
-                "parts": [
-                    {
-                        "text": (
-                            "Narrate the following nonfiction audiobook passage in a measured, "
-                            "clear, analytic, and engaging documentary tone:\n\n" + text
-                        )
-                    }
-                ]
-            }
-        ],
-        "generationConfig": {
-            "responseModalities": ["AUDIO"],
-            "speechConfig": {
-                "voiceConfig": {
-                    "prebuiltVoiceConfig": {
-                        "voiceName": voice,
-                    }
+FALLBACK_TTS_MODELS = [
+    "gemini-2.5-pro-preview-tts",
+    "gemini-3.8-flash-tts",
+    "gemini-3.1-flash-tts-preview",
+    "gemini-3.8-flash-lite-tts",
+    "gemini-2.5-flash-preview-tts",
+]
+
+
+def synthesize_chunk_pcm(text: str, voice: str, model: str, api_key: str, max_retries: int = 5) -> bytes:
+    models_to_try = [model] + [m for m in FALLBACK_TTS_MODELS if m != model]
+    last_err = None
+
+    for current_model in models_to_try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{current_model}:generateContent?key={api_key}"
+        payload = {
+            "contents": [
+                {
+                    "parts": [
+                        {
+                            "text": (
+                                "Narrate the following nonfiction audiobook passage in a measured, "
+                                "clear, analytic, and engaging documentary tone:\n\n" + text
+                            )
+                        }
+                    ]
                 }
+            ],
+            "generationConfig": {
+                "responseModalities": ["AUDIO"],
+                "speechConfig": {
+                    "voiceConfig": {
+                        "prebuiltVoiceConfig": {
+                            "voiceName": voice,
+                        }
+                    }
+                },
             },
-        },
-    }
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-    for attempt in range(max_retries):
-        try:
-            with urllib.request.urlopen(req, timeout=180) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-            candidates = data.get("candidates") or []
-            if not candidates:
-                raise RuntimeError("No candidates returned from Gemini TTS API.")
-            parts = (candidates[0].get("content") or {}).get("parts") or []
-            for p in parts:
-                inline = p.get("inlineData") or {}
-                if inline.get("data"):
-                    return base64.b64decode(inline["data"])
-            raise RuntimeError("No inlineData audio returned in Gemini response.")
-        except urllib.error.HTTPError as e:
-            if e.code in [429, 500, 503] and attempt < max_retries - 1:
-                wait_s = max(5.0, float(2 ** (attempt + 1)))
-                print(f"    [HTTP {e.code}] Rate limit hit. Backing off {wait_s:.1f}s before retry (attempt {attempt+1}/{max_retries})...")
-                time.sleep(wait_s)
-                continue
-            raise
+        }
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        for attempt in range(max_retries):
+            try:
+                with urllib.request.urlopen(req, timeout=180) as resp:
+                    data = json.loads(resp.read().decode("utf-8"))
+                candidates = data.get("candidates") or []
+                if not candidates:
+                    raise RuntimeError("No candidates returned from Gemini TTS API.")
+                parts = (candidates[0].get("content") or {}).get("parts") or []
+                for p in parts:
+                    inline = p.get("inlineData") or {}
+                    if inline.get("data"):
+                        return base64.b64decode(inline["data"])
+                raise RuntimeError("No inlineData audio returned in Gemini response.")
+            except urllib.error.HTTPError as e:
+                last_err = e
+                if e.code in [429, 500, 503] and attempt < max_retries - 1:
+                    wait_s = max(3.0, float(2 ** (attempt + 1)))
+                    print(f"    [{current_model}] HTTP {e.code}. Backing off {wait_s:.1f}s before retry ({attempt+1}/{max_retries})...")
+                    time.sleep(wait_s)
+                    continue
+                elif e.code in [429, 500, 503] and current_model != models_to_try[-1]:
+                    print(f"    [{current_model}] Quota reached. Falling back to alternative model...")
+                    break
+                raise
+
+    if last_err:
+        raise last_err
+    raise RuntimeError("TTS synthesis failed across all fallback models.")
 
 
 def write_wav(out_path: Path, pcm_bytes: bytes, sample_rate: int = SAMPLE_RATE) -> None:

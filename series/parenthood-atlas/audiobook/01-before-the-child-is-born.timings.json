@@ -1,15 +1,15 @@
 {
   "chapter": "01-before-the-child-is-born",
-  "total_duration_sec": 1181.318,
+  "total_duration_sec": 1185.265,
   "sample_rate": 24000,
   "bytes_per_second": 48000,
   "chunks": [
     {
       "chunk_id": 1,
       "start_sec": 0.0,
-      "end_sec": 4.421,
-      "duration_sec": 4.421,
-      "pcm_bytes": 212206,
+      "end_sec": 3.461,
+      "duration_sec": 3.461,
+      "pcm_bytes": 166126,
       "block_range": [
         "b-000",
         "b-000"
@@ -17,10 +17,10 @@
     },
     {
       "chunk_id": 2,
-      "start_sec": 4.421,
-      "end_sec": 9.052,
-      "duration_sec": 4.631,
-      "pcm_bytes": 222286,
+      "start_sec": 3.461,
+      "end_sec": 7.852,
+      "duration_sec": 4.391,
+      "pcm_bytes": 210766,
       "block_range": [
         "b-001",
         "b-001"
@@ -28,10 +28,10 @@
     },
     {
       "chunk_id": 3,
-      "start_sec": 9.052,
-      "end_sec": 25.203,
-      "duration_sec": 16.151,
-      "pcm_bytes": 775246,
+      "start_sec": 7.852,
+      "end_sec": 31.563,
+      "duration_sec": 23.711,
+      "pcm_bytes": 1138126,
       "block_range": [
         "b-002",
         "b-002"
@@ -39,10 +39,10 @@
     },
     {
       "chunk_id": 4,
-      "start_sec": 25.203,
-      "end_sec": 33.674,
-      "duration_sec": 8.471,
-      "pcm_bytes": 406606,
+      "start_sec": 31.563,
+      "end_sec": 43.634,
+      "duration_sec": 12.071,
+      "pcm_bytes": 579406,
       "block_range": [
         "b-003",
         "b-003"
@@ -50,10 +50,10 @@
     },
     {
       "chunk_id": 5,
-      "start_sec": 33.674,
-      "end_sec": 60.745,
-      "duration_sec": 27.071,
-      "pcm_bytes": 1299406,
+      "start_sec": 43.634,
+      "end_sec": 76.865,
+      "duration_sec": 33.231,
+      "pcm_bytes": 1595086,
       "block_range": [
         "b-004",
         "b-004"
@@ -61,10 +61,10 @@
     },
     {
       "chunk_id": 6,
-      "start_sec": 60.745,
-      "end_sec": 86.616,
-      "duration_sec": 25.871,
-      "pcm_bytes": 1241806,
+      "start_sec": 76.865,
+      "end_sec": 105.016,
+      "duration_sec": 28.151,
+      "pcm_bytes": 1351246,
       "block_range": [
         "b-005",
         "b-005"
@@ -72,10 +72,10 @@
     },
     {
       "chunk_id": 7,
-      "start_sec": 86.616,
-      "end_sec": 103.367,
-      "duration_sec": 16.751,
-      "pcm_bytes": 804046,
+      "start_sec": 105.016,
+      "end_sec": 136.247,
+      "duration_sec": 31.231,
+      "pcm_bytes": 1499086,
       "block_range": [
         "b-006",
         "b-006"
@@ -83,10 +83,10 @@
     },
     {
       "chunk_id": 8,
-      "start_sec": 103.367,
-      "end_sec": 127.158,
-      "duration_sec": 23.791,
-      "pcm_bytes": 1141966,
+      "start_sec": 136.247,
+      "end_sec": 171.398,
+      "duration_sec": 35.151,
+      "pcm_bytes": 1687246,
       "block_range": [
         "b-007",
         "b-007"
@@ -94,10 +94,10 @@
     },
     {
       "chunk_id": 9,
-      "start_sec": 127.158,
-      "end_sec": 128.699,
-      "duration_sec": 1.541,
-      "pcm_bytes": 73966,
+      "start_sec": 171.398,
+      "end_sec": 178.859,
+      "duration_sec": 7.461,
+      "pcm_bytes": 358126,
       "block_range": [
         "b-008",
         "b-008"
@@ -105,10 +105,10 @@
     },
     {
       "chunk_id": 10,
-      "start_sec": 128.699,
-      "end_sec": 136.85,
-      "duration_sec": 8.151,
-      "pcm_bytes": 391246,
+      "start_sec": 178.859,
+      "end_sec": 188.29,
+      "duration_sec": 9.431,
+      "pcm_bytes": 452686,
       "block_range": [
         "b-009",
         "b-009"
@@ -116,10 +116,10 @@
     },
     {
       "chunk_id": 11,
-      "start_sec": 136.85,
-      "end_sec": 151.721,
-      "duration_sec": 14.871,
-      "pcm_bytes": 713806,
+      "start_sec": 188.29,
+      "end_sec": 212.841,
+      "duration_sec": 24.551,
+      "pcm_bytes": 1178446,
       "block_range": [
         "b-010",
         "b-010"
@@ -127,10 +127,10 @@
     },
     {
       "chunk_id": 12,
-      "start_sec": 151.721,
-      "end_sec": 178.231,
-      "duration_sec": 26.511,
-      "pcm_bytes": 1272526,
+      "start_sec": 212.841,
+      "end_sec": 222.792,
+      "duration_sec": 9.951,
+      "pcm_bytes": 477646,
       "block_range": [
         "b-011",
         "b-011"
@@ -138,10 +138,10 @@
     },
     {
       "chunk_id": 13,
-      "start_sec": 178.231,
-      "end_sec": 182.132,
-      "duration_sec": 3.901,
-      "pcm_bytes": 187246,
+      "start_sec": 222.792,
+      "end_sec": 257.662,
+      "duration_sec": 34.871,
+      "pcm_bytes": 1673806,
       "block_range": [
         "b-012",
         "b-012"
@@ -149,10 +149,10 @@
     },
     {
       "chunk_id": 14,
-      "start_sec": 182.132,
-      "end_sec": 187.083,
-      "duration_sec": 4.951,
-      "pcm_bytes": 237646,
+      "start_sec": 257.662,
+      "end_sec": 281.693,
+      "duration_sec": 24.031,
+      "pcm_bytes": 1153486,
       "block_range": [
         "b-013",
         "b-013"
@@ -160,10 +160,10 @@
     },
     {
       "chunk_id": 15,
-      "start_sec": 187.083,
-      "end_sec": 217.434,
-      "duration_sec": 30.351,
-      "pcm_bytes": 1456846,
+      "start_sec": 281.693,
+      "end_sec": 290.164,
+      "duration_sec": 8.471,
+      "pcm_bytes": 406606,
       "block_range": [
         "b-014",
         "b-014"
@@ -171,10 +171,10 @@
     },
     {
       "chunk_id": 16,
-      "start_sec": 217.434,
-      "end_sec": 233.025,
-      "duration_sec": 15.591,
-      "pcm_bytes": 748366,
+      "start_sec": 290.164,
+      "end_sec": 300.055,
+      "duration_sec": 9.891,
+      "pcm_bytes": 474766,
       "block_range": [
         "b-015",
         "b-015"
@@ -182,10 +182,10 @@
     },
     {
       "chunk_id": 17,
-      "start_sec": 233.025,
-      "end_sec": 244.576,
-      "duration_sec": 11.551,
-      "pcm_bytes": 554446,
+      "start_sec": 300.055,
+      "end_sec": 313.106,
+      "duration_sec": 13.051,
+      "pcm_bytes": 626446,
       "block_range": [
         "b-016",
         "b-016"
@@ -193,10 +193,10 @@
     },
     {
       "chunk_id": 18,
-      "start_sec": 244.576,
-      "end_sec": 248.237,
-      "duration_sec": 3.661,
-      "pcm_bytes": 175726,
+      "start_sec": 313.106,
+      "end_sec": 328.957,
+      "duration_sec": 15.851,
+      "pcm_bytes": 760846,
       "block_range": [
         "b-017",
         "b-017"
@@ -204,10 +204,10 @@
     },
     {
       "chunk_id": 19,
-      "start_sec": 248.237,
-      "end_sec": 254.268,
-      "duration_sec": 6.031,
-      "pcm_bytes": 289486,
+      "start_sec": 328.957,
+      "end_sec": 344.188,
+      "duration_sec": 15.231,
+      "pcm_bytes": 731086,
       "block_range": [
         "b-018",
         "b-018"
@@ -215,10 +215,10 @@
     },
     {
       "chunk_id": 20,
-      "start_sec": 254.268,
-      "end_sec": 260.439,
-      "duration_sec": 6.171,
-      "pcm_bytes": 296206,
+      "start_sec": 344.188,
+      "end_sec": 351.329,
+      "duration_sec": 7.141,
+      "pcm_bytes": 342766,
       "block_range": [
         "b-019",
         "b-019"
@@ -226,10 +226,10 @@
     },
     {
       "chunk_id": 21,
-      "start_sec": 260.439,
-      "end_sec": 267.61,
-      "duration_sec": 7.171,
-      "pcm_bytes": 344206,
+      "start_sec": 351.329,
+      "end_sec": 367.16,
+      "duration_sec": 15.831,
+      "pcm_bytes": 759886,
       "block_range": [
         "b-020",
         "b-020"
@@ -237,10 +237,10 @@
     },
     {
       "chunk_id": 22,
-      "start_sec": 267.61,
-      "end_sec": 277.581,
-      "duration_sec": 9.971,
-      "pcm_bytes": 478606,
+      "start_sec": 367.16,
+      "end_sec": 394.991,
+      "duration_sec": 27.831,
+      "pcm_bytes": 1335886,
       "block_range": [
         "b-021",
         "b-021"
@@ -248,10 +248,10 @@
     },
     {
       "chunk_id": 23,
-      "start_sec": 277.581,
-      "end_sec": 288.492,
-      "duration_sec": 10.911,
-      "pcm_bytes": 523726,
+      "start_sec": 394.991,
+      "end_sec": 441.502,
+      "duration_sec": 46.511,
+      "pcm_bytes": 2232526,
       "block_range": [
         "b-022",
         "b-022"
@@ -259,10 +259,10 @@
     },
     {
       "chunk_id": 24,
-      "start_sec": 288.492,
-      "end_sec": 291.153,
-      "duration_sec": 2.661,
-      "pcm_bytes": 127726,
+      "start_sec": 441.502,
+      "end_sec": 469.173,
+      "duration_sec": 27.671,
+      "pcm_bytes": 1328206,
       "block_range": [
         "b-023",
         "b-023"
@@ -270,10 +270,10 @@
     },
     {
       "chunk_id": 25,
-      "start_sec": 291.153,
-      "end_sec": 310.544,
-      "duration_sec": 19.391,
-      "pcm_bytes": 930766,
+      "start_sec": 469.173,
+      "end_sec": 516.484,
+      "duration_sec": 47.311,
+      "pcm_bytes": 2270926,
       "block_range": [
         "b-024",
         "b-024"
@@ -281,10 +281,10 @@
     },
     {
       "chunk_id": 26,
-      "start_sec": 310.544,
-      "end_sec": 326.015,
-      "duration_sec": 15.471,
-      "pcm_bytes": 742606,
+      "start_sec": 516.484,
+      "end_sec": 521.865,
+      "duration_sec": 5.381,
+      "pcm_bytes": 258286,
       "block_range": [
         "b-025",
         "b-025"
@@ -292,10 +292,10 @@
     },
     {
       "chunk_id": 27,
-      "start_sec": 326.015,
-      "end_sec": 337.526,
-      "duration_sec": 11.511,
-      "pcm_bytes": 552526,
+      "start_sec": 521.865,
+      "end_sec": 550.376,
+      "duration_sec": 28.511,
+      "pcm_bytes": 1368526,
       "block_range": [
         "b-026",
         "b-026"
@@ -303,10 +303,10 @@
     },
     {
       "chunk_id": 28,
-      "start_sec": 337.526,
-      "end_sec": 349.837,
-      "duration_sec": 12.311,
-      "pcm_bytes": 590926,
+      "start_sec": 550.376,
+      "end_sec": 569.887,
+      "duration_sec": 19.511,
+      "pcm_bytes": 936526,
       "block_range": [
         "b-027",
         "b-027"
@@ -314,10 +314,10 @@
     },
     {
       "chunk_id": 29,
-      "start_sec": 349.837,
-      "end_sec": 354.418,
-      "duration_sec": 4.581,
-      "pcm_bytes": 219886,
+      "start_sec": 569.887,
+      "end_sec": 618.678,
+      "duration_sec": 48.791,
+      "pcm_bytes": 2341966,
       "block_range": [
         "b-028",
         "b-028"
@@ -325,10 +325,10 @@
     },
     {
       "chunk_id": 30,
-      "start_sec": 354.418,
-      "end_sec": 360.569,
-      "duration_sec": 6.151,
-      "pcm_bytes": 295246,
+      "start_sec": 618.678,
+      "end_sec": 650.429,
+      "duration_sec": 31.751,
+      "pcm_bytes": 1524046,
       "block_range": [
         "b-029",
         "b-029"
@@ -336,10 +336,10 @@
     },
     {
       "chunk_id": 31,
-      "start_sec": 360.569,
-      "end_sec": 372.88,
-      "duration_sec": 12.311,
-      "pcm_bytes": 590926,
+      "start_sec": 650.429,
+      "end_sec": 675.66,
+      "duration_sec": 25.231,
+      "pcm_bytes": 1211086,
       "block_range": [
         "b-030",
         "b-030"
@@ -347,10 +347,10 @@
     },
     {
       "chunk_id": 32,
-      "start_sec": 372.88,
-      "end_sec": 396.111,
-      "duration_sec": 23.231,
-      "pcm_bytes": 1115086,
+      "start_sec": 675.66,
+      "end_sec": 707.131,
+      "duration_sec": 31.471,
+      "pcm_bytes": 1510606,
       "block_range": [
         "b-031",
         "b-031"
@@ -358,10 +358,10 @@
     },
     {
       "chunk_id": 33,
-      "start_sec": 396.111,
-      "end_sec": 409.902,
-      "duration_sec": 13.791,
-      "pcm_bytes": 661966,
+      "start_sec": 707.131,
+      "end_sec": 714.432,
+      "duration_sec": 7.301,
+      "pcm_bytes": 350446,
       "block_range": [
         "b-032",
         "b-032"
@@ -369,10 +369,10 @@
     },
     {
       "chunk_id": 34,
-      "start_sec": 409.902,
-      "end_sec": 413.203,
-      "duration_sec": 3.301,
-      "pcm_bytes": 158446,
+      "start_sec": 714.432,
+      "end_sec": 723.503,
+      "duration_sec": 9.071,
+      "pcm_bytes": 435406,
       "block_range": [
         "b-033",
         "b-033"
@@ -380,10 +380,10 @@
     },
     {
       "chunk_id": 35,
-      "start_sec": 413.203,
-      "end_sec": 437.874,
-      "duration_sec": 24.671,
-      "pcm_bytes": 1184206,
+      "start_sec": 723.503,
+      "end_sec": 746.294,
+      "duration_sec": 22.791,
+      "pcm_bytes": 1093966,
       "block_range": [
         "b-034",
         "b-034"
@@ -391,10 +391,10 @@
     },
     {
       "chunk_id": 36,
-      "start_sec": 437.874,
-      "end_sec": 466.144,
-      "duration_sec": 28.271,
-      "pcm_bytes": 1357006,
+      "start_sec": 746.294,
+      "end_sec": 784.245,
+      "duration_sec": 37.951,
+      "pcm_bytes": 1821646,
       "block_range": [
         "b-035",
         "b-035"
@@ -402,10 +402,10 @@
     },
     {
       "chunk_id": 37,
-      "start_sec": 466.144,
-      "end_sec": 482.495,
-      "duration_sec": 16.351,
-      "pcm_bytes": 784846,
+      "start_sec": 784.245,
+      "end_sec": 827.875,
+      "duration_sec": 43.631,
+      "pcm_bytes": 2094286,
       "block_range": [
         "b-036",
         "b-036"
@@ -413,10 +413,10 @@
     },
     {
       "chunk_id": 38,
-      "start_sec": 482.495,
-      "end_sec": 496.366,
-      "duration_sec": 13.871,
-      "pcm_bytes": 665806,
+      "start_sec": 827.875,
+      "end_sec": 847.866,
+      "duration_sec": 19.991,
+      "pcm_bytes": 959566,
       "block_range": [
         "b-037",
         "b-037"
@@ -424,10 +424,10 @@
     },
     {
       "chunk_id": 39,
-      "start_sec": 496.366,
-      "end_sec": 499.387,
-      "duration_sec": 3.021,
-      "pcm_bytes": 145006,
+      "start_sec": 847.866,
+      "end_sec": 877.257,
+      "duration_sec": 29.391,
+      "pcm_bytes": 1410766,
       "block_range": [
         "b-038",
         "b-038"
@@ -435,10 +435,10 @@
     },
     {
       "chunk_id": 40,
-      "start_sec": 499.387,
-      "end_sec": 518.298,
-      "duration_sec": 18.911,
-      "pcm_bytes": 907726,
+      "start_sec": 877.257,
+      "end_sec": 882.118,
+      "duration_sec": 4.861,
+      "pcm_bytes": 233326,
       "block_range": [
         "b-039",
         "b-039"
@@ -446,10 +446,10 @@
     },
     {
       "chunk_id": 41,
-      "start_sec": 518.298,
-      "end_sec": 544.689,
-      "duration_sec": 26.391,
-      "pcm_bytes": 1266766,
+      "start_sec": 882.118,
+      "end_sec": 891.229,
+      "duration_sec": 9.111,
+      "pcm_bytes": 437326,
       "block_range": [
         "b-040",
         "b-040"
@@ -457,10 +457,10 @@
     },
     {
       "chunk_id": 42,
-      "start_sec": 544.689,
-      "end_sec": 559.16,
-      "duration_sec": 14.471,
-      "pcm_bytes": 694606,
+      "start_sec": 891.229,
+      "end_sec": 931.9,
+      "duration_sec": 40.671,
+      "pcm_bytes": 1952206,
       "block_range": [
         "b-041",
         "b-041"
@@ -468,10 +468,10 @@
     },
     {
       "chunk_id": 43,
-      "start_sec": 559.16,
-      "end_sec": 562.581,
-      "duration_sec": 3.421,
-      "pcm_bytes": 164206,
+      "start_sec": 931.9,
+      "end_sec": 966.171,
+      "duration_sec": 34.271,
+      "pcm_bytes": 1645006,
       "block_range": [
         "b-042",
         "b-042"
@@ -479,10 +479,10 @@
     },
     {
       "chunk_id": 44,
-      "start_sec": 562.581,
-      "end_sec": 591.292,
-      "duration_sec": 28.711,
-      "pcm_bytes": 1378126,
+      "start_sec": 966.171,
+      "end_sec": 1000.802,
+      "duration_sec": 34.631,
+      "pcm_bytes": 1662286,
       "block_range": [
         "b-043",
         "b-043"
@@ -490,10 +490,10 @@
     },
     {
       "chunk_id": 45,
-      "start_sec": 591.292,
-      "end_sec": 611.843,
-      "duration_sec": 20.551,
-      "pcm_bytes": 986446,
+      "start_sec": 1000.802,
+      "end_sec": 1028.353,
+      "duration_sec": 27.551,
+      "pcm_bytes": 1322446,
       "block_range": [
         "b-044",
         "b-044"
@@ -501,10 +501,10 @@
     },
     {
       "chunk_id": 46,
-      "start_sec": 611.843,
-      "end_sec": 617.474,
-      "duration_sec": 5.631,
-      "pcm_bytes": 270286,
+      "start_sec": 1028.353,
+      "end_sec": 1033.584,
+      "duration_sec": 5.231,
+      "pcm_bytes": 251086,
       "block_range": [
         "b-045",
         "b-045"
@@ -512,10 +512,10 @@
     },
     {
       "chunk_id": 47,
-      "start_sec": 617.474,
-      "end_sec": 635.545,
-      "duration_sec": 18.071,
-      "pcm_bytes": 867406,
+      "start_sec": 1033.584,
+      "end_sec": 1044.635,
+      "duration_sec": 11.051,
+      "pcm_bytes": 530446,
       "block_range": [
         "b-046",
         "b-046"
@@ -523,10 +523,10 @@
     },
     {
       "chunk_id": 48,
-      "start_sec": 635.545,
-      "end_sec": 642.606,
-      "duration_sec": 7.061,
-      "pcm_bytes": 338926,
+      "start_sec": 1044.635,
+      "end_sec": 1055.566,
+      "duration_sec": 10.931,
+      "pcm_bytes": 524686,
       "block_range": [
         "b-047",
         "b-047"
@@ -534,10 +534,10 @@
     },
     {
       "chunk_id": 49,
-      "start_sec": 642.606,
-      "end_sec": 648.117,
-      "duration_sec": 5.511,
-      "pcm_bytes": 264526,
+      "start_sec": 1055.566,
+      "end_sec": 1066.337,
+      "duration_sec": 10.771,
+      "pcm_bytes": 517006,
       "block_range": [
         "b-048",
         "b-048"
@@ -545,10 +545,10 @@
     },
     {
       "chunk_id": 50,
-      "start_sec": 648.117,
-      "end_sec": 664.868,
-      "duration_sec": 16.751,
-      "pcm_bytes": 804046,
+      "start_sec": 1066.337,
+      "end_sec": 1082.508,
+      "duration_sec": 16.171,
+      "pcm_bytes": 776206,
       "block_range": [
         "b-049",
         "b-049"
@@ -556,10 +556,10 @@
     },
     {
       "chunk_id": 51,
-      "start_sec": 664.868,
-      "end_sec": 703.059,
-      "duration_sec": 38.191,
-      "pcm_bytes": 1833166,
+      "start_sec": 1082.508,
+      "end_sec": 1101.955,
+      "duration_sec": 19.447,
+      "pcm_bytes": 933478,
       "block_range": [
         "b-050",
         "b-050"
@@ -567,10 +567,10 @@
     },
     {
       "chunk_id": 52,
-      "start_sec": 703.059,
-      "end_sec": 734.17,
-      "duration_sec": 31.111,
-      "pcm_bytes": 1493326,
+      "start_sec": 1101.955,
+      "end_sec": 1113.983,
+      "duration_sec": 12.027,
+      "pcm_bytes": 577318,
       "block_range": [
         "b-051",
         "b-051"
@@ -578,10 +578,10 @@
     },
     {
       "chunk_id": 53,
-      "start_sec": 734.17,
-      "end_sec": 749.641,
-      "duration_sec": 15.471,
-      "pcm_bytes": 742606,
+      "start_sec": 1113.983,
+      "end_sec": 1129.97,
+      "duration_sec": 15.987,
+      "pcm_bytes": 767398,
       "block_range": [
         "b-052",
         "b-052"
@@ -589,10 +589,10 @@
     },
     {
       "chunk_id": 54,
-      "start_sec": 749.641,
-      "end_sec": 763.592,
-      "duration_sec": 13.951,
-      "pcm_bytes": 669646,
+      "start_sec": 1129.97,
+      "end_sec": 1169.758,
+      "duration_sec": 39.787,
+      "pcm_bytes": 1909798,
       "block_range": [
         "b-053",
         "b-053"
@@ -600,299 +600,13 @@
     },
     {
       "chunk_id": 55,
-      "start_sec": 763.592,
-      "end_sec": 793.783,
-      "duration_sec": 30.191,
-      "pcm_bytes": 1449166,
+      "start_sec": 1169.758,
+      "end_sec": 1185.265,
+      "duration_sec": 15.507,
+      "pcm_bytes": 744358,
       "block_range": [
         "b-054",
         "b-054"
-      ]
-    },
-    {
-      "chunk_id": 56,
-      "start_sec": 793.783,
-      "end_sec": 796.884,
-      "duration_sec": 3.101,
-      "pcm_bytes": 148846,
-      "block_range": [
-        "b-055",
-        "b-055"
-      ]
-    },
-    {
-      "chunk_id": 57,
-      "start_sec": 796.884,
-      "end_sec": 801.515,
-      "duration_sec": 4.631,
-      "pcm_bytes": 222286,
-      "block_range": [
-        "b-056",
-        "b-056"
-      ]
-    },
-    {
-      "chunk_id": 58,
-      "start_sec": 801.515,
-      "end_sec": 831.346,
-      "duration_sec": 29.831,
-      "pcm_bytes": 1431886,
-      "block_range": [
-        "b-057",
-        "b-057"
-      ]
-    },
-    {
-      "chunk_id": 59,
-      "start_sec": 831.346,
-      "end_sec": 861.897,
-      "duration_sec": 30.551,
-      "pcm_bytes": 1466446,
-      "block_range": [
-        "b-058",
-        "b-058"
-      ]
-    },
-    {
-      "chunk_id": 60,
-      "start_sec": 861.897,
-      "end_sec": 889.967,
-      "duration_sec": 28.071,
-      "pcm_bytes": 1347406,
-      "block_range": [
-        "b-059",
-        "b-059"
-      ]
-    },
-    {
-      "chunk_id": 61,
-      "start_sec": 889.967,
-      "end_sec": 892.788,
-      "duration_sec": 2.821,
-      "pcm_bytes": 135406,
-      "block_range": [
-        "b-060",
-        "b-060"
-      ]
-    },
-    {
-      "chunk_id": 62,
-      "start_sec": 892.788,
-      "end_sec": 916.339,
-      "duration_sec": 23.551,
-      "pcm_bytes": 1130446,
-      "block_range": [
-        "b-061",
-        "b-061"
-      ]
-    },
-    {
-      "chunk_id": 63,
-      "start_sec": 916.339,
-      "end_sec": 929.57,
-      "duration_sec": 13.231,
-      "pcm_bytes": 635086,
-      "block_range": [
-        "b-062",
-        "b-062"
-      ]
-    },
-    {
-      "chunk_id": 64,
-      "start_sec": 929.57,
-      "end_sec": 943.401,
-      "duration_sec": 13.831,
-      "pcm_bytes": 663886,
-      "block_range": [
-        "b-063",
-        "b-063"
-      ]
-    },
-    {
-      "chunk_id": 65,
-      "start_sec": 943.401,
-      "end_sec": 946.702,
-      "duration_sec": 3.301,
-      "pcm_bytes": 158446,
-      "block_range": [
-        "b-064",
-        "b-064"
-      ]
-    },
-    {
-      "chunk_id": 66,
-      "start_sec": 946.702,
-      "end_sec": 950.653,
-      "duration_sec": 3.951,
-      "pcm_bytes": 189646,
-      "block_range": [
-        "b-065",
-        "b-065"
-      ]
-    },
-    {
-      "chunk_id": 67,
-      "start_sec": 950.653,
-      "end_sec": 954.784,
-      "duration_sec": 4.131,
-      "pcm_bytes": 198286,
-      "block_range": [
-        "b-066",
-        "b-066"
-      ]
-    },
-    {
-      "chunk_id": 68,
-      "start_sec": 954.784,
-      "end_sec": 957.795,
-      "duration_sec": 3.011,
-      "pcm_bytes": 144526,
-      "block_range": [
-        "b-067",
-        "b-067"
-      ]
-    },
-    {
-      "chunk_id": 69,
-      "start_sec": 957.795,
-      "end_sec": 961.766,
-      "duration_sec": 3.971,
-      "pcm_bytes": 190606,
-      "block_range": [
-        "b-068",
-        "b-068"
-      ]
-    },
-    {
-      "chunk_id": 70,
-      "start_sec": 961.766,
-      "end_sec": 966.377,
-      "duration_sec": 4.611,
-      "pcm_bytes": 221326,
-      "block_range": [
-        "b-069",
-        "b-069"
-      ]
-    },
-    {
-      "chunk_id": 71,
-      "start_sec": 966.377,
-      "end_sec": 971.548,
-      "duration_sec": 5.171,
-      "pcm_bytes": 248206,
-      "block_range": [
-        "b-070",
-        "b-070"
-      ]
-    },
-    {
-      "chunk_id": 72,
-      "start_sec": 971.548,
-      "end_sec": 990.619,
-      "duration_sec": 19.071,
-      "pcm_bytes": 915406,
-      "block_range": [
-        "b-071",
-        "b-071"
-      ]
-    },
-    {
-      "chunk_id": 73,
-      "start_sec": 990.619,
-      "end_sec": 1028.81,
-      "duration_sec": 38.191,
-      "pcm_bytes": 1833166,
-      "block_range": [
-        "b-072",
-        "b-072"
-      ]
-    },
-    {
-      "chunk_id": 74,
-      "start_sec": 1028.81,
-      "end_sec": 1030.591,
-      "duration_sec": 1.781,
-      "pcm_bytes": 85486,
-      "block_range": [
-        "b-073",
-        "b-073"
-      ]
-    },
-    {
-      "chunk_id": 75,
-      "start_sec": 1030.591,
-      "end_sec": 1063.422,
-      "duration_sec": 32.831,
-      "pcm_bytes": 1575886,
-      "block_range": [
-        "b-074",
-        "b-074"
-      ]
-    },
-    {
-      "chunk_id": 76,
-      "start_sec": 1063.422,
-      "end_sec": 1098.773,
-      "duration_sec": 35.351,
-      "pcm_bytes": 1696846,
-      "block_range": [
-        "b-075",
-        "b-075"
-      ]
-    },
-    {
-      "chunk_id": 77,
-      "start_sec": 1098.773,
-      "end_sec": 1140.924,
-      "duration_sec": 42.151,
-      "pcm_bytes": 2023246,
-      "block_range": [
-        "b-076",
-        "b-076"
-      ]
-    },
-    {
-      "chunk_id": 78,
-      "start_sec": 1140.924,
-      "end_sec": 1142.665,
-      "duration_sec": 1.741,
-      "pcm_bytes": 83566,
-      "block_range": [
-        "b-077",
-        "b-077"
-      ]
-    },
-    {
-      "chunk_id": 79,
-      "start_sec": 1142.665,
-      "end_sec": 1146.616,
-      "duration_sec": 3.951,
-      "pcm_bytes": 189646,
-      "block_range": [
-        "b-078",
-        "b-078"
-      ]
-    },
-    {
-      "chunk_id": 80,
-      "start_sec": 1146.616,
-      "end_sec": 1171.007,
-      "duration_sec": 24.391,
-      "pcm_bytes": 1170766,
-      "block_range": [
-        "b-079",
-        "b-079"
-      ]
-    },
-    {
-      "chunk_id": 81,
-      "start_sec": 1171.007,
-      "end_sec": 1181.318,
-      "duration_sec": 10.311,
-      "pcm_bytes": 494926,
-      "block_range": [
-        "b-080",
-        "b-080"
       ]
     }
   ],
@@ -902,971 +616,659 @@
       "tag": "h1",
       "chunk_id": 1,
       "start_sec": 0.0,
-      "end_sec": 4.421,
+      "end_sec": 3.461,
       "words": 8,
       "weight": 11,
       "text": "Chapter 1 — Before the Child Is Born",
       "start_ratio": 0.0,
-      "end_ratio": 0.0037
+      "end_ratio": 0.0029
     },
     {
       "id": "b-001",
       "tag": "p",
       "chunk_id": 2,
-      "start_sec": 4.421,
-      "end_sec": 9.052,
+      "start_sec": 3.461,
+      "end_sec": 7.852,
       "words": 9,
       "weight": 9,
       "text": "There is a moment when a child becomes visible.",
-      "start_ratio": 0.0037,
-      "end_ratio": 0.0077
+      "start_ratio": 0.0029,
+      "end_ratio": 0.0066
     },
     {
       "id": "b-002",
       "tag": "p",
       "chunk_id": 3,
-      "start_sec": 9.052,
-      "end_sec": 25.203,
-      "words": 38,
-      "weight": 38,
-      "text": "It may be the first ultrasound: a small flicker, a heartbeat that is suddenly no longer an abstraction. Or it may come later — a movement under a hand, a photograph, a first cry in a delivery room.",
-      "start_ratio": 0.0077,
-      "end_ratio": 0.0213
+      "start_sec": 7.852,
+      "end_sec": 31.563,
+      "words": 52,
+      "weight": 52,
+      "text": "It may be the first ultrasound: a small flicker, a rhythm of light on a dark monitor, a heartbeat that is suddenly no longer an abstraction. Or it may arrive later — a distinct movement felt beneath a resting hand, a printed photograph, or a first sharp cry in a delivery room.",
+      "start_ratio": 0.0066,
+      "end_ratio": 0.0266
     },
     {
       "id": "b-003",
       "tag": "p",
       "chunk_id": 4,
-      "start_sec": 25.203,
-      "end_sec": 33.674,
-      "words": 22,
-      "weight": 22,
-      "text": "We are drawn to such moments because they give beginnings a shape. A date appears on a screen. A story can start.",
-      "start_ratio": 0.0213,
-      "end_ratio": 0.0285
+      "start_sec": 31.563,
+      "end_sec": 43.634,
+      "words": 31,
+      "weight": 31,
+      "text": "We are drawn to such moments because they give beginnings a shape. A date appears on a screen; an entry is made in a medical chart; a story can officially start.",
+      "start_ratio": 0.0266,
+      "end_ratio": 0.0368
     },
     {
       "id": "b-004",
       "tag": "p",
       "chunk_id": 5,
-      "start_sec": 33.674,
-      "end_sec": 60.745,
-      "words": 57,
-      "weight": 57,
-      "text": "Biology is less accommodating. By the time that heartbeat is heard, cells have already divided countless times. Organs are taking form. A placenta is already deciding what passes between two circulations. The adults who will care for this child may already be changing — physically, psychologically, socially. The child has not been born. Development has already begun.",
-      "start_ratio": 0.0285,
-      "end_ratio": 0.0514
+      "start_sec": 43.634,
+      "end_sec": 76.865,
+      "words": 67,
+      "weight": 67,
+      "text": "Biology is less accommodating. By the time that heartbeat is detected, cells have already divided countless times. Tissues have segregated into specialized layers, and primitive organs are taking form. A placenta is already negotiating what passes between two circulations. The adults who will nurture this child are already changing — hormonally, psychologically, and relationally. The child has not yet been born, but development is already well underway.",
+      "start_ratio": 0.0368,
+      "end_ratio": 0.0649
     },
     {
       "id": "b-005",
       "tag": "p",
       "chunk_id": 6,
-      "start_sec": 60.745,
-      "end_sec": 86.616,
-      "words": 54,
-      "weight": 54,
-      "text": "That is the opening anomaly of this book. The stranger fact underneath it is this: parental biology before conception is already a developmental environment. Eggs and sperm carry histories. Nutrients, toxins, age, illness, and the social conditions that shape those things are not waiting for a positive test. They are already in the room.",
-      "start_ratio": 0.0514,
-      "end_ratio": 0.0733
+      "start_sec": 76.865,
+      "end_sec": 105.016,
+      "words": 56,
+      "weight": 56,
+      "text": "That is the opening anomaly of this atlas. The deeper reality beneath it is this: parental biology before conception is already a developmental environment. Eggs and sperm carry histories. Nutrients, exposures, age, physical health, and the social conditions that shape daily life are not waiting outside for a positive test. They are already in the room.",
+      "start_ratio": 0.0649,
+      "end_ratio": 0.0886
     },
     {
       "id": "b-006",
       "tag": "p",
       "chunk_id": 7,
-      "start_sec": 86.616,
-      "end_sec": 103.367,
-      "words": 78,
-      "weight": 78,
-      "text": "A case makes the same point without a laboratory. Two people trying to conceive are told to “prepare.” One starts folic acid because a clinician named a defect that can be prevented. Another lies awake replaying every stressful week as if it were already an injury to a child who does not yet exist. Both are responding to the knowledge that development has a before. Only one of those responses is calibrated to what the evidence can carry.",
-      "start_ratio": 0.0733,
-      "end_ratio": 0.0875
+      "start_sec": 105.016,
+      "end_sec": 136.247,
+      "words": 74,
+      "weight": 74,
+      "text": "Consider two people preparing to conceive. One begins taking folic acid because a clinician identified a structural defect that can be prevented. Another lies awake replaying every stressful week at work as if ordinary worry were already an indelible injury to a child who does not yet exist. Both are responding to the realization that development has an antecedent. Yet only one of those responses is calibrated to what scientific evidence can actually carry.",
+      "start_ratio": 0.0886,
+      "end_ratio": 0.115
     },
     {
       "id": "b-007",
       "tag": "p",
       "chunk_id": 8,
-      "start_sec": 103.367,
-      "end_sec": 127.158,
-      "words": 55,
-      "weight": 55,
-      "text": "This chapter is the reader’s contract with the rest of the atlas. It is not a complete prenatal textbook. Chapters 2 through 7 will do the empirical work of pregnancy, birth, regulation, attention, action, and language. Here the question is narrower and more dangerous: what does “starts before birth” license, and what does it refuse?",
-      "start_ratio": 0.0875,
-      "end_ratio": 0.1076
+      "start_sec": 136.247,
+      "end_sec": 171.398,
+      "words": 71,
+      "weight": 71,
+      "text": "This chapter forms the reader’s epistemic contract with the rest of the atlas. It is not a clinical textbook of embryology, nor a prenatal instruction manual. Subsequent chapters will trace the empirical terrain of pregnancy, birth, autonomic regulation, perceptual attention, motor action, and the emergence of language. Here, our inquiry is narrower and more foundational: what does the fact that development starts before birth license, and what does it strictly refuse?",
+      "start_ratio": 0.115,
+      "end_ratio": 0.1446
     },
     {
       "id": "b-008",
       "tag": "h2",
       "chunk_id": 9,
-      "start_sec": 127.158,
-      "end_sec": 128.699,
-      "words": 2,
-      "weight": 4,
-      "text": "The puzzle",
-      "start_ratio": 0.1076,
-      "end_ratio": 0.1089
+      "start_sec": 171.398,
+      "end_sec": 178.859,
+      "words": 10,
+      "weight": 12,
+      "text": "I. The Reader’s Contract: Three Categories That Must Not Collapse",
+      "start_ratio": 0.1446,
+      "end_ratio": 0.1509
     },
     {
       "id": "b-009",
       "tag": "p",
       "chunk_id": 10,
-      "start_sec": 128.699,
-      "end_sec": 136.85,
-      "words": 15,
-      "weight": 15,
-      "text": "The conventional story of parenting begins when the child arrives. The developmental story does not.",
-      "start_ratio": 0.1089,
-      "end_ratio": 0.1158
+      "start_sec": 178.859,
+      "end_sec": 188.29,
+      "words": 20,
+      "weight": 20,
+      "text": "The conventional cultural story of parenting begins when the infant arrives in the nursery. The developmental science story does not.",
+      "start_ratio": 0.1509,
+      "end_ratio": 0.1589
     },
     {
       "id": "b-010",
       "tag": "p",
       "chunk_id": 11,
-      "start_sec": 136.85,
-      "end_sec": 151.721,
-      "words": 33,
-      "weight": 33,
-      "text": "If we begin too late, we miss conditions that are already operating. If we begin too early in the wrong register, we turn biology into a verdict on character, intelligence, or parental worth.",
-      "start_ratio": 0.1158,
-      "end_ratio": 0.1284
+      "start_sec": 188.29,
+      "end_sec": 212.841,
+      "words": 46,
+      "weight": 46,
+      "text": "Yet tracing beginnings backward carries serious intellectual risks. If we begin too late, we overlook conditions and biological processes that are already operating. If we begin too early in the wrong register, we turn probabilistic biology into a fatalistic verdict on character, intelligence, or parental worth.",
+      "start_ratio": 0.1589,
+      "end_ratio": 0.1796
     },
     {
       "id": "b-011",
       "tag": "p",
       "chunk_id": 12,
-      "start_sec": 151.721,
-      "end_sec": 178.231,
-      "words": 73,
-      "weight": 73,
-      "text": "The bounded claim this chapter will carry is the one the Chapter 1 dossier was written to test: human development has relevant antecedents before birth, and the transition to parenthood changes the biological, relational, and social context into which a child is born. That claim is high as biology and very low as a license to read a future from a fetus or to treat parents as the sole engineers of that future.",
-      "start_ratio": 0.1284,
-      "end_ratio": 0.1509
+      "start_sec": 212.841,
+      "end_sec": 222.792,
+      "words": 18,
+      "weight": 18,
+      "text": "To navigate this landscape without distortion, this atlas maintains a strict discipline between three distinct kinds of statements:",
+      "start_ratio": 0.1796,
+      "end_ratio": 0.188
     },
     {
       "id": "b-012",
-      "tag": "h2",
+      "tag": "table",
       "chunk_id": 13,
-      "start_sec": 178.231,
-      "end_sec": 182.132,
-      "words": 6,
-      "weight": 8,
-      "text": "Three categories that must not collapse",
-      "start_ratio": 0.1509,
-      "end_ratio": 0.1542
+      "start_sec": 222.792,
+      "end_sec": 257.662,
+      "words": 47,
+      "weight": 47,
+      "text": "Category: Science, Meaning in this atlas: What can be observed, measured, tested, replicated, and reasonably inferred. Category: Interpretation, Meaning in this atlas: How empirical evidence is understood, contextualized, and translated into systems. Category: Art, Meaning in this atlas: Human judgment, relationships, cultural values, individuality, and lived experience.",
+      "start_ratio": 0.188,
+      "end_ratio": 0.2174
     },
     {
       "id": "b-013",
       "tag": "p",
       "chunk_id": 14,
-      "start_sec": 182.132,
-      "end_sec": 187.083,
-      "words": 12,
-      "weight": 12,
-      "text": "This book never treats three kinds of statement as the same thing.",
-      "start_ratio": 0.1542,
-      "end_ratio": 0.1584
+      "start_sec": 257.662,
+      "end_sec": 281.693,
+      "words": 43,
+      "weight": 43,
+      "text": "A rigorous scientific finding does not automatically generate a parenting prescription. A moving clinical scene does not automatically establish an empirical law. When these categories collapse, developmental science ceases to illuminate and degenerates into either an anxious optimization manual or a moralizing mythology.",
+      "start_ratio": 0.2174,
+      "end_ratio": 0.2377
     },
     {
       "id": "b-014",
-      "tag": "table",
+      "tag": "p",
       "chunk_id": 15,
-      "start_sec": 187.083,
-      "end_sec": 217.434,
-      "words": 38,
-      "weight": 38,
-      "text": "Category: Science, Meaning here: What can be observed, measured, tested, replicated, and reasonably inferred. Category: Interpretation, Meaning here: How evidence should be understood, contextualized, and translated. Category: Art, Meaning here: Judgment, relationships, values, culture, individuality, uncertainty, lived experience.",
-      "start_ratio": 0.1584,
-      "end_ratio": 0.1841
+      "start_sec": 281.693,
+      "end_sec": 290.164,
+      "words": 16,
+      "weight": 16,
+      "text": "Before interpreting what unfolds on the ultrasound screen, three competing explanations must sit clearly in view:",
+      "start_ratio": 0.2377,
+      "end_ratio": 0.2448
     },
     {
       "id": "b-015",
-      "tag": "p",
+      "tag": "li",
       "chunk_id": 16,
-      "start_sec": 217.434,
-      "end_sec": 233.025,
-      "words": 33,
-      "weight": 33,
-      "text": "A High finding does not automatically generate a parenting prescription. A moving scene does not automatically generate a High finding. When those categories collapse, developmental science becomes either a manual or a mythology.",
-      "start_ratio": 0.1841,
-      "end_ratio": 0.1973
+      "start_sec": 290.164,
+      "end_sec": 300.055,
+      "words": 19,
+      "weight": 20,
+      "text": "Genesis at visibility. The assumption that nothing of developmental importance occurs until an observer can measure or see it.",
+      "start_ratio": 0.2448,
+      "end_ratio": 0.2532
     },
     {
       "id": "b-016",
-      "tag": "p",
+      "tag": "li",
       "chunk_id": 17,
-      "start_sec": 233.025,
-      "end_sec": 244.576,
-      "words": 30,
-      "weight": 30,
-      "text": "The questions that will travel with the reader are therefore not only “what can parents do?” They are also: what can parents not do, and what must institutions do instead?",
-      "start_ratio": 0.1973,
-      "end_ratio": 0.207
+      "start_sec": 300.055,
+      "end_sec": 313.106,
+      "words": 21,
+      "weight": 22,
+      "text": "Destiny already written. The fatalistic belief that early biological conditions have already locked in the child’s cognitive, emotional, and physical future.",
+      "start_ratio": 0.2532,
+      "end_ratio": 0.2642
     },
     {
       "id": "b-017",
-      "tag": "h2",
+      "tag": "li",
       "chunk_id": 18,
-      "start_sec": 244.576,
-      "end_sec": 248.237,
-      "words": 6,
-      "weight": 8,
-      "text": "Competing explanations of the opening scene",
-      "start_ratio": 0.207,
-      "end_ratio": 0.2101
+      "start_sec": 313.106,
+      "end_sec": 328.957,
+      "words": 26,
+      "weight": 27,
+      "text": "Continuity without determination. The understanding that development is an ongoing, mediated process that began before conception, remains highly plastic, and is perpetually open to subsequent environments.",
+      "start_ratio": 0.2642,
+      "end_ratio": 0.2775
     },
     {
       "id": "b-018",
       "tag": "p",
       "chunk_id": 19,
-      "start_sec": 248.237,
-      "end_sec": 254.268,
-      "words": 11,
-      "weight": 11,
-      "text": "Before resolving the ultrasound, three explanations need to sit in view:",
-      "start_ratio": 0.2101,
-      "end_ratio": 0.2152
+      "start_sec": 328.957,
+      "end_sec": 344.188,
+      "words": 29,
+      "weight": 29,
+      "text": "The first is a social illusion. The second is an ideological temptation this book exists to reject. The third is the only claim that empirical evidence can legitimately support.",
+      "start_ratio": 0.2775,
+      "end_ratio": 0.2904
     },
     {
       "id": "b-019",
-      "tag": "li",
+      "tag": "h2",
       "chunk_id": 20,
-      "start_sec": 254.268,
-      "end_sec": 260.439,
-      "words": 12,
-      "weight": 13,
-      "text": "Genesis at visibility. Nothing important has happened until someone can see it.",
-      "start_ratio": 0.2152,
-      "end_ratio": 0.2205
+      "start_sec": 344.188,
+      "end_sec": 351.329,
+      "words": 8,
+      "weight": 10,
+      "text": "II. The Preconception Substrate: Gametes, Age, and Epigenetics",
+      "start_ratio": 0.2904,
+      "end_ratio": 0.2964
     },
     {
       "id": "b-020",
-      "tag": "li",
+      "tag": "p",
       "chunk_id": 21,
-      "start_sec": 260.439,
-      "end_sec": 267.61,
-      "words": 14,
-      "weight": 15,
-      "text": "Destiny already written. Whatever is measurable this early has already decided the child’s future.",
-      "start_ratio": 0.2205,
-      "end_ratio": 0.2265
+      "start_sec": 351.329,
+      "end_sec": 367.16,
+      "words": 27,
+      "weight": 27,
+      "text": "The developmental story reaches back before conception into parental biology. Eggs and sperm are not abstract genetic packages; they are living cells produced under specific biological circumstances.",
+      "start_ratio": 0.2964,
+      "end_ratio": 0.3098
     },
     {
       "id": "b-021",
-      "tag": "li",
+      "tag": "p",
       "chunk_id": 22,
-      "start_sec": 267.61,
-      "end_sec": 277.581,
-      "words": 13,
-      "weight": 14,
-      "text": "Continuity without determination. Development is already underway; it remains open, mediated, and unfinished.",
-      "start_ratio": 0.2265,
-      "end_ratio": 0.235
+      "start_sec": 367.16,
+      "end_sec": 394.991,
+      "words": 57,
+      "weight": 57,
+      "text": "On the paternal side, sperm production involves continual cellular replication across the male lifespan. In whole-genome sequencing of parent–offspring trios, Kong and colleagues demonstrated that de novo mutations in offspring increase steadily with paternal age, rising at a rate of approximately two additional point mutations per year of the father’s life. The underlying mutational biology is genuine.",
+      "start_ratio": 0.3098,
+      "end_ratio": 0.3333
     },
     {
       "id": "b-022",
       "tag": "p",
       "chunk_id": 23,
-      "start_sec": 277.581,
-      "end_sec": 288.492,
-      "words": 25,
-      "weight": 25,
-      "text": "The first is a social story. The second is the temptation this book exists to refuse. The third is the claim the evidence can carry.",
-      "start_ratio": 0.235,
-      "end_ratio": 0.2442
+      "start_sec": 394.991,
+      "end_sec": 441.502,
+      "words": 88,
+      "weight": 88,
+      "text": "Yet the interpretive boundary surrounding this finding is equally vital. While advanced paternal age is statistically associated with modest increases in the relative risk of certain neurodevelopmental conditions, those associations in pooled population studies are small in absolute terms. More crucially, they are heavily entangled with unmeasured socioeconomic variables, reproductive selection, assortative mating, and inherited familial liabilities. The mutational rate is an observation about cellular biology; it is not a personality forecast, an indictment of older parents, or a license to treat paternal age as a deterministic script.",
+      "start_ratio": 0.3333,
+      "end_ratio": 0.3725
     },
     {
       "id": "b-023",
-      "tag": "h2",
+      "tag": "p",
       "chunk_id": 24,
-      "start_sec": 288.492,
-      "end_sec": 291.153,
-      "words": 5,
-      "weight": 7,
-      "text": "Timing is not a slogan",
-      "start_ratio": 0.2442,
-      "end_ratio": 0.2465
+      "start_sec": 441.502,
+      "end_sec": 469.173,
+      "words": 48,
+      "weight": 48,
+      "text": "A parallel temptation appears one layer below DNA sequence in the realm of epigenetics. Cells carry enzymatic marks, such as DNA methylation and histone modifications, that regulate how genes are expressed without altering the underlying code. These mechanisms explain how tissues differentiate and how cells remember past exposures.",
+      "start_ratio": 0.3725,
+      "end_ratio": 0.3958
     },
     {
       "id": "b-024",
       "tag": "p",
       "chunk_id": 25,
-      "start_sec": 291.153,
-      "end_sec": 310.544,
-      "words": 34,
-      "weight": 34,
-      "text": "Human development is sequence, not mere growth. Preimplantation life, gastrulation, organogenesis, and later fetal growth are different jobs. An exposure during specification of a structure is not the same exposure after the structure exists.",
-      "start_ratio": 0.2465,
-      "end_ratio": 0.2629
+      "start_sec": 469.173,
+      "end_sec": 516.484,
+      "words": 92,
+      "weight": 92,
+      "text": "In popular parenting culture, however, the word “epigenetic” is frequently invoked to suggest that a parent’s momentary sadness, poor night of sleep, or workplace strain will chemically scar a child’s future temperament. The laboratory evidence is far more modest. Preconception and prenatal environments can indeed induce epigenetic marks in animal models and human tissues. Yet rigorous evidence that typical-range parental moods or everyday stress write lasting developmental deficits into offspring epigenetics remains sparse and largely unproven. Biological marking is real; it is a mechanism of adaptation, not a mechanism of parental guilt.",
+      "start_ratio": 0.3958,
+      "end_ratio": 0.4358
     },
     {
       "id": "b-025",
-      "tag": "p",
+      "tag": "h2",
       "chunk_id": 26,
-      "start_sec": 310.544,
-      "end_sec": 326.015,
-      "words": 31,
-      "weight": 31,
-      "text": "A sensitive window is not an inevitable-injury window. The useful scientific question is always more precise: sensitive to what, at what time, at what dose, through what pathway, producing what outcome?",
-      "start_ratio": 0.2629,
-      "end_ratio": 0.276
+      "start_sec": 516.484,
+      "end_sec": 521.865,
+      "words": 7,
+      "weight": 9,
+      "text": "III. Morphogenesis and the Discipline of Timing",
+      "start_ratio": 0.4358,
+      "end_ratio": 0.4403
     },
     {
       "id": "b-026",
       "tag": "p",
       "chunk_id": 27,
-      "start_sec": 326.015,
-      "end_sec": 337.526,
-      "words": 21,
-      "weight": 21,
-      "text": "The prenatal nervous system makes the same point in another register. Construction proceeds through overlapping proliferation, migration, and transient embryonic zones.",
-      "start_ratio": 0.276,
-      "end_ratio": 0.2857
+      "start_sec": 521.865,
+      "end_sec": 550.376,
+      "words": 45,
+      "weight": 45,
+      "text": "Human development is not continuous enlargement; it is sequence. Preimplantation cleavage, gastrulation, organogenesis, and subsequent fetal growth are fundamentally distinct developmental jobs. An exposure during the initial specification of a tissue produces consequences entirely different from the same exposure after that anatomical structure is established.",
+      "start_ratio": 0.4403,
+      "end_ratio": 0.4643
     },
     {
       "id": "b-027",
       "tag": "p",
       "chunk_id": 28,
-      "start_sec": 337.526,
-      "end_sec": 349.837,
-      "words": 22,
-      "weight": 22,
-      "text": "Birth does not complete the brain. Collapse of structure, connectivity, cognition, and mental health into one “brain” claim is the usual error.",
-      "start_ratio": 0.2857,
-      "end_ratio": 0.2961
+      "start_sec": 550.376,
+      "end_sec": 569.887,
+      "words": 34,
+      "weight": 34,
+      "text": "A sensitive window is not an inevitable-injury window. The precise scientific question is always: sensitive to what, at what developmental timing, at what biological dose, through what physiological pathway, and producing what specific outcome?",
+      "start_ratio": 0.4643,
+      "end_ratio": 0.4808
     },
     {
       "id": "b-028",
-      "tag": "h2",
+      "tag": "p",
       "chunk_id": 29,
-      "start_sec": 349.837,
-      "end_sec": 354.418,
-      "words": 8,
-      "weight": 10,
-      "text": "Folate, and the discipline of a narrow success",
-      "start_ratio": 0.2961,
-      "end_ratio": 0.3
+      "start_sec": 569.887,
+      "end_sec": 618.678,
+      "words": 76,
+      "weight": 76,
+      "text": "The construction of the prenatal nervous system illustrates this sequence with extraordinary fidelity. Neuronal proliferation, migration along radial glial fibers, cortical layering, and the establishment of transient embryonic zones proceed in an orderly, clockwork progression. Birth does not complete the brain; it merely transitions an unfinished neural organ into an atmospheric, relational environment. Collapsing structural anatomy, synaptic connectivity, cognitive potential, and mental health into an undifferentiated “brain claim” is the standard error of modern developmental writing.",
+      "start_ratio": 0.4808,
+      "end_ratio": 0.522
     },
     {
       "id": "b-029",
       "tag": "p",
       "chunk_id": 30,
-      "start_sec": 354.418,
-      "end_sec": 360.569,
-      "words": 7,
-      "weight": 7,
-      "text": "Some preconception interventions have exceptionally clear evidence.",
-      "start_ratio": 0.3,
-      "end_ratio": 0.3052
+      "start_sec": 618.678,
+      "end_sec": 650.429,
+      "words": 56,
+      "weight": 56,
+      "text": "This timing discipline is best illustrated by periconceptional folic acid. When taken before conception and throughout the first four weeks of gestation, maternal folate supplementation substantially reduces the occurrence of neural tube defects. The Cochrane systematic review of randomized trials demonstrates a relative risk of 0.31, averting more than two-thirds of anencephaly and spina bifida occurrences.",
+      "start_ratio": 0.522,
+      "end_ratio": 0.5488
     },
     {
       "id": "b-030",
       "tag": "p",
       "chunk_id": 31,
-      "start_sec": 360.569,
-      "end_sec": 372.88,
-      "words": 23,
-      "weight": 23,
-      "text": "Periconceptional folic acid substantially reduces neural-tube-defect risk. The Cochrane synthesis of five trials reports a relative risk of 0.31 for neural tube defects.",
-      "start_ratio": 0.3052,
-      "end_ratio": 0.3156
+      "start_sec": 650.429,
+      "end_sec": 675.66,
+      "words": 48,
+      "weight": 48,
+      "text": "The power of folate’s lesson lies precisely in its boundaries. The human neural tube closes between the twenty-first and twenty-eighth day after fertilization — often before a missed menstrual cycle or a clinical confirmation of pregnancy. Folate succeeds because it is present during that exact, fleeting embryological window.",
+      "start_ratio": 0.5488,
+      "end_ratio": 0.57
     },
     {
       "id": "b-031",
       "tag": "p",
       "chunk_id": 32,
-      "start_sec": 372.88,
-      "end_sec": 396.111,
-      "words": 48,
-      "weight": 48,
-      "text": "The lesson is powerful because it is limited. Folate prevents a defined class of defects. It does not prove that a supplement can manufacture intelligence, resilience, or a better human being. Risk reduction is not risk elimination. Preparation is not control. Prevention is not optimization of the child.",
-      "start_ratio": 0.3156,
-      "end_ratio": 0.3353
+      "start_sec": 675.66,
+      "end_sec": 707.131,
+      "words": 55,
+      "weight": 55,
+      "text": "Yet what folate establishes for structural organogenesis, it refuses to grant to cognitive optimization. Preventing an anatomical closure failure does not mean that megadoses of vitamins can engineer higher IQ, emotional resilience, or accelerated learning. Other dietary nutrients do not inherit folate’s structural preventability. Prevention of catastrophe is not the optimization of a human mind.",
+      "start_ratio": 0.57,
+      "end_ratio": 0.5966
     },
     {
       "id": "b-032",
-      "tag": "p",
+      "tag": "h2",
       "chunk_id": 33,
-      "start_sec": 396.111,
-      "end_sec": 409.902,
-      "words": 25,
-      "weight": 25,
-      "text": "WHO’s preconception and nurturing-care frameworks place such interventions in a system — health, nutrition, safety, responsive care, learning — rather than in a private checklist.",
-      "start_ratio": 0.3353,
-      "end_ratio": 0.347
+      "start_sec": 707.131,
+      "end_sec": 714.432,
+      "words": 9,
+      "weight": 11,
+      "text": "IV. The Mediated Ecology: Placental Buffers and Stress Triangulation",
+      "start_ratio": 0.5966,
+      "end_ratio": 0.6028
     },
     {
       "id": "b-033",
-      "tag": "h2",
+      "tag": "p",
       "chunk_id": 34,
-      "start_sec": 409.902,
-      "end_sec": 413.203,
-      "words": 5,
-      "weight": 7,
-      "text": "Paternal age, without the myth",
-      "start_ratio": 0.347,
-      "end_ratio": 0.3498
+      "start_sec": 714.432,
+      "end_sec": 723.503,
+      "words": 14,
+      "weight": 14,
+      "text": "Few topics in prenatal literature generate more acute parental anxiety than maternal psychological stress.",
+      "start_ratio": 0.6028,
+      "end_ratio": 0.6104
     },
     {
       "id": "b-034",
       "tag": "p",
       "chunk_id": 35,
-      "start_sec": 413.203,
-      "end_sec": 437.874,
-      "words": 50,
-      "weight": 50,
-      "text": "The developmental story reaches back before conception on the paternal side as well. Sperm production involves continual cell division. Kong et al. (2012) showed, in whole-genome sequences of parent–offspring trios, that de novo mutations in offspring increase with father’s age — on the order of two additional mutations per year.",
-      "start_ratio": 0.3498,
-      "end_ratio": 0.3707
+      "start_sec": 723.503,
+      "end_sec": 746.294,
+      "words": 40,
+      "weight": 40,
+      "text": "The popular narrative sounds intuitive: stress elevates maternal cortisol; cortisol crosses the placenta; cortisol alters fetal brain development; therefore, a mother’s stress damages her child’s future. In reality, each link in this causal chain becomes progressively weaker under scientific scrutiny.",
+      "start_ratio": 0.6104,
+      "end_ratio": 0.6296
     },
     {
       "id": "b-035",
       "tag": "p",
       "chunk_id": 36,
-      "start_sec": 437.874,
-      "end_sec": 466.144,
-      "words": 59,
-      "weight": 59,
-      "text": "The underlying biology is real, but so are the limits of the finding. Advanced paternal age has been associated with selected perinatal and neurodevelopmental outcomes. Those associations are generally modest in pooled reviews and are entangled with socioeconomic conditions, reproductive selection, assortative mating, and inherited liability. A finding can be biologically true while a simplified causal story is wrong.",
-      "start_ratio": 0.3707,
-      "end_ratio": 0.3946
+      "start_sec": 746.294,
+      "end_sec": 784.245,
+      "words": 56,
+      "weight": 56,
+      "text": "The placenta is not a passive permeable filter; it is an active biochemical gatekeeper. Among its critical enzymatic defenses is $11\\beta$-hydroxysteroid dehydrogenase type 2 ($11\\beta\\text{-HSD2}$), which oxidizes active cortisol into biologically inactive cortisone, shielding the developing fetus from circulating maternal glucocorticoids. The placental buffer is substantial, protecting the embryo from ordinary fluctuations in daily parental distress.",
+      "start_ratio": 0.6296,
+      "end_ratio": 0.6617
     },
     {
       "id": "b-036",
       "tag": "p",
       "chunk_id": 37,
-      "start_sec": 466.144,
-      "end_sec": 482.495,
-      "words": 35,
-      "weight": 35,
-      "text": "The appropriate conclusion is not have children early or risk damaging them. It is: reproductive biology changes with age; some risks change with it; those risks are probabilistic; interpretation requires absolute risk and family context.",
-      "start_ratio": 0.3946,
-      "end_ratio": 0.4084
+      "start_sec": 784.245,
+      "end_sec": 827.875,
+      "words": 66,
+      "weight": 66,
+      "text": "More decisively, when researchers investigate prenatal stress using genetically informed methodologies — such as sibling comparisons, children-of-twins designs, and in vitro fertilization cross-fostering — traditional observational correlations largely evaporate. A comprehensive genetically informed meta-analysis revealed that after accounting for shared inherited liabilities and family confounding, the specific prenatal contribution of maternal anxiety to child internalizing problems dropped to near zero, while modest postnatal parent–child associations remained.",
+      "start_ratio": 0.6617,
+      "end_ratio": 0.6985
     },
     {
       "id": "b-037",
       "tag": "p",
       "chunk_id": 38,
-      "start_sec": 482.495,
-      "end_sec": 496.366,
-      "words": 30,
-      "weight": 30,
-      "text": "The mutational relationship is an observation about biological rate. It is not a personality forecast, a fertility instruction, or a ranking of families by the age at which they conceived.",
-      "start_ratio": 0.4084,
-      "end_ratio": 0.4202
+      "start_sec": 827.875,
+      "end_sec": 847.866,
+      "words": 38,
+      "weight": 38,
+      "text": "What seemed to be direct fetal programming in simple observational studies was largely the reflection of shared genetics and the continuous postnatal caregiving environment. Triangulation showed that an attractive causal story was largely an artifact of unadjusted confounding.",
+      "start_ratio": 0.6985,
+      "end_ratio": 0.7153
     },
     {
       "id": "b-038",
-      "tag": "h2",
+      "tag": "p",
       "chunk_id": 39,
-      "start_sec": 496.366,
-      "end_sec": 499.387,
-      "words": 5,
-      "weight": 7,
-      "text": "Marking is not a script",
-      "start_ratio": 0.4202,
-      "end_ratio": 0.4227
+      "start_sec": 847.866,
+      "end_sec": 877.257,
+      "words": 54,
+      "weight": 54,
+      "text": "Parents are human beings, not sterile laboratory instruments. They experience bereavement, job insecurity, discrimination, housing instability, and the ordinary frictions of daily life. Alleviating parental distress is a moral and public-health imperative because parents deserve care in their own right — not merely as biological incubators calibrated to maximize a future infant’s developmental score.",
+      "start_ratio": 0.7153,
+      "end_ratio": 0.7401
     },
     {
       "id": "b-039",
-      "tag": "p",
+      "tag": "h2",
       "chunk_id": 40,
-      "start_sec": 499.387,
-      "end_sec": 518.298,
-      "words": 45,
-      "weight": 45,
-      "text": "A related temptation sits one layer down from genes. Cells can carry chemical marks that change how DNA is used without changing the sequence. Those marks are part of how development remembers an environment. The word that travels with them into popular writing is “epigenetic.”",
-      "start_ratio": 0.4227,
-      "end_ratio": 0.4387
+      "start_sec": 877.257,
+      "end_sec": 882.118,
+      "words": 7,
+      "weight": 9,
+      "text": "V. The Co-Developing Caregiver and the Return",
+      "start_ratio": 0.7401,
+      "end_ratio": 0.7442
     },
     {
       "id": "b-040",
       "tag": "p",
       "chunk_id": 41,
-      "start_sec": 518.298,
-      "end_sec": 544.689,
-      "words": 63,
-      "weight": 63,
-      "text": "The laboratory fact is narrower than the story. Some preconception and prenatal environments can leave marks. Some of those marks have been measured in human tissues. Few of them have been shown, in humans, to be the pathway that turns a parent’s week of strain into a child’s later character. Animal models can demonstrate mechanism. They do not automatically measure a human childhood.",
-      "start_ratio": 0.4387,
-      "end_ratio": 0.4611
+      "start_sec": 882.118,
+      "end_sec": 891.229,
+      "words": 20,
+      "weight": 20,
+      "text": "The transition to parenthood is not an event that happens solely to an infant; it transforms the adults as well.",
+      "start_ratio": 0.7442,
+      "end_ratio": 0.7519
     },
     {
       "id": "b-041",
       "tag": "p",
       "chunk_id": 42,
-      "start_sec": 544.689,
-      "end_sec": 559.16,
-      "words": 28,
-      "weight": 28,
-      "text": "This is one of the atomic claims the Chapter 1 dossier was written to test: marking can happen without determinism. Continuity of biology is not a completed biography.",
-      "start_ratio": 0.4611,
-      "end_ratio": 0.4733
+      "start_sec": 891.229,
+      "end_sec": 931.9,
+      "words": 66,
+      "weight": 66,
+      "text": "During pregnancy and the early postpartum period, mothers undergo pronounced endocrine and neurobiological adaptation. Longitudinal neuroimaging studies have documented widespread structural remodeling across maternal cortical networks involved in social cognition, empathy, and threat processing. Popular journalism frequently misinterprets this cortical thinning as “maternal brain loss” or intellectual decline. It is precisely the opposite: a highly coordinated, plastic specialization that attunes the caregiver to infant communicative cues.",
+      "start_ratio": 0.7519,
+      "end_ratio": 0.7862
     },
     {
       "id": "b-042",
-      "tag": "h2",
+      "tag": "p",
       "chunk_id": 43,
-      "start_sec": 559.16,
-      "end_sec": 562.581,
-      "words": 5,
-      "weight": 7,
-      "text": "Timing windows before a heartbeat",
-      "start_ratio": 0.4733,
-      "end_ratio": 0.4762
+      "start_sec": 931.9,
+      "end_sec": 966.171,
+      "words": 60,
+      "weight": 60,
+      "text": "Crucially, this neurobiological remodeling is not exclusive to biological mothers. Longitudinal imaging in first-time fathers demonstrates parallel structural changes in social cognition networks, with the magnitude of neural adaptation correlating with active caregiving engagement. The parental brain is not a fixed, finished machine that simply dispenses care; it is itself a developing organ that reorganizes under the demands of parenthood.",
+      "start_ratio": 0.7862,
+      "end_ratio": 0.8152
     },
     {
       "id": "b-043",
       "tag": "p",
       "chunk_id": 44,
-      "start_sec": 562.581,
-      "end_sec": 591.292,
-      "words": 74,
-      "weight": 74,
-      "text": "The same discipline applies to the days before implantation. A fertilized egg is already in a developmental environment: the reproductive tract, the metabolic state of the adults, the presence or absence of a nutrient the embryo will soon need. Folate’s success is partly a timing success. The neural tube closes in the first weeks, often before a pregnancy is recognized. That is why the intervention is periconceptional rather than “sometime in the second trimester.”",
-      "start_ratio": 0.4762,
-      "end_ratio": 0.5005
+      "start_sec": 966.171,
+      "end_sec": 1000.802,
+      "words": 66,
+      "weight": 66,
+      "text": "The couple relationship also enters a dynamic transition. While group-level averages frequently record a decline in relationship satisfaction following the arrival of a first child, those statistical averages mask profound variation. Sleep disruption, financial strain, unequal distribution of domestic tasks, and lack of community support all mediate this trajectory. There is no single universal transition to parenthood; there are as many transitions as there are families.",
+      "start_ratio": 0.8152,
+      "end_ratio": 0.8444
     },
     {
       "id": "b-044",
       "tag": "p",
       "chunk_id": 45,
-      "start_sec": 591.292,
-      "end_sec": 611.843,
-      "words": 49,
-      "weight": 49,
-      "text": "A window is a statement about a process. It is not a slogan that every early moment is equally loaded. The useful scientific question is again the same one the timing card already carries: sensitive to what, at what time, at what dose, through what pathway, producing what outcome?",
-      "start_ratio": 0.5005,
-      "end_ratio": 0.5179
+      "start_sec": 1000.802,
+      "end_sec": 1028.353,
+      "words": 46,
+      "weight": 46,
+      "text": "Development unfolds within a multi-layered ecology. The World Health Organization’s nurturing care framework emphasizes that child development relies upon an interlocking matrix of nutrition, responsive caregiving, physical safety, healthcare infrastructure, and supportive community institutions. It is not a private domestic checklist to be executed in isolation.",
+      "start_ratio": 0.8444,
+      "end_ratio": 0.8676
     },
     {
       "id": "b-045",
       "tag": "p",
       "chunk_id": 46,
-      "start_sec": 611.843,
-      "end_sec": 617.474,
+      "start_sec": 1028.353,
+      "end_sec": 1033.584,
       "words": 9,
       "weight": 9,
-      "text": "Other preconception nutrients do not inherit folate’s structural preventability.",
-      "start_ratio": 0.5179,
-      "end_ratio": 0.5227
+      "text": "To summarize the epistemic boundaries of this pre-birth territory:",
+      "start_ratio": 0.8676,
+      "end_ratio": 0.872
     },
     {
       "id": "b-046",
-      "tag": "p",
+      "tag": "li",
       "chunk_id": 47,
-      "start_sec": 617.474,
-      "end_sec": 635.545,
-      "words": 38,
-      "weight": 38,
-      "text": "WHO’s preconception-care frame is biomedical, behavioral, and social, and it names couples rather than a solitary pregnant person. That widening is Interpretation grounded in the evidence framework, not a proof that a household checklist can manufacture a mind.",
-      "start_ratio": 0.5227,
-      "end_ratio": 0.538
+      "start_sec": 1033.584,
+      "end_sec": 1044.635,
+      "words": 19,
+      "weight": 20,
+      "text": "Biological relevance is not parental control. Recognizing that early physiology matters does not mean parents can dictate every outcome.",
+      "start_ratio": 0.872,
+      "end_ratio": 0.8814
     },
     {
       "id": "b-047",
-      "tag": "h2",
+      "tag": "li",
       "chunk_id": 48,
-      "start_sec": 635.545,
-      "end_sec": 642.606,
-      "words": 12,
-      "weight": 14,
-      "text": "Stress, cortisol, and what genetically informed designs did to a popular story",
-      "start_ratio": 0.538,
-      "end_ratio": 0.544
+      "start_sec": 1044.635,
+      "end_sec": 1055.566,
+      "words": 16,
+      "weight": 17,
+      "text": "Association is not causation. Statistical correlations in observational cohorts frequently vanish when genetic confounding is resolved.",
+      "start_ratio": 0.8814,
+      "end_ratio": 0.8906
     },
     {
       "id": "b-048",
-      "tag": "p",
+      "tag": "li",
       "chunk_id": 49,
-      "start_sec": 642.606,
-      "end_sec": 648.117,
-      "words": 9,
-      "weight": 9,
-      "text": "Few prenatal topics produce more anxiety than maternal stress.",
-      "start_ratio": 0.544,
-      "end_ratio": 0.5486
+      "start_sec": 1055.566,
+      "end_sec": 1066.337,
+      "words": 18,
+      "weight": 19,
+      "text": "An early difference is not a permanent fate. Biological plasticities and compensatory mechanisms operate across the entire lifespan.",
+      "start_ratio": 0.8906,
+      "end_ratio": 0.8997
     },
     {
       "id": "b-049",
-      "tag": "p",
+      "tag": "li",
       "chunk_id": 50,
-      "start_sec": 648.117,
-      "end_sec": 664.868,
-      "words": 32,
-      "weight": 32,
-      "text": "The chain sounds convincing: stress changes cortisol; cortisol can cross boundaries; the fetal brain is developing; therefore prenatal stress must damage the future. Every step after the first two becomes less certain.",
-      "start_ratio": 0.5486,
-      "end_ratio": 0.5628
+      "start_sec": 1066.337,
+      "end_sec": 1082.508,
+      "words": 24,
+      "weight": 25,
+      "text": "Modifiability is not solitary responsibility. What is biologically modifiable requires institutional resources, clean air, safe shelter, and medical care — not solitary parental guilt.",
+      "start_ratio": 0.8997,
+      "end_ratio": 0.9133
     },
     {
       "id": "b-050",
-      "tag": "p",
+      "tag": "li",
       "chunk_id": 51,
-      "start_sec": 664.868,
-      "end_sec": 703.059,
-      "words": 60,
-      "weight": 60,
-      "text": "Observational studies have often found associations between prenatal anxiety or stress and later emotional or behavioral outcomes. When researchers use sibling comparisons, children-of-twins, IVF/adoption designs, and other triangulation, many of those associations shrink or disappear. A genetically informed meta-analysis reported essentially no prenatal-anxiety association with offspring internalizing after relatedness was accounted for, while postnatal parent–child associations remained small but detectable.",
-      "start_ratio": 0.5628,
-      "end_ratio": 0.5951
+      "start_sec": 1082.508,
+      "end_sec": 1101.955,
+      "words": 15,
+      "weight": 16,
+      "text": "Family action is not an institutional substitute. Individual devotion cannot compensate for absent societal infrastructure.",
+      "start_ratio": 0.9133,
+      "end_ratio": 0.9297
     },
     {
       "id": "b-051",
       "tag": "p",
       "chunk_id": 52,
-      "start_sec": 703.059,
-      "end_sec": 734.17,
-      "words": 71,
-      "weight": 71,
-      "text": "There are at least three pathways, and they can coexist: a direct biological effect during pregnancy; inherited characteristics shared by parent and child; and a prenatal period that is simply continuous with the postnatal environment. Correlation is a clue. Triangulation tells us more. Sometimes the scientifically important result is that an attractive explanation becomes weaker under better methods. That is not a failure of science. It is science doing its job.",
-      "start_ratio": 0.5951,
-      "end_ratio": 0.6215
+      "start_sec": 1101.955,
+      "end_sec": 1113.983,
+      "words": 7,
+      "weight": 7,
+      "text": "Now we return to the ultrasound monitor.",
+      "start_ratio": 0.9297,
+      "end_ratio": 0.9399
     },
     {
       "id": "b-052",
       "tag": "p",
       "chunk_id": 53,
-      "start_sec": 734.17,
-      "end_sec": 749.641,
-      "words": 32,
-      "weight": 32,
-      "text": "The placenta is part of why the simple story fails. It is an active interface, including 11β-HSD2 conversion of much active cortisol to cortisone. The buffer is real. It is not absolute.",
-      "start_ratio": 0.6215,
-      "end_ratio": 0.6346
+      "start_sec": 1113.983,
+      "end_sec": 1129.97,
+      "words": 17,
+      "weight": 17,
+      "text": "The small flicker on the screen has not changed. It pulses with the same quiet, fragile rhythm.",
+      "start_ratio": 0.9399,
+      "end_ratio": 0.9533
     },
     {
       "id": "b-053",
       "tag": "p",
       "chunk_id": 54,
-      "start_sec": 749.641,
-      "end_sec": 763.592,
-      "words": 35,
-      "weight": 35,
-      "text": "A mechanism tells us that something can happen. It does not tell us that it will happen to a particular child, and it does not make a parent morally responsible for every fluctuation in physiology.",
-      "start_ratio": 0.6346,
-      "end_ratio": 0.6464
+      "start_sec": 1129.97,
+      "end_sec": 1169.758,
+      "words": 71,
+      "weight": 71,
+      "text": "What has changed is what that flicker is permitted to mean. It is not the sudden creation of a person from a vacuum, nor is it a finished blueprint that predetermines a child’s character, intelligence, or happiness. It is a visible waypoint in a vast, continuous developmental landscape — one that began before conception, is actively buffered by biology, and will unfold through relationships and communities that are still taking shape.",
+      "start_ratio": 0.9533,
+      "end_ratio": 0.9869
     },
     {
       "id": "b-054",
       "tag": "p",
       "chunk_id": 55,
-      "start_sec": 763.592,
-      "end_sec": 793.783,
-      "words": 58,
-      "weight": 58,
-      "text": "People are not laboratory instruments. They live through bereavement, unsafe housing, discrimination, illness, work, and ordinary frustration. Some of those conditions can be changed by individual action. Many cannot. Treating distress is worthwhile because distress itself matters. A parent’s wellbeing is not merely a means to a child’s developmental score. It is an end in its own right.",
-      "start_ratio": 0.6464,
-      "end_ratio": 0.6719
-    },
-    {
-      "id": "b-055",
-      "tag": "h2",
-      "chunk_id": 56,
-      "start_sec": 793.783,
-      "end_sec": 796.884,
-      "words": 5,
-      "weight": 7,
-      "text": "The adults are developing too",
-      "start_ratio": 0.6719,
-      "end_ratio": 0.6746
-    },
-    {
-      "id": "b-056",
-      "tag": "p",
-      "chunk_id": 57,
-      "start_sec": 796.884,
-      "end_sec": 801.515,
+      "start_sec": 1169.758,
+      "end_sec": 1185.265,
       "words": 10,
       "weight": 10,
-      "text": "The transformation of parenthood is not confined to the child.",
-      "start_ratio": 0.6746,
-      "end_ratio": 0.6785
-    },
-    {
-      "id": "b-057",
-      "tag": "p",
-      "chunk_id": 58,
-      "start_sec": 801.515,
-      "end_sec": 831.346,
-      "words": 61,
-      "weight": 61,
-      "text": "Pregnancy brings endocrine change. Longitudinal neuroimaging has documented remodeling of maternal cortical structure across the transition to motherhood, including networks involved in social cognition. The popular translation is that pregnancy “shrinks the brain” or reduces intelligence. That is not what the evidence establishes. Structural change is not damage. The adult brain is plastic; it remodels under major biological and behavioral demand.",
-      "start_ratio": 0.6785,
-      "end_ratio": 0.7037
-    },
-    {
-      "id": "b-058",
-      "tag": "p",
-      "chunk_id": 59,
-      "start_sec": 831.346,
-      "end_sec": 861.897,
-      "words": 67,
-      "weight": 67,
-      "text": "The story does not belong only to mothers. Work on first-time fathers has identified related structural change, associated in part with caregiving engagement. The interpretive point is stronger than any single scan: the parental brain is also developed. Noticing a cry, remaining responsive while exhausted, thinking from another person’s perspective — these are skills under construction, not proofs of a finished adult who then manufactures a child.",
-      "start_ratio": 0.7037,
-      "end_ratio": 0.7296
-    },
-    {
-      "id": "b-059",
-      "tag": "p",
-      "chunk_id": 60,
-      "start_sec": 861.897,
-      "end_sec": 889.967,
-      "words": 57,
-      "weight": 57,
-      "text": "Couples change too. On average, some measures of relationship functioning decline after a first birth. The averages conceal enormous variation, and relationship satisfaction can decline among couples who never become parents. Sleep, money, unequal domestic labor, health complications, and missing family support all sit inside the same average. There is a transition. There is not one transition.",
-      "start_ratio": 0.7296,
-      "end_ratio": 0.7534
-    },
-    {
-      "id": "b-060",
-      "tag": "h2",
-      "chunk_id": 61,
-      "start_sec": 889.967,
-      "end_sec": 892.788,
-      "words": 4,
-      "weight": 6,
-      "text": "Early is not permanent",
-      "start_ratio": 0.7534,
-      "end_ratio": 0.7558
-    },
-    {
-      "id": "b-061",
-      "tag": "p",
-      "chunk_id": 62,
-      "start_sec": 892.788,
-      "end_sec": 916.339,
-      "words": 58,
-      "weight": 58,
-      "text": "An effect measured early in life is not necessarily an effect that lasts. That is as true of a prenatal association as of an intervention. Follow-up studies find that some gains fade, others persist, and others change form. The disappearance of one measured advantage does not mean nothing happened. Development can move effects from one pathway to another.",
-      "start_ratio": 0.7558,
-      "end_ratio": 0.7757
-    },
-    {
-      "id": "b-062",
-      "tag": "p",
-      "chunk_id": 63,
-      "start_sec": 916.339,
-      "end_sec": 929.57,
-      "words": 29,
-      "weight": 29,
-      "text": "The right question is therefore never simply did it work? It is: what changed, for whom, by how much, for how long, under what conditions, and compared with what?",
-      "start_ratio": 0.7757,
-      "end_ratio": 0.7869
-    },
-    {
-      "id": "b-063",
-      "tag": "p",
-      "chunk_id": 64,
-      "start_sec": 929.57,
-      "end_sec": 943.401,
-      "words": 32,
-      "weight": 32,
-      "text": "That question belongs to later chapters on interventions. It belongs here as a prohibition: an early biological difference is not a life sentence, and a missed supplement is not a completed character.",
-      "start_ratio": 0.7869,
-      "end_ratio": 0.7986
-    },
-    {
-      "id": "b-064",
-      "tag": "h2",
-      "chunk_id": 65,
-      "start_sec": 943.401,
-      "end_sec": 946.702,
-      "words": 6,
-      "weight": 8,
-      "text": "What this chapter does not license",
-      "start_ratio": 0.7986,
-      "end_ratio": 0.8014
-    },
-    {
-      "id": "b-065",
-      "tag": "p",
-      "chunk_id": 66,
-      "start_sec": 946.702,
-      "end_sec": 950.653,
-      "words": 8,
-      "weight": 8,
-      "text": "From the dossier’s own boundaries, still in force:",
-      "start_ratio": 0.8014,
-      "end_ratio": 0.8047
-    },
-    {
-      "id": "b-066",
-      "tag": "li",
-      "chunk_id": 67,
-      "start_sec": 950.653,
-      "end_sec": 954.784,
-      "words": 6,
-      "weight": 7,
-      "text": "Biological relevance is not parental control.",
-      "start_ratio": 0.8047,
-      "end_ratio": 0.8082
-    },
-    {
-      "id": "b-067",
-      "tag": "li",
-      "chunk_id": 68,
-      "start_sec": 954.784,
-      "end_sec": 957.795,
-      "words": 4,
-      "weight": 5,
-      "text": "Association is not causation.",
-      "start_ratio": 0.8082,
-      "end_ratio": 0.8108
-    },
-    {
-      "id": "b-068",
-      "tag": "li",
-      "chunk_id": 69,
-      "start_sec": 957.795,
-      "end_sec": 961.766,
-      "words": 8,
-      "weight": 9,
-      "text": "An early difference is not a persistent effect.",
-      "start_ratio": 0.8108,
-      "end_ratio": 0.8141
-    },
-    {
-      "id": "b-069",
-      "tag": "li",
-      "chunk_id": 70,
-      "start_sec": 961.766,
-      "end_sec": 966.377,
-      "words": 5,
-      "weight": 6,
-      "text": "Modifiability is not individual responsibility.",
-      "start_ratio": 0.8141,
-      "end_ratio": 0.818
-    },
-    {
-      "id": "b-070",
-      "tag": "li",
-      "chunk_id": 71,
-      "start_sec": 966.377,
-      "end_sec": 971.548,
-      "words": 9,
-      "weight": 10,
-      "text": "Family action is not a substitute for institutional obligation.",
-      "start_ratio": 0.818,
-      "end_ratio": 0.8224
-    },
-    {
-      "id": "b-071",
-      "tag": "p",
-      "chunk_id": 72,
-      "start_sec": 971.548,
-      "end_sec": 990.619,
-      "words": 41,
-      "weight": 41,
-      "text": "Those sentences are Interpretation grounded in Science. They are not a refusal to act where action is justified. Folate is such a place. Managing serious pre-existing disease is such a place. Turning every association into a private self-improvement project is not.",
-      "start_ratio": 0.8224,
-      "end_ratio": 0.8386
-    },
-    {
-      "id": "b-072",
-      "tag": "p",
-      "chunk_id": 73,
-      "start_sec": 990.619,
-      "end_sec": 1028.81,
-      "words": 83,
-      "weight": 83,
-      "text": "A further clarification belongs here because it is the reader’s first encounter with grades. A High grade on a structural embryonic outcome does not travel. Folate’s High grade is for neural-tube-defect risk; it is Low for later cognition. Stress’s Low-to-Moderate grade is for typical-range prenatal-specific causation after genetically informed designs, not for treating clinical trauma as imaginary. Neural construction’s High grade is for sequence; it is Low for personality. Those are different claims sharing a chapter. They are not a blended “prenatal score.”",
-      "start_ratio": 0.8386,
-      "end_ratio": 0.8709
-    },
-    {
-      "id": "b-073",
-      "tag": "h2",
-      "chunk_id": 74,
-      "start_sec": 1028.81,
-      "end_sec": 1030.591,
-      "words": 1,
-      "weight": 3,
-      "text": "System",
-      "start_ratio": 0.8709,
-      "end_ratio": 0.8724
-    },
-    {
-      "id": "b-074",
-      "tag": "p",
-      "chunk_id": 75,
-      "start_sec": 1030.591,
-      "end_sec": 1063.422,
-      "words": 80,
-      "weight": 80,
-      "text": "The child who will be born enters a world that already contains biology, relationships, and institutions. WHO’s nurturing-care frame is a map of that system, not a verdict on a particular household. Chapter 2 will take up pregnancy as a mediated environment. Chapter 3 will take up birth as reorganization rather than genesis. Chapter 4 will take up regulation as a relationship. None of those chapters can do their work if this one has already turned “before birth” into destiny.",
-      "start_ratio": 0.8724,
-      "end_ratio": 0.9002
-    },
-    {
-      "id": "b-075",
-      "tag": "p",
-      "chunk_id": 76,
-      "start_sec": 1063.422,
-      "end_sec": 1098.773,
-      "words": 71,
-      "weight": 71,
-      "text": "The adults are in the system too. The transition to parenthood changes sleep, identity, couple functioning, and, in some neuroimaging work, cortical structure. Structural change is not damage. Average decline in relationship satisfaction after a first birth conceals enormous variation and is partly continuous with ordinary relationship change. Those are later chapters’ empirical problems. The interpretive point belongs here: the book is about a developing child and a developing caregiving environment.",
-      "start_ratio": 0.9002,
-      "end_ratio": 0.9301
-    },
-    {
-      "id": "b-076",
-      "tag": "p",
-      "chunk_id": 77,
-      "start_sec": 1098.773,
-      "end_sec": 1140.924,
-      "words": 115,
-      "weight": 115,
-      "text": "What, then, is a “developmental environment” if it can include a parent’s biology before a child exists? It is not a verdict. It is a set of conditions that can be described, some of which can be changed, many of which cannot be changed by the people who will love this child. Eggs and sperm, a placenta that is not yet formed, a clinic that does or does not stock folic acid, a workplace that does or does not allow rest, a housing market that does or does not leave a family in mold: these are not the same kind of fact. The atlas’s job is to keep them from collapsing into one parental performance.",
-      "start_ratio": 0.9301,
-      "end_ratio": 0.9658
-    },
-    {
-      "id": "b-077",
-      "tag": "h2",
-      "chunk_id": 78,
-      "start_sec": 1140.924,
-      "end_sec": 1142.665,
-      "words": 1,
-      "weight": 3,
-      "text": "Return",
-      "start_ratio": 0.9658,
-      "end_ratio": 0.9673
-    },
-    {
-      "id": "b-078",
-      "tag": "p",
-      "chunk_id": 79,
-      "start_sec": 1142.665,
-      "end_sec": 1146.616,
-      "words": 8,
-      "weight": 8,
-      "text": "The flicker on the screen has not changed.",
-      "start_ratio": 0.9673,
-      "end_ratio": 0.9706
-    },
-    {
-      "id": "b-079",
-      "tag": "p",
-      "chunk_id": 80,
-      "start_sec": 1146.616,
-      "end_sec": 1171.007,
-      "words": 71,
-      "weight": 71,
-      "text": "What has changed is what it is allowed to mean. It is not the beginning of the organism. It is not a completed person whose future can be read from a handful of prenatal measurements. It is a visible moment in a process that started earlier and will continue after birth, through relationships that are not yet in the room and institutions that will either hold this family or fail to.",
-      "start_ratio": 0.9706,
-      "end_ratio": 0.9913
-    },
-    {
-      "id": "b-080",
-      "tag": "p",
-      "chunk_id": 81,
-      "start_sec": 1171.007,
-      "end_sec": 1181.318,
-      "words": 25,
-      "weight": 25,
-      "text": "The child is not yet born. Development has already begun. That is a reason to start here. It is not a reason to finish here.",
-      "start_ratio": 0.9913,
+      "text": "The child is not yet born. Development has already begun.",
+      "start_ratio": 0.9869,
       "end_ratio": 1.0
     }
   ]
