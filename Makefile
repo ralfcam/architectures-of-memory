@@ -60,9 +60,16 @@ pdf:
 
 kdp:
 	$(PYTHON) scripts/render_publishing_pdfs.py $(BOOK) --format kdp-6x9 --epub
+	$(PYTHON) scripts/render_kdp_cover.py $(BOOK)
+
+cover:
+	$(PYTHON) scripts/render_kdp_cover.py $(BOOK)
 
 epub:
 	$(PYTHON) scripts/render_publishing_pdfs.py $(BOOK) --epub
+
+epub-audit:
+	$(PYTHON) scripts/audit_epub.py series/parenthood-atlas/publishing/parenthood-atlas-kdp.epub
 
 briefs:
 	$(PYTHON) scripts/render_evidence_briefs.py $(BOOK)

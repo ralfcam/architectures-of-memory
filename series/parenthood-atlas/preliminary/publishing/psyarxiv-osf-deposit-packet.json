@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "deposit_metadata": {
+    "server": "PsyArXiv / OSF Preprints",
+    "portal_url": "https://psyarxiv.com/",
+    "deposit_type": "Preprint / Working Paper",
+    "title": "Before the Child Is Born: Placental Mediation, Teratology, and the Epistemic Architecture of the Prenatal Period",
+    "short_title": "Before the Child Is Born (Parenthood: The Atlas, Chapter 1)",
+    "authors": [
+      {
+        "name": "Jose Campos",
+        "affiliation": "Realized Press",
+        "role": "Author & Lead Investigator",
+        "corresponding": true
+      }
+    ],
+    "abstract": "This chapter examines the biological and conceptual environment of human development prior to birth, focusing on periconceptional folate, maternal-fetal endocrine mediation via placental 11β-HSD2, and the teratological continuum of prenatal alcohol and substance exposure. Governed by the Open Knowledge Format (OKF v0.2), we distinguish empirical observations from clinical interpretations and prescriptive parenting mandates. Observational associations regarding typical-range prenatal maternal stress largely attenuate under genetically informed and sibling-comparison designs, while neural-tube defect prevention via periconceptional folic acid represents a narrow, robust causal intervention. The prenatal environment functions as a dynamic physiological filter rather than an indelible personality forecast.",
+    "abstract_word_count": 99,
+    "subjects": [
+      "Social and Behavioral Sciences -> Psychology -> Developmental Psychology",
+      "Life Sciences -> Neuroscience and Neurobiology -> Developmental Neuroscience"
+    ],
+    "tags": [
+      "developmental psychology",
+      "prenatal development",
+      "placental barrier",
+      "folic acid",
+      "genetically informed designs",
+      "open knowledge format",
+      "causal inference",
+      "teratology",
+      "child development"
+    ],
+    "license": "CC-BY 4.0 International",
+    "repository_url": "https://github.com/ralfcam/realized-press",
+    "data_availability_statement": "All evidence cards (OKF v0.2), bibliographic sources (sources.bib and SOURCES.md), and analytical scripts are version-controlled and openly available in the repository at series/parenthood-atlas/.",
+    "conflict_of_interest": "The author declares no competing financial or non-financial interests.",
+    "primary_file": {
+      "relative_path": "series/parenthood-atlas/preliminary/publishing/ch01-preprint.pdf",
+      "description": "Standalone Chapter 1 preprint with metadata abstract, evidence box, and verified bibliographic DOIs",
+      "format": "application/pdf"
+    },
+    "companion_files": [
+      {
+        "relative_path": "series/parenthood-atlas/chapters/01-before-the-child-is-born.md",
+        "description": "Source Markdown manuscript",
+        "format": "text/markdown"
+      },
+      {
+        "relative_path": "series/parenthood-atlas/evidence-cards/prenatal-folate-ntd.md",
+        "description": "Underlying stable OKF v0.2 evidence card for folic acid",
+        "format": "text/markdown"
+      }
+    ],
+    "post_deposit_actions": [
+      "Retrieve minted DOI from PsyArXiv / OSF (e.g. 10.31234/osf.io/xxxxx).",
+      "Add preprint_doi field to series/parenthood-atlas/chapters/01-before-the-child-is-born.md frontmatter.",
+      "Record minted DOI in series/parenthood-atlas/REPO_DIGEST.md and CHANGELOG.md.",
+      "Close Linear issue ARC-63."
+    ]
+  }
+}
