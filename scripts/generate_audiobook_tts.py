@@ -107,6 +107,18 @@ def write_wav(out_path: Path, pcm_bytes: bytes, sample_rate: int = 24000) -> Non
         wf.writeframes(pcm_bytes)
 
 
+def load_dotenv(root: Path) -> None:
+    env_path = root / ".env"
+    if env_path.is_file():
+        for line in env_path.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                k, v = k.strip(), v.strip().strip("'\"")
+                if k and k not in os.environ:
+                    os.environ[k] = v
+
+
 def main() -> None:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -120,6 +132,7 @@ def main() -> None:
     args = parser.parse_args()
 
     root = repo_root()
+    load_dotenv(root)
     book_path = resolve_book_path(root, args.book)
     chapters_dir = book_path / "chapters"
     if not chapters_dir.is_dir():

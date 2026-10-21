@@ -1,6 +1,11 @@
 # Cursor local planning artifacts (not part of book content)
 .cursor/plans/
 
+# Local environment & secrets
+.env
+*.env
+.env.*
+
 # Python bytecode & transient hook state
 __pycache__/
 *.py[cod]
