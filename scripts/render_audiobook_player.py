@@ -21,7 +21,8 @@ import re
 import sys
 from pathlib import Path
 
-from merge_book_chapters import iter_chapter_files, repo_root, resolve_book_path, transform_audiobook
+import markdown
+from merge_book_chapters import iter_chapter_files, repo_root, resolve_book_path, strip_yaml_frontmatter, transform_audiobook
 
 WPM_SPEAKING_RATE = 150
 DEFAULT_GITHUB_REPO = "ralfcam/realized-press"
@@ -40,22 +41,19 @@ def extract_chapter_title(md_path: Path) -> str:
 
 def extract_clean_text(md_path: Path) -> str:
     content = md_path.read_text(encoding="utf-8")
-    spoken = transform_audiobook(content)
-    spoken = re.sub(r"^---+\s*$", "", spoken, flags=re.MULTILINE)
-    spoken = re.sub(r"^#\s+(.+)$", r"<h3>\1</h3>", spoken, flags=re.MULTILINE)
-    spoken = re.sub(r"^##\s+(.+)$", r"<h4>\1</h4>", spoken, flags=re.MULTILINE)
-    spoken = re.sub(r"^###\s+(.+)$", r"<h5>\1</h5>", spoken, flags=re.MULTILINE)
-    spoken = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", spoken)
-    spoken = re.sub(r"\*([^*]+)\*", r"<em>\1</em>", spoken)
-    spoken = re.sub(r"`([^`]+)`", r"<code>\1</code>", spoken)
-    paras = [p.strip() for p in spoken.split("\n\n") if p.strip()]
-    html_paras = []
-    for p in paras:
-        if p.startswith("<h"):
-            html_paras.append(p)
-        else:
-            html_paras.append(f"<p>{html.escape(p)}</p>")
-    return "\n".join(html_paras)
+    body = strip_yaml_frontmatter(content)
+    # Filter out non-prose internal domain markers
+    lines = []
+    for line in body.splitlines(keepends=True):
+        if line.lstrip().startswith("> **Domain") or line.lstrip().startswith("*Sources:"):
+            continue
+        lines.append(line)
+    clean_md = "".join(lines)
+    # Render with full markdown parser including footnotes, tables, smart typography
+    return markdown.markdown(
+        clean_md,
+        extensions=["extra", "smarty", "sane_lists"],
+    )
 
 
 def collect_book_data(book_path: Path, series_title: str, series_subtitle: str, release_tag: str, repo: str) -> dict:
@@ -169,6 +167,9 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>Realized Press — Imprint Audiobook Portal & Marketing Hub</title>
   <meta name="description" content="Official Audiobook Web Player, Serial Preprints, and Public Evidence Briefs from Realized Press imprint.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
   <style>
     :root {{
       --bg: #070a0e;
@@ -662,13 +663,13 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 32px 36px;
-      max-width: 760px;
+      padding: 36px 42px;
+      max-width: 820px;
       margin: 0 auto;
       font-size: 1.1rem;
-      line-height: 1.8;
+      line-height: 1.85;
       color: #d1d7e0;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
     }}
     .reader-pane.active {{
       display: block;
@@ -678,29 +679,137 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
       padding-bottom: 14px;
       border-bottom: 1px solid var(--border);
     }}
-    .reader-header h2 {{
+    .reader-pane h1 {{
       font-size: 1.85rem;
       color: #fff;
       line-height: 1.3;
-      margin: 4px 0 8px;
+      margin: 28px 0 16px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }}
+    .reader-pane h1:first-child {{
+      margin-top: 0;
+    }}
+    .reader-pane h2 {{
+      font-size: 1.5rem;
+      color: #fff;
+      line-height: 1.35;
+      margin: 32px 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
     }}
     .reader-pane h3 {{
-      font-size: 1.45rem;
+      font-size: 1.3rem;
       color: #fff;
-      margin: 28px 0 12px;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 6px;
+      margin: 26px 0 10px;
     }}
-    .reader-pane h4 {{
-      font-size: 1.2rem;
+    .reader-pane h4, .reader-pane h5 {{
+      font-size: 1.12rem;
       color: var(--gold);
-      margin: 22px 0 8px;
+      margin: 20px 0 8px;
     }}
     .reader-pane p {{
-      margin-bottom: 18px;
+      margin-bottom: 20px;
+      letter-spacing: -0.003em;
     }}
     .reader-pane strong {{
       color: #fff;
+      font-weight: 700;
+    }}
+    .reader-pane em {{
+      color: #e6edf3;
+      font-style: italic;
+    }}
+    .reader-pane blockquote {{
+      border-left: 3px solid var(--gold);
+      background: rgba(210, 153, 34, 0.07);
+      padding: 14px 20px;
+      margin: 22px 0;
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: #e6edf3;
+    }}
+    .reader-pane blockquote p:last-child {{
+      margin-bottom: 0;
+    }}
+    .reader-pane ul, .reader-pane ol {{
+      padding-left: 28px;
+      margin: 16px 0 22px;
+    }}
+    .reader-pane li {{
+      margin-bottom: 8px;
+      padding-left: 4px;
+    }}
+    .reader-pane hr {{
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 36px 0;
+    }}
+    .reader-pane table {{
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 0.95rem;
+      display: block;
+      overflow-x: auto;
+    }}
+    .reader-pane th, .reader-pane td {{
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      text-align: left;
+    }}
+    .reader-pane th {{
+      background: rgba(255, 255, 255, 0.05);
+      color: #fff;
+      font-weight: 700;
+    }}
+    .reader-pane code {{
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--gold-light);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.88em;
+    }}
+    .reader-pane pre {{
+      background: #06090e;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      overflow-x: auto;
+      margin: 20px 0;
+    }}
+    .reader-pane pre code {{
+      background: transparent;
+      padding: 0;
+      color: #e6edf3;
+    }}
+    .reader-pane a {{
+      color: var(--accent);
+      text-decoration: none;
+    }}
+    .reader-pane a:hover {{
+      text-decoration: underline;
+    }}
+    .reader-pane .footnote {{
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }}
+    .reader-pane .footnote-ref {{
+      font-size: 0.78rem;
+      color: var(--gold);
+      vertical-align: super;
+      text-decoration: none;
+      padding: 0 2px;
+      font-weight: 600;
+    }}
+    .reader-pane .footnote-backref {{
+      color: var(--gold);
+      text-decoration: none;
+      margin-left: 4px;
     }}
 
     /* Marketing & Patreon Tier Blueprint */
@@ -1310,17 +1419,35 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
       if (!ch) return;
 
       document.getElementById('reader-header').innerHTML = `
-        <span style="font-size: 0.76rem; color: var(--gold); text-transform: uppercase; font-weight: 700; letter-spacing: 0.08em;">
-          ${{book.title}} · Chapter ${{ch.num}} of ${{book.chapters.length}}
-        </span>
-        <h2>${{ch.title}}</h2>
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+          <span style="font-size: 0.76rem; color: var(--gold); text-transform: uppercase; font-weight: 700; letter-spacing: 0.08em;">
+            ${{book.title}} · Chapter ${{ch.num}} of ${{book.chapters.length}}
+          </span>
+          <button onclick="switchView('playlist')" style="background: transparent; border: 1px solid var(--border); color: var(--text-muted); border-radius: 6px; padding: 4px 10px; font-size: 0.76rem; font-weight: 600; cursor: pointer;">
+            ← Back to Playlist
+          </button>
+        </div>
         <div style="font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 10px;">
           <span>${{ch.words.toLocaleString()}} words</span>
           <span>•</span>
           <span>~${{ch.minutes}} min narration</span>
+          ${{ch.hasLocalMp3 || ch.stem === '01-before-the-child-is-born' ? '<span>• 🎧 Audio Live</span>' : ''}}
         </div>
       `;
-      document.getElementById('reader-content').innerHTML = ch.transcriptHtml;
+      const readerContent = document.getElementById('reader-content');
+      readerContent.innerHTML = ch.transcriptHtml;
+
+      if (window.renderMathInElement) {{
+        renderMathInElement(readerContent, {{
+          delimiters: [
+            {{left: '$$', right: '$$', display: true}},
+            {{left: '$', right: '$', display: false}},
+            {{left: '\\\\(', right: '\\\\)', display: false}},
+            {{left: '\\\\[', right: '\\\\]', display: true}}
+          ],
+          throwOnError: false
+        }});
+      }}
     }}
 
     function formatTime(s) {{
