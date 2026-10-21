@@ -12,6 +12,8 @@ import base64
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
 import urllib.request
 import wave
@@ -129,12 +131,35 @@ def main() -> None:
     parser.add_argument("--model", default="gemini-2.5-flash-preview-tts", help="Gemini TTS model")
     parser.add_argument("--max-chars", type=int, default=3500, help="Max characters per TTS request chunk")
     parser.add_argument("--dry-run", action="store_true", help="Estimate duration & chunk counts without calling API")
+    parser.add_argument("--encode-mp3-only", action="store_true", help="Encode existing WAVs in audiobook/ to MP3 without calling Gemini")
     args = parser.parse_args()
 
     root = repo_root()
     load_dotenv(root)
     book_path = resolve_book_path(root, args.book)
     chapters_dir = book_path / "chapters"
+    out_dir = book_path / "audiobook"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    if args.encode_mp3_only:
+        ffmpeg_bin = shutil.which("ffmpeg")
+        if not ffmpeg_bin:
+            print("error: ffmpeg not found in PATH.", file=sys.stderr)
+            sys.exit(1)
+        wav_files = sorted(out_dir.glob("*.wav"))
+        if not wav_files:
+            print("no WAV files found in audiobook/ to encode.", file=sys.stderr)
+            sys.exit(0)
+        for w in wav_files:
+            mp3 = out_dir / f"{w.stem}.mp3"
+            print(f"Encoding {w.name} -> {mp3.name}...")
+            subprocess.run([ffmpeg_bin, "-y", "-i", str(w), "-codec:a", "libmp3lame", "-b:a", "128k", str(mp3)], check=True)
+        # Refresh player
+        render_script = root / "scripts" / "render_audiobook_player.py"
+        if render_script.exists():
+            subprocess.run([sys.executable, str(render_script), str(book_path)])
+        return
+
     if not chapters_dir.is_dir():
         print(f"error: chapters directory not found: {chapters_dir}", file=sys.stderr)
         sys.exit(1)
@@ -178,7 +203,7 @@ def main() -> None:
         print("\nerror: set GEMINI_API_KEY in environment to synthesize audio (or use --dry-run).", file=sys.stderr)
         sys.exit(1)
 
-    out_dir = book_path / "audiobook"
+    ffmpeg_bin = shutil.which("ffmpeg")
     for f in md_files:
         spoken = clean_markdown_for_speech(f.read_text(encoding="utf-8"))
         chunks = chunk_text(spoken, max_chars=args.max_chars)
@@ -189,6 +214,18 @@ def main() -> None:
         wav_path = out_dir / f"{f.stem}.wav"
         write_wav(wav_path, bytes(pcm_all))
         print(f"Wrote {wav_path}")
+        if ffmpeg_bin:
+            mp3_path = out_dir / f"{f.stem}.mp3"
+            res = subprocess.run(
+                [ffmpeg_bin, "-y", "-i", str(wav_path), "-codec:a", "libmp3lame", "-b:a", "128k", str(mp3_path)],
+                capture_output=True,
+            )
+            if res.returncode == 0:
+                print(f"Wrote web-streamable MP3: {mp3_path}")
+
+    render_script = root / "scripts" / "render_audiobook_player.py"
+    if render_script.exists():
+        subprocess.run([sys.executable, str(render_script), str(book_path)])
 
 
 if __name__ == "__main__":

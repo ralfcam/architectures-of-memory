@@ -83,6 +83,9 @@ audiobook-dry-run:
 audiobook-tts:
 	$(PYTHON) scripts/generate_audiobook_tts.py $(BOOK) $(ChapterArg) --voice $(VOICE)
 
+audiobook-player:
+	$(PYTHON) scripts/render_audiobook_player.py $(BOOK)
+
 new-series:
 	$(PYTHON) scripts/init_series.py --series $(SERIES) --title "$(TITLE)" --lenses "$(LENSES)" $(NewBookArg)
 

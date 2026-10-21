@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parenthood: The Atlas — Audiobook Player</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --gold: #d29922;
+      --gold-light: #f1e05a;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --accent: #2f81f7;
+      --success: #3fb950;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding-bottom: 120px;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    .series-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--gold);
+      background: rgba(210, 153, 34, 0.12);
+      border: 1px solid rgba(210, 153, 34, 0.3);
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 650px;
+      margin: 0 auto 16px;
+    }
+    .stream-toggle {
+      display: inline-flex;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 4px;
+      margin-top: 12px;
+    }
+    .stream-toggle button {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .stream-toggle button.active {
+      background: var(--gold);
+      color: #000;
+      font-weight: 600;
+    }
+    .playlist {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .chapter-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .chapter-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+    .chapter-card.playing {
+      border-color: var(--gold);
+      background: rgba(210, 153, 34, 0.08);
+    }
+    .chapter-meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex: 1;
+      min-width: 0;
+    }
+    .chapter-num {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--gold);
+      width: 32px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .chapter-info {
+      min-width: 0;
+    }
+    .chapter-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .chapter-stats {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      display: flex;
+      gap: 12px;
+    }
+    .card-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+    .status-pill {
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+    .status-available {
+      background: rgba(63, 185, 80, 0.15);
+      color: var(--success);
+      border: 1px solid rgba(63, 185, 80, 0.3);
+    }
+    .status-queued {
+      background: rgba(139, 148, 158, 0.15);
+      color: var(--text-muted);
+      border: 1px solid rgba(139, 148, 158, 0.3);
+    }
+    .play-btn {
+      background: var(--gold);
+      color: #000;
+      border: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: 700;
+      transition: transform 0.15s ease;
+    }
+    .play-btn:hover {
+      transform: scale(1.08);
+    }
+    .play-btn:disabled {
+      background: #21262d;
+      color: #484f58;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    /* Persistent Bottom Player Dock */
+    .player-dock {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #090d13;
+      border-top: 1px solid var(--border);
+      padding: 12px 20px;
+      box-shadow: 0 -8px 24px rgba(0,0,0,0.6);
+      z-index: 1000;
+    }
+    .dock-container {
+      max-width: 860px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .dock-upper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .dock-track {
+      flex: 1;
+      min-width: 0;
+    }
+    .dock-track-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .dock-track-sub {
+      font-size: 0.75rem;
+      color: var(--gold);
+    }
+    .dock-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .dock-btn {
+      background: transparent;
+      border: none;
+      color: var(--text);
+      font-size: 1rem;
+      cursor: pointer;
+      padding: 6px;
+      border-radius: 6px;
+    }
+    .dock-btn:hover {
+      color: var(--gold);
+    }
+    .dock-btn-main {
+      background: var(--gold);
+      color: #000;
+      border-radius: 50%;
+      width: 42px;
+      height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+    .dock-btn-main:hover {
+      background: var(--gold-light);
+    }
+    .speed-select {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-size: 0.8rem;
+      border-radius: 6px;
+      padding: 4px 6px;
+      cursor: pointer;
+    }
+    .dock-lower {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+    .progress-bar {
+      flex: 1;
+      height: 6px;
+      background: #21262d;
+      border-radius: 3px;
+      cursor: pointer;
+      position: relative;
+    }
+    .progress-fill {
+      height: 100%;
+      background: var(--gold);
+      border-radius: 3px;
+      width: 0%;
+      transition: width 0.1s linear;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="series-badge">Realized Press Imprint · Official Audiobook</div>
+      <h1>Parenthood: The Atlas</h1>
+      <p class="subtitle">A Field Guide to the Emergence of a Human Being (Preconception Through Age Three)</p>
+      <div class="stream-toggle">
+        <button id="btn-stream-online" class="active" onclick="setStreamMode('online')">Stream Online (GitHub Release)</button>
+        <button id="btn-stream-local" onclick="setStreamMode('local')">Local Audio</button>
+      </div>
+    </header>
+
+    <div class="playlist" id="playlist">
+      <!-- Populated dynamically via JS -->
+    </div>
+  </div>
+
+  <div class="player-dock">
+    <div class="dock-container">
+      <div class="dock-upper">
+        <div class="dock-track">
+          <div class="dock-track-title" id="dock-title">Select a chapter to play</div>
+          <div class="dock-track-sub" id="dock-status">Gemini 2.5 Flash TTS (Voice: Kore)</div>
+        </div>
+        <div class="dock-controls">
+          <button class="dock-btn" onclick="skip(-15)" title="Rewind 15 seconds">↺ 15s</button>
+          <button class="dock-btn dock-btn-main" id="dock-play" onclick="togglePlay()">▶</button>
+          <button class="dock-btn" onclick="skip(15)" title="Forward 15 seconds">15s ↻</button>
+          <select class="speed-select" id="speed-select" onchange="changeSpeed(this.value)">
+            <option value="0.75">0.75x</option>
+            <option value="1.0" selected>1.0x</option>
+            <option value="1.25">1.25x</option>
+            <option value="1.5">1.5x</option>
+            <option value="1.75">1.75x</option>
+            <option value="2.0">2.0x</option>
+          </select>
+        </div>
+      </div>
+      <div class="dock-lower">
+        <span id="cur-time">0:00</span>
+        <div class="progress-bar" id="progress-bar" onclick="seek(event)">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <span id="total-time">0:00</span>
+      </div>
+    </div>
+  </div>
+
+  <audio id="audio-engine" preload="metadata"></audio>
+
+  <script>
+    const chapters = [
+    {
+      index: 1,
+      stem: "01-before-the-child-is-born",
+      title: "Chapter 1 \u2014 Before the Child Is Born",
+      words: 2998,
+      minutes: "20.0",
+      hasLocalMp3: true,
+      hasLocalWav: true,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/01-before-the-child-is-born.mp3",
+      localUrl: "01-before-the-child-is-born.mp3"
+    },
+    {
+      index: 2,
+      stem: "02-first-environment",
+      title: "Chapter 2 \u2014 The First Environment",
+      words: 2358,
+      minutes: "15.7",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/02-first-environment.mp3",
+      localUrl: "02-first-environment.wav"
+    },
+    {
+      index: 3,
+      stem: "03-the-great-transition",
+      title: "Chapter 3 \u2014 The Great Transition",
+      words: 2624,
+      minutes: "17.5",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/03-the-great-transition.mp3",
+      localUrl: "03-the-great-transition.wav"
+    },
+    {
+      index: 4,
+      stem: "04-regulatory-relationship",
+      title: "Chapter 4 \u2014 The Regulatory Relationship",
+      words: 2532,
+      minutes: "16.9",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/04-regulatory-relationship.mp3",
+      localUrl: "04-regulatory-relationship.wav"
+    },
+    {
+      index: 5,
+      stem: "05-becoming-a-mind",
+      title: "Chapter 5 \u2014 Becoming a Mind",
+      words: 2599,
+      minutes: "17.3",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/05-becoming-a-mind.mp3",
+      localUrl: "05-becoming-a-mind.wav"
+    },
+    {
+      index: 6,
+      stem: "06-the-mind-in-motion",
+      title: "Chapter 6 \u2014 The Mind in Motion",
+      words: 2804,
+      minutes: "18.7",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/06-the-mind-in-motion.mp3",
+      localUrl: "06-the-mind-in-motion.wav"
+    },
+    {
+      index: 7,
+      stem: "07-the-birth-of-language",
+      title: "Chapter 7 \u2014 The Birth of Language",
+      words: 3874,
+      minutes: "25.8",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/07-the-birth-of-language.mp3",
+      localUrl: "07-the-birth-of-language.wav"
+    },
+    {
+      index: 8,
+      stem: "08-the-expanding-world",
+      title: "Chapter 8 \u2014 The Expanding World",
+      words: 2665,
+      minutes: "17.8",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/08-the-expanding-world.mp3",
+      localUrl: "08-the-expanding-world.wav"
+    },
+    {
+      index: 9,
+      stem: "09-the-emotional-revolution",
+      title: "Chapter 9 \u2014 The Emotional Revolution",
+      words: 2535,
+      minutes: "16.9",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/09-the-emotional-revolution.mp3",
+      localUrl: "09-the-emotional-revolution.wav"
+    },
+    {
+      index: 10,
+      stem: "10-boundaries-behavior",
+      title: "Chapter 10 \u2014 Boundaries, Behavior, and the First Rules",
+      words: 2538,
+      minutes: "16.9",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/10-boundaries-behavior.mp3",
+      localUrl: "10-boundaries-behavior.wav"
+    },
+    {
+      index: 11,
+      stem: "11-the-developing-executive",
+      title: "Chapter 11 \u2014 The Developing Executive",
+      words: 2573,
+      minutes: "17.2",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/11-the-developing-executive.mp3",
+      localUrl: "11-the-developing-executive.wav"
+    },
+    {
+      index: 12,
+      stem: "12-play-imagination",
+      title: "Chapter 12 \u2014 Play, Imagination, and Meaning",
+      words: 2566,
+      minutes: "17.1",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/12-play-imagination.mp3",
+      localUrl: "12-play-imagination.wav"
+    },
+    {
+      index: 13,
+      stem: "13-the-ecology-of-development",
+      title: "Chapter 13 \u2014 The Ecology of Development",
+      words: 2592,
+      minutes: "17.3",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/13-the-ecology-of-development.mp3",
+      localUrl: "13-the-ecology-of-development.wav"
+    },
+    {
+      index: 14,
+      stem: "14-what-actually-works",
+      title: "Chapter 14 \u2014 What Actually Works?",
+      words: 3118,
+      minutes: "20.8",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/14-what-actually-works.mp3",
+      localUrl: "14-what-actually-works.wav"
+    },
+    {
+      index: 15,
+      stem: "15-three-years",
+      title: "Chapter 15 \u2014 Three Years: What Has Been Built?",
+      words: 2509,
+      minutes: "16.7",
+      hasLocalMp3: false,
+      hasLocalWav: false,
+      onlineUrl: "https://github.com/ralfcam/realized-press/releases/download/v1.0-rc1/15-three-years.mp3",
+      localUrl: "15-three-years.wav"
+    }
+  ];
+    let currentIdx = 0;
+    let streamMode = 'online';
+    const audio = document.getElementById('audio-engine');
+    const dockTitle = document.getElementById('dock-title');
+    const dockStatus = document.getElementById('dock-status');
+    const dockPlay = document.getElementById('dock-play');
+    const curTime = document.getElementById('cur-time');
+    const totalTime = document.getElementById('total-time');
+    const progressFill = document.getElementById('progress-fill');
+
+    function renderPlaylist() {
+      const container = document.getElementById('playlist');
+      container.innerHTML = '';
+      chapters.forEach((ch, idx) => {
+        const isAvailable = streamMode === 'online' || ch.hasLocalMp3 || ch.hasLocalWav;
+        const card = document.createElement('div');
+        card.className = 'chapter-card' + (idx === currentIdx && !audio.paused ? ' playing' : '');
+        card.onclick = () => isAvailable && playChapter(idx);
+        card.innerHTML = `
+          <div class="chapter-meta">
+            <div class="chapter-num">${String(ch.index).padStart(2, '0')}</div>
+            <div class="chapter-info">
+              <div class="chapter-title">${ch.title}</div>
+              <div class="chapter-stats">
+                <span>${ch.words.toLocaleString()} words</span>
+                <span>•</span>
+                <span>~${ch.minutes} min</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-actions">
+            ${isAvailable
+              ? '<span class="status-pill status-available">Audio Available</span>'
+              : '<span class="status-pill status-queued">Queued</span>'}
+            <button class="play-btn" ${!isAvailable ? 'disabled' : ''}>
+              ${idx === currentIdx && !audio.paused ? '⏸' : '▶'}
+            </button>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    function setStreamMode(mode) {
+      streamMode = mode;
+      document.getElementById('btn-stream-online').classList.toggle('active', mode === 'online');
+      document.getElementById('btn-stream-local').classList.toggle('active', mode === 'local');
+      renderPlaylist();
+      if (audio.src) {
+        loadChapter(currentIdx, !audio.paused);
+      }
+    }
+
+    function loadChapter(idx, autoPlay = false) {
+      currentIdx = idx;
+      const ch = chapters[idx];
+      dockTitle.innerText = `${String(ch.index).padStart(2, '0')}. ${ch.title}`;
+      const url = streamMode === 'online' ? ch.onlineUrl : ch.localUrl;
+      audio.src = url;
+      dockStatus.innerText = streamMode === 'online' ? `Streaming via GitHub Releases (${ch.stem}.mp3)` : `Local Audio (${url})`;
+      if (autoPlay) {
+        audio.play().catch(e => console.log('Autoplay deferred:', e));
+      }
+      renderPlaylist();
+    }
+
+    function playChapter(idx) {
+      if (currentIdx === idx && !audio.paused) {
+        audio.pause();
+      } else if (currentIdx === idx && audio.paused && audio.src) {
+        audio.play();
+      } else {
+        loadChapter(idx, true);
+      }
+    }
+
+    function togglePlay() {
+      if (!audio.src) {
+        loadChapter(0, true);
+        return;
+      }
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    }
+
+    function skip(seconds) {
+      if (audio.duration) {
+        audio.currentTime = Math.max(0, Math.min(audio.duration, audio.currentTime + seconds));
+      }
+    }
+
+    function changeSpeed(speed) {
+      audio.playbackRate = parseFloat(speed);
+    }
+
+    function formatTime(s) {
+      if (isNaN(s)) return "0:00";
+      const m = Math.floor(s / 60);
+      const rem = Math.floor(s % 60);
+      return `${m}:${rem < 10 ? '0' : ''}${rem}`;
+    }
+
+    function seek(e) {
+      const rect = document.getElementById('progress-bar').getBoundingClientRect();
+      const pos = (e.clientX - rect.left) / rect.width;
+      if (audio.duration) {
+        audio.currentTime = pos * audio.duration;
+      }
+    }
+
+    audio.addEventListener('play', () => {
+      dockPlay.innerText = '⏸';
+      renderPlaylist();
+    });
+
+    audio.addEventListener('pause', () => {
+      dockPlay.innerText = '▶';
+      renderPlaylist();
+    });
+
+    audio.addEventListener('timeupdate', () => {
+      curTime.innerText = formatTime(audio.currentTime);
+      totalTime.innerText = formatTime(audio.duration);
+      if (audio.duration) {
+        progressFill.style.width = `${(audio.currentTime / audio.duration) * 100}%`;
+      }
+    });
+
+    audio.addEventListener('ended', () => {
+      if (currentIdx + 1 < chapters.length) {
+        loadChapter(currentIdx + 1, true);
+      }
+    });
+
+    // Initial render
+    renderPlaylist();
+    loadChapter(0, false);
+  </script>
+</body>
+</html>
