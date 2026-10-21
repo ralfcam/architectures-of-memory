@@ -6,7 +6,7 @@ The scene is ordinary. It is also easy to over-read.
 
 If the infant were a sealed dyad, the second adult in the room would not matter. If the infant were already a complete judge of character, the look would already be a verdict on attachment. Neither reading fits what can be shown.
 
-**Grade: High** that, late in the first year, an infant can use a familiar adult’s emotional signal to regulate approach or withdrawal in an ambiguous laboratory situation. **Grade: Low** that the frequency of those looks measures parental worth or attachment security. The evidence card is `infant-social-referencing.md` (Sorce, Emde, Campos & Klinnert 1985; Walden & Ogan 1988). That *laboratory* claim is `status: stable`.
+Late in the first year, infants reliably use a familiar adult's emotional expressions to regulate approach or withdrawal behavior in ambiguous situations.[^ch08-social-referencing] Yet how often an infant references a caregiver's face provides no valid index of attachment security or parental quality.
 
 This chapter asks a narrower question than “does the parent still matter?” It asks what kind of social world a late infant and toddler actually enter, and what kinds of claims that expansion can support.
 
@@ -40,7 +40,7 @@ Toward the end of the first year, many infants look to a familiar adult when a s
 
 That is social information use. It is not a personality. It is not a score. The laboratory cliff, the posed face, and the ambiguous toy are not a household. Conceptual replication in other ambiguous setups is stronger than a claim that every look at home is the same phenomenon. Performance also depends on motor capacity, the familiarity of the adult, and whether the situation is actually unclear. A child who does not look is not necessarily unattached. A child who looks constantly is not necessarily anxious in a diagnostic sense.
 
-Stranger wariness belongs in the same window and is just as easy to misread. Social selectivity becomes more visible across late infancy. **Grade: Moderate** as a developmental description. **Grade: Very Low** as an attachment diagnosis. Wariness of an unfamiliar person is not insecure attachment. That prohibition lives on the referencing and multiple-caregiver cards; it is not a separate card in this pass.
+Stranger wariness belongs in the same developmental window and is just as easy to misread.[^ch08-stranger-wariness] Selective hesitation around unfamiliar adults reflects normal emerging social discrimination rather than insecure attachment or emotional fragility.
 
 A missed look is not a missed mind. A child who does not cross a laboratory cliff has not failed a relationship.
 
@@ -50,7 +50,7 @@ The primary dyad remains an important developmental unit. The mistake is treatin
 
 Infants can organize relationship-specific expectations with more than one caregiver. Those relationships need not be copies of a single “best” pair. A child can experience different people as sources of comfort, play, language, routine, or practical help. Dagan and Sagi-Schwartz treat mother–father networks as configurations, not substitutes and not a count of caregivers. The useful object is how the set is organized: who is available, for what, with what consistency.
 
-**Grade: Moderate** that multiple attachments occur. **Grade: Low** that network size is a dose. The evidence card is `infant-multiple-caregiver-attachments.md` (Dagan & Sagi-Schwartz 2018, 2021).
+Infants develop distinct attachment relationships with multiple familiar caregivers rather than channeling all relational capacity through an exclusive primary bond.[^ch08-multiple-attachments] Yet social network size does not act as a simple numerical dose where more caregivers automatically yield superior psychological outcomes.
 
 Network size and network function come apart. A large network can hold stable, responsive relationships. It can also hold turnover and conflict. A small household can offer continuity. It can also leave a caregiver isolated. Adding people is not automatically better. A single exclusive caregiver is not shown to be necessary.
 
@@ -62,7 +62,7 @@ The scientific story of fatherhood has changed. Fathers are no longer best descr
 
 Fathers, grandparents, and siblings can participate through distinct functions: care, play, material support, reciprocity with a less accommodating partner. “Involvement” is not one exposure. Selection (who can be present, who is measured) and correlated family resources are live threats. Child-to-parent effects — a difficult toddler reducing measured “involvement” — are plausible. Samples often overrepresent Western, relatively stable families.
 
-McWayne, Downer, Campos & Harris (2013) found small-to-moderate average associations between father involvement and early learning. Quantity of contact is a weaker object than interaction quality. **Grade: Moderate** for that group-level association. **Grade: Low** that involvement is a unique causal exposure after family resources are modeled, or that kin and sibling presence automatically improves development. The evidence card is `father-kin-sibling-heterogeneous-network.md`.
+Direct father engagement shows modest positive associations with early learning across diverse family backgrounds.[^ch08-father-kin-network] Yet crude quantity of contact is substantially less predictive than interaction quality, and paternal presence operates as part of an interdependent family ecology rather than an isolated causal lever.
 
 Fathers are not mothers’ substitutes, and mothers and fathers are not assigned rigidly gendered developmental functions. A missing style of play is not a sentence. Kin presence is not automatically protective. Sibling life is a distinctive arena — familiar, not fully accommodating — not a theory-of-mind machine.
 
@@ -74,7 +74,7 @@ The crucial difference is reciprocity. A caregiver is usually motivated to under
 
 Across the second and third years, another toddler is a less motivated, less skilled partner than a caregiver. Reciprocal coordination, conflict over objects, and repair become possible.
 
-**Grade: Moderate** that peer contexts create distinctive coordination demands. **Grade: Low** that peer hours cause later prosocial character. The evidence card is `toddler-peer-interaction.md` (Brownell, Ramani & Zerwas 2006).
+Peer interactions present unique developmental coordination demands because other toddlers are less accommodating and less predictable than adult caregivers.[^ch08-peer-interaction] However, accumulated hours of early peer exposure do not causally determine subsequent prosocial character or social competence.
 
 Peer exposure is not a commodity. More is not automatically better. A safe, reciprocal setting can offer demands an adult-only day cannot fully reproduce. A chaotic one imposes different demands. Quality and context remain the better objects.
 
@@ -88,7 +88,7 @@ Quality itself has at least two levels. Structural quality includes group size, 
 
 Attendance is not a unitary exposure. Process quality — warm, language-rich interaction — is more consistently related to early cognitive and language outcomes than hours alone. Family characteristics often predict more. Hours–externalizing links are small and not a law.
 
-**Grade: Moderate** for those NICHD-pattern findings. **Grade: Low** that attendance itself is harm or benefit as a moral category. The live card is `early-childcare-quality.md`. It was **reconciled, not rewritten**. Sleep and attachment-intervention theory are not restated here.
+In large-scale observational studies, process quality—warm, cognitively supportive adult–child interaction—consistently predicts modest early language and cognitive gains.[^ch08-childcare-quality] Conversely, center attendance itself is neither an intrinsic harm nor an unmitigated benefit, with family background characteristics remaining substantially stronger predictors of developmental trajectories.
 
 Group care is not deprivation. BEIP effect sizes do not describe ordinary daycare or missed cues.
 
@@ -102,7 +102,7 @@ Ordinary caregiver change is not institutional deprivation. The Bucharest Early 
 
 The lesson is not that ordinary families resemble institutions. They do not. Extreme deprivation research establishes an upper bound: there are conditions under which relationships are not merely helpful additions but part of the basic infrastructure of typical development.
 
-**Grade: High** for danger under severe institutional deprivation. **Grade: Moderate-to-High** for benefits of family placement in that design. **Grade: Very Low** that those effect sizes describe ordinary care. The evidence card is `severe-institutional-deprivation.md`. Reconcile only.
+Severe institutional deprivation profoundly damages developmental systems, and randomized family-based foster placement produces meaningful cognitive and social recovery.[^ch08-institutional-deprivation] Yet generalizing these severe clinical findings to ordinary changes in community childcare or daily family routines is an empirical category error.
 
 Continuity is a property of a life, not a purity test. Children tolerate ordinary transitions. Chronic unpredictability is a different object. Instability is not one exposure with one outcome.
 
@@ -110,7 +110,7 @@ Continuity is a property of a life, not a purity test. Children tolerate ordinar
 
 The same child can inhabit different worlds without being a different species of child. Who sleeps nearby, who feeds, who plays, who is allowed to protest, and which adults count as “ours” are organized by culture as well as by preference.
 
-Settings, customs, and caregiver psychology jointly organize experience. Difference is not deficit. Super & Harkness’s developmental-niche idea is useful architecture for this chapter. **Grade: Moderate** conceptually. **Grade: Low-to-Moderate** for any single cross-cultural causal claim. The claim is interpretive here, not a dedicated card.
+Physical settings, cultural customs, and caregiver psychology jointly organize the developmental niche of infancy.[^ch08-developmental-niche] Cultural variation in caregiving arrangements reflects diverse, adaptive strategies rather than developmental deficits.
 
 A household that includes kin as ordinary care is not a failed nuclear model. A household that does not is not empty.
 
@@ -145,6 +145,17 @@ The child at the drop has not become a different child because we now have a map
 The expanding world is not a replacement of the first relationship. It is that relationship, still load-bearing, now sitting inside other people, other rooms, and other days. A look can organize a step. Another toddler can refuse a toy. A caregiver who is not the parent can still be a person the child knows how to use.
 
 Chapter 4 described relationship as a regulatory system. This chapter describes that system becoming a network. Emotion will soon start to do some of the same work from the inside. That is the next territory. It is not a verdict on the look that came before.
+
+## Notes
+
+[^ch08-social-referencing]: **Grade: High** that infants late in the first year use familiar adult emotional expressions to regulate action under ambiguity (Sorce et al. 1985; Walden & Ogan 1988); **Grade: Low** that referencing frequency measures attachment security. Evidence Card: `evidence-cards/infant-social-referencing.md`.
+[^ch08-stranger-wariness]: **Grade: Moderate** for stranger wariness as a normative developmental phenomenon; **Grade: Very Low** as a diagnostic indicator of attachment insecurity.
+[^ch08-multiple-attachments]: **Grade: Moderate** that infants form multiple attachment relationships across caregivers (Dagan & Sagi-Schwartz 2018, 2021); **Grade: Low** that network size acts as a linear dose. Evidence Card: `evidence-cards/infant-multiple-caregiver-attachments.md`.
+[^ch08-father-kin-network]: **Grade: Moderate** for positive associations between father engagement and early learning (McWayne et al. 2013); **Grade: Low** that involvement is a unique causal exposure independent of family resources. Evidence Card: `evidence-cards/father-kin-sibling-heterogeneous-network.md`.
+[^ch08-peer-interaction]: **Grade: Moderate** that peer contexts introduce unique non-accommodating coordination demands (Brownell, Ramani & Zerwas 2006); **Grade: Low** that peer exposure hours causally determine later prosocial character. Evidence Card: `evidence-cards/toddler-peer-interaction.md`.
+[^ch08-childcare-quality]: **Grade: Moderate** that process quality in early childcare predicts modest cognitive and language outcomes (NICHD SECCYD); **Grade: Low** that attendance alone constitutes an intrinsic benefit or harm. Evidence Card: `evidence-cards/early-childcare-quality.md`.
+[^ch08-institutional-deprivation]: **Grade: High** for profound developmental risks of severe institutional deprivation (Nelson et al. 2007); **Grade: Moderate-to-High** for recovery following family foster placement; **Grade: Very Low** that effect sizes generalize to ordinary childcare transitions. Evidence Card: `evidence-cards/severe-institutional-deprivation.md`.
+[^ch08-developmental-niche]: **Grade: Moderate** for Super & Harkness's developmental niche framework conceptualizing the cultural organization of care; **Grade: Low-to-Moderate** for specific cross-cultural causal claims.
 
 ## Linked evidence cards
 
