@@ -38,7 +38,7 @@ An infant’s distress is not already “anger” in the adult sense, and a todd
 
 The useful criterion is flexibility. Can attention shift? Can distress diminish? Can play resume? Can a rupture be repaired? The developmental target is not the elimination of emotion. It is increasing freedom in how emotion is lived.
 
-Chapter 4’s co-regulation card already holds bidirectional, context-sensitive regulation. **Grade: Moderate** that such coordination exists. **Grade: Low-to-Moderate** that repeated co-regulation *becomes* internal self-regulation as a demonstrated causal law. The card is `infant-caregiver-coregulation.md`. It is reconciled here, not rewritten. Sleep and attachment-intervention theory are not restated.
+Bidirectional co-regulation between infant and caregiver supports emotional stability across daily transitions.[^ch09-coregulation] Yet demonstrating mutual physiological and behavioral coordination does not establish a universal causal law that early co-regulation automatically converts into autonomous self-regulation.
 
 Crying remains a graded distress signal, not a one-to-one code. Adjacent: `infant-crying-as-signal.md`. A scream on the floor is not a decoded message that the adult failed, or that the child is manipulating. It is a state that can be shared, named, and survived.
 
@@ -50,7 +50,7 @@ A case that looks like rejection is sometimes a procedure.
 
 In the still-face procedure, a familiar adult who has been interacting normally becomes suddenly unresponsive. Infants typically reduce smiling, increase negative affect and gaze aversion, and often try to re-engage. Tronick and colleagues established the laboratory signature. Mesman, van IJzendoorn and Bakermans-Kranenburg synthesized decades of replications: the protest and re-engagement pattern is robust as a *procedure effect*, not as a personality score.
 
-**Grade: High** that infants detect and react to a sudden loss of expected social contingency under this procedure. **Grade: Low** that still-face intensity diagnoses attachment security, parenting quality, or later emotional destiny. The evidence card is `infant-still-face-paradigm.md`. That *procedure* claim is `status: stable`.
+Infants reliably detect and protest the sudden loss of expected social contingency during the experimental still-face paradigm.[^ch09-still-face] Across decades of replication, this procedure produces robust distress and re-engagement behaviors, yet individual protest intensity provides no diagnostic index of attachment security, parenting quality, or future emotional destiny.
 
 The design is experimental: the same adult, the same infant, a controlled change in contingency. That is stronger than a correlational “synchrony score.” It is still a laboratory episode. Heterogeneity by age, coding, and recovery-period measurement is real. The reunion minutes after the still face — whether the infant can use the returning adult — are as informative as the protest itself, and they are measured less uniformly. A difficult still-face session is not a written life. A smooth one is not a guarantee.
 
@@ -62,7 +62,7 @@ The still-face also refuses a popular story about technique. The procedure works
 
 Long before a toddler can explain a feeling, children differ. Temperament, in Rothbart’s framework, includes early-emerging dimensions such as negative affectivity, surgency, and later-developing effortful control. Gartstein and Rothbart’s revised infant questionnaire is one operationalization of that structure, not a destiny instrument.
 
-**Grade: Moderate** that such dimensional differences are measurable and moderately stable. **Grade: Low** that they are a parenting verdict or a fixed personality forecast. The evidence card is `temperament-reactivity-not-destiny.md`.
+Early temperament dimensions—such as sensory reactivity and negative affectivity—are empirically measurable and display moderate developmental stability across infancy.[^ch09-temperament-reactivity] Yet early temperamental style is neither a parental verdict nor a fixed forecast of adult personality.
 
 Reactivity appears early. Effortful control develops later. A highly reactive infant may have a strong response before possessing much capacity to shift attention. A cautious child may find novelty more demanding than an approach-oriented peer. Neither is defective. They are starting from different configurations. The environment changes how those configurations unfold.
 
@@ -76,7 +76,7 @@ Questionnaires and laboratory observations can diverge. A parent’s report of �
 
 Some infants respond strongly to novelty and remain slow to approach unfamiliar people or situations. That pattern — behavioral inhibition — is associated with later social-anxiety risk at the *group* level. Clauss and Blackford’s meta-analysis is the identification for that group odds, not for an individual forecast.
 
-**Grade: Moderate** for elevated group social-anxiety risk. **Grade: Low** for individual forecast. The evidence card is `behavioral-inhibition-anxiety-risk.md`.
+Behavioral inhibition toward novelty is associated with an elevated group-level risk for later social anxiety.[^ch09-behavioral-inhibition] However, a group probability does not dictate an individual child's destiny; many inhibited toddlers develop typical social ease, while many anxious adolescents showed no extreme inhibition in early childhood.
 
 Stranger wariness, as Chapter 8 already refused, is not an attachment diagnosis and is not this card. Ordinary caution toward an unfamiliar adult in late infancy is developmentally expected. Inhibition as a research object is more than one wary look: it is a relatively stable pattern of strong negative reaction and delayed approach across settings. Even that pattern is not necessary or sufficient for later anxiety. Many inhibited children do not develop a disorder. Many anxious adolescents were not this kind of infant. Prediction is probabilistic. Change is common.
 
@@ -90,9 +90,7 @@ Frustration often becomes more visible as cognition and mobility advance. A mobi
 
 A tantrum can look like chaos and still have organization: anger-related acts may rise and fall while distress continues. That is a changing state, not a single frozen emotion. During a peak of high arousal, complex reasoning may be difficult. As the episode shifts, reconnection may become more usable. This chapter does not steal Chapter 10’s aggression trajectories or compliance distinction. Tantrums here are emotional episodes, not rules.
 
-**Grade: Moderate** as a population description of toddler frustration. **Grade: Low** that a particular wording or technique installs emotional skill. Dedicated dimensional-tantrum work (Wakschlag-type) remains `needs-source-audit` in this pass.
-
-Emotion vocabulary is associated with regulation in older samples. Preschool conversation-training packages do not establish that labeling calms 0–3 distress as a causal law. **Grade: Moderate** as association. **Grade: Low-to-Moderate** as 0–3 causation. Held as `needs-source-audit`. Naming the want on the floor is Art, not a registered efficacy package.
+Tantrums represent a normative developmental expression of frustration during the second and third years as cognitive goals outpace communicative and motor capacity.[^ch09-toddler-frustration] While emotion vocabulary correlates with regulation in older preschoolers, no clinical formula proves that specific verbal labeling mechanically calms acute toddler distress.[^ch09-emotion-labeling] Remaining calm beside a child on the floor is an art of relationship rather than a registered technique.
 
 The Watts delay card remains a later-chapter boundary. Marshmallow prediction is not this chapter’s emotion story. Reconcile only: `self-regulation-delay-of-gratification.md`. A child who cannot wait is not thereby shown to lack emotional skill, and a child who waits is not shown to have installed a self.
 
@@ -139,6 +137,15 @@ The child on the floor has not become a different child because we now have a ma
 Emotion is not a defect to be trained out. It is a state that can be shared, named, survived, and used. The adult who stayed nearby did not install a self. The child who reached for a hand was already doing part of the work.
 
 The look that organized a step in Chapter 8 was already an emotional act: using another person’s face to decide whether the world was safe enough. This chapter describes that same organism from the inside, as feeling becomes more organized inside the loop. Rules will soon ask the same organism to stop, wait, and try again. That is the next territory. It is not a verdict on the scream that came before.
+
+## Notes
+
+[^ch09-coregulation]: **Grade: Moderate** that bidirectional co-regulation exists as a transactional process; **Grade: Low-to-Moderate** that repeated co-regulation linearly produces autonomous self-regulation. Evidence Card: `evidence-cards/infant-caregiver-coregulation.md`.
+[^ch09-still-face]: **Grade: High** that infants reliably detect and react to a sudden cessation of social contingency in the still-face procedure (Tronick et al. 1978; Mesman et al. 2009); **Grade: Low** that protest intensity diagnoses attachment security. Evidence Card: `evidence-cards/infant-still-face-paradigm.md`.
+[^ch09-temperament-reactivity]: **Grade: Moderate** that temperament dimensions (reactivity, surgency, effortful control) are measurable and moderately stable (Rothbart 2007; Gartstein & Rothbart 2003); **Grade: Low** for fixed personality forecasting. Evidence Card: `evidence-cards/temperament-reactivity-not-destiny.md`.
+[^ch09-behavioral-inhibition]: **Grade: Moderate** for elevated group-level social anxiety odds among behaviorally inhibited infants (Clauss & Blackford 2012); **Grade: Low** for individual clinical forecasting. Evidence Card: `evidence-cards/behavioral-inhibition-anxiety-risk.md`.
+[^ch09-toddler-frustration]: **Grade: Moderate** for tantrums as a normative population phenomenon reflecting cognitive-motor goal discrepancies; **Grade: Low** for standardized techniques installing regulation.
+[^ch09-emotion-labeling]: **Grade: Moderate** for observational associations between emotion vocabulary and preschool regulation; **Grade: Low-to-Moderate** for verbal labeling functioning as a causal calming intervention in ages 0–3.
 
 ## Linked evidence cards
 
