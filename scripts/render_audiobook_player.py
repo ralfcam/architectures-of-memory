@@ -278,19 +278,19 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
   <style>
     :root {{
-      --bg: #070a0e;
-      --card-bg: #11161f;
-      --card-hover: #18202d;
-      --border: #222c3a;
-      --border-light: #2e3b4e;
-      --gold: #d29922;
-      --gold-light: #f1e05a;
-      --gold-dim: rgba(210, 153, 34, 0.12);
-      --gold-glow: rgba(210, 153, 34, 0.25);
-      --text: #e6edf3;
-      --text-muted: #8b949e;
-      --accent: #2f81f7;
-      --success: #3fb950;
+      --bg: #0c0a09;
+      --card-bg: #1c1917;
+      --card-hover: #292524;
+      --border: #292524;
+      --border-light: #44403c;
+      --gold: #f59e0b;
+      --gold-light: #fbbf24;
+      --gold-dim: rgba(245, 158, 11, 0.12);
+      --gold-glow: rgba(245, 158, 11, 0.25);
+      --text: #f5f5f4;
+      --text-muted: #a8a29e;
+      --accent: #38bdf8;
+      --success: #34d399;
       --sidebar-w: 320px;
       --dock-h: 104px;
       --safe-bottom: env(safe-area-inset-bottom, 0px);
@@ -1264,19 +1264,25 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
   </style>
 </head>
 <body>
-  <!-- Top Imprint Bar -->
+  <!-- Top Imprint Bar (Aligned Navigation) -->
   <nav class="navbar">
-    <a href="#" class="brand">
-      <div class="brand-mark">R</div>
-      <div class="brand-text">
-        <h1>Realized Press</h1>
-        <p>Publishing Imprint & Audio Hub</p>
-      </div>
-    </a>
+    <div style="display: flex; align-items: center; gap: 14px;">
+      <a href="/site" class="brand">
+        <div class="brand-mark">R</div>
+        <div class="brand-text">
+          <h1>Realized Press</h1>
+          <p>Publishing Imprint & Audio Hub</p>
+        </div>
+      </a>
+    </div>
+    <div style="display: flex; align-items: center; gap: 6px; background: rgba(0,0,0,0.4); padding: 4px; border-radius: 8px; border: 1px solid var(--border);">
+      <a href="/site" class="nav-link-btn" style="background: var(--gold-dim); color: var(--gold-light); font-weight: 600; border: 1px solid rgba(245,158,11,0.3);">Imprint Audio</a>
+      <a href="/ide" class="nav-link-btn">Epistemic IDE</a>
+      <a href="/read/parenthood-atlas/01-before-the-child-is-born" class="nav-link-btn">Serial Reader</a>
+    </div>
     <div class="nav-actions">
       <span class="nav-badge" id="nav-badge-status">v1.0-rc1</span>
-      <a href="https://github.com/{repo}/releases/tag/v1.0-rc1" target="_blank" class="nav-link-btn">Releases</a>
-      <a href="https://linear.app/realized/team/ARC/projects/all" target="_blank" class="nav-link-btn">Linear ARC</a>
+      <a href="https://linear.app/realized/team/ARC/projects/all" target="_blank" class="nav-link-btn">Linear ARC ↗</a>
     </div>
   </nav>
 
@@ -1551,6 +1557,7 @@ def render_portal_html(catalog: list[dict], repo: str) -> str:
             </div>
           </div>
           <div class="ch-right">
+            <a href="/read/${{book.id}}/${{ch.stem}}" class="nav-link-btn" style="border: 1px solid var(--border); padding: 5px 9px; border-radius: 6px; font-size: 0.72rem; text-decoration: none;" onclick="event.stopPropagation();" title="Open in 2-Pane Epistemic Reader">Reader ↗</a>
             ${{isAvailable
               ? '<span class="pill pill-live">Audio Ready</span>'
               : '<span class="pill pill-queue">Queued</span>'}}

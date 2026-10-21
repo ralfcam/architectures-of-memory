@@ -12,26 +12,8 @@
 </head>
 <body class="min-h-screen flex flex-col" x-data="ideWorkbench()">
 
-  <!-- Top Epistemic Contract Header -->
-  <header class="border-b border-stone-800 bg-stone-900/90 px-6 py-3 flex items-center justify-between">
-    <div class="flex items-center gap-4">
-      <span class="font-serif text-lg font-bold tracking-tight text-amber-400">REALIZED PRESS</span>
-      <span class="text-xs px-2 py-0.5 rounded bg-stone-800 text-stone-300 font-mono">BWE IDE • ARC-56</span>
-      <span class="hidden md:inline-block text-xs text-stone-400">
-        Governing Contract: <strong class="text-stone-200">Science → Interpretation → Art</strong> (Never Collapse Categories)
-      </span>
-    </div>
-    <div class="flex items-center gap-3 text-xs">
-      <a href="/site"
-         class="px-3 py-1.5 rounded bg-stone-800 hover:bg-stone-700 text-amber-300 font-mono transition">
-        Imprint Site (/site) →
-      </a>
-      <a href="/read/parenthood-atlas/01-before-the-child-is-born"
-         class="px-3 py-1.5 rounded bg-stone-800 hover:bg-stone-700 text-stone-200 transition">
-        Open Reader Portal (ARC-55) →
-      </a>
-    </div>
-  </header>
+  {% set active_tab = "ide" %}
+  {% include "partials/nav.html" %}
 
   <!-- 3-Column Epistemic Workbench -->
   <main class="flex-1 grid grid-cols-1 lg:grid-cols-12 divide-y lg:divide-y-0 lg:divide-x divide-stone-800">

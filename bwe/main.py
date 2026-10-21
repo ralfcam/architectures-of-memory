@@ -19,16 +19,17 @@ SCRIPTS_DIR = REPO_ROOT / "scripts"
 SERIES_DIR = REPO_ROOT / "series"
 SITE_DIR = BWE_DIR / "site" if (BWE_DIR / "site").exists() else REPO_ROOT / "site"
 
+# Ensure scripts directory is importable for data synthesis
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+from render_audiobook_player import DEFAULT_GITHUB_REPO, scan_all_imprint_books
+
 app = FastAPI(title="Realized Press — BWE & Serial Portal (P-ARC-18)")
 templates = Jinja2Blocks(directory=str(REPO_ROOT / "bwe" / "templates"))
 
-# Mount existing static reader, site, and audiobook assets
+# Mount documentation if present
 if (REPO_ROOT / "docs").exists():
     app.mount("/docs-static", StaticFiles(directory=str(REPO_ROOT / "docs")), name="docs")
-
-if SITE_DIR.exists():
-    app.mount("/site", StaticFiles(directory=str(SITE_DIR), html=True), name="site")
-    app.mount("/site-static", StaticFiles(directory=str(SITE_DIR)), name="site-static")
 
 
 @app.on_event("startup")
@@ -38,11 +39,39 @@ def on_startup() -> None:
 
 @app.get("/", response_class=HTMLResponse)
 async def root_redirect(request: Request):
-    """Redirect or link to IDE and Portal."""
+    """Root entrypoint landing on the unified Imprint Hub."""
+    return await imprint_site_home(request)
+
+
+# -------------------------------------------------------------------------
+# PILLAR 1 (ARC-55): IMPRINT SITE & AUDIOBOOK HUB (FASTAPI + HTMX)
+# -------------------------------------------------------------------------
+
+
+@app.get("/site", response_class=HTMLResponse)
+@app.get("/site/", response_class=HTMLResponse)
+async def imprint_site_home(request: Request):
+    """
+    ARC-55: Serves the Imprint Audiobook Portal & Marketing Hub under the
+    unified FastAPI + HTMX stack with aligned navigation and live catalog data.
+    """
+    catalog = scan_all_imprint_books(REPO_ROOT, DEFAULT_GITHUB_REPO)
+    catalog_json = json.dumps(catalog)
     return templates.TemplateResponse(
-        "ide.html",
-        {"request": request, "cards": [], "query": ""},
+        "site.html",
+        {
+            "request": request,
+            "catalog": catalog,
+            "catalog_json": catalog_json,
+            "active_tab": "site",
+        },
     )
+
+
+# Static file mounts for audio binaries and PDFs (registered after HTML route)
+if SITE_DIR.exists():
+    app.mount("/site-static", StaticFiles(directory=str(SITE_DIR)), name="site-static")
+    app.mount("/site", StaticFiles(directory=str(SITE_DIR)), name="site-files")
 
 
 # -------------------------------------------------------------------------

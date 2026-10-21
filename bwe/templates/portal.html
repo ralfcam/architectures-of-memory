@@ -9,22 +9,23 @@
   <script defer src="https://unpkg.com/alpinejs@3.14.8/dist/cdn.min.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8"
+<body class="min-h-screen bg-stone-950 text-stone-100 flex flex-col"
       x-data="audioReader({{ timings | tojson }})">
 
-  <!-- Main Manuscript Column (8 cols) -->
-  <main class="lg:col-span-8 space-y-4" @wheel="pauseAutoScroll()" @touchmove="pauseAutoScroll()">
-    <header class="border-b border-stone-800 pb-4 mb-6 flex items-center justify-between">
-      <div>
-        <div class="flex items-center gap-3">
-          <a href="/ide" class="text-xs text-amber-400 hover:text-amber-300 font-mono">← Epistemic IDE</a>
-          <span class="text-stone-600">|</span>
-          <a href="/site" class="text-xs text-stone-400 hover:text-stone-300 font-mono">Imprint Site (/site)</a>
+  {% set active_tab = "reader" %}
+  {% include "partials/nav.html" %}
+
+  <div class="max-w-6xl w-full mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8 flex-1">
+    <!-- Main Manuscript Column (8 cols) -->
+    <main class="lg:col-span-8 space-y-4" @wheel="pauseAutoScroll()" @touchmove="pauseAutoScroll()">
+      <header class="border-b border-stone-800 pb-4 mb-6">
+        <div class="flex items-center gap-2 text-xs text-amber-400 font-mono mb-1">
+          <span>{{ series_slug }}</span>
+          <span>•</span>
+          <span>Chapter Reader (ARC-55)</span>
         </div>
-        <h1 class="text-2xl font-serif font-bold text-stone-100 mt-1 capitalize">{{ chapter_slug.replace('-', ' ') }}</h1>
-        <p class="text-xs text-stone-400 font-mono mt-0.5">{{ series_slug }}</p>
-      </div>
-    </header>
+        <h1 class="text-3xl font-serif font-bold text-stone-100 capitalize">{{ chapter_slug.replace('-', ' ') }}</h1>
+      </header>
 
     {% for block in timings %}
     <div :id="'block-' + '{{ block.id }}'"
@@ -70,6 +71,7 @@
       </form>
     </div>
   </aside>
+  </div>
 
   <script>
     function audioReader(timings) {
