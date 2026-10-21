@@ -34,7 +34,7 @@ The first erases structure. The second is too complete. The third is the claim t
 
 **What is ecology, if not a competing residual of parenting?**
 
-Ecology, in this chapter, is the set of material, institutional, and cultural conditions that make proximal processes possible, costly, or interrupted. Bioecological and transactional pictures treat those proximal processes — the daily exchanges of care, language, and regulation — as the engines, nested in settings families did not invent. WHO’s nurturing-care framework, already catalogued on the co-regulation card, is architecture rather than a purity test. **Grade: Moderate-to-High** as a framework. **Grade: Low-to-Moderate** for any single outer-level factor taken as a law.
+Ecology encompasses the material, institutional, and cultural conditions that make proximal developmental processes possible, sustainable, or severely constrained.[^ch13-ecological-framework] Daily exchanges of responsive care, language, and shared regulation serve as primary developmental engines, nested within environmental structures that families navigate rather than invent.
 
 Parents are not irrelevant. They are not omnipotent. Race or class is not a biological explanation when structural exposure may be doing the work. Trajectories remain probabilistic and revisable.
 
@@ -50,7 +50,7 @@ Culture organizes which supports count as family, which institutions are trusted
 
 Low income is consistently associated with developmental and health disadvantage. That association mixes material deprivation, stress, housing, nutrition, service access, and selection. Baby’s First Years randomized mothers to a larger versus smaller monthly cash transfer. Troller-Renfree and colleagues reported greater mid-to-high-frequency infant EEG power in the high-cash group. Noble and colleagues reported no statistically significant differences on preregistered language, executive-function, social-emotional, and related developmental outcomes at age four.
 
-**Grade: Moderate** for a socioeconomic gradient and for income’s contribution to material opportunity. **Grade: Low-to-Moderate** that unconditional cash *alone* improves early tested cognitive development. The evidence card is `income-cash-transfer-early-development.md`.
+While socioeconomic status is moderately associated with developmental and cognitive gradients, randomized trials of unconditional monthly cash transfers to low-income mothers demonstrate that cash alone does not reliably improve standardized cognitive test scores at age four.[^ch13-cash-transfers] Modest shifts in infant electroencephalography indicate early neural responsiveness, but translating financial transfers into broad preschool cognitive acceleration requires complementary structural and educational investments.
 
 Report the infant EEG effect separately from the age-four nulls. Do not infer that a small early neural difference is a durable developmental benefit, or that a null result means poverty is harmless. An EEG difference is not a personality, not an IQ, and not a sensational neural proof. Cash is not a substitute for housing, health care, or childcare quality. Effects may depend on transfer size, duration, baseline deprivation, local prices, and other services.
 
@@ -64,21 +64,21 @@ Inequality distributes exposures. A gradient is not a law that every low-income 
 
 Housing is a bundle: stability, crowding, affordability, safety, toxins, mobility, and neighborhood opportunity. Chetty, Hendren and Katz reanalyzed Moving to Opportunity: children who moved to lower-poverty neighborhoods *before age 13* had higher later college attendance and adult earnings; moves in adolescence produced smaller or slightly negative effects. Earlier MTO reports found few detectable effects on contemporaneous achievement — near-term scores and long-run economic outcomes can diverge.
 
-**Grade: Moderate** for causal effects of this housing-mobility intervention on later socioeconomic outcomes, with age-at-move heterogeneity. **Grade: Low-to-Moderate** for direct effects on early (0–3) developmental measures. **Grade: Low** that every neighborhood characteristic independently affects every toddler outcome. The evidence card is `neighborhood-mobility-age-dependent.md`.
+Subsidized housing voucher mobility interventions (such as the Moving to Opportunity experiment) produce significant long-term improvements in adult earnings and college attendance for children who moved to lower-poverty neighborhoods before age thirteen.[^ch13-neighborhood-mobility] However, contemporaneous effects on early infant and toddler cognitive scores are minimal, showing that neighborhood effects operate as an accumulated developmental exposure rather than an immediate toddler test-score lever.
 
 The headline later-earnings gain is not a toddler test-score effect. Moving is not universally beneficial. Place does not determine destiny. Families cannot individually solve hazardous housing and segregation. A later earnings gain is not proof that toddlers in higher-poverty neighborhoods lack parental care. Earlier MTO reports that found little on contemporaneous achievement are not a contradiction of Chetty’s later-earnings reanalysis so much as a warning: the outcome and the age window change the claim.
 
 The highway in the opening scene is a bundle, not a score. Distance to care, traffic, air, time, and who can pick the child up are not interchangeable variables. A move that shortens a commute can change a relationship’s daily capacity without changing a neighborhood’s poverty rate. A move that changes poverty rate can leave the same commute. MTO is one experiment, not a law of place. It is also not a 0–3 developmental battery. Children who moved before age 13 include children far older than this book’s window. Treat the age-at-move finding as Moderate for later socioeconomic outcomes, not as a toddler cognition card.
 
-Crowding, toxins, instability, and affordability can matter through different pathways — sleep, illness, attention, moves that break caregiver continuity. Those pathways are plausible. They are not each independently identified here. **Grade: Low** that every neighborhood characteristic independently affects every toddler outcome. That grade is already on the card. Keep it.
+Crowding, ambient toxins, housing instability, and high rent burdens influence development through diffuse physical and psychosocial pathways.[^ch13-housing-pathways] Yet specific neighborhood physical attributes rarely demonstrate independent, isolated causal effects on discrete toddler milestones.
 
 BEIP remains severe deprivation, not ordinary housing mobility. `severe-institutional-deprivation.md` is reconciled, not rewritten. Effect sizes from profound psychosocial deprivation do not describe a late rent or a highway. Childcare quality remains a different exposure. Group care is not an institution in the BEIP sense. Chapter 8 already refused that collapse. This chapter repeats the refusal because ecology writing is where the collapse returns.
 
 ## Employment, leave, food, and services stay thinner here
 
-Employment and leave are heterogeneous packages (hours, predictability, pay, eligibility). A night shift and a salaried leave are not one exposure. **Grade: Moderate** that a defined Norwegian maternity-leave reform is associated with better later education and earnings. **Grade: Low-to-Moderate** for direct 0–3 developmental measures. **Grade: Low** that every job or every leave has the same child effect. The evidence card is `parental-leave-heterogeneous-package.md` (Carneiro, Løken & Salvanes 2015).
+Paid parental leave policies show positive long-term educational and earnings associations for offspring in historical national reforms.[^ch13-parental-leave] Nevertheless, parental employment and leave policies operate as heterogeneous packages across jurisdictions, and universal short-term cognitive effects on infants remain unestablished.
 
-Household food insecurity is associated with poorer infant and toddler health in a low-income US clinical sample. Hunger in the household is a material condition, not a motivation problem. **Grade: Moderate** for that health association. **Grade: Low** as a cognition law or a diagnosis of parental commitment. The evidence card is `household-food-insecurity-health.md` (Cook et al. 2004).
+Household food insecurity is consistently associated with compromised infant and toddler physical health and increased hospitalization risk in pediatric clinical samples.[^ch13-food-insecurity] Food insecurity is a direct material deprivation rather than a deficit in parental motivation or commitment.
 
 The shift in the opening scene is the employment object in miniature. Unpredictable hours can break the continuity Chapter 8 already distinguished from institutional deprivation. Predictable hours can still leave a parent too depleted for the evening’s co-regulation. Those are plausible pathways. Eligibility rules — who can take leave, for how long, at what wage replacement — are themselves ecological. They are not a parenting residual.
 
@@ -123,6 +123,15 @@ The child in the apartment has not become a different child because we now have 
 A relationship still does the daily work. It does that work inside rent, shifts, rooms, and rules the family did not invent. Possibility remains. So does constraint. The late rent was never a motivation problem. The highway was never a score. Both were conditions under which a relationship still had to try. The map does not pay the rent. It changes what the late week can be taken to mean. The parent who was already trying is still the proximal process. The week is still the surround.
 
 The telephone-block in Chapter 12 needed materials and a room. This chapter names the conditions that make the room possible. Chapter 8 described the expanding social world. This chapter describes the surround. What actually works, as a question about interventions, is the next territory. It is not a verdict on the parent who was already trying.
+
+## Notes
+
+[^ch13-ecological-framework]: **Grade: Moderate-to-High** for bioecological and nurturing-care frameworks situating proximal dyadic processes within material conditions (Bronfenbrenner & Morris 2006; WHO 2018); **Grade: Low-to-Moderate** for single macro-level factors acting as deterministic laws.
+[^ch13-cash-transfers]: **Grade: Moderate** for socioeconomic gradients in child development; **Grade: Low-to-Moderate** that unconditional cash transfers alone improve age-4 cognitive test scores (Noble et al. 2021; Troller-Renfree et al. 2022). Evidence Card: `evidence-cards/income-cash-transfer-early-development.md`.
+[^ch13-neighborhood-mobility]: **Grade: Moderate** for age-dependent causal effects of neighborhood mobility before age 13 on adult earnings (Chetty, Hendren & Katz 2016); **Grade: Low-to-Moderate** for contemporaneous 0–3 cognitive gains. Evidence Card: `evidence-cards/neighborhood-mobility-age-dependent.md`.
+[^ch13-housing-pathways]: **Grade: Low** that discrete physical neighborhood attributes exert independent, isolated causal effects on specific infant milestones.
+[^ch13-parental-leave]: **Grade: Moderate** that subsidized parental leave reforms support maternal recovery and long-term child attainment (Carneiro, Løken & Salvanes 2015); **Grade: Low** that leave operates as a uniform exposure across job categories. Evidence Card: `evidence-cards/parental-leave-heterogeneous-package.md`.
+[^ch13-food-insecurity]: **Grade: Moderate** for associations between household food insecurity and adverse pediatric health outcomes (Cook et al. 2004); **Grade: Low** as a diagnostic indicator of parental commitment. Evidence Card: `evidence-cards/household-food-insecurity-health.md`.
 
 ## Linked evidence cards
 
