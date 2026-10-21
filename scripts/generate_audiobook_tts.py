@@ -16,6 +16,8 @@ import os
 import shutil
 import subprocess
 import sys
+import time
+import urllib.error
 import urllib.request
 import wave
 from pathlib import Path
@@ -32,7 +34,7 @@ from audio_sync_utils import (
 from merge_book_chapters import iter_chapter_files, repo_root, resolve_book_path
 
 
-def synthesize_chunk_pcm(text: str, voice: str, model: str, api_key: str) -> bytes:
+def synthesize_chunk_pcm(text: str, voice: str, model: str, api_key: str, max_retries: int = 5) -> bytes:
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     payload = {
         "contents": [
@@ -64,17 +66,26 @@ def synthesize_chunk_pcm(text: str, voice: str, model: str, api_key: str) -> byt
         headers={"Content-Type": "application/json"},
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=180) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    candidates = data.get("candidates") or []
-    if not candidates:
-        raise RuntimeError("No candidates returned from Gemini TTS API.")
-    parts = (candidates[0].get("content") or {}).get("parts") or []
-    for p in parts:
-        inline = p.get("inlineData") or {}
-        if inline.get("data"):
-            return base64.b64decode(inline["data"])
-    raise RuntimeError("No inlineData audio returned in Gemini response.")
+    for attempt in range(max_retries):
+        try:
+            with urllib.request.urlopen(req, timeout=180) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            candidates = data.get("candidates") or []
+            if not candidates:
+                raise RuntimeError("No candidates returned from Gemini TTS API.")
+            parts = (candidates[0].get("content") or {}).get("parts") or []
+            for p in parts:
+                inline = p.get("inlineData") or {}
+                if inline.get("data"):
+                    return base64.b64decode(inline["data"])
+            raise RuntimeError("No inlineData audio returned in Gemini response.")
+        except urllib.error.HTTPError as e:
+            if e.code in [429, 500, 503] and attempt < max_retries - 1:
+                wait_s = (2 ** attempt) + 1.0
+                print(f"    [HTTP {e.code}] Rate limit hit. Backing off {wait_s:.1f}s before retry...")
+                time.sleep(wait_s)
+                continue
+            raise
 
 
 def write_wav(out_path: Path, pcm_bytes: bytes, sample_rate: int = SAMPLE_RATE) -> None:
@@ -106,7 +117,8 @@ def main() -> None:
     parser.add_argument("--chapter", default=None, help="Filter to a specific chapter prefix (e.g. '01' or '07')")
     parser.add_argument("--voice", default="Kore", help="Gemini prebuilt voice name (default: Kore)")
     parser.add_argument("--model", default="gemini-2.5-flash-preview-tts", help="Gemini TTS model")
-    parser.add_argument("--max-chars", type=int, default=3500, help="Max characters per TTS request chunk")
+    parser.add_argument("--max-chars", type=int, default=3500, help="Max characters per chunk (when using --batch-chunks)")
+    parser.add_argument("--batch-chunks", action="store_true", help="Group blocks into 3500-char chunks instead of per-paragraph chunks")
     parser.add_argument("--dry-run", action="store_true", help="Estimate duration, blocks & chunk counts without calling API")
     parser.add_argument("--encode-mp3-only", action="store_true", help="Encode existing WAVs in audiobook/ to MP3 without calling Gemini")
     args = parser.parse_args()
@@ -155,10 +167,12 @@ def main() -> None:
     total_chunks = 0
     rows: list[tuple[str, int, int, int, float]] = []
 
+    per_paragraph = not args.batch_chunks
+
     for f in md_files:
         content = f.read_text(encoding="utf-8")
         blocks = extract_semantic_blocks(content)
-        chunks = pack_semantic_blocks(blocks, max_chars=args.max_chars)
+        chunks = pack_semantic_blocks(blocks, max_chars=args.max_chars, per_paragraph=per_paragraph)
         words = sum(b["words"] for b in blocks)
         minutes = words / WPM_SPEAKING_RATE
         total_words += words
@@ -166,7 +180,8 @@ def main() -> None:
         total_chunks += len(chunks)
         rows.append((f.name, words, len(blocks), len(chunks), minutes))
 
-    print(f"# Audiobook TTS Plan — {book_path.name} (Voice: {args.voice})")
+    mode_str = "Single-Paragraph Exact Timestamps" if per_paragraph else f"Batched Chunks (≤ {args.max_chars} chars)"
+    print(f"# Audiobook TTS Plan — {book_path.name} (Voice: {args.voice}, Mode: {mode_str})")
     print(f"{'Chapter':<38} {'Words':>7} {'Blocks':>7} {'Chunks':>7} {'Est. Min':>9}")
     print("-" * 73)
     for name, words, n_blocks, n_chunks, mins in rows:
@@ -187,19 +202,34 @@ def main() -> None:
     for f in md_files:
         content = f.read_text(encoding="utf-8")
         blocks = extract_semantic_blocks(content)
-        chunks = pack_semantic_blocks(blocks, max_chars=args.max_chars)
+        chunks = pack_semantic_blocks(blocks, max_chars=args.max_chars, per_paragraph=per_paragraph)
         pcm_all = bytearray()
         chunk_durations_sec: list[float] = []
         chunk_pcm_bytes: list[int] = []
 
         for idx, chunk in enumerate(chunks, 1):
-            print(f"Synthesizing {f.stem} [chunk {idx}/{len(chunks)}] ({chunk['total_words']} words, {len(chunk['blocks'])} blocks)...")
+            block = chunk["blocks"][0] if chunk["blocks"] else None
+            tag = block["tag"] if block else "p"
+            preview = chunk["spoken_text"][:50].replace("\n", " ")
+            print(f"Synthesizing {f.stem} [{idx}/{len(chunks)}] <{tag}> ({chunk['total_words']}w): {repr(preview)}...")
             pcm = synthesize_chunk_pcm(chunk["spoken_text"], voice=args.voice, model=args.model, api_key=api_key)
-            dur = len(pcm) / BYTES_PER_SECOND
+
+            # Insert calibrated natural breath pause after block
+            if tag in ["h1", "h2", "h3"]:
+                pause_sec = 0.45
+            elif tag == "li":
+                pause_sec = 0.20
+            else:
+                pause_sec = 0.30
+
+            pause_bytes = b"\x00" * int(SAMPLE_RATE * 2 * pause_sec)
+            block_pcm = pcm + pause_bytes
+            dur = len(block_pcm) / BYTES_PER_SECOND
+
             chunk_durations_sec.append(dur)
-            chunk_pcm_bytes.append(len(pcm))
-            pcm_all.extend(pcm)
-            print(f"  -> Received {len(pcm):,d} PCM bytes ({dur:.2f}s narration)")
+            chunk_pcm_bytes.append(len(block_pcm))
+            pcm_all.extend(block_pcm)
+            print(f"  -> {dur:.2f}s total (audio: {len(pcm)/BYTES_PER_SECOND:.2f}s + {pause_sec:.2f}s breath)")
 
         wav_path = out_dir / f"{f.stem}.wav"
         write_wav(wav_path, bytes(pcm_all))

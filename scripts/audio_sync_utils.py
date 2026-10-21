@@ -143,8 +143,30 @@ def extract_semantic_blocks(md_content: str) -> list[dict[str, Any]]:
     return blocks
 
 
-def pack_semantic_blocks(blocks: list[dict[str, Any]], max_chars: int = 3500) -> list[dict[str, Any]]:
-    """Greedily pack whole blocks into TTS chunks up to max_chars without splitting blocks."""
+def pack_semantic_blocks(
+    blocks: list[dict[str, Any]],
+    max_chars: int = 3500,
+    per_paragraph: bool = False,
+) -> list[dict[str, Any]]:
+    """Pack semantic blocks into TTS chunks.
+
+    If per_paragraph is True, each individual semantic block forms its own chunk,
+    yielding 100% exact ground-truth audio timestamps for every paragraph without estimation.
+    Otherwise, blocks are greedily packed up to max_chars without splitting across blocks.
+    """
+    if per_paragraph:
+        chunks: list[dict[str, Any]] = []
+        for idx, b in enumerate(blocks, 1):
+            chunks.append({
+                "chunk_id": idx,
+                "blocks": [b],
+                "spoken_text": b["spoken_text"],
+                "total_chars": len(b["spoken_text"]),
+                "total_words": b["words"],
+                "total_weight": b["weight"],
+            })
+        return chunks
+
     chunks: list[dict[str, Any]] = []
     curr_blocks: list[dict[str, Any]] = []
     curr_len = 0

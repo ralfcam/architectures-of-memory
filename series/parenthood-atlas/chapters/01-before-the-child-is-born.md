@@ -20,7 +20,7 @@ The conventional story of parenting begins when the child arrives. The developme
 
 If we begin too late, we miss conditions that are already operating. If we begin too early in the wrong register, we turn biology into a verdict on character, intelligence, or parental worth.
 
-The bounded claim this chapter will carry is the one the Chapter 1 dossier was written to test: human development has relevant antecedents before birth, and the transition to parenthood changes the biological, relational, and social context into which a child is born. That claim is **High** as biology and **Very Low** as a license to read a future from a fetus or to treat parents as the sole engineers of that future.
+The bounded claim this chapter will carry is the one the Chapter 1 dossier was written to test: human development has relevant antecedents before birth, and the transition to parenthood changes the biological, relational, and social context into which a child is born. That claim is high as biology and very low as a license to read a future from a fetus or to treat parents as the sole engineers of that future.
 
 ## Three categories that must not collapse
 
@@ -48,13 +48,11 @@ The first is a social story. The second is the temptation this book exists to re
 
 ## Timing is not a slogan
 
-Human development is sequence, not mere growth. Preimplantation life, gastrulation, organogenesis, and later fetal growth are different jobs. An exposure during specification of a structure is not the same exposure after the structure exists.
-
-**Grade: High** that pregnancy is not a single nine-month window. **Grade: Moderate** for process-specific timing as a teratologic principle (Wilson’s principles as reviewed in Ujházy et al. 2012). Card: `prenatal-developmental-timing.md`.
+Human development is sequence, not mere growth. Preimplantation life, gastrulation, organogenesis, and later fetal growth are different jobs. An exposure during specification of a structure is not the same exposure after the structure exists.[^ch01-timing]
 
 A sensitive window is not an inevitable-injury window. The useful scientific question is always more precise: sensitive to *what*, at what time, at what dose, through what pathway, producing what outcome?
 
-The prenatal nervous system makes the same point in another register. Construction proceeds through overlapping proliferation, migration, and transient embryonic zones. **Grade: High** for that structural sequence. **Grade: Low** for treating unfinished cortex as a forecast of intelligence or personality. Card: `prenatal-neural-construction.md`.
+The prenatal nervous system makes the same point in another register. Construction proceeds through overlapping proliferation, migration, and transient embryonic zones.[^ch01-neural]
 
 Birth does not complete the brain. Collapse of structure, connectivity, cognition, and mental health into one “brain” claim is the usual error.
 
@@ -62,45 +60,39 @@ Birth does not complete the brain. Collapse of structure, connectivity, cognitio
 
 Some preconception interventions have exceptionally clear evidence.
 
-Periconceptional folic acid substantially reduces neural-tube-defect risk. The Cochrane synthesis of five trials reports RR 0.31 (95% CI 0.17–0.58; 6,708 births). **Grade: High** for that structural embryonic outcome. **Grade: Low** for other anomalies and for later cognition. Card: `prenatal-folate-ntd.md`.
+Periconceptional folic acid substantially reduces neural-tube-defect risk. The Cochrane synthesis of five trials reports a relative risk of 0.31 for neural tube defects.[^ch01-folate]
 
 The lesson is powerful because it is limited. Folate prevents a defined class of defects. It does not prove that a supplement can manufacture intelligence, resilience, or a better human being. Risk reduction is not risk elimination. Preparation is not control. Prevention is not optimization of the child.
 
-WHO’s preconception and nurturing-care frameworks place such interventions in a system — health, nutrition, safety, responsive care, learning — rather than in a private checklist. **Grade: Moderate** that those frameworks correctly widen the unit of analysis beyond the pregnant person. **Grade: Low** that a package of preconception behaviors, taken as a whole, improves later cognitive or educational development. Sources already catalogued: `who-anc-2016`, `who-nurturing-care-2018` (on `prenatal-folate-ntd.md` and `infant-caregiver-coregulation.md`).
+WHO’s preconception and nurturing-care frameworks place such interventions in a system — health, nutrition, safety, responsive care, learning — rather than in a private checklist.[^ch01-who]
 
 ## Paternal age, without the myth
 
-The developmental story reaches back before conception on the paternal side as well. Sperm production involves continual cell division. Kong et al. (2012) showed, in whole-genome sequences of parent–offspring trios, that de novo mutations in offspring increase with father’s age — on the order of two additional mutations per year.
+The developmental story reaches back before conception on the paternal side as well. Sperm production involves continual cell division. Kong et al. (2012) showed, in whole-genome sequences of parent–offspring trios, that de novo mutations in offspring increase with father’s age — on the order of two additional mutations per year.[^ch01-paternal-mutations]
 
-The underlying biology is real. **Grade: High** for that mutational relationship as a genetic observation. **Grade: Low** that paternal age, in ordinary ranges, determines a child’s psychiatric or cognitive future.
-
-Advanced paternal age has been associated with selected perinatal and neurodevelopmental outcomes. Those associations are generally modest in pooled reviews and are entangled with socioeconomic conditions, reproductive selection, assortative mating, and inherited liability. A finding can be biologically true while a simplified causal story is wrong.
+The underlying biology is real, but so are the limits of the finding. Advanced paternal age has been associated with selected perinatal and neurodevelopmental outcomes. Those associations are generally modest in pooled reviews and are entangled with socioeconomic conditions, reproductive selection, assortative mating, and inherited liability. A finding can be biologically true while a simplified causal story is wrong.[^ch01-paternal-outcomes]
 
 The appropriate conclusion is not *have children early or risk damaging them*. It is: reproductive biology changes with age; some risks change with it; those risks are probabilistic; interpretation requires absolute risk and family context.
 
-The Kong finding is a **High**-grade genetic observation about mutation rate. It is not a personality forecast, a fertility instruction, or a ranking of families by the age at which they conceived. Card (this package): `paternal-age-de-novo-mutations.md`.
+The mutational relationship is an observation about biological rate. It is not a personality forecast, a fertility instruction, or a ranking of families by the age at which they conceived.
 
 ## Marking is not a script
 
 A related temptation sits one layer down from genes. Cells can carry chemical marks that change how DNA is used without changing the sequence. Those marks are part of how development remembers an environment. The word that travels with them into popular writing is “epigenetic.”
 
-The laboratory fact is narrower than the story. Some preconception and prenatal environments can leave marks. Some of those marks have been measured in human tissues. Few of them have been shown, in humans, to be the pathway that turns a parent’s week of strain into a child’s later character. Animal models can demonstrate mechanism. They do not automatically measure a human childhood.
-
-**Grade: Moderate** that epigenetic regulation is a real class of biological process during gametogenesis and early embryonic life. **Grade: Low** that a particular parental behavior, diet, or mood has been shown to write a lasting developmental sentence through that pathway in ordinary human ranges. **Grade: Very Low** as a license to treat parents as authors of a child’s future methylation profile.
+The laboratory fact is narrower than the story. Some preconception and prenatal environments can leave marks. Some of those marks have been measured in human tissues. Few of them have been shown, in humans, to be the pathway that turns a parent’s week of strain into a child’s later character. Animal models can demonstrate mechanism. They do not automatically measure a human childhood.[^ch01-epigenetics]
 
 This is one of the atomic claims the Chapter 1 dossier was written to test: marking can happen without determinism. Continuity of biology is not a completed biography.
 
 ## Timing windows before a heartbeat
 
-The same discipline applies to the days before implantation. A fertilized egg is already in a developmental environment: the reproductive tract, the metabolic state of the adults, the presence or absence of a nutrient the embryo will soon need. Folate’s success is partly a timing success. The neural tube closes in the first weeks, often before a pregnancy is recognized. That is why the intervention is periconceptional rather than “sometime in the second trimester.”
+The same discipline applies to the days before implantation. A fertilized egg is already in a developmental environment: the reproductive tract, the metabolic state of the adults, the presence or absence of a nutrient the embryo will soon need. Folate’s success is partly a timing success. The neural tube closes in the first weeks, often before a pregnancy is recognized. That is why the intervention is periconceptional rather than “sometime in the second trimester.”[^ch01-timing-clocks]
 
-**Grade: High** that some embryonic events have clocks that do not wait for a positive test. **Grade: Low** that every preconception habit therefore has a comparable, clocked effect on later intelligence or temperament.
+A window is a statement about a process. It is not a slogan that every early moment is equally loaded. The useful scientific question is again the same one the timing card already carries: sensitive to *what*, at what time, at what dose, through what pathway, producing what outcome?
 
-A window is a statement about a process. It is not a slogan that every early moment is equally loaded. The useful scientific question is again the same one the timing card already carries: sensitive to *what*, at what time, at what dose, through what pathway, producing what outcome? Card: `prenatal-developmental-timing.md`.
+Other preconception nutrients do not inherit folate’s structural preventability.[^ch01-nutrition-beyond-folate]
 
-Other preconception nutrients do not inherit folate’s High/`stable` NTD identification. **Grade: Low-to-Moderate** beyond folate as a class. **Grade: Low** as a later-IQ checklist. The evidence card is `preconception-nutrition-beyond-folate.md` (Dean 2014). Sperm-epigenetic lifestyle stories remain excluded as a standalone card.
-
-WHO’s preconception-care frame is biomedical, behavioral, and social, and it names couples rather than a solitary pregnant person. That widening is **Interpretation** grounded in a **Moderate** reading of the framework, not a proof that a household checklist can manufacture a mind.
+WHO’s preconception-care frame is biomedical, behavioral, and social, and it names couples rather than a solitary pregnant person. That widening is **Interpretation** grounded in the evidence framework, not a proof that a household checklist can manufacture a mind.
 
 ## Stress, cortisol, and what genetically informed designs did to a popular story
 
@@ -108,13 +100,11 @@ Few prenatal topics produce more anxiety than maternal stress.
 
 The chain sounds convincing: stress changes cortisol; cortisol can cross boundaries; the fetal brain is developing; therefore prenatal stress must damage the future. Every step after the first two becomes less certain.
 
-Observational studies have often found associations between prenatal anxiety or stress and later emotional or behavioral outcomes. When researchers use sibling comparisons, children-of-twins, IVF/adoption designs, and other triangulation, many of those associations shrink or disappear. A genetically informed meta-analysis reported essentially no prenatal-anxiety association with offspring internalizing after relatedness was accounted for, while postnatal parent–child associations remained small but detectable.
-
-**Grade: Low-to-Moderate** (moderate that typical-range observational associations are **largely confounded**; low confidence in any residual prenatal-specific causal magnitude). Card: `prenatal-maternal-stress-anxiety.md`. Disaster, clinical trauma, and severe deprivation are not this card. Severe institutional deprivation is a later, different claim (`severe-institutional-deprivation.md`).
+Observational studies have often found associations between prenatal anxiety or stress and later emotional or behavioral outcomes. When researchers use sibling comparisons, children-of-twins, IVF/adoption designs, and other triangulation, many of those associations shrink or disappear. A genetically informed meta-analysis reported essentially no prenatal-anxiety association with offspring internalizing after relatedness was accounted for, while postnatal parent–child associations remained small but detectable.[^ch01-stress-gi]
 
 There are at least three pathways, and they can coexist: a direct biological effect during pregnancy; inherited characteristics shared by parent and child; and a prenatal period that is simply continuous with the postnatal environment. Correlation is a clue. Triangulation tells us more. Sometimes the scientifically important result is that an attractive explanation becomes weaker under better methods. That is not a failure of science. It is science doing its job.
 
-The placenta is part of why the simple story fails. It is an active interface, including 11β-HSD2 conversion of much active cortisol to cortisone. The buffer is real. It is not absolute. **Grade: Moderate-to-High** for mediation as physiology. **Grade: Low** that a placental biomarker forecasts a child’s later mind. Card: `placenta-as-mediator.md`.
+The placenta is part of why the simple story fails. It is an active interface, including 11β-HSD2 conversion of much active cortisol to cortisone. The buffer is real. It is not absolute.[^ch01-placenta]
 
 A mechanism tells us that something *can* happen. It does not tell us that it *will* happen to a particular child, and it does not make a parent morally responsible for every fluctuation in physiology.
 
@@ -124,11 +114,11 @@ People are not laboratory instruments. They live through bereavement, unsafe hou
 
 The transformation of parenthood is not confined to the child.
 
-Pregnancy brings endocrine change. Longitudinal neuroimaging has documented remodeling of maternal cortical structure across the transition to motherhood, including networks involved in social cognition. The popular translation is that pregnancy “shrinks the brain” or reduces intelligence. That is not what the evidence establishes. Structural change is not damage. The adult brain is plastic; it remodels under major biological and behavioral demand. **Grade: Moderate** that such remodeling is a real group-level finding in the imaging literature. **Grade: Low** that it is injury, IQ loss, or a moral story about maternal depletion.
+Pregnancy brings endocrine change. Longitudinal neuroimaging has documented remodeling of maternal cortical structure across the transition to motherhood, including networks involved in social cognition. The popular translation is that pregnancy “shrinks the brain” or reduces intelligence. That is not what the evidence establishes. Structural change is not damage. The adult brain is plastic; it remodels under major biological and behavioral demand.[^ch01-maternal-remodeling]
 
-The story does not belong only to mothers. Work on first-time fathers has identified related structural change, associated in part with caregiving engagement. **Grade: Low-to-Moderate** and still thin. The interpretive point is stronger than any single scan: the parental brain is also developed. Noticing a cry, remaining responsive while exhausted, thinking from another person’s perspective — these are skills under construction, not proofs of a finished adult who then manufactures a child.
+The story does not belong only to mothers. Work on first-time fathers has identified related structural change, associated in part with caregiving engagement.[^ch01-paternal-remodeling] The interpretive point is stronger than any single scan: the parental brain is also developed. Noticing a cry, remaining responsive while exhausted, thinking from another person’s perspective — these are skills under construction, not proofs of a finished adult who then manufactures a child.
 
-Couples change too. On average, some measures of relationship functioning decline after a first birth. The averages conceal enormous variation, and relationship satisfaction can decline among couples who never become parents. Sleep, money, unequal domestic labor, health complications, and missing family support all sit inside the same average. There is a transition. There is not one transition. **Grade: Moderate** for heterogeneous change; **Low** for a single “effect of becoming a parent.”
+Couples change too. On average, some measures of relationship functioning decline after a first birth. The averages conceal enormous variation, and relationship satisfaction can decline among couples who never become parents. Sleep, money, unequal domestic labor, health complications, and missing family support all sit inside the same average. There is a transition. There is not one transition.[^ch01-couple-change]
 
 ## Early is not permanent
 
@@ -150,7 +140,7 @@ From the dossier’s own boundaries, still in force:
 
 Those sentences are **Interpretation** grounded in **Science**. They are not a refusal to act where action is justified. Folate is such a place. Managing serious pre-existing disease is such a place. Turning every association into a private self-improvement project is not.
 
-A further clarification belongs here because it is the reader’s first encounter with grades. **High** on a structural embryonic outcome does not travel. Folate’s High grade is for neural-tube-defect risk. It is Low for later cognition. Stress’s Low-to-Moderate grade is for typical-range prenatal-specific causation after genetically informed designs, not for treating clinical trauma as imaginary. Neural construction’s High grade is for sequence. It is Low for personality. Those are different claims sharing a chapter. They are not a blended “prenatal score.”
+A further clarification belongs here because it is the reader’s first encounter with grades. A High grade on a structural embryonic outcome does not travel. Folate’s High grade is for neural-tube-defect risk; it is Low for later cognition. Stress’s Low-to-Moderate grade is for typical-range prenatal-specific causation after genetically informed designs, not for treating clinical trauma as imaginary. Neural construction’s High grade is for sequence; it is Low for personality. Those are different claims sharing a chapter. They are not a blended “prenatal score.”
 
 ## System
 
@@ -167,6 +157,23 @@ The flicker on the screen has not changed.
 What has changed is what it is allowed to mean. It is not the beginning of the organism. It is not a completed person whose future can be read from a handful of prenatal measurements. It is a visible moment in a process that started earlier and will continue after birth, through relationships that are not yet in the room and institutions that will either hold this family or fail to.
 
 The child is not yet born. Development has already begun. That is a reason to start here. It is not a reason to finish here.
+
+## Notes
+
+[^ch01-timing]: **Grade: High** that pregnancy is not a single nine-month window; **Grade: Moderate** for process-specific timing as a teratologic principle (Wilson’s principles as reviewed in Ujházy et al. 2012). Evidence Card: `evidence-cards/prenatal-developmental-timing.md`.
+[^ch01-neural]: **Grade: High** for that structural sequence; **Grade: Low** for treating unfinished cortex as a forecast of intelligence or personality. Evidence Card: `evidence-cards/prenatal-neural-construction.md`.
+[^ch01-folate]: **Grade: High** for that structural embryonic outcome; **Grade: Low** for other anomalies and for later cognition. The Cochrane synthesis of five trials reports RR 0.31 (95% CI 0.17–0.58; 6,708 births). Evidence Card: `evidence-cards/prenatal-folate-ntd.md`.
+[^ch01-who]: **Grade: Moderate** that WHO preconception and nurturing-care frameworks correctly widen the unit of analysis beyond the pregnant person; **Grade: Low** that a package of preconception behaviors, taken as a whole, improves later cognitive or educational development. Sources: `who-anc-2016`, `who-nurturing-care-2018`.
+[^ch01-paternal-mutations]: Kong et al. (2012) showed in whole-genome sequences of parent–offspring trios that de novo mutations in offspring increase with father’s age (~2 additional mutations per year). **Grade: High** as a mutational relationship observation.
+[^ch01-paternal-outcomes]: **Grade: Low** that paternal age, in ordinary ranges, determines a child’s psychiatric or cognitive future. Associations are generally modest in pooled reviews and are entangled with socioeconomic conditions, reproductive selection, assortative mating, and inherited liability. Evidence Card: `evidence-cards/paternal-age-de-novo-mutations.md`.
+[^ch01-epigenetics]: **Grade: Moderate** that epigenetic regulation is a real class of biological process during gametogenesis and early embryonic life; **Grade: Low** that a particular parental behavior, diet, or mood has been shown to write a lasting developmental sentence through that pathway in ordinary human ranges; **Grade: Very Low** as a license to treat parents as authors of a child’s future methylation profile.
+[^ch01-timing-clocks]: **Grade: High** that some embryonic events have clocks that do not wait for a positive test; **Grade: Low** that every preconception habit therefore has a comparable, clocked effect on later intelligence or temperament. Evidence Card: `evidence-cards/prenatal-developmental-timing.md`.
+[^ch01-nutrition-beyond-folate]: Other preconception nutrients do not inherit folate’s High/stable NTD identification. **Grade: Low-to-Moderate** beyond folate as a class; **Grade: Low** as a later-IQ checklist. Evidence Card: `evidence-cards/preconception-nutrition-beyond-folate.md` (Dean 2014).
+[^ch01-stress-gi]: **Grade: Low-to-Moderate** (moderate that typical-range observational associations are largely confounded; low confidence in any residual prenatal-specific causal magnitude after sibling comparisons and IVF/children-of-twins triangulation). Evidence Card: `evidence-cards/prenatal-maternal-stress-anxiety.md`. Disaster, clinical trauma, and severe deprivation are not this card.
+[^ch01-placenta]: The placenta provides active 11β-HSD2 conversion of active cortisol to cortisone. **Grade: Moderate-to-High** for mediation as physiology; **Grade: Low** that a placental biomarker forecasts a child’s later mind. Evidence Card: `evidence-cards/placenta-as-mediator.md`.
+[^ch01-maternal-remodeling]: **Grade: Moderate** that maternal cortical structural remodeling across the transition to motherhood is a real group-level finding in longitudinal neuroimaging; **Grade: Low** that it represents injury, IQ loss, or maternal depletion.
+[^ch01-paternal-remodeling]: **Grade: Low-to-Moderate** for first-time father cortical structural change associated with caregiving engagement.
+[^ch01-couple-change]: **Grade: Moderate** for heterogeneous post-birth couple relationship trajectory; **Grade: Low** for a uniform effect of becoming a parent.
 
 ## Linked evidence cards
 
