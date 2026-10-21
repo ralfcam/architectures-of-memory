@@ -86,6 +86,12 @@ audiobook-tts:
 audiobook-player:
 	$(PYTHON) scripts/render_audiobook_player.py $(BOOK)
 
+site:
+	$(PYTHON) scripts/render_audiobook_player.py --imprint
+
+serve:
+	$(PYTHON) -m http.server 8000 --directory site
+
 new-series:
 	$(PYTHON) scripts/init_series.py --series $(SERIES) --title "$(TITLE)" --lenses "$(LENSES)" $(NewBookArg)
 
